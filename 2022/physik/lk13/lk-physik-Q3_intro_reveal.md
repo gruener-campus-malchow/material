@@ -75,7 +75,15 @@ Danach noch etwas Physik!
 
 ## Belehrungen
 
-(siehe Folien OKO)
+* Belehrung Hygienemaßnahmen – Lüften, MNS, regelmäßiges Testen, Abstandsgebot, Hände waschen, Nies-Etikette
+* Erinnerung: Schul- und Hausordnung
+* Verhalten bei Brand- und Katastrophengefahr, Alarmordnung, Amok
+* Vorbildverhalten Grüner Campus Malchow als Umweltschule und als Schule der Höflichkeit
+  Fehlzeitenregelung
+
+---
+
+* Aufenthalt in den Pausen – Nutzung der Arbeitsplätze im GO-Raum/ „Raucherinsel“
 
 * Handyregelung
 * Laptopregelung aus TK kolportieren
