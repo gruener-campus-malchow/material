@@ -23,16 +23,20 @@ Danach noch etwas Physik!
 
 ## Bürokratie
 
-* DSB-Zugang Schüler
+* DSB-Zugang Schüler **siehe LRK**
 * Zeugnis Unterschrift
-* Stammdatenblatt ausgeben und ggf. überarbeiten
+* Stammdatenblatt ausgeben und ggf. überarbeiten lassen
 * Schulbescheinigungen
-* SalzH-Abfrage
-    * PC
-    * Netzanbindung
-    * Übersicht an Fr. Stendal
-    * Einverständniserklärungen Lernraum, BBB siehe Protokoll
-  
+
+---
+
+## SalzH-Abfrage
+
+* PC
+* Netzanbindung
+* Übersicht an OKO
+* Einverständniserklärungen Lernraum, BBB **siehe LRK**
+
 ---
 
 ## Kommunikationswege
@@ -51,7 +55,7 @@ Danach noch etwas Physik!
     * Feiertage aus religiösen Gründen
 
 ---
-    
+
 * Fehlzeitenregelung
     * Entschuldigungszettel müssen im Vorfeld vom Tutor unterschrieben sein
     * Krankmeldung morgens bis 8:00 Uhr
