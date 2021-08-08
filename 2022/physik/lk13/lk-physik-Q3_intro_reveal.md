@@ -79,7 +79,7 @@ Danach noch etwas Physik!
 * Erinnerung: Schul- und Hausordnung
 * Verhalten bei Brand- und Katastrophengefahr, Alarmordnung, Amok
 * Vorbildverhalten Grüner Campus Malchow als Umweltschule und als Schule der Höflichkeit
-  Fehlzeitenregelung
+* Fehlzeitenregelung
 
 ---
 
