@@ -10,6 +10,8 @@
 * Bürokratie
 * Kommunikation
 
+Danach noch etwas Physik!
+
 ---
 
 ## Vorstellungsrunde
