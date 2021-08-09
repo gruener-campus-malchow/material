@@ -1,4 +1,4 @@
-# WPU Informatik 8
+# WPU Informatik 12
 
 2021-2022
 
@@ -7,7 +7,6 @@
 # Intro
 
 * Vorstellung
-* Kooperation mit polnischen Schüler\*innen ca. 9:30 Uhr
 * Organisation
 
 Danach vielleicht noch etwas Informatik!
@@ -18,12 +17,6 @@ Danach vielleicht noch etwas Informatik!
 
 * Sind alle da? Sonst Rückmeldung
 * Was wollen wir voneinander wissen?
-
----
-
-## Kooperation mit polnischen Schüler\*innen
-
-Etwas spontan... hilft aber unseren polnischen Partner\*innen!
 
 ---
 
@@ -42,8 +35,8 @@ Einverständniserklärungen Lernraum, BBB **siehe LRK**
 
 ### Termine
 
-* 1 Klassenarbeit
-* 3 Tests
+* 1 Klausur pro Halbjahr
+* einige Tests
 * Exkursion?
 
 ---
@@ -61,6 +54,7 @@ Einverständniserklärungen Lernraum, BBB **siehe LRK**
 * Handyregelung
 * Laptopregelung aus TK kolportieren
 * Mülltrennung
+* Drogen
 
 ---
 
