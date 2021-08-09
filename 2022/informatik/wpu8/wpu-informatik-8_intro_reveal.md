@@ -23,13 +23,15 @@ Danach vielleicht noch etwas Informatik!
 
 ## Kooperation mit polnischen Schüler\*innen
 
-* spontan... hilft unseren polnischen Partner*innen
+Etwas spontan... hilft aber unseren polnischen Partner\*innen!
 
 ---
 
 ## Organisation
 
 Einverständniserklärungen Lernraum, BBB **siehe LRK**
+
+---
 
 ### Technik-Abfrage
 
@@ -51,6 +53,9 @@ Einverständniserklärungen Lernraum, BBB **siehe LRK**
 * Belehrung Hygienemaßnahmen – Lüften, MNS, regelmäßiges Testen, Abstandsgebot, Hände waschen, Nies-Etikette
 * Erinnerung: Schul- und Hausordnung
 * Verhalten bei Brand- und Katastrophengefahr, Alarmordnung, Amok
+
+---
+
 * Vorbildverhalten Grüner Campus Malchow als Umweltschule und als Schule der Höflichkeit
 * Aufenthalt in den Pausen
 * Handyregelung
