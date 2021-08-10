@@ -6,18 +6,21 @@
 
 # Intro
 
-* Vorstellung
-* Kooperation mit polnischen Schüler\*innen ca. 9:30 Uhr
-* Organisation
+Vorstellung
 
-Danach vielleicht noch etwas Informatik!
+Kooperation mit polnischen Schüler\*innen ca. 9:30 Uhr
+
+Organisation
+
+**Danach vielleicht noch etwas Informatik!**
 
 ---
 
 ## Vorstellungsrunde
 
-* Sind alle da? Sonst Rückmeldung
-* Was wollen wir voneinander wissen?
+Sind alle da? Sonst Rückmeldung
+
+Steckbrief: Was wollen wir voneinander wissen?
 
 ---
 

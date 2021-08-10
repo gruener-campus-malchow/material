@@ -1,4 +1,4 @@
-# WPU Informatik 12
+# GK Informatik 12
 
 2021-2022
 
@@ -6,8 +6,9 @@
 
 # Intro
 
-* Vorstellung
-* Organisation
+Vorstellung
+
+Organisation
 
 Danach vielleicht noch etwas Informatik!
 
@@ -15,8 +16,9 @@ Danach vielleicht noch etwas Informatik!
 
 ## Vorstellungsrunde
 
-* Sind alle da? Sonst Rückmeldung
-* Was wollen wir voneinander wissen?
+Sind alle da? Sonst Rückmeldung
+
+Steckbrief: Was wollen wir voneinander wissen?
 
 ---
 
@@ -60,7 +62,7 @@ Einverständniserklärungen Lernraum, BBB **siehe LRK**
 
 ## Informatik start
 
-Markdown ist die Kern-Technologie mit der wir in den kommenden Jahren Informationen austauschen. Dazu gibt es die erste Aufgabe.
+Markdown ist die Kern-Technologie mit der wir in den kommenden Jahren Informationen austauschen. Dazu gibt es die erste richtige Aufgabe.
 
 ---
 
