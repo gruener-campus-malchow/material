@@ -6,35 +6,38 @@
 
 # Intro
 
-* Vorstellung
-* Bürokratie
-* Kommunikation
+Vorstellung
 
-Danach noch etwas Physik!
+Bürokratie
+
+Kommunikation
+
+**Danach noch etwas Physik!**
 
 ---
 
 ## Vorstellungsrunde
 
-* Sind alle da? Sonst Rückmeldung
-* Was wollen wir voneinander wissen? 
-  * Steckbrief
+Sind alle da? Sonst Rückmeldung
+
+Was wollen wir voneinander wissen? 
+
+Steckbrief per **E-Mail ** an mich
 
 ---
 
 ## Bürokratie
 
-* DSB-Zugang Schüler **siehe LRK**
-* PC
-* Netzanbindung
-* Einverständniserklärungen Lernraum, BBB **siehe LRK**
+PC, Netzanbindung
+
+Einverständniserklärungen Lernraum, BBB **siehe LRK**
 
 ---
 
 ## Termine
-* Klausurplan
-    * Alle Termine sind verbindlich!!!
-* Feiertage aus religiösen Gründen
+Klausurplan
+
+Alle Termine sind verbindlich!!!
 
 ---
 

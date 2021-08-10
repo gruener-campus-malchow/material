@@ -20,11 +20,15 @@ Sind alle da? Sonst Rückmeldung
 
 Steckbrief: Was wollen wir voneinander wissen?
 
+Per **E-Mail** an mich.
+
 ---
 
 ## Organisation
 
 Einverständniserklärungen Lernraum, BBB **siehe LRK**
+
+Messenger?
 
 ---
 
