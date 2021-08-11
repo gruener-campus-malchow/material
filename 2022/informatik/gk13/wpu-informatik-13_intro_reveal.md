@@ -7,6 +7,7 @@
 # Where did we get stuck?
 
 Erinnerungen
+
 Was noch fehlt?
 
 Neue Ziele
@@ -16,7 +17,9 @@ Neue Ziele
 # What we need!
 
 markdown
+
 scrum
+
 git(hub)
 
 ---
@@ -36,5 +39,7 @@ oder
 
 Pet Sharing
 ~~~
+
+---
 
 auf bald
