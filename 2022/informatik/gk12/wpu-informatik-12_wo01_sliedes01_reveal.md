@@ -28,9 +28,13 @@ Folge: Zweigleisig weiter
 
 Kurzer Input, Tafelbild
 
-Basic: Die eigenen MD-Docs in Markdown übersetzen.
+### Basic
 
-Advanced: Beautify Markdown mit Tabellen.
+Die eigenen MD-Docs in Markdown übersetzen.
+
+### Advanced
+
+Beautify Markdown mit Tabellen.
 
 ---
 
