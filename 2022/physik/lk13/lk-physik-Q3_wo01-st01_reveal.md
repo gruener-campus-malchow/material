@@ -12,6 +12,7 @@
 * Amok & Feueralarm abspielen (Smartphone)
 * ~~WhatsApp~~
 * Abiturplan vs. Stundenplan
+* Testen: Mo, Di, Do
 
 ---
 
