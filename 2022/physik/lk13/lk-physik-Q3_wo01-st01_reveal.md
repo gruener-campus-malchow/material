@@ -6,22 +6,31 @@
 
 ## Orga
 
-* 2 Zeugnisunterschriften
+* ~~2 Zeugnisunterschriften~~
 * 1 Einwilligung zurück
 * Stammdatenblätter
 * Amok & Feueralarm abspielen (Smartphone)
-* WhatsApp
+* ~~WhatsApp~~
 * Abiturplan vs. Stundenplan
 
 ---
 
 ## Felder
 
-siehe Plan, schriftlich, Tafelbild
+~~siehe Plan, schriftlich, Tafelbild~~
 
 ## Vektoren
 
 siehe Plan, schriftlich, Tafelbild
+
+Hausaufgabe: XXO als Vektorschreibweise?
+
+## el. Felder
+
+Text aus Wochenplan?
+
+!!! Bitte beachten:
+   Wenn Dinge unklar sind und wir mehr Input benötigen: Lehrbücher.
 
 ---
 
