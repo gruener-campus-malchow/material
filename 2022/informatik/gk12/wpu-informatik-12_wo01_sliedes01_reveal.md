@@ -8,16 +8,21 @@
 
 Spannende, teils lustige, interessante Steckbriefe.
 
+Meine "Flexerei"...
+
+Einige Docs waren Nicht-Markdown, aber strukturiert.
+
+Folge: Zweigleisig weiter
 
 ---
 
-## Vorstellungsrunde
+## Markdown Reloaded
 
-Sind alle da? Sonst Rückmeldung
+Kurzer Input, Tafelbild
 
-Steckbrief: Was wollen wir voneinander wissen?
+Basic: Die eigenen MD-Docs in Markdown übersetzen.
 
-Per **E-Mail** an mich.
+Advanced: Beutify Markdown mit Tabellen.
 
 ---
 
