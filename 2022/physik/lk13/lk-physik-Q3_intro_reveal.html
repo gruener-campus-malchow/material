@@ -16,8 +16,19 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-                <section data-markdown="lk-physik-Q3_intro_reveal.md">
+                <section id="sec01" data-markdown="lk-physik-Q3_intro_reveal.md">
                 </section>
+
+			    <script>
+                    // Dateiname ermitteln
+
+                    var dn = document.URL;
+                    dn = dn.substring(dn.lastIndexOf('/'), dn.length);
+                    var md = document.getElementById("sec01");
+                    md.setAttribute("data-markdown", dn+".md");
+                    alert(dn+".md");
+                </script>
+
             </div>
 		</div>
 
