@@ -24,6 +24,7 @@
 
                     var dn = document.URL;
                     dn = dn.substring(dn.lastIndexOf('/'), dn.length);
+                    dn = dn.substring(1);
                     var md = document.getElementById("sec01");
                     md.setAttribute("data-markdown", dn+".md");
                     alert(dn+".md");
