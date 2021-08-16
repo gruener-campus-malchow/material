@@ -4,99 +4,33 @@
 
 ---
 
-# Intro
+## Orga
 
-* Vorstellung
-* Bürokratie
-* Kommunikation
-
-Danach noch etwas Physik!
-
----
-
-## Vorstellungsrunde
-
-* Sind alle da? Sonst Rückmeldung
-* Was wollen wir voneinander wissen?
+* Stammdatenblätter
+* ~~WhatsApp~~
+* Abiturplan vs. Stundenplan (2 Leute)
+* Testen: Mo, Di, Do
 
 ---
 
-## Bürokratie
+## el. Felder
 
-* DSB-Zugang Schüler **siehe LRK**
-* Zeugnis Unterschrift
-* Stammdatenblatt ausgeben und ggf. überarbeiten lassen
-* Schulbescheinigungen
+Text aus Wochenplan?
+
+!!! Bitte beachten:
+   Wenn Dinge unklar sind und wir mehr Input benötigen: Lehrbücher.
+
+---
+   
+## magn. Felder
+
+Not skipped, reordered...
 
 ---
 
-## SalzH-Abfrage
+## Millikan-Versuch
 
-* PC
-* Netzanbindung
-* Übersicht an OKO
-* Einverständniserklärungen Lernraum, BBB **siehe LRK**
-
----
-
-## Kommunikationswege
-
-* Jahrgangslernraum-Kurs darstellen und durchgehen
-* DSB - aktuelle Infos
-* Schwarzes Brett
-
----
-
-## Termine
-* Liste aus Mail
-* Abiturplan
-    * alle Termine sind verbindlich!!!
-    * Handy oder Planer raus
-    * Feiertage aus religiösen Gründen
-
----
-
-* Fehlzeitenregelung
-    * Entschuldigungszettel müssen im Vorfeld vom Tutor unterschrieben sein
-    * Krankmeldung morgens bis 8:00 Uhr
-    * Sekretariat
-    * Tutor
-    * Erster Akt nach Gesundung
-    * bei Klausur auch an OKO
-        * 3 Tage nach Meldung, ärztliches Attest einreichen (digital)
----
-
-* Dienstag Stundenplan: Keine Fragen zum Stundenplan an Hr. Hammermeister sondern Sprechstunde bei Fr. Stendal
-* Hausaufgabe (Planer raus): Abiturplan und Stundenplan abgleichen
-* Daheimgebliebene in Studienfahrtenwoche: Vertretungsunterricht
-  * Zwei freie Plätze je Fr. Sernau Ostseefahrt, Fr. Stendal Amrum
-* Kurssprecherwahl in 2. Woche
----
-
-## Belehrungen
-
-* Belehrung Hygienemaßnahmen – Lüften, MNS, regelmäßiges Testen, Abstandsgebot, Hände waschen, Nies-Etikette
-* Erinnerung: Schul- und Hausordnung
-* Verhalten bei Brand- und Katastrophengefahr, Alarmordnung, Amok
-* Vorbildverhalten Grüner Campus Malchow als Umweltschule und als Schule der Höflichkeit
-* Fehlzeitenregelung
-
----
-
-* Aufenthalt in den Pausen – Nutzung der Arbeitsplätze im GO-Raum/ „Raucherinsel“
-
-* Handyregelung
-* Laptopregelung aus TK kolportieren
-* Oberstufenraum als **Arbeitsraum** für JG 12+
-* Mülltrennung
-
----
-
-## Sonstiges
-
-* AG-Leitung möglich, bis Freitag (13.8.) bei Fr. Altmann melden, Honorar u.U. möglich
-* Belobigungen
-* V. PK... alles Okay? Literaturliste? Gliederung?
+... dafür braucht man erstmal keine Magnetfelder.
 
 ---
 
