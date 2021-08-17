@@ -50,7 +50,15 @@ https://casual-effects.com/markdeep/
 
 Einführung: CSS
 
-![Rollen der Sprachen](https://www.tabnine.com/blog/wp-content/uploads/2020/06/javascript-css-html-actual-web-design-65726997-1.png)
+![Funktionen der Sprachen](https://www.tabnine.com/blog/wp-content/uploads/2020/06/javascript-css-html-actual-web-design-65726997-1.png)
+
+---
+
+# CSS
+
+Oder auch:
+
+![Funktionen der Sprachen](http://laurahilliger.github.io/presentations/images/structure_function.jpg)
 
 ---
 
