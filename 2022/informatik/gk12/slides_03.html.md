@@ -22,6 +22,10 @@ Lokale CSS-Datei
 
 ![](https://wiki.selfhtml.org/images/thumb/b/b5/CSS-Regelsatz.svg/600px-CSS-Regelsatz.svg.png)
 
+<img src="https://wiki.selfhtml.org/images/thumb/b/b5/CSS-Regelsatz.svg/600px-CSS-Regelsatz.svg.png" style="background-color:white;" />
+
+https://wiki.selfhtml.org/images/b/b5/CSS-Regelsatz.svg
+
 ---
 
 # CSS
@@ -32,15 +36,19 @@ h2, div, a {
     background-color: white;
     border: 2px solid red;
     border-radius: 3em;
-
 }
 ~~~
 
 ---
+
 # Aufgabe
 
-Passen Sie einzelne CSS-Eigenschaften an, indem Du die Developer-Werkzeuge des Browsers verwendest.
+Passen Sie einzelne CSS-Eigenschaften an, indem Sie die Developer-Werkzeuge des Browsers verwendet.
 
 ---
 
 auf bald
+
+---
+
+oder baldiger
