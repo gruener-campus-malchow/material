@@ -6,7 +6,7 @@
 
 # Review
 
-Ferienbericht & Markdeep, zweite Übung
+Ferienbericht & Markdeep
 
 ---
 
