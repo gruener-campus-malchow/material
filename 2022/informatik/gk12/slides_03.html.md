@@ -20,11 +20,7 @@ Lokale CSS-Datei
 
 # CSS
 
-![](https://wiki.selfhtml.org/images/thumb/b/b5/CSS-Regelsatz.svg/600px-CSS-Regelsatz.svg.png)
-
 <img src="https://wiki.selfhtml.org/images/thumb/b/b5/CSS-Regelsatz.svg/600px-CSS-Regelsatz.svg.png" style="background-color:white;" />
-
-https://wiki.selfhtml.org/images/b/b5/CSS-Regelsatz.svg
 
 ---
 
@@ -49,6 +45,3 @@ Passen Sie einzelne CSS-Eigenschaften an, indem Sie die Developer-Werkzeuge des 
 
 auf bald
 
----
-
-oder baldiger
