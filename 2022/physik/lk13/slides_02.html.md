@@ -6,10 +6,10 @@
 
 ## Orga
 
+* **Testen: Mo, Di, Do**
 * Stammdatenblätter
 * ~~WhatsApp~~
-* Abiturplan vs. Stundenplan (2 Leute)
-* Testen: Mo, Di, Do
+* ~~Abiturplan vs. Stundenplan (2 Leute)~~
 
 ---
 
