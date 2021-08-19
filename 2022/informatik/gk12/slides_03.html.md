@@ -39,7 +39,7 @@ h2, div, a {
 
 # Aufgabe
 
-Passen Sie einzelne CSS-Eigenschaften an, indem Sie die Developer-Werkzeuge des Browsers verwendet.
+Passen Sie einzelne CSS-Eigenschaften an, indem Sie die Developer-Werkzeuge des Browsers verwenden.
 
 ---
 
