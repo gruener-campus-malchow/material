@@ -1,0 +1,11 @@
+body{
+    background-color: LightPink;
+}
+
+p {
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+    border: 0.5em dotted LightCoral;
+    border-radius: 2em;
+}
