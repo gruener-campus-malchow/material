@@ -1,6 +1,7 @@
 # GK Informatik 12
 
 2021-2022
+nächste Klausur: 2.11.21
 
 ---
 
