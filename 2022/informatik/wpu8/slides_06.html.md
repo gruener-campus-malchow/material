@@ -29,7 +29,7 @@ Parallel die Shortcuts am Whiteboard festhalten
 
 # Raspi-Facts
 
-<img src="https://upload.wikimedia.org/wikipedia/de/c/cb/Raspberry_Pi_Logo.svg" style="background-color:white;" />
+<img width="400px" src="https://upload.wikimedia.org/wikipedia/de/c/cb/Raspberry_Pi_Logo.svg" style="background-color:white;" />
 
 ---
 
