@@ -12,28 +12,7 @@ Klassenarbeit am 02.11.2021
 
 # Review
 
-HTML & CSS from the scratch
-
-... on a selfhosted Webserver
-... telling about raspberry pi
-
----
-
-# Todays AddOn
-
-Arbeiten mit Nano im Terminal
-
-Parallel die Shortcuts am Whiteboard festhalten
-
----
-
-# Raspi-Facts
-
-<img width="400px" src="https://upload.wikimedia.org/wikipedia/de/c/cb/Raspberry_Pi_Logo.svg" style="background-color:white;" />
-
----
-
-# Raspi-Facts
+## Raspi-Facts
 
 Erstelle eine Webseite, bei der Du einen Raspberry Pi vorstellst. 
 
@@ -47,7 +26,9 @@ Dabei soll enthalten sein:
 
 ---
 
-finish it today
+Let's look for the facts!
+
+Let's note useful information!
 
 ---
 
