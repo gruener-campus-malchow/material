@@ -1,4 +1,5 @@
-# Update Studienreise Amrum 
+# Update Studienreise Amrum
+
 ![studienreise logo](/home/ijon/Dropbox/Schule/2022/2022 Überfachlich/Studienreise/studienreise logo.png)
 
 Studienreise Amrum 04.-09.10.21 
