@@ -2,8 +2,12 @@
 
 ![studienreise logo](studienreise_logo.png)
 
-Studienreise Amrum 04.-09.10.21 
+---
+
+Studienreise Amrum 04.-09.10.21
+
 Fachbereiche Physik und Biologie
+
 13.09.2021
 
 ---
