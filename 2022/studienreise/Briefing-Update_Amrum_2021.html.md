@@ -1,6 +1,6 @@
-# Update Studienreise Amrum
+# Update Studienreise Amrum 
 
-![studienreise logo](/home/ijon/Dropbox/Schule/2022/2022 Überfachlich/Studienreise/studienreise logo.png)
+![studienreise logo](studienreise_logo.png)
 
 Studienreise Amrum 04.-09.10.21 
 Fachbereiche Physik und Biologie
@@ -115,15 +115,27 @@ Den Tagen und Temperaturen angemessene Mode ist trivial.
 ### Packliste Fakultativ
 
 - [ ] Drachen, Windspiel, Gleiter, Drone
+
 - [ ] Fernglas, Lupe, Taschenmikroskop
+
 - [ ] leichter Computer, Zubehör
+
 - [ ] Bastelmaterial, Werkzeug, Taschenmesser, Schnüre
+
 - [ ] Kartenspiele, Würfel, Gruppenspiele
+
 - [ ] Tischtennisset, Ball o.ä.
+
 - [ ] Musikinstrument
+
 - [ ] Sonnenbrille
+
 - [ ] Mückentötolin
+
 - [ ] Taschengeld
+
 - [ ] Kompass, GPS-Geräte, Smartwatches
+
+- [ ] Digitale Bibliothekt, E-Books
 
   
