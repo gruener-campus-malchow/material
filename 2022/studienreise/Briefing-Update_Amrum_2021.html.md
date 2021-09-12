@@ -24,7 +24,9 @@ Kristin Stendal – [stendal@gruener-campus-malchow.de](mailto:stendal@gruener-c
 
 ---
 
-## Reisedaten Hinfahrt: Mo, 04.10.2021	
+## Reisedaten Hinfahrt
+
+Mo, 04.10.2021	
 
 * Treff: **6.45 Uhr Berlin Hbf Gleis 8** 
 * ICE 808 7:04 Uhr  nach HH Hbf bis 9:44 Uhr 
@@ -48,7 +50,9 @@ Bitte Tagesverpflegung für den Anreisetag einplanen!
 
 ---
 
-## Reisedaten Rückfahrt: Sa, 09.10.2021
+## Reisedaten Rückfahrt
+
+Sa, 09.10.2021
 
 * Abmarsch an der Unterkunft ca. **10:30 Uhr**
 * Laufen (ohne Gepäck) bis Norddorf (ca. 2 km)
