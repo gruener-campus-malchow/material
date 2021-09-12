@@ -13,7 +13,7 @@ Fachbereiche Physik und Biologie
 ---
 
 ~~~
-**Schullandheim Ban Horn**/Amrum
+Schullandheim Ban Horn /Amrum
 Oodwai | 25946 Norddorf/Amrum	
 [www.ads-banhorn.de](http://www.ads-banhorn.de/)
 ~~~
@@ -56,11 +56,13 @@ Bitte Tagesverpflegung für den Anreisetag einplanen!
 * Schiff 12:05 Uhr ab Wittdün auf Amrum bis Dagebül Mole 13:35 Uhr
 * IC 2215 13:40 Uhr nach HH Hbf
 * ICE 607 17:10 Uhr nach Berlin Hbf. 
-* Ankunft 19:55 Uhr Gleis 2
+* **Ankunft 19:55 Uhr Gleis 2**
 
 ---
 
-## Zimmerverfügbarkeit (10 ♀/ 8 ♂)
+## Zimmerverfügbarkeit 
+
+(10 ♀/ 8 ♂)
 
 | Zimmer          | Belegung |
 | --------------- | -------- |
