@@ -14,6 +14,7 @@ Oodwai | 25946 Norddorf/Amrum
 [www.ads-banhorn.de](http://www.ads-banhorn.de/)
 
 Alexander Baldauf – [baldauf@gruener-campus-malchow.de](mailto:baldauf@gruener-campus-malchow.de)
+
 Kristin Stendal – [stendal@gruener-campus-malchow.de](mailto:stendal@gruener-campus-malchow.de)
 
 ---
@@ -61,10 +62,8 @@ Bitte Tagesverpflegung für den Anreisetag einplanen!
 | Achtbettzimmer  |          |
 | Sechsbettzimmer |          |
 | Sechsbettzimmer |          |
-| Sechsbettzimmer |          |
-| Sechsbettzimmer |          |
-| Sechsbettzimmer |          |
-| Dreibettzimmer  |          |
+
+[...]
 
 ---
 
@@ -94,48 +93,12 @@ Wer jeden Morgen ins Wasser geht...
 
 Den Tagen und Temperaturen angemessene Mode ist trivial.
 
-* Obligatorisch: Geht nicht gut ohne...
-* Fakultativ: Macht eine Studienreise interessanter...
-
 ---
 
 ### Packliste Obligatorisch
 
-- [ ] Krankenkassenkarte/ Impfausweis/ ggf. Impfnachweis C19
-- [ ] Kulturtasche, Handtuch, Sonnenschutzcreme, Pflaster
-- [ ] Medikamente, wenn nötig
-- [ ] Rucksack (klein)
-- [ ] Bademode
-- [ ] Mütze 
-- [ ] feste Schuhe – Turnschuhe reichen nicht 
-- [ ] Regenjacke, Regenhose, Gummistiefel
-- [ ] Schreibzeug, Papier
-- [ ] Trinkflasche
+[...]
 
 ### Packliste Fakultativ
 
-- [ ] Drachen, Windspiel, Gleiter, Drone
-
-- [ ] Fernglas, Lupe, Taschenmikroskop
-
-- [ ] leichter Computer, Zubehör
-
-- [ ] Bastelmaterial, Werkzeug, Taschenmesser, Schnüre
-
-- [ ] Kartenspiele, Würfel, Gruppenspiele
-
-- [ ] Tischtennisset, Ball o.ä.
-
-- [ ] Musikinstrument
-
-- [ ] Sonnenbrille
-
-- [ ] Mückentötolin
-
-- [ ] Taschengeld
-
-- [ ] Kompass, GPS-Geräte, Smartwatches
-
-- [ ] Digitale Bibliothekt, E-Books
-
-  
+[...]
