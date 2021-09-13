@@ -24,6 +24,12 @@ Kristin Stendal – [stendal@gruener-campus-malchow.de](mailto:stendal@gruener-c
 
 ---
 
+https://www.lernraum-berlin.de/v1/local/invitation/join.php?courseid=42703&id=e88cf820-c72d-43b5-8904-d9f2858ed22b
+
+![](lernraum_anmeldung.png)
+
+---
+
 ## Reisedaten Hinfahrt
 
 Mo, 04.10.2021	
