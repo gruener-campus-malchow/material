@@ -12,10 +12,10 @@ Fachbereiche Physik und Biologie
 
 ---
 
-!!! Adresse:
-    Schullandheim Ban Horn /Amrum
-    Oodwai | 25946 Norddorf/Amrum	
-    [www.ads-banhorn.de](http://www.ads-banhorn.de/)
+* Adresse:
+  Schullandheim Ban Horn /Amrum
+  Oodwai | 25946 Norddorf/Amrum	
+  [www.ads-banhorn.de](http://www.ads-banhorn.de/)
 
 
 * Alexander Baldauf – [baldauf@gruener-campus-malchow.de](mailto:baldauf@gruener-campus-malchow.de)
