@@ -4,15 +4,22 @@
 
 ---
 
-# Attention
+## Attention
 
 Klassenarbeit am 02.11.2021
 
 ---
 
-# Review
+## Einplatinencomputer
 
-## Raspi-Facts
+* CPU
+* GPU
+* RAM
+* I/Os
+
+---
+
+## Review: Raspi-Facts
 
 Erstelle eine Webseite, bei der Du einen Raspberry Pi vorstellst. 
 
@@ -23,6 +30,12 @@ Dabei soll enthalten sein:
 * Technische Daten
 * Zubehör
 * Beispielprojekt
+
+---
+
+Weitere 20 Minuten für Upgrades der Seiten!
+
+Wer fertig ist: Build our Raspi-Webserver!
 
 ---
 

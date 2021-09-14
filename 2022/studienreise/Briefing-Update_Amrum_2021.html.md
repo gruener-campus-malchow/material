@@ -16,8 +16,6 @@ Fachbereiche Physik und Biologie
   Schullandheim Ban Horn /Amrum
   Oodwai | 25946 Norddorf/Amrum	
   [www.ads-banhorn.de](http://www.ads-banhorn.de/)
-
-
 * Alexander Baldauf – [baldauf@gruener-campus-malchow.de](mailto:baldauf@gruener-campus-malchow.de)
 * Kristin Stendal – [stendal@gruener-campus-malchow.de](mailto:stendal@gruener-campus-malchow.de)
 
