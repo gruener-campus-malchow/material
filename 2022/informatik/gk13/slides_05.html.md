@@ -22,19 +22,13 @@ Projektarbeit
 
 ## WTH: SCRUM
 
-![SCRUM Kurzform](https://upload.wikimedia.org/wikipedia/commons/0/0e/Scrumablauf.jpg)
-
----
-
-## WTH: SCRUM
-
 <img class="r-stretch" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Scrumablauf.jpg">
 
 ---
 
 ## SCRUM im Detail
 
-![SCRUM Detaillierter](https://www.agile-academy.com/media/pages/grundlagen/scrum-guide/fce24d2039-1632990922/scrum-framework-deutsch-min.jpg)
+<img class="r-stretch" src="https://www.agile-academy.com/media/pages/grundlagen/scrum-guide/fce24d2039-1632990922/scrum-framework-deutsch-min.jpg">
 
 ---
 
