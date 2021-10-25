@@ -1,4 +1,4 @@
-# LK Pysik 13
+# GK Informatik 13
 
 2021-2022
 
