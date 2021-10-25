@@ -29,10 +29,14 @@ Verantwortlichkeiten siehe Übersicht im DSB)
 * Leistungsstand bis Ende der Woche erfragen
 * Leistungsstand schriftlich festhalten
 
+Leistungsstand != Lernstand aber synonym verwendet
+
+---
+
 ## Besprechungen Schülersprechtag
 
-* Termine festlegen
-* Zeitfenster: 9.11.21 16:30 Uhr bist 19:00 Uhr
+* Termine festlegen (jetzt!)
+* Zeitfenster: 9.11.21 16:30 Uhr bis 19:00 Uhr
 
 ---
 
