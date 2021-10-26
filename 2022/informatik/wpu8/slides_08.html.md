@@ -53,6 +53,8 @@ Drei große Paradigmen:
 * funktional
 * imperativ
 
+---
+
 ## Imperative Programmierung
 
 Sehr einfache Konzepte:
