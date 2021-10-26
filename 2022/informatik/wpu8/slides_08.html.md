@@ -47,11 +47,19 @@ Let's note useful information!
 
 ## Start Programming
 
-* drei große Paradigmen: logisch, funktional, imperativ
-* imperativ: 
-    * Befehle
-    * Variablen
-    * Kontrollstrukturen
+Drei große Paradigmen: 
+
+* logisch
+* funktional
+* imperativ
+
+## Imperative Programmierung
+
+Sehr einfache Konzepte:
+
+* Befehle
+* Variablen
+* Kontrollstrukturen
 
 ---
 
@@ -60,9 +68,7 @@ Let's note useful information!
 Einfaches Konzept: Tu es!
 
 ~~~ python
-
 print("Hello World")
-
 ~~~
 
 ---
@@ -70,10 +76,8 @@ print("Hello World")
 ### Variablen
 
 ~~~ python
-
 speicher = input("Sag mal, was ich sagen soll: ")
 print(speicher)
-
 ~~~
 
 ---
@@ -83,11 +87,9 @@ print(speicher)
 Schleifen: Wiederholen, bis (der Arzt kommt)
 
 ~~~ python
-
 while True:
     speicher = input("Sag mal, was ich sagen soll: ")
     print(speicher)
-
 ~~~
 
 Beenden mit neuem Shortcut...
@@ -99,14 +101,12 @@ Beenden mit neuem Shortcut...
 Verzweigungen: Entscheidungen treffen
 
 ~~~ python
-
 while True:
     speicher = input("Sag mal, was ich sagen soll: ")
     if speicher == "foo":
         print("Man bist Du foo!")
     else:
         print(speicher)
-
 ~~~
 
 Achtung: = ungleich ==
