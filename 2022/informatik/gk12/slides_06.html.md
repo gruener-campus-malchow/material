@@ -40,7 +40,7 @@ Tipp:
 
 ~~~ php
 $foo = "String";
-$feld = explode($foo);
+$feld = str_split($foo,1);
 print($feld[0]); // prints an "S"
 ~~~
 
