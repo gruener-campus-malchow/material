@@ -1,0 +1,11 @@
+digraph G {
+    rankdir=LR;
+    
+    Benutzer -> Internet;
+    Internet -> DSL_Router_FG3;
+    DSL_Router_FG3 -> Firewall;
+    Firewall -> Level0;
+    Level0 -> Level1;
+    Level1 -> "...";
+    
+}
