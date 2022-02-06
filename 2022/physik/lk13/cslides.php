@@ -107,8 +107,13 @@
     </div>
 
 	<div class="cis-centered">
+		 <div class="reveal">
+        <div class="slides">
+            <section data-markdown>
+	            <textarea data-template><?=file_get_contents($_GET['md'])?></section>
+        </div>
+    </div>
 		
-		<section data-markdown><?=file_get_contents($_GET['md'])?></section>
 
 	</div>
 </body>
