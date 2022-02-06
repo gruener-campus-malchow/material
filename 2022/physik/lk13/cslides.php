@@ -1,121 +1,76 @@
 <!doctype html>
-<html lang="de" dir="ltr">
+<html>
 <head>
-    <meta charse⁄t="utf-8">
+        <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/cis/public/aurora.css">
-	<title>Help – CampusSlides</title>
-	<style>
-		iframe, iframe.cis-block {
-			border: none;
-			padding: 0;
-			flex-grow: 1;
-			display: block;
-		}
-
-		h1 {
-			margin-left: 1rem;
-		}
-
-		pre {
-			margin: 0;
-			height: 100%;
-			overflow: auto;
-		}
-
-		.cis-centered {
-			align-items: stretch;
-            height: calc(100vh - 3rem);
-		}
-
-        .cis-block {
-			position: relative;
+    <link rel="stylesheet" href="/slides/public/dist/reset.css">
+    <link rel="stylesheet" href="/slides/public/dist/reveal.css">
+    <link rel="stylesheet" href="/slides/public/dist/theme/black.css">
+    <link rel="stylesheet" href="/slides/public/plugin/highlight/monokai.css">
+    <style>
+        :root {
+            --r-link-color: #7a3;
+            --r-link-color-dark: #583;
+            --r-link-color-hover: #9d5;
+            --r-selection-background-color: #583;
         }
 
-		.flag-de {
-			position: absolute;
-			width: 1rem;
-			height: 1rem;
-			top: 1rem;
-			right: 1rem;
-			background: linear-gradient(black 33.3%, red 33.3%, red 66.6%, gold 66.6%);
-			border-radius: .2rem;
-            box-shadow: 1px 2px 4px #0008;
-		}
-	</style>
-	<style>
-		.button-container {
-			display: flex;
-			gap: 1rem;
-			justify-content: end;
-		}
-
-        .cis-header-detail-button {
-            box-sizing: border-box;
-            height: 2rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            display: flex;
-            cursor: default;
-            overflow: hidden;
-        }
-
-        .cis-header-detail-button .label {
-            display: flex;
-            align-items: center;
-            padding: 0 .5rem;
-            background: #583;
-            z-index: 1;
-        }
-
-        .cis-header-detail-button .inner-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-left: 1px solid #ddd;
-            max-width: 0;
+        .floating-button {
+            color: var(--r-link-color);
             width: 2rem;
-            transition: .2s .5s, background-color .2s, color .2s;
-            margin-left: -1px;
-            cursor: default;
-        }
-
-        .cis-header-detail-button:hover .inner-button {
-            max-width: 2rem;
-            margin-left: 0;
+            margin: 1rem;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 60;
             transition: .2s;
         }
-
-        .cis-header-detail-button .inner-button:hover {
-            background-color: #ddd;
-            color: #583;
+        .floating-button:hover { color: var(--r-link-color-hover) }
+        .floating-button.hidden {
+            opacity: 0;
+            visibility: hidden;
         }
-	</style>
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let timeout;
+            document.addEventListener('mousemove', e => {
+                document.querySelector('.floating-button').classList.remove('hidden');
+                clearTimeout(timeout);
+                timeout = setTimeout(() => {
+                    document.querySelector('.floating-button').classList.add('hidden');
+                }, 2000);
+            });
+        });
+    </script>
 </head>
 <body>
-	<div class="cis-header">
-        <a class="cis-brand" href="/slides/"><svg class="cis-brand-logo" viewBox="0 -4 24 24" height="0"><path d="M6,4.13a4,4 0 102,6.52M7,8h-2M12,4.13a4,4 0 102,6.52M14,12v-5.5a2.25,2.25 0 114.5,0v3-3a2.25,2.25 0 114.5,0v5.5"/></svg><span class="cis-brand-title">CampusSlides</span></a>
-        <div class="spacer"></div>
-		<div class="button-container">
-            <div class="cis-header-detail-button">
-                <div class="label">help</div>
-                <a class="inner-button" href="/slides/help/">en</a>
-                <a class="inner-button" href="/slides/hilfe/">de</a>
-                <a class="inner-button" href="/slides/beistand/">əp</a>
-            </div>
-		</div>
-    </div>
-
-	<div class="cis-centered">
-		 <div class="reveal">
+    <a class="floating-button" href="/slides/jHr54HPvhE-RagbQ/download/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 20 20" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3,10A3,3 0 0 1 5,4 2,2 0 1 1 11,4 3,3 0 0 1 13,10M8,8V16M5,13L8,16 11,13"/></svg>
+</a>
+    <div class="reveal">
         <div class="slides">
             <section data-markdown>
-	            <textarea data-template><?=file_get_contents($_GET['md'])?></section>
+	            <textarea data-template>
+					<?=file_get_contents($_GET['md'])?>
+	            </section>
         </div>
     </div>
-		
 
-	</div>
+    <script src="/slides/public/dist/reveal.js"></script>
+    <script src="/slides/public/plugin/notes/notes.js"></script>
+    <script src="/slides/public/plugin/markdown/markdown.js"></script>
+    <script src="/slides/public/plugin/highlight/highlight.js"></script>
+    <script src="/slides/public/plugin/math/math.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+        });
+    </script>
 </body>
 </html>
-
