@@ -2,11 +2,6 @@
 
 ## Ziele (alt)
 
-* **KURZ** Verschiedene Bücher vergleichen
-* Skipped: Experimente vorbereiten, weil:
-
-## Ziele
-
 * Themen Q4 für Prüfung im Zentralabitur identifizieren
 * Verschiedene Ursachen der Radioaktivität im Alltag benennen
 * Entstehung radioaktiver Strahlung skizzieren
@@ -15,6 +10,13 @@
 	* Gamma
 	* (schnelle) Neutronen (eigentlich keine radioaktive Strahlung aber wichtig, um Kettenreaktionen zu verstehen)
 * Aufbau der Nuklidkarte nachvollziehen
+
+## Ziele
+
+* Wiederholung (sehr schnell)
+* Emission und Absorption von Strahlung, 
+* Durchdringungsvermögen
+* Schwächungsgesetz
 
 ## Inhalte
 
