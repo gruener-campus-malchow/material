@@ -37,6 +37,10 @@ https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/grun
 
 ... lassen Sie uns das Geschehen experimentell überprüfen!
 
+Etwas Universitätsphysik: https://tetfolio.fu-berlin.de/web/997146
+
+Die haben das von hier: https://de.wikipedia.org/wiki/Halbwertsschicht
+
 ### Remember: Nuklidkarten
 
 * https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
