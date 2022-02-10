@@ -1,5 +1,7 @@
 # LK Physik Q4
 
+![LK Physik Schild](Art-Nouveau-LKPH.svg)
+
 ## Ziele (alt)
 
 * Themen Q4 für Prüfung im Zentralabitur identifizieren
@@ -16,69 +18,29 @@
 * Wiederholung (sehr schnell)
 * Emission und Absorption von Strahlung, 
 * Durchdringungsvermögen
-* Schwächungsgesetz
+* Schwächungsgesetz 
+
 
 ## Inhalte
 
-### Video: Ursachen der Radioaktivität
+### Tabelle erstellen mit allen relevanten Informationen
 
-Populärwissenschaftlich: https://www.youtube.com/watch?v=rrew5XaqhoY
+siehe Hefter
 
-Aufgaben:
+### Strahlungsarten im elektrischen und magnetischen Feld
 
-1. Notieren Sie die Ursachen von Radioaktivität.
-1. Notieren Sie die Namen der Strahlungsarten.
+Hier nochmal zusammengefasst: https://www.lernhelfer.de/schuelerlexikon/physik/artikel/eigenschaften-radioaktiver-strahlung
 
-### Video: Quellen radioaktiver Strahlung
+### Absobtion und etwas Mathe
 
-Harald Lesch: https://www.youtube.com/watch?v=rHUJMVDOMtM
+https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/grundwissen/absorptionsgesetz-absorptionskoeffizient-und-halbwertsschichtdicke
 
-#### Aufgaben
+... lassen Sie uns das Geschehen experimentell überprüfen!
 
-1. Bereiten Sie eine Skizze zum Atomaufbau vor, um sie anschließend an der Tafel zu präsentieren.
-1. Erklären Sie, wie viele Nuklide es ungefähr gibt.
-1. Beschreiben Sie den Unterschied zwischen stabilen Nukliden und instabilen.
-1. Erläutern Sie, was Isotope sind.
-1. Erstellen Sie drei Skizzen, die jeweils die Isotope des Wasserstoffs darstellen.
-1. Nennen Sie die Folgen, die ein Zusammentreffen von Atomen mit radioaktiver Strahlung haben kann.
-1. Begründen Sie die Gefahr, die von radioaktiver Strahlung ausgeht.
-1. Erstellen Sie eine Tabelle, die mögliche Abschirmungsmöglichkeiten den Strahlungsarten gegenüber stellt.
-
-### Nuklidkarten
+### Remember: Nuklidkarten
 
 * https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
 * https://www.standardsicherung.schulministerium.nrw.de/cms/zentralabitur-wbk/faecher/getfile.php?file=2566
 * https://www.egwoerth.de/images/Faecher/Physik/Physik_Nuklidkarte_EGW.pdf
 
 interaktiv: https://www.physiklehrer.net/Nuklidkarte/
-
-### Zerfallsreihen
-
-Isotope zerfallen unterschiedlich schnell, was mit der Halbwertszeit 
-(und damit verknüpfte andere Größen) bemessen wird. Wenn sie zerfallen, entstehen neue Nuklide, die oft auch 
-Isotope sind. Diese zerfallen oft ebenfalls in neue Isotope, bis 
-nach einer endlichen Zahl an Zerfällen ein stabiles Nuklid entsteht.
-
-Diese Abfolge von Zerfällen, nenn man Zerfallsreihen. Der folgende 
-Wikipediaeintrag zeigt das anschaulich. https://de.wikipedia.org/wiki/Zerfallsreihe
-
-In einem natürlich vorkommenden Erz, sind deshalb immer 
-unterschiedliche Nuklide in sehr unterschiedlicher Zusammensetzung 
-enthalten. Genau genommen, wird man auch unterschiedliche Arten der 
-radioaktiven Strahlung nachweisen können.
-
-#### Aufgaben
-
-1. Finden Sie in den Lehrbüchern alternative Darstellungen. Und stellen 
-Sie diese den Mitschüler*innen (und mir) einzeln vor. (Orga besprechen 
-wir.)
-2. Entwickeln Sie mit einem Mitschüler gemeinsam eine Zerfallsreihe 
-unter Zuhilfenahme der Nuklidkarte. Stoppen Sie die Weiterentwicklung 
-nach fünf Zerfällen auch wenn kein stabiles Nuklid entsteht.
-
-
-
-
-### Video: Animus
-
-https://youtu.be/aFtfsFnxc3g
