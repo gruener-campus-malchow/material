@@ -1,6 +1,6 @@
 # LK Physik Q4
 
-![LK Physik Schild](Art-Nouveau-LKPH.png =250x)
+<img src="Art-Nouveau-LKPH.png" alt="drawing" style="width:200px;"/>
 
 ## Ziele (alt)
 
