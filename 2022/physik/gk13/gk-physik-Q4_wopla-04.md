@@ -41,14 +41,6 @@ Etwas Universitätsphysik: https://tetfolio.fu-berlin.de/web/997146
 
 Die haben das von hier: https://de.wikipedia.org/wiki/Halbwertsschicht
 
-### Kettenreaktionen
-
-Ansprechend von einem Energiekonzern moderiert: https://www.youtube.com/watch?v=jpDRfaWYk3I
-
-Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fission
-
-Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.alternativlos.org/14/
-
 ### Remember: Nuklidkarten
 
 * https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
