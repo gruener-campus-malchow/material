@@ -25,7 +25,7 @@ Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.altern
 
 ### Inhalt als Text und Animationen
 
-https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/aufgabe/verhaeltnis-verschiedener-uranisotope-abitur-2007-lk-a4-3
+https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/grundwissen/kettenreaktion
 
 ### Aufgabe rechnen
 
