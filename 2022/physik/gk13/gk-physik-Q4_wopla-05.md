@@ -37,6 +37,18 @@ https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/grund
 
 https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/aufgabe/verhaeltnis-verschiedener-uranisotope-abitur-2007-lk-a4-3
 
+### Videos zur Kernfusion
+
+#### ITER (Tokamak)
+
+[Harald Lesch: Grundlagen von Kernfusion und erwarteter Sinn und Nutzen](https://www.youtube.com/watch?v=nVTcirxdRWM)
+
+[ITER: Arte Dokumentation](https://www.youtube.com/watch?v=9Si7LQRE31Y)
+
+#### Stellerator
+
+[Wendelstein 7X in Greifswald](https://www.youtube.com/watch?v=cTt_1yt5PlU)
+
 
 <script>markdeepOptions = {mode:'markdeep', tocStyle:'long', definitionStyle:'long', linkAPIDefinitions: false};</script>
 <link rel="stylesheet" href="https://gcm.schule/public/css/markdeep.css">
