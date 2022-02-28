@@ -17,7 +17,7 @@
 
 * Grundkurs oder Leistungskurs?
 
-### Der junge Prof. Lösch erklärt
+### Der junge Prof. Lesch erklärt
 
 https://www.youtube.com/watch?v=x_bRb7ykuXU
 
