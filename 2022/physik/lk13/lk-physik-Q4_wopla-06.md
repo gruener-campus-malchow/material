@@ -21,7 +21,7 @@
 
 https://www.youtube.com/watch?v=x_bRb7ykuXU
 
-#### Aufgabe
+#### Aufgaben
 
 1. Schreiben Sie den Inhalt der "Vorlesung" stichpunktartig mit.
 1. Bei 3:30 gibt es eine Pause. Erstellen Sie eine Skizze, die erklärt, wie man die Masse von Atomen bestimmt.
@@ -37,4 +37,4 @@ Achtung: E = m * c² = E(m) - da c = konstant!
 
 https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/bindungsenergie
 
-Aufgaben berechnen.
+Aufgaben berechnen...
