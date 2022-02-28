@@ -42,3 +42,9 @@ Aufgaben berechnen...
 ### Checken wir das gegen
 
 https://www.youtube.com/watch?v=0MVo_qre3-g
+
+### Untergang oder Aufbruch der Menschheit?
+
+Berechnen wir die frei werdende Energie einer Atombombe...
+
+... als Antriebsenergie für Raumschiffe (https://de.wikipedia.org/wiki/Orion-Projekt).
