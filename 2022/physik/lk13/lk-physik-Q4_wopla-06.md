@@ -31,7 +31,7 @@ https://www.youtube.com/watch?v=x_bRb7ykuXU
 
 https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/masse-energie-beziehung
 
-Achtung: E = m * c² = E(m) - da c = konstant!
+Achtung: E = m * c² = c² * m = C * m = E(m) - da c = konstant und C = c² = konstant!
 
 ### Bindungsenergie
 
