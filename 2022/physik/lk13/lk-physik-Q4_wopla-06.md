@@ -38,3 +38,7 @@ Achtung: E = m * c² = c² * m = C * m = E(m) - da c = konstant und C = c² = ko
 https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/bindungsenergie
 
 Aufgaben berechnen...
+
+### Checken wir das gegen
+
+https://www.youtube.com/watch?v=0MVo_qre3-g
