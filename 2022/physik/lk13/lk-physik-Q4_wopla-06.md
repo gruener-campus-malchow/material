@@ -2,44 +2,39 @@
 
 ## Ziele (alt)
 
-* Wiederholung (sehr schnell)
-* Emission und Absorption von Strahlung, 
-* Durchdringungsvermögen
-* Schwächungsgesetz 
-
-## Ziele
-
 * Kettenreaktion
 * Steuerung von AKW
 * Kernfusion
 
+## Ziele
+
+* Massendefekt
+* Bindungsenergie
 
 ## Inhalte
 
-### Kettenreaktionen und AKW
+### Hausaufgabe
 
-Ansprechend von einem Energiekonzern moderiert: https://www.youtube.com/watch?v=jpDRfaWYk3I
+* Grundkurs oder Leistungskurs?
 
-Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fission
+### Der junge Prof. Lösch erklärt
 
-Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.alternativlos.org/14/
+https://www.youtube.com/watch?v=x_bRb7ykuXU
 
-### Inhalt als Text und Animationen
+#### Aufgabe
 
-https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/grundwissen/kettenreaktion
+1. Schreiben Sie den Inhalt der "Vorlesung" stichpunktartig mit.
+1. Bei 3:30 gibt es eine Pause. Erstellen Sie eine Skizze, die erklärt, wie man die Masse von Atomen bestimmt.
+1. Definition des Massendefekts bei 10:45 festlegen.
 
-### Aufgabe rechnen
+### Massendefekt
 
-https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/aufgabe/verhaeltnis-verschiedener-uranisotope-abitur-2007-lk-a4-3
+https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/masse-energie-beziehung
 
-### Videos zur Kernfusion
+Achtung: E = m * c² = E(m) - da c = konstant!
 
-#### ITER (Tokamak)
+### Bindungsenergie
 
-[Harald Lesch: Grundlagen von Kernfusion und erwarteter Sinn und Nutzen](https://www.youtube.com/watch?v=nVTcirxdRWM)
+https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/bindungsenergie
 
-[ITER: Arte Dokumentation](https://www.youtube.com/watch?v=9Si7LQRE31Y)
-
-#### Stellerator
-
-[Wendelstein 7X in Greifswald](https://www.youtube.com/watch?v=cTt_1yt5PlU)
+Aufgaben berechnen.
