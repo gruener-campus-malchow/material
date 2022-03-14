@@ -25,3 +25,7 @@ Eine gute Übersicht geben folgende Artikel:
 * https://de.wikipedia.org/wiki/%C3%84quivalentdosis
 * https://de.wikipedia.org/wiki/Liste_von_Gr%C3%B6%C3%9Fenordnungen_der_%C3%84quivalentdosis
 * https://de.wikipedia.org/wiki/Strahlenexposition
+
+innere und äußere Exposition und Expositionspfade:
+
+* https://www.ensi.ch/de/2017/02/02/strahlenschutz-serie-strahlenquellen-und-expositionspfade-in-kernanlagen/
