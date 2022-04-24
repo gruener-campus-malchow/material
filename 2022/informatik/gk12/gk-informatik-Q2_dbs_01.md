@@ -41,8 +41,7 @@ Es gibt zahlreiche Anwendungsfälle für Datenbankensysteme. Folgende unvollstä
 ### Aufgaben
 
 1. Suchen Sie sich aus einem der Beispiele ein Szenario aus (oder finden Sie ein eigenens spannendes).
-1. Schauen Sie sich die [Beispielpräsentation](cslides.php?md=dbs_beispielszenario_Schuelerverwaltung.md)
- an.
+1. Schauen Sie sich die [Beispielpräsentation](cslides.php?md=dbs_beispielszenario_Schuelerverwaltung.md) an.
 2. Beschreiben Sie ähnlich des Beispiels, welche Eigenschaften die jeweilige Komponente eines DBS haben sollte.
 1. Erstellen Sie dafür eine eigene Präsentation mit CS und sichern Sie diese im Lernraum.
 1. Präsentieren Sie einer*m Mitschüler*in ihr Ergebnis.
