@@ -1,55 +1,85 @@
-## Anwendungen von Elektronenstrahlen
+## Sensornetzwerke
 
-Synchrotron
-
----
-
-## Aufbau
-
-![Aufbau des SOLEIL in Frankreich](https://upload.wikimedia.org/wikipedia/commons/6/60/Sch%C3%A9ma_de_principe_du_synchrotron.jpg)
+Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Verfügbarkeit und Aktivität der Knoten, eine unterschiedliche Struktur hat. An ein solches Netz sind i.d.R. über mehrere Routen Server angebunden.
 
 ---
 
-## Aufbau
-
-![Luftbild des SOLEIL in Frankreich](https://upload.wikimedia.org/wikipedia/commons/0/00/SOLEIL_le_01_juin_2005.jpg)
+<img src=https://i.imgur.com/zYI5BK6.png style="background-color:white">
 
 ---
 
-## Funktionsweise
+## Sensornetzwerke
 
-1. An einer Glühkathode werden Elektronen emittiert
-1. Elektronen werden in dem "Injektor" vorbeschleunigt (z.B. Mikrotron)
-1. lineare Beschleunigung in Strahlrichtung
-1. Ablenkung, Kurve - dabei Emittation von Synchrotronstrahlung
-    * Röntgenstrahlung
-    * starke UV-Strahlung
-1. Zyklus wiederholt sich
+Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioniert-es
 
 ---
 
-## Mikrotron
+### Anhang
 
-![Schematischer Aufbau eines Mikrotrons](https://upload.wikimedia.org/wikipedia/commons/1/14/ClassicMicrotronSketch.svg)
+~~~dot
 
----
+# http://www.graphviz.org/content/cluster
 
-## Geschichte
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
 
-* grundlegende Konzepte 
-    * Russland von Wladimir Iossifowitsch Weksler 1944 am Lebedew-Institut 
-    * Edwin McMillan während des Zweiten Weltkriegs in Los Alamos
-* Erstes Elektronensynchrotron 1945 von Edwin Mattison McMillan
+  bgcolor=transparent;
 
-https://de.wikipedia.org/wiki/Synchrotron
+  subgraph cluster_0 {
+    //style=filled;
+    color=lightgrey;
+    node [style=filled,color=pink];
+    s1 -> s2;
+    s1 -> s3;
+    s4 -> s1;
+    s1 -> s4;
+    s4 -> s2;
+    s3 -> s1;
+    s2 -> s4;
+    s2 -> s1;
+    s1 -> s5;
+    s5 -> s1;
+    label = "*Sensoren (Mesh)*";
+    fontsize = 20;
+  }
 
----
+  subgraph cluster_1 {
+    node [style=filled];
+    Betriebssystem -> DBMS;
+    DBMS -> Betriebssystem;
+    DBMS -> DB;
+    DB -> DBMS;
+    label = "*DBS Europa*";
+    fontsize = 20;
+    color=blue
+  }
+  
+  subgraph cluster_2 {
+    node [style=filled];
+    DBMS -> Backup_DB;
+    label = "*Backup Asien*";
+    fontsize = 20;
+    color=red
+  }
+  
+  s4 -> Internet;
+  Internet -> s4;
+  Betriebssystem -> Internet;
+  Internet -> Betriebssystem;
 
-## Geschichte
+  Betriebssystem -> Benutzer1;
+  Benutzer1 -> Betriebssystem;
+  Betriebssystem -> Benutzer2;
+  Benutzer2 -> Betriebssystem;
 
-* 2016 größte Synchrotronanlage Large Hadron Collider 
-* Protonen bis auf 6,5 TeV beschleunigt
-* Colliding-Beam-Experimente mit 13 TeV möglich sind
-* Elektronensynchrotrone heute nicht mehr für Teilchenphysik, sondern als Quellen für Synchrotronstrahlung
+  Internet [shape=Mdiamond];
+  Benutzer1 [color=green];
+  Benutzer2 [color=purple];
+  
+}
 
-https://de.wikipedia.org/wiki/Synchrotron
+
+
+~~~
