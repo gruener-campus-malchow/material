@@ -30,6 +30,8 @@ Größtmögliche Verfügbarkeit.
 
 Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf anderen Kontinenten) erlauben.
 
+![](backup_productive.svg)
+
 ---
 
 ### SQL
