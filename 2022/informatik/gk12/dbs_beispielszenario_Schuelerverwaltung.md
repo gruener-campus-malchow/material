@@ -1,8 +1,12 @@
 ## Sensornetzwerke
 
-Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Verfügbarkeit und Aktivität der Knoten, eine unterschiedliche Struktur hat. An ein solches Netz sind i.d.R. über mehrere Routen Server angebunden.
+Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Verfügbarkeit und Aktivität der Knoten, eine unterschiedliche Struktur hat. An ein solches Netz sind (i.d.R. über mehrere Routen) Server angebunden auf denen die Daten gesammelt werden. Dort können dann von Benutzern Daten analysiert werden.
 
 Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten Waldgebiet.
+
+---
+
+![](https://www.researchgate.net/profile/Yasar-Sahin/publication/259439390/figure/fig4/AS:203019577761802@1425415047528/Forest-fire-detection-systems-infrastructure.png)
 
 ---
 
@@ -15,6 +19,22 @@ Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten
 ## Sensornetzwerke
 
 Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioniert-es
+
+---
+
+## Daten
+
+ID Sensor
+
+Messwerte
+
+Zeitstempel (Wichtig)
+
+Prüfsumme/Hash
+
+---
+
+![](backup_productive.svg)
 
 ---
 
