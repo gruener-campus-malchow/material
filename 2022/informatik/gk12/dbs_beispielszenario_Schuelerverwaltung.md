@@ -60,6 +60,7 @@ Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger 
 
 Spezielle Anwendungen sind v.a. für die Überwachung des Sensornetzes relevant.
 
+![](https://upload.wikimedia.org/wikipedia/commons/6/6f/Nesher_Ramla_Control_room_%283%29.jpg)
 ---
 
 ### Anhang
