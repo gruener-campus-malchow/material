@@ -2,6 +2,8 @@
 
 Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Verfügbarkeit und Aktivität der Knoten, eine unterschiedliche Struktur hat. An ein solches Netz sind i.d.R. über mehrere Routen Server angebunden.
 
+Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten Waldgebiet.
+
 ---
 
 ## Sensornetzwerke
@@ -13,6 +15,26 @@ Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Ver
 ## Sensornetzwerke
 
 Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioniert-es
+
+---
+
+## Betriebssystem
+
+Da die Server auf normaler Hardware laufen, gibt es keine spezielle Anforderung, die nicht an andere DB-Server gestellt werden.
+
+Größtmögliche Verfügbarkeit.
+
+---
+
+## Datenbankmanagementsystem
+
+Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf anderen Kontinenten) erlauben.
+
+---
+
+## SQL
+
+Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger Dialekt sein. Spezielle Anwendungen sind v.a. für die Überwachung des Sensornetzes relevant.
 
 ---
 
