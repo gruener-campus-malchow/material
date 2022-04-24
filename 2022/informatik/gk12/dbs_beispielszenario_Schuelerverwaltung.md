@@ -4,7 +4,7 @@ Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Ver
 
 ---
 
-<img src=https://i.imgur.com/zYI5BK6.png style="background-color:white">
+<img src=sensornetzwerke.png style=background-color:white>
 
 ---
 
