@@ -24,13 +24,10 @@ Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioni
 
 ## Daten
 
-ID Sensor
-
-Messwerte
-
-Zeitstempel (Wichtig)
-
-Prüfsumme/Hash
+- ID Sensor
+- Messwerte
+- Zeitstempel (Wichtig)
+- Prüfsumme/Hash
 
 ---
 
@@ -43,14 +40,15 @@ Prüfsumme/Hash
 Da die Server auf normaler Hardware laufen, gibt es keine spezielle Anforderung, die nicht an andere DB-Server gestellt werden.
 
 - Verfügbarkeit
-- Günstig (Lizenzen)
-- Sicher
+- Robustheit
+- Kosten (Lizenzen)
+- Sicherheit
 
 ---
 
 ### Datenbankmanagementsystem
 
-Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf anderen Kontinenten) erlauben.
+Um die wertvollen Daten aus dem Netz (den Netzen) zu sichern, muss es entfernte Backups (auf anderen Kontinenten) erlauben. Bei Ausfall eines Systems muss automatisch(?) ein redundantes System übernehmen?
 
 ---
 
@@ -62,13 +60,10 @@ Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf 
 
 ### Datenbankmanagementsystem
 
-Sensoren dürfen Daten schreiben.
-
-Benutzer dürfen (einige) Daten lesen aber nicht schreiben.
-
-Daten kommen zeitlich versetzt an.
-
-Daten kommen eventuell mehrfach an.
+- Sensoren dürfen Daten schreiben
+- Benutzer dürfen (einige) Daten lesen aber nicht schreiben
+- Daten kommen zeitlich versetzt an
+- Daten kommen (eventuell) mehrfach an
 
 ---
 
@@ -76,11 +71,13 @@ Daten kommen eventuell mehrfach an.
 
 Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger Dialekt sein. Er sollte sich nicht kurzfristig ändern (Produktivumgebung).
 
+Daten werden mit SQL geschrieben.
+
 ---
 
 ### Anwendungen 
 
-Spezielle Anwendungen sind v.a. für die Überwachung des Sensornetzes relevant.
+Spezielle Anwendungen sind vor Allem für die Überwachung des Sensornetzes relevant.
 
 ---
 
@@ -155,7 +152,4 @@ digraph G {
   Benutzer2 [color=purple];
   
 }
-
-
-
 ~~~
