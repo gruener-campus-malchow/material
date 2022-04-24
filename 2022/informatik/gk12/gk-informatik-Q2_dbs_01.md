@@ -1,41 +1,11 @@
-# LK Physik Q4
+# GK Informatik Q2
 
-## Ziele (alt)
+## Datenbanksysteme
 
-* Strahlenschutz Erarbeitung
+![Übersicht über DBS](Datenbanken_DBMS_Uebersicht.png)
 
-## Ziele
+### Aufgaben
 
-* Strahlenschutz Präsentation
-
-## Beispiel für Grafiken
-
-[Größenverhältnisse](groessenverhältnisse.svg)
-
-## Kriterien
-
-https://www.humboldtschule-berlin.de/images/pdf/schullaufbahn/Hinweise5PK2013.pdf
-
-## Tipps, Erläuterungen, Hinweise
-
-https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/handreichung_5pk.pdf
-
-## Folgen einer Katastrophe
-
-https://www.youtube.com/watch?v=aM_HbyIBbwc
-
-## Organisation
-
-### Termin Repetitorium
-
-* Wann genau?
-* Was genau?
-
-### Abschluss Schule
-
-* Was bliebe zu Sagen?
-
-Erstellen wir eine Grafik, die Themen festhält, die für einen Schulabgänger relevant ist.
-
-1. Jeder zeichnet selbst eine MM... 10 Minuten
-2. Zusammenfassen in DOT https://sketchviz.com/new
+1. Hören Sie dem Fachvortrag zu dem Thema zu. Ordnen Sie die darin enthaltenen Fachbegriffe in einer eigenen Legende den Elementen zu.
+2. Vergleichen Sie die Legende mit einer*m Mitschüler*in.
+3. Bereiten Sie sich vor, Ihre Legende dem gesamten Kurs noch einmal vorzustellen.
