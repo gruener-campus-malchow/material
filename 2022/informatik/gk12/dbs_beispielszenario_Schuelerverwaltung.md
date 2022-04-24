@@ -18,7 +18,7 @@ Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioni
 
 ---
 
-## Betriebssystem
+### Betriebssystem
 
 Da die Server auf normaler Hardware laufen, gibt es keine spezielle Anforderung, die nicht an andere DB-Server gestellt werden.
 
@@ -26,15 +26,21 @@ Größtmögliche Verfügbarkeit.
 
 ---
 
-## Datenbankmanagementsystem
+### Datenbankmanagementsystem
 
 Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf anderen Kontinenten) erlauben.
 
 ---
 
-## SQL
+### SQL
 
-Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger Dialekt sein. Spezielle Anwendungen sind v.a. für die Überwachung des Sensornetzes relevant.
+Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger Dialekt sein. Er sollte sich nicht kurzfristig ändern (Produktivumgebung).
+
+---
+
+### Anwendungen 
+
+Spezielle Anwendungen sind v.a. für die Überwachung des Sensornetzes relevant.
 
 ---
 
