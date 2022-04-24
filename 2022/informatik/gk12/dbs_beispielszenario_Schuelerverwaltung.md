@@ -38,6 +38,18 @@ Um die wertvollen Daten aus dem Netz zu sichern, muss es entfernte Backups (auf 
 
 ---
 
+### Datenbankmanagementsystem
+
+Sensoren dürfen Daten schreiben.
+
+Benutzer dürfen (einige) Daten lesen aber nicht schreiben.
+
+Daten kommen zeitlich versetzt an.
+
+Daten kommen eventuell mehrfach an.
+
+---
+
 ### SQL
 
 Die Schnittstelle für Anfragen der Benutzer ist SQL. Es sollte ein geläufiger Dialekt sein. Er sollte sich nicht kurzfristig ändern (Produktivumgebung).
