@@ -10,8 +10,6 @@ Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten
 
 ---
 
-## Sensornetzwerke
-
 ![](sensornetzwerke.png)
 
 ---
