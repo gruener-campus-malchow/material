@@ -42,7 +42,9 @@ Prüfsumme/Hash
 
 Da die Server auf normaler Hardware laufen, gibt es keine spezielle Anforderung, die nicht an andere DB-Server gestellt werden.
 
-Größtmögliche Verfügbarkeit.
+- Verfügbarkeit
+- Günstig (Lizenzen)
+- Sicher
 
 ---
 
