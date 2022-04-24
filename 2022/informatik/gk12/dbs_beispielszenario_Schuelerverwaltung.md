@@ -4,7 +4,9 @@ Diverse einfache Sensoren bilden ein Mesh-Netzwerk, welches, je nach Anzahl, Ver
 
 ---
 
-<img src=sensornetzwerke.png>
+## Sensornetzwerke
+
+![](sensornetzwerke.png)
 
 ---
 
