@@ -45,7 +45,7 @@
     </script>
 </head>
 <body>
-    <a class="floating-button" href="/slides/markdown_hilfe_scuffed/download/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 20 20" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3,10A3,3 0 0 1 5,4 2,2 0 1 1 11,4 3,3 0 0 1 13,10M8,8V16M5,13L8,16 11,13"/></svg>
+    <a class="floating-button" href="<?$_GET['md']?>"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 20 20" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3,10A3,3 0 0 1 5,4 2,2 0 1 1 11,4 3,3 0 0 1 13,10M8,8V16M5,13L8,16 11,13"/></svg>
 </a>
     <div class="reveal">
         <div class="slides">
