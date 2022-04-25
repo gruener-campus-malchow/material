@@ -35,15 +35,22 @@ Es gibt zahlreiche Anwendungsfälle für Datenbankensysteme. Folgende unvollstä
 * Genforschung
 * Medizinforschung
 * Ähhhhh: Forschung an allen Ecken und Enden...
-* [...]
 * künstliche Trabanten der Erde
+* Paketdienste
+* Post
+* Flugzeugwartung
+* Eisenbahn
+* Fahrpläne
+* [...]
 
 ### Aufgaben
 
 1. Suchen Sie sich aus einem der Beispiele ein Szenario aus (oder finden Sie ein eigenens spannendes).
-1. Schauen Sie sich die [Beispielpräsentation](cslides.php?md=dbs_beispielszenario_Schuelerverwaltung.md) an.
-2. Beschreiben Sie ähnlich des Beispiels, welche Eigenschaften die jeweilige Komponente eines DBS haben sollte.
+1. Schauen Sie sich die [Beispielpräsentation](cslides.php?md=dbs_beispielszenario_Sensornetz.md) an.
+2. Beschreiben Sie ähnlich des Beispiels, welche Eigenschaften die jeweilige Komponente eines DBS für ihr Szenario haben sollte.
 1. Erstellen Sie dafür eine eigene Präsentation mit [CampusSlides](https://gcm.schule/slides/) und sichern Sie diese im [Lernraum](https://www.lernraum-berlin.de/v1/course/view.php?id=41586).
 1. Präsentieren Sie einer*m Mitschüler*in ihr Ergebnis.
 1. Bewerten Sie die Präsentation ihrer*es Mitschüler*in auf einer Skala von 1 bis 15 und tragen Sie den jeweiligen Namen im Spektrum ein (Whiteboard).
 1. Besonders gelungen Präsentationen dürfen dem gesamten Auditorium vorgestellt werden.
+
+Hinweis: Eigene Bilder in CS einbinden kann man [hier in 2 Minuten](https://www.youtube.com/watch?v=G9b501I_rjs) lernen.
