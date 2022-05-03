@@ -1,4 +1,4 @@
-# 
+# 5. Prüfungskomponente
 
 ## Disclaimer 
 
@@ -15,6 +15,13 @@ Feedback zu den Quellen nehme ich sehr(!) gern an.
 Ich habe z.T. schon Fragen formuliert, die aber nicht immer schon einen "problematischen Kern" haben. Ich empfehle dringend, nach einer ersten Sichtung nach vielleicht 2-3 Stunden inne zu halten und nach "dem Problem" zu suchen. In der Regel ist man dann schon tief genug in der Materie, um abschätzen zu können, wo die Problemfrage zu verorten ist.
 
 Ich stehe dann gerne für eine Diskussion zur Verfügung und helfe beim Schärfen und auch Eingrenzen der Problemfrage. Bei der richtigen 5. PK darf ich deutlich weniger helfen. Da würde ich eine ungenügend problematische Problemfrage nur zurückweisen.
+
+## Revisison
+
+Es lohnt sich, in regelmäßigen Abständen während des Arbeitsprozesses zu überprüfen, ob die Gliederung und auch der Inhalt tatsächlich die Problemfrage bearbeitet. Wenn man zu spät bemerkt, dass man sich "vertrabt", ist eine Korrektur oft zeitaufwendig.
+
+Auch eine Besprechung der Gliederung mit dem Prüfer (oder jeder anderen außenstehenden Person) ist da hilfreich.
+
 
 ## Die Trennung von MySQL und MariaDB
 
