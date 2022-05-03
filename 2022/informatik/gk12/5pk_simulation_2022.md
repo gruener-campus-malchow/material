@@ -16,9 +16,9 @@ Ich habe z.T. schon Fragen formuliert, die aber nicht immer schon einen "problem
 
 Ich stehe dann gerne für eine Diskussion zur Verfügung und helfe beim Schärfen und auch Eingrenzen der Problemfrage. Bei der richtigen 5. PK darf ich deutlich weniger helfen. Da würde ich eine ungenügend problematische Problemfrage nur zurückweisen.
 
-## Revisison
+## Revision
 
-Es lohnt sich, in regelmäßigen Abständen während des Arbeitsprozesses zu überprüfen, ob die Gliederung und auch der Inhalt tatsächlich die Problemfrage bearbeitet. Wenn man zu spät bemerkt, dass man sich "vertrabt", ist eine Korrektur oft zeitaufwendig.
+Es lohnt sich, in regelmäßigen Abständen während des Arbeitsprozesses zu überprüfen, ob die Gliederung und auch der Inhalt tatsächlich die Problemfrage bearbeitet. Wenn man zu spät bemerkt, dass man sich "verzettelt", ist eine Korrektur oft zeitaufwendig.
 
 Auch eine Besprechung der Gliederung mit dem Prüfer (oder jeder anderen außenstehenden Person) ist da hilfreich.
 
