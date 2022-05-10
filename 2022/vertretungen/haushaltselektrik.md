@@ -24,8 +24,11 @@ Folgende Karftwerkstypen sind weitgehend bekannt (es gibt natürlich besondere):
 	* Gezeitenkraftwerk
 
 [Youtube konventionelle Kraftwerke](https://www.youtube.com/watch?v=N5WWw0u_dNE)
+
 [Youtube weitere Kraftwerke](https://www.youtube.com/watch?v=6lMMOptZEEc)
+
 Märchenonkel: [Material](https://klexikon.zum.de/wiki/Kraftwerk)
+
 Lehrbuch ab Seite 200
 
 1. Ordne einem(!) Karftwerkstypen die Energieformen zu.
@@ -38,12 +41,24 @@ Lehrbuch ab Seite 200
 
 ## Übertragung vom Kraftwerk bis zum Handy
 
+todo
+
 ## Der Sinn von Sicherungen (Sicherungskasten)
+
+todo
 
 ## Wechselstrom
 
+todo
+
 ## 3 Adern in einem Kabel
+
+todo
 
 ## Zwei Adern in einem Kabel
 
+todo
+
 ## Es werde Licht
+
+todo
