@@ -10,21 +10,23 @@ Kraftwerke erzeugen elektrische Energie indem Sie diese aus anderen Energieforme
 
 Folgende Karftwerkstypen sind weitgehend bekannt (es gibt natürlich besondere):
 
-* Kernkraftwerk
-* Gaskraftwerk
-* Ölkraftwerk
-* Kohlekraftwerk
+* Wärme
+	* Kernkraftwerk
+	* Gaskraftwerk
+	* Ölkraftwerk
+	* Kohlekraftwerk
+	* Solarthermie
 * Solarkraftwerk
 	* Photovoltaik
-	* Solarthermie
 * Wasserkraftwerk
 * Windkraftwerk
 
 Märchenonkel: [Material](https://klexikon.zum.de/wiki/Kraftwerk)
+Lehrbuch ab Seite 200
 
 1. Ordne einem(!) Karftwerkstypen die Energieformen zu.
 2. Finde jemanden in der Klasse, der den gleichen Kraftwerkstyp hat.
-3. Vergleiche Deine Zuordnung mit der, der Anderen.
+3. Vergleiche Deine Zuordnung mit der, der/des Anderen.
 4. Erstellt gemeinsam eine Energieumwandlungskette.
 4. Alle SuS mit dem gleichen Kraftwerkstyp präsentieren ihre Ergebnisse.
 
