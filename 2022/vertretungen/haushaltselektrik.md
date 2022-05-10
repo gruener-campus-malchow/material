@@ -18,9 +18,13 @@ Folgende Karftwerkstypen sind weitgehend bekannt (es gibt natürlich besondere):
 	* Solarthermie
 * Solarkraftwerk
 	* Photovoltaik
-* Wasserkraftwerk
-* Windkraftwerk
+* Strömungskraftwerke
+	* Wasserkraftwerk
+	* Windkraftwerk
+	* Gezeitenkraftwerk
 
+[Youtube konventionelle Kraftwerke](https://www.youtube.com/watch?v=N5WWw0u_dNE)
+[Youtube weitere Kraftwerke](https://www.youtube.com/watch?v=6lMMOptZEEc)
 Märchenonkel: [Material](https://klexikon.zum.de/wiki/Kraftwerk)
 Lehrbuch ab Seite 200
 
