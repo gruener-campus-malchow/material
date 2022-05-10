@@ -1,6 +1,6 @@
                     <meta charset="utf-8">
-                       **Webseite mit Material der Physik**
-                         Leistungskurs Klasse 13 2021-2022
+                       **Webseite mit Material für Vertretungen**
+                         alle möglichen Klassen und Kurse 2021-2022
                          
 <?=file_get_contents($_GET['md'])?>
 
