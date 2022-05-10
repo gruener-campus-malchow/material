@@ -20,6 +20,8 @@ Folgende Karftwerkstypen sind weitgehend bekannt (es gibt natürlich besondere):
 * Wasserkraftwerk
 * Windkraftwerk
 
+Märchenonkel: [Material](https://klexikon.zum.de/wiki/Kraftwerk)
+
 1. Ordne einem(!) Karftwerkstypen die Energieformen zu.
 2. Finde jemanden in der Klasse, der den gleichen Kraftwerkstyp hat.
 3. Vergleiche Deine Zuordnung mit der, der Anderen.
