@@ -8,3 +8,8 @@ RewriteRule ^(.*\.md) cdocs.php?md=$1 [L]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}index.md -f
 RewriteRule (.*) cdocs.php?md=$1index.md [L]
+
+<Files "cdocs.php">
+	Order Allow, Deny
+	Deny from all
+</Files>
