@@ -9,7 +9,5 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}index.md -f
 RewriteRule (.*) cdocs.php?md=$1index.md [L]
 
-<Files "cdocs.php">
-	Order Allow,Deny
-	Deny from all
-</Files>
+RewriteCond %{THE_REQUEST} cdocs.php
+RewriteRule . - [R=403,L]
