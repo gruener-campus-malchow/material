@@ -15,6 +15,7 @@ $is_slides = preg_match('@\.slides\.md$@', $path);
 
 
 if ($is_slides):
+// slides html:
 ?><!doctype html>
 <html>
 	<head>
@@ -45,7 +46,13 @@ if ($is_slides):
 		</script>
 	</body>
 </html>
-<?php else: ?><!doctype html>
+<?php
+
+
+
+else:
+// markdeep html:
+?><!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="https://gcm.schule/public/css/markdeep.css">
 <script src="https://gcm.schule/public/js/markdeep.min.js"></script>
