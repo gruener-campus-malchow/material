@@ -7,7 +7,7 @@ if (preg_match('@://@', $path)) die();
 // disallow non-markdown files
 // this is a preventive measure to make sure this script won't print out source code.
 // yes, manipulation of get parameters should be blocked by the htaccess config, but in this case it's better to be safe than sorry.
-if (!preg_match('@\.md$@', $path) || preg_match('@\?@', $path)) die();
+if (!preg_match('@\.md$@', $path)) die();
 
 // files ending in ".slides.md" get served as slides
 $is_slides = preg_match('@\.slides\.md$@', $path);
