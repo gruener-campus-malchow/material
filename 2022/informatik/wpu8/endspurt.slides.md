@@ -4,122 +4,27 @@
 
 ---
 
-## Attention
+## Review
 
-Klassenarbeit am 02.11.2021
+Woran haben wir gearbeitet, bevor Hr. Bitterlich übernommen hat?
 
----
+Was nehmen wir mit?
 
-## Einplatinencomputer
-
-* CPU
-* GPU
-* RAM
-* I/Os
+Was sind unsere Ziele bis zu den Ferien?
 
 ---
 
-## Review: Raspi-Facts
+## Probleme mit dem Strom
 
-Erstelle eine Webseite, bei der Du einen Raspberry Pi vorstellst. 
-
-Dabei soll enthalten sein:
-
-* Geschichte
-* Zweck
-* Technische Daten
-* Zubehör
-* Beispielprojekt
+Wie war das nochmal?
 
 ---
 
-Weitere 20 Minuten für Upgrades der Seiten!
+## Servomotoren
 
-Wer fertig ist: Build our Raspi-Webserver!
-
----
-
-Let's look for the facts!
-
-Let's note useful information!
-
----
-
-## Start Programming
-
-Drei große Paradigmen: 
-
-* logisch
-* funktional
-* imperativ
-
----
-
-## Imperative Programmierung
-
-Sehr einfache Konzepte:
-
-* Befehle
-* Variablen
-* Kontrollstrukturen
-
----
-
-### Befehle
-
-Einfaches Konzept: Tu es!
-
-~~~ python
-print("Hello World")
-~~~
-
----
-
-### Variablen
-
-~~~ python
-speicher = input("Sag mal, was ich sagen soll: ")
-print(speicher)
-~~~
-
----
-
-### Kontrollstrukturen
-
-Schleifen: Wiederholen, bis (der Arzt kommt)
-
-~~~ python
-while True:
-    speicher = input("Sag mal, was ich sagen soll: ")
-    print(speicher)
-~~~
-
-Beenden mit neuem Shortcut...
-
----
-
-### Kontrollstrukturen II
-
-Verzweigungen: Entscheidungen treffen
-
-~~~ python
-while True:
-    speicher = input("Sag mal, was ich sagen soll: ")
-    if speicher == "foo":
-        print("Mensch, bist Du foo!")
-    else:
-        print(speicher)
-~~~
-
-Achtung: = ungleich ==
-
----
-
-### Aufgabe
-
-Erstelle ein Programm, das sich mit Dir unterhält. 
-
-Es kann auch ein Quiz, ein (Adventure) Spiel oder ein Taschenrechner sein.
+* Links-Rechts...
+* Kontinuierlich drehende Motoren
+* Zwei Motoren gleich 1 Fahrzeug
 
 ---
 
