@@ -28,4 +28,11 @@ Wie war das nochmal?
 
 ---
 
+## Aufgaben
+
+* Bringe zwei kontinuierlich drehende Servomotoren zum Laufen.
+* Konstruiere ein Fahrzeug, das die beiden Motoren, den Pi und die Akkus tragen kann.
+
+---
+
 auf bald
