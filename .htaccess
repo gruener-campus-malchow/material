@@ -8,3 +8,6 @@ RewriteRule ^(.*\.md) cdocs.php?md=$1 [L]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}index.md -f
 RewriteRule (.*) cdocs.php?md=$1index.md [L]
+
+RewriteCond %{THE_REQUEST} cdocs.php
+RewriteRule . - [R=403,L]
