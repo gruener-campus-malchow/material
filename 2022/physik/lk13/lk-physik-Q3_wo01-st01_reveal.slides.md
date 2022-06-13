@@ -1,40 +1,48 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+# LK Pysik 13
 
-		<title>LK 13 Slides</title>
+2021-2022
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+---
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-                <section data-markdown="lk-physik-Q3_wo01-st01_reveal.md">
-                </section>
-            </div>
-		</div>
+## Orga
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+* ~~2 Zeugnisunterschriften~~
+* 1 Einwilligung zurück
+* Stammdatenblätter
+* Amok & Feueralarm abspielen (Smartphone)
+* ~~WhatsApp~~
+* Abiturplan vs. Stundenplan
+* Testen: Mo, Di, Do
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
-</html>
+---
+
+## Felder
+
+~~siehe Plan, schriftlich, Tafelbild~~
+
+---
+
+## Vektoren
+
+siehe Plan, schriftlich, Tafelbild
+
+Hausaufgabe: XXO als Vektorschreibweise?
+
+---
+
+## el. Felder
+
+Text aus Wochenplan?
+
+!!! Bitte beachten:
+   Wenn Dinge unklar sind und wir mehr Input benötigen: Lehrbücher.
+
+---
+   
+## magn. Felder
+
+Schaffen wir das noch diese Woche?
+
+---
+
+auf bald
