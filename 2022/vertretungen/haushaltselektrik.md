@@ -39,6 +39,8 @@ Lehrbuch ab Seite 200
 
 ![Beispeil Energieumwandlungskette](https://www.leifiphysik.de/sites/default/files/images/d3b1d0ed8e305c39faf450be32d2cfce/992dampfmaschine_generator_loesung.svg)
 
+
+
 ## Übertragung vom Kraftwerk bis zum Handy
 
 todo
