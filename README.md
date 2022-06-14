@@ -1,3 +1,3 @@
 # material
 
-A collection of lectures...
+A collection of lectures…
