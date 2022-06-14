@@ -14,6 +14,22 @@ Was sind unsere Ziele bis zu den Ferien?
 
 ---
 
+## Review
+
+Notiere auf einem Blatt Papier zu den Fragen mögliche Antworten.
+
+1. Woran haben wir gearbeitet, bevor Hr. Bitterlich übernommen hat?
+1. Was nehmen wir mit?
+1. Was sind unsere Ziele bis zu den Ferien?
+
+---
+
+## Vorschlag
+
+![dreirad](https://productimages.hepsiburada.net/s/19/550/9824841433138.jpg/format:webp)
+
+---
+
 ## Probleme mit dem Strom
 
 Wie war das nochmal?
