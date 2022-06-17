@@ -48,11 +48,11 @@ Notiere auf einem Blatt Papier zu den Fragen mögliche Antworten.
 
 * keine Ahnung
 * Gar nischt
-* Gratis Getränke von McDonalds generieren
+* **Gratis Getränke von McDonalds generieren**
 * Alles aus dem Unterricht
 * Mit dem RPI weiterarbeiten
 * Spaß haben
-* Alarmanlage fertig bauen
+* __Alarmanlage fertig bauen__
 
 ---
 

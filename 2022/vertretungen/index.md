@@ -9,3 +9,6 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 * [Haushaltselektrik](haushaltselektrik.md)
 
+# Klasse 8
+
+* [Physik ist...](physik_ist.slides.md)
