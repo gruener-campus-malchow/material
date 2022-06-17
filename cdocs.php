@@ -12,8 +12,6 @@ if (!preg_match('@\.md$@', $path)) die();
 // files ending in ".slides.md" get served as slides
 $is_slides = preg_match('@\.slides\.md$@', $path);
 
-
-
 if ($is_slides):
 // slides html:
 ?><!doctype html>
