@@ -40,10 +40,22 @@ Nächsten Dienstag (28.7.2022) ca. 16:00 Uhr vom Sportplatz des Robert Havemann 
 
 ## Offene Fragen
 
-
-
 * Wie müssen die Batterien verknüpft werden?
 * Welche Spannung haben wir dann?
 * Halten wir das Startgewicht ein?
 * Wie groß müsste der Ballon sein, wenn er nur unser Gewicht tragen muss?
 * Wie können wir alles befestigen?
+
+## Aufgaben
+
+Erstelle Skizzen und Pläne.
+
+Messe nach und bestimme das Gewicht der einzelnen Komponenten...
+
+Berechne das Gesamtgewicht aller Komponenten
+
+## Plan B 
+
+für alle, die sich damit nicht beschäftigen möchten...
+
+https://www.youtube.com/watch?v=2BXLGHuX8LY&list=PL0JavxASM3E2wlwPsLNDhRAkrK52-Y1k2
