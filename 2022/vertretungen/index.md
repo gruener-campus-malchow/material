@@ -13,3 +13,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 * [Physik ist...](physik_ist.slides.md)
  * [Ergebnisse der 8d](Physik_ist_---_8d.pdf) (lohnt sich, die im Präsentationsmodus zu blättern)
+
+# Klasse 9
+
+* [Strato](strato.md)
