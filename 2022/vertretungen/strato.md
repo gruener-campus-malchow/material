@@ -8,15 +8,21 @@ WTH: Stratosphäre
 
 Waren wir noch nicht beteiligt.
 
+https://www.robert-havemann-gymnasium.de/ballon
+
 ## Strato 2
 
 [Plakat Strato 2](Strato2_Montagsinfo.pdf)
 
 ![](Flyer_Call-4-Participation.png)
 
+[Start von Strato2](https://youtu.be/70g5KJijoQg?t=1919)
+
 Ging irgendwo in Polen herunter... Alle Technik verloren... und die Fotos.
 
 ## Strato 3
+
+[Start von Strato3](https://youtu.be/QAPzDm-8yBw?t=4341)
 
 [GitHub-Repo](https://github.com/gruener-campus-malchow/strato3)
 
@@ -37,6 +43,10 @@ Nächsten Dienstag (28.7.2022) ca. 16:00 Uhr vom Sportplatz des Robert Havemann 
 * Max. 330g für Technik und Batterien.
 
 ![](strato_leere_Sonde.jpeg)
+
+## Was bringt das?
+
+Ruhm und Ehre, Preisgelder: https://www.robert-havemann-gymnasium.de/jugend-forscht
 
 ## Offene Fragen
 
