@@ -1,13 +1,23 @@
+# requires mod_rewrite.c
+# this is *intentionally* not wrapped in an <IfModule> block, because exposing
+# some of the files might be dangerous (cdocs.php, see commit 5e5575cb)
 RewriteEngine On
-# replace /material/ with your base directory
-RewriteBase /material/
 
+# these three lines auto-detect the base directory of the .htaccess, you don't
+# need to configure anything
+RewriteBase /
+RewriteCond $1#%{REQUEST_URI} ^(.*)#(.*)\1$
+RewriteRule ^(.*)$ - [E=BASE:%2]
+
+# serve any markdown file through cdocs.php
 RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule ^(.*\.md) cdocs.php?md=$1 [L]
+RewriteRule ^(.*\.md) %{ENV:BASE}cdocs.php?md=$1 [L]
 
+# serve index.md if it exists when a directory is requested (like index.html)
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}index.md -f
-RewriteRule (.*) cdocs.php?md=$1index.md [L]
+RewriteRule (.*) %{ENV:BASE}cdocs.php?md=$1index.md [L]
 
+# block direct access to cdocs.php
 RewriteCond %{THE_REQUEST} cdocs.php
 RewriteRule . - [R=403,L]
