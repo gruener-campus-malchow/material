@@ -12,9 +12,9 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * Belehrungen/Stammdatenblätter einsammeln
 * Zentraltermin LB-Ausgabe
 * Sichtung der Schülerakten
-* Schüler/*innen mit SPF
+* Schüler*innen mit SPF
 * Meldung und Beratung von SuS mit besonderen Begabungen
-* Unterstützung bei Wahl der Kurssprecher/*innen + Meldung der Namen (3. Schulwoche LK-Stunde)
+* Unterstützung bei Wahl der Kurssprecher*innen + Meldung der Namen (3. Schulwoche LK-Stunde)
 * Fakultative Teilnahme an 1. Elternversammlung inkl. Wahl der Elternvertretung
  * Einladung und Leitung Oko
 * Motivation der SuS zur Übernahme von Aufgaben zur Unterstützung der GemS bei Bedarf
