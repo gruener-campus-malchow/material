@@ -3,6 +3,21 @@
 
 Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden.
 
+# 2022-2023
+
+Derzeit sind noch nicht alle Kurse verknüpft.
+
+## Informatik
+
+* [WPU Informatik Klasse 9](2023/informatik/wpu9/)
+* [Grundkurs Informatik Klasse 12](2023/informatik/gk13/)
+* [Grundkurs Informatik Klasse 13](2023/informatik/gk13/)
+
+## Physik
+
+* [Physikunterricht Klasse 9](2023/physik/ph9/)
+* [Leistungskurs Physik Klasse 12](2023/physik/lk12)
+
 # 2021-2022
 
 ## Informatik
