@@ -62,4 +62,4 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * Zeitgemäßer und funktionaler Stil von Vorträgen
 * Fähigkeiten wissenschaftlichen Arbeitens
 * Deutsch, Mathe, Englisch benutzen
-* Freude haben (Freude != Spaß)
+* Freude haben (Freude ≠ Spaß)
