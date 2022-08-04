@@ -20,7 +20,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * Motivation der SuS zur Übernahme von Aufgaben zur Unterstützung der GemS bei Bedarf
 * Zusammenarbeit mit Berater*innen FVAJ zur Berufsorientierung (Terminabsprachen vornehmen, siehe auch Kalenderblätter)
 
-### Fehlstundenmanagement
+### Fehlstunden&shy;management
 
 * Kursheft
  * Anwesenheit selbständig
