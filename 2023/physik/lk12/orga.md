@@ -10,22 +10,31 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 ## Tutorium
 
 * Belehrungen/Stammdatenblätter einsammeln
+ * Fluchtplan
 * Zentraltermin LB-Ausgabe
 * Sichtung der Schülerakten
 * Schüler*innen mit SPF
 * Meldung und Beratung von SuS mit besonderen Begabungen
 * Unterstützung bei Wahl der Kurssprecher*innen + Meldung der Namen (3. Schulwoche LK-Stunde)
 * Fakultative Teilnahme an 1. Elternversammlung inkl. Wahl der Elternvertretung
- * Einladung und Leitung Oko
+ * Einladung und Leitung Oko (bzw. Lernraum)
 * Motivation der SuS zur Übernahme von Aufgaben zur Unterstützung der GemS bei Bedarf
 * Zusammenarbeit mit Berater*innen FVAJ zur Berufsorientierung (Terminabsprachen vornehmen, siehe auch Kalenderblätter)
+* Mittagessen: https://luna.de
+* Testen Mo & Mi (freiwillig)
+* Hofpausen, Rauchen
+* neue Stundenzeiten
+* Toiletten: Wenn möglich nicht in 45 Minuten, ohne Handy
+* Vandalismus
+* Handyverbot
 
 ### Fehlstundenmanagement
 
-* Kursheft
- * Anwesenheit selbständig
+* Kursheft parallel Lernraum
+ * Anwesenheit im KH selbständig, LR durch LK
  * Unterstützung bei Stundeninhalten (rotierend)
-* Fehlzettel
+* Fehlzettelmanagement
+* Besserung in Sicht
 
 ### LK Physik
 
@@ -50,13 +59,15 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
  * Ziel: Hefter enthält Struktur und Inhalte des Wissens
  * Ordnung wird nicht überprüft oder bewertet
 * Lernzettel, halbieren zum Büffeln
-* gcm.schule/material
+* https://gcm.schule/material
 * Lernraum
 
 ## Ziele
 
 * Spannende Dinge lernen Leistungskurs = Konsens: Physik ist spannend
 * Leistungen steigern
+* Hohes fachliches Niveau
+* Grundbegriffe und Fachsprache sind vorausgesetzt
 * möglichst gutes Abitur
 * Vorbereitung auf Prüfungen
 * Zeitgemäßer und funktionaler Stil von Vorträgen
