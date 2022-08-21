@@ -14,3 +14,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 * [Koordinatensysteme und Felder](01_Koordinatensysteme_Felder.md)
 * [Gravitation](02_Gravitation_Newton.slides.md)
+
+### Ankündigung
+
+Freitag ist ein kurzer Test fällig.
