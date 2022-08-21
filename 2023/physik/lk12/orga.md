@@ -28,7 +28,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * Vandalismus
 * Handyverbot
 
-### Fehlstundenmanagement
+### Fehlstunden&shy;management
 
 * Kursheft parallel Lernraum
  * Anwesenheit im KH selbständig, LR durch LK
@@ -73,4 +73,4 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * Zeitgemäßer und funktionaler Stil von Vorträgen
 * Fähigkeiten wissenschaftlichen Arbeitens
 * Deutsch, Mathe, Englisch benutzen
-* Freude haben (Freude != Spaß)
+* Freude haben (Freude ≠ Spaß)

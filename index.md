@@ -10,7 +10,7 @@ Derzeit sind noch nicht alle Kurse verknüpft.
 ## Informatik
 
 * [WPU Informatik Klasse 9](2023/informatik/wpu9/)
-* [Grundkurs Informatik Klasse 12](2023/informatik/gk13/)
+* [Grundkurs Informatik Klasse 12](2023/informatik/gk12/)
 * [Grundkurs Informatik Klasse 13](2023/informatik/gk13/)
 
 ## Physik
