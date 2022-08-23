@@ -19,7 +19,7 @@ if ($is_slides):
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="https://gcm.schule/slides/public/theme-dark.css">
+		<link rel="stylesheet" href="https://gcm.schule/oldslides/public/theme-dark.css">
 		<title>CampusSlides</title>
 	</head>
 	<body>
@@ -30,12 +30,12 @@ if ($is_slides):
 				</section>
 			</div>
 		</div>
-		
-		<script src="https://gcm.schule/slides/public/dist/reveal.js"></script>
-		<script src="https://gcm.schule/slides/public/plugin/notes/notes.js"></script>
-		<script src="https://gcm.schule/slides/public/plugin/markdown/markdown.js"></script>
-		<script src="https://gcm.schule/slides/public/plugin/highlight/highlight.js"></script>
-		<script src="https://gcm.schule/slides/public/plugin/math/math.js"></script>
+
+		<script src="https://gcm.schule/oldslides/public/dist/reveal.js"></script>
+		<script src="https://gcm.schule/oldslides/public/plugin/notes/notes.js"></script>
+		<script src="https://gcm.schule/oldslides/public/plugin/markdown/markdown.js"></script>
+		<script src="https://gcm.schule/oldslides/public/plugin/highlight/highlight.js"></script>
+		<script src="https://gcm.schule/oldslides/public/plugin/math/math.js"></script>
 		<script>
 		Reveal.initialize({
 			hash: true,
@@ -56,4 +56,3 @@ else:
 <script src="https://gcm.schule/public/js/markdeep.min.js"></script>
 <?=file_get_contents($path);?>
 <?php endif;
-
