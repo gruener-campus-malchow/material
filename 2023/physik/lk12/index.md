@@ -13,6 +13,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 ## Woche 01
 
 * [Koordinatensysteme und Felder](01_Koordinatensysteme_Felder.md)
+* [Übungsaufgaben](01_übungen.md)
+* [Diskussion zu dem Fachartikel](01_Diskussion_Fachartikel.md)
 * [Gravitation](02_Gravitation_Newton.slides.md)
 
 ### Ankündigung

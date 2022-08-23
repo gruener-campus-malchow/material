@@ -70,7 +70,7 @@ Ein von der Sonne zum Planeten gezogener Fahrstrahl überstreicht in gleichen Ze
 
 ### Zweites Keplersches Gesetz
 
-Formulieren Sie Schlussfolgerungen, die aus dem ersten Keplerschen Gesetz folgen.
+Formulieren Sie Schlussfolgerungen, die aus dem zweiten Keplerschen Gesetz folgen.
 
 Sichwort: Geschwindigkeiten im Jahresverlauf
 
@@ -96,6 +96,6 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 ### Drittes Keplersches Gesetz
 
 
-Formulieren Sie Schlussfolgerungen, die aus dem ersten Keplerschen Gesetz folgen.
+Formulieren Sie Schlussfolgerungen, die aus dem dritten Keplerschen Gesetz folgen.
 
 Sichworte: Geschwindigkeiten im Vergleich
