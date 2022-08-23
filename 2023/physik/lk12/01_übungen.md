@@ -7,7 +7,7 @@ Zeichnen Sie in einem gemeinsamen Koordinatensystem folgende Punkte ein. Die Pol
 P(1,3)
 Q(3,60°)
 
-Bestimmen Sie den Abstand beider Punkte zueinander.
+Berechnen Sie den Abstand beider Punkte zueinander.
 
 ## Felder
 
