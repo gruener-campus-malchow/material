@@ -1,4 +1,4 @@
-# Ein Tag ohne Elektrizität
+# Leben ohne Elektrizität
 
 Notiere einige Folgen, die ein globaler Stromausfall für Dich hätte.
 
