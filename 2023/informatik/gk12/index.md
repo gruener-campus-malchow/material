@@ -12,5 +12,3 @@ Zunächst besprechen wir ein wenig [Organisatorisches](01_intro-orga.slides.md).
 Hier geht es um Markdown, HTML und CSS.
 
 ## Markdown
-
-- [Woche 01 Slides 01](01_makrdown.slides.md)
