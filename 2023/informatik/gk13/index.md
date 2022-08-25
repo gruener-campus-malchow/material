@@ -7,7 +7,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 ## Woche 01
 
-[Belehrungen](../01_Regeln_Computerraum_2019-08-03.pdf)
+[Belehrungen](../Regeln_Computerraum_2019-08-03.pdf)
 
 [Projektplanung](01_Projektplanung.md)
 
