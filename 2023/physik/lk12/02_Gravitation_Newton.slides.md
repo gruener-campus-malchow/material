@@ -22,11 +22,11 @@ Wenn Erde und Mond (oder auch Planeten und Sonne) sich anziehen, warum prallen s
 
 Wenn Erde und Mond (oder auch Planeten und Sonne) sich anziehen, warum prallen sie dann nicht aufeinander?
 
+~~~
 Annahmen: Kreisbahn, Reibungsfrei, r approx R, ...
-
 Ziel: 1. kosmische Geschwindigkeit
-
 Kräftegleichgewicht: F_Grav = F_Rad
+~~~
 
 1. Skizze in Hefter erstellen
 1. Formel in Hefter erstellen
