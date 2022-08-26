@@ -4,7 +4,7 @@
 
 ## Newtonsches Gravitationsgesetz
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NewtonsLawOfUniversalGravitation.svg/1280px-NewtonsLawOfUniversalGravitation.svg.png" style="background-color:white; height:90%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NewtonsLawOfUniversalGravitation.svg/1280px-NewtonsLawOfUniversalGravitation.svg.png" style="background-color:white; height:50%">
 
 1. Skizze an Tafel erstellen
 1. Formel an Tafel erstellen
