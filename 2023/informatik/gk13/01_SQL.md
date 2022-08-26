@@ -18,4 +18,8 @@ FOREIGN KEY (sender) REFERENCES personen(id),
 
 ~~~
 
+## Aufgabe
+
+Erstellen Sie CREATE-Statements für folgende Relationen.
+
 ![](01_tabellen.png)
