@@ -16,7 +16,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 
 ## Erstes Keplersches Gesetz
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
+![!white !round](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
 Funktioniert ganz gut, wenn man sehr große Massen gegen sehr kleine Massen einsetzt.
 
@@ -40,7 +40,7 @@ Sichworte: Kreisbahn, Abstände, Verhältnis der Massen
 
 ### Zweites Keplersches Gesetz
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
+![!white !round](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
 Ein von der Sonne zum Planeten gezogener Fahrstrahl überstreicht in gleichen Zeiten gleich große Flächen.
 
@@ -56,7 +56,7 @@ Sichwort: Geschwindigkeiten im Jahresverlauf
 
 ### Drittes Keplersches Gesetz
 
-![](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
+![!white !round](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
 Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
 
