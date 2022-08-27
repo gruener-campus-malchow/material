@@ -1,5 +1,5 @@
 
-![](pdfdrive_physik.png)
+![](./pdfdrive_physik.png)
 
 ---
 

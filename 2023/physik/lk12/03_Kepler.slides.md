@@ -64,7 +64,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 
 ### Drittes Keplersches Gesetz
 
-![Gerthsen, S.54](gerthsen_keppler-3.png)
+![Gerthsen, S.54](./gerthsen_keppler-3.png)
 
 Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
 
