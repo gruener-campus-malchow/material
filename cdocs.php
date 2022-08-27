@@ -19,29 +19,22 @@ if ($is_slides):
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="https://gcm.schule/oldslides/public/theme-dark.css">
-		<title>CampusSlides</title>
+		<title>GCM Slides</title>
+		<link rel="stylesheet" href="https://slides.gcm.schule/public/slides.css">
+		<script src="https://slides.gcm.schule/public/render-public.js"></script>
+		<style>
+			#md-content {
+				display: none;
+			}
+		</style>
+		<script>
+			addEventListener('load', () => {
+				slides.render(document.getElementById('md-content').value);
+			});
+		</script>
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-markdown>
-					<textarea data-template><?=file_get_contents($path)?></textarea>
-				</section>
-			</div>
-		</div>
-
-		<script src="https://gcm.schule/oldslides/public/dist/reveal.js"></script>
-		<script src="https://gcm.schule/oldslides/public/plugin/notes/notes.js"></script>
-		<script src="https://gcm.schule/oldslides/public/plugin/markdown/markdown.js"></script>
-		<script src="https://gcm.schule/oldslides/public/plugin/highlight/highlight.js"></script>
-		<script src="https://gcm.schule/oldslides/public/plugin/math/math.js"></script>
-		<script>
-		Reveal.initialize({
-			hash: true,
-			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
-		});
-		</script>
+		<textarea id="md-content"><?=file_get_contents($path)?></textarea>
 	</body>
 </html>
 <?php
