@@ -64,7 +64,7 @@ Mitschrift/Notizen entwerfen!
 
 ## Aufgaben
 
-1. Bearbeiten Sie die Aufgaben in folgendem [PDF](AF_LK12_Q1_Gravitationsfeld.pdf).
+1. Bearbeiten Sie die Aufgaben in folgendem [PDF](./AF_LK12_Q1_Gravitationsfeld.pdf).
 
 ---
 
