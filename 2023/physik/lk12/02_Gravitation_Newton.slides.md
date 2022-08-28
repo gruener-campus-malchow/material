@@ -1,5 +1,5 @@
 
-![](pdfdrive_physik.png)
+![](./pdfdrive_physik.png)
 
 ---
 
@@ -9,7 +9,7 @@
 
 ## Newtonsches Gravitationsgesetz
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NewtonsLawOfUniversalGravitation.svg/1280px-NewtonsLawOfUniversalGravitation.svg.png" style="background-color:white; height:200px">
+![!white !round](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NewtonsLawOfUniversalGravitation.svg/1280px-NewtonsLawOfUniversalGravitation.svg.png)
 
 1. Skizze in Hefter erstellen
 1. Formel in Hefter erstellen
