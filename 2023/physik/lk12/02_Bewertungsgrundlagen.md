@@ -22,7 +22,28 @@
 1. Einheiten kürzen
 1. gekürzte Einheiten (SI) wird zur Ehreneinheit
 $$
-{kg \cdot m } \over {s^2} = N
+{{kg \cdot m } \over {s^2}} = N
 $$
 
 ## Runden
+
+* Fehlerfortpflanzung: Erst wird mit Symbolen umgestellt, dann eingesetzt
+* üblicherweise zwei Nachkommastellen
+* Orientierung an gegebenen Werten
+
+## Formalismus
+
+* Gegeben (Geg.:)
+* Gesucht (Ges.:)
+* Lösung (Lös.:)
+* Antwort (Antw.:)
+
+## Beispiel
+
+$$
+Geg.:
+m_S = 1,989 \cdot 10^30 kg
+m_M = 0,34 \cdot 10^24 kg
+r_MS = 57,9 \cdot 10^6 km = 57,9 \cdot 10^9 m
+$$
+
