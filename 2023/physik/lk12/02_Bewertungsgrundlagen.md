@@ -42,10 +42,10 @@ $$
 
 $$
 \begin{align}
-&Geg.: \\
-&m_S = 1,989 \cdot 10^30 kg \\
-&m_M = 0,34 \cdot 10^24 kg \\
-&r_MS = 57,9 \cdot 10^6 km = 57,9 \cdot 10^9 m \\
+Geg.: \\
+m_S = 1,989 \cdot 10^30 kg \\
+m_M = 0,34 \cdot 10^24 kg \\
+r_MS = 57,9 \cdot 10^6 km = 57,9 \cdot 10^9 m \\
 \end{align}
 $$
 
