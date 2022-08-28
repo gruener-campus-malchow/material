@@ -21,8 +21,8 @@
 1. Zunächst alle Einheiten
 1. Einheiten kürzen
 1. gekürzte Einheiten (SI) wird zur Ehreneinheit
-`$$
+$$
 {kg \cdot m } \over {s^2} = N
-$$`
+$$
 
 ## Runden
