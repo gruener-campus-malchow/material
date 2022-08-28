@@ -41,26 +41,26 @@ $$
 
 ## Beispiel
 
+### Geg.:
 $$
 \begin{align}
-&Geg.: \\
 &m_S = 1,989 \cdot 10^30 kg \\
 &m_M = 0,34 \cdot 10^24 kg \\
 &r_MS = 57,9 \cdot 10^6 km = 57,9 \cdot 10^9 m \\
-&G = 6,673 \cdot 10^{-11} m^3 \over {kg \cdot s^2}\\
+&G = 6,673 \cdot 10^{-11} {m^3 \over {kg \cdot s^2}}\\
 \end{align}
 $$
 
+### Ges.:
 $$
 \begin{align}
-&Ges.: \\
 &F_G \\
 \end{align}
 $$
 
+### Lös.:
 $$
 \begin{align}
-&Lös.: \\
 F_G &= G \cdot {m_S \cdot m_M} \over {r_MS^2} \\
 &= foo\\
 \end{align}
