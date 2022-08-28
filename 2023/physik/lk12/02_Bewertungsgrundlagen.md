@@ -51,8 +51,7 @@ Ges.: \\
 F_G \\
 Lös.: \\
 F_G &= G \cdot {m_S \cdot m_M} \over {r_MS^2} \\
-&= 
-
+&= foo\\
 \end{align}
 $$
 
