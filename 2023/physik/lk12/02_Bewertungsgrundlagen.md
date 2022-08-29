@@ -1,15 +1,55 @@
 # Bewertungsgrundlagen
 
-## Koordinatensysteme
+* Unterschriften der Eltern
+* Berichtigung
+
+## Punktevergabe
+
+### Aufgabe 1a
+
+* Achsenbeschriftung
+* Skalenteilung sinnvoll
+* P korrekt eingetragen
+* Qkorrekt eingetragen
+
+### Aufgabe 1b
+
+* Ansatz
+* Rechnung
+* Ergebnis
+
+### Aufgabe 1c
+
+* Ansatz
+* Rechnung
+* Ergebnis
+
+### Aufgabe 2a
+
+* Formalismus (Geg., Ges., Lös., Antw.)
+* korrekte Werte ermittelt (abgeschrieben)
+* Formel/Ansatz (abgeschrieben)
+* Rechnung fehlerfrei (incl. Umstellen)
+* Einheitenbetrachtung
+* Ergebnis korrekt (FF möglich)
+
+### Aufgabe 2b und 2c
+
+* Faktor Ergebnis
+* Proportionalität 1/r²
+
+## Typische Probleme
+
+### Koordinatensysteme
 
 * Achsenpfeile zeigen in positive Richtung
 * Skalierung zielführend
 * Beschriftung (x,y) Zukunft: Einheiten!
 * Skizzen und Graphen mit Bleistift
-* Rechnungen **immer** mit 
+* Rechnungen **immer** mit "dokumentenechtem" Stift
 * Punkte werden als Kreuze markiert
 
-## typische Probleme
+### typische Probleme
 
 * km = 10³m
 * Klammern und Quadrate
@@ -17,7 +57,7 @@
  * -(-2)²
  * -2² = -(2²) ≠ (-2)²
 
-## Einheiten
+### Einheiten
 
 1. Zunächst alle Einheiten
 1. Einheiten kürzen
@@ -26,18 +66,30 @@ $$
 {{kg \cdot m } \over {s^2}} = N
 $$
 
-## Runden
+### Runden
 
 * Fehlerfortpflanzung: Erst wird mit Symbolen umgestellt, dann eingesetzt
 * üblicherweise zwei Nachkommastellen
 * Orientierung an gegebenen Werten
 
-## Formalismus
+### Formalismus
 
 * Gegeben (Geg.:)
 * Gesucht (Ges.:)
 * Lösung (Lös.:)
 * Antwort (Antw.:)
+
+## Schlussfolgerung
+
+### Positives zuerst
+
+Sie sind...
+
+* interessiert an Physik
+* motiviert
+* intelligent
+* allgemein gebildet
+
 
 ## Beispiel
 
@@ -61,8 +113,8 @@ $$
 ### Lös.:
 $$
 \begin{align}
-F_G &= G \cdot {m_S \cdot m_M} \over {r_MS^2} \\
-&= foo\\
+F_G &= G \cdot {{m_S \cdot m_M} \over {r_MS^2}}\\
+&= [...]\\
 \end{align}
 $$
 
