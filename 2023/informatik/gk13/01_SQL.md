@@ -38,8 +38,28 @@ Ein Beispiel aus dem (ehemaligen) Produktivbetrieb (Achtung, das ist MySQL/Maria
 
 ![](./Wetterstation_Datenbank_Datenstruktur.png)
 
-Daten von 2016/2017
+## Daten von 2016/2017
 
-[Daten Vorschau (32kb)](./wetterdatenbank_kurz.sql)
-[Daten Vollständig (42mb)](./wetterdatenbank.sql)
+* [Daten Vorschau (32kb)](./wetterdatenbank_kurz.sql)
+* [Daten Vollständig (42mb)](./wetterdatenbank.sql)
 
+Freiwillige interessante Aufgabe: Transformieren Sie die SQL-Queries von MariaDB nach SQLite... Spielen Sie damit!
+
+## Aufgabe
+
+1. Füllen Sie Ihre Datenbank mit Beispieldaten.
+2. Passen Sie Ihre Datenbank an: Es fehlt komplett der Zeitkontext - seien Sie kreativ!
+
+# Daten aus einer Datenbank abrufen
+
+Hier wird es Schritt für Schritt erklärt: https://www.sqlitetutorial.net/sqlite-select/
+
+## Aufgabe
+
+1. Entwerfen Sie ein paar nützliche oder sinnvolle Abfragen
+1. Präsentieren Sie Ihre Abfragen und die Ergebnisse in einer Präsentation mit https://slides.gcm.schule (Tipp: Image-Upload-Tutorial https://www.youtube.com/watch?v=G9b501I_rjs)
+ * ERM
+ * Beispielcode CREATE
+ * Beispielcode INSERT
+ * Beispielcode SELECT
+ * Ergebnis der SELECT-Query
