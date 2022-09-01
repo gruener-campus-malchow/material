@@ -12,3 +12,23 @@ Zunächst besprechen wir ein wenig [Organisatorisches](01_intro-orga.slides.md).
 Hier geht es um Markdown, HTML und CSS.
 
 ## Markdown
+
+[Steckbriefe](./steckbriefe.md)
+
+## PHP
+
+* https://onlinephp.io/
+* Grundlagen
+    * öffnendes Tag
+    * Output ist Code (MD oder HTML)
+    * Trick: markdeep und PHP
+
+### Aufgabe
+
+Erstellen Sie eine beliebige Webseite mit Blindtext, die mittels Schleifen beliebig viele Überschriften mit einer Tiefe von maximal h6 generiert. Treiben wir Markdeep an die Grenzen.
+
+~~~php
+$content = file_get_contents('http://loripsum.net/api');
+~~~
+
+Für die schnellen und erfahrenen PHP-Programmierer: Machen Sie mir einen sinnvollen Projektvorschlag. Erfüllen Sie immer(!) zuerst die Stundenaufgaben.
