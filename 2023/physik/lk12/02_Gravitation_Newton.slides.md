@@ -44,7 +44,7 @@ Kräftegleichgewicht: F_Grav = F_Rad
 
 1. Skizze in Hefter erstellen
 1. Formel in Hefter erstellen
-1. Simple Aufgaben erfinden (jeder eine!)
+1. ~~Simple Aufgaben erfinden (jeder eine!)~~
 
 ---
 
@@ -54,9 +54,17 @@ Kräftegleichgewicht: F_Grav = F_Rad
 
 ---
 
+## Umlaufbahnen
+
+http://www.abi-physik.de/buch/astronomie/satellitenbahnen/
+
+---
+
 ## Gravitationsfeld
 
 [Gravitationsfeld auf LEIFIphysik](https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/grundwissen/gravitationsfeld)
+
+oder als Integralrechnung: http://www.abi-physik.de/buch/astronomie/gravitationsfelder-2/
 
 Mitschrift/Notizen entwerfen!
 

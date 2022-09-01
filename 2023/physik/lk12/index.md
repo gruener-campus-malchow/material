@@ -16,9 +16,22 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * [Übungsaufgaben](01_übungen.md)
 * [Diskussion zu dem Fachartikel](01_Diskussion_Fachartikel.md)
 * [Gravitationsgesetz](02_Gravitation_Newton.slides.md)
-* [Bewertungsgrundlagen Test](02_Bewertungsgrundlagen.md)
-* [Kepler](03_Kepler.slides.md)
 
 ### Ankündigung
 
 Freitag ist ein kurzer Test fällig.
+
+## Woche 02
+
+### Todo
+
+* Kurssprecherwahl
+* Letzte Unterschriften, Stammdatenblätter
+* Berichtigungen
+
+### Material
+
+* [Bewertungsgrundlagen Test](02_Bewertungsgrundlagen.md)
+* [Gravitationsgesetz](02_Gravitation_Newton.slides.md)
+* [Kepler](03_Kepler.slides.md)
+

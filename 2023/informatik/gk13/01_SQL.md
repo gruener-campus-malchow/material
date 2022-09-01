@@ -23,3 +23,23 @@ FOREIGN KEY (sender) REFERENCES personen(id),
 Erstellen Sie CREATE-Statements für folgende Relationen.
 
 ![](01_tabellen.png)
+
+
+# Daten in die Datenbank einführen
+
+~~~sql
+INSERT INTO befehle(adressat, befehl, sender) VALUES
+(2,"Fliegen Sie nach Andromeda",1),
+(2,"Melden Sie sich bei der Sternenflotte",1),
+(14,"Reparieren Sie den Warpantrieb",2);
+~~~
+
+Ein Beispiel aus dem (ehemaligen) Produktivbetrieb (Achtung, das ist MySQL/MariaDB):
+
+![](./Wetterstation_Datenbank_Datenstruktur.png)
+
+Daten von 2016/2017
+
+[Daten Vorschau (32kb)](./wetterdatenbank_kurz.sql)
+[Daten Vollständig (42mb)](./wetterdatenbank.sql)
+
