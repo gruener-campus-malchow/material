@@ -25,7 +25,7 @@ Erstellen Sie CREATE-Statements für folgende Relationen.
 ![](01_tabellen.png)
 
 
-# Daten in die Datenbank einführen
+# Daten in die Datenbank einfügen
 
 ~~~sql
 INSERT INTO befehle(adressat, befehl, sender) VALUES
