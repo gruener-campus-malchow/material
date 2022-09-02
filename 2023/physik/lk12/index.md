@@ -35,3 +35,9 @@ Freitag ist ein kurzer Test fällig.
 * [Gravitationsgesetz](02_Gravitation_Newton.slides.md)
 * [Kepler](03_Kepler.slides.md)
 
+## Woche 03
+
+### Todo
+
+* psychosoziale Beratung (NL)
+
