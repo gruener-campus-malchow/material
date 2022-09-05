@@ -84,6 +84,6 @@ Sichworte: Geschwindigkeiten im Vergleich
 
 ---
 
-## Bonbon am Ande
+## Bonbon am Ende
 
 https://www.dwd.de/DE/wetter/thema_des_tages/2022/4/13.html
