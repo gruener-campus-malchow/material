@@ -4,9 +4,13 @@
 
 Die Planeten bewegen sich auf elliptischen Bahnen. In einem ihrer Brennpunkte steht die Sonne.
 
+---
+
 ### Zweites Keplersches Gesetz
 
 Ein von der Sonne zum Planeten gezogener Fahrstrahl überstreicht in gleichen Zeiten gleich große Flächen.
+
+---
 
 ### Drittes Keplersches Gesetz
 
@@ -64,7 +68,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 
 ### Drittes Keplersches Gesetz
 
-![Gerthsen, S.54](./gerthsen_keppler-3.png)
+![Proportionalität der Radien und Umlaufzeiten](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SolarSystem_Radii_and_Period_%28math%29.svg/800px-SolarSystem_Radii_and_Period_%28math%29.svg.png)
 
 Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
 
@@ -77,3 +81,9 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 Formulieren Sie Schlussfolgerungen, die aus dem dritten Keplerschen Gesetz folgen.
 
 Sichworte: Geschwindigkeiten im Vergleich
+
+---
+
+## Bonbon am Ande
+
+https://www.dwd.de/DE/wetter/thema_des_tages/2022/4/13.html

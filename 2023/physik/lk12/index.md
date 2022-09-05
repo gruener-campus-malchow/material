@@ -41,3 +41,14 @@ Freitag ist ein kurzer Test fällig.
 
 * psychosoziale Beratung (NL)
 
+### Material
+
+Am Ende kommt der Teil mit der Integralrechnung!
+
+Das mit dem PDF machen wir schnöde im Hefter.
+
+* [Gravitationsgesetz](02_Gravitation_Newton.slides.md)
+
+Nächstes Thema
+
+* [Kepler](03_Kepler.slides.md)
