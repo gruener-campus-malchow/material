@@ -68,7 +68,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 
 ### Drittes Keplersches Gesetz
 
-![Proportionalität der Radien und Umlaufzeiten](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SolarSystem_Radii_and_Period_%28math%29.svg/800px-SolarSystem_Radii_and_Period_%28math%29.svg.png)
+![!white](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SolarSystem_Radii_and_Period_%28math%29.svg/800px-SolarSystem_Radii_and_Period_%28math%29.svg.png)
 
 Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
 
