@@ -48,6 +48,7 @@ Am Ende kommt der Teil mit der Integralrechnung!
 Das mit dem PDF machen wir schnöde im Hefter.
 
 * [Gravitationsgesetz](02_Gravitation_Newton.slides.md)
+* [Gravitationsgesetz als Fließtext](02_Gravitation_Newton.md)
 
 Nächstes Thema
 
