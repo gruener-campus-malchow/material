@@ -87,25 +87,7 @@ Achtung!
 
 ---
 
-# Und heute?
-
-Sammle fünf Speicher für elektrische Energie. Sie dürfen gern "Umwege" nehmen und Energie in anderer Form als in freien Ladungen speichern.
-
-1. Think
-2. Peer
-
----
-
-# Und heute?
-
-Sammle drei Erzeuger für elektrische Energie.
-
-1. Think
-2. Peer
-
----
-
-# Nochmal langsam!
+# Schon die dritte Woche
 
 Definiere "elektrische Ladung".
 
@@ -115,6 +97,44 @@ Skizziere, wie eine Ladung auf seine Umgebung wirkt (Feld).
 
 ---
 
+# Und heute?
+
+Sammle fünf Speicher für elektrische Energie. Sie dürfen gern "Umwege" nehmen und Energie in anderer Form als in freien Ladungen speichern.
+
+1. Think/Read
+2. Peer
+
+---
+
+# Und heute?
+
+Sammle drei Erzeugungsmöglichkeiten für elektrische Energie.
+
+1. Think/Read
+2. Peer
+
+---
+
+# Messen elektrischer Energie
+
+* Spannung
+* Stromstärke
+* Kapazität von Akkus/Batterien
+
+---
+
 # Experimente
 
 Wozu? Wie? Protokoll?
+
+1. Nenne die Aufgaben von Experimenten!
+2. Erkläre die Aufgabe eines Protokolls!
+
+---
+
+# Leiter und Nichtleiter
+
+* z.B. Metalle, Holz, Luft, Wasser, Nahrungsmittel
+* Isolator
+
+https://studyflix.de/elektrotechnik/elektrisches-potential-1983
