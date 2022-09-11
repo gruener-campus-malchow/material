@@ -9,7 +9,7 @@
 * MP: MD nicht laut Aufgabenstellung
 * OM: Gut, interessant (sehr ausführlich, danke)
 * PF: ?
-* EM: ?
+* EM: Gerade noch pünktlich abgegeben, noch kein Feedback bekommen...
 * LS: ?
 
 Ich versende meinen Steckbrief zeitnah.
