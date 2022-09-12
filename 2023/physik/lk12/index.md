@@ -53,3 +53,18 @@ Das mit dem PDF machen wir schnöde im Hefter.
 Nächstes Thema
 
 * [Kepler](03_Kepler.slides.md)
+
+## Woche 04
+
+### Warm-Up
+
+<video src=broetchen.mp4>
+
+Aufgabe: Formulieren Sie eine Vermutung über die Ursache für die Geräusche.
+
+Letzte Runde Gravitation!
+
+### Rechenaufgaben
+
+- Was ist liegen geblieben?
+- [Aufgabenblatt](AB_Keplersche_Gesetze.pdf)

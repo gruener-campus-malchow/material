@@ -35,7 +35,17 @@
 
 [Uni Oldenburg](https://einstein.informatik.uni-oldenburg.de/rechnernetze/ftp.htm)
 
-Ergänzung: Crypto: FTP over SSH - Secure FTP - SFTP
+---
+
+## FTP aber sicher
+
+- AS3 (FTP ertüchtigt mit S/MIME und MDN-Zustellquittung)
+- Securing FTP with TLS (oft abgekürzt als FTPS)
+- SSH File Transfer Protocol (SFTP)
+
+Die theoretische Kombination „FTP over SSH“ (FTP über SSH-Tunnel) wurde aufgrund von Praxisproblemen durch SSH File Transfer Protocol (SFTP) verdrängt.
+
+(wikipedia)
 
 ---
 
@@ -51,3 +61,14 @@ Ergänzung: Crypto: FTP over SSH - Secure FTP - SFTP
 
 Bringen Sie hier Ihren Code zum Laufen!
 
+---
+
+## 4FastAndFurious
+
+LoremIpsum mit API-Request
+
+---
+
+## Ausblick
+
+HTTP-Requests, Formulare, Objektorientierung
