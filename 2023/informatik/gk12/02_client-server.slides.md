@@ -25,6 +25,12 @@
 
 > Zur Übertragung von Dateien wird im Internet neben anderen das File Transfer Protocol verwendet. Es hat eine lange Geschichte (seit 1971) und war bis ca. 1995 das Protokoll im Internet mit dem größten Verkehrsvolumen; seitdem hat diese Trophäe das HTTP.
 
+[Uni Oldenburg](https://einstein.informatik.uni-oldenburg.de/rechnernetze/ftp.htm)
+
+---
+
+## FTP-Server & FTP-Client
+
 > FTP ermöglicht dem Anwender die Manipulation von Directorys in anderen Rechnern über ein Rechnernetz sowie die Übertragung von Dateien (file transfer). Ein Anwender kann sich mittels FTP legitimieren, eine gewünschte Directory einsehen und eine Datei schreiben bzw. lesen.
 
 [Uni Oldenburg](https://einstein.informatik.uni-oldenburg.de/rechnernetze/ftp.htm)
