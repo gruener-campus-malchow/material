@@ -60,7 +60,7 @@ Nächstes Thema
 
 <video src=broetchen.mp4>
 
-Aufgabe: Formulieren Sie eine Vermutung über die Ursache für die Geräusche.
+Aufgabe: Formulieren Sie eine Hypothese über die Ursache für die Geräusche.
 
 Letzte Runde Gravitation!
 
