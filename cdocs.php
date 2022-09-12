@@ -20,8 +20,8 @@ if ($is_slides):
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 		<title>GCM Slides</title>
-		<link rel="stylesheet" href="https://slides.gcm.schule/public/slides.css">
-		<script src="https://slides.gcm.schule/public/render-public.js"></script>
+		<link rel="stylesheet" href="https://docs.gcm.schule/public/slides.css">
+		<script src="https://docs.gcm.schule/public/render-public.js"></script>
 		<style>
 			#md-content {
 				display: none;
@@ -49,3 +49,4 @@ else:
 <script src="https://gcm.schule/public/js/markdeep.min.js"></script>
 <?=file_get_contents($path);?>
 <?php endif;
+
