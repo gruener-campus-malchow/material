@@ -35,7 +35,7 @@ Ergänzung: Crypto: FTP over SSH - Secure FTP - SFTP
 
 # FTP-Server & FTP-Client
 
-![!white](https://einstein.informatik.uni-oldenburg.de/rechnernetze/Fachinhalte/Texte/Grundlagen/Fehlererkennung/FTP-1.gif)
+![!white ](https://einstein.informatik.uni-oldenburg.de/rechnernetze/Fachinhalte/Texte/Grundlagen/Fehlererkennung/FTP-1.gif)
 
 ---
 
