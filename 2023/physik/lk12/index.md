@@ -68,3 +68,14 @@ Letzte Runde Gravitation!
 
 - Was ist liegen geblieben?
 - [Aufgabenblatt](AB_Keplersche_Gesetze.pdf)
+
+### Dienstagsstunde
+
+- Zunächst kein Vergleich: Soll am Freitag stattfinden
+- Apropos Freitag: DM
+- [3. Kepplersches Gesetz und Keppler-Konstante](https://www.leifiphysik.de/astronomie/planetensystem/grundwissen/drittes-keplersches-gesetz)
+
+### Planung für Freitag
+
+- Vergleiche der Übungsaufgaben (Peer2Peer)
+- Aufgaben unten auf [Leifi](https://www.leifiphysik.de/astronomie/planetensystem/grundwissen/drittes-keplersches-gesetz)
