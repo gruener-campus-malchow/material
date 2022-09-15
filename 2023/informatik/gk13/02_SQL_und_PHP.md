@@ -4,7 +4,6 @@ Der folgende Code soll dabei helfen, erste Schritte mit PHP und SQL zu gehen...
 
 ~~~php
 
-<?php
 session_start();
 
 class Website
