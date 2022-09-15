@@ -13,4 +13,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 [SQL](01_SQL.md)
 
+## Woche 04
+
+[SQL und PHP](./02_SQL_und_PHP.md)
 
