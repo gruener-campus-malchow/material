@@ -14,7 +14,7 @@
 
 ### Kraftwirkung (Coulombsches Gesetz)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png)
+< img src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png style=background-color:white>
 
 $$
 F_el = {{1} \over {4 \pi \epsilon_o \epsilon_r }} \cdot {{q_1 \cdot q_2 }\over{r^2}}
