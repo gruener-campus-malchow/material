@@ -14,12 +14,12 @@
 
 ### Kraftwirkung (Coulombsches Gesetz)
 
-$$$
+$$
 F_el = {{1} \over {4 \pi \epsilon_o \epsilon_r }} \cdot {{q_1 \cdot q_2 }\over{r^2}}
-$$$
+$$
 
-$$$
+$$
 F_el = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}
-$$$
+$$
 
 ### Feldst?rke
