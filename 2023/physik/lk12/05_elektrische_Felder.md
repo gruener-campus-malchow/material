@@ -17,17 +17,34 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png" style="background-color:white; width:400px;">
 
 $$
-F_el = {{1} \over {4 \pi \epsilon_o \epsilon_r }} \cdot {{q_1 \cdot q_2 }\over{r^2}}
+F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} \cdot {{q_1 \cdot q_2 }\over{r^2}}
 $$
 
 $$
-F_el = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}
+F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}
 $$
 
 $$
-F_el \propto  {{q_1 q_2 }\over{r^2}}
+F_{el} \propto  {{q_1 q_2 }\over{r^2}}
 $$
 
 Beschreiben Sie in Sätzen, wie sich die Proportionalität ausdrückt, wenn sich abhängige Größen in der Gleichung ändern.
 
+> **Ungeladener** punktförmiger Affe klettert reibungsfrei masseloses Seil empor.
+
+[Übungsaufgaben](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/elektrische-kraft-im-radialsymmetrischen-elektrischen-feld-coulomb-feld-formelumstellung)
+
 ### Feldstärke
+
+$$
+E =  {{F}\over{q}}
+$$
+
+
+Feldstärke ist Kraft je Probeladung.
+
+Kraft ist Masse mal Beschleunigung.
+
+Gegenüberstellung von Gravitationsfeldstärke und el. Feldstärke
+
+Unterschied zwischen homogenem und inhomogenem Feld.
