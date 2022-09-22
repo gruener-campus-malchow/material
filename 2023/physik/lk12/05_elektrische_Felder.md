@@ -43,7 +43,7 @@ Richtung der Feldlinien stammt von tiefergehenden Betrachtungen, dem "elektrisch
 >
 
 $$
-\sigma \propto  {Q} ~ \sigma = {{1}\over{\epsilon_o}}  {Q}
+\sigma \propto  {Q} \newline \sigma = {{1}\over{\epsilon_o}}  {Q}
 $$
 
 [Übungsaufgaben](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/elektrische-kraft-im-radialsymmetrischen-elektrischen-feld-coulomb-feld-formelumstellung)
