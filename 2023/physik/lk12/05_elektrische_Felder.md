@@ -39,7 +39,7 @@ Beschreiben Sie in Sätzen, wie sich die Proportionalität ausdrückt, wenn sich
 Richtung der Feldlinien stammt von tiefergehenden Betrachtungen, dem "elektrischen Fluß", der sich nach dem "Satz von Gauß-Ostrogradski" folgendermaßen verhält:
 
 >
-> Der elektrische Fluss, der aus einer beliebigen in sich geschlossenen Fläche hervorquillt, ist proportional zu der Gesamtladung Q, die innerhalb dieser Fläche sitzt. Also $\straightphi \propto  {Q}$ bzw. $\straightphi = {{1}\over{\epsilon_o}}  {Q}$
+> Der elektrische Fluss, der aus einer beliebigen in sich geschlossenen Fläche hervorquillt, ist proportional zu der Gesamtladung Q, die innerhalb dieser Fläche sitzt. Also $\phi \propto  {Q}$ bzw. $\phi = {{1}\over{\epsilon_o}}  {Q}$
 >
 
 
