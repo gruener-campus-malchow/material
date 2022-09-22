@@ -7,5 +7,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Elektrizität
 
-[Stromquellen](01_Stromquellen.slides.md)
-[Elektrischer Strom](02_elektrischer_Strom.md)
+* [Stromquellen](01_Stromquellen.slides.md)
+* [Elektrischer Strom](02_elektrischer_Strom.md)
