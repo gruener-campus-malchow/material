@@ -6,6 +6,6 @@ https://www.leifiphysik.de/elektrizitaetslehre/stromwirkungen/grundwissen/wirkun
 
 Halten wir in einer Tabelle fest:
 
-| Wirkung | Beispiele aus dem Leben | Energiemenge |
-|–––|–––|–––|
-| Wärmewirkung | elektr. Heizung, alte Glühbirne | Viel Energieverbrauch |
+ Wirkung | Beispiele aus dem Leben | Energiemenge 
+–––|–––|–––
+ Wärmewirkung | elektr. Heizung, alte Glühbirne | Viel Energieverbrauch 
