@@ -30,9 +30,21 @@ $$
 
 Beschreiben Sie in Sätzen, wie sich die Proportionalität ausdrückt, wenn sich abhängige Größen in der Gleichung ändern.
 
+
+>
 > **Ungeladener** punktförmiger Affe klettert reibungsfrei masseloses Seil empor.
+>
+
+
+Richtung der Feldlinien stammt von tiefergehenden Betrachtungen, dem "elektrischen Fluß", der nach dem "Satz von Gauß":
+
+>
+> Der elektrische Fluss, der aus einer beliebigen in sich geschlossenen Fläche hervorquillt, ist proportional zu der Gesamtladung Q, die innerhalb dieser Fläche sitzt
+>
 
 [Übungsaufgaben](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/elektrische-kraft-im-radialsymmetrischen-elektrischen-feld-coulomb-feld-formelumstellung)
+
+spannende: [Aufgabe](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/doppelpendel)!
 
 ### Feldstärke
 
