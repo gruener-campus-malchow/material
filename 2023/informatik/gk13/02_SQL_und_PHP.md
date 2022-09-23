@@ -5,7 +5,6 @@ Der folgende Code soll dabei helfen, erste Schritte mit PHP und SQL zu gehen...
 ## Beispielcode für die einfache Arbeit mit PDO
 
 ~~~php
-
 session_start();
 
 class Website
@@ -38,7 +37,6 @@ class Website
 $mySite = new Website("SimpleChat");
 $mySite -> getChat();
 echo $mySite->html.'</body></html>';
-
 ~~~
 
 
@@ -46,7 +44,6 @@ echo $mySite->html.'</body></html>';
 
 
 ~~~php
-
 $sql='
 
 CREATE TABLE `asdfghj` (
@@ -69,5 +66,4 @@ $db = 'foo_user'; //ist nur zufällig gleich dem Benutzernamen
 $dbh = new PDO('mysql:host=localhost;dbname='.$db, $user, $password);
 
 $ergebnis = $dbh->query($sql);
-
 ~~~
