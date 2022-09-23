@@ -4,7 +4,9 @@ Der folgende Code soll dabei helfen, erste Schritte mit PHP und SQL zu gehen...
 
 ## Beispielcode für die einfache Arbeit mit PDO
 
+
 ~~~php
+
 session_start();
 
 class Website
