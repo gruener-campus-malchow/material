@@ -44,6 +44,7 @@ echo $mySite->html.'</body></html>';
 
 ## Beispielcode für ein primitives install-Skript
 
+
 ~~~php
 
 $sql='
@@ -60,8 +61,6 @@ INSERT INTO `asdfghj` (`qwerf`, `swef`, `sdf`, `sdfg`) VALUES
 (35, 235, 23523523, 325);
 COMMIT;
 ';
-
-
 
 $password = 'das_ist_geheim';
 $user = 'foo_user';
