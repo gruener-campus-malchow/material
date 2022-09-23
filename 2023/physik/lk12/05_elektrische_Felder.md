@@ -67,7 +67,15 @@ Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }
 
 ### Arbeit im homogenen el. Feld liefert die Spannung
 
-Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \DELTA E$.
+Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \Delta E_{Pot}$.
+
+Die im el. Feld an einer Ladung verrichteten Arbeit ist also seine Energiedifferenz $\Delta E_{Pot}$.
+
+In einem Feld definieren wir nun das Potential $\varphi = {\Delta E_{Pot}} over {q}$ - in Worten: potentielle Energie pro Ladung.
+
+Daraus folgt $\varphi = E \cdot s$.
+
+Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$
 
 
 
