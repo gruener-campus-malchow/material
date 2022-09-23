@@ -46,6 +46,7 @@ echo $mySite->html.'</body></html>';
 
 
 ~~~php
+
 $sql='
 
 CREATE TABLE `asdfghj` (
