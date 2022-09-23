@@ -15,6 +15,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 ## Woche 04
 
+
 [SQL und PHP](./02_SQL_und_PHP.md)
+
 [API und HTTP-Requests](./03_API_Requests.md)
 
