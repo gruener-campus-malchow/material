@@ -65,4 +65,11 @@ Unterschied zwischen homogenem und inhomogenem Feld:
 
 Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}$ und der Definition $E =  {{F}\over{q}}$ entsteht $E = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q}\over{r^2}}$
 
+### Arbeit im homogenen el. Feld liefert die Spannung
+
+Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \DELTA E$.
+
+
+
+
 
