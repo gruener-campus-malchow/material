@@ -77,7 +77,7 @@ Daraus folgt $\varphi = E \cdot s$.
 
 #### Wir zeigen: Potential und Spannung ist äquivalent
 
-Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zusammenhang $I = {{Q} \over {t}} bzw. $ I \cdot t = q$ folgt also $W = U \cdot q$.
+Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zusammenhang $I = {{Q} \over {t}}$ bzw. $ I \cdot t = q$ folgt also $W = U \cdot q$.
 
 Umgestellt heißt das $U = {W \over q} = {{E q s} \over {q}} = E \cdot s$. Das ist aber exakt das Potential $\varphi = E \cdot s$.
 
