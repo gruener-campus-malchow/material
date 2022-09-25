@@ -87,9 +87,15 @@ In einem Plattenkondensator gilt damit $U = \varphi_d - \varphi_0 = \varphi_d = 
 
 Anders ausgedrückt: $E = {{U}\over{d}}$.
 
-Das ist ziemlich logisch und kann auch experimentell untersucht werden.
+Das ist ziemlich logisch und kann auch experimentell untersucht werden. Außerdem können wir eine völlig neue Art an Aufgaben rechnen:
 
+#### Ladung im homogenen elektrischen Feld (Kondensator)
 
+Eine Ladung von 20nC befindet sich zwischen zwei Kondensatorplatten, die mit einer Spannung von 1,5kV geladen wurden. Der Plattenabstand beträgt 3,2cm. Bestimmen Sie die wirkende Kraft auf die Ladung.
+
+und/oder
+
+Mit einem waagerecht angeordneten Kondensator mit einem Plattenabstand von 1cm soll eine Ladung von 10nC zum Schweben im Gravitationsfeld der Erde gebracht werden. Der geladene Körper hat eine Masse von 1g. Bestimmen Sie die dafür nötige Spannung.
 
 
 
