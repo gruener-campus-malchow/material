@@ -81,7 +81,7 @@ Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zu
 
 Umgestellt heißt das $U = {W \over q} = {{E q s} \over {q}} = E \cdot s$. Das ist aber exakt das Potential $\varphi = E \cdot s$.
 
-Daraus folgt für zwei Punkte im elektrischen Feld: $ U = \Delta \varphi = \varphi_2 - \varphi_1.
+Daraus folgt für zwei Punkte im elektrischen Feld: $U = \Delta \varphi = \varphi_2 - \varphi_1$.
 
 In einem Plattenkondensator gilt damit $U = \varphi_d - \varphi_0 = \varphi_d = E \cdot d$.
 
