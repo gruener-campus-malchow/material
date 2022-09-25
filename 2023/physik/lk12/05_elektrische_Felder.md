@@ -68,15 +68,15 @@ Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }
 ### Arbeit im homogenen el. Feld liefert die Spannung
 
 >
-> zunächst ein Bonbon: https://www.deutschlandfunk.de/forschung-aktuell-100.html
+> Zunächst ein Bonbon: https://www.deutschlandfunk.de/forschung-aktuell-100.html
 > und passend zu einigen vergangenen Fragen eine Sternzeit: https://www.deutschlandfunk.de/winterhalbjahr-100.html
 >
 
 Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \Delta E_{Pot}$.
 
-Die im el. Feld an einer Ladung verrichteten Arbeit ist also seine Energiedifferenz $\Delta E_{Pot}$.
+Die im el. Feld an einer Ladung verrichteten Arbeit ist also deren Energiedifferenz $\Delta E_{Pot}$.
 
-In einem Feld definieren wir nun das Potential $\varphi = {\Delta E_{Pot}} \over {q}$ - in Worten: potentielle Energie pro Ladung.
+In einem Feld definieren wir nun das Potential $\varphi = {{\Delta E_{Pot}} \over {q}}$ - in Worten: potentielle Energie pro Ladung.
 
 Daraus folgt $\varphi = E \cdot s$.
 
