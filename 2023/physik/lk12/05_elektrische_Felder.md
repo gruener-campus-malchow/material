@@ -67,6 +67,11 @@ Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }
 
 ### Arbeit im homogenen el. Feld liefert die Spannung
 
+>
+> zunächst ein Bonbon: https://www.deutschlandfunk.de/forschung-aktuell-100.html
+> und passend zu einigen vergangenen Fragen eine Sternzeit: https://www.deutschlandfunk.de/winterhalbjahr-100.html
+>
+
 Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \Delta E_{Pot}$.
 
 Die im el. Feld an einer Ladung verrichteten Arbeit ist also seine Energiedifferenz $\Delta E_{Pot}$.
@@ -77,7 +82,7 @@ Daraus folgt $\varphi = E \cdot s$.
 
 #### Wir zeigen: Potential und Spannung ist äquivalent
 
-Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zusammenhang $I = {{Q} \over {t}}$ bzw. $ I \cdot t = q$ folgt also $W = U \cdot q$.
+Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zusammenhang $I = {{Q} \over {t}}$ bzw. $I \cdot t = q$ folgt also $W = U \cdot q$.
 
 Umgestellt heißt das $U = {W \over q} = {{E q s} \over {q}} = E \cdot s$. Das ist aber exakt das Potential $\varphi = E \cdot s$.
 
@@ -96,6 +101,8 @@ Eine Ladung von 20nC befindet sich zwischen zwei Kondensatorplatten, die mit ein
 und/oder
 
 Mit einem waagerecht angeordneten Kondensator mit einem Plattenabstand von 1cm soll eine Ladung von 10nC zum Schweben im Gravitationsfeld der Erde gebracht werden. Der geladene Körper hat eine Masse von 1g. Bestimmen Sie die dafür nötige Spannung.
+
+
 
 
 
