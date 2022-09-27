@@ -10,11 +10,14 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
 
 ## Umfang eines Protokolls im Leistungskurs
 
-- Protokollkopf [Protkollvorlage als ODT](foo.odt))
-  - Versuchsbezeichnung
-  - Namen der/des Protokollführenden und dessen/deren MitarbeiterIn
-  - Namen der/des Betreuenden
-  - Ort der Versuchsdurchführung und Bezeichnung des Versuchsplatzes
+- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Leistungskurs_Physik.odt)
+  - Mitglieder der Arbeitsgruppe
+  - Datum des Versuchs
+  - Datum der Abgabe
+  - Bewertung
+  - Bewertende Lehrkraft
+  - Unterschrift
+
 - Aufgabenstellung (Vorgabe durch die Lehrkraft)
   - wird kopiert
 - Versuchsaufbau
@@ -27,18 +30,14 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Zusammenstellung der für die Versuchsauswertung notwendigen Formeln mit Einheiten
 - Messungen
   - sollte in Tabellenform alle gemessenen Größen enthalten
-  - dazu gehören bei Einzelmessungen auch die zufälligen Messunsicherheiten
-  - Tabellen bezeichnen
   - Begründung von nicht erwarteten Messabweichungen
   - eindeutige Kennzeichnung von Messfehlern und Wiederholungen von Messungen
   - Notizen zur Versuchsdurchführung
 - Auswertung
-  - Analyse der erhaltenen Messwerte (keine willkürlichen Rundungen)
+  - Analyse der erhaltenen Messwerte
   - statistische Auswertung der Messgrößen bei Mehrfachmessungen
   - evtl. notwendige grafische Darstellungen in sinnvoller Göße und Skalierung
     - eindeutige Kennzeichnung der für die nachfolgenden Rechnungen wichtigen Größen in der Grafik
-  - Grafiken bezeichnen
-  - bei den Rechnungen keine willkürlichen Rundungen
 - Messunsicherheiten
   - dieser Abschnitt ist Pflicht aber stark vereinfacht
   - Formulieren Sie einen kurzen Text, in welchem mögliche und tatsächliche Fehlerquellen benannt werden
