@@ -76,7 +76,7 @@ Aus $W = F \cdot s$ entsteht mit $F = E \cdot q$ die Gleichung $W = E q s = \Del
 
 Die im el. Feld an einer Ladung verrichteten Arbeit ist also deren Energiedifferenz $\Delta E_{Pot}$.
 
-In einem Feld definieren wir nun das Potential $\varphi = {{\Delta E_{Pot}} \over {q}}$ - in Worten: potentielle Energie pro Ladung.
+In einem Feld definieren wir nun das Potential $\varphi = {{\Delta E_{Pot}} \over {q}}$ - in Worten: Potentielle Energie pro Ladung.
 
 Daraus folgt $\varphi = E \cdot s$.
 

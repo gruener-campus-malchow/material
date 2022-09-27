@@ -82,4 +82,9 @@ Letzte Runde Gravitation!
 
 ## Woche 05
 
-* [Elektrische Felder](05_elektrische_Felder.md)
+- [Elektrische Felder](05_elektrische_Felder.md)
+
+## Woche 06
+
+- [Elektrische Felder](05_elektrische_Felder.md)
+- [Experimente und Protokolle](06_Experimente_und_Protkolle.md)
