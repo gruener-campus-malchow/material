@@ -89,4 +89,8 @@ Letzte Runde Gravitation!
 - [Elektrische Felder](05_elektrische_Felder.md)
 - [Experimente und Protokolle](06_Experimente_und_Protkolle.md)
 
+## Woche nach den Ferien
+
+- [Aufgabenstellung Protokolle](07_Protokoll_Kondensator.md)
+
 Have a lot of fun!
