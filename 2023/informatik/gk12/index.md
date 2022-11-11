@@ -22,4 +22,4 @@ Hier geht es um Markdown, HTML und CSS.
 
 ## Softwareentwicklung
 
-- [Einführung von GIT](03_git_einführung.md)
+- [Einführung in GIT](03_git_einführung.md)
