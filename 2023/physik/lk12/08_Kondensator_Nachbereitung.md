@@ -1,6 +1,6 @@
 # Protokoll Nachbereitung
 
-1. Lesen Sie S. 151 und 152 im Lehrbruch S II, S.139 "Isolatoren erhöhen die Kapazität" in Impulse Physik, S. 121 "Kondensatoren mit einem Dielektrikum" und das Tafelwerk S. 80 oben
+1. Lesen Sie S. 151 und 152 im Lehrbruch S II, S.139 "Isolatoren erhöhen die Kapazität" in Impulse Physik, S. 121 "Kondensatoren mit einem Dielektrikum" in Fokus Physik und das Tafelwerk S. 80 oben
 1. Zeigen Sie aus den dort dargestellten Gleichungen für den Plattenkondensator, dass die Ladung sich verdoppelt, wenn man bei gleicher Spannung den Plattenabstand halbiert.
 1. Nennen Sie drei Stoffe, bei denen sich die Kapazität eines Kondensators mehr als verdreißigfachen würde, wenn man sie als Dielektrikum einsetzen würde.
 1. Erstellen Sie eine zweifarbige Skizze, bei der das elektrische Feld des Kondensators und das Feld des Dielektrikums in unterschiedlichen Farben dargestellt wird.
