@@ -93,4 +93,8 @@ Letzte Runde Gravitation!
 
 - [Aufgabenstellung Protokolle](07_Protokoll_Kondensator.md)
 
+## 2. Woche nach den Ferien
+
+- [Nachbereitung Protokolle](08_Kondensator_Nachbereitung.md)
+
 Have a lot of fun!
