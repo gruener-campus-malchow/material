@@ -19,7 +19,11 @@ Vollziehen Sie die Herleitung der Energie im Kondensator in Ihrem Hefter nach.
 
 Quelle: **Lehrbuch S II** S. 152ff
 
-Ausblick: Herleitung mit Ansatz $W = \[ \int_{0}^{Q} U(q) \,dq \]$
+Ausblick: Herleitung mit Ansatz 
+
+$$
+W = \[ \int_{0}^{Q} U(q) \,dq \]
+$$
 
 ---
 
