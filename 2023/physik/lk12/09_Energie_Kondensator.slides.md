@@ -22,7 +22,7 @@ Quelle: **Lehrbuch S II** S. 152ff
 Ausblick: Herleitung mit Ansatz 
 
 $$
-W = \[ \int_{0}^{Q} U(q) \,dq \]
+W =  \int_{0}^{Q} U(q) dq 
 $$
 
 ---
