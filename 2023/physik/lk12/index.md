@@ -96,5 +96,6 @@ Letzte Runde Gravitation!
 ## 2. Woche nach den Ferien
 
 - [Nachbereitung Protokolle](08_Kondensator_Nachbereitung.md)
+- [Energie im Kondensator](09_Energie_Kondensator.slides.md)
 
 Have a lot of fun!
