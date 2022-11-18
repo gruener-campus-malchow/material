@@ -27,6 +27,9 @@ $$
 
 ---
 
-## Vergleich Abiturprüfung GK 2021
+## Freitagsstunde
 
-siehe PDF!
+1. SLS https://www.deutschlandfunk.de/50-jahre-nach-apollo-17-die-usa-fliegen-wieder-zum-mondn-100.html
+2. https://www.deutschlandfunk.de/top-forscherinnen-im-portraet-mariana-rossi-6-6-dlf-d45110af-100.html
+3. Besprechung der Aufgaben vom Montag
+4. Energie im Kondensator: GK-Aufgabe 3 im Ausschnitt von 2021
