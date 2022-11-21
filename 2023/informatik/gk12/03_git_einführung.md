@@ -15,3 +15,8 @@ Benutzen Sie den Wikipediaartikel zu Git als Hauptquelle, um folgende Fragen/Asp
 ## Server / Architektur von GIT
 
 ## Syntax
+
+# Grafik erläutern
+
+![GIT-Workflow](scrum_workflow.png)
+
