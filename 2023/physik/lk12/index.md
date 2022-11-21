@@ -58,7 +58,7 @@ Nächstes Thema
 
 ### Warm-Up
 
-<video src=broetchen.mp4>
+[Video vom Brötchen](broetchen.mp4)
 
 Aufgabe: Formulieren Sie eine Hypothese über die Ursache für die Geräusche.
 
@@ -98,5 +98,8 @@ Letzte Runde Gravitation!
 - [Nachbereitung Protokolle](08_Kondensator_Nachbereitung.md)
 - [Energie im Kondensator](09_Energie_Kondensator.slides.md)
 
+## 3. Woche nach den Ferien
+
+- [Protokollaufgaben Magnetfeld](10_Protokollaugaben_Magnetfeld.md)
 
 Have a lot of fun!
