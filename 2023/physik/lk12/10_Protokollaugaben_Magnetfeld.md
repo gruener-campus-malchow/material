@@ -1,35 +1,26 @@
-## Orga
+# Experimente und Protkolle
 
-* Protokolle in PK 11
-* Fragen bisheriges Feedback?
-* Stand Zwischennoten?
-* Flyer FVAJ
+Spätestens im Studium werden Protkolle zu einer sehr aufwändigen aber interessanten und aufregenden Erfahrung führen. Das Abarbeiten, des in der Physikkultur entwickelten Formalismus, führt zu einer tieferen und praktischen Auseinandersetzung mit Phänomenen, die man sonst nur am Rande gestreift oder theoretisch betrachtet hat.
 
----
+## Umfang eines Protokolls im Leistungskurs
 
-## Berufsberatung FVAJ
+Bitte brachten Sie den schon erarbeiteten Umfang.
 
-> Wer schon ganz konkrete Fragen hat, möge sich bitte unbedingt vorher unter bvbo@fvaj.de anmelden und kann dann auch individuell beraten werden.
+[Protkollvorlage als ODT](./Protokoll_Leistungskurs_Physik.odt)
 
----
+## Aufgaben, die im Kontext des Protokolls bearbeitet und dargestellt werden sollen.
 
-## Herleitung Energie im Kondensator
+Die Aufgaben werden sinnhaft in die Protkollstruktur eingebettet. Die Theorieteile gehören meist in den Teil mit physikalischem Kontext. Sie sind oft als Sachanalyse zu verstehen, um die untersuchten Phänomene besser zu verstehen.
 
-Vollziehen Sie die Herleitung der Energie im Kondensator in Ihrem Hefter nach. 
+1. Erläutern Sie, wie das magentische Moment der Elemtentarteilchen, im Besonderen: der Elektronen, schließlich Ursache von Ferromagnetismus oder beim elektrischen Strom Ursache des Elektromagentismusist.
+2. Skizzieren Sie einen ferromagnetischen Stoff, wie Eisen oder Neodym-Eisen-Bor im chaotischen (entmagnetisierten) und im geordneten (magentisierten) Zustand so, dass die Elementarmagneten erkennbar sind.
+3. Skizzieren Sie die Magnetfelder von je einem geraden und einem U-förmigen Permamentmagneten.
+4. Skizzieren Sie die Magnetfelder von je einem geraden und einem spiralförmigen stromdurchflossenen Leiter.
+5. Erläutern Sie die "Linke-Hand-Regel", welche die Richtung des magnetischen Feldes eines elektrischen Stromes (z.B. im Leiter oder als Elektronen-Strahl) anzeigt.
+6. Vergleichen Sie die Wirkung von Dielektrika in Kondensatoren mit dem eines Eisenkerns in einer Spule.
+7. Vermessen Sie mit der App "Phyphox" und den Hall-Sensoren in Ihrem Handy das Erdmagnetfeld. Bestimmen Sie Norden. Geben Sie die von Ihrem Handy bestimmte maximale Magentfeldstärke an.
+8. Beschreiben Sie eine Methode mit der Sie für eine Raumachse halbwegs verlässliche Werte ermitteln konnten.
+9. Tauschen Sie mit mindestens drei weiteren Arbeitsgruppen die Messdaten aus und vergleichen Sie diese. Wenn es Sinn ergibt, bilden Sie einen Mittelwert. Bestimmen Sie die Abweichung vom letzten professionell gemessen Wert in Braunschweig (Messwerte vom 20.11.2022 20:43 Uhr Totalintensität: F = 49612,3 nT)
+10. Bestimmen Sie den Ort des Magnetfeldsensors in Ihrem Smartphone mit Hilfe eines kleinen Magneten. Beschreiben Sie Ihr Vorgehen.
+11. Untersuchen Sie das Magnetfeld einer mit Gleichstrom durchflossenen Spule. Bestimmen Sie bei immer gleichem Abstand die Magnetfeldtärke in Abhängigkeit zum Winkel. Gehen Sie in 30°-Schritten vor.
 
-Quelle: **Lehrbuch S II** S. 152ff
-
-Ausblick: Herleitung mit Ansatz 
-
-$$
-W =  \int_{0}^{Q} U(q) dq 
-$$
-
----
-
-## Freitagsstunde
-
-1. SLS https://www.deutschlandfunk.de/50-jahre-nach-apollo-17-die-usa-fliegen-wieder-zum-mondn-100.html
-2. https://www.deutschlandfunk.de/top-forscherinnen-im-portraet-mariana-rossi-6-6-dlf-d45110af-100.html
-3. Besprechung der Aufgaben vom Montag
-4. Energie im Kondensator: GK-Aufgabe 3 im Ausschnitt von 2021
