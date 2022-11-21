@@ -12,11 +12,11 @@ Bitte brachten Sie den schon erarbeiteten Umfang.
 
 Die Aufgaben werden sinnhaft in die Protkollstruktur eingebettet. Die Theorieteile gehören meist in den Teil mit physikalischem Kontext. Sie sind oft als Sachanalyse zu verstehen, um die untersuchten Phänomene besser zu verstehen.
 
-1. Erläutern Sie, wie das magentische Moment der Elemtentarteilchen, im Besonderen: der Elektronen, die Ursache von Ferromagnetismus oder beim elektrischen Strom Ursache des Elektromagentismus ist.
-2. Skizzieren Sie einen ferromagnetischen Stoff, wie Eisen oder Neodym-Eisen-Bor im chaotischen (entmagnetisierten) und im geordneten (magentisierten) Zustand so, dass die so genannten Elementarmagneten erkennbar sind.
+1. Erläutern Sie, wie das magnetische Moment der Elementarteilchen, im Besonderen: der Elektronen, die Ursache von Ferromagnetismus oder beim elektrischen Strom Ursache des Elektromagentismus ist.
+2. Skizzieren Sie einen ferromagnetischen Stoff, wie Eisen oder Neodym-Eisen-Bor im chaotischen (entmagnetisierten) und im geordneten (magentisierten) Zustand so, dass die so genannten Elementarmagnete erkennbar sind.
 3. Skizzieren Sie die Magnetfelder von je einem geraden und einem U-förmigen Permamentmagneten. Markieren Sie Bereiche, die annähernd homogen sind.
 4. Skizzieren Sie die Magnetfelder von je einem geraden und einem spiralförmigen stromdurchflossenen Leiter (Draht und Spule).
-5. Erläutern Sie die "Linke-Hand-Regel", welche die Richtung des magnetischen Feldes eines elektrischen Stromes (z.B. im Leiter oder als Elektronen-Strahl) anzeigt.
+5. Erläutern Sie die "Linke-Hand-Regel", welche die Richtung des magnetischen Felds eines elektrischen Stromes (z.B. im Leiter oder als Elektronen-Strahl) anzeigt.
 6. Vergleichen Sie die Wirkung von Dielektrika in Kondensatoren mit dem eines Eisenkerns in einer Spule. Gehen Sie dabei insbesondere auf die unterschiedliche Wirkung der Dipole auf das jeweilige Feld ein.
 7. Vermessen Sie mit der App "Phyphox" und den Hall-Sensoren in Ihrem Handy das Erdmagnetfeld. Bestimmen Sie Norden. Geben Sie die von Ihrem Handy bestimmte maximale Magentfeldstärke an.
 8. Beschreiben Sie eine Methode, mit der Sie für eine Raumachse halbwegs verlässliche Werte ermitteln können.
