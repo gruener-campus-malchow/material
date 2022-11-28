@@ -17,3 +17,5 @@ Der Schwerpunkt der Klausur liegt eindeutig beim Kondensator...
 
 - Magnetfelder skizzieren
 - Kraftwirkung erläutern
+
+Have a lot of fun!

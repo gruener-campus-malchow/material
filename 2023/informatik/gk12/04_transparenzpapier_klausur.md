@@ -14,3 +14,5 @@
 - GIT-Workflow darstellen
 - Nutzen und Eigenschaften von Scrum erläutern
 - Verwendung von Vorgehensmodellen in einem gegebenen Szenario anhand vorgegebener Parameter beurteilen
+
+Have a lot of fun!
