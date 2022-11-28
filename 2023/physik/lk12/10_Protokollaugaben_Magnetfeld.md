@@ -10,7 +10,7 @@ Bitte brachten Sie den schon erarbeiteten Umfang.
 
 ## Aufgaben, die im Kontext des Protokolls bearbeitet und dargestellt werden sollen.
 
-Die Aufgaben werden sinnhaft in die Protkollstruktur eingebettet. Die Theorieteile gehören meist in den Teil mit physikalischem Kontext. Sie sind oft als Sachanalyse zu verstehen, um die untersuchten Phänomene besser zu verstehen.
+Die Aufgaben werden sinnhaft in die Protokollstruktur eingebettet. Die Theorieteile gehören meist in den Teil mit physikalischem Kontext. Sie sind oft als Sachanalyse zu verstehen, um die untersuchten Phänomene besser zu verstehen.
 
 1. Erläutern Sie, wie das magnetische Moment der Elementarteilchen, im Besonderen: der Elektronen, die Ursache von Ferromagnetismus oder beim elektrischen Strom Ursache des Elektromagentismus ist.
 2. Skizzieren Sie einen ferromagnetischen Stoff, wie Eisen oder Neodym-Eisen-Bor im chaotischen (entmagnetisierten) und im geordneten (magentisierten) Zustand so, dass die so genannten Elementarmagnete erkennbar sind.

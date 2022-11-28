@@ -101,5 +101,6 @@ Letzte Runde Gravitation!
 ## 3. Woche nach den Ferien
 
 - [Protokollaufgaben Magnetfeld](10_Protokollaugaben_Magnetfeld.md)
+- [Transparenzpapier Klausur Kondensatoren und Magnetismus](11_Transparenzpapier_Klausur_Kondensatoren_und_Magnetismus.md)
 
 Have a lot of fun!
