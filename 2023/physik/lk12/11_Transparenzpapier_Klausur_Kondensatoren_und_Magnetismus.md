@@ -11,11 +11,11 @@ Der Schwerpunkt der Klausur liegt eindeutig beim Kondensator...
 - Lade- und Entladefunktion, Zeiten
 - Entladekurven interpretieren und vergleichen
 - Kapazität mit und ohne Dielektrikum berechnen
-- Aufbau von Kondensatoren beurteilen
 
 ## Magnetfelder
 
 - Magnetfelder skizzieren
 - Kraftwirkung erläutern
+- Magnetisierung/ Entmagnetisierung erklären
 
 Have a lot of fun!
