@@ -4,7 +4,7 @@
 ## OOP mit PHP
 
 - 2.1.1  Klassendiagramm in PHP-Code überführen (15 BE, AB 1)
-- 2.1.2  Textvorgabe als Klassendiagramm modellieren (25 BE, AB 3)
+- 2.1.2  Textvorgabe als Klassendiagramm modellieren (15 BE, AB 3)
 - 2.1.3  Ein Klassendiagramm erweitern (10 BE, AB 2)
 - 2.1.4  PHP-Syntax interpretieren (10 BE, AB 3)
 
