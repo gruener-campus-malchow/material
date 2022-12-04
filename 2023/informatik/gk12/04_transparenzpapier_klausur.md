@@ -3,16 +3,19 @@
 
 ## OOP mit PHP
 
-- Klassendiagramm aus Text ableiten
-- Existierendes Klassendiagramm erweitern
-- Klassendiagramm in PHP-Code überführen (nur Methoden-Rümpfe)
-- Grundlegende PHP-Syntax interpretieren
+- 2.1.1  Klassendiagramm in PHP-Code überführen (10 BE, AB 2)
+- 2.1.2  Textvorgabe als Klassendiagramm modellieren (20 BE, AB 3)
+- 2.1.3  Ein Klassendiagramm erweitern (10 BE, AB 1)
+- 2.1.4  PHP-Syntax interpretieren (10 BE, AB 2)
 
 ## Techniken der Softwareentwicklung
 
-- Nutzen von GIT erklären
-- GIT-Workflow darstellen
-- Nutzen und Eigenschaften von Scrum erläutern
-- Verwendung von Vorgehensmodellen in einem gegebenen Szenario anhand vorgegebener Parameter beurteilen
+- 2.2.1  Nutzen von GIT erklären und Features nennen (15 BE, AB 2)
+- 2.2.2  GIT-Workflow darstellen (10 BE, AB 1)
+- 2.2.3  Nutzen und Eigenschaften von Scrum erläutern (15 BE, AB 2)
 
 Have a lot of fun!
+
+
+
+
