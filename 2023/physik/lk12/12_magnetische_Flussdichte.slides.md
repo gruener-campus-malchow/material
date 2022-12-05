@@ -36,7 +36,7 @@ $$
 ## Magnetische Feldstärke
 
 $$
-H = {\my}_0 {\my}_r B
+H = {\mu}_0 {\mu}_r B
 $$
 
 ---
