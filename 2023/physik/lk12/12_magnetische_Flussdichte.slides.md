@@ -28,7 +28,7 @@ $$
 bzw.
 
 $$
-\vec{F} =  l ( \vec{I} \cross \vec{B} )
+\vec{F} =  l ( \vec{I} \times \vec{B} )
 $$
 
 ---
