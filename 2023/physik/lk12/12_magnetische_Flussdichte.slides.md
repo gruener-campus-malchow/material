@@ -36,8 +36,26 @@ $$
 ## Magnetische Feldstärke
 
 $$
-H = 
+H = {\my}_0 {\my}_r B
 $$
 
 ---
 
+## Rechnen
+
+siehe Lehrbuch Duden
+
+---
+
+## Orga
+
+- Termine eintragen
+- Weihnachtsfeier: 21.12.22 8:00 bis 12:30
+  - Vorschläge, Komission?, Aktionen?
+
+
+---
+
+## Klausuren
+
+- Aufgaben schrittweise besprechen
