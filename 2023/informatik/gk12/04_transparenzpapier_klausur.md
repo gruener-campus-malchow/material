@@ -15,4 +15,3 @@
 - 2.2.3  Nutzen und Eigenschaften von Scrum erläutern (15 BE, AB 2)
 
 Have a lot of fun...
-
