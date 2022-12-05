@@ -36,7 +36,7 @@ $$
 ## Magnetische Feldstärke
 
 $$
-H = {\mu}_0 {\mu}_r B
+B = {\mu}_0 {\mu}_r H
 $$
 
 - magnetische Feldkonstante ist Proportionalitätsfaktor
