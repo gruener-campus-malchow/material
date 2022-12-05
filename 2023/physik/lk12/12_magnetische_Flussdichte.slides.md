@@ -25,6 +25,11 @@ $$
 F =  B \cdot I \cdot l \cdot \sin{\alpha}
 $$
 
+bzw.
+
+$$
+\vec{F} =  l ( \vec{I} \cross \vec{B} )
+$$
 
 ---
 
