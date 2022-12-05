@@ -10,7 +10,7 @@
 ## Magnetische Flussdichte
 
 $$
-B = { {I} \over {I \cdot l}}
+B = { {F} \over {I \cdot l}}
 $$
 
 Skizze!
