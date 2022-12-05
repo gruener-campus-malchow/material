@@ -39,6 +39,9 @@ $$
 H = {\mu}_0 {\mu}_r B
 $$
 
+- magnetische Feldkonstante ist Proportionalitätsfaktor
+- Permeabilitätszahl ist Materialkonstante
+
 ---
 
 ## Rechnen
