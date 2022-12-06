@@ -105,6 +105,7 @@ Letzte Runde Gravitation!
 
 ## 4. Woche nach den Ferien
 
-- [Magnetische Felder](12_magnetische_Flussdichte.slides.md)
+- [Magnetische Felder I](12_magnetische_Flussdichte.slides.md)
+- [Magnetische Felder II](13_Magnetfelder_Draht_Spule.slides.md)
 
 Have a lot of fun!
