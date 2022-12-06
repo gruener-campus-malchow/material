@@ -33,9 +33,9 @@ Rechnen!
 
 ---
 
-> Ein stromdurchflossener Draht hängt frei beweglich in einem zeit-
-> lich konstanten Magnetfeld. Unter welchen Umständen kommt
-> über längere Zeiten keine Verschiebung des Drahtes zustande?
+> Ein stromdurchflossener Draht hängt frei beweglich in einem zeitlich konstanten Magnetfeld.
+> Unter welchen Umständen kommt über längere Zeiten keine Verschiebung des Drahtes zustande?
+> 
 > Antworten Sie für Gleich- und für Wechselstrom.
 > (Gerthsen Physik 2009)
 
