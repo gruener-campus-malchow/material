@@ -21,7 +21,7 @@ Skizze!
 
 https://www.bafu.admin.ch/bafu/de/home/themen/elektrosmog/fachinformationen/elektrosmog-quellen/hochspannungsleitungen--freileitungen--als-elektrosmog-quelle.html
 
-![https://www.bundespolizei.de/Web/DE/02Sicher-im-Alltag/04Sicher-auf-Bahnanlagen/01_Eigene-Vorsicht/150602_bahnstrom_flyer-jugendliche_file.pdf](Bahnstrom.png)
+![https://www.bundespolizei.de/Web/DE/02Sicher-im-Alltag/04Sicher-auf-Bahnanlagen/01_Eigene-Vorsicht/150602_bahnstrom_flyer-jugendliche_file.pdf](./Bahnstrom.png)
 
 ---
 
