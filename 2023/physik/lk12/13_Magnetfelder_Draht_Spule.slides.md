@@ -21,55 +21,36 @@ Skizze!
 
 https://www.bafu.admin.ch/bafu/de/home/themen/elektrosmog/fachinformationen/elektrosmog-quellen/hochspannungsleitungen--freileitungen--als-elektrosmog-quelle.html
 
+---
+
+## gerader Leiter
+
 ![](./Bahnstrom.png)
 
 https://www.bundespolizei.de/Web/DE/02Sicher-im-Alltag/04Sicher-auf-Bahnanlagen/01_Eigene-Vorsicht/150602_bahnstrom_flyer-jugendliche_file.pdf
 
----
-
-
-## Magnetische Flussdichte (Q3 Kreuzprodukt)
-
-Wenn die Winkel B zu I nicht rechtwinklig sind:
-
-$$
-F =  B \cdot I \cdot l \cdot \sin{\alpha}
-$$
-
-bzw.
-
-$$
-\vec{F} =  l ( \vec{I} \times \vec{B} )
-$$
+Rechnen!
 
 ---
 
-## Magnetische Feldstärke
+> Ein stromdurchflossener Draht hängt frei beweglich in einem zeit-
+> lich konstanten Magnetfeld. Unter welchen Umständen kommt
+> über längere Zeiten keine Verschiebung des Drahtes zustande?
+> Antworten Sie für Gleich- und für Wechselstrom.
+> (Gerthsen Physik 2009)
+
+---
+
+## lange stromdurchflossene Spule
 
 $$
-B = {\mu}_0 {\mu}_r H
+B = {\mu}_0 {\mu}_r { {N \cdot I} \over {l}}
 $$
 
-- magnetische Feldkonstante ist Proportionalitätsfaktor
-- Permeabilitätszahl ist Materialkonstante
+Skizze!
 
 ---
 
-## Rechnen
+## typische Permeabilitätszahlen
 
-siehe Lehrbuch Duden
-
----
-
-## Orga
-
-- Termine eintragen
-- Weihnachtsfeier: 21.12.22 8:00 bis 12:30
-  - Vorschläge, Komission?, Aktionen?
-
-
----
-
-## Klausuren
-
-- Aufgaben schrittweise besprechen
+https://de.wikipedia.org/wiki/Magnetische_Permeabilit%C3%A4t
