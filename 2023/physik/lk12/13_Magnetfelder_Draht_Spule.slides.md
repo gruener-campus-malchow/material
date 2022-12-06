@@ -37,6 +37,7 @@ Rechnen!
 > Unter welchen Umständen kommt über längere Zeiten keine Verschiebung des Drahtes zustande?
 > 
 > Antworten Sie für Gleich- und für Wechselstrom.
+> 
 > (Gerthsen Physik 2009)
 
 ---
