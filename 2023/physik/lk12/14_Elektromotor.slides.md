@@ -10,10 +10,22 @@ Kurze Sammlung an Einsatzgebieten!
 
 ---
 
+!()[emotor_alltag_industrie.png]
+
+---
+
 ## Aufgabenstellung
 
 Erklären Sie die Funktionsweise des einen oder anderen Elektromotors.
 
 - Gleichstrommotor
+    - Pool A: Julian, Ben, Emil, 
+    - Pool B: Jermaine, Aaron, Toni, 
+    - Pool C: Jolina, Ben, Philipp, Oganes
 - Wecshelstrommotor
+    - Sebastian, Marco, Avidan
 - Schrittmotor (Stepper)
+    - Max, Finnegan, Floe
+
+---
+
