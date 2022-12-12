@@ -22,7 +22,7 @@ Erklären Sie die Funktionsweise des einen oder anderen Elektromotors.
     - Pool A: Julian, Ben, Emil
     - Pool B: Jermaine, Aaron, Toni
     - Pool C: Jolina, Ben, Philipp, Oganes
-- Wecshelstrommotor
+- Wechselstrommotor
     - Sebastian, Marco, Avidan
 - Schrittmotor (Stepper)
     - Max, Finnegan, Floe
