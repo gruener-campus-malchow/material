@@ -12,10 +12,9 @@ Kurze Sammlung an Einsatzgebieten!
 
 ![](./emotor_alltag_industrie.png)
 
+---
 
-<!--
-# http://www.graphviz.org/content/cluster
-
+<img src='https://g.gravizo.com/svg?
 digraph G {
   graph [fontname = "Handlee"];
   node [fontname = "Handlee"];
@@ -53,7 +52,7 @@ i -> Trockner;
 i -> Güterzug;
 }
 
--->
+'/>
 
 ---
 
@@ -62,9 +61,9 @@ i -> Güterzug;
 Erklären Sie die Funktionsweise des einen oder anderen Elektromotors.
 
 - Gleichstrommotor
-    - Pool A: Julian, Ben, Emil
+    - Pool A: Julian, BenS, Emil
     - Pool B: Jermaine, Aaron, Toni
-    - Pool C: Jolina, Ben, Philipp, Oganes
+    - Pool C: Jolina, BenM, Philipp, Oganes
 - Wechselstrommotor
     - Sebastian, Marco, Avidan
 - Schrittmotor (Stepper)
