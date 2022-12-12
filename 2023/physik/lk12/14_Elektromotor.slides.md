@@ -14,7 +14,7 @@ Kurze Sammlung an Einsatzgebieten!
 
 ---
 
-<img style="background-color: white;" src='https://g.gravizo.com/svg?
+~~~
 digraph G {
   graph [fontname = "Handlee"];
   node [fontname = "Handlee"];
@@ -46,7 +46,7 @@ i -> Festplatte;
 i -> Trockner;
 i -> Güterzug;
 }
-'/>
+~~~
 
 ---
 
