@@ -14,7 +14,7 @@ Kurze Sammlung an Einsatzgebieten!
 
 ---
 
-<img src='https://g.gravizo.com/svg?
+<img style="background-color: white;" src='https://g.gravizo.com/svg?
 digraph G {
   graph [fontname = "Handlee"];
   node [fontname = "Handlee"];
