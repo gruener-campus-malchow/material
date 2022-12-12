@@ -108,4 +108,8 @@ Letzte Runde Gravitation!
 - [Magnetische Felder I](12_magnetische_Flussdichte.slides.md)
 - [Magnetische Felder II](13_Magnetfelder_Draht_Spule.slides.md)
 
+## 5. Woche nach den Ferien
+
+- [Elektromotoren](14_Elektromotor.slides.md)
+
 Have a lot of fun!
