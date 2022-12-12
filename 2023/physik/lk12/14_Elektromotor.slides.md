@@ -19,11 +19,8 @@ digraph G {
   graph [fontname = "Handlee"];
   node [fontname = "Handlee"];
   edge [fontname = "Handlee"];
-
   bgcolor=transparent;
   layout=circo;
-  //overlap="compress"
-
  Alltag -> EBike;
  Alltag -> Zahnbürste;
  Alltag -> Drehtür;
@@ -36,8 +33,6 @@ digraph G {
  Alltag -> Uhr;
  Alltag -> Mixer;
  Alltag -> Laufwerke;
-
-
 i [label="Industrie \n und Wissenschaft"];
 i -> Roboter;
 i -> Zentrifuge;
@@ -51,7 +46,6 @@ i -> Festplatte;
 i -> Trockner;
 i -> Güterzug;
 }
-
 '/>
 
 ---
