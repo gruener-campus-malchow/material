@@ -19,8 +19,8 @@ Kurze Sammlung an Einsatzgebieten!
 Erklären Sie die Funktionsweise des einen oder anderen Elektromotors.
 
 - Gleichstrommotor
-    - Pool A: Julian, Ben, Emil, 
-    - Pool B: Jermaine, Aaron, Toni, 
+    - Pool A: Julian, Ben, Emil
+    - Pool B: Jermaine, Aaron, Toni
     - Pool C: Jolina, Ben, Philipp, Oganes
 - Wecshelstrommotor
     - Sebastian, Marco, Avidan
