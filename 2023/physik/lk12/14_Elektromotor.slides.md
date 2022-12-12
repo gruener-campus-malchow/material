@@ -10,7 +10,7 @@ Kurze Sammlung an Einsatzgebieten!
 
 ---
 
-!()[emotor_alltag_industrie.png]
+!()[./emotor_alltag_industrie.png]
 
 ---
 
