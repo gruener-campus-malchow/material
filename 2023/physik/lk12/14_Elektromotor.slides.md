@@ -14,7 +14,7 @@ Kurze Sammlung an Einsatzgebieten!
 
 ---
 
-~~~
+~~~dot
 digraph G {
   graph [fontname = "Handlee"];
   node [fontname = "Handlee"];
@@ -62,6 +62,40 @@ Erklären Sie die Funktionsweise des einen oder anderen Elektromotors.
     - Sebastian, Marco, Avidan
 - Schrittmotor (Stepper)
     - Max, Finnegan, Floe
+
+---
+
+## Brushless
+
+> Regelelektronik nötig!
+
+https://studyflix.de/elektrotechnik/burstenloser-gleichstrommotor-1426
+
+https://www.ulrichradig.de/home/index.php/avr/brushless-motor-controller
+
+---
+
+## 3-Phasen Drehstrommotor
+
+https://studyflix.de/elektrotechnik/drehstrommotor-1338
+
+---
+
+## 3-Phasen Drehstrommotor
+
+![](https://thumbs.gfycat.com/OpulentHairyHydra-max-1mb.gif)
+
+---
+
+## 3-Phasen Drehstrommotor
+
+![](https://makeagif.com/i/BYnxct)
+
+---
+
+## 3-Phasen Drehstrommotor
+
+![](https://www.kfz-tech.de/Bilder/Kfz-Technik/AltAntriebe/GAnimation01.gif)
 
 ---
 
