@@ -10,3 +10,8 @@
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/grundwissen/energie-des-magnetischen-feldes
 
+> Skizzen, Tafelbild
+
+---
+
+
