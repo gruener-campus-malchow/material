@@ -112,4 +112,8 @@ Letzte Runde Gravitation!
 
 - [Elektromotoren](14_Elektromotor.slides.md)
 
+## Woche vor den Weihnachtsferien
+
+- [Energie des Magnetfeldes](15_Energie_Magnetfeld.slides.md)
+
 Have a lot of fun!
