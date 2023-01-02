@@ -8,7 +8,7 @@
 ### Lorenz-Kraft
 
 $$
-\vec{F_L} = q \cdot ( \vec{v} \times \vec{B})
+\vec{F}_L = q \cdot ( \vec{v} \times \vec{B})
 $$
 
 bzw.
