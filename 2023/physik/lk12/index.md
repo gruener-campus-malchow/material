@@ -116,4 +116,11 @@ Letzte Runde Gravitation!
 
 - [Energie des Magnetfeldes](15_Energie_Magnetfeld.slides.md)
 
+# Q2
+
+## 01. Woche 2023
+
+- [Mittelfristige Ziele](16_Ziele.md)
+- 
+
 Have a lot of fun!
