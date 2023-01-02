@@ -121,6 +121,7 @@ Letzte Runde Gravitation!
 ## 01. Woche 2023
 
 - [Mittelfristige Ziele](16_Ziele.md)
-- 
+- [Ladungsträger im Magnetfeld](17_Ladung-im-Magnetfeld.slides.md)
+
 
 Have a lot of fun!
