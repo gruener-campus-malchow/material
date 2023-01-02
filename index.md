@@ -17,6 +17,7 @@ Derzeit sind noch nicht alle Kurse verknüpft.
 
 * [Physikunterricht Klasse 9](2023/physik/ph9/)
 * [Leistungskurs Physik Klasse 12](2023/physik/lk12)
+* [Leistungskurs Physik Klasse 13](2023/physik/lk13)
 
 # 2021-2022
 
