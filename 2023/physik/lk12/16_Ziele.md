@@ -1,9 +1,5 @@
 # Ziele
 
-- Ladungsträger in Magnetfeldern
- - Lorentzkraft
- - Bestimmung der spezifischen Ladung eines Elektrons
- - Hall-Effekt
 - Elektromagnetische Induktion
  - Induktionsgesetz
  - Induktionsspannung als zeitliche Ableitung des magnetischen Flusses
