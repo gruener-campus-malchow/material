@@ -1,6 +1,9 @@
-# Elektrische Felder
+Elektrische Felder
+==================
 
-## Skizzen elektrischer Felder
+[toc]
+
+# Skizzen elektrischer Felder
 
 * Monopolfeld
 * Quell- und Senkenfelder
@@ -10,9 +13,9 @@
     * ebenen Flächen
 * homogenes und inhomogenes el. Feld
 
-## mathematische Beschreibung
+# mathematische Beschreibung
 
-### Kraftwirkung (Coulombsches Gesetz)
+## Kraftwirkung (Coulombsches Gesetz)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png" style="background-color:white; width:400px;">
 
@@ -46,7 +49,7 @@ Richtung der Feldlinien stammt von tiefergehenden Betrachtungen, dem "elektrisch
 
 spannende: [Aufgabe](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/doppelpendel)!
 
-### Feldstärke
+## Feldstärke
 
 $$
 E =  {{F}\over{q}}
@@ -61,11 +64,11 @@ Gegenüberstellung von Gravitationsfeldstärke und el. Feldstärke
 
 Unterschied zwischen homogenem und inhomogenem Feld:
 
-### Herleitung von E für Radialfeld
+## Herleitung von E für Radialfeld
 
 Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}$ und der Definition $E =  {{F}\over{q}}$ entsteht $E = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q}\over{r^2}}$
 
-### Arbeit im homogenen el. Feld liefert die Spannung
+## Arbeit im homogenen el. Feld liefert die Spannung
 
 >
 > Zunächst ein Bonbon: https://www.deutschlandfunk.de/forschung-aktuell-100.html
@@ -80,7 +83,7 @@ In einem Feld definieren wir nun das Potential $\varphi = {{\Delta E_{Pot}} \ove
 
 Daraus folgt $\varphi = E \cdot s$.
 
-#### Wir zeigen: Potential und Spannung ist äquivalent
+### Wir zeigen: Potential und Spannung ist äquivalent
 
 Mit der Gleichung für die elektrische Arbeit $W = U \cdot I \cdot t$ und dem Zusammenhang $I = {{Q} \over {t}}$ bzw. $I \cdot t = q$ folgt also $W = U \cdot q$.
 
@@ -94,7 +97,7 @@ Anders ausgedrückt: $E = {{U}\over{d}}$.
 
 Das ist ziemlich logisch und kann auch experimentell untersucht werden. Außerdem können wir eine völlig neue Art an Aufgaben rechnen:
 
-#### Ladung im homogenen elektrischen Feld (Kondensator)
+### Ladung im homogenen elektrischen Feld (Kondensator)
 
 Eine Ladung von 20nC befindet sich zwischen zwei Kondensatorplatten, die mit einer Spannung von 1,5kV geladen wurden. Der Plattenabstand beträgt 3,2cm. Bestimmen Sie die wirkende Kraft auf die Ladung.
 

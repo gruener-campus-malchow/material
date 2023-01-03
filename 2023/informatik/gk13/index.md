@@ -1,4 +1,4 @@
-Informatik Grundkurs Klasse 13 2022-2023
+Grundkurs Informatik Klasse 13 2022-2023
 ========================================
 
 # Willkommen
