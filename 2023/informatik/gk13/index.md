@@ -1,5 +1,5 @@
-**Webseite mit Material der Informatik**
-	Grundkurs Klasse 13 2022-2023
+Informatik Grundkurs Klasse 13 2022-2023
+========================================
 
 # Willkommen
 
