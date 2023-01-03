@@ -1,11 +1,11 @@
-**Webseite mit Material der Fachbereiche**
-	Startseite
+Webseite mit Material der Fachbereiche
+======================================
 
 Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden.
 
-# 2022-2023
+[toc]
 
-Derzeit sind noch nicht alle Kurse verknüpft.
+# 2022-2023
 
 ## Informatik
 
@@ -16,8 +16,8 @@ Derzeit sind noch nicht alle Kurse verknüpft.
 ## Physik
 
 * [Physikunterricht Klasse 9](2023/physik/ph9/)
-* [Leistungskurs Physik Klasse 12](2023/physik/lk12)
-* [Leistungskurs Physik Klasse 13](2023/physik/lk13)
+* [Leistungskurs Physik Klasse 12](2023/physik/lk12/)
+* [Leistungskurs Physik Klasse 13](2023/physik/lk13/)
 
 # 2021-2022
 
