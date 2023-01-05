@@ -24,11 +24,10 @@ Harald Lesch erklärt: https://www.youtube.com/watch?v=imTFizzJ3P8
   - Herkunft der Spektrallinien im Sonnenlicht erläutern
   - Beitrag von Spektren zur Quantenphysik beurteilen
   - Erläutern Sie den Begriff "molekulares Skalpell"
-  - Erläutern Sie den Zusammenhang zwischen Planetenbewegung, Blau- und Rotverschiebung, sowie Spektrallinien. 
+  - Erläutern Sie den Zusammenhang zwischen Planetenbewegung, Blau- und Rotverschiebung, sowie Spektrallinien.
   - Begründen Sie die Bedeutung von Absorptionslinien für die Astrophysik anhand der Beobachtungsmöglichkeiten.
 
-## Linienspektren im Lehrbuch 
-
+## Linienspektren im Lehrbuch
 
 Fokus Physik SII S. 332
 
