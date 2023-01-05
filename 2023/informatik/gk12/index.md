@@ -24,5 +24,11 @@ Hier geht es um Markdown, HTML und CSS.
 
 - [Einführung in GIT](03_git_einführung.md)
 - [Transparenzpapier Klausur](04_transparenzpapier_klausur.md)
+- SCRUM-Theorie - Lernraum
+
+# Q2
+
+- [2023-01-05](./05_projektplanung_product-backlog.md)
+-
 
 Have a lot of fun!
