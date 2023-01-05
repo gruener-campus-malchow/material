@@ -1,5 +1,5 @@
-Webseite mit Material der Fachbereiche
-======================================
+Material der Fachbereiche
+=========================
 
 Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden.
 
