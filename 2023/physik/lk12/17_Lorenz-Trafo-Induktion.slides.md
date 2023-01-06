@@ -45,8 +45,18 @@ Skizze!
 
 Induktion als Text beschreiben.
 
+https://www.leifiphysik.de/elektrizitaetslehre/induktion-und-transformator/grundwissen/transformator
+
 ---
 
 ### Induktion
 
-https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion
+https://studyflix.de/elektrotechnik/spule-und-induktion-267
+
+später und detailliert: https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion
+
+---
+
+### Lenzsche Regel
+
+https://studyflix.de/elektrotechnik/lenzsche-regel-1811

@@ -31,7 +31,23 @@ Harald Lesch erklärt: https://www.youtube.com/watch?v=imTFizzJ3P8
 
 Fokus Physik SII S. 332
 
-Vergleich mit anderen Lehrbüchern
+(Vergleich mit anderen Lehrbüchern)
+
+## Tafelbild mit allen Erkenntnissen
+
+* Entstehung von Licht auf atomarer Ebene
+* Entstehung von "weißem" / heißen Licht (kontinuierliche Spektren)
+* Entstehung von Absorbtionslinien
+* Entstehung von Emissionslinien (Linienspektren)
+* Balmer-Serie
+
+## Aufgabe
+
+Balmer-Gleichung benutzen, um Emissionslinien zu berechnen.
+
+## Test
+
+not here yet
 
 ## Planung für Experimente zu Hause
 
