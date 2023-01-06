@@ -36,7 +36,7 @@ Fokus Physik SII S. 332
 ## Tafelbild mit allen Erkenntnissen
 
 * Entstehung von Licht auf atomarer Ebene
-* Entstehung von "weißem" / heißen Licht (kontinuierliche Spektren)
+* Entstehung von "weißem" / heißem Licht (kontinuierliche Spektren)
 * Entstehung von Absorbtionslinien
 * Entstehung von Emissionslinien (Linienspektren)
 * Balmer-Serie
