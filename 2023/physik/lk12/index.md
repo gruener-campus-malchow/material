@@ -121,7 +121,11 @@ Letzte Runde Gravitation!
 ## 01. Woche 2023
 
 - [Mittelfristige Ziele](16_Ziele.md)
-- [FOO im Magnetfeld](17_Lorenz-Trafo-Induktion.slides.md)
+- [Der Trafo un das Magnetfeld](17_Lorenz-Trafo-Induktion.slides.md)
+- [Auswertung der Texte](18_Auswerung_der Texte.slides.md)
+
+## 02. Woche 2023
+
 
 
 Have a lot of fun!
