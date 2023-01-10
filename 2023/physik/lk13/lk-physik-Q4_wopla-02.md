@@ -20,16 +20,18 @@
 
 ### Hinweise zur Vorbereitung auf die schriftliche Abiturprüfung 2021 im Land Berlin Prüfungsschwerpunkte Physik 2021
 
-> Atom- und Kernphysik (PH-4)
-> • Atomhülle
-> • Atomkern
-> Auch: Einfache Termschemata für Kernumwandlungen
-> Nicht Gegenstand der Aufgabenstellungen sind:
-> Das Potenzialtopfmodell des Atomkerns, die Wirkungsweise von Nachweisgeräten der radio-
-> aktiven Strahlung, die Vorgänge bei der Absorption von Strahlung sowie die Feinstruktur der
-> Nukleonen (Quarks).
+**Atom- und Kernphysik (PH-4)**
+- Atomhülle
+- Atomkern
+Auch: Einfache Termschemata für Kernumwandlungen
+Nicht Gegenstand der Aufgabenstellungen sind:
+Das Potenzialtopfmodell des Atomkerns, die Wirkungsweise von Nachweisgeräten der radio-
+aktiven Strahlung, die Vorgänge bei der Absorption von Strahlung sowie die Feinstruktur der
+Nukleonen (Quarks).
 
-Ursprünglich: https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/ps_physik_lk_2021.pdf aber derzeit leider nicht verfügbar.
+Quelle ursprünglich: https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/ps_physik_lk_2021.pdf aber derzeit leider nicht verfügbar.
+
+> Wortgleiche inhalte sind für 2023 dokumentiert.
 
 ### Balmer-Serie
 
