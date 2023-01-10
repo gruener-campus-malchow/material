@@ -122,10 +122,12 @@ Letzte Runde Gravitation!
 
 - [Mittelfristige Ziele](16_Ziele.md)
 - [Der Trafo un das Magnetfeld](17_Lorenz-Trafo-Induktion.slides.md)
-- [Auswertung der Texte](./18_Auswerung_der_Texte.slides.md)
+
 
 ## 02. Woche 2023
-
+- [Auswertung der Texte](./18_Auswerung_der_Texte.slides.md)
+- Lehrbucharbeit und Tafelbilder
+- [Induktionsgesetz](./19_Induktionsgesetz.slides.md)
 
 
 Have a lot of fun!

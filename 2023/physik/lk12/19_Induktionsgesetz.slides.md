@@ -4,22 +4,21 @@
 
 ## Induktionsspannung
 
-Wiederholung Tafelbild
-
-- Zeitlich änderliche Fläche
-    - Beispielrechnung
-- Zeitlich änderliches Magnetfeld
-    - Beispielrechnung
-
+- Wiederholung Tafelbild
+  - Zeitlich änderliche Fläche
+  - Zeitlich änderliches Magnetfeld
+	
 ---
 
 ## magnetischer Fluss
 
-Gleichzeitige Änderung von  \\( dA \\) und \\( dB \\) führt zur Definition
+Gleichzeitige Änderung von  \\( dA \\) und \\( dB \\) führt zur folgenden Definition: 
 
-\\( \Phi = B \cdot A \\)
+**magnetischer Fluss(Phi):** \\( ~ \Phi = B \cdot A \\)
 
-> Achtung: \\( Flussdichte = B \\) aber \\( Fluss = \Phi \\)
+> Achtung: 
+> 
+> \\( Flussdichte = B \\) aber \\( Fluss = \Phi \\)
 
 ---
 
@@ -29,7 +28,9 @@ Gleichzeitige Änderung von  \\( dA \\) und \\( dB \\) führt zur Definition
 
 oder
 
-\\( U_i = -N \cdot B \dot{A} + A \dot{B} \\)
+\\( U_i = -N \cdot ( B \dot{A} + A \dot{B} )\\)
+
+Warum?
 
 ---
 
