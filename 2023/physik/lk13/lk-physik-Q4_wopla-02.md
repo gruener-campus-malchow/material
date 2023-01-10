@@ -3,14 +3,11 @@
                          
 # LK Physik Q4
 
-## Ziele (alt)
-
-* **KURZ** Verschiedene Bücher vergleichen
-* Skipped: Experimente vorbereiten, weil:
-
 ## Ziele
 
 * Themen Q4 für Prüfung im Zentralabitur identifizieren
+    * https://www.isq-bb.de/wordpress/pruefungsarbeiten/berlin_zentralabitur/
+    * siehe unten
 * Verschiedene Ursachen der Radioaktivität im Alltag benennen
 * Entstehung radioaktiver Strahlung skizzieren
 	* Alpha
@@ -20,6 +17,24 @@
 * Aufbau der Nuklidkarte nachvollziehen
 
 ## Inhalte
+
+### Hinweise zur Vorbereitung auf die schriftliche Abiturprüfung 2021 im Land Berlin Prüfungsschwerpunkte Physik 2021
+
+> Atom- und Kernphysik (PH-4)
+> • Atomhülle
+> • Atomkern
+> Auch: Einfache Termschemata für Kernumwandlungen
+> Nicht Gegenstand der Aufgabenstellungen sind:
+> Das Potenzialtopfmodell des Atomkerns, die Wirkungsweise von Nachweisgeräten der radio-
+> aktiven Strahlung, die Vorgänge bei der Absorption von Strahlung sowie die Feinstruktur der
+> Nukleonen (Quarks).
+
+Ursprünglich: https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/ps_physik_lk_2021.pdf aber derzeit leider nicht verfügbar.
+
+### Balmer-Serie
+
+- Tafelbild auf Basis des Lehrbuchs Fokus Physik SII S. 332
+- Rechnen eines Beispiels, siehe Test
 
 ### Video: Ursachen der Radioaktivität
 
