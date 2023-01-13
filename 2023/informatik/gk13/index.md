@@ -22,3 +22,12 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 # Q4
 
 [2023-01-05](./04_inventix_last_steps.slides.md)
+
+# Q4 - Künstliche Intelligenz
+
+## Kapitel 01
+
+1. Lesen Sie den "KI Reader 01".
+1. Erstellen Sie eine MD-Präsentation, die für KI **wesentliche** Informationen zusammenstellt.
+1. Die letzte Folie der Präsentationen soll zusammenfassen, was Ihre **persönlichen** Erkenntnisse sind.
+2. Erstellen Sie einen **ScreenCast** und laden Sie diesen in den Lernraum hoch.
