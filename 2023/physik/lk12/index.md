@@ -128,6 +128,6 @@ Letzte Runde Gravitation!
 - [Auswertung der Texte](./18_Auswerung_der_Texte.slides.md)
 - Lehrbucharbeit und Tafelbilder
 - [Induktionsgesetz](./19_Induktionsgesetz.slides.md)
-
+- [Lenzsche Regel](./20_Lenzsche_Regel.slides.md)
 
 Have a lot of fun!
