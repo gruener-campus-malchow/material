@@ -22,3 +22,11 @@ https://de.wikipedia.org/wiki/Lenzsche_Regel
 ![!small !white](https://www.leifiphysik.de/sites/default/files/medien/Aluminiumring_vor_Elektromagnet_Bild_1.svg)
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufgabe/aluminiumring-vor-elektromagnet 
+
+---
+
+## Bremsen einer Achterbahn
+
+http://www.coastersandmore.de/rides/brake/brake.shtml
+
+Erläutern Sie die Wirkungsweise der Wirbelstrombremse einer Achterbahn.
