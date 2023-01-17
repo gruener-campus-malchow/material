@@ -29,3 +29,29 @@ Erklären Sie die Funktionsweise eines Induktionstiegelofens auf Basis der Grafi
 > Speziell der Umstand, dass der Halbleiter Silizium im festen Zustand nicht leitfähig ist, in der flüssigen Phase jedoch eine gute elektrische Leitfähigkeit aufweist, erfordert sehr spezielle Detaillösungen.
 
 https://www.otto-junker.com/de/produkte-technologien/anlagen-fuer-silizium/
+
+---
+
+## Prozess bei der Herstellung von polykristallinen Solarzellen
+
+https://ars.els-cdn.com/content/image/1-s2.0-S1364032115017268-gr1.jpg
+
+ingot[en] = Barren / Block
+
+Ein spannender Artikel zur Herstellung von Solarzellen: https://solarenergie.de/hintergrundwissen/solarenergie-nutzen/solarzellen/solarzellen-herstellung
+
+---
+
+## Aporops Solarzelle
+
+Ein Blick in die Zukunft?
+
+https://www.heliatek.com/de/produkte/heliasol/
+
+## Vorgeschichte
+
+![](https://www.pv-magazine.de/wp-content/uploads/sites/4/2022/02/BNEF_Outlook_Photovoltaik_Zubau_2010-2030.jpg)
+
+Bei "starren" Solarzellen hat Deutschland den internationalen Wettbewerb gegen China verloren. 
+
+Einspungpunkt für Hintergründe: Conenergy und die Chipfabrik Frankfurt (Oder)
