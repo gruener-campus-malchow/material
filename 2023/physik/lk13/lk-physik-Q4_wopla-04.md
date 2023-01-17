@@ -27,28 +27,6 @@
 
 siehe Hefter
 
-### Strahlungsarten im elektrischen und magnetischen Feld
-
-Hier nochmal zusammengefasst: https://www.lernhelfer.de/schuelerlexikon/physik/artikel/eigenschaften-radioaktiver-strahlung
-
-### Absobtion und etwas Mathe
-
-https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/grundwissen/absorptionsgesetz-absorptionskoeffizient-und-halbwertsschichtdicke
-
-... lassen Sie uns das Geschehen experimentell überprüfen!
-
-Etwas Universitätsphysik: https://tetfolio.fu-berlin.de/web/997146
-
-Die haben das von hier: https://de.wikipedia.org/wiki/Halbwertsschicht
-
-### Kettenreaktionen
-
-Ansprechend von einem Energiekonzern moderiert: https://www.youtube.com/watch?v=jpDRfaWYk3I
-
-Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fission
-
-Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.alternativlos.org/14/
-
 ### Remember: Nuklidkarten
 
 * https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
