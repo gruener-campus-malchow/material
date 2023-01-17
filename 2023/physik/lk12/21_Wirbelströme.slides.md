@@ -48,10 +48,14 @@ Ein Blick in die Zukunft?
 
 https://www.heliatek.com/de/produkte/heliasol/
 
+---
+
 ## Vorgeschichte
 
 ![](https://www.pv-magazine.de/wp-content/uploads/sites/4/2022/02/BNEF_Outlook_Photovoltaik_Zubau_2010-2030.jpg)
 
-Bei "starren" Solarzellen hat Deutschland den internationalen Wettbewerb gegen China verloren. 
+Bei "starren" Solarzellen hat Deutschland den internationalen Wettbewerb gegen China verloren (Preis/Leistung).
+
+---
 
 Einspungpunkt für Hintergründe: Conenergy und die Chipfabrik Frankfurt (Oder)
