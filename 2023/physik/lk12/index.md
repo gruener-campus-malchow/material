@@ -128,6 +128,9 @@ Letzte Runde Gravitation!
 - [Auswertung der Texte](./18_Auswerung_der_Texte.slides.md)
 - Lehrbucharbeit und Tafelbilder
 - [Induktionsgesetz](./19_Induktionsgesetz.slides.md)
+
+## 03. Woche 2023
 - [Lenzsche Regel](./20_Lenzsche_Regel.slides.md)
+- [Wirbelströme](./21_Wirbelströme.slides.md)
 
 Have a lot of fun!
