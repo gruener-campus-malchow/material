@@ -22,6 +22,10 @@ Alternativ kann man über die Energie argumentieren: Die Gesamtenergie zu Beginn
 
 Erklären Sie die Funktionsweise eines Induktionstiegelofens auf Basis der Grafik.
 
+---
+
+## Schmelztiegel für Silizium
+
 > Speziell der Umstand, dass der Halbleiter Silizium im festen Zustand nicht leitfähig ist, in der flüssigen Phase jedoch eine gute elektrische Leitfähigkeit aufweist, erfordert sehr spezielle Detaillösungen.
 
 https://www.otto-junker.com/de/produkte-technologien/anlagen-fuer-silizium/
