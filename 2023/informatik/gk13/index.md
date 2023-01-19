@@ -31,3 +31,19 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 1. Erstellen Sie eine MD-Präsentation, die für KI **wesentliche** Informationen zusammenstellt.
 1. Die letzte Folie der Präsentationen soll zusammenfassen, was Ihre **persönlichen** Erkenntnisse sind.
 2. Erstellen Sie einen **ScreenCast** und laden Sie diesen in den Lernraum hoch.
+
+## Kapitel 02
+
+1. Lesen Sie den ersten Teil des Kapitel 1 des “KI Reader 02".
+1. Erstellen Sie eine Präsentation auf slides.gcm.schule, die zu folgenden Themen die Inhalte basierend auf dem Reader zusammenfasst. Je Vorgabe kann eine Folie genügen. Achten Sie auf eine ansprechende Illustration. Sie können hierfür Grafiken aus dem Reader verwenden oder weitergehend recherchieren.
+  - Eingabe-Verarbeitung-Ausgabe
+  - Einfluss des Fehlers auf “gekonntes Probieren”
+  - Erklärung, was ein Prädiktor ist
+  - Erklärung, was ein Klassifizierer ist
+  - Training einfacher linearer Klassifizierer
+  - Moderieren der Korrekturen
+  - Was ich Neues gelernt habe
+  - Was ich noch nicht verstehe
+1. Erstellen Sie zu Ihrer Präsentation einen ScreenCast und laden Sie diesen in den Lernraum hoch.
+
+Have a lot of fun!
