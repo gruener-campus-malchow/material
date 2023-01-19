@@ -35,7 +35,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 ## Kapitel 02
 
 1. Lesen Sie den ersten Teil des Kapitel 1 des “KI Reader 02".
-1. Erstellen Sie eine Präsentation auf slides.gcm.schule, die zu folgenden Themen die Inhalte basierend auf dem Reader zusammenfasst. Je Vorgabe kann eine Folie genügen. Achten Sie auf eine ansprechende Illustration. Sie können hierfür Grafiken aus dem Reader verwenden oder weitergehend recherchieren.
+1. Erstellen Sie eine Präsentation auf https://slides.gcm.schule, die zu folgenden Themen die Inhalte basierend auf dem Reader zusammenfasst. Je Vorgabe kann eine Folie genügen. Achten Sie auf eine ansprechende Illustration. Sie können hierfür Grafiken aus dem Reader verwenden oder weitergehend recherchieren.
   - Eingabe-Verarbeitung-Ausgabe
   - Einfluss des Fehlers auf “gekonntes Probieren”
   - Erklärung, was ein Prädiktor ist
