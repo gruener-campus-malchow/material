@@ -92,7 +92,6 @@ digraph G {
     luise -> ae;
     gelix-> ae;
     steven -> a;
-}
  }
 '/>
 
