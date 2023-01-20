@@ -72,16 +72,13 @@ Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.altern
 - Entwerfen Sie ein Tafelbild für eines der Themen.
 - Stellen Sie dabei eine Modellrechnung auf
 
-<img src='https://g.gravizo.com/svg?
-
+<img src="https://g.gravizo.com/svg?
 digraph G {
     layout=fdp;
-
-    a[label="Aktivität"]
-    e[label="Energiedosis"]
-    ae[label="Äquivalentdosis"]
-    h[label="Halbwertszeit"]
-
+    a[label=Aktivität];
+    e[label=Energiedosis];
+    ae[label=Äquivalentdosis];
+    h[label=Halbwertszeit];
     belix -> h;
     tom -> h;
     joury -> a;
@@ -92,8 +89,7 @@ digraph G {
     luise -> ae;
     gelix-> ae;
     steven -> a;
- }
-'/>
+ }"/>
 
 #### Aufgaben für später
 
