@@ -132,5 +132,6 @@ Letzte Runde Gravitation!
 ## 03. Woche 2023
 - [Lenzsche Regel](./20_Lenzsche_Regel.slides.md)
 - [Wirbelströme](./21_Wirbelströme.slides.md)
+- [Selbstinduktion](./22_Selbstinduktion.slides.md)
 
 Have a lot of fun!
