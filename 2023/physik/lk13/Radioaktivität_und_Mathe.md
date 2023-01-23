@@ -34,10 +34,9 @@ Zerfallsgesetz:
 
 \\( N(t) = N_0 \cdot e^{- \lambda t} \\)
 
-\\( N(t) = N_0 \cdot e^{- {ln(2) \over T_{1/2}} \cdot t} \\)
-
-
 Zerfallskonstante: \\( \lambda = {{ln(2)} \over {T_{1/2}} }\\)
+
+Und damit: \\(N(t) = N_0 \cdot e^{- {ln(2) \over T_{1/2}} \cdot t}\\)
 
 \\( \dot{N(t)} = N_o -\lambda e^{-\lambda t} \\)
 
@@ -106,5 +105,20 @@ ges: A
 b) Wieviele Atome zerfallen bei gleicher Aktivität in 10s?
 
 
-b) Wieviele Atome zerfallen bei gleicher Aktivität in 10s?
+# Energiedosis
 
+Die Energiedosis gibt an, wieviel Energie ein Kg eines Stoffes durch Strahlung aufnimmt.
+
+\\( D = {E \over m} \\)
+
+Einheit: \\( {J \over kg} = 1 Gy (Gray) \\)
+
+## Aufgabe
+
+Ab 4Gy ist eine Energiedosis tödlich. Bestimmen Sie die Gefährlichkeit der einzelnen Dosen.
+
+geg.:
+
+m= 88kg
+
+a) E = 20J, b) E = 8 KJ, c) E = MJ
