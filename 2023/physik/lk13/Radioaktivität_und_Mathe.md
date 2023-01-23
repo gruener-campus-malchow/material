@@ -122,3 +122,23 @@ geg.:
 m= 88kg
 
 a) E = 20J, b) E = 8 KJ, c) E = MJ
+
+
+# Äquivalentdosis
+
+Die Äquivalentdosi kennzeichnet die von einem Körper aufgenommene Energiedosis unter Berücksichtigung biologischer Wirkungen.
+
+Einheit: 1 Sv (Sievert) = 1 J/kg
+
+- wieviel Strahlung
+- welche Strahlung
+- welche Körperteile
+
+Gleichung: H = D q
+
+D = Energiedosis
+q = Qualitätsfaktor
+
+H = 1-4 : Verbrennung, Schwächung des Immunsystems
+H > 4 : Tot für 50% der Betroffenen
+H > 7 : sicherer Tot
