@@ -30,7 +30,8 @@ T_4   | 6,25
 ## Mathematische Beschreibung
 
 
-\\( N(t) = N_o e^{-\lambda t} = N_o e^{-{{ln(2)}\over{T_{1/2}}} t}\\)
+\\(N(t) = N_o e^{-\lambda t} = N_o e^{-{{ln(2)}\over{T_{1/2}}} t}\\)
+
 
 Zerfallskonstante: \\( \lambda = {{ln(2)} \over {T_{1/2}} }\\)
 
