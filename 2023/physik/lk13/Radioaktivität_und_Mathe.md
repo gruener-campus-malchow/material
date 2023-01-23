@@ -30,7 +30,11 @@ T_4   | 6,25
 ## Mathematische Beschreibung
 
 
-Zerfallsgesetz: \\( N\(t\) = N_0 \cdot e^{- \lambda t} = N_0 \cdot e^{- {{ln(2)} \over {T_{1/2}}} \cdot t} \\)
+Zerfallsgesetz: 
+
+\\( N(t) = N_0 \cdot e^{- \lambda t} \\)
+
+\\( N(t) = N_0 \cdot e^{- {{ln(2)} \over {T_{1/2}}} \cdot t} \\)
 
 
 Zerfallskonstante: \\( \lambda = {{ln(2)} \over {T_{1/2}} }\\)
