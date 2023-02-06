@@ -6,7 +6,7 @@ Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten
 
 ---
 
-<img src=https://www.researchgate.net/profile/Yasar-Sahin/publication/259439390/figure/fig4/AS:203019577761802@1425415047528/Forest-fire-detection-systems-infrastructure.png height=100%>
+<img src=https://www.researchgate.net/profile/Yasar-Sahin/publication/259439390/figure/fig4/AS:203019577761802@1425415047528/Forest-fire-detection-systems-infrastructure.png >
 
 ---
 
