@@ -29,7 +29,7 @@ Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioni
 
 ---
 
-<img src=./06_backup_productive.svg height=90%>
+<img src=./06_backup_productive.svg height=100%>
 
 ---
 
