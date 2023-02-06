@@ -81,7 +81,7 @@ Spezielle Anwendungen sind vor Allem für die Überwachung des Sensornetzes rele
 
 ### Anwendungen 
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/6f/Nesher_Ramla_Control_room_%283%29.jpg)
+<img src=https://upload.wikimedia.org/wikipedia/commons/6/6f/Nesher_Ramla_Control_room_%283%29.jpg>
 
 ---
 
