@@ -93,6 +93,8 @@ f(Arbeiter)= ???
 
 > Ein Datenbankschema beschreibt nicht nur die Relationen (Art der Tupel mit Datentypen, Schlüsseln, Fremdschlüsseln, etc.) sondern auch weitere Metadaten, wie Zugriffsrechte, Statistiken oder andere Beschreibungen. Datenbankenschemata sind spezifisch für das jeweilige DBMS.
 
+---
+
 ## Modelle
 
 > Datenbankmodelle umfassen die Beschreibung und Strukturierung der Daten, Beispieldatensätze und sind unabhängig von spezifischen DBMS. Sie dienen dem Entwurfsprozess und werden üblicherweise am Ende der Entwicklungsphase in SQL überführt.
