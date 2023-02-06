@@ -2,7 +2,7 @@
 
 ---
 
-![Übersicht über DBS](06_Datenbanken_DBMS_Uebersicht.png)
+![Übersicht über DBS](./06_Datenbanken_DBMS_Uebersicht.png)
 
 ---
 
@@ -81,8 +81,6 @@ f(Alexander)=(Alexander, Baldauf, baf@gcm.schule, Arbeiter)
 
 ## Schlüssel und Eindeutigkeit
 
-
-
 Y= { (Peter, Arbeitsloser, arbl@gcm.schule, Arbeiter), (Alexander, Baldauf, baf@gcm.schule, Arbeiter)}
 
 \\(f : X \rightarrow Y\\)
@@ -91,18 +89,22 @@ f(Arbeiter)= ???
 
 ---
 
-*** Beschreibung und Strukturierung der Daten
-*** Tabellen, Schlüssel, Relation
+## Schemata
 
-**** Relation : Beziehung zwischen den Entitäten (mathematisch wie eine Funktion, die Mengenzuordnungen vornimmt)
+> Ein Datenbankschema beschreibt nicht nur die Relationen (Art der Tupel mit Datentypen, Schlüsseln, Fremdschlüsseln, etc.) sondern auch weitere Metadaten, wie Zugriffsrechte, Statistiken oder andere Beschreibungen. Datenbankenschemata sind spezifisch für das jeweilige DBMS.
+
+## Modelle
+
+> Datenbankmodelle umfassen die Beschreibung und Strukturierung der Daten, Beispieldatensätze und sind unabhängig von spezifischen DBMS. Sie dienen dem Entwurfsprozess und werden üblicherweise am Ende der Entwicklungsphase in SQL überführt.
+
+* Tabellen
+* Relationenmodell
+* Entity-Relationship-Model (Relationship != Relation)
 
 ---
 
-*** Modellsprache: ER-Modelle, Relationen-Modelle
+# TODO
 
----
-
-**** Entity / Entität : Dinge, abgeschlossene einzigartige Ganze
-
-*** ER-Modelle: Beispiel: Chatsystem in ER und Tabellen
-*** Schlüssel: Primärschlüssel, natürliche Schlüssel, künstliche Schlüssel, Fremdschlüssel
+* Entity / Entität: (Dinge, abgeschlossene einzigartige Ganze) vs. Enitätenklasse
+* ER-Modelle: Beispiel: Chatsystem in ER und Tabellen
+* Schlüssel: Primärschlüssel, natürliche Schlüssel, künstliche Schlüssel, Fremdschlüssel

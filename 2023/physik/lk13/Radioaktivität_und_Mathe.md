@@ -142,3 +142,12 @@ q = Qualitätsfaktor
 H = 1-4 : Verbrennung, Schwächung des Immunsystems
 H > 4 : Tot für 50% der Betroffenen
 H > 7 : sicherer Tot
+
+      | q
+------|-------
+Betastrahlung, Gammastrahlung, Röntgenstrahlung   | 1
+Alpha   | 20
+
+## Aufgaben
+
+...

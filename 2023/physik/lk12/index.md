@@ -134,4 +134,12 @@ Letzte Runde Gravitation!
 - [Wirbelströme](./21_Wirbelströme.slides.md)
 - [Selbstinduktion](./22_Selbstinduktion.slides.md)
 
+## 04. Woche 2023 (nach den Winterferien)
+
+- [Selbstinduktion II](./22_Selbstinduktion_II.slides.md)
+
+# TODO
+
+- Hall-Effekt
+
 Have a lot of fun!
