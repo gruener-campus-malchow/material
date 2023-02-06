@@ -10,7 +10,7 @@ Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten
 
 ---
 
-<img src=./06_sensornetzwerke.png height=100%>
+<img src=./06_sensornetzwerke.png>
 
 ---
 
