@@ -10,7 +10,7 @@ Eine mögliche Anwendung ist die Erfassung von Umweltdaten in einem ausgedehnten
 
 ---
 
-![](sensornetzwerke.png)
+![](./06_sensornetzwerke.png)
 
 ---
 
@@ -29,7 +29,7 @@ Details: https://www.generic.de/blog/sensornetzwerk-was-ist-es-und-wie-funktioni
 
 ---
 
-![](backup_productive.svg)
+![](./06_backup_productive.svg)
 
 ---
 
@@ -52,7 +52,7 @@ Um die wertvollen Daten aus dem Netz (den Netzen) zu sichern, muss es entfernte 
 
 ### Datenbankmanagementsystem
 
-![](backup_productive.svg)
+![](06_backup_productive.svg)
 
 ---
 

@@ -46,4 +46,6 @@ Interpretieren Sie die Oszilloskopbilder in Ihrem Hefter und Erklären Sie die G
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufgabe/zuendanlage-eines-ottomotors
 
+a) ist Hausaufgabe
+
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufgabe/wirkungsgrad-beim-elektromotor
