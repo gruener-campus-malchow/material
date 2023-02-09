@@ -46,4 +46,27 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
   - Was ich noch nicht verstehe
 1. Erstellen Sie zu Ihrer Präsentation einen ScreenCast und laden Sie diesen in den Lernraum hoch.
 
+## Kapitel 03
+
+ Der “KI Reader 03" behandelt zunächst die Grenzen linearer Klassifizierer am Beispiel der Boolschen Funktionen. Im Anschluss wird von den natürlichen Neuronen ausgehend die Funktionsweise eines künstlichen Neurons abgeleitet. Der mathematischen Modellierung eines Neurons folgt die Idee der Vernetzung.
+
+Folgende Aufgaben ergeben sich aus dem (mehrmals) gelesenen Text:
+
+1. Erstellen Sie eine Präsentation auf https://gcm.schule/slides (sichern Sie ihren Quelltext!), die zu folgenden Themen die Inhalte basierend auf dem Reader zusammenfasst. Je Vorgabe kann eine Folie genügen. Achten Sie auf eine ansprechende Illustration. Sie können hierfür Grafiken aus dem Reader verwenden oder weitergehend recherchieren.
+  * Boolsche Funktionen
+    * Kurze Erklärung
+    * Geben Sie für UND ein eigenes Beispiel an, das nicht im Buch vorkommt.
+    * Geben Sie für ODER ein eigenes Beispiel an, das nicht im Buch vorkommt.
+1. Grenzen linearer Klassifizierer
+  * Erläutern Sie, weshalb ein einzelner Klassifizierer nicht die XOR-Funktion lernen kann. 
+1. Erklären Sie den Nutzen des Aktionspotentials natürlicher Neuronen
+1. Beschreiben Sie den Aufbau eines einzelnen künstlichen Neurons anhand einer Skizze. Gehen Sie dabei auf die interne Verarbeitung der vielen Eingangssignale ein. Stellen Sie dabei dar, wie die einzelnen Eingaben an den “künstlichen Terminals” verarbeitet werden.
+1. Erklären Sie abschließend, wie einzelne Neuronen miteinander zu einem Netzwerk verbunden werden.
+1. Der Reader endet mit Fragen, die einen Ausblick auf die nächste Woche liefert. Formulieren Sie eigene Fragen, die sich aus dem in Ihrer Präsentation Dargestellten ergeben - oder formulieren Sie die Fragen aus dem Reader in eigenen Worten.
+1. Reflektion:
+  * Was ich Neues gelernt habe
+  * Was ich noch nicht verstehe
+
+Erstellen Sie zu Ihrer Präsentation einen ScreenCast und laden Sie diesen im Lernraum hoch.
+
 Have a lot of fun!

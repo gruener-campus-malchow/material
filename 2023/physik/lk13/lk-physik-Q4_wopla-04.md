@@ -1,36 +1,45 @@
 # LK Physik Q4
 
-<img src="Art-Nouveau-LKPH.png" alt="drawing" style="width:200px;"/>
-
-## Ziele (alt)
-
-* Themen Q4 für Prüfung im Zentralabitur identifizieren
-* Verschiedene Ursachen der Radioaktivität im Alltag benennen
-* Entstehung radioaktiver Strahlung skizzieren
-	* Alpha
-	* Beta
-	* Gamma
-	* (schnelle) Neutronen (eigentlich keine radioaktive Strahlung aber wichtig, um Kettenreaktionen zu verstehen)
-* Aufbau der Nuklidkarte nachvollziehen
+Nachtermin Klausur: 17.2.23
 
 ## Ziele
 
-* Wiederholung (sehr schnell)
-* Emission und Absorption von Strahlung, 
-* Durchdringungsvermögen
-* Schwächungsgesetz 
-
+* Kettenreaktion (done)
+* Steuerung von AKW (done)
+* Kernfusion
 
 ## Inhalte
 
-### Tabelle erstellen mit allen relevanten Informationen
+### Kettenreaktionen und AKW
 
-siehe Hefter
+Ansprechend von einem Energiekonzern moderiert: https://www.youtube.com/watch?v=jpDRfaWYk3I
 
-### Remember: Nuklidkarten
+Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fission
 
-* https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
-* https://www.standardsicherung.schulministerium.nrw.de/cms/zentralabitur-wbk/faecher/getfile.php?file=2566
-* https://www.egwoerth.de/images/Faecher/Physik/Physik_Nuklidkarte_EGW.pdf
+Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.alternativlos.org/14/
 
-interaktiv: https://www.physiklehrer.net/Nuklidkarte/
+### Inhalt als Text und Animationen
+
+https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/grundwissen/kettenreaktion
+
+### Aufgabe rechnen
+
+https://www.leifiphysik.de/kern-teilchenphysik/kernspaltung-und-kernfusion/aufgabe/verhaeltnis-verschiedener-uranisotope-abitur-2007-lk-a4-3
+
+### Vortrag
+
+Wir halten gemeinsam den [Vortrag von Joury](Kernfusion_Joury.pdf)...
+
+> Darf der auf den Servern (für zukünftige SuS) verbleiben?
+
+### Videos zur Kernfusion
+
+#### ITER (Tokamak)
+
+[Harald Lesch: Grundlagen von Kernfusion und erwarteter Sinn und Nutzen](https://www.youtube.com/watch?v=nVTcirxdRWM)
+
+[ITER: Arte Dokumentation](https://www.youtube.com/watch?v=9Si7LQRE31Y)
+
+#### Stellerator
+
+[Wendelstein 7X in Greifswald](https://www.youtube.com/watch?v=cTt_1yt5PlU)
