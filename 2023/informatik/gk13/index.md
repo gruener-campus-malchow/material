@@ -62,11 +62,14 @@ Folgende Aufgaben ergeben sich aus dem (mehrmals) gelesenen Text:
 1. Erklären Sie den Nutzen des Aktionspotentials natürlicher Neuronen
 1. Beschreiben Sie den Aufbau eines einzelnen künstlichen Neurons anhand einer Skizze. Gehen Sie dabei auf die interne Verarbeitung der vielen Eingangssignale ein. Stellen Sie dabei dar, wie die einzelnen Eingaben an den “künstlichen Terminals” verarbeitet werden.
 1. Erklären Sie abschließend, wie einzelne Neuronen miteinander zu einem Netzwerk verbunden werden.
-1. Der Reader endet mit Fragen, die einen Ausblick auf die nächste Woche liefert. Formulieren Sie eigene Fragen, die sich aus dem in Ihrer Präsentation Dargestellten ergeben - oder formulieren Sie die Fragen aus dem Reader in eigenen Worten.
+1. Der Reader endet mit Fragen, die einen Ausblick auf die nächste Woche liefern. Formulieren Sie eigene Fragen, die sich aus dem in Ihrer Präsentation Dargestellten ergeben - oder formulieren Sie die Fragen aus dem Reader in eigenen Worten.  Ein weiterer Schwerpunkt der Fragen können Themen sein, die sie noch nicht (richtig) verstehen.
 1. Reflektion:
   * Was ich Neues gelernt habe
-  * Was ich noch nicht verstehe
 
 Erstellen Sie zu Ihrer Präsentation einen ScreenCast und laden Sie diesen im Lernraum hoch.
+
+[Hier ein Tutorial, wie man Bilder mit CampusSlides verwendet.](https://www.youtube.com/watch?v=G9b501I_rjs)
+
+Eigene
 
 Have a lot of fun!
