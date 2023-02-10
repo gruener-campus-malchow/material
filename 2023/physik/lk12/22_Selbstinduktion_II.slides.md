@@ -49,3 +49,7 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufg
 a) ist Hausaufgabe
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufgabe/wirkungsgrad-beim-elektromotor
+
+---
+
+## Test

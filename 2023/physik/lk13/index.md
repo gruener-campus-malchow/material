@@ -10,5 +10,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * [LK13-Q4-01](lk-physik-Q4_wopla-01.md)
 * [LK13-Q4-02](lk-physik-Q4_wopla-02.md)
 * [LK13-Q4-03](lk-physik-Q4_wopla-03.md)
-* [LK13-Q4-04 - Radiaktivität mathematisch](Radioaktivität_und_Mathe.md)
+* [LK13-Q4-04 - Radioaktivität mathematisch](Radioaktivität_und_Mathe.md)
 * [LK13-Q4-05](lk-physik-Q4_wopla-04.md) nach den Winterferien
