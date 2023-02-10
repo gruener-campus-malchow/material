@@ -53,3 +53,9 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufg
 ---
 
 ## Test
+
+---
+
+## Verschiedene Ströme
+
+https://www.kippenbergs.de/mint-inductance
