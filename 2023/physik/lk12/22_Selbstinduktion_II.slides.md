@@ -56,6 +56,14 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufg
 
 ---
 
+## Weitere Aufgaben
+
+https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/aufgabe/rund-um-die-selbstinduktion
+
+---
+
 ## Verschiedene Ströme
 
 https://www.kippenbergs.de/mint-inductance
+
+Erklären Sie den Verlauf der unterschiedlichen I(t)-Diagramme.
