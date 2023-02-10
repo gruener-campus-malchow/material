@@ -2,7 +2,7 @@
 
 Gleichspannung vs. Wechselspannung
 
-![](https://i.imgur.com/4oKOJkk.png)
+<img src=https://i.imgur.com/4oKOJkk.png>
 
 ---
 
