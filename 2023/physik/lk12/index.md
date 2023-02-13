@@ -137,6 +137,10 @@ Letzte Runde Gravitation!
 ## 04. Woche 2023 (nach den Winterferien)
 
 - [Selbstinduktion II](./22_Selbstinduktion_II.slides.md)
+
+## 05. Woche 2023 (nach den Winterferien)
+
+- [Selbstinduktion II ff](./22_Selbstinduktion_II.slides.md)
 - [Transformator](./23_Transformator.slides.md)
 
 # TODO
