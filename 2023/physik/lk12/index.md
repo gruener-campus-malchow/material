@@ -142,6 +142,8 @@ Letzte Runde Gravitation!
 
 - [Selbstinduktion II ff](./22_Selbstinduktion_II.slides.md)
 - [Transformator](./23_Transformator.slides.md)
+- [Generator](./24_Generator_Wechselströme.slides.md)
+
 
 # TODO
 
