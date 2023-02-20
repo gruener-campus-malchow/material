@@ -26,7 +26,7 @@ Hier geht es um Markdown, HTML und CSS.
 
 - [Einführung in GIT](03_git_einführung.md)
 - [Transparenzpapier Klausur](04_transparenzpapier_klausur.md)
-- SCRUM-Theorie - Lernraum
+- SCRUM-Theorie im Lernraum
 
 # Q2
 
