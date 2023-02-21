@@ -2,30 +2,20 @@
 
 ## Ziele (alt)
 
-* letzte Aufgabe beenden
+* Massendefekt
+* Bindungsenergie
 
 ## Ziele
 
+* letzte Aufgabe beenden
 * Strahlenschutz
 
 ## Inhalte
 
-### Clustern Sie die Expositionsmöglichkeiten
+### Untergang oder Aufbruch der Menschheit?
 
-Erstellen Sie eine Präsentation, die folgenden roten Faden verfolgt:
+Berechnen wir die frei werdende Energie einer Atombombe...
 
-* Möglichkeiten der Exposition
-* Definition "Äquivalentdosis"
-* Definition "Sievert"
-* typische Szenarien
-* Wahrscheinlichkeiten für Expositionen (Bewertung / Einordnung AB3!)
+... als Antriebsenergie für Raumschiffe (https://de.wikipedia.org/wiki/Orion-Projekt).
 
-Eine gute Übersicht geben folgende Artikel: 
-
-* https://de.wikipedia.org/wiki/%C3%84quivalentdosis
-* https://de.wikipedia.org/wiki/Liste_von_Gr%C3%B6%C3%9Fenordnungen_der_%C3%84quivalentdosis
-* https://de.wikipedia.org/wiki/Strahlenexposition
-
-innere und äußere Exposition und Expositionspfade:
-
-* https://www.ensi.ch/de/2017/02/02/strahlenschutz-serie-strahlenquellen-und-expositionspfade-in-kernanlagen/
+Erstellen Sie eine Präsentation mit Ihren Arbeitsergebnissen...
