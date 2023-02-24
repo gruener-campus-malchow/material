@@ -147,7 +147,7 @@ Letzte Runde Gravitation!
 ## 06. Woche 2023
 
 - [Generator](./24_Generator_Wechselströme.slides.md)
-- Aufgaben!!!
+- Aufgaben!!!!
 - [Widerstände im Wechselstromkreis](./25_Widerstand_in_Spule_und_Kondensator.slides.md)
 
 # TODO
