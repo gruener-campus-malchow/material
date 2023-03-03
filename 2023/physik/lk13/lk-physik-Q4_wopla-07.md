@@ -1,21 +1,19 @@
 # LK Physik Q4
 
-## Ziele (alt)
+## Wiederholung Strahlendosis
 
-* Massendefekt
-* Bindungsenergie
+- Welche Möglichkeiten der Messung radioaktiver Strahlung gibt es?
+- Erstellen wir eine Tabelle
 
-## Ziele
+## Beispiel für Grafiken
 
-* letzte Aufgabe beenden
-* Strahlenschutz
+[Größenverhältnisse](groessenverhältnisse.svg)
 
-## Inhalte
+## Folgen einer Katastrophe
 
-### Untergang oder Aufbruch der Menschheit?
+https://www.youtube.com/watch?v=aM_HbyIBbwc
 
-Berechnen wir die frei werdende Energie einer Atombombe...
+### Aufgaben
 
-... als Antriebsenergie für Raumschiffe (https://de.wikipedia.org/wiki/Orion-Projekt).
-
-Erstellen Sie eine Präsentation mit Ihren Arbeitsergebnissen...
+1. Notieren Sie die Inhalte des Films, sodass Sie im Anschluss die einzelnen "Kapitel" zusammenfassen könnten.
+2. Suchen Sie sich einen der genannten Messwerte zur Strahlendosis heraus. Stellen Sie die Größenverhältnisse ähnlich dar, wie oben gezeigt.

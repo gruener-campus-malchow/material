@@ -150,6 +150,11 @@ Letzte Runde Gravitation!
 - Aufgaben!!!!
 - [Widerstände im Wechselstromkreis](./25_Widerstand_in_Spule_und_Kondensator.slides.md)
 
+## 07. Woche 2023
+
+- Schwingungen - LB S. 202 ff
+- [noch mehr Schwingungen](./26_Schwingungen.slides.md)
+
 # TODO
 
 - Hall-Effekt
