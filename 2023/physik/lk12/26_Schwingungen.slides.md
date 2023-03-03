@@ -35,3 +35,13 @@ Welche der Schwingungen ist harmonisch?
 ![](https://www.leifiphysik.de/sites/default/files/images/fbe6531f1c9239ab08d274b96acdb179/992Britischer_Geologe.svg)
 
 Solve-Pair-Share
+
+---
+
+## Energieumwandlungen
+
+![!white](https://upload.wikimedia.org/wikipedia/commons/f/f8/Schwingungsanimation_nogif.svg)
+
+---
+
+## Resonanz
