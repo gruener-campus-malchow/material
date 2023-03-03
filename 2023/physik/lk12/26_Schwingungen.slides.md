@@ -16,7 +16,7 @@ Welche der Schwingungen ist harmonisch?
 
 ![!white](https://upload.wikimedia.org/wikipedia/commons/d/d4/Damped_oscillation_graph2.svg)
 
-\\( x(t)=x_{0}\cdot e^{-\delta t}\cdot \sin(\omega \cdot t+\varphi _{0}) \\)
+\\( x(t)=x_{0}\cdot e^{- \delta t}\cdot \sin(\omega \cdot t+\varphi _{0}) \\)
 
 ---
 
