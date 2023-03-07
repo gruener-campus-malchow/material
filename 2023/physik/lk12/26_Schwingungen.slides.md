@@ -51,4 +51,30 @@ Eine Stimmgabel schwingt mit einer Frequenz von 128Hz und einer Amplitude von 5m
 
 ---
 
+## Überlagerungen von Schwingungen
+
+1. Skizzieren Sie in einem Koordinatensystem zwei Schwingungen mit unterschiedlicher Amplitude und Frequenz.
+1222. Zeichnen Sie exakt unter dem Koordinatensystem ein neues, in welchem Sie die Addition regelmäßiger Elongationen als überlagerte Schwingung darstellen.
+
+---
+
+Zusatz:
+1. Erstellen Sie ein drittes Koordinatensystem in dem zwei Schwingungen skizziert sind. Die Wellenlänge der einen Schwingung soll ein ganzzahliges Vielfaches der Hälfte der Wellenlänge der anderen Schwingung sein \\( ( \Lambda_2 = n \cdot {\Lambda_1 \over 2}) \\).
+1. Skizzieren sie im gleichen Koordinatensystem die Überlagerung der Schwingungen.
+
+---
+
+Lotterie!
+
+---
+
+### Experimente mit überlagerten Schwingungen
+
+- Erstellen Sie eine Tabelle mit vier Spalten. 
+- In der ersten und zweiten Spalte wird für jedes Experiment die Frequenz der Schwinungen notiert. 
+- In der dritten Spalte wird eine Skizze der Überlagerung festgehalten. 
+- Die vierte Spalte soll eine sprachliche Beschreibung der Überlagerung beinhalten.
+
+---
+
 ## Resonanz
