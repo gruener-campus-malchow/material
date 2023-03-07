@@ -59,7 +59,7 @@ Eine Stimmgabel schwingt mit einer Frequenz von 128Hz und einer Amplitude von 5m
 ---
 
 Zusatz:
-1. Erstellen Sie ein drittes Koordinatensystem in dem zwei Schwingungen skizziert sind. Die Wellenlänge der einen Schwingung soll ein ganzzahliges Vielfaches der Hälfte der Wellenlänge der anderen Schwingung sein \\( ( \Lambda_2 = n \cdot {\Lambda_1 \over 2}) \\).
+1. Erstellen Sie ein drittes Koordinatensystem in dem zwei Schwingungen skizziert sind. Die Periodendauer der einen Schwingung soll ein ganzzahliges Vielfaches der Hälfte der Periodendauer der anderen Schwingung sein \\( ( T_2 = n \cdot {T_1 \over 2}) \\).
 1. Skizzieren sie im gleichen Koordinatensystem die Überlagerung der Schwingungen.
 
 ---
