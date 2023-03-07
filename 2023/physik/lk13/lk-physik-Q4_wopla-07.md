@@ -36,3 +36,4 @@ https://youtu.be/xA6koch5Tk0
     5. die Zerfallsgleichung
     6. die Aktivität für je 1g Probe
 1. Beurteilen Sie für jedes der Elemente ihre Gefährlichkeit und geben Sie begründete Hinweise zu ihrer sicheren Lagerung.
+
