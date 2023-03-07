@@ -155,6 +155,10 @@ Letzte Runde Gravitation!
 - Schwingungen - LB S. 202 ff
 - [noch mehr Schwingungen](./26_Schwingungen.slides.md)
 
+## 08. Woche 2023
+
+- [immer noch Schwingungen](./26_Schwingungen.slides.md)
+
 # TODO
 
 - Hall-Effekt
