@@ -68,13 +68,35 @@ Lotterie!
 
 ---
 
+### Warm Up!
+
+Skizzieren Sie in einem gemeinsamen Koordinatensystem zwei Sinusschwingungen mit gleicher Amplitude. Eine Schwingung hat eine Frequenz von 200Hz, die andere von 50Hz. Die Schwingungen sind zueinander nicht phasenverschoben.
+
+---
+
 ### Experimente mit überlagerten Schwingungen
 
 - Erstellen Sie eine Tabelle mit vier Spalten. 
-- In der ersten und zweiten Spalte wird für jedes Experiment die Frequenz der Schwinungen notiert. 
+- In der ersten und zweiten Spalte wird für jedes Experiment die Frequenz der Schwingungen notiert. 
 - In der dritten Spalte wird eine Skizze der Überlagerung festgehalten. 
 - Die vierte Spalte soll eine sprachliche Beschreibung der Überlagerung beinhalten.
 
 ---
+
+![](https://openclipart.org/image/400px/227550)
+
+*Note - Pair - Pair - Share*
+
+---
+
+![](https://openclipart.org/image/400px/284226)
+
+## Share
+
+Fokus: Sprachliche Muster beim Vergleichen und Beschreibungen von Schwingungen.
+
+---
+
+Coming soon...
 
 ## Resonanz
