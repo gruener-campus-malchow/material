@@ -72,7 +72,7 @@ Lotterie!
 
 Skizzieren Sie in einem gemeinsamen Koordinatensystem zwei Sinusschwingungen mit gleicher Amplitude. Eine Schwingung hat eine Frequenz von 200Hz, die andere von 50Hz. Die Schwingungen sind zueinander nicht phasenverschoben.
 
-Ergänzen Sie im gleichen Koordinatensystem eine Schwingung, die durch die Überlagerung der anderen Schwingungn entsteht.
+Ergänzen Sie im gleichen Koordinatensystem eine Schwingung, die durch die Überlagerung der anderen Schwingungen entsteht.
 
 ---
 
