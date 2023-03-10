@@ -76,7 +76,7 @@ Erstellen Sie zu Ihrer Präsentation einen ScreenCast und laden Sie diesen im Le
 
 Lesen Sie den Artikel https://scienceblogs.de/diaxs-rake/2010/01/15/ein-genetischer-algorithmus-in-python/ und ergänzen Sie das folgende MD-Dokument um erläuternde Sätze. Ergänzen Sie ggf. weitere interessante Fachbegriffe.
 
-[Fachbegriffe_genetische_Algorithmen.md](Fachbegriffe_genetische_Algorithmen.md)
+[Fachbegriffe_genetische_Algorithmen.mdn](Fachbegriffe_genetische_Algorithmen.mdn)
 
 
 
