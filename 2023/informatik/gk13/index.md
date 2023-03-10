@@ -77,4 +77,6 @@ Lesen Sie den Artikel https://scienceblogs.de/diaxs-rake/2010/01/15/ein-genetisc
 (Fachbegriffe_genetische_Algorithmen.md)[Fachbegriffe_genetische_Algorithmen.md]
 
 
+
+
 Have a lot of fun!
