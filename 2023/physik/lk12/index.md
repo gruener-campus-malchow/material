@@ -159,6 +159,10 @@ Letzte Runde Gravitation!
 
 - [immer noch Schwingungen](./26_Schwingungen.slides.md)
 
+## 09. Woche 2023
+
+- [Überlagerung und Resonanz](./27_Überlagerung_und_Resonanz.md)
+
 # TODO
 
 - Hall-Effekt
