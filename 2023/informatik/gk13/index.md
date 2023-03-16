@@ -84,4 +84,40 @@ Zunächst: https://blog.revolutionanalytics.com/2014/10/because-its-friday-virtu
 
 Stöbern Sie in den Glossaren Ihrer Mitschüler*innen. Im anschließenden Gespräch weisen Sie auf besonders gute Glossarbeiträge hin.
 
+## Aufgabe eigene Optimierung
+
+1. Finden Sie eine\*n Partner\*in für die Aufgabe.
+2. Entwerfen oder recherchieren Sie ein Beispiel, bei welchem Sie mit GA eine Lösung suchen.
+3. Stellen Sie in einer Präsentation dar, wie Sie
+    - Das mögliche Genom gestalten
+    - An welchen Kriterien Sie die Fitness festmachen
+    - Was ihre Simulation (Bestimmung der Fitness) beinhaltet
+    - Wie Sie die Selektion gestalten
+    - Wann Sie Ihr Problem als erfolgreich gelöst ansehen
+
+## Hands on!
+
+https://keiwan.itch.io/evolution
+
+# Grenzen der KI
+
+## KI und Ethik
+
+https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/kuenstliche-intelligenz-und-ethik.html
+
+### Aufgabe
+
+Erstellen Sie eine tabellarische Übersicht ethisch fragwürdiger Aspekte der KI-Forschung und stellen Sie diesen Lösungsansätze gegenüber.
+
+## Nutzlose KI-Tools
+
+https://www.technologyreview.com/2021/07/30/1030329/machine-learning-ai-failed-covid-hospital-diagnosis-pandemic
+
+### Aufgabe
+
+1. Finden Sie (allein und geheim) drei Beispiele bei denen KI nützlich sein können.
+1. Finden Sie (allein und geheim) drei Beispiele bei denen KI NICHT nützlich sein kann.
+
+
+
 Have a lot of fun!
