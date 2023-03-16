@@ -78,6 +78,10 @@ Lesen Sie den Artikel https://scienceblogs.de/diaxs-rake/2010/01/15/ein-genetisc
 
 [Fachbegriffe_genetische_Algorithmen.txt](Fachbegriffe_genetische_Algorithmen.txt)
 
+## Vergleich der Glossare
 
+Zunächst: https://blog.revolutionanalytics.com/2014/10/because-its-friday-virtual-robots-learn-to-walk.html
+
+Stöbern Sie in den Glossaren Ihrer Mitschüler*innen. Im anschließenden Gespräch weisen Sie auf besonders gute Glossarbeiträge hin.
 
 Have a lot of fun!
