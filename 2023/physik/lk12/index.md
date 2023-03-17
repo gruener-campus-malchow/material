@@ -162,6 +162,7 @@ Letzte Runde Gravitation!
 ## 09. Woche 2023
 
 - [Überlagerung und Resonanz](./27_Überlagerung_und_Resonanz.md)
+- [Transparenzdokument Klausur Q2](./transparenzdokument_klausur_q2.md)
 
 # TODO
 
