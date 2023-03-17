@@ -32,3 +32,11 @@ Lese-/Blätterzeit: 15 Minuten
 2015-2017
 
 https://www.isq-bb.de/wordpress/pruefungsarbeiten/berlin_zentralabitur/#1523966044400-d7c2f1c1-e34d
+
+## Repetitorien
+
+|Datum|Std|Themen|
+|---|---|---|
+| Di, 25.04.23 10:00-11:30 | 1,2 | ??? |
+| Fr, 05.05.23 8:55-09:40 | 3 | Experimente |
+| Di, 09.05.23 10:00-11:30  | 4,5 |??? |
