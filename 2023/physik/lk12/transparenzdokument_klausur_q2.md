@@ -8,4 +8,4 @@ Transparenzdokument Klausur Q2
 - Induktionsspannung berechnen
 - Gleichung herleiten (zeigen, dass gilt)
 - Schwingungen und Überlagerungen skizzieren
-- Aufstellen eine Schwingungsgleichung und Berechnen physikalischer Größen
+- Aufstellen einer Schwingungsgleichung und Berechnen physikalischer Größen
