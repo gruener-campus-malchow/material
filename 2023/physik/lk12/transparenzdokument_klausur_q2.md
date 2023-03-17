@@ -1,7 +1,7 @@
 Transparenzdokument Klausur Q2
 ==============================
 
-- Spezifische Funktionen (Nutzen) von Spulen und Transistoren erläutern
+- Spezifische Funktionen (Nutzen) von Spulen und Transformatoren erläutern
 - Skizzieren von Spannungsverläufen
 - Phänomene anhand einer Gleichung erklären
 - Windungszahlen bestimmen
