@@ -31,6 +31,6 @@ https://www.leifiphysik.de/kern-teilchenphysik/teilchenphysik/grundwissen/feynma
 <img src=https://imgs.xkcd.com/comics/standard_model_changes.png>
 </td>
 <td>
-<img src=https://imgs.xkcd.com/comics/standard_model_changes.png>
+<img src=https://www.explainxkcd.com/wiki/images/thumb/e/ed/1024px-Standard_Model_of_Elementary_Particles.svg.png/626px-1024px-Standard_Model_of_Elementary_Particles.svg.png>
 </td><tr></table>
 Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
