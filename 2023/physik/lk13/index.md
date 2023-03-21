@@ -16,3 +16,4 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * [LK13-Q4-07](lk-physik-Q4_wopla-06.md)
 * [LK13-Q4-08](lk-physik-Q4_wopla-07.md)
 * [LK13-Q4-09](lk-physik-Q4_wopla-08.md)
+* [Finale](finale.md)
