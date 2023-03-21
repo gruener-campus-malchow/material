@@ -21,3 +21,9 @@ https://www.leifiphysik.de/kern-teilchenphysik/teilchenphysik/grundwissen/feynma
 ## Geschichten aus der Elementarphysik
 
 1. Erstellen Sie eine eigene Geschichte, bei der Sie die Zusammenhänge aus Q4 in eine bildhafte Metapher verpacken!
+
+## Das Standard-Modell
+
+![](https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes)
+
+Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
