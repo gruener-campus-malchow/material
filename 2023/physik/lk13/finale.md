@@ -26,6 +26,6 @@ https://www.leifiphysik.de/kern-teilchenphysik/teilchenphysik/grundwissen/feynma
 
 ## Das Standard-Modell
 
-![](https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes)
+![](https://imgs.xkcd.com/comics/standard_model_changes.png)
 
 Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
