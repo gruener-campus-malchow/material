@@ -63,3 +63,5 @@ Live-Vortrag und -Erstellung der Präsentation
 Erstellen Sie eine Grafik aus der hervorgeht, weshalb bei einer kurzen Pulsweite weniger Energie übertragen wird.
 
 Hands-On mit einem Signalgenerator
+
+
