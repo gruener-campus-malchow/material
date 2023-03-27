@@ -170,8 +170,8 @@ Diverse Veranstaltungen, Übungen, Extranummern...
 
 ## 11. Woche 2023
 
-- [Schwingende SalzH-Aufgaben](28_Elektrische_Schwingungen.md)
-- [Beispielscreencast](screencast_dimmen_led_2023-03-27.mp4)
+- [Schwingende SalzH-Aufgaben](./28_Elektrische_Schwingungen.md)
+- [Beispielscreencast](./screencast_dimmen_led_2023-03-27.mp4)
 
 # TODO
 
