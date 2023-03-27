@@ -47,3 +47,37 @@ Die (kreative) Anforderung ist: Es dürfen keine Sichpunkte, sondern nur Bilder 
 Für das Speichern und Sichern der Vorträge gibt es eine Abgabe im Lernraum.
 
 Have a lot of fun!
+
+## Theorie-Sessions
+
+Wir haben folgende Fachinhalte erarbeitet:
+
+- Modellierung in Tabellen
+- Relationenmodell (RM)
+- Entity-Relationship-Models (ERM)
+    - (Kardinalitäten) in RM überführen
+
+### Praxisteil 1
+
+- gemeinsames ERM entwickeln
+- Diversifizierung und Spezialisierung paarweise
+- selbständiges Überführen in RM
+
+![Tafelbild](ERM_Schule_Tafelbild.jpeg)
+
+~~~SQL
+
+Person(_vorname_, _nachname_, _geburtsdatum_, mail, kuerzel, Klasse, Kursjahrgang)
+Raum(_haus_, _etage_, _nr_, zweck, paltzzahl, Fach.bezeichnung)
+Fach(_bezeichnung_, stufen)
+Kurs(_jahrgang_von_, _bezeichnung_, istKlasse, Fach.bezeichnung, Raum.haus, Raum.etage, Raum.nr)
+Unterrichtet(Person.vorname, Person.nachname, Person.geburtsdatum, Kurs.bezeichnung, Kurs.jahrgang_von)
+Nimmt_Teil(-||-) #siehe Unterrichtet -,-
+
+~~~
+
+### Praxisteil 2
+
+- paarweise ein ERM zu einem Szenario entwickeln
+- Vorstellen des ERM im Auditorium
+- Überführung in ein RM

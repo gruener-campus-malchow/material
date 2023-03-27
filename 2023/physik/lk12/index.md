@@ -164,6 +164,15 @@ Letzte Runde Gravitation!
 - [Überlagerung und Resonanz](./27_Überlagerung_und_Resonanz.md)
 - [Transparenzdokument Klausur Q2](./transparenzdokument_klausur_q2.md)
 
+## 10. Woche 2023
+
+Diverse Veranstaltungen, Übungen, Extranummern...
+
+## 11. Woche 2023
+
+- [Schwingende SalzH-Aufgaben](28_Elektrische_Schwingungen.md)
+- [Beispielscreencast](screencast_dimmen_led_2023-03-27.mp4)
+
 # TODO
 
 - Hall-Effekt
