@@ -96,3 +96,6 @@ Der Übersichtlichkeit halber, wird das Thema Datenbanken und Datenbanksysteme i
 |21.6.22| 90 min | ERM -> RM |
 |24.6.22| 45 min | Inventix-Time |
 
+## Scrum
+
+(SCRUM-Präsentation)[slides_scrum.slides.md]
