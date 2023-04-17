@@ -98,4 +98,4 @@ Der Übersichtlichkeit halber, wird das Thema Datenbanken und Datenbanksysteme i
 
 ## Scrum
 
-(SCRUM-Präsentation)[slides_scrum.slides.md]
+[SCRUM-Präsentation](slides_scrum.slides.md)
