@@ -173,6 +173,14 @@ Diverse Veranstaltungen, Übungen, Extranummern...
 - [Schwingende SalzH-Aufgaben](./28_Elektrische_Schwingungen.md)
 - [Beispielscreencast](./screencast_dimmen_led_2023-03-27.mp4)
 
+## Ferien
+
+Erholung und die eine oder andere Weiterentwicklung...?
+
+## 12. Woche 2023
+
+- [Schwingungen und Orga](./29_Elektrische_Schwingungen_2.md)
+
 # TODO
 
 - Hall-Effekt
