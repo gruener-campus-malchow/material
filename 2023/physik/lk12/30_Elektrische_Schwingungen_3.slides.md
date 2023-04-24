@@ -88,6 +88,12 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-schwingungen/a
 
 ---
 
+## Vertiefung / Wiederholung
+
+https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-schwingungen/grundwissen/elektromagnetischer-schwingkreis-ungedaempft
+
+---
+
 ## Der weniger ideale Ausblick
 
 Formulieren Sie eine Idee, wie Sie der (starken) Dämpfung eines realen Schwingkreises entgegenwirken können.
