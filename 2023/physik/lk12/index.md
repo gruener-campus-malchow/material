@@ -181,6 +181,10 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Schwingungen und Orga](./29_Elektrische_Schwingungen_2.md)
 
+## 13. Woche 2023
+
+- [Elektrische Schwingungen](./30_Elektrische_Schwingungen_3.slides.md)
+
 # TODO
 
 - Hall-Effekt
