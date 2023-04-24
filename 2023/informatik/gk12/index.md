@@ -78,6 +78,29 @@ Nimmt_Teil(-||-) #siehe Unterrichtet -,-
 
 ### Praxisteil 2
 
+Viele der hier genannten Schritte werden im Lernraum mit Abgaben der Arbeitsergebnisse kombiniert.
+
 - paarweise ein ERM zu einem Szenario entwickeln
 - Vorstellen des ERM im Auditorium
 - Überführung in ein RM
+- Einführung in SQL bzw. DDL (Theorie im Praxisteil)
+- Entscheidung: Arbeit mit MariaDB/MySQL statt mit SQLite
+- Überführen des RM in CREATE-Statements
+- Testen mit eigenen Datenbanken mit Hilfe von phpMyAdmin auf bplaced.net
+
+Beispiel:
+
+~~~SQL
+
+CREATE TABLE nutzer(
+	id INT PRIMARY KEY AUTO_INCREMENT, 
+	nutzername VARCHAR(100) NOT NULL, 
+	passwort VARCHAR(255) NOT NULL, 
+	datum DATE, 
+	email VARCHAR(255) NOT NULL, 
+	beschreibung TEXT, 
+	bild BLOB, 
+	link VARCHAR(255)
+)
+
+~~~
