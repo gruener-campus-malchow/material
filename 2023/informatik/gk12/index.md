@@ -104,3 +104,7 @@ CREATE TABLE nutzer(
 )
 
 ~~~
+
+### Klausurvorbereitung
+
+![](07_Klausurvorbereitung_Modelle_SQL.md)
