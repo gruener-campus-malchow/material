@@ -28,10 +28,10 @@ Kontaktaufnahme bei Fehlern oder Fragen.
 ## Relationen für ein Redaktionssystem
 
 ~~~SQL
-article(url,title, author_FK, content, tag_FK, creation_date, publish_date, last_edit_date, authorised, authorised_by_author_FK)
-author(username, prename, lastname, pseudonym, mail, hash, first_login_date)
-tag(tag, description)
-comment(url, content, creator, article_FK, creation_date,authorised, authorised_by_author_FK)
+article(url_PK,title, author_FK, content, tag_FK, creation_date, publish_date, last_edit_date, authorised, authorised_by_author_FK)
+author(username_PK, prename, lastname, pseudonym, mail, hash, first_login_date)
+tag(tag_PK, description)
+comment(url_PK, content, creator, article_FK, creation_date,authorised, authorised_by_author_FK)
 ~~~
 
 # Aufgaben
@@ -49,7 +49,7 @@ Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relations
 
 ### Relationenschreibweise in SQL überführen (15 BE, AB 2)
 
-Erzeugen Sie CREATE-Statements aus den Relationen in Relationen für ein Redaktionssystem.
+Erzeugen Sie CREATE-Statements aus den Relationen in Relationen für ein Redaktionssystem. Primärschlüssel haben den Suffix _PK.
 Fremdschlüssel erkennen Sie an dem Suffix _FK und dem Namen des Attributs, der auf die
 gleichnamige Relation verweist. Als Datentypen stehen Ihnen: TEXT, VARCHAR(255), INTEGER
 und DATETIME zur Verfügung.
