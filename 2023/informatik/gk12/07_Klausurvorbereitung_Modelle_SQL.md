@@ -37,56 +37,29 @@ comment(url, content, creator, article_FK, creation_date,authorised,
 authorised_by_author_FK)
 ~~~
 
-## Einfache Datenbankenzugriffe in PHP (noch python)
-
-~~~python
-import sqlite3
-connection = sqlite3.connect("my.db")
-cursor = connection.cursor()
-sql = "PRAGMA foreign_keys = ON;"
-cursor.execute(sql)
-connection.commit()
-connection.close()
-~~~
-
 # Aufgaben
 
-## Modellieren (ca. 30 Minuten)
+## Modellieren (ca. 45 Minuten)
 
-### Datenbank als ERM aus Text entwerfen (10 BE, AB 2)
+### Datenbank als ERM aus Text entwerfen (15 BE, AB 2)
 
 Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relationship-Model. Seien Sie dabei möglichst konservativ, also erfinden Sie keine zusätzlichen Attribute.
 
 
-### ERM in Relationenschreibweise überführen (10 BE, AB 1)
+### ERM in Relationenschreibweise überführen (15 BE, AB 1)
 
 Überführen Sie das ER-Modell in Nachrichtensystem in Relationenschreibweise.
 
-### Relationenschreibweise in SQL überführen (10 BE, AB 2)
+### Relationenschreibweise in SQL überführen (15 BE, AB 2)
 
 Erzeugen Sie CREATE-Statements aus den Relationen in Relationen für ein Redaktionssystem.
 Fremdschlüssel erkennen Sie an dem Suffix _FK und dem Namen des Attributs, der auf die
 gleichnamige Relation verweist. Als Datentypen stehen Ihnen: TEXT, VARCHAR(255), INTEGER
 und DATETIME zur Verfügung.
 
-## Programmieren von DB mit PHP (ca. 30 Minuten)
+## SQL (ca. 45 Minuten)
 
-Folgende Aufgaben sind noch auf Python gemünzt, werden aber bei Zeiten auf PHP umgewandelt.
-
-### Bestehenden Python-Code kommentieren (10 BE, AB 2)
-
-Kommentieren Sie zeilenweise das Skript Einfache Datenbankenzugriffe hinsichtlich der
-syntaktischen und semantischen Bedeutung.
-
-### Programm erweitern (15 BE, AB 3)
-
-Ergänzen Sie das Programm in Einfache Datenbankenzugriffe so, dass Sie eine zufällige Anzahl
-an Datenbanken zwischen 1 und 100 erzeugen, welche jeweils nur eine Tabelle namens „default“
-mit den Attributen „attribute“ und „value“ jeweils vom Typ TEXT beinhalten.
-
-## SQL (ca. 30 Minuten)
-
-### Anfragen stellen (10 Minuten, AB 2)
+### Anfragen stellen (15 Minuten, AB 2)
 
 Entwerfen Sie eine Anfrage für das ERM in Nachrichtensystem, die
 
@@ -94,14 +67,14 @@ a) ... die Anzahl der gesendeten Nachrichten pro Person ausgibt.
 
 b) ... alle Nachrichten, die „Bob“ empfangen hat, sortiert nach Zeit, ausgibt.
 
-### Datensätze speichern (10 Minuten, AB 3)
+### Datensätze speichern (15 Minuten, AB 3)
 
 Entwerfen Sie Anfragen für das ERM in Nachrichtensystem, so dass jede Entität existiert und über
 tatsächliche Datensätze verknüpft wird. Alle Beziehungen sollen berücksichtigt werden. Achten Sie
 auf die richtige Reihenfolge, damit keine Verweise auf nicht existierende Daten entstehen. Gehen
 Sie davon aus, dass alle Anfragen nacheinander und einzeln ausgeführt werden.
 
-### Datensätze ändern (10 Minuten, AB 2)
+### Datensätze ändern (15 Minuten, AB 2)
 
 Ändern Sie mindestens einen fiktiven Datensatz pro Entität aus dem ERM in Nachrichtensystem.
 Sollte eine Beziehung dadurch verändert werden müssen, muss dies in diesem Fall ausdrücklich
@@ -109,4 +82,4 @@ durch eine Anfrage geschehen.
 
 # Lösungen
 
-![Lösungen](07_Klausurvorbereitung_Modelle_SQL_Lösungen.md)
+[Lösungen zur selbständigen Kontrolle und(!) zur Diskussion](07_Klausurvorbereitung_Modelle_SQL_Lösungen.md)
