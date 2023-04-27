@@ -109,4 +109,4 @@ durch eine Anfrage geschehen.
 
 # Lösungen
 
-![Lösungen](Lösungen.md)
+![Lösungen](07_Klausurvorbereitung_Modelle_SQL_Lösungen.md)
