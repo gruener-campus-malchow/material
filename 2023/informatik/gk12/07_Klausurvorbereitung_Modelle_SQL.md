@@ -40,7 +40,7 @@ comment(url_PK, content, creator, article_FK, creation_date,authorised, authoris
 
 ### Datenbank als ERM aus Text entwerfen (15 BE, AB 2)
 
-Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relationship-Model. Seien Sie dabei möglichst konservativ, also erfinden Sie keine zusätzlichen Attribute.
+Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relationship-Model. Seien Sie dabei möglichst konservativ, also erfinden Sie keine neuen Attribute, wenn es nicht nötig ist.
 
 
 ### ERM in Relationenschreibweise überführen (15 BE, AB 1)
