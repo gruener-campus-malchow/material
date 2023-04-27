@@ -28,10 +28,10 @@ Kontaktaufnahme bei Fehlern oder Fragen.
 ## Relationen für ein Redaktionssystem
 
 ~~~SQL
-article(url_PK,title, author_FK, content, tag_FK, creation_date, publish_date, last_edit_date, authorised, authorised_by_author_FK)
 author(username_PK, prename, lastname, pseudonym, mail, hash, first_login_date)
 tag(tag_PK, description)
 comment(url_PK, content, creator, article_FK, creation_date,authorised, authorised_by_author_FK)
+article(url_PK,title, author_FK, content, tag_FK, creation_date, publish_date, last_edit_date, authorised, authorised_by_author_FK)
 ~~~
 
 # Aufgaben
