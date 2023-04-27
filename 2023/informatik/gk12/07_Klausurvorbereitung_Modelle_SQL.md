@@ -15,7 +15,7 @@ mehrere Sensoren sein aber ein Sensor ist immer nur an einem Ort. Ein Sensor ist
 durch eine Bezeichnung, eine Beschreibung und einen Typ. Die Bezeichnung eines Sensors
 identifiziert ihn eindeutig. Ein Sensor kann nur einen einzigen Typ haben. Typen (von Sensoren)
 haben eine Einheit, eine Typenbezeichnung und eine Beschreibung. Es kann mehrere Sensoren vom
-gleichen Typ geben. Ein Messwert ist besteht aus der Vorkommastelle, der Nachkommastelle und
+gleichen Typ geben. Ein Messwert besteht aus der Vorkommastelle, der Nachkommastelle und
 der Zeit an der er aufgenommen wurde. Ein Messwert muss einem Sensor zugeordnet sein.
 Personen sind verantwortlich für mehrere Sensoren und ein Sensor kann von mehreren Personen
 betreut werden. Personen haben einen Vornamen und Nachnamen und eine E-Mailadresse für die
