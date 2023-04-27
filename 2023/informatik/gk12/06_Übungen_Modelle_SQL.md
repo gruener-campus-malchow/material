@@ -8,7 +8,7 @@
 ## Szenario "MesswertStorageManagmentTool"
 
 In einer Datenbank sollen beliebige Messwerte aus unterschiedlichsten Quellen gespeichert werden. 
-Dabei wird jede Quelle mit einer Beschreibung, einer Bezeichnung, einem Ort und einer verantwortlichen Telefonnummer versehen.
+Dabei wird jede Quelle mit einer Beschreibung, einer Bezeichnung, einem Ort und einer Supporttelefonnummer versehen.
 Es gibt keine zwei Orte mit der gleichen Bezeichnung. Weitere Eigenschaften von Orten sind:
 Bezeichnung, Straße, Hausnummer, Postleitzahl, Stadt und GPS-Koordinaten. An einem Ort können
 mehrere Sensoren sein aber ein Sensor ist immer nur an einem Ort. Ein Sensor ist charakterisiert
@@ -23,7 +23,7 @@ Kontaktaufnahme bei Fehlern oder Fragen.
 
 ## ERM "Nachrichtensystem"
 
-![](Nachrichtensyste_ERM.png)
+![!large](Nachrichtensyste_ERM.png)
 
 ## Relationen für ein Redaktionssystem
 
@@ -55,7 +55,7 @@ connection.close()
 
 ### Datenbank als ERM aus Text entwerfen (10 BE, AB 2)
 
-Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relationship-Model.
+Entwickeln Sie aus dem Text in MesswertStorageManagmentTool ein Entity-Relationship-Model. Seien Sie dabei möglichst konservativ, also erfinden Sie keine zusätzlichen Attribute.
 
 ### ERM in Relationenschreibweise überführen (10 BE, AB 1)
 
