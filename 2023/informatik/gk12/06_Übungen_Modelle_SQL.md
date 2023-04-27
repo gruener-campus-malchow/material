@@ -7,8 +7,8 @@
 
 ## Szenario "MesswertStorageManagmentTool"
 
-In einer Datenbank sollen beliebige Messwerte aus unterschiedlichsten Quellen gespeichert werden.
-Dabei wird jede Quelle mit einer Beschreibung, einer Bezeichnung, einem Ort und *** versehen.
+In einer Datenbank sollen beliebige Messwerte aus unterschiedlichsten Quellen gespeichert werden. 
+Dabei wird jede Quelle mit einer Beschreibung, einer Bezeichnung, einem Ort und einer verantwortlichen Telefonnummer versehen.
 Es gibt keine zwei Orte mit der gleichen Bezeichnung. Weitere Eigenschaften von Orten sind:
 Bezeichnung, Straße, Hausnummer, Postleitzahl, Stadt und GPS-Koordinaten. An einem Ort können
 mehrere Sensoren sein aber ein Sensor ist immer nur an einem Ort. Ein Sensor ist charakterisiert
