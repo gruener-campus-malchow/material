@@ -107,7 +107,7 @@ CREATE TABLE nutzer(
 
 ### Klausurvorbereitung
 
-![](07_Klausurvorbereitung_Modelle_SQL.md)
+[Übungsklausur von 2019](07_Klausurvorbereitung_Modelle_SQL.md)
 
 
 > Have a lot of fun!
