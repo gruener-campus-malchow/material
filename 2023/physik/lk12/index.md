@@ -186,7 +186,7 @@ Erholung und die eine oder andere Weiterentwicklung...?
 - [Elektrische Schwingungen](./30_Elektrische_Schwingungen_3.slides.md)
 - Von der Schwingung zur Welle [Jovial: Simple Club](https://www.youtube.com/watch?v=lghj7pLzP98)
 - Kopplung der Oszillatoren!!!
-- Herzscher Dipol (LBS. 230)
+- Hertzscher Dipol (LBS. 230)
 - [Youtube: Elektromagnetische Welle 1](https://www.youtube.com/watch?v=FLQ1nDHi_uk)
 
 # TODO
