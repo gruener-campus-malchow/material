@@ -191,6 +191,7 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Wochenplanung EM Welle](./31_Elektromagnetische_Wellen.md)
 
+
 # TODO
 
 - Hall-Effekt
