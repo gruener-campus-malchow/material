@@ -186,8 +186,10 @@ Erholung und die eine oder andere Weiterentwicklung...?
 - [Elektrische Schwingungen](./30_Elektrische_Schwingungen_3.slides.md)
 - Von der Schwingung zur Welle [Jovial: Simple Club](https://www.youtube.com/watch?v=lghj7pLzP98)
 - Kopplung der Oszillatoren!!!
-- Hertzscher Dipol (LBS. 230)
-- [Youtube: Elektromagnetische Welle 1](https://www.youtube.com/watch?v=FLQ1nDHi_uk)
+
+## 14. Woche 2023
+
+- [Wochenplanung EM Welle](./31_Elektromagnetische_Wellen.md)
 
 # TODO
 
