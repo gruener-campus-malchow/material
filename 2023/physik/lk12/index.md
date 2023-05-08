@@ -191,6 +191,9 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Wochenplanung EM Welle](./31_Elektromagnetische_Wellen.md)
 
+## 15. Woche 2023
+
+- [Wochenplanung EM Welle](./32_Elektromagnetische_Wellen2.md)
 
 # TODO
 
