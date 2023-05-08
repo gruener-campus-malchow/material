@@ -15,6 +15,7 @@ Elektromagnetische Wellen
 - https://www.koenigs-wusterhausen.de/532242/rundfunkgeschichte
 - [Exkursion](https://www.koenigs-wusterhausen.de/820561/Sender--und-Funktechnikmuseum)?
 
+
 # Experimente mit dm-Wellen
 
 1. Schließen Sie sich der zufallsgenerierten Arbeitsgruppe von ca. 5 Personen an
