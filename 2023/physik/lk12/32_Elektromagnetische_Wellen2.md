@@ -11,7 +11,7 @@ Elektromagnetische Wellen
 
 # Aktuell
 
-- Übungen LBS. 244 Nr. 7,8,9 (Fritz: 102,6Mhz), 12
+- Übungen LBS. 244 Nr. 7, 8, 9 (z.B. Radio Fritz: 102,6MHz), 12
 - https://www.koenigs-wusterhausen.de/532242/rundfunkgeschichte
 - [Exkursion](https://www.koenigs-wusterhausen.de/820561/Sender--und-Funktechnikmuseum)?
 
