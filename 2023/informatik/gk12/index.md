@@ -108,6 +108,7 @@ CREATE TABLE nutzer(
 ### Klausurvorbereitung
 
 [Übungsklausur von 2019](07_Klausurvorbereitung_Modelle_SQL.md)
+[Transparenzdokument Klausur Q2](08_transparenzdokument_Klausur_Q2.md)
 
 
 > Have a lot of fun!
