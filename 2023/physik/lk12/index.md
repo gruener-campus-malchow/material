@@ -88,8 +88,15 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Wochenplanung EM Welle](./32_Elektromagnetische_Wellen2.md)
 
+## 16. Woche 2023
+
+- [Wochenplanung EM Welle und Abiturvorbereitung](./33_Elektromagnetische_Wellen3.md)
+
+
 # TODO
 
 - Hall-Effekt
+- Impuls, Impulserhaltung
+- elastischer und unelastischer Stoß
 
 Have a lot of fun!
