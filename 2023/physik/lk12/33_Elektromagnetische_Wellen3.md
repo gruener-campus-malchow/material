@@ -19,7 +19,7 @@ Elektromagnetische Wellen
 
 # Anmerkung
 
-Abgabetermin: ?????? (diese Woche oder nach Himmelfahrt)
+Abgabetermin: Freitag, den 19.05.2023 23:59 Uhr
 
 - in erster Stunde waren Nacharbeiten nötig
 - Auswertung der Bewertung der Mitarbeit- Erteilung von Noten (beginnend bei 11 NP)
