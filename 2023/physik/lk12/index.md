@@ -92,6 +92,9 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Wochenplanung EM Welle und Abiturvorbereitung](./33_Elektromagnetische_Wellen3.md)
 
+## 17. Woche 2023
+
+- [Wochenplanung EM Welle und Abiturvorbereitung](./34_Elektromagnetische_Wellen4.md)
 
 
 # TODO
