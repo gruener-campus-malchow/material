@@ -1,5 +1,5 @@
-Leistungskurs Physik Klasse 12 2022-2023
-========================================
+LK12 Physik 2022/23 Q1
+======================
 
 In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben zusammengestellt, die zum Slebstlernen und Lernen in der Schule geeignet sind.
 

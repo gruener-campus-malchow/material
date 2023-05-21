@@ -1,11 +1,9 @@
-Leistungskurs Physik Klasse 12 2022-2023
-========================================
+Orga und Tutorium
+=================
 
 [toc]
 
-# Orga und Tutorium
-
-## Tutorium
+# Tutorium
 
 * Belehrungen/Stammdatenblätter einsammeln
  * Fluchtplan
@@ -26,7 +24,7 @@ Leistungskurs Physik Klasse 12 2022-2023
 * Vandalismus
 * Handyverbot
 
-### Fehlstunden&shy;management
+## Fehlstunden&shy;management
 
 * Kursheft parallel Lernraum
  * Anwesenheit im KH selbständig, LR durch LK
@@ -34,7 +32,7 @@ Leistungskurs Physik Klasse 12 2022-2023
 * Fehlzettelmanagement
 * Besserung in Sicht
 
-### LK Physik
+## LK Physik
 
 * Unterschiede, neue Aspekte
 * Vorstellung
@@ -45,7 +43,7 @@ Leistungskurs Physik Klasse 12 2022-2023
  * Hr. Baldauf (Lernraum, nicht github)
  * [Aufgabenstellung SuS](aufgabe_vorstellung.md)
 
-## Anforderungen und Empfehlungen
+# Anforderungen und Empfehlungen
 
 * Hefterführung
  * Was an die Tafel kommt, kommt in den Hefter
@@ -60,7 +58,7 @@ Leistungskurs Physik Klasse 12 2022-2023
 * https://gcm.schule/material
 * Lernraum
 
-## Ziele
+# Ziele
 
 * Spannende Dinge lernen Leistungskurs = Konsens: Physik ist spannend
 * Leistungen steigern
