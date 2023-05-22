@@ -160,14 +160,17 @@ SELECT (attr01,attr02,attr03) FROM table01
 | 2  | bar     |
 
 
-
 ~~~SQL
 SELECT * FROM table01, table02
-WHERE table01.id = table02.id
+    WHERE 
+        foreign_key = table02.id
 ~~~
+
 
 #### Aufgaben
 
 Erstellen Sie für Ihre Beispieldatenbank für jeden der hier dargestellen SELECT-Typen eine Beispielanfrage. Erstellen Sie eine (Slides-) Präsentation, die sowohl Ihre Anfrage, als auch das Ergebnis der Datenbank darstellt. Gehen Sie in der Präsentation auf überraschende Erscheinungen und/oder Probleme ein.
+
+Nettes Tool zum Umwandeln von Tabellen in MD-Code: https://tabletomarkdown.com/
 
 > Have a lot of fun!
