@@ -173,4 +173,6 @@ Erstellen Sie für Ihre Beispieldatenbank für jeden der hier dargestellen SELEC
 
 Nettes Tool zum Umwandeln von Tabellen in MD-Code: https://tabletomarkdown.com/
 
+Ein noch netteres Tool: https://tableconvert.com/
+
 > Have a lot of fun!
