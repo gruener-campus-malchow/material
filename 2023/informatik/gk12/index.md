@@ -144,6 +144,16 @@ SELECT (attr01,attr02,attr03) FROM table01
 
 > ACHTUNG: Im Unterricht behandeln wir den JOIN nur implizit und überlassen dem DBS das Verknüpfen der Tabellen. In der Theorie wird hier zwischen vielen JOINs (left, right, outer, inner, usw.) unterschieden, die im Kern als Kreuzprodukt verarbeitet werden.
 
+
+| id | value | foreign_key |
+| -- | ----- | ----------- |
+| 1  | a     | 2           |
+| 2  | b     | 2           |
+| 3  | c     | 1           |
+[table01]
+
+
+
 ~~~SQL
 SELECT * FROM table01, table02
 WHERE table01.id = table02.id
