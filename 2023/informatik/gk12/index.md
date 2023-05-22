@@ -150,7 +150,7 @@ SELECT (attr01,attr02,attr03) FROM table01
 | 1  | a     | 2           |
 | 2  | b     | 2           |
 | 3  | c     | 1           |
-[table01]
+:table01
 
 
 
