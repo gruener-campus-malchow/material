@@ -41,3 +41,4 @@ Bestimmen Sie die Eigenfrequenz eines Schwingkreises indem Sie die Stromstärke 
     - Dämmung und Dämpfung
 - WPT Halbleiter
 - 5.PK Simulation
+
