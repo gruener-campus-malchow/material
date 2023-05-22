@@ -105,11 +105,52 @@ CREATE TABLE nutzer(
 
 ~~~
 
+#### INSERT-Queries
+
+TODO Beispiel...
+
 ### Klausurvorbereitung
 
 * [Übungsklausur von 2019](07_Klausurvorbereitung_Modelle_SQL.md)
 * [Transparenzdokument Klausur Q2](08_transparenzdokument_Klausur_Q2.md)
 
+### Praxisteil 3
 
+#### SELECT-Queries
+
+##### Vollständige Tabelle von Datenbank abfragen 
+
+~~~SQL
+SELECT * FROM table01;
+~~~
+
+##### Spezielle Attribute von Tabelle abfragen (Projektion)
+
+~~~SQL
+SELECT (attr01,attr02,attr03) FROM table01;
+~~~
+
+##### Daten aus einer Tabelle mit Einschränkungen (Selektion)
+
+~~~SQL
+SELECT (attr01,attr02,attr03) FROM table01 
+    WHERE
+        attr01 = 1
+    AND
+        attr02 > 100;
+~~~
+
+##### Daten aus mehreren Tabellen mit Einschränkungen (eigentlich JOIN)
+
+> ACHTUNG: Im Unterricht behandeln wir den JOIN nur implizit und überlassen dem DBS das Verknüpfen der Tabellen. In der Theorie wird hier zwischen vielen JOINs (left, right, outer, inner, usw.) unterschieden, die im Kern als Kreuzprodukt verarbeitet werden.
+
+~~~SQL
+SELECT * FROM table01, table02
+WHERE table01.id = table02.id
+~~~
+
+#### Aufgaben
+
+Erstellen Sie für Ihre Beispieldatenbank für jeden der hier dargestellen SELECT-Typen eine Beispielanfrage. Erstellen Sie eine (Slides-) Präsentation, die sowohl Ihre Anfrage, als auch das Ergebnis der Datenbank darstellt. Gehen Sie in der Präsentation auf überraschende Erscheinungen und/oder Probleme ein.
 
 > Have a lot of fun!
