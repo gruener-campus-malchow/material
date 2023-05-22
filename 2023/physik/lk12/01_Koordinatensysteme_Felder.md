@@ -1,13 +1,11 @@
-Leistungskurs Physik Klasse 12 2022-2023
-========================================
-
-[toc]
-
-# Koordinatensysteme und Felder
+Koordinatensysteme und Felder
+=============================
 
 Ein Koordinatensystem dient dazu, Punkte mit Hilfe von Zahlen, den Koordinaten, in eindeutiger Weise zu beschreiben. Die einfachsten Beispiele sind ein Zahlenstrahl und kartesische Koordinaten in der Ebene. Im ersten Fall wird einem Punkt einer Gerade eine reelle Zahl zugeordnet. Im zweiten Fall wird ein Punkt in der Ebene durch zwei reelle Zahlen beschrieben.
 
 Bei räumlichen Gebilden sind drei Koordinaten erforderlich, bei raum-zeitlichen Gebilden vier.
+
+[toc]
 
 Der Begriff Koordinate – in der Bedeutung „Lageangabe“ – wurde im 18. Jahrhundert aus dem Wort Ordinate (Senkrechte) gebildet.
 
@@ -17,7 +15,7 @@ Neben den weit verbreiteten kartesischen (rechtwinkligen) Koordinaten gibt es au
 
 In vielen Situationen ist es unmöglich, hinreichend sinnvolle und bequeme globale Koordinaten auf der gesamten Menge einzuführen. Zum Beispiel können die Punkte einer Kugeloberfläche, anders als die einer Ebene, nicht in eine kontinuierliche Eins-zu-Eins-Korrespondenz mit Zahlenpaaren gebracht werden.
 
-## Polarkoordinaten
+# Polarkoordinaten
 
 Ein weiteres häufig genutztes Koordinatensystem ist das der Polarkoordinaten. Dieses kann nur in der Ebene eingeführt werden. Für den dreidimensionalen Raum gibt es mit den Kugel- und den Zylinderkoordinaten zwei unterschiedliche Verallgemeinerungen. 
 
@@ -25,30 +23,30 @@ Für die Definition dieses Koordinatensystems wird ein Punkt als Pol und ein Str
 
 gekürzt und vereinfacht, aus [Wikipedia](https://de.wikipedia.org/wiki/Koordinatensystem)
 
-## Aufgabenblock
+# Aufgabenblock
 
-### Think
+## Think
 
 - Formulieren Sie den Nutzen von Koordinatensystemen.
 - Erstellen Sie ein beliebiges 2-dimensionales kartesisches Koordinatensystem, in welchem Sie vier Punkte darstellen, die alle auf den Kanten eines Dreiecks liegen.
 - Erstellen Sie ein beliebiges 2-dimensionales Polarkoordinatensystem, in welchem Sie vier Punkte mit unterschiedlichen Abständen zum Ursprung und in je einem Quadranten darstellen.
 
-### Pair
+## Pair
 
 Vergleichen Sie Ihre eigenen Aufzeichnungen mit einer anderen aus dem Auditorium.
 Korrigieren und eränzen Sie Ihre Aufzeichnungen.
 
-### Share
+## Share
 
 Wir diskutieren zwei beispielhafte Versionen im ganzen Auditorium.
 
-## Felder
+# Felder
 
 Felder weisen einem Punkt im Raum weitere (pyhsikalische) Eigenschaften zu. Beispielsweise ordnen Kraftfelder, einem Punkt eine Kraftwirkung zu. Sie sind nichts als eine Abstraktion für die Wirkung physikalischer Phänomene.
 
-## Aufgabenblock
+# Aufgabenblock
 
-### Group
+## Group
 
 Ordnen Sie Sich einer der folgenden Gruppen zu:
 
@@ -56,17 +54,17 @@ Ordnen Sie Sich einer der folgenden Gruppen zu:
 - Elektrisches Feld
 - Gravitationsfeld
 
-### Consult
+## Consult
 
 1. Teilen Sie jede Gruppe in max. 3er-Gruppen auf.
 1. Führen Sie in den 3er-Gruppen Konsultationen durch. Beraten Sie, wie sie die Quelle(n) und die Wirkung der jeweiligen Feldart grafisch darstellen können.
 1. Erstellen Sie für die 3er-Gruppen ein gemeinsames Ergebnis in Form eines A4-Plakates.
 
-### Present
+## Present
 
 Zufällig wird eines der Plakate aus den Supergruppen gewählt und dem Auditorium präsentiert.
 
-## Warmup Ending
+# Warmup Ending
 
 - Welchen Nutzen hat das gelernte/strukturierte Wissen?
 - Welche Aspekte sind weiterhin unverstanden?
