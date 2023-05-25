@@ -175,4 +175,33 @@ Nettes Tool zum Umwandeln von Tabellen in MD-Code: https://tabletomarkdown.com/
 
 Ein noch netteres Tool: https://tableconvert.com/
 
+## Planung der 5. PK Simulationen
+
+01. bis 30.6.2023 stehen Termine zur Verfügung
+
+Zwei Vorträge pro Doppelstunde oder ein Vortrag pro Einzelstunde
+
+[Hintergrundinformationen hier](5pk_simulation_2023.md)
+
+### Client-side storage
+
+* A.R. & E.M.
+
+### Bandbibliotheken (Tape Libraries)
+
+* M.B. & A.M.
+
+### Die Trennung von MySQL und MariaDB
+
+* O.M.
+
+## Roadmap
+
+- DBs aus Programmen benutzen (PHP&MySQL)
+    - Prepared Statements (schöne Grafik erstellen)
+    - Die HTML-Universaltabelle
+    - PHP als Webservice (API: MySQL->JSON)
+    - DIE
+
+
 > Have a lot of fun!
