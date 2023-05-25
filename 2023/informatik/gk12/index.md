@@ -177,7 +177,7 @@ Ein noch netteres Tool: https://tableconvert.com/
 
 ## Planung der 5. PK Simulationen
 
-01. bis 30.6.2023 stehen Termine zur Verfügung
+ab 19.6. stehen Termine zur Verfügung in der hier stehenden Reihenfolge ist entscheidend
 
 Zwei Vorträge pro Doppelstunde oder ein Vortrag pro Einzelstunde
 
@@ -186,14 +186,20 @@ Zwei Vorträge pro Doppelstunde oder ein Vortrag pro Einzelstunde
 ### Client-side storage
 
 * A.R. & E.M.
+* 25 Minuten Vortrag, 15 Minuten Gespräch
+* 19.6.2023
 
 ### Bandbibliotheken (Tape Libraries)
 
 * M.B. & A.M.
+* 25 Minuten Vortrag, 15 Minuten Gespräch
+* 22.6.2023
 
 ### Die Trennung von MySQL und MariaDB
 
 * O.M.
+* 20 Minuten Vortrag, 10 Minuten Gespräch
+* 26.6.2023
 
 ## Roadmap
 
@@ -202,6 +208,5 @@ Zwei Vorträge pro Doppelstunde oder ein Vortrag pro Einzelstunde
     - Die HTML-Universaltabelle
     - PHP als Webservice (API: MySQL->JSON)
     - DIE
-
 
 > Have a lot of fun!
