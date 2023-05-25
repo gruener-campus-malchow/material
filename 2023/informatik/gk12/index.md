@@ -183,6 +183,8 @@ Zwei Vorträge pro Doppelstunde oder ein Vortrag pro Einzelstunde
 
 [Hintergrundinformationen hier](5pk_simulation_2023.md)
 
+https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/faecher/gesellschaftswissenschaften/sozialkunde/Handreichung_5PK_im_Abitur.pdf
+
 ### Client-side storage
 
 * A.R. & E.M.
