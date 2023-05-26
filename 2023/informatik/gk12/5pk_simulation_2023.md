@@ -61,7 +61,7 @@ Um große Mengen an Daten offline und langfristig zu speichern und sicher aufzub
 
 ## Client-side storage
 
-Web Storage und IndexedDB sind moderne Möglichkeiten, um clientseitig Daten im Browser zu speichern. Welchen Sinn hat ein mächtiger lokaler Speicher? Wie kann ein solcher Speicher für Inventix nützlich sein?
+Web Storage und IndexedDB sind moderne Möglichkeiten, um clientseitig Daten im Browser zu speichern. Welchen Sinn hat ein mächtiger lokaler Speicher? Wie kann ein solcher Speicher für ein beipsielhaftes Projekt nützlich sein?
 
 1. https://developer.mozilla.org/de/docs/Web/API/IndexedDB_API
 1. https://web.dev/indexeddb-best-practices/
