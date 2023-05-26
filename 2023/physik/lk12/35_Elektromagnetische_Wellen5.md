@@ -42,3 +42,19 @@ Bestimmen Sie die Eigenfrequenz eines Schwingkreises indem Sie die Stromstärke 
 - WPT Halbleiter
 - 5.PK Simulation
 
+## Besprechung Tafelbilder
+
+Fehlt noch was? Vergleich: Fokus S.236ff
+
+### Warum ist der Himmel blau?
+
+- Das Licht aus Himmelsrichtung besteht zum Großteil aus blauem senkrecht zur Sonne polarisierten Licht
+- Andere Farben werden von Luft-Molekülen absorbiert (ja, so wie bei kleinen Antennen)
+- Dazu kommen verschiedene Streu-Effekte - deshalb ist er überall blau
+- Ein sehr komplexes Phänomen... zur Vertiefung
+
+## Wahlpflichtthema Halbleiter
+
+v.a. als Gegenstand der 5.PK Simulation
+
+[Hinweise und Themen](5pk_simulation_physik_2023.md)
