@@ -1,4 +1,9 @@
-# 5. Prüfungskomponente
+Fünfte Prüfungskomponente
+===========
+
+[toc]
+
+# Hinweise
 
 ## Disclaimer 
 
@@ -22,6 +27,7 @@ Es lohnt sich, in regelmäßigen Abständen während des Arbeitsprozesses zu üb
 
 Auch eine Besprechung der Gliederung mit dem Prüfer (oder jeder anderen außenstehenden Person) ist da hilfreich.
 
+# Aufgaben
 
 ## Die Trennung von MySQL und MariaDB
 
