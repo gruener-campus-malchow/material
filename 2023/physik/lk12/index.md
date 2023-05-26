@@ -99,6 +99,7 @@ Erholung und die eine oder andere Weiterentwicklung...?
 ## 18. Woche 2023
 
 - [Wochenplanung EM Welle und Abiturvorbereitung](./35_Elektromagnetische_Wellen5.md)
+- [Hinweise und Themen 5. PK](5pk_simulation_physik_2023.md)
 
 # TODO
 
