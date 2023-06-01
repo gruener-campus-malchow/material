@@ -101,6 +101,10 @@ Erholung und die eine oder andere Weiterentwicklung...?
 - [Wochenplanung EM Welle und Abiturvorbereitung](./35_Elektromagnetische_Wellen5.md)
 - [Hinweise und Themen 5. PK](5pk_simulation_physik_2023.md)
 
+## 19. Woche 2023
+
+- [Transparenzdokument 2. Klausur Q2](./transparenzdokument_klausur_q2-2.md)
+
 # TODO
 
 - Hall-Effekt
