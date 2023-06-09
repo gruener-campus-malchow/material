@@ -105,6 +105,12 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - [Transparenzdokument 2. Klausur Q2](./transparenzdokument_klausur_q2-2.md)
 
+## 20. Woche 2023
+
+- Klausurtermin am Montag
+- Streik von Dienstag bis Donnerstag (Wen interessiert, was wir gemacht haben, wird [hier](https://www.youtube.com/c/gcmvideo) fündig.)
+- Einführung in die [Halbleiterphysik mit Leifi](https://www.leifiphysik.de/elektronik/einfuehrung-die-elektronik)
+
 # TODO
 
 - Hall-Effekt
