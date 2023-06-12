@@ -20,6 +20,9 @@ $statement -> execute();
 // Holen und Vorverarbeiten der gesamten Antwort (keine gute Idee für große Datenmengen)
 $result = $statement->fetchAll();
 
+// Nur eine Zeile holen ginge mit: $result = $statement->fetch();
+// Dann müsste man bei großen Datenmengen Schleifen verwenden...
+
 print_r($result);
 echo('<hr>');
 var_dump($result);
