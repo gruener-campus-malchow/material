@@ -109,7 +109,7 @@ Erholung und die eine oder andere Weiterentwicklung...?
 
 - Klausurtermin am Montag
 - Streik von Dienstag bis Donnerstag (Wen interessiert, was wir gemacht haben, wird [hier](https://www.youtube.com/c/gcmvideo) fündig.)
-- Einführung in die [Halbleiterphysik mit Leifi](https://www.leifiphysik.de/elektronik/einfuehrung-die-elektronik)
+- [Wahlpflichtthema Halbleiter](./36_Halbleiter_WPT.md)
 
 # TODO
 
