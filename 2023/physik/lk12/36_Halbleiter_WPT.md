@@ -14,7 +14,7 @@ Wahlpflichtthema Halbleiter
 
 Erstellen Sie als Gruppe einen Vortrag, in welcher Sie Dotierung erklären. Es steht Ihnen das Medium der Präsentation frei. Ziel ist eine ungefähre Dauer von 10 Minuten. Allerderings müssen folgende Inhalte anschaulich und verständlich dargestellt werden:
 
-Jeweils für p-Dotierung oder n-Dotierung:
+Jeweils für p-Dotierung oder(!) n-Dotierung:
 
 - physikalischer Nutzen der Dotierung
 - Funktionsweise
