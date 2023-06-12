@@ -203,6 +203,13 @@ https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/handr
 * 20 Minuten Vortrag, 10 Minuten Gespräch
 * 26.6.2023
 
+## Zugriff auf Datenbanken mit PHP
+
+![](PDO_beispielcode.png)
+
+Erstellen und testen Sie eine PHP-Datei, die ähnlich wie das Beispiel eine beliebige Anfrage auf Ihrer Beispieldatenbank ausführt. Laden Sie die PHP-Datei im Lernraum hoch.
+
+
 ## Roadmap
 
 - DBs aus Programmen benutzen (PHP&MySQL)
