@@ -32,7 +32,7 @@ Auch eine Besprechung der Gliederung mit dem Prüfer (oder jeder anderen außens
 ## Einführung Halbleiter
 
 Bezugsfach: Geographie/PW
-Vortragende: J.O. + ?
+Vortragende: J.O. + P.S.
 
 ### Anforderungen
 
