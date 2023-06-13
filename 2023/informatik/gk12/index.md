@@ -205,6 +205,16 @@ https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/handr
 
 ## Zugriff auf Datenbanken mit PHP
 
+Wir benutzen prepared Statements, damit uns nicht folgendes Problem begegnet:
+
+![](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
+Dahinter steckt eine Angriffsmethode Namens "SQL-Injection", zu der es natürlich einen [Wikipedia-Artikel](https://de.wikipedia.org/wiki/SQL-Injection) gibt.
+
+Generell ist das Dokument TODO!!!! sehr empfehlenswert, wenn es um die Erstellung sicherer Webseiten oder Webservices geht. Hier werden einige Sicherheitslücken anschaulich erläutert.
+
+### Aufgabenstellung
+
 ![](PDO_beispielcode.png)
 
 Erstellen und testen Sie eine PHP-Datei, die ähnlich wie das Beispiel eine beliebige Anfrage auf Ihrer Beispieldatenbank ausführt. Laden Sie die PHP-Datei im Lernraum hoch.

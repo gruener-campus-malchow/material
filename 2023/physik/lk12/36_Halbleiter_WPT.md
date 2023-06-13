@@ -21,6 +21,11 @@ Jeweils für p-Dotierung oder(!) n-Dotierung:
 - technische Umsetzung der Dotierung (Herstellung)
 - Zwei Anwendungsbeispiele
 
+Mögliche Quellen:
+
+- https://www.leifiphysik.de/elektronik/einfuehrung-die-elektronik
+- https://www.halbleiter.org/grundlagen/dotieren/
+
 # Stunde 03 (45')
 
 Vortragen des Vortrages...

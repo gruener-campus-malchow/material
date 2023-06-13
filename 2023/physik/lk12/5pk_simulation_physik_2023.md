@@ -42,7 +42,16 @@ Vortragende: J.O. + ?
 
 ### Quellen
 
-todo
+- https://de.wikipedia.org/wiki/Mooresches_Gesetz
+- https://de.wikipedia.org/wiki/Mooresches_Gesetz#Weblinks
+- https://www.heise.de/news/Gordon-Moore-schwacher-PC-Markt-und-Server-Spekulationen-8964928.html
+- https://www.heise.de/news/EU-Chips-Act-So-definiert-die-EU-eine-Halbleiterkrise-7471691.html
+- https://www.statista.com/chart/25552/semiconductor-manufacturing-by-location/
+- https://www.statista.com/chart/27903/annual-revenue-of-the-leading-semiconductor-foundries/
+- https://www.statista.com/chart/30041/global-semiconductor-wafer-fabrication-capacity-by-type-and-location/
+- https://steveblank.com/2022/01/25/the-semiconductor-ecosystem/
+- https://www.mpg.de/307848/forschungsSchwerpunkt1
+- https://www.statista.com/statistics/268108/world-silicon-production-by-country/
 
 ## Physik der Halbleiter
 
