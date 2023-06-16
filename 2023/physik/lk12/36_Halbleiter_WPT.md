@@ -29,3 +29,42 @@ Mögliche Quellen:
 # Stunde 03 (45')
 
 Vortragen des Vortrages...
+
+# Stunde 04 (90')
+
+## Meta
+
+- Raum für Nerdtalk
+- Antrag zur Geschäftsordnung
+- Weitere Probleme?
+- Klassenleitertage am 11. und 12. Juli nur bis Klasse 11
+- 10. Juli: MSA-Zeugnisausgabe nachmittags... Vormittags vermutlich Unterricht
+- 12. Juli: Zeugnisausgabe, Tontechnik in Sporthalle GS, Bestenehrung
+    - Vorschlag: Abgrillen ab 13:00 Uhr?
+
+## Funktionsweise von Dioden
+
+https://www.youtube.com/watch?v=MSncOmacDJ0
+
+Gemeinsames Tafelbild erstellen
+
+## Funktionsweise von Leuchtdioden
+
+Einleitung: https://www.youtube.com/watch?v=jgP20PNmP9g
+Bändermodell: https://www.youtube.com/watch?v=n18CjBqQvpw
+
+Gemeinsames Tafelbild erstellen
+
+## Laserdioden
+
+Aufbau: https://www.youtube.com/watch?v=kQQG9lFeZ_E
+Laser allgemein: https://www.youtube.com/watch?v=GC-dud8JM6A
+Laserdioden [en]: https://www.youtube.com/watch?v=tOai-C1fxIM
+
+Gemeinsames Tafelbild erstellen
+
+## Funktionsweise eines Gleichrichters
+
+https://www.youtube.com/watch?v=8sPtBatLULE
+
+Gemeinsames Tafelbild erstellen
