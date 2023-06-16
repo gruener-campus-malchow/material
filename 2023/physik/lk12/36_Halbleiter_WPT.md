@@ -46,11 +46,14 @@ Vortragen des Vortrages...
 
 https://www.youtube.com/watch?v=MSncOmacDJ0
 
+https://youtu.be/cGSck0nzlsE
+
 Gemeinsames Tafelbild erstellen
 
 ## Funktionsweise von Leuchtdioden
 
 Einleitung: https://www.youtube.com/watch?v=jgP20PNmP9g
+
 Bändermodell: https://www.youtube.com/watch?v=n18CjBqQvpw
 
 Gemeinsames Tafelbild erstellen
@@ -58,7 +61,9 @@ Gemeinsames Tafelbild erstellen
 ## Laserdioden
 
 Aufbau: https://www.youtube.com/watch?v=kQQG9lFeZ_E
+
 Laser allgemein: https://www.youtube.com/watch?v=GC-dud8JM6A
+
 Laserdioden [en]: https://www.youtube.com/watch?v=tOai-C1fxIM
 
 Gemeinsames Tafelbild erstellen
