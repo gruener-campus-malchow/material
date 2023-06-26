@@ -213,12 +213,25 @@ Dahinter steckt eine Angriffsmethode Namens "SQL-Injection", zu der es natürlic
 
 Generell ist das Dokument TODO!!!! sehr empfehlenswert, wenn es um die Erstellung sicherer Webseiten oder Webservices geht. Hier werden einige Sicherheitslücken anschaulich erläutert.
 
-### Aufgabenstellung
+### Aufgabenstellung "Prepared Statements ausprobieren"
 
 ![](PDO_beispielcode.png)
 
 Erstellen und testen Sie eine PHP-Datei, die ähnlich wie das Beispiel eine beliebige Anfrage auf Ihrer Beispieldatenbank ausführt. Laden Sie die PHP-Datei im Lernraum hoch.
 
+### Aufgabenstellung "Ein Formular verarbeiten und in der DB speichern"
+
+![](PDO_formularverarbeitung.png)
+
+Vollziehen Sie den Code (und das dynamische Erstellen) nach und passen Sie den Code an Ihr eigenes Beispiel an. Letztlich sollen Speichervorgänge abhängig von Formulardaten sein.
+
+### Aufgabenstellung "CRUD komplett"
+
+Entwickeln Sie ein Formular, das erlaubt, schon existierende Daten zu verändern, zu löschen und natürlich neue Daten zu erstellen.
+
+Hier ein Beispiel für ein mögliches Frontend:
+
+![](PDO_beispieltabelle.png)
 
 ## Roadmap
 
