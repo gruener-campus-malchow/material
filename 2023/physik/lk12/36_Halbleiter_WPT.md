@@ -76,14 +76,13 @@ Gemeinsames Tafelbild erstellen
 
 ## Solarzellen
 
-[Arbeitsblatt](./halbleiter/Arbeitsblatt_Solarzelle.pdf)
+- [Arbeitsblatt](./halbleiter/Arbeitsblatt_Solarzelle.pdf)
+- Ergebnissicherung
 
 ### Orga
 
 - Tutoriumstag
 - Abiball
-
-Ergebnissicherung
 
 ## Transistor
 
