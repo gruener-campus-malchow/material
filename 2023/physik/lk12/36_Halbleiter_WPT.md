@@ -68,6 +68,30 @@ Laserdioden [en]: https://www.youtube.com/watch?v=tOai-C1fxIM
 
 Gemeinsames Tafelbild erstellen
 
+## Bildsensoren (CCD & CMOS)
+
+-[Einstieg / Präsentation](./halbleiter/Praesi_Bildsensoren.pdf
+-[CCD Material](./halbleiter/CCD_Material.pdf)
+-[CMOS Material](./halbleiter/CMOS_Material.pdf)
+
+## Solarzellen
+
+[Arbeitsblatt](./halbleiter/Arbeitsblatt_ _Solarzelle.pdf)
+
+### Orga
+
+- Tutoriumstag
+- Abiball
+
+Ergebnissicherung
+
+## Transistor
+
+Element14 Teil 1: https://www.youtube.com/watch?v=R0Uy4EL4xWs
+Element14 Teil 2: https://www.youtube.com/watch?v=3YADxhQOhKE
+
+# Skipped
+
 ## Funktionsweise eines Gleichrichters
 
 https://www.youtube.com/watch?v=8sPtBatLULE
