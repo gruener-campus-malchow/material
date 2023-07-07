@@ -88,6 +88,7 @@ Ergebnissicherung
 ## Transistor
 
 - [Weiße Männer in den Bell-Labs](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bardeen_Shockley_Brattain_1948.JPG/1024px-Bardeen_Shockley_Brattain_1948.JPG)
+- [Prototypen](https://upload.wikimedia.org/wikipedia/commons/e/e8/Philco_Surface_Barrier_transistor%3D1953.jpg)
 - Element14 Teil 1: https://www.youtube.com/watch?v=R0Uy4EL4xWs
 - Element14 Teil 2: https://www.youtube.com/watch?v=3YADxhQOhKE
 
