@@ -87,8 +87,8 @@ Ergebnissicherung
 
 ## Transistor
 
-Element14 Teil 1: https://www.youtube.com/watch?v=R0Uy4EL4xWs
-Element14 Teil 2: https://www.youtube.com/watch?v=3YADxhQOhKE
+- Element14 Teil 1: https://www.youtube.com/watch?v=R0Uy4EL4xWs
+- Element14 Teil 2: https://www.youtube.com/watch?v=3YADxhQOhKE
 
 # Skipped
 
