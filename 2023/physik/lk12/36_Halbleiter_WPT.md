@@ -76,7 +76,7 @@ Gemeinsames Tafelbild erstellen
 
 ## Solarzellen
 
-[Arbeitsblatt](./halbleiter/Arbeitsblatt_ _Solarzelle.pdf)
+[Arbeitsblatt](./halbleiter/Arbeitsblatt_Solarzelle.pdf)
 
 ### Orga
 
