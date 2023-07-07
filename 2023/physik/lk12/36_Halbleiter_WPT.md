@@ -70,9 +70,9 @@ Gemeinsames Tafelbild erstellen
 
 ## Bildsensoren (CCD & CMOS)
 
--[Einstieg / Präsentation](./halbleiter/Praesi_Bildsensoren.pdf
--[CCD Material](./halbleiter/CCD_Material.pdf)
--[CMOS Material](./halbleiter/CMOS_Material.pdf)
+- [Einstieg / Präsentation](./halbleiter/Praesi_Bildsensoren.pdf)
+- [CCD Material](./halbleiter/CCD_Material.pdf)
+- [CMOS Material](./halbleiter/CMOS_Material.pdf)
 
 ## Solarzellen
 
@@ -87,6 +87,7 @@ Ergebnissicherung
 
 ## Transistor
 
+- [Weiße Männer in den Bell-Labs](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bardeen_Shockley_Brattain_1948.JPG/1024px-Bardeen_Shockley_Brattain_1948.JPG)
 - Element14 Teil 1: https://www.youtube.com/watch?v=R0Uy4EL4xWs
 - Element14 Teil 2: https://www.youtube.com/watch?v=3YADxhQOhKE
 
