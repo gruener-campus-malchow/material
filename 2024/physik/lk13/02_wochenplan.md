@@ -1,9 +1,6 @@
 # LK Physik Q3 Woche 01 
 ==============================
 
-Markdeep also allows captions on Gravizo graphs and newlines within
-the URL itself:
-
 <img src='https://g.gravizo.com/svg?
  digraph G {
    main -> parse -> execute;
