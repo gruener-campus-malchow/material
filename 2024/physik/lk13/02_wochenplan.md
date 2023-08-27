@@ -4,7 +4,8 @@
 Markdeep also allows captions on Gravizo graphs and newlines within
 the URL itself:
 
-<img src=http://g.gravizo.com/svg?"digraph G {
+<img src='https://g.gravizo.com/svg?
+ digraph G {
    main -> parse -> execute;
    main -> init;
    main -> cleanup;
@@ -13,7 +14,8 @@ the URL itself:
    init -> make_string;
    main -> printf;
    execute -> compare;
- }">
+ }
+'/>
 
 
 ## Ziele
