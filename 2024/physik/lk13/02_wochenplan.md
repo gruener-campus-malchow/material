@@ -1,19 +1,5 @@
-# LK Physik Q3 Woche 01 
+LK Physik Q3 Woche 01 
 ==============================
-
-<img src='https://g.gravizo.com/svg?
- digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
- }
-'/>
-
 
 ## Ziele
 
@@ -133,3 +119,15 @@ Gerthsen:
 3. Stellen Sie für den Schwebezustand eine mathematische Gleichung auf, bei der die nach oben wirkende Coulomb-Kraft gleich der nach unten wirkenden Gravitationskraft ist. Vereinfachen Sie diese Gleichung weitgehend.
 4. Stellen Sie eine Vermutung auf, weshalb dieser Versuch an den Beginn einer Reihe über Quantenphysik gestellt wird.
 
+<img src='https://g.gravizo.com/svg?
+ digraph G {
+   main -> parse -> execute;
+   main -> init;
+   main -> cleanup;
+   execute -> make_string;
+   execute -> printf
+   init -> make_string;
+   main -> printf;
+   execute -> compare;
+ }
+'/>
