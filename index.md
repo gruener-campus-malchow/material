@@ -5,6 +5,10 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 [toc]
 
+# 2023-2024
+
+* [Leistungskurs Physik Klasse 13](2024/physik/lk13/)
+
 # 2023
 
 Das sind nur schnellere Links... weil einige der Kurse nicht mehr Unterricht bei mir haben.
