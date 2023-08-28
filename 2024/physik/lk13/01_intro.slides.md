@@ -54,5 +54,22 @@ Wer stellt sich zur Wahl?
 
 ---
 
-> auf bald
+## Call for Participation
 
+aka: Bitte um Hilfe
+
+* Kästen aus 3.209 in Robotik-Labor
+* G.U.T.E.R.K.E.R.L. auch in Robotik-Labor?
+* 3.207 wieder herrichten
+    * Umhängen der Transpis
+    * Stühle
+    * Müll
+    * Mikrowelle (Technik-Lager)
+
+### Mittelfristig
+
+* Gestaltung der Wandzeitungen: Physik, Informatik
+
+---
+
+> auf bald
