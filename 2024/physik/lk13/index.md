@@ -7,7 +7,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Q3
 
-[Intro](./01_intro.slides.md)
+- [Intro](./01_intro.slides.md)
+- [Wochenplan](./02_wochenplan.md)
 
 
 Have a lot of fun!
