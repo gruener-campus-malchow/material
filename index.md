@@ -7,6 +7,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 # 2023-2024
 
+* [Grundkurs Physik Klasse 12](2024/physik/gk12/)
 * [Leistungskurs Physik Klasse 13](2024/physik/lk13/)
 
 # 2023
