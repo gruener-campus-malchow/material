@@ -6,7 +6,10 @@
 
 # Intro
 
-[toc]
+- Vorstellungsrunde
+- Bürokratie
+- Termine
+- Belehrungen
 
 **Danach noch etwas Physik!**
 
