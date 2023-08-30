@@ -1,6 +1,6 @@
-# GK Pysik 13
+# GK Pysik 12
 
-2021-2022
+2023-2024
 
 ---
 
@@ -20,9 +20,9 @@ Kommunikation
 
 Sind alle da? Sonst Rückmeldung
 
-Was wollen wir voneinander wissen? 
+Was wollen wir voneinander wissen?
 
-Steckbrief per **E-Mail ** an mich
+Steckbrief per **E-Mail ** an mich, Antwort auch per Mail
 
 ---
 
@@ -30,12 +30,13 @@ Steckbrief per **E-Mail ** an mich
 
 PC, Netzanbindung
 
-Einverständniserklärungen Lernraum, BBB **siehe LRK**
+iServ, Messenger
 
 ---
 
 ## Termine
-Klausurplan
+
+Klausurplan kommt Mitte September
 
 Alle Termine sind verbindlich!!!
 
@@ -43,16 +44,16 @@ Alle Termine sind verbindlich!!!
 
 ## Belehrungen
 
-* Belehrung Hygienemaßnahmen – Lüften, MNS, regelmäßiges Testen, Abstandsgebot, Hände waschen, Nies-Etikette
 * Erinnerung: Schul- und Hausordnung
 * Verhalten bei Brand- und Katastrophengefahr, Alarmordnung, Amok
 * Vorbildverhalten Grüner Campus Malchow als Umweltschule und als Schule der Höflichkeit
+* Fachraumordnung mit Unterschriften
 
 ---
 
 * Aufenthalt in den Pausen – Nutzung der Arbeitsplätze im GO-Raum/ „Raucherinsel“
 * Handyregelung
-* Laptopregelung aus TK kolportieren
+* Laptopregelung
 * Oberstufenraum als **Arbeitsraum** für JG 12+
 * Mülltrennung
 * Drogen
