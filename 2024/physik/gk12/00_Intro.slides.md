@@ -23,7 +23,7 @@ Klarstellung: **Leiden**schaft für Physik
 
 Was wollen wir voneinander wissen?
 
-Steckbrief per **E-Mail ** an mich, Antwort auch per Mail
+Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
 Meine Ziele für Sie
 

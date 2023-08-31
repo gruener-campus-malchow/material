@@ -7,15 +7,16 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 # 2023-2024
 
+## Physik
 * [Grundkurs Physik Klasse 12](2024/physik/gk12/)
 * [Leistungskurs Physik Klasse 13](2024/physik/lk13/)
 
-# 2023
+<!--# 2023
 
 Das sind nur schnellere Links... weil einige der Kurse nicht mehr Unterricht bei mir haben.
 
 * [Grundkurs Informatik Klasse 12](2023/informatik/gk12/)
-* [Leistungskurs Physik Klasse 12](2023/physik/lk12/)
+* [Leistungskurs Physik Klasse 12](2023/physik/lk12/)-->
 
 # 2022-2023
 
