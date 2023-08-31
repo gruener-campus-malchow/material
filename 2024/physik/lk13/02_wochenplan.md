@@ -119,6 +119,10 @@ Gerthsen:
 3. Stellen Sie für den Schwebezustand eine mathematische Gleichung auf, bei der die nach oben wirkende Coulomb-Kraft gleich der nach unten wirkenden Gravitationskraft ist. Vereinfachen Sie diese Gleichung weitgehend.
 4. Stellen Sie eine Vermutung auf, weshalb dieser Versuch an den Beginn einer Reihe über Quantenphysik gestellt wird.
 
+[Material auf Leifi](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/versuche/millikan-versuch-schwebe-fall-methode-simulation)
+
+## Nur ein Test
+
 <img src='https://g.gravizo.com/svg?
  digraph G {
    main -> parse -> execute;
