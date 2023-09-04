@@ -21,7 +21,6 @@ In vielen Situationen ist es unmöglich, hinreichend sinnvolle und bequeme globa
 
 - Formulieren Sie den Nutzen von Koordinatensystemen.
 - Erstellen Sie ein beliebiges 2-dimensionales kartesisches Koordinatensystem, in welchem Sie vier Punkte darstellen, die alle auf den Kanten eines Dreiecks liegen.
-- Erstellen Sie ein beliebiges 2-dimensionales Polarkoordinatensystem, in welchem Sie vier Punkte mit unterschiedlichen Abständen zum Ursprung und in je einem Quadranten darstellen.
 
 ## Pair
 
