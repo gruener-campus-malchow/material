@@ -39,15 +39,15 @@ Felder weisen einem Punkt im Raum weitere (pyhsikalische) Eigenschaften zu. Beis
 
 ## Group
 
-Ordnen Sie Sich einer der folgenden Gruppen zu:
+Sie werden per Zufall einer der folgenden Gruppen zugeordnet:
 
-- Magnetisches Feld
-- Elektrisches Feld
-- Gravitationsfeld
+1. Magnetisches Feld
+2. Elektrisches Feld
+3. Gravitationsfeld
 
 ## Consult
 
-1. Teilen Sie jede Gruppe in max. 3er-Gruppen auf.
+1. Teilen Sie die Gruppen mit, damit per Zufall 3er-Gruppen eingeteilt werden können.
 1. Führen Sie in den 3er-Gruppen Konsultationen durch. Beraten Sie, wie sie die Quelle(n) und die Wirkung der jeweiligen Feldart grafisch darstellen können.
 1. Erstellen Sie für die 3er-Gruppen ein gemeinsames Ergebnis in Form eines A4-Plakates.
 
