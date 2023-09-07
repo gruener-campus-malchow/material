@@ -14,6 +14,10 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 * [Grundkurs Klasse 12](2024/physik/gk12/)
 * [Leistungskurs Klasse 13](2024/physik/lk13/)
 
+## Informatik
+
+https://docs.gcm.schule/slides/#/v5BxbF_TYlxZFSbyzKg
+
 <!--# 2023
 
 Das sind nur schnellere Links... weil einige der Kurse nicht mehr Unterricht bei mir haben.
