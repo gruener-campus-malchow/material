@@ -18,6 +18,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 https://docs.gcm.schule/slides/#/v5BxbF_TYlxZFSbyzKg
 
+
+
 <!--# 2023
 
 Das sind nur schnellere Links... weil einige der Kurse nicht mehr Unterricht bei mir haben.
