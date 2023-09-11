@@ -7,10 +7,10 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Woche 01
 
-[Intro](./00_Intro.slides.md)
-[Physik ist...](./01_physik_ist.md)
+- [Intro](./00_Intro.slides.md)
+- [Physik ist...](./01_physik_ist.md)
 
 # Woche 02
 
-[Physik ist...](./01_physik_ist.md)
-[Methoden der Physik](./02_methoden
+- [Physik ist...](./01_physik_ist.md)
+- [Methoden der Physik](./02_methoden)
