@@ -13,4 +13,4 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 # Woche 02
 
 - [Physik ist...](./01_physik_ist.md)
-- [Methoden der Physik](./02_methoden)
+- [Methoden der Physik](./02_methoden.md)
