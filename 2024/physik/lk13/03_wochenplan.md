@@ -3,7 +3,7 @@ LK Physik Q3
 
 
 !!! Achtung:
-    **Bögen zur Festlegung des 3. PF:** Damit müssen die SuS verbindlich festlegen, welches Fach als 3. Prüfungsfach gewählt wird. Bitte gebt die Bögen morgen oder am Donnerstag aus. Die SuS müssen diese dann bis 10.09. bei mir wieder im Briefkasten abgeben. Wenn jemand eine Änderung vornehmen will, kann die ursprüngliche Angabe gestrichen und die neue Wahl daneben notiert werden.
+    **Bögen zur Festlegung des 3. PF:** Damit müssen die SuS verbindlich festlegen, welches Fach als 3. Prüfungsfach gewählt wird. Bitte gebt die Bögen morgen oder am Donnerstag aus. Die SuS müssen diese dann bis 22.09. bei mir wieder im Briefkasten abgeben. Wenn jemand eine Änderung vornehmen will, kann die ursprüngliche Angabe gestrichen und die neue Wahl daneben notiert werden.
 
 ## Ziele
 
