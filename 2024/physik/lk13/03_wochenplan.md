@@ -46,7 +46,9 @@ Feldbegriff unterscheidet sich: **Kein magnetischer Monopol**
 
 ### Aufgaben
 
-Arbeitsteilig Bilder und Kurzbeschreibung recherchieren.
+Arbeitsteilig ein Plakat erstellen.
+
+Todo: Kriterien festlegen.
 
 ### Röhren
 
