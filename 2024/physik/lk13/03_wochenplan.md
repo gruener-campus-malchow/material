@@ -24,6 +24,16 @@ LK Physik Q3
 
 ## Inhalte
 
+### Millikanversuch
+
+Nachtrag: Empirie
+
+![Einfaches Diagramm](https://www.leifiphysik.de/sites/default/files/images/7b8c0aab49f4373df0d4356de7513eca/1000millikan-versuch-auswertung-diagramm-0.svg)
+
+![Etwas realistischer](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLw2LfnKiYWuiLGuOOTtgmpgjxUVZ6FH1ZJkzuUxnzYIzkvF6QJLu9vGweDf_78HxECw&usqp=CAU)
+
+https://www.lern-online.net/physik/pdf/millikan-versuch.pdf
+
 ### Magnetfeld
 
 Feldbegriff unterscheidet sich: **Kein magnetischer Monopol**
