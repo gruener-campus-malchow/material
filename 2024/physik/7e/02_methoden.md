@@ -27,7 +27,7 @@ Ermittle den Inhalt der Kästen ohne sie zu öffnen.
 
 Eigentlich können wir nur Zeit richtig gut messen. Alles Andere leiten wir davon ab. Das klingt komisch, ist aber immerhin High-Tech. Trotzdem haben wir auch "primitive" Messgeräte.
 
-Beginnen wir mit der Wahl der richtigen Messinstrumente:
+Beginnen wir mit der Wahl der richtigen Messinstrumente, z.B.:
 
 - Lineal
 - Meterband
