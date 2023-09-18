@@ -35,4 +35,4 @@ Beginnen wir mit der Wahl der richtigen Messinstrumente:
 - Fuß
 - Schrittlänge
 
-Nun folgt die Aufgabenstellung (die ist noch geheim).
+Die [Aufgabenstellung](./02_messaufgabe.slides.md) ist noch geheim.
