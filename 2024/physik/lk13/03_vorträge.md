@@ -1,6 +1,8 @@
 Details zu den Vorträgen
 =================================
 
+[toc]
+
 # Formalien
 
 ## Aufgabe
