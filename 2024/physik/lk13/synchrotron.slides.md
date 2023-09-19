@@ -69,7 +69,8 @@ Bau ab 1945
 
 ## Gegenwart
 
-* Elektronensynchrotrone heute nicht mehr für Teilchenphysik, sondern als Quellen für Synchrotronstrahlung ![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CMS_Higgs-event.jpg/1024px-CMS_Higgs-event.jpg)
+* Elektronensynchrotrone heute nicht mehr für Teilchenphysik, sondern als Quellen für Synchrotronstrahlung 
+* Am LHC auch andere spannende Experimente ![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CMS_Higgs-event.jpg/1024px-CMS_Higgs-event.jpg)
 
 ---
 
