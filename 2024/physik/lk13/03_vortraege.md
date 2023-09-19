@@ -22,10 +22,10 @@ Arbeitsteilig einen Vortrag erstellen.
 | Vortrag               | Zeit          |
 |-----------------------|---------------|
 | Kathodenstrahlröhre   | 22.9.23       |
-| Röntgenröhre          | 26.9.23       |
+| Röntgenröhre          | 28.9.23       |
 | Elektronenröhren      | 28.9.23       |
 | Synchrotron           | Lehrervortrag |
-| Schmelzen mit Feldern | 28.9.23       |
+| Schmelzen mit Feldern | 29.9.23       |
 | Streuung / Brechung   | 29.9.23       |
 
 
