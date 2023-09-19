@@ -44,5 +44,5 @@ Feldbegriff unterscheidet sich: **Kein magnetischer Monopol**
 
 ## Heutige technische Anwendungen von Elektronenstrahlen
 
-[Details zu den Vorträgen](./03_vorträge.md)
+[Details zu den Vorträgen](./03_vortraege.md)
 
