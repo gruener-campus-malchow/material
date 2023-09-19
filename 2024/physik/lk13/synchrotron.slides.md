@@ -72,3 +72,10 @@ Bau ab 1945
 * Elektronensynchrotrone heute nicht mehr für Teilchenphysik, sondern als Quellen für Synchrotronstrahlung ![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/CMS_Higgs-event.jpg/1024px-CMS_Higgs-event.jpg)
 
 https://de.wikipedia.org/wiki/Synchrotron
+
+## Synchrotronstrahlung
+
+* Spektrum von IR bist Röntgen ![!right](https://upload.wikimedia.org/wikipedia/commons/5/58/Syncrotron.png)
+* Gut berechenbar
+* Brillanzunterschiede![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Undulator_%28numbers%29.svg/1280px-Undulator_%28numbers%29.svg.png)
+
