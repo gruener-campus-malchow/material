@@ -77,8 +77,8 @@ Bau ab 1945
 ## Synchrotronstrahlung
 
 * Spektrum von IR bist Röntgen ![!right](https://upload.wikimedia.org/wikipedia/commons/5/58/Syncrotron.png)
-* Gut berechenbar
-* Brillanzunterschiede![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Undulator_%28numbers%29.svg/1280px-Undulator_%28numbers%29.svg.png)
+* Gut berechenbar ![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Undulator_%28numbers%29.svg/1280px-Undulator_%28numbers%29.svg.png)
+* Brillanzunterschiede 
  * 1. Gen: parasitär
  * 2. Gen: extra gebaut
  * 3. Gen: Undulatoren
