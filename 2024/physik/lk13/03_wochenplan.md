@@ -46,3 +46,4 @@ Feldbegriff unterscheidet sich: **Kein magnetischer Monopol**
 
 [Details zu den Vorträgen](./03_vortraege.md)
 
+Have a lot of fun!
