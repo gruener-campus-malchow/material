@@ -84,10 +84,10 @@ Bau ab 1945
 ## Synchrotronstrahlung
 
 * Brillanzunterschiede ![!right](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Undulator_%28numbers%29.svg/1280px-Undulator_%28numbers%29.svg.png)
-    * 1. Gen: parasitär
-    * 2. Gen: extra gebaut
-    * 3. Gen: Undulatoren
-    * 4. Gen: Freie Elektronen Laser 
+    * Gen. 1: parasitär
+    * Gen. 2: extra gebaut
+    * Gen. 3: Undulatoren
+    * Gen. 4: Freie Elektronen Laser 
 
 ---
 
