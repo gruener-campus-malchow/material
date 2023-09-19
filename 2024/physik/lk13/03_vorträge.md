@@ -1,20 +1,51 @@
-### Aufgaben
+Details zu den Vorträgen
+=================================
 
-Arbeitsteilig ein Plakat erstellen.
+# Formalien
 
-Todo: Kriterien festlegen.
+## Aufgabe
 
-### Röhren
+Arbeitsteilig einen Vortrag erstellen.
 
-#### Kathodenstrahlröhre
+## Kriterien
 
-Fernsehen, Bildschirm
+* Quellenangabe nach [ISO 690](https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/solte-gresser/Dokumente/Allgemein/Zitieren_nach_DIN_ISO_690.pdf)
+* Keine Folie ohne Illustration (incl. Titelfolie)
+* Bildunterschriften
+* keine Sätze (außer Zitate)
+* ca. 10 Min. (+-)20%
 
-#### Röntgenröhre
+## Zeitplan
 
-Medizin, Materialprüfung
+| Vortrag               | Zeit          |
+|-----------------------|---------------|
+| Kathodenstrahlröhre   | 22.9.23       |
+| Röntgenröhre          | 26.9.23       |
+| Elektronenröhren      | 28.9.23       |
+| Synchrotron           | Lehrervortrag |
+| Schmelzen mit Feldern | 28.9.23       |
+| Streuung / Brechung   | 29.9.23       |
 
-#### Elektronenröhren
+
+# Themen
+
+## Röhren
+
+### Kathodenstrahlröhre (Vortrag)
+
+Erläutern Sie die Funktionsweise. Insbesondere die Entstehung, die Ablenkung und die Bildenstehung sind relevant. Die Geschichte können Sie unterschlagen.
+
+Beispiele/ Anwendung: Fernsehen, Bildschirm
+
+### Röntgenröhre (Vortrag)
+
+Erläutern Sie die grundlegende Funktionsweise. Gehen Sie nicht auf die Spektren (kontinuierlich/diskret) ein, das ist Stoff für später. Legen Sie bitte einen Schwerpunkt auf die Bildentstehung beim Röntgen.
+
+Beispiele/ Anwendung: Medizin, Materialprüfung
+
+### Elektronenröhren (Vortrag)
+
+Gehen Sie auf die Besonderheiten, also die elektronischen Eigenschaften ein. Erklären Sie, wie die Verstärkung funktioniert. Erklären Sie, wie man Röhren zum Rechnen verwenden kann.
 
 Rechentechnik (antik): Steuercomputer in alten Flugzeugen EMP-Sicher
 
@@ -26,18 +57,22 @@ Rechentechnik (antik): Steuercomputer in alten Flugzeugen EMP-Sicher
 >
 > http://www.hts-homepage.de/Silizium/Silizium.html
 
-Hochfrequenztechnik: Radar, Gaslaser, Sintern, Mikrowellenherd
+Beispiele/ Anwendung: Hochfrequenztechnik: Radar, Gaslaser, Sintern, Mikrowellenherd
 Audioverstärker, Gitarrenverstärker
 
-### Synchrotron
+## Synchrotron
 
 Kohärente Elektronenstrahlen, die sich selbst überholen...
 [Vortrag](synchrotron.slides.md)
 
 ### Schmelzen
 
-Industrie
+Erklären Sie, wie mit Feldern feste Materialien geschmolzen werden können. Gehen Sie im Besonderen auf "Elektronenstrahlschweißen" ein.
+
+Beispiele/ Anwendung: Industrie
 
 ### Streuung / Brechung
 
-Forschung, Entwicklung
+Elektronenstrahlen werden bei der "Elektronenstreuung" (en: Electron scattering) verwendet, um sehr kleine Strukturen zu untersuchen. Stellen Sie hier den grundlegenden Versuchsaufbau dar. Zur Elektronenbeugungsröhre gibt es ebenfalls gutes Material, das Sie uns vorstellen sollen.
+
+Beispiele/ Anwendung: Forschung, Entwicklung
