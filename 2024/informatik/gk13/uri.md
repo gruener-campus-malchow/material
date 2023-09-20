@@ -61,7 +61,7 @@ ein Teil der Ressource, bei Html-Seiten z.B. ein Anchor-Tag
 
 ## Unterschied URI und URL
 
-![URI=URL U URN](URI-URL-URN.png)
+![Konzept](./URI-URL-URN.png)
 
 
 ## Quellen
