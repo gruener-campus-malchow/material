@@ -1,59 +1,55 @@
-# URI (Uniform Resource Identifier)
+URI (Uniform Resource Identifier)
+=================================
 
---- 
+[toc]
 
-## Gliederung
-#### 1. Geschichte
-#### 2. Definition
-#### 3. Funktion
-#### 4. Syntax
-#### 5. Quellen
-
----
-
-## 1. Geschichte 
+# Geschichte 
 - Grundgedanke: 
   - Tim Berners-Lee (Gründer)
 - Einführung des Bergriffs 1994 
 - erstes W3C-Dokument mit Uniform später
 
----
+# Definition
 
-## 2. Definition
+> Die URI ist dafür da, abstrakte und physische Ressourcen zu identifizieren und somit spezifische Informationen aus dem Internet zu erlangen
 
-Definition:
+# Funktion
 
-Die URI ist dafür da, abstrakte und physische Ressourcen zu identifizieren und somit  
-spezifische Informationen aus dem Internet zu erlangen
-
-## 3. Funktion
-- kann Sender und Empfänger einer E-Mail identifizieren 
+- kann Sender und Empfänger bspsw. einer E-Mail identifizieren 
 - aus der URI kann das System ablesen wo und wie bestimmte Informationen identifiziert werden sollen
 - Identifizierung durch festgelegte Syntax
 
----
+# Syntax
 
-## 4. Syntax
 - als Zeichenfolge kodiert 
 - es dürfen keine Leerzeichen verwendet werden
 
-- 5 Bestandteile:
-  - Scheme
-    - gibt an wie Informationen wie das Protokoll benutzt wird
-    
-  - authority
-    - identifiziert das Domain
-    
-  - path
-    - zeigt den exakten weg zur resource
-    
-  - query
-    - repräsentiert ein request action
+# Bestandteile:
+
+## Scheme
+
+gibt an wie Informationen wie das Protokoll benutzt wird
+
+## Authority
+
+identifiziert die Domain
+
+## Path
+
+zeigt den exakten weg zur resource
+
+## Query
+
+repräsentiert eine Anfrage
   
-  - fragment
-    - ein Teil von der resource
-    
-    '
+
+## Fragment
+
+ein Teil der Ressource, bei Html-Seiten z.B. ein Anchor-Tag
+
+
+
+~~~    '
             foo://example.com:8042/over/there?name=ferret#nose
             \_/ \________________/\_________/ \_________/ \__/
              |          |             |            |        |
@@ -61,11 +57,10 @@ spezifische Informationen aus dem Internet zu erlangen
              |   _____________________|__
             / \ /                        \
             urn:example:animal:ferret:nose
+~~~
 
----    
-    '
+## Quellen
 
-## 5. Quellen
 - https://www.ionos.com/digitalguide/websites/web-development/uniform-resource-identifier-uri/
 
   Datum: 21.12.2021  |  Uhrzeit: 11:53 Uhr 
@@ -78,7 +73,6 @@ spezifische Informationen aus dem Internet zu erlangen
 
   Datum: 21.12.2021  |  Uhrzeit: 11:54 Uhr 
  
----
 
 # Anhang
 
@@ -86,14 +80,8 @@ spezifische Informationen aus dem Internet zu erlangen
 
 <img src='https://g.gravizo.com/svg?
  digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
+   URN -> URI;
+   URL -> URI;
  }
 '/>
 
