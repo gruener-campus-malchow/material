@@ -82,6 +82,10 @@ ein Teil der Ressource, bei Html-Seiten z.B. ein Anchor-Tag
  digraph G {
    URN -> URI;
    URL -> URI;
+
+   URN[label="URN \n example.com:8042/over/there"]
+   URL[label="URL \n foo://example.com:8042/over/there"]
+   URI[label="URI \n foo://example.com:8042/over/there?name=ferret#nose"]
  }
 '/>
 
