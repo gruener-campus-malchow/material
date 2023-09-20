@@ -5,7 +5,7 @@ Grundkurs Informatik
 
 - Sinn und Nutzen von APIs
 - Vorträge zu den Anforderungen an RESTful APIs
-- URI-Schema und http-Methoden
+- [URI-Schema](./uri.md) und http-Methoden
 	- Einheitlichkeit...
 	
 # Todo
