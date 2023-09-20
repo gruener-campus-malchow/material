@@ -61,18 +61,7 @@ ein Teil der Ressource, bei Html-Seiten z.B. ein Anchor-Tag
 
 ## Unterschied URI und URL
 
-<img src='https://g.gravizo.com/svg?
- digraph G {
-   URN -> URI;
-   URL -> URI;
-
-   URN[label="URN \n example.com:8042/over/there"]
-   URL[label="URL \n foo://example.com:8042/over/there"]
-   URI[label="URI \n foo://example.com:8042/over/there?name=ferret#nose"]
- }
-'/>
-
-![URI=URL U URN](https://www.researchgate.net/profile/Harri-Valkonen-2/publication/346585530/figure/fig4/AS:987488491417601@1612447011264/The-illustration-of-the-URL-URN-and-URI-26.png)
+![URI=URL U URN](URI-URL-URN.png)
 
 
 ## Quellen
