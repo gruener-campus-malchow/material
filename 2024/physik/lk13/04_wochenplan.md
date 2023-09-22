@@ -22,7 +22,7 @@ https://www.leifiphysik.de/quantenphysik/quantenobjekt-photon/versuche/h-bestimm
 
 ### Aufgabe Teil 2
 
-Sizzieren Sie ein Diagramm von Messergebnissen. Sie haben mit dem gleichen Messaufbau drei unterschiedliche Metalle und jedes Metall mit verschiedenen monochromatischen Lichtquellen bestrahlt. Ergänzen Sie die Austrittsarbeit der jeweiligen Metalle, die Grenzfrequenz und die Bestimmung von h anhand der Graphen.
+Sizzieren Sie ein Diagramm von Messergebnissen. Sie haben mit dem gleichen Messaufbau drei unterschiedliche Metalle und jedes Metall mit vier verschiedenen monochromatischen Lichtquellen bestrahlt. Ergänzen Sie die Austrittsarbeit der jeweiligen Metalle, die Grenzfrequenz und die Bestimmung von h anhand der Graphen.
 
 Tipp: Sie finden die Austrittsarbeit unterschiedlicher Metalle im Tafelwerk.
 
