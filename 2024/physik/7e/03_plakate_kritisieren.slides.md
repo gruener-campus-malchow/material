@@ -21,7 +21,7 @@
 |Gruppe A| Gruppe B|
 |---|---|
 |Lana, Esther, Aiden|Malik, Luca, Vincent|
-|Nelia, Emily, Kira|Adonit, Leo, Rastin|
+|Neliya, Emely, Kira|Adonit, Leo, Rastin|
 |Ole, Quentin, Maxim, Mustafa|Jonas, Theo, Nils|
 |Lisa, Emma, Elisa|Isabelle, Khanh Ngoc, Nicky|
 
