@@ -14,3 +14,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 - [Physik ist...](./01_physik_ist.md)
 - [Methoden der Physik](./02_methoden.md)
+
+# Woche 03
+
+- [Plakate erstellen und kritisieren](03_plakate_kritisieren.slides.md)
