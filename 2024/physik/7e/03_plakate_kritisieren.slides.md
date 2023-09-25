@@ -48,6 +48,50 @@
 
 ---
 
+## 1.1
+
+|Gruppe A| Gruppe B|
+|---|---|
+|Lana, Esther, Aiden|Malik, Luca, Vincent|
+|Neliya, Emely, Kira|Adonit, Leo, Rastin|
+|Ole, Quentin, Maxim, Mustafa|Jonas, Theo, Nils|
+|Lisa, Emma, Elisa|Isabelle, Khanh Ngoc, Nicky|
+
+---
+
+## 1.2
+
+|Gruppe A| Gruppe B|
+|---|---|
+|Lana, Esther, Aiden|Adonit, Leo, Rastin|
+|Neliya, Emely, Kira|Jonas, Theo, Nils|
+|Ole, Quentin, Maxim, Mustafa|Isabelle, Khanh Ngoc, Nicky|
+|Lisa, Emma, Elisa|Malik, Luca, Vincent|
+
+---
+
+## 1.3
+
+|Gruppe A| Gruppe B|
+|---|---|
+|Lana, Esther, Aiden|Jonas, Theo, Nils|
+|Neliya, Emely, Kira|Isabelle, Khanh Ngoc, Nicky|
+|Ole, Quentin, Maxim, Mustafa|Malik, Luca, Vincent|
+|Lisa, Emma, Elisa|Adonit, Leo, Rastin|
+
+---
+
+## 1.4
+
+|Gruppe A| Gruppe B|
+|---|---|
+|Lana, Esther, Aiden|Isabelle, Khanh Ngoc, Nicky|
+|Neliya, Emely, Kira|Malik, Luca, Vincent|
+|Ole, Quentin, Maxim, Mustafa|Adonit, Leo, Rastin|
+|Lisa, Emma, Elisa|Jonas, Theo, Nils|
+
+---
+
 ## Sammlung an Tafel und Hefter
 
 - Was war die häufigste Kritik?
