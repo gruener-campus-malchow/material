@@ -11,6 +11,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Wochenplan](./02_wochenplan.md)
 - [noch ein Wochenplan](./03_wochenplan.md)
 - [ein weiterer Wochenplan](./04_wochenplan.md)
-
+- [wieder ein Wochenplan](./05_wochenplan.md)
+- [schon wieder ein Wochenplan](./06_wochenplan.md)
 
 Have a lot of fun!
