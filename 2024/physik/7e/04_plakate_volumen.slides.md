@@ -34,6 +34,9 @@
 
 ![](https://www.solidpro.de/wp-content/uploads/skizze.jpg)
 
+- Formelzeichen
+- Einheit(en)
+
 ---
 
 # Berechnen von Volumen
@@ -77,3 +80,17 @@ Trick: Wir messen das Volumen einer verdrängten Flüssigkeit:
 https://www.leifiphysik.de/mechanik/masse-volumen-und-dichte/grundwissen/volumenbestimmung
 
 ![!black](https://www.leifiphysik.de/sites/default/files/images/dd8814e262d082d9dbec7e3b2a0f3f38/570JHS_Signet_LEIFIphysik_neg_RGB_1200.webp)
+
+---
+
+# Vergleich mit dem Lehrbuch
+
+- S. 10 lesen
+- Stelle eine Liste auf mit Dingen im LB, die wir noch nicht im Hefter haben.
+
+---
+
+# On Top
+
+> Plane ein Experiment, bei dem Du das Volumen eines funktionierenden Smartphones bestimmen kannst. 
+> Probiere das bitte nicht zu Hause!

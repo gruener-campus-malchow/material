@@ -57,13 +57,9 @@ http://www.abi-physik.de/buch/astronomie/satellitenbahnen/
 
 [Gravitationsfeld auf LEIFIphysik](https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/grundwissen/gravitationsfeld)
 
-oder als Integralrechnung: http://www.abi-physik.de/buch/astronomie/gravitationsfelder-2/
-
-Mitschrift/Notizen entwerfen!
-
 ---
 
-## Aufgaben
+## Check It Out
 
 1. Erläutern Sie, was man unter einem Gravitationsfeld versteht.
 2. Beschreiben Sie, wie man Gravitationsfelder graphisch veranschaulichen kann.
@@ -86,3 +82,5 @@ Achtung: Integralrechnung nötig!
 Wir sollten das nochmal angehen, wenn Sie das in Mathe behandelt haben.
 
 [Arbeit im homogenen und inhomogenen Gravitationsfeld](https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/grundwissen/arbeit-im-gravitationsfeld)
+
+> Remember: Energieerhaltungssatz
