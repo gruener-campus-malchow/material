@@ -18,3 +18,11 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 # Woche 03
 
 - [Plakate erstellen und kritisieren](03_plakate_kritisieren.slides.md)
+
+# Woche 04
+
+- Ausfall
+
+# Woche 05
+
+- [Plakate und dann Volumen](04_plakate_volumen.slides.md)
