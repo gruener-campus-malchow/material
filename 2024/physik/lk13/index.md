@@ -18,4 +18,5 @@ Ferien
 
 - [Weiter geht's](./07_wochenplan.md)
 
+
 Have a lot of fun!
