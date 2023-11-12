@@ -20,7 +20,7 @@ Erstellen Sie ein [wissenschaftliches Poster](https://www.uni-bremen.de/fileadmi
 
 Zusätzlich soll ein kompletter Arbeitszyklus des eDumpers schematisch dargestellt werden. Dabei sollen insbesondere die Energieumwandlungen herausgestellt werden.
 
-Überprüfen Sie rechnerisch, ob die Kapazität des Akkus ausreicht, um einen Höhenunterschied von 114m (tatsächliche Daten sind bei der Projektguppe angefragt) auf dem Rückwegzu überwinden. Bestimmen Sie den Wirkungsgrad den das Systems mindestens haben sollte. Stellen Sie die Ergebnisse übersichtlich dar.
+Überprüfen Sie rechnerisch, ob die Kapazität des Akkus ausreicht, um einen Höhenunterschied von 114m (tatsächliche Daten sind bei der Projektguppe angefragt), auf dem Rückweg zu überwinden. Bestimmen Sie den Wirkungsgrad den das Systems mindestens haben sollte. Stellen Sie die Ergebnisse übersichtlich dar.
 
 Abschließend ist darauf einzugehen, weshalb dieser Transporter ein ökologischer Gewinn ist.
 
