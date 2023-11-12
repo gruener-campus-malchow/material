@@ -20,10 +20,15 @@ Themen, die Sie sich in Physik wünschen: Energie (PK11), E-Lehre (Q2), Radioakt
 ## Woche 02
 - [Aufwärmübungen](./01_Aufgaben_Aufwärmen.md)
 
-# interne Notizen
+### interne Notizen
 
 Weg vom Flaschenzug zur Energie: Kraft -> Arbeit -> Energieänderung...
 
+## Woche 03 (nach den Ferien)
+
+- [Arbeitsauftrag Elektrofahrzeuge](./02_Aufgaben_Elektrofahrzeuge.md)
+
+Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon mal wissen wollten, was Energie eigentlich ist: https://www.heise.de/hintergrund/Energie-Ein-Crash-Kurs-4271946.html
 
 Have a lot of fun!
 
