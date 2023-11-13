@@ -26,3 +26,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 # Woche 05
 
 - [Plakate und dann Volumen](04_plakate_volumen.slides.md)
+
+# Woche 06 nach den Ferien
+
+- [Plakate und dann Volumen](05_übungen.slides.md)
