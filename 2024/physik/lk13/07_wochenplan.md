@@ -47,3 +47,7 @@ Nach Einstein soll Licht nicht einfach aus einer Welle bestehen, sondern als Lic
 6. Erklären Sie, wie optische Speichermedien funktionieren (evtl. Klausuraufgabe)
 6. Ordnen Sie die Geschichte der Speichermedien den Wellenlängen, Technologien und Energien zu: CD, DVD, BluRay.
 
+### Compton-Effekt
+
+- LB S. 258 lesen
+- Verständnis mit Aufgabe LB S.279 Nr. 16 überprüfen

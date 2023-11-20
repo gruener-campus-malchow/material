@@ -31,7 +31,7 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Gravitation noch physikalischer](03_Gravitation_Newton.slides.md)
 
-## Woche 06
+## Woche 06 & 07
 
 - [Elektrische Felder](05_elektrische_Felder.md)
 
