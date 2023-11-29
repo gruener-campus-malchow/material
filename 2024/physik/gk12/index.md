@@ -35,5 +35,8 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Elektrische Felder](05_elektrische_Felder.md)
 
+## Woche 8
+
+- [Elektrische Felder](06_elektrische_Felder.md)
 
 Have a lot of fun!
