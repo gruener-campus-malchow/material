@@ -17,6 +17,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 Ferien
 
 - [Weiter geht's](./07_wochenplan.md)
+- [ging wieder weiter](./08_wochenplan.md) hier war die Klausurwoche
 
 
 Have a lot of fun!
