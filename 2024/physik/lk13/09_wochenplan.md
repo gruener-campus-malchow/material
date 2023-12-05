@@ -19,5 +19,5 @@ https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/bragg-refle
 
 ##### Aufgaben
 
-1. Bereiten Sie sich darauf vor, die geometrische Herleitung der Bragg-Reflexion dem Kurs zu präsentieren.
+1. Bereiten Sie sich darauf vor, die geometrische bzw. mathematische Herleitung der BRAGG-Gleichung dem Kurs zu präsentieren.
 2. Wählen Sie zwei Aufgaben aus der Leifi-Sammlung aus und bearbeiten Sie diese.
