@@ -21,3 +21,14 @@ https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/bragg-refle
 
 1. Bereiten Sie sich darauf vor, die geometrische bzw. **mathematische Herleitung der BRAGG-Gleichung** dem Kurs zu präsentieren.
 2. Wählen Sie zwei Aufgaben aus der Leifi-Sammlung aus und bearbeiten Sie diese.
+
+
+### Orga
+
+Was machen wir außer der Zeugnisausgabe am 22.12.2023?
+
+### Heisenbergsche Unbestimmtheitsrelation
+
+https://www.leifiphysik.de/quantenphysik/wesenszuege-quantenphysik/grundwissen/die-heisenbergsche-unbestimmtheitsrelation
+
+1. Bereiten Sie sich darauf vor, die Heisenbergsche Unbestimmtheitsrelation an einem Beispiel dem Kurs zu präsentieren.
