@@ -30,3 +30,16 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 	- Welche Events brauchen wir?
 	- Wie teilen wir die Arbeit ein?
 - Arbeitsplanung!
+
+# Q4 (KI)
+
+## Erste Stunde
+
+- Vortrag Einführung und Zusammenfassung des Readers
+- HA zur zweiten Stunde: Reader 01
+
+## Zweite Stunde
+
+- Reader 02 lesen
+
+> Sie sollen Planeten in Exo-Planeten und Nicht-Exo-Planeten unterscheiden. Dazu werden der Abstand zum Zentralgestirn und seine Masse als Messwerte genommen. **Skizzieren** Sie das Problem in einem Koordinatensystem. **Erläutern** Sie anhand Ihrer Skizze, wie Sie einen linearen Klassifizierer so trainieren, dass Ihr System schließlich automatisch anhand der Messwerte neue Entdeckungen einordnet.
