@@ -46,4 +46,4 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 
 - Reader 02 lesen
 
-> Sie sollen Planeten in Exo-Planeten und Nicht-Exo-Planeten unterscheiden. Dazu werden der Abstand zum Zentralgestirn und seine Masse als Messwerte genommen. **Skizzieren** Sie das Problem in einem Koordinatensystem. **Erläutern** Sie anhand Ihrer Skizze, wie Sie einen linearen Klassifizierer so trainieren, dass Ihr System schließlich automatisch anhand der Messwerte neue Entdeckungen einordnet.
+> Sie sollen Planeten in Planeten, die Leben tragen und Planeten, die kein Leben tragen unterscheiden. Dazu werden der Abstand zum Zentralgestirn und seine Masse als Messwerte genommen. **Skizzieren** Sie das Problem in einem Koordinatensystem. **Erläutern** Sie anhand Ihrer Skizze, wie Sie einen linearen Klassifizierer so trainieren, dass Ihr System schließlich automatisch anhand der Messwerte neue Entdeckungen einordnet.
