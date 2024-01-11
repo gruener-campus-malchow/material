@@ -9,7 +9,7 @@ Leistungskurs Physik Klasse 13 2021-2022
 * Entstehnung von Spektren erklären
 * Zusammenhang zwischen Spektrum und Hülle des Atoms beschreiben
 * Balmer-Formel benutzen
-* Verallgemeinerte Ballmer-Formel benutzen, um andere Serien zu berechnen
+* Verallgemeinerte Balmer-Formel benutzen, um andere Serien zu berechnen
 
 # Inhalte
 
@@ -53,5 +53,5 @@ not here yet
 
 * Können wir mit Gittern oder Prismen Spektren sichtbar machen?
 * Was erfahren wir aus dem Betrachten einer CD/DVD?
-* Können wir unsere Experimente als Videos festhalten und anderen SuS zur Verfüfung stellen?
+* Können Sie Ihre Experimente als Videos festhalten und anderen SuS zur Verfüfung stellen?
 

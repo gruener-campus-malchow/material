@@ -7,7 +7,9 @@ Grundkurs Informatik
 - Vorträge zu den Anforderungen an RESTful APIs
 - [URI-Schema](./uri.md) und http-Methoden
 	- Einheitlichkeit...
-	
+
+https://docs.gcm.schule/slides/#/v5BxbF_TYlxZFSbyzKg
+
 # Todo
 
 - Wiederholung: https://www.w3schools.com/tags/ref_httpmethods.asp
@@ -30,6 +32,8 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 	- Welche Events brauchen wir?
 	- Wie teilen wir die Arbeit ein?
 - Arbeitsplanung!
+
+> Anmerkung: Wir haben ziemlich viel Projektarbeit mit github organisiert, was hier nicht abgebildet worden ist. Das Ergebnis ist im [Projekt Colamator](https://github.com/gruener-campus-malchow/colamator) zu finden.
 
 # Q4 (KI)
 

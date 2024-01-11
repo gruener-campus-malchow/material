@@ -16,7 +16,6 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Informatik
 
-https://docs.gcm.schule/slides/#/v5BxbF_TYlxZFSbyzKg
 
 [Grundkurs Klasse 13](2024/informatik/gk13/)
 
