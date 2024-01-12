@@ -31,8 +31,6 @@ Harald Lesch erklärt: https://www.youtube.com/watch?v=imTFizzJ3P8
 
 Fokus Physik SII S. 332
 
-(Vergleich mit anderen Lehrbüchern)
-
 ## Tafelbild mit allen Erkenntnissen
 
 * Entstehung von Licht auf atomarer Ebene
