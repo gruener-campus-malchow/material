@@ -55,3 +55,5 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 ## Dritte Stunde
 
 https://eintyp.github.io/edunet/#/[[0,0],[0,0,0,0,0,0],[0,0,0]]
+
+Have a lot of fun!
