@@ -51,3 +51,7 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 ### Musterlösung Skizze
 
 ![Beispielhafte Illustration. Die Achsen können miteinander vertauscht sein.](planeten_klassifizierer.png)
+
+## Dritte Stunde
+
+https://eintyp.github.io/edunet/#/[[0,0],[0,0,0,0,0,0],[0,0,0]]
