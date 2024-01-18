@@ -24,5 +24,8 @@ Ferien
 
 - [Orga](./q4_01_orga.slides.md)
 - [Woche 01](./q4_wopla-01.md)
+- [Woche 02](./q4_wopla-02.md)
+- Fachprojektwoche
+- Woche 03
 
 Have a lot of fun!
