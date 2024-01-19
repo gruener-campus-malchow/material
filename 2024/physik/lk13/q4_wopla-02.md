@@ -48,6 +48,7 @@ Harald Lesch: https://www.youtube.com/watch?v=rHUJMVDOMtM
 1. Begründen Sie die Gefahr, die von radioaktiver Strahlung ausgeht.
 1. Erstellen Sie eine Tabelle, die mögliche Abschirmungsmöglichkeiten den Strahlungsarten gegenüber stellt.
 
+
 ### Nuklidkarten
 
 * https://www2.klett.de/sixcms/media.php/229/772425_1100_nuklidkarte.825366.pdf
