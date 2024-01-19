@@ -32,22 +32,14 @@ https://www.berlin.de/sen/bildung/schule/pruefungen-und-abschluesse/abitur/
 4. Erläutern Sie, weshalb das charakteristische Spektrum von Kupfer ein Anderes ist, als von Molybdän.
 5. Beurteilen Sie, weshalb in 
 
-
-### Video: Ursachen der Radioaktivität
-
-Populärwissenschaftlich: https://www.youtube.com/watch?v=rrew5XaqhoY
-
-Aufgaben:
-
-1. Notieren Sie die Ursachen von Radioaktivität.
-1. Notieren Sie die Namen der Strahlungsarten.
-
 ### Video: Quellen radioaktiver Strahlung
 
 Harald Lesch: https://www.youtube.com/watch?v=rHUJMVDOMtM
 
 #### Aufgaben
 
+1. Notieren Sie die Ursachen von Radioaktivität.
+1. Notieren Sie die Namen der Strahlungsarten.
 1. Bereiten Sie eine Skizze zum Atomaufbau vor, um sie anschließend an der Tafel zu präsentieren.
 1. Erklären Sie, wie viele Nuklide es ungefähr gibt.
 1. Beschreiben Sie den Unterschied zwischen stabilen Nukliden und instabilen.
