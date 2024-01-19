@@ -40,7 +40,6 @@ Harald Lesch: https://www.youtube.com/watch?v=rHUJMVDOMtM
 
 1. Notieren Sie die Ursachen von Radioaktivität.
 1. Notieren Sie die Namen der Strahlungsarten.
-1. Bereiten Sie eine Skizze zum Atomaufbau vor, um sie anschließend an der Tafel zu präsentieren.
 1. Erklären Sie, wie viele Nuklide es ungefähr gibt.
 1. Beschreiben Sie den Unterschied zwischen stabilen Nukliden und instabilen.
 1. Erläutern Sie, was Isotope sind.
