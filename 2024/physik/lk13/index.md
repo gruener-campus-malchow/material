@@ -25,6 +25,7 @@ Ferien
 - [Orga](./q4_01_orga.slides.md)
 - [Woche 01](./q4_wopla-01.md)
 - [Woche 02](./q4_wopla-02.md)
+- [Woche 03](./q4_wopla-03.md)Eigentlich nur eine Doppelstunde
 - Fachprojektwoche
 - Woche 03
 
