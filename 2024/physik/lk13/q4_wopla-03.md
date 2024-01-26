@@ -61,13 +61,7 @@ https://de.wikipedia.org/wiki/Stern#Sternentwicklung
 
 https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/masse-energie-beziehung
 
-\\( E = m \cdot c^2 = E(m) \\)
-
-\\( c = konstant \\)
-
-$$ E = m \cdot c^2 = E(m) $$
-
-$$c = konstant$$
+$$ E = m \cdot c^2 = E(m) ~mit~ c = konstant$$
 
 ## Bindungsenergie II
 
