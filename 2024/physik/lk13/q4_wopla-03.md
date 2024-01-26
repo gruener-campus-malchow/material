@@ -65,8 +65,6 @@ Aufgaben berechnen...
 https://www.youtube.com/watch?v=0MVo_qre3-g
 
 
-
 ### Zusatzmaterial 
 
 Video- Animus: https://youtu.be/aFtfsFnxc3g
-
