@@ -17,13 +17,22 @@ Diese Abfolge von Zerfällen, nenn man Zerfallsreihen. Der folgende Wikipediaein
 
 In einem natürlich vorkommenden Erz, sind deshalb immer unterschiedliche Nuklide in sehr unterschiedlicher Zusammensetzung enthalten. Genau genommen, wird man auch unterschiedliche Arten der radioaktiven Strahlung nachweisen können.
 
+> Achten Sie auf die Notation aus dem Unterricht!
+
+### Prozesse im Kern
+
+- Proton in Neutron: Positron wird emittiert (Beta-Plus)
+- Neutron in Proton: Elektron wird emittiert (Beta-Minus)
+
+Außerdem entsteht zusätzlich oft Gammastrahlung, Neutrinostrahlung und nicht selten auch Neutronenstrahlung. Das hängt aber immer vom jeweiligen Zerfall oder der Kernumwandlung ab.
+
 #### Nuklidkarte
 
 interaktiv: https://www.physiklehrer.net/Nuklidkarte/
 
 #### Zusatzaufgaben Aufgaben
 
-2. Entwickeln Sie mit einem Mitschüler gemeinsam eine Zerfallsreihe unter Zuhilfenahme der Nuklidkarte. Stoppen Sie die Weiterentwicklung nach fünf Zerfällen auch wenn kein stabiles Nuklid entsteht.
+Entwickeln Sie mit einem Mitschüler gemeinsam eine Zerfallsreihe unter Zuhilfenahme der Nuklidkarte. Stoppen Sie die Weiterentwicklung nach fünf Zerfällen auch wenn kein stabiles Nuklid entsteht.
 
 ## Massendefekt und Bindungsenergie
 
@@ -51,7 +60,6 @@ https://de.wikipedia.org/wiki/Stern#Sternentwicklung
 ## Massendefekt
 
 https://www.leifiphysik.de/kern-teilchenphysik/kernreaktionen/grundwissen/masse-energie-beziehung
-
 
 \\( E = m \cdot c^2 = E(m) ~~~~~ c = konstant \\)
 
