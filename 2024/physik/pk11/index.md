@@ -30,5 +30,9 @@ Weg vom Flaschenzug zur Energie: Kraft -> Arbeit -> Energieänderung...
 
 Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon mal wissen wollten, was Energie eigentlich ist: https://www.heise.de/hintergrund/Energie-Ein-Crash-Kurs-4271946.html
 
+## Fachprojektwoche
+
+[Arbeitsauftrag und Ziele](03_Fachprojektwoche.md)
+
 Have a lot of fun!
 
