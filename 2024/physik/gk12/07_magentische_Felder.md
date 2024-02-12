@@ -1,11 +1,5 @@
-## Orga
-
-* Zuerst Fachinhalte: Magnetische Flussdichte
-* Termine
-* Weihnachtsfeier
-* Klausuren
-
----
+Magnetische Felder
+========
 
 ## Magnetische Flussdichte
 
