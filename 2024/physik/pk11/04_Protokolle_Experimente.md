@@ -1,5 +1,7 @@
 # Experimente und Protkolle
 
+[toc]
+
 Spätestens im Studium werden Protkolle zu einer sehr aufwändigen aber interessanten und aufregenden Erfahrung führen. Das Abarbeiten eine in der Physikkultur entwickelten Formalismus führt zu einer tieferen und praktischen Auseinandersetzung mit Phänomenen, die man sonst nur am Rande gestreift oder theoretisch betrachtet hat.
 
 In der Schule spielen Protokolle schon in der Primarstufe eine Rolle und werden in der Sekundarstufe weiter differenziert. In der Sek II soll nun von dem Ziel, für das naturwissenschaftliche Studium vorbereitet zu sein, ausgegangen werden.
