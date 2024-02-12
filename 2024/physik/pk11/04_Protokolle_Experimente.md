@@ -12,7 +12,7 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
 
 ## Umfang eines Protokolls im Leistungskurs
 
-- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Leistungskurs_Physik.odt)
+- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Profilkurs_Physik.odt)
   - Mitglieder der Arbeitsgruppe
   - Datum des Versuchs
   - Datum der Abgabe
@@ -52,7 +52,7 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
 
 # Umfang eines Protokolls im Profilkurs (basiert auf Vorschlägen)
 
-- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Leistungskurs_Physik.odt)
+- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Profilkurs_Physik.odt)
   - Mitglieder der Arbeitsgruppe
   - Datum des Versuchs
   - Datum der Abgabe
