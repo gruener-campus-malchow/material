@@ -48,3 +48,45 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Vergleich mit Tabellen- oder erwarteten Werten
   - Beantwortung spezieller Fragen der Aufgabenstellung/en
   - äußere Bedingungen, die besonderen Einfluss auf die Messungen hatten
+
+# Umfang eines Protokolls im Profilkurs (basiert auf Vorschlägen)
+
+- Protokollkopf [Protkollvorlage als ODT](./Protokoll_Leistungskurs_Physik.odt)
+  - Mitglieder der Arbeitsgruppe
+  - Datum des Versuchs
+  - Datum der Abgabe
+  - Bewertung
+  - Bewertende Lehrkraft
+  - Unterschrift
+- Aufgabenstellung (Vorgabe durch die Lehrkraft)
+  - wird kopiert
+- Versuchsaufbau
+  - Erstellung einer Skizze, die alle Geräte enthält
+  - Die Beschriftung kann als Materialliste verwendet werden
+  - Technische Bauteile mit Eigenschaften (z.B.: Widerstand mit $R = 10k\Omega$)
+- Physikalischer Kontext und verwendete Formeln
+  - kurze Darstellung der physikalischen Zusammenhänge ~~in einem zusammenhängenden Text~~
+  - ~~Darstellung in eigenen Worten, kein bloßes Kopieren oder Abschreiben~~
+  - Zusammenstellung der für die Versuchsauswertung notwendigen Formeln mit Einheiten
+- Messungen
+  - ~~sollte in Tabellenform alle gemessenen Größen enthalten~~
+  - ~~Begründung von nicht erwarteten Messabweichungen~~
+  - ~~eindeutige Kennzeichnung von Messfehlern und Wiederholungen von Messungen~~
+  - Notizen zur Versuchsdurchführung
+  - Verweis auf Upload der CSV-Daten über geeigneten Dienst
+- Auswertung
+  - ~~Analyse der erhaltenen Messwerte~~
+  - statistische Auswertung der Messgrößen bei Mehrfachmessungen
+  - evtl. notwendige grafische Darstellungen in sinnvoller Größe und Skalierung
+    - eindeutige Kennzeichnung der für die nachfolgenden Rechnungen wichtigen Größen in der Grafik
+    - Analyse der Grafik
+- Messunsicherheiten
+  - dieser Abschnitt ist Pflicht aber stark vereinfacht
+  - ~~Formulieren Sie einen kurzen Text, in welchem mögliche und tatsächliche Fehlerquellen benannt~~ werden
+- Endergebnis
+  - Angabe der Messergebnisse mit angemessener Rundung
+  - eindeutige Kennzeichnung als Endergebnis
+- Diskussion der Versuchsergebnisse
+  - Vergleich mit Tabellen- oder erwarteten Werten
+  - Beantwortung spezieller Fragen der Aufgabenstellung/en
+  - äußere Bedingungen, die besonderen Einfluss auf die Messungen hatten
