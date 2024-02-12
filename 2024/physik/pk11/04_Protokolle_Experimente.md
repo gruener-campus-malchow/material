@@ -17,7 +17,6 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Bewertung
   - Bewertende Lehrkraft
   - Unterschrift
-
 - Aufgabenstellung (Vorgabe durch die Lehrkraft)
   - wird kopiert
 - Versuchsaufbau
