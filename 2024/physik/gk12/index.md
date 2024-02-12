@@ -39,4 +39,8 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Elektrische Felder](06_elektrische_Felder.md)
 
+## Woche nach den Winterferien
+
+- [Magentische Felder ff](07_magentische_Felder.md)
+
 Have a lot of fun!
