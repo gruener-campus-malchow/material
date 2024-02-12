@@ -34,5 +34,9 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 
 [Arbeitsauftrag und Ziele](03_Fachprojektwoche.md)
 
+## Woche nach den Winterferien
+
+[Charakteristische Denk- und Arbeitsweisen in der Physik](04_Methoden_Physik.md)
+
 Have a lot of fun!
 
