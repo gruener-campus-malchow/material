@@ -38,5 +38,5 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 
 [Charakteristische Denk- und Arbeitsweisen in der Physik](04_Methoden_Physik.md)
 
-Have a lot of fun!
 
+Have a lot of fun!
