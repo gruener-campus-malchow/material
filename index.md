@@ -9,7 +9,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Physik
 
-* [Unterricht Klasse 7e](2024/physik/7e/)
+* [Unterricht Klasse 7](2024/physik/7/)
 * [Profilkurs Klasse 11](2024/physik/pk11/)
 * [Grundkurs Klasse 12](2024/physik/gk12/)
 * [Leistungskurs Klasse 13](2024/physik/lk13/)

@@ -6,24 +6,9 @@
 
 # Intro
 
-- Vorstellungsrunde
 - Belehrungen
 
 **Danach noch etwas Physik!**
-
----
-
-## Vorstellungsrunde
-
-Sind alle da? Sonst Rückmeldung
-
-Klarstellung: **Leiden**schaft für Physik
-
-Was wollen wir voneinander wissen?
-
-Steckbrief per **E-Mail** oder in Papierform an mich, Antwort auch per Mail
-
-Meine Ziele für Dich!
 
 ---
 
