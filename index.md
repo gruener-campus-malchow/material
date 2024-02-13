@@ -16,7 +16,6 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Informatik
 
-
 [Grundkurs Klasse 13](2024/informatik/gk13/)
 
 # 2022-2023
