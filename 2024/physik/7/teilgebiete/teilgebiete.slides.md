@@ -63,7 +63,7 @@
 
 ## Spielchen: Teilgebiete der Physik
 
-![](tg0.png)
+![](./tg0.png)
 
 1. Zeichne diese Übersicht ab
 2. Notiere auf einem Zettel: Was fehlt bei den folgenden Grafiken?
@@ -72,7 +72,7 @@
 
 ## Was fehlt?
 
-![](tg1.png)
+![](./tg1.png)
 
 ---
 
