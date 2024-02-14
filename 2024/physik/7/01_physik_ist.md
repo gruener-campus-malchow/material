@@ -16,6 +16,8 @@ Wenn Du fertig bist und beginnst, Dich zu langweilen: Ergänze Deine Kurzbeschre
 
 ### Übung Teildisziplinen
 
+[Übung und Spiel](./teilgebiete/teilgebiete.slides.md)
+
 ### Größen und Einheiten
 
 1. Notiere alle Messinstrumente oder Messgeräte, die Du kennst.
