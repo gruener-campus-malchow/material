@@ -78,27 +78,27 @@
 
 ## Was fehlt?
 
-![](tg2.png)
+![](./tg2.png)
 
 ---
 
 ## Was fehlt?
 
-![](tg3.png)
+![](./tg3.png)
 ---
 
 ## Was fehlt?
 
-![](tg4.png)
+![](./tg4.png)
 ---
 
 ## Was fehlt?
 
-![](tg5.png)
+![](./tg5.png)
 ---
 
 ## Was fehlt?
 
-![](tg6.png)
+![](./tg6.png)
 
 
