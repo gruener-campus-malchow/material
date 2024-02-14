@@ -63,7 +63,42 @@
 
 ## Spielchen: Teilgebiete der Physik
 
-![]()
+![](tg0.png)
 
-Notiere auf einem Zettel: Welches fehlt?
+1. Zeichne diese Übersicht ab
+2. Notiere auf einem Zettel: Was fehlt bei den folgenden Grafiken?
+
+---
+
+## Was fehlt?
+
+![](tg1.png)
+
+---
+
+## Was fehlt?
+
+![](tg2.png)
+
+---
+
+## Was fehlt?
+
+![](tg3.png)
+---
+
+## Was fehlt?
+
+![](tg4.png)
+---
+
+## Was fehlt?
+
+![](tg5.png)
+---
+
+## Was fehlt?
+
+![](tg6.png)
+
 
