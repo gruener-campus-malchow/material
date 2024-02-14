@@ -1,0 +1,9 @@
+digraph G {
+  layout = neato;
+  overlap = false;
+  Physik -> Akustik;
+  Physik -> "Atom- und Kernphysik";
+  Physik -> Optik;
+  Physik -> Mechanik;
+
+}

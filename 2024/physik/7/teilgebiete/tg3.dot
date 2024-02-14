@@ -1,0 +1,10 @@
+digraph G {
+  layout = neato;
+  overlap = false;
+  Physik -> Akustik;
+  Physik -> Optik;
+  Physik -> Mechanik;
+  Physik -> Elektrizitätslehre;
+  Physik -> Wärmelehre;
+
+}
