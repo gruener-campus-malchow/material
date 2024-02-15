@@ -27,6 +27,7 @@ Ferien
 - [Woche 02](./q4_wopla-02.md)
 - [Woche 03](./q4_wopla-03.md)Eigentlich nur eine Doppelstunde
 - Fachprojektwoche
-- Woche 03
+- Ferien
+- [Woche 04](./q4_wopla-04.md)
 
 Have a lot of fun!
