@@ -85,7 +85,6 @@ digraph G {
     Jolina -> h;
     Floe -> h;
     EmilM -> h;
-
  }"/>
 
 #### Aufgaben für später
