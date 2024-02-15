@@ -56,4 +56,8 @@ Beim Zusammentragen Ihrer Arbeitsergebnisse (Github, Vorschlag?!) wäre es güns
 
 https://eintyp.github.io/edunet/#/[[0,0],[0,0,0,0,0,0],[0,0,0]]
 
+## Screencasts
+
+[KI-Introslides](./KI-Introslides/KI-Screencast-Introslides.slides.md)
+
 Have a lot of fun!
