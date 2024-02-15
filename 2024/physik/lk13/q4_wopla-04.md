@@ -65,26 +65,26 @@ digraph G {
     e[label=Energiedosis];
     ae[label=Äquivalentdosis];
     h[label=Halbwertszeit];
-    Phillip -> a;
-    BenS -> a;
-    EmilW -> a;
-    Marco -> a;
-    Julian -> a;
-    Toni -> e;
-    Basti -> e;
-    Marie -> e;
-    Jeremy -> e;
-    Avidan -> e;
-    Max -> ae;
-    Finnegan -> ae;
-    Kai -> ae;
-    BenM -> ae;
-    Aaron -> ae;
-    Oganes -> h;
-    Jermaine -> h;
-    Jolina -> h;
-    Floe -> h;
-    EmilM -> h;
+    Phillip->a;
+    BenS->a;
+    EmilW->a;
+    Marco->a;
+    Julian->a;
+    Toni->e;
+    Basti->e;
+    Marie->e;
+    Jeremy->e;
+    Avidan->e;
+    Max->ae;
+    Finnegan->ae;
+    Kai->ae;
+    BenM->ae;
+    Aaron->ae;
+    Oganes->h;
+    Jermaine->h;
+    Jolina->h;
+    Floe->h;
+    EmilM->h;
  }"/>
 
 #### Aufgaben für später
