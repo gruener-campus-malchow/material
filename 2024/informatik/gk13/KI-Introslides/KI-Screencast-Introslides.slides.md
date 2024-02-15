@@ -1,6 +1,6 @@
 ## KI in Schule, Beruf und Freizeit
 
-![](./ki1.jpg)
+![!contain](./ki1.jpg)
 
 ---
 
