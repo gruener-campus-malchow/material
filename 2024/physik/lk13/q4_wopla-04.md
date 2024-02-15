@@ -87,6 +87,7 @@ digraph G {
     EmilM->h;
  }"/>
 
+
 #### Aufgaben für später
 
 - https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/aufgabe/zerfall-des-kobaltisotiops-co-60
