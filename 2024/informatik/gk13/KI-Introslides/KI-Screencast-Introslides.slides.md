@@ -23,7 +23,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Text to Speech, Text to Audio
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -40,7 +40,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Entscheidungen Treffen
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -57,7 +57,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Sprachenlernen mit KI
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -74,7 +74,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### KI-Assistenten
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -108,7 +108,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Spracherkennung
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -142,7 +142,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Lernassistenzsystem
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
@@ -159,7 +159,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema XY
+### Suchmaschinen-KI
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
