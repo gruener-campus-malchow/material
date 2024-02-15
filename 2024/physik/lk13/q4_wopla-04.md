@@ -58,7 +58,7 @@ Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.altern
 - Entwerfen Sie ein Tafelbild für eines der Themen.
 - Stellen Sie dabei eine Modellrechnung auf
 
-<img style="width:300px"src="https://g.gravizo.com/svg?
+<img style="width:500px"src="https://g.gravizo.com/svg?
 digraph G {
     layout=fdp;
     a[label=Aktivität];
