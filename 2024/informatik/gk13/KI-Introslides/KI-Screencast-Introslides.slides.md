@@ -1,6 +1,6 @@
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki1.jpg)
+![](./ki1.jpg)
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki2.jpg)
+![](./ki2.jpg)
 
 ---
 
@@ -34,7 +34,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki3.jpg)
+![](./ki3.jpg)
 
 ---
 
@@ -51,7 +51,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki4.jpg)
+![](./ki4.jpg)
 
 ---
 
@@ -68,7 +68,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki5.jpg)
+![](./ki5.jpg)
 
 ---
 
@@ -85,7 +85,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki6.jpg)
+![](./ki6.jpg)
 
 ---
 
@@ -102,7 +102,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki7.jpg)
+![](./ki7.jpg)
 
 ---
 
@@ -119,7 +119,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki8.jpg)
+![](./ki8.jpg)
 
 ---
 
@@ -136,7 +136,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki9.jpg)
+![](./ki9.jpg)
 
 ---
 
@@ -153,7 +153,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki10.jpg)
+![](./ki10.jpg)
 
 ---
 
@@ -170,7 +170,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki11.jpg)
+![](./ki11.jpg)
 
 ---
 
@@ -187,7 +187,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-![!large](./ki12.jpg)
+![](./ki12.jpg)
 
 ---
 
