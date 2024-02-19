@@ -91,3 +91,22 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Vergleich mit Tabellen- oder erwarteten Werten
   - Beantwortung spezieller Fragen der Aufgabenstellung/en
   - äußere Bedingungen, die besonderen Einfluss auf die Messungen hatten
+
+# Aufgabenstellungen
+
+## Laura, Mattheo, Tobias
+
+Ermitteln Sie den Temperaturverlauf beim Tauen von Wassereis unter der Zugabe von Salz. Stellen Sie eine Hypothese auf, weshalb das Wasser unter Zugabe von Kochsalz sich entsprechend der Messwerte verhält.
+
+## TobiasK, Shawn, Jesko
+
+Erhitzen Sie Wasser von verschiedenen Ausgangstemperaturen aus. Vergleichen Sie die Temperaturverläufe. Stellen Sie eine mathematische Näherung des Temperaturverlaufs für Auffällige Abschnitte der Graphen auf.
+
+## Leonie, Felix, Max
+
+Vergleichen Sie das Tauverhalten von Süßwasser mit dem Tauverhalten von Salzwasser. Prüfen Sie den Temperaturverlauf auf Linearität. Untersuchen Sie insbesondere die Zeitabschnitte vor und nach dem Phasenübergang.
+
+
+
+
+
