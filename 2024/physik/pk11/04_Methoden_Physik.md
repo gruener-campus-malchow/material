@@ -27,10 +27,10 @@ Ermitteln Sie den Temperaturverlauf beim Tauen von kaltem Wasser unter der Zugab
 
 Erhitzen Sie Wasser von verschiedenen Ausgangstemperaturen aus. Vergleichen Sie die Temperaturverläufe. Stellen Sie eine mathematische Näherung des Temperaturverlaufs für Auffällige Abschnitte der Graphen auf.
 
-## Leonie, Felix, Max
+## Leonie, FelixG, Max
 
 Vergleichen Sie das Tauverhalten von Süßwasser mit dem Tauverhalten von Salzwasser. Prüfen Sie den Temperaturverlauf auf Linearität. Untersuchen Sie insbesondere die Zeitabschnitte vor und nach dem Phasenübergang.
 
-> Schlagen Sie einen Festlegung für einen angemessenen Umfang im PK vor.
+## Karl, Lewin, FelixT
 
-
+Vergleichen Sie das Tauverhalten von Süßwasser mit dem Tauverhalten von Salzwasser. Stellen Sie begründet mathematische Beschreibungen (Regressionsfunktionen bzw. Ausgeleichsgerade/-Kurve) für einzelne Abschnitte des Graphen auf.
