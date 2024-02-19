@@ -15,7 +15,7 @@ Charakteristische Denk- und Arbeitsweisen in der Physik
 
 ## Protokolle als Medium der Kommunikation
 
-[Anforderungen im LK](04_Protokolle_Experimente.md)
+[Anforderungen im Profilkurs](04_Protokolle_Experimente.md)
 
 > Schlagen Sie einen Festlegung für einen angemessenen Umfang im PK vor.
 
