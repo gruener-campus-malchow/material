@@ -7,3 +7,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 - [Intro](./00_Intro.slides.md)
 - [Physik ist...](./01_physik_ist.md)
+
+# Woche 02
+
+- [Ein Spiel für die Teilgebiete](./01_physik_ist.md)
+- [Messen in der Physik](./02_messaufgabe.slides.md)

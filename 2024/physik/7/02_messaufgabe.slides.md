@@ -25,7 +25,5 @@ Zuletzt soll eine Vermutung auf dem Plakat formuliert werden, welches Teilgebiet
 - Bilder / Grafiken / Illustrationen sollen den Sachverhalt verdeutlichen
 - Sinnvolle Aufteilung des Plakates
 
-
-
 ---
 
