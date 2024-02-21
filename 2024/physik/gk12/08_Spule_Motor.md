@@ -39,30 +39,30 @@ i -> "noch ein Beispiel";
 digraph G {
 layout=neato;
 overlap = false;
-Alltag -> Beispiel
-Alltag -> Waschmachine
-Alltag -> Kühlschrank
-Alltag -> Garagentor
-Alltag -> Rolltreppen
-Alltag -> Föhn
-Alltag -> "elektrische Zahnbürste"
-Alltag -> Aufzug
-Alltag -> Straßenbahn
-Alltag -> eRoller
-Alltag -> "Computerlaufwerke"
-Alltag -> Bohrmaschine
-Alltag -> Anlasser
-Alltag -> Servomotor
+Alltag -> Beispiel;
+Alltag -> Waschmachine;
+Alltag -> Kühlschrank;
+Alltag -> Garagentor;
+Alltag -> Rolltreppen;
+Alltag -> Föhn;
+Alltag -> "elektrische Zahnbürste";
+Alltag -> Aufzug;
+Alltag -> Straßenbahn;
+Alltag -> eRoller;
+Alltag -> "Computerlaufwerke";
+Alltag -> Bohrmaschine;
+Alltag -> Anlasser;
+Alltag -> Servomotor;
 i [label="Industrie \n und Wissenschaft"];
 i -> "noch ein Beispiel";
-i -> Eismaschine
-i -> Aufzug
-i -> Straßenbahn
-i -> Leuchtturm
-i -> Lüftungen
-i -> Bohrmaschine
-i -> Servomotor
-i -> Pumpen
+i -> Eismaschine;
+i -> Aufzug;
+i -> Straßenbahn;
+i -> Leuchtturm;
+i -> Lüftungen;
+i -> Bohrmaschine;
+i -> Servomotor;
+i -> Pumpen;
 }"/>
 
 
