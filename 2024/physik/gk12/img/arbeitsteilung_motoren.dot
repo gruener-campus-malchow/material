@@ -19,6 +19,7 @@ digraph G {
  Ayami -> w
  Leonie -> w
  Elina -> w
+ Vincent -> w
  
  Niklas -> s
  Nikolas -> s
