@@ -43,4 +43,8 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Magentische Felder ff](07_magentische_Felder.md)
 
+## Weitere Woche
+
+- [Spulen und Motoren](./08_Spule_Motor.md)
+
 Have a lot of fun!
