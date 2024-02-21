@@ -1,0 +1,28 @@
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  bgcolor=transparent;
+  layout=neato;
+  overlap = false;
+ 
+ g [label="Gleichstrommotor"]
+ w [label="Wechselstrommotor"]
+ s [label="Schrittmotor (Stepper)"]
+ 
+ Justin -> g
+ Dat -> g
+ Jeremy -> g
+ Oskar -> g
+ 
+ Nina -> w
+ Ayami -> w
+ Leonie -> w
+ Elina -> w
+ 
+ Niklas -> s
+ Nikolas -> s
+ Frida -> s
+ Fine -> s
+ 
+}
