@@ -61,6 +61,7 @@ Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.altern
 <img style="width:500px"src="https://g.gravizo.com/svg?digraphG{ layout=neato; overlap=false; Alltag->Beispiel; Alltag->Waschmachine; Alltag->Kühlschrank; Alltag->Garagentor; Alltag->Rolltreppen; Alltag->Föhn; Alltag->"elektrischeZahnbürste"; Alltag->Aufzug; Alltag->Straßenbahn; Alltag->eRoller; Alltag->"Computerlaufwerke"; Alltag->Bohrmaschine; Alltag->Anlasser; Alltag->Servomotor; i[label="Industrie\nundWissenschaft"]; i->"nocheinBeispiel"; i->Eismaschine; i->Aufzug; i->Straßenbahn; i->Leuchtturm; i->Lüftungen; i->Bohrmaschine; i->Servomotor; i->Pumpen; }"/>
 
 
+
 #### Aufgaben für später
 
 - https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/aufgabe/zerfall-des-kobaltisotiops-co-60
