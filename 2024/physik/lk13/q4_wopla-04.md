@@ -58,8 +58,34 @@ Umfangreiche, kritische und humorvolle Behandlung des Themas: https://www.altern
 - Entwerfen Sie ein Tafelbild für eines der Themen.
 - Stellen Sie dabei eine Modellrechnung auf
 
-<img style="width:500px"src="https://g.gravizo.com/svg?digraphG{ layout=neato; overlap=false; Alltag->Beispiel; Alltag->Waschmachine; Alltag->Kühlschrank; Alltag->Garagentor; Alltag->Rolltreppen; Alltag->Föhn; Alltag->"elektrischeZahnbürste"; Alltag->Aufzug; Alltag->Straßenbahn; Alltag->eRoller; Alltag->"Computerlaufwerke"; Alltag->Bohrmaschine; Alltag->Anlasser; Alltag->Servomotor; i[label="Industrie\nundWissenschaft"]; i->"nocheinBeispiel"; i->Eismaschine; i->Aufzug; i->Straßenbahn; i->Leuchtturm; i->Lüftungen; i->Bohrmaschine; i->Servomotor; i->Pumpen; }"/>
-
+<img style="width:500px"src="https://g.gravizo.com/svg?
+digraph G {
+    layout=fdp;
+    a[label=Aktivität];
+    e[label=Energiedosis];
+    ae[label=Äquivalentdosis];
+    h[label=Halbwertszeit];
+    Phillip->a;
+    BenS->a;
+    EmilW->a;
+    Marco->a;
+    Julian->a;
+    Toni->e;
+    Basti->e;
+    Marie->e;
+    Jeremy->e;
+    Avidan->e;
+    Max->ae;
+    Finnegan->ae;
+    Kai->ae;
+    BenM->ae;
+    Aaron->ae;
+    Oganes->h;
+    Jermaine->h;
+    Jolina->h;
+    Floe->h;
+    EmilM->h;
+ }"/>
 
 
 #### Aufgaben für später
