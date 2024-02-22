@@ -91,7 +91,7 @@
 
 ## KI in Schule, Beruf und Freizeit
 
-### Thema Bildgenerierung und -bearbeitung
+### Bildgenerierung und -bearbeitung
 
 - Wie funktioniert das Tool?
 - Wofür kann man das im Berufsalltag nutzen?
