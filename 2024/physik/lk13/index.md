@@ -29,5 +29,6 @@ Ferien
 - Fachprojektwoche
 - Ferien
 - [Woche 04](./q4_wopla-04.md)
+- [Woche 05](./q4_wopla-05.md)
 
 Have a lot of fun!
