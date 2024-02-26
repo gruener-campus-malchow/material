@@ -47,4 +47,8 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Spulen und Motoren](./08_Spule_Motor.md)
 
+## Wieder eine Woche mehr
+
+- [5. PK Simulationen](./5PK-Simulationen.md)
+
 Have a lot of fun!
