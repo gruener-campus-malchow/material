@@ -1,35 +1,3 @@
-## Orga
-
-- Unterschriften unter den Tests
-
-
----
-
-# Plakate oder Poster
-
-... in der Wissenschaft
-
-![Poster](https://images.squarespace-cdn.com/content/v1/597e64c57131a5fd5f65b20b/1596265025910-X2QVXPVW1SGTX5Y4K7A6/UMBS%2BPoster%2B4-19-2016.jpg?format=2500w)
-
----
-
-## Kriterien laut Aufgabenstellung
-
-|Inhalt|Gestaltung|
-|---|---|
-|jedes Messergebnis in mm, cm und m |Ordentlich und sauber|
-| Tabelle: Messungen - geeigneten Messinstrumente|Bilder / Grafiken / Illustrationen|
-|Teilgebiet der Physik vermuten|Sinnvolle Aufteilung|
-
----
-
-## Drei zufällige Plakate
-
-- ... alle einsammeln
-- Freiwillige vor...
-
----
-
 # Volumen
 
 ![](https://www.solidpro.de/wp-content/uploads/skizze.jpg)
