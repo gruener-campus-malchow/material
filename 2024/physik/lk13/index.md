@@ -30,5 +30,6 @@ Ferien
 - Ferien
 - [Woche 04](./q4_wopla-04.md)
 - [Woche 05](./q4_wopla-05.md)
-
+- [Woche 06](./q4_wopla_06.md)
+- [Woche 07](./q4_wopla_0z.md)
 Have a lot of fun!
