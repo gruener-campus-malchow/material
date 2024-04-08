@@ -45,4 +45,14 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 - Funktionsweise Kühlschränke oder Wärmepumpe
 - Planung von Experimenten zur Untersuchung der Abkühlungsvorgänge eines Körpers
 
+## Nach den Osterferien
+
+### Interpretation von IR-Bildern
+
+> Recherchieren Sie ein IR-Bild und präsentieren Sie dieses dem Kurs. Erläutern Sie die physikalischen Hintergründe zu den besonders interessanten Stellen im Bild.
+
+### Anwendungsgebiete von IR Licht erläutern
+
+> Der Wikipedieartikel zum Thema Infrarotstrahlung listet 13 Anwendungsgebiete auf. Erläutern Sie zwei dieser Anwendungsgebiete. Beurteilen Sie begründet den persönlichen Nutzen für Sie und genauso den Nutzen für die Gesellschaft im Allgemeinen.
+
 Have a lot of fun!
