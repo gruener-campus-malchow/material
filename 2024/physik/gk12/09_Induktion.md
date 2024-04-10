@@ -42,4 +42,5 @@ Grundkurs Physik 12 Q2
 - Mathematische Formeln bzw. technische Daten erläutern
 	- Induktionsgesetz
 	- Frequenz
+- Verwendung und Verständnis für die Fachbegriffe: Induktion, Selbstinduktion, Wechselfeld, Änderung des Magnetfeldes
 - Quellenangaben
