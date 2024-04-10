@@ -17,6 +17,7 @@ Grundkurs Physik 12 Q2
 | Induktionskochplatten | Oskar, Jeremy |
 | Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) | Justin, Nicklas |
 | E-Gitarre (Tonabnehmer) | nicht vergeben |
+| Wirbelstrombremse in Achterbahnen | nicht vergeben |
 
 ## Zeitplan
 
