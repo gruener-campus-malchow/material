@@ -6,15 +6,17 @@ Grundkurs Physik 12 Q2
 > Erstellen Sie mit einem Partner einen Vortrag mit Präsentation aus folgender Themenauswahl.
 > Erklären Sie an diesem Beispiel die Zusammenhänge der elektromagnetischen Induktion.
 
-- Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)
-- Spule als Sensor
-- Induktionsschleifen
-- Fernleitung elektrischer Energie (historisch, Stichwort Tesla)
-- Schaltnetzteile
-- induktives Laden (eher Busse, Autos)
-- Induktionskochplatten
-- Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo)
-- E-Gitarre
+|Thema | Vortragende|
+|---|---|
+| Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| Nina, Laureen|
+| Spule als Sensor | Nikita, Vincent, Richard |
+| Induktionsschleifen | Dat, Nikolas |
+|Fernleitung elektrischer Energie (historisch, Stichwort Tesla) | Frieda, Josefine |
+| Schaltnetzteile (Drosselspule, Entstörfilter) | Ayami, Leonie |
+| induktives Laden (eher Busse, Autos) | Sandy, Elina |
+| Induktionskochplatten | Oskar, Jeremy |
+| Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) | Justin, Nicklas |
+| E-Gitarre (Tonabnehmer) | nicht vergeben |
 
 ## Zeitplan
 
