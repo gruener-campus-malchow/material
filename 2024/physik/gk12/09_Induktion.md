@@ -6,12 +6,12 @@ Grundkurs Physik 12 Q2
 > Erstellen Sie mit einem Partner einen Vortrag mit Präsentation aus folgender Themenauswahl.
 > Erklären Sie an diesem Beispiel die Zusammenhänge der elektromagnetischen Induktion.
 
-- Kontaktloses Aufladen von Akkus
+- Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)
 - Spule als Sensor
 - Induktionsschleifen
-- Fernleitung elektrischer Energie
+- Fernleitung elektrischer Energie (historisch, Stichwort Tesla)
 - Schaltnetzteile
-- induktives Laden
+- induktives Laden (eher Busse, Autos)
 - Induktionskochplatten
 - Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo)
 - E-Gitarre
@@ -26,14 +26,18 @@ Grundkurs Physik 12 Q2
 |22.4.24| Vorträge halten | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 |25.4.24| Vorträge halten | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 
+## Erwarteter Umfang
+
+- maximal 10 Minuten Vortrag (50/50 anteilig)
+- 5 Minuten Diskussion
+
 ## Erwarteter Inhalt der Vorträge
 
-- Umfang maximal 10 Minuten
-- 5 Minuten Diskussion
 - Kontext erläutern
 - Funktionsprinzip erläutern
-- illustrierende Bilder
+- illustrierende Bilder oder Fotos
 - Prinzip-Skizzen bzw. grafische Darstellungen zur Funktionsweise
 - Mathematische Formeln bzw. technische Daten erläutern
 	- Induktionsgesetz
 	- Frequenz
+- Quellenangaben
