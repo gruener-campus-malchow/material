@@ -45,3 +45,7 @@ Grundkurs Physik 12 Q2
 	- Frequenz
 - Verwendung und Verständnis für die Fachbegriffe: Induktion, Selbstinduktion, Wechselfeld, Änderung des Magnetfeldes 
 - Quellenangaben
+
+## Theorie (am 15.4.24)
+
+[Folien Vortrag und Links](./09_Induktion.slides.md)
