@@ -56,4 +56,8 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Induktion](./09_Induktion.md)
 
+## Montag, den 29.4. und weiter
+
+- [Lenzsche Regel](./10_Lenzsche_Regel.md)
+
 Have a lot of fun!
