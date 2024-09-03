@@ -40,6 +40,13 @@ Korrigieren und eränzen Sie Ihre Aufzeichnungen.
 
 Wir diskutieren zwei beispielhafte Versionen im ganzen Auditorium.
 
+> Was wir beim letzten Mal nicht besprochen haben: Punkte in Koordinatensystemen.
+
+
+> Was Sie noch nicht können, aber wichtig ist: Vektoren...
+
+
+
 # Felder
 
 Felder weisen einem Punkt im Raum weitere (pyhsikalische) Eigenschaften zu. Beispielsweise ordnen Kraftfelder, einem Punkt eine Kraftwirkung zu. Sie sind nichts als eine Abstraktion für die Wirkung physikalischer Phänomene.
