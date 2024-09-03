@@ -60,4 +60,15 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Lenzsche Regel](./10_Lenzsche_Regel.md)
 
+## Ziemlich viel Zeit in der wir
+
+- Transformator
+- Klasusur
+- Schwingkreis
+- [Schwingungen](./11_Schwingungen.slides.md)
+
+... behandelt haben.
+
+
+
 Have a lot of fun!

@@ -5,6 +5,20 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 [toc]
 
+# 2024-2025
+
+## Physik
+
+* [Leistungskurs Klasse 12](2025/physik/lk12/)
+* Grundkurs Klasse 12
+
+## Informatik
+
+* Wahlpflicht 8
+* Wahlpflicht 10
+* Basiskurs Klasse 11
+
+
 # 2023-2024
 
 ## Physik
