@@ -39,7 +39,7 @@ Felder weisen einem Punkt im Raum weitere (pyhsikalische) Eigenschaften zu. Beis
 
 ## Group
 
-Sie werden per Zufall einer der folgenden Gruppen zugeordnet:
+Sie werden per Zufall 3er-Gruppen zugeordnet. Jedes Gruppenmitglied entscheidet sich für die Ausarbeitung eines der folgenden Themen:
 
 1. Magnetisches Feld (B-Feld)
 2. Elektrisches Feld (E-Feld)
