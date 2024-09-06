@@ -55,7 +55,7 @@ Felder weisen einem Punkt im Raum weitere (pyhsikalische) Eigenschaften zu. Beis
 
 ## Group
 
-Ordnen Sie Sich einer der folgenden Gruppen zu:
+Sie werden per Zufall 3er-Gruppen zugeordnet. Jedes Gruppenmitglied entscheidet sich für die Ausarbeitung eines der folgenden Themen:
 
 - Magnetisches Feld
 - Elektrisches Feld
@@ -63,8 +63,8 @@ Ordnen Sie Sich einer der folgenden Gruppen zu:
 
 ## Consult
 
-1. Teilen Sie jede Gruppe in max. 3er-Gruppen auf.
-1. Führen Sie in den 3er-Gruppen Konsultationen durch. Beraten Sie, wie sie die Quelle(n) und die Wirkung der jeweiligen Feldart grafisch darstellen können.
+1. Recherchieren Sie insbesondere die Visualisierung in einem Koordinatensystem und die Ursache/Quelle.
+1. Führen Sie in den 3er-Gruppen Konsultationen durch: Vergleichen Sie die Darstellungen und arbeiten Sie die Gemeinsamkeiten und Unterschiede heraus.
 1. Erstellen Sie für die 3er-Gruppen ein gemeinsames Ergebnis in Form eines A4-Plakates.
 
 > Hinweis: Sie können die Lehrbücher der Physik verwenden. Das ist sehr empfehlenswert, weil hier eine ganze Redaktion Inhalte für den Unterricht an (Berliner) Schulen geplant, entwickelt und (manchmal) geprüft hat.

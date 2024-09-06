@@ -51,6 +51,8 @@ Sie werden per Zufall 3er-Gruppen zugeordnet. Jedes Gruppenmitglied entscheidet 
 1. Führen Sie in den 3er-Gruppen Konsultationen durch. Beraten Sie, wie sie die Quelle(n) (im Sinne von Herkunft und Ursprung) und die Wirkung der jeweiligen Feldart grafisch darstellen können.
 1. Erstellen Sie für die 3er-Gruppen ein gemeinsames Ergebnis in Form eines A4-Plakates.
 
+> Hinweis: Sie können die Lehrbücher der Physik verwenden. Das ist sehr empfehlenswert, weil hier eine ganze Redaktion Inhalte für den Unterricht an (Berliner) Schulen geplant, entwickelt und (manchmal) geprüft hat.
+
 ## Present
 
 Zufällig wird eines der Plakate aus den Supergruppen gewählt und dem Auditorium präsentiert.
