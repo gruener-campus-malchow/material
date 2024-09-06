@@ -16,7 +16,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 * Wahlpflicht 8
 * Wahlpflicht 10
-* Basiskurs Klasse 11
+* [Basiskurs Klasse 11](2025/informatik/bk11/)
 
 
 # 2023-2024
