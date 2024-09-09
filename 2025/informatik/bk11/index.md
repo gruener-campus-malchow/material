@@ -159,3 +159,5 @@ graph G {
 
 
 ~~~
+
+- [09.09.2024 Teilgebiete der Nachrichtentechnik](00_Nachrichtentechnik_Teilgebiete.md)
