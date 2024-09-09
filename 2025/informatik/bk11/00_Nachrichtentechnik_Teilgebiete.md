@@ -3,6 +3,8 @@ Teilgebiete der Nachrichtentechnik
 
 ![Unterseekabel](https://upload.wikimedia.org/wikipedia/commons/8/89/Submarine_cable_map_umap.png)
 
+Auch eine interessante Karte, die das Internet von 2012 zeigt: https://global-internet-map-2012.telegeography.com/
+
 https://de.wikipedia.org/wiki/Nachrichtentechnik#Teilgebiete
 
 # Aufgabe(n)

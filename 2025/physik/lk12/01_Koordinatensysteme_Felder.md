@@ -77,3 +77,7 @@ Zufällig wird eines der Plakate aus den Supergruppen gewählt und dem Auditoriu
 
 - Welchen Nutzen hat das gelernte/strukturierte Wissen?
 - Welche Aspekte sind weiterhin unverstanden?
+
+# Unterschied zwischen homogenen und inhomogenen Feldern
+
+- Tafelbild!
