@@ -73,6 +73,11 @@ Sie werden per Zufall 3er-Gruppen zugeordnet. Jedes Gruppenmitglied entscheidet 
 
 Zufällig wird eines der Plakate aus den Supergruppen gewählt und dem Auditorium präsentiert.
 
+## Auswertung
+
+- Tafelbild
+- typische Fehler beim Darsellen von Feldern
+
 # Warmup Ending
 
 - Welchen Nutzen hat das gelernte/strukturierte Wissen?
