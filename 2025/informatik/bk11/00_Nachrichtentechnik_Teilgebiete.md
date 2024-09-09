@@ -1,6 +1,8 @@
 Teilgebiete der Nechrichtentechnik
 =====================================
 
+![](https://de.wikipedia.org/wiki/Seekabel#/media/Datei:Submarine_cable_map_umap.png)
+
 https://de.wikipedia.org/wiki/Nachrichtentechnik#Teilgebiete
 
 # Aufgabe(n)
@@ -8,3 +10,5 @@ https://de.wikipedia.org/wiki/Nachrichtentechnik#Teilgebiete
 1. Entscheiden Sie sich für die Erarbeitung eines der Teilgebiete der Nachrichtentechnik
 1. Erstellen Sie eine 5-Minuten-Präsentation mit https://docs.gcm.schule, in welcher Sie uns dieses Teilgebiet näher bringen
     - mindestens 1 Bild pro Folie
+
+
