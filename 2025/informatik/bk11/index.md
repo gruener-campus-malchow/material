@@ -11,3 +11,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 ## Hausaufgabe
 
 Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher Sie Ihre Gründe erläutern, weshalb Sie Informatikunterricht gewählt haben. Außerdem interessiert mich, mit welchem Computer und welchem Betriebssystem Sie zu Hause arbeiten. Schließlich möchte ich wissen, welche Schulnote Sie auf dem Zeugnis anstreben.
+
+# Feedback der HA
+
+
+![HA Feedback](./Fachwahl_Grund.png)
