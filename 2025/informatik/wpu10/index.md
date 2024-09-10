@@ -15,15 +15,12 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
     * Variablen
 * Spielfeld, bevor man einen eigenen Server betreibt: https://onlinephp.io/
 * Handbuch, Hilfe und Informationen: https://php.net
-
+* KI-Werkzeug mit dem einfache Programme erstellt werden können: https://www.ecosia.org/chat
 ![Beispiel für die Benutzung von KI beim Coden](KI-HelloWorld.png)
 
 * Weiterführung
     * Verzweigungen
     * Schleifen
-
-
-
 * Erste Webseite (dieses Jahr)
 
 ~~~html
