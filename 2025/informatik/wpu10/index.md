@@ -15,6 +15,9 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
     * Variablen
 * Spielfeld, bevor man einen eigenen Server betreibt: https://onlinephp.io/
 * Handbuch, Hilfe und Informationen: https://php.net
+
+![Beispiel für die Benutzung von KI beim Coden](KI-HelloWorld.png)
+
 * Weiterführung
     * Verzweigungen
     * Schleifen
