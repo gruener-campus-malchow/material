@@ -15,7 +15,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 ## Informatik
 
 * Wahlpflicht 8
-* Wahlpflicht 10
+* [Wahlpflicht 10](2025/informatik/wpu10/)
 * [Basiskurs Klasse 11](2025/informatik/bk11/)
 
 
