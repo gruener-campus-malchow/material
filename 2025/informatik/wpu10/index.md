@@ -13,10 +13,13 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
     * Befehle
     * Funktionen
     * Variablen
+* Spielfeld, bevor man einen eigenen Server betreibt: https://onlinephp.io/
+* Handbuch, Hilfe und Informationen: https://php.net
+* Weiterführung
     * Verzweigungen
     * Schleifen
 
-* Spielfeld, bevor man einen eigenen Server betreibt: https://onlinephp.io/
+
 
 * Erste Webseite (dieses Jahr)
 
