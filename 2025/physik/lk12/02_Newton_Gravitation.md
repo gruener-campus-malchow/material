@@ -1,8 +1,6 @@
 
 # Gravitation
 
----
-
 ## Newtonsches Gravitationsgesetz
 
 ![!white !round](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/NewtonsLawOfUniversalGravitation.svg/1280px-NewtonsLawOfUniversalGravitation.svg.png)
@@ -11,15 +9,13 @@
 1. Formel in Hefter erstellen
 1. Simple Aufgaben erfinden (jeder eine!)
 
----
+Auf Leifi gibt es dazu noch mehr Material: https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/grundwissen/gravitationsgesetz-von-newton
+
+Für uns relevant: Quiz und https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/aufgabe/staerke-der-gravitationskraft
 
 ## Newtonsches Gravitationsgesetz
 
 ### Problemstellung
-
-Wenn Erde und Mond (oder auch Planeten und Sonne) sich anziehen, warum prallen sie dann nicht aufeinander?
-
----
 
 Wenn Erde und Mond (oder auch Planeten und Sonne) sich anziehen, warum prallen sie dann nicht aufeinander?
 
@@ -33,19 +29,16 @@ Kräftegleichgewicht: F_Grav = F_Rad
 1. Formel in Hefter erstellen
 1. ~~Simple Aufgaben erfinden (jeder eine!)~~
 
----
 
 1. Kosmische Geschwindigkeit
 
 [Lösung auf LEIFIphysik](https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/aufgabe/erste-kosmische-geschwindigkeit)
 
----
 
 ## Umlaufbahnen
 
 http://www.abi-physik.de/buch/astronomie/satellitenbahnen/
 
----
 
 ## Gravitationsfeld
 
@@ -55,7 +48,6 @@ oder als Integralrechnung: http://www.abi-physik.de/buch/astronomie/gravitations
 
 Mitschrift/Notizen entwerfen!
 
----
 
 ## Aufgaben
 
@@ -71,7 +63,6 @@ Mitschrift/Notizen entwerfen!
 8. Berechnen Sie die Höhe über der Erdoberfläche, in der die Gravitationsfeldstärke um 1 % abgenommen hat.
 9. Berechnen Sie die Gravitationsfeldstärke auf dem Mond.
 
----
 
 ## Arbeit im Gravitationsfeld
 
