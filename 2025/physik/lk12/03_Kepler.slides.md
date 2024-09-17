@@ -84,6 +84,17 @@ Sichworte: Geschwindigkeiten im Vergleich
 
 ---
 
+### Übungen und Aufgaben
+
+Bearbeiten Sie die folgenden Aufgaben. Wenn Sie damit Schwierigkeiten haben, arbeiten Sie mit dem [Leifi-Material und den Erklärungen](https://www.leifiphysik.de/astronomie/planetensystem).
+
+- https://www.leifiphysik.de/astronomie/planetensystem/grundwissen/zweites-keplersches-gesetz#aufgaben
+- https://www.leifiphysik.de/astronomie/planetensystem/grundwissen/drittes-keplersches-gesetz#aufgaben
+
+Besonders nett ist das Quiz: https://www.leifiphysik.de/astronomie/planetensystem/aufgabe/quiz-zu-den-keplerschen-gesetzen
+
+---
+
 ## Bonbon am Ende
 
 https://www.dwd.de/DE/wetter/thema_des_tages/2022/4/13.html
