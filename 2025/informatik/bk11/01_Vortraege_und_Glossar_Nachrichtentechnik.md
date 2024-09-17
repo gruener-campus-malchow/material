@@ -3,14 +3,14 @@ Arbeitsaufteilung Vorträge und Glossar
 
 > Ich bin von vielen Präsentationen sehr begeistert. Sie haben gute Arbeit geleistet!
 
-Leider können wir keine Vorträge hören. Deshalb bleibn leider nur zahlreiche Dreiergruppen, die gemeinsam das Glossar erstellen. Hierbei ist folgendes Vorgehen festgelegt:
+Leider können wir keine Vorträge hören. Deshalb bleiben leider nur zahlreiche Dreiergruppen, die gemeinsam das Glossar erstellen. Hierbei ist folgendes Vorgehen festgelegt:
 
-1. Die oder der Vortragende erstellt eine Audiodatei oder einen Screencast mit dem Vortrag. Die Präsentation ist über die URL unten erreichbar. Frist für die Erstellung und Übermittlung an die Glossarverantwortlichen ist der 22.9.24.
+1. Die oder der Vortragende erstellt eine Audiodatei oder einen Screencast mit dem Vortrag. Die Präsentation ist über die URL unten erreichbar. Frist für die Erstellung und Übermittlung an die Glossarverantwortlichen ist der 22.9.24. Die Glossarverantwortlichen melden sich bei der oder dem Vortragenden bitte per E-Mail.
 2. Die beiden Glossarverantwortlichen erstellen gemeinsam auf https://docs.gcm.schule/pad einen Glossarbeitrag. Sie können sich gegenseitig die URL senden, dann kann dort zeitunabhängig am gleichen Text gearbeitet werden (Achtung, nicht echtzeitfähig, [Lost Update-Anomalie](https://de.wikipedia.org/wiki/Verlorenes_Update) bei gleichzeitigem Arbeiten ist möglich).
 3. Sobald der Glossarbeitrag fertig gestellt wurde, bekomme ich eine E-Mail mit der URL auf den fertigen Beitrag.
 4. Frist zum Fertigstellen der Glossarbeiträge: 28.09.24
 5. Um Ihnen Feedback und eine Note zukommen zu lassen, wird es nach meiner Genesung Gruppenprüfungen geben, in welcher ich Ihr Verständnis zu dem jeweiligen Thema teste und eventuelle KI-Erzeugnisse erkennen kann.
-6. Ich empfehle Allen alle Glossrabeiträge zu lesen.
+6. Ich empfehle Allen, alle Glossarbeiträge zu lesen.
 
 
 | Name           | Thema                           | URL Vortrag                                           | Glossar 1                       | Glossar 2                       |
