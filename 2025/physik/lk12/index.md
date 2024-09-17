@@ -9,4 +9,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 - [Aufwärmübung](01_Diskussion_Fachartikel.md)
 - [Koordinatensysteme](01_Koordinatensysteme_Felder.md)
-- [Gravitation Intro ab 9.9.24](02_Newton_Gravitation.md)
+- [Gravitation Intro ab 9.9.24 und für Woche ab 16.9.24](02_Newton_Gravitation.md)
+- [Keppler für Woche ab 23.9.24](03_Kepler.slides.md)
