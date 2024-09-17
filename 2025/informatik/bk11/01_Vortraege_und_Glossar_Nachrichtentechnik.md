@@ -1,6 +1,8 @@
 Arbeitsaufteilung Vorträge und Glossar
 ========================================
 
+> Ich bin von vielen Präsentationen sehr begeistert. Sie haben gute Arbeit geleistet!
+
 Leider können wir keine Vorträge hören. Deshalb bleibt leider nur eine Dreiergruppe, die gemeinsam das Glossar erstellt. Hierbei ist folgendes Vorgehen festgelegt:
 
 1. Die oder der Vortragende erstellt eine Audiodatei oder einen Screencast mit dem Vortrag. Die Präsentation ist über die URL unten erreichbar. Frist für die Erstellung und Übermittlung an die Glossarverantwortlichen ist der 22.9.24.
