@@ -15,17 +15,16 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 - [Intro](./00_Intro.slides.md)
 - [Koordinatensysteme und Felder](./01_Koordinatensysteme_Felder.md)
 
-<!--
-## Woche 03
+## Woche ab 16.09.24
 
-- [Koordinatensysteme und Felder](./01_Koordinatensysteme_Felder.md)
 - [Übungen](./01_Übungen.md)
 - [Ebbe und Flut](./02_Ebbe_und_Flut.md)
 
-## Woche 04
+## Woche ab 23.09.24
 
 - [Gravitation noch physikalischer](03_Gravitation_Newton.slides.md)
 
+<!--
 ## Woche 05
 
 - [Gravitation noch physikalischer](03_Gravitation_Newton.slides.md)

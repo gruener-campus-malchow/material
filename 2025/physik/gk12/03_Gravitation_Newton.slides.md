@@ -79,15 +79,3 @@ http://www.abi-physik.de/buch/astronomie/satellitenbahnen/
 7. Nennen Sie den Bereich eines Himmelskörpers, in dem man das Gravitationsfeld als homogen annehmen kann.
 8. Berechnen Sie die Höhe über der Erdoberfläche, in der die Gravitationsfeldstärke um 1 % abgenommen hat.
 9. Berechnen Sie die Gravitationsfeldstärke auf dem Mond.
-
----
-
-## Arbeit im Gravitationsfeld
-
-Achtung: Integralrechnung nötig!
-
-Wir sollten das nochmal angehen, wenn Sie das in Mathe behandelt haben.
-
-[Arbeit im homogenen und inhomogenen Gravitationsfeld](https://www.leifiphysik.de/mechanik/gravitationsgesetz-und-feld/grundwissen/arbeit-im-gravitationsfeld)
-
-> Remember: Energieerhaltungssatz
