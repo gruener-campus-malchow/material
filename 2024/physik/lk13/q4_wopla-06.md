@@ -17,9 +17,9 @@ Fest der Vielfalt
 
 ## Weitere Kurz-Dokus zur Geschichte der Atomphysik
 
-- Marie Curie und die Entdeckungen ihrer Zeit: https://youtu.be/kQCqv1klb-Q?si=boLPhdhk5v6vaLqW
-- Entwicklung der ersten Atombombe: https://youtu.be/nAm_OPVeS4w?si=-yTz_1ZuhWg5w8F7
-- Einordnung des Abwurfs: https://youtu.be/hlAUaEP9Vgs?si=U_epS5AexA7t0uvd
+- Marie Curie und die Entdeckungen ihrer Zeit: https://youtu.be/kQCqv1klb-Q
+- Entwicklung der ersten Atombombe: https://youtu.be/nAm_OPVeS4w
+- Einordnung des Abwurfs: https://youtu.be/hlAUaEP9Vgs
 
 ### Aufgaben
 
