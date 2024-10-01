@@ -13,7 +13,7 @@ Leider können wir keine Vorträge hören. Deshalb bleiben leider nur zahlreiche
 6. Ich empfehle Allen, alle Glossarbeiträge zu lesen.
 
 
-| Thema                           | Vortrag                                                       | Glossarverantwortlich 1                                    | Glossarverantwortlich 2                                    |
+| Thema                           | Vortrag                                                       | Glossarverantwortlich 1                                    | Glossarverantwortlich 2
 |---------------------------------|---------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------
 | Antennentechnik                 | Isabell https://docs.gcm.schule/slides/#/8Gqxig_Y7wI4gMdSwfu/ | Lasse                                                      | Zemil https://docs.gcm.schule/pad/#/zDOGsF_o-e6O9-x2Ht6
 | Datenkompression                | Mika https://docs.gcm.schule/slides/#/a634jA_azPfF6vxaz09     | Luca https://docs.gcm.schule/pad/#/aDND1T_EevxcOckDz3w     | Alex
@@ -37,3 +37,4 @@ Leider können wir keine Vorträge hören. Deshalb bleiben leider nur zahlreiche
 | Telekommunikation               | Mazanaf https://docs.gcm.schule/slides/#/NgjEbR_Oo7FFkrJSpSS  | Emmanuel https://docs.gcm.schule/pad/#/AwLFtV_LYmVFnzxf4Qj | Levin
 | Übertragungstechnik             | Imad https://docs.gcm.schule/slides/#/4IKOYW_Yk20V4Vxp9ke     | Philipp https://docs.gcm.schule/pad/#/CSsCZ5_gcMFIKwZcgD1  | Emmanuel
 | Verstärker                      | Luuk https://docs.gcm.schule/slides/#/Rt00kP_mN9oVipxZkbF     | Zemil https://docs.gcm.schule/pad/#/xY4fUH_jOB23ivXSZgs    | Luca https://docs.gcm.schule/pad/#/WGrL2U_aG4c4qmjoidI
+
