@@ -1,7 +1,7 @@
 Ebbe und Flut
 ================
 
-[Heins Blödsinn - Ebbe und Flut](https://youtu.be/qJzzPYjKf0o?si=ZloLeiwwyUuIoy9-)
+[Heins Blödsinn - Ebbe und Flut](https://youtu.be/qJzzPYjKf0o)
 
 ## Aufgaben
 
