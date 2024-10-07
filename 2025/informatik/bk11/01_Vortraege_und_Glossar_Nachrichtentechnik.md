@@ -15,7 +15,7 @@ Leider können wir keine Vorträge hören. Deshalb bleiben leider nur zahlreiche
 
 | Thema                           | Vortrag                                                       | Glossarverantwortlich 1                                    | Glossarverantwortlich 2
 |---------------------------------|---------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------
-| Antennentechnik                 | Isabell https://docs.gcm.schule/slides/#/8Gqxig_Y7wI4gMdSwfu/ | Lasse                                                      | Zemil https://docs.gcm.schule/pad/#/zDOGsF_o-e6O9-x2Ht6
+| Antennentechnik                 | Isabell https://docs.gcm.schule/slides/#/8Gqxig_Y7wI4gMdSwfu/ | Lasse https://docs.gcm.schule/pad/#/zDOGsF_o-e6O9-x2Ht6    | Zemil https://docs.gcm.schule/pad/#/zDOGsF_o-e6O9-x2Ht6
 | Datenkompression                | Mika https://docs.gcm.schule/slides/#/a634jA_azPfF6vxaz09     | Luca https://docs.gcm.schule/pad/#/aDND1T_EevxcOckDz3w     | Alex
 | Dienste                         | Feli https://docs.gcm.schule/slides/#/uNfiJu_iYpd7go2h2IK     | Levin                                                      | Mika
 | Digitale Signalverarbeitung     | Emmanuel https://docs.gcm.schule/slides/#/uw7DSw_5ZrpRqvziQF0 | Rico https://docs.gcm.schule/pad/#/Kg8KJR_HRaqXIFn2hnW     | Felicia (Feli)

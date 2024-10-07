@@ -23,6 +23,10 @@ Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher
 
 * [09.09.2024 Teilgebiete der Nachrichtentechnik](00_Nachrichtentechnik_Teilgebiete.md)
 
-# Woche ab 16.9.23
+# Woche ab 16.9.24
 
 * [Arbeitsaufteilung Vorträge und Glossar](01_Vortraege_und_Glossar_Nachrichtentechnik.md)
+
+# Woche ab 07.10.24
+
+* [Zusammenführung und weitere Entwicklungen](02_Geschichte_der_Netze.md)
