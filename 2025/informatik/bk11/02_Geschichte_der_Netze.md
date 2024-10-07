@@ -82,3 +82,5 @@ Recherchieren und belesen Sie sich zu folgenden Themen/Technologien:
 - Konrad Zuse: Z1, Z3 und... die vielen ersten Projekte
 - Johann von Neumann: Manhattan-Projekt, Neumann-Architektur, Mark I (ASCC)
 - Alan Turing: Turingmaschine, Turing-Bombe, Turing-Vollständigkeit
+
+
