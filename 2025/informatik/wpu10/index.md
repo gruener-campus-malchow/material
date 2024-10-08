@@ -52,3 +52,52 @@ Kopiervorlage:
   </body>
 </html>
 ~~~
+
+# 2. Stunde (8.10.2024)
+
+## Schleifen
+
+> Wenn das und das passiert, machst Du das ganz oft hintereinander
+
+- Kopf der Schleife: Lauf-Bedingung
+- Körper der Schleife: Code der wiederholt wird
+
+~~~php
+
+// Endlosschleife
+
+while(true){
+    print("Hello World<br>");
+}
+
+// Zählschleife
+
+$zaehler = 1;
+while($zaehler <= 10){
+    print("Ich bin bei: ".$zaehler."<br>");
+    $zaehler++; //gleichwertig mit $zaehler = $zaehler + 1;
+}
+~~~
+
+## Aufgabe
+
+Erstelle eine Schleife, die 100x zu einem Startwert von 1 den jeweiligen Zählwert als Summe ausgibt. Der erwartete Output lautet also:
+
+Summe: 1<br>
+Summe: 3<br>
+Summe: 6<br>
+usw.
+
+
+~~~php
+
+$zaehler = 1;
+$variable = 0;
+
+while($zaehler(10) <= 100){
+    $variable(55) = $variable(45) + $zaehler(10);
+    print("Ich bin bei: ".45."<br>");
+    $zaehler++; //gleichwertig mit $zaehler = $zaehler + 1;
+}
+
+~~~

@@ -69,10 +69,14 @@ https://de.wikipedia.org/wiki/Morsecode
 
 ---
 
+Grafik erstellen: Berechnungen (Architektur, Wissenschaft), Steuerung komplexer Anlagen, Steuerung von Waffen, Kommunikation vernetzter militärischer Systeme, Rechnungswesen und Buchhaltung, Entschlüsseln von geheimen Botschaften, Medienerstellung, Spielen
+
+---
+
 ~~~dop
 digraph G {
     layout="neato";
-    overlap="false";
+    overlap="false"
   Kommunikation -> Computer;
   "Komplexe Berchnungen \n (Wissenschaft, Architektur)" -> Computer;
   Nachrichtenübertragung -> Computer;
@@ -86,8 +90,6 @@ digraph G {
 }
 
 ~~~
-
-try this code on https://sketchviz.com
 
 ---
 
