@@ -14,6 +14,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Informatik
 
+![Werbung für die HackN8](./2025/14hackn8_flyer.jpg)
+
 * Wahlpflicht 8
 * [Wahlpflicht 10](2025/informatik/wpu10/)
 * [Basiskurs Klasse 11](2025/informatik/bk11/)

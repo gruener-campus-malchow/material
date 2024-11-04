@@ -73,7 +73,7 @@ Grafik erstellen: Berechnungen (Architektur, Wissenschaft), Steuerung komplexer 
 
 ---
 
-~~~dop
+~~~dot
 digraph G {
     layout="neato";
     overlap="false"

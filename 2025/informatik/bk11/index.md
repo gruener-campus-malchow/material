@@ -30,3 +30,7 @@ Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher
 # Woche ab 07.10.24
 
 * [Zusammenführung und weitere Entwicklungen](02_Geschichte_der_Netze.slides.md)
+
+# Woche ab 04.11.24
+
+* [Aufgaben zur Klausurvorbereitung](03_Aufgaben_zur_Klausurvorbereitung.md)
