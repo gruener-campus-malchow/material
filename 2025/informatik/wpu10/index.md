@@ -109,3 +109,31 @@ while($zaehler(10) <= 100){
 > Firlefei
 
 Erstellen Sie ein Programm, das in einem gegebenen String einen (jeden) Vokal gegen den String "firlefei" tauscht. Etwas lustig wird es, wenn eine Computersprache den Ergebnisstring vorliest...
+
+### Ergebnis des Code-Along
+
+~~~php
+<?php
+$zeichenkette = "Herr B. hat mal wieder sein Passwort vergessen.";
+$zeichenliste = str_split($zeichenkette);
+//print_r($zeichenliste);
+foreach($zeichenliste as $schluessel => $buchstabe){
+	//print('Schluessel ist: '.$schluessel.' Wert ist: '.$buchstabe."\n");
+	if ($buchstabe =='e'){
+		//print "muss was ersetzen \n";
+		$zeichenliste[$schluessel] = "firlefei";
+	}
+}
+//print_r($zeichenliste);
+$ergebnis = '';
+foreach ($zeichenliste as $b){
+	$ergebnis = $ergebnis.$b;
+	//$ergebnis="$ergebnis $b";
+}
+print($ergebnis);
+~~~
+
+
+## Formulare
+
+Erweitern wir das Firlefei um eine Dateneingabe mit Hilfe eines Formulars!
