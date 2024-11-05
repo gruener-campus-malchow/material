@@ -101,3 +101,11 @@ while($zaehler(10) <= 100){
 }
 
 ~~~
+
+# 3. Stunde (5.11.2024)
+
+## Verzweigungen
+
+> Firlefei
+
+Erstellen Sie ein Programm, das in einem gegebenen String einen (jeden) Vokal gegen den String "firlefei" tauscht. Etwas lustig wird es, wenn eine Computersprache den Ergebnisstring vorliest...
