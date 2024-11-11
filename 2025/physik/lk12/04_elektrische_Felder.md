@@ -5,13 +5,15 @@ Elektrische Felder
 
 # Skizzen elektrischer Felder
 
-* Monopolfeld
-* Quell- und Senkenfelder
+* Monopolfeld(er)
+* Quell- und Senkenfelder (Dipol)
 * Ladungen auf verschiedenen Oberflächen
     * Kugeloberfläche
     * Spitzen
     * ebenen Flächen
 * homogenes und inhomogenes el. Feld
+
+> Erstellen Sie für die Eigenschaften der verschiedenen elektrischen Feldarten (homogen/inhomogen) eine tabellarische Übersicht.
 
 # mathematische Beschreibung
 
