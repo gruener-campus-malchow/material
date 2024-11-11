@@ -51,9 +51,13 @@ $$a \epsilon \\{0,1 \\}$$
 
 $$Ziffernfolge \rightarrow Zahlenwert_{10}$$
 
-$$a_3 a_2 a_1 a_0 = a_3 \cdot 2^3 + a_2 \cdot 2^2 + a_1 \cdot 2^1 + a_0 \cdot 2^0$$
+$$
+a_3 a_2 a_1 a_0 = a_3 \cdot 2^3 + a_2 \cdot 2^2 + a_1 \cdot 2^1 + a_0 \cdot 2^0
+$$
 
-$$1101_{2}=1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0=13_{10}$$
+$$
+1101_{2}=1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0=13_{10}
+$$
 
 ## Hollerith
 
