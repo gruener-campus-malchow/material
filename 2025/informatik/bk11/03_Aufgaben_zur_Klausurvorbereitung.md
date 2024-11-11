@@ -33,6 +33,8 @@ Achten Sie inhaltlich darauf, dass Sie mit den sechs Folien den Inhalt eines der
 
 ### Binärsystem
 
+Falls die Darstellung hier nicht funktioniert, schauen Sie [hier](https://docs.gcm.schule/pad/#/yTS3Pc_IQTBrNcLVOjk)
+
 #### Dezimalsystem
 
 $$a \epsilon \\{0,1,2,3,4,5,6,7,8,9 \\}$$
@@ -42,8 +44,6 @@ $$Ziffernfolge \rightarrow Zahlenwert_{10}$$
 $$a_3 a_2 a_1 a_0 = a_3 \cdot 10^3 + a_2 \cdot 10^2 + a_1 \cdot 10^1 + a_0 \cdot 10^0$$
 
 $$8258 = 8 \cdot 10^3 + 2 \cdot 10^2 + 5 \cdot 10^1 + 8 \cdot 10^0$$
-
-
 
 #### Binärsystem
 
