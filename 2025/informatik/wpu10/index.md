@@ -133,6 +133,10 @@ foreach ($zeichenliste as $b){
 print($ergebnis);
 ~~~
 
+## Next Steps
+
+- In Funktionen überführen
+- Funktionen benutzen, um andere Vokale zu verwenden
 
 ## Formulare
 
