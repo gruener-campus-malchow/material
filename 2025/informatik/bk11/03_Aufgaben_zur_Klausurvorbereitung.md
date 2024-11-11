@@ -39,7 +39,7 @@ $$a \epsilon \\{0,1,2,3,4,5,6,7,8,9 \\}$$
 
 $$Ziffernfolge \rightarrow Zahlenwert_{10}$$
 
-$$a_3 a_2 a_ 1 a_0 = a_3 \cdot 10^3 + a_2 \cdot 10^2 + a_1 \cdot 10^1 + a_0 \cdot 10^0$$
+$$a_3 a_2 a_1 a_0 = a_3 \cdot 10^3 + a_2 \cdot 10^2 + a_1 \cdot 10^1 + a_0 \cdot 10^0$$
 
 $$8258 = 8 \cdot 10^3 + 2 \cdot 10^2 + 5 \cdot 10^1 + 8 \cdot 10^0$$
 
@@ -51,7 +51,7 @@ $$a \epsilon \\{0,1 \\}$$
 
 $$Ziffernfolge \rightarrow Zahlenwert_{10}$$
 
-$$a_3 a_2 a_ 1 a_0 = a_3 \cdot 2^3 + a_2 \cdot 2^2 + a_1 \cdot 2^1 + a_0 \cdot 2^0$$
+$$a_3 a_2 a_1 a_0 = a_3 \cdot 2^3 + a_2 \cdot 2^2 + a_1 \cdot 2^1 + a_0 \cdot 2^0$$
 
 $$1101_{2} = 1 \cdot 2^3 + 1 \cdot 2^2 + 0 \cdot 2^1 + 1 \cdot 2^0 = 13_{10}$$
 
