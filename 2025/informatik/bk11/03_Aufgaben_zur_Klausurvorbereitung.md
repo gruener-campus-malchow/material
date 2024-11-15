@@ -88,5 +88,7 @@ $$
 
 > Disclaimer: Diese Aufgabe ist extrem einfach schwer.
 
-1. Erstellen Sie eine Skizze, in der Sie die Funktionsweise des Internets darstellen.
+1. Erstellen Sie eine Skizze, in der Sie die Funktionsweise des Internets darstellen. Tipp: https://www.youtube.com/watch?v=e9FJPnFQWi8
+2. Tägliche Übung: Berechnen Sie den Zahlenwert von $1100'1101_2$ und $1100'1010_2$ sowie die Binärzahl zu 123 und 543.
+1. Erläutern Sie die Funktionsweise anhand Ihres eigenen Bildes.
 
