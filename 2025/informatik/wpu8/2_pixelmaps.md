@@ -7,6 +7,8 @@ Interpretiere folgende Daten:
 
 Erkläre, welche Information dargestellt wird.
 
+## Eigene Pixelmaps
+
 
 https://gcm.schule/pixelmap?serial=
 
