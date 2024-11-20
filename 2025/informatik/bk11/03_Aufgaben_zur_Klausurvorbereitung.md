@@ -92,3 +92,6 @@ $$
 2. Tägliche Übung: Berechnen Sie den Zahlenwert von $1100'1101_2$ und $1100'1010_2$ sowie die Binärzahl zu 123 und 543.
 1. Erläutern Sie die Funktionsweise anhand Ihres eigenen Bildes.
 
+## Protokolle
+
+TCP/IP-Video
