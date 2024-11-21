@@ -54,7 +54,7 @@ Die im el. Feld an einer Ladung verrichteten Arbeit ist also deren Energiediffer
 
 In einem Feld definieren wir nun das Potential $\varphi = {{\Delta E_{Pot}} \over {q}}$ - in Worten: Potentielle Energie pro Ladung.
 
-Daraus folgt $\varphi = E \cdot s$.
+> Daraus folgt $\varphi = E \cdot s$.
 
 ### Wir zeigen: Potential und Spannung ist äquivalent
 
@@ -66,7 +66,7 @@ Daraus folgt für zwei Punkte im elektrischen Feld: $U = \Delta \varphi = \varph
 
 In einem Plattenkondensator gilt damit $U = \varphi_d - \varphi_0 = \varphi_d = E \cdot d$.
 
-Anders ausgedrückt: $E = {{U}\over{d}}$.
+> Anders ausgedrückt: $E = {{U}\over{d}}$.
 
 Das ist ziemlich logisch und kann auch experimentell untersucht werden. Außerdem können wir eine völlig neue Art an Aufgaben rechnen:
 
