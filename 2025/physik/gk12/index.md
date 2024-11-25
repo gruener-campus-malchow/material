@@ -29,16 +29,15 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Elektrische Felder](05_elektrische_Felder.md)
 
+## Woche ab 25.11.24
+
+- Kondensator: Beispielrechnungen im LBS.159
+- [Blitzentstehung](https://wetteralarm.ch/blog/wie-entsteht-ein-blitz.html)
+- [Gewitter-Simulator](https://www.planet-schule.de/mm/gewitter-simulator/)
+- Aufgabe: Erläutere den Zusammenhang zwischen Gewitter und Kondensator
+
+
 <!--
-## Woche 05
-
-- [Gravitation noch physikalischer](03_Gravitation_Newton.slides.md)
-
-
-
-## Woche 8
-
-- [Elektrische Felder](06_elektrische_Felder.md)
 
 ## Woche nach den Winterferien
 
