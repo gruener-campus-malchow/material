@@ -145,3 +145,7 @@ Erweitern wir das Firlefei um eine Dateneingabe mit Hilfe eines Formulars!
 # SNAP (ab 26.11.)
 
 https://snap.berkeley.edu
+
+## Firlefei in snap
+
+![](firlefei.png)
