@@ -29,16 +29,17 @@ $E = {{1}\over{2}} C U^2$
 - Notieren Sie Ihre Beobachtungen während der Versuchsdurchführung.
 - Formulieren Sie Ihre Beobachtungen in ganzen Sätzen.
 
-~~~
+
 In beiden Durchführungen wurde der Kondensator ungefähr gleich lang geladen. Beim ersten mal drehte sich der Ventilator allerdings nur kurze Zeit. Beim zweiten mal drehte er sich deutlich länger. Jedes mal drehte sich der Ventilator zunächst schnell, dann immer langsamer.
-~~~
+
 
 - Stellen Sie eine Vermutung auf, weshalb sich das Beobachtete so ereignet hat.
 
-~~~
-- Irgendwas mit Restladung...
-- Beim ersten Versuchsteil drehte sich der Lüfter nur kurz, es blieb aber Ladung im Kondensator
-- Beim zweiten Laden war schon Energie im Kondensator gespeichert und am Ende war insgesamt mehr Energie im Kondensator, als beim ersten Versuch.
+
+Irgendwas mit Restladung...
+Beim ersten Versuchsteil drehte sich der Lüfter nur kurz, es blieb aber Ladung im Kondensator
+Beim zweiten Laden war schon Energie im Kondensator gespeichert und am Ende war insgesamt mehr Energie im Kondensator, als beim ersten Versuch.
+
 - So konnte beim zweiten Durchlauf der Kondensator längere Zeit laufen
 
 ### Experiment "Spannungs-Entladekurve eines Kondensators"
