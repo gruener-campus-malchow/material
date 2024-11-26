@@ -28,6 +28,7 @@ $E = {{1}\over{2}} C U^2$
 - Erstellen Sie einen Schaltplan von dem Aufbau.
 - Notieren Sie Ihre Beobachtungen während der Versuchsdurchführung.
 - Formulieren Sie Ihre Beobachtungen in ganzen Sätzen.
+- Stellen Sie eine Vermutung auf, weshalb sich das Beobachtete so ereignet hat.
 
 ### Experiment "Spannungs-Entladekurve eines Kondensators"
 
