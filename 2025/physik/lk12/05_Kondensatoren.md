@@ -5,9 +5,9 @@ Kondensatoren
 
 ## Kapazität
 
-Für die Kapazität gilt: $C = {{Q}\over{U}}$ und $C = \epsilon_o \epsilon_r {{A}\over{d}}$
+Für die Kapazität gilt: $C = {{Q}\over{U}}$  und  $C = \epsilon_o \epsilon_r {{A}\over{d}}$
 
-Für Reihenschaltungen von n Kondensatoren gilt: $U = U_1 + ... + U_n$ und ${{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}$
+Für Reihenschaltungen von n Kondensatoren gilt: $U = U_1 + ... + U_{n}$ und ${{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}$
 
 Für Parallelschaltungen von n Kondensatoren gilt: $U = U_1 = ... = U_n$ und $C_{Ges} = C_1 + ... + C_n$
 
