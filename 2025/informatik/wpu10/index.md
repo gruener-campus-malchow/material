@@ -133,11 +133,15 @@ foreach ($zeichenliste as $b){
 print($ergebnis);
 ~~~
 
-## Next Steps
+## Next Steps (lassen wir weg, kommen wir drauf zurück)
 
 - In Funktionen überführen
 - Funktionen benutzen, um andere Vokale zu verwenden
 
-## Formulare
+## Formulare (lassen wir weg, kommen wir drauf zurück)
 
 Erweitern wir das Firlefei um eine Dateneingabe mit Hilfe eines Formulars!
+
+# SNAP (ab 26.11.)
+
+https://snap.berkeley.edu
