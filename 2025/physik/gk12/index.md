@@ -35,6 +35,10 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 - [Blitzentstehung](https://wetteralarm.ch/blog/wie-entsteht-ein-blitz.html)
 - [Gewitter-Simulator](https://www.planet-schule.de/mm/gewitter-simulator/)
 - Aufgabe: Erläutere den Zusammenhang zwischen Gewitter und Kondensator
+- [Kondensator](06_Kondensatoren.md)
+
+## Woche ab 02.12.24
+
 
 
 <!--
