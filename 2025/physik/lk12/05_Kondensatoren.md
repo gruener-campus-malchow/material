@@ -32,7 +32,8 @@ $$
 ### Parallelschaltungen von n Kondensatoren
 
 $$
-U = U_1 = ... = U_n$$
+U = U_1 = ... = U_n
+$$
 
 und 
 
