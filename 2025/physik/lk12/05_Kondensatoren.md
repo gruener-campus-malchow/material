@@ -20,7 +20,7 @@ $$
 ### Reihenschaltungen von n Kondensatoren
 
 $$
-U=U_{1} + ... + U_{n}
+U =  U_1 + ... + U_n
 $$
 
 und 
