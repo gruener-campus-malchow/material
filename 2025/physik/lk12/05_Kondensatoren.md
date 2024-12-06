@@ -17,13 +17,19 @@ $$
 C = \epsilon_o \epsilon_r {{A}\over{d}}
 $$
 
-Für Reihenschaltungen von n Kondensatoren gilt
+### Reihenschaltungen von n Kondensatoren
 
 $$
-U=U_{1} + ... + U_{n}$ und ${{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}
+U=U_{1} + ... + U_{n}
 $$
 
-Für Parallelschaltungen von n Kondensatoren gilt
+und 
+
+$$
+{{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}
+$$
+
+### Parallelschaltungen von n Kondensatoren
 
 $$
 U = U_1 = ... = U_n$$
