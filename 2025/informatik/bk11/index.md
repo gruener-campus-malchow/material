@@ -34,5 +34,15 @@ Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher
 # Woche ab 04.11.24
 
 * [Aufgaben zur Klausurvorbereitung](03_Aufgaben_zur_Klausurvorbereitung.md)
+* Protokolle
+* Funktionsweise des Internets
+* TCP/IP - Schichtenmodell
+* Datenübertragung im Fachraum
+* Topologien
 
+
+# Woche ab 02.12.24
+
+* Topologien ff
+* [Das OSI-Modell](nasowas.md)
 

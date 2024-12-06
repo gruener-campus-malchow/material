@@ -47,3 +47,15 @@ Beim zweiten Laden war schon Energie im Kondensator gespeichert und am Ende war 
 - Bauen Sie die (gegebene) Schaltung auf und lassen Sie diese genehmigen.
 - Erstellen Sie mit dem [Messwerterfassungssystem](https://www.phywe.de/sensoren-software/mess-software-apps/measureapp-die-kostenlose-mess-software-fuer-alle-endgeraete_2274_3205/) ein U(t)-Diagramm für 10µF und 47Ω.
 - Bringen Sie den Kurvenverlauf in Zusammenhang mit dem Verhalten des Lüfters.
+
+## Herleitung Energie im Kondensator (06.12.24)
+
+Vollziehen Sie die Herleitung der Energie im Kondensator in Ihrem Hefter nach. 
+
+Quelle: **Lehrbuch S II** S. 152ff
+
+Ausblick: Herleitung mit Ansatz 
+
+$$
+W =  \int_{0}^{Q} U(q) dq 
+$$
