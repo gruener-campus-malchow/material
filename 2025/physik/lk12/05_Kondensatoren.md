@@ -5,15 +5,40 @@ Kondensatoren
 
 ## Kapazität
 
-Für die Kapazität gilt: $C = {{Q}\over{U}}$  und  $C = \epsilon_o \epsilon_r {{A}\over{d}}$
+Für die Kapazität gilt 
 
-Für Reihenschaltungen von n Kondensatoren gilt: $U=U_{1} + ... + U_{n}$ und ${{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}$
+$$
+C = {{Q}\over{U}}
+$$
 
-Für Parallelschaltungen von n Kondensatoren gilt: $U = U_1 = ... = U_n$ und $C_{Ges} = C_1 + ... + C_n$
+und
+
+$$
+C = \epsilon_o \epsilon_r {{A}\over{d}}
+$$
+
+Für Reihenschaltungen von n Kondensatoren gilt
+
+$$
+U=U_{1} + ... + U_{n}$ und ${{1}\over{C_{Ges}}} = {{1}\over{C_1}} + ... + {{1}\over{C_n}}
+$$
+
+Für Parallelschaltungen von n Kondensatoren gilt
+
+$$
+U = U_1 = ... = U_n$$
+
+und 
+
+$$
+C_{Ges} = C_1 + ... + C_n
+$$
 
 ## Energie
 
-$E = {{1}\over{2}} C U^2$
+$$
+E = {{1}\over{2}} C U^2
+$$
 
 > Ermitteln Sie die theoretische Dauer mit der ein 12V, 0,12A Lüfter betrieben werden kann.
 
