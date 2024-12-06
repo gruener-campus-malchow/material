@@ -59,3 +59,9 @@ Ausblick: Herleitung mit Ansatz
 $$
 W =  \int_{0}^{Q} U(q) dq 
 $$
+
+## Energie im Kondensator ist nicht Energie des Teilchens
+
+LBS. 154: Feldenergie wird in kinetische Energie umgewandelt
+
+LBS. 160 Nr. 16
