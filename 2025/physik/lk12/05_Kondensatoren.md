@@ -64,4 +64,16 @@ $$
 
 LBS. 154: Feldenergie wird in kinetische Energie umgewandelt
 
+LBS. 156: Herleitung der Ablenkung nachvollziehen und präsentieren
+
 LBS. 160 Nr. 16
+
+Blick ins Tafelwerk
+
+## Elektronenstrahlröhren
+
+https://www.youtube.com/watch?v=2rTqOzKRAAo
+
+https://www.youtube.com/watch?v=roS0IxWtq0Q
+
+https://www.youtube.com/watch?v=JHv2TBMRr8s
