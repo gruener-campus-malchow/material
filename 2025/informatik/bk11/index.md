@@ -44,5 +44,5 @@ Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher
 # Woche ab 02.12.24
 
 * Topologien ff
-* [Das OSI-Modell](nasowas.md)
+* [Das OSI-Modell](https://docs.gcm.schule/pad/#/cT-JzV_uK5i2Fkh9Urv)
 
