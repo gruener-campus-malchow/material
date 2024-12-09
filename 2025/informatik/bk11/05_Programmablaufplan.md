@@ -11,10 +11,10 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
    c->d;
    c->e;
    e -> stop;
-   a[label="lies n"];
-   b[label="lies k"];
+   a[label="lies n", shape=box];
+   b[label="lies k", shape=box];
    c[label="k<n", shape=diamond];
-   d[label="sag ..."];
-   e[label="sag ..."];
+   d[label="sag k ist kleiner", shape=box];
+   e[label="sag k ist größer oder gleich", shape=box];
  }
 '/>
