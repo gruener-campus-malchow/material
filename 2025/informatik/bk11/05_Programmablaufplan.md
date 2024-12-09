@@ -19,3 +19,5 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
    e[label="sag k ist größer oder gleich", shape=box];
  }
 '/>
+
+> Aufgabe: Modellieren Sie das Addieren aller Zahlen von n bis k.
