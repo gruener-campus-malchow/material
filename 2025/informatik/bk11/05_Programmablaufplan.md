@@ -8,8 +8,8 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 <img src='https://g.gravizo.com/svg?
  digraph G {
    start -> a -> b -> c;
-   c->d;
-   c->e;
+   c->d[label="true"];
+   c->e[label="false"];
    d->c;
    e -> stop;
    a[label="lies n", shape=box];
