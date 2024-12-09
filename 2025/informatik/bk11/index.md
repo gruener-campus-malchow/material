@@ -40,9 +40,16 @@ Schreiben Sie mir eine [E-Mail](mailto: baldauf.a@berlin.gcm.schule), in welcher
 * Datenübertragung im Fachraum
 * Topologien
 
-
 # Woche ab 02.12.24
 
 * Topologien ff
 * [Das OSI-Modell](04_OSI-Modell.md)
+
+# Woche ab 9.12.24
+
+Wir haben uns für die Programmiersprache Python entschieden. Diese wird uns die kommenden Jahre begleiten.
+
+Zunächst geht es aber ohne lästige Syntax einer Programmiersprache mit Programmablaufplänen los:
+
+* [PAP](05_Programmablaufplan.md)
 
