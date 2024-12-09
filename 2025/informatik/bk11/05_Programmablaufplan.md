@@ -7,13 +7,14 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 
 <img src='https://g.gravizo.com/svg?
  digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
+   start -> a -> b -> c;
+   c->d;
+   c->e;
+   e -> stop;
+   a[label="lies n"];
+   b[label="lies k"];
+   c[label="k<n", shape=diamond];
+   d[label="sag ..."];
+   e[label="sag ..."];
  }
 '/>
