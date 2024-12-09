@@ -10,6 +10,7 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
    start -> a -> b -> c;
    c->d;
    c->e;
+   d->c;
    e -> stop;
    a[label="lies n", shape=box];
    b[label="lies k", shape=box];
