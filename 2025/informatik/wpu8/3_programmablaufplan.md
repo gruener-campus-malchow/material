@@ -33,6 +33,8 @@ Dafür werden Rechtecke verwendet. Für eine maximale Vereinfachung wird nicht z
 
 Eine Bedingung wird als Frage formuliert oder als Gleichung oder Ungleichung in eine Raute geschrieben. Es gibt üblicherweise nur die Ergebnisse wahr oder falsch.
 
+### Verzweigung
+
 <img height="300px" src='https://g.gravizo.com/svg?
  digraph G {
    start -> a -> b; 
@@ -47,7 +49,24 @@ Eine Bedingung wird als Frage formuliert oder als Gleichung oder Ungleichung in 
  }
 '/>
 
+### Schleife
 
+Wenn ein Zweig der Verzweigung wieder auf die Anfangsbedingung zurück führt, entsteht eine Schleife, die mehrmals (manchmal unendlich oft) durchlaufen werden kann.
+
+<img height="300px" src='https://g.gravizo.com/svg?
+ digraph G {
+   start -> a -> b; 
+    b -> c [label="wahr"];
+    c ->  stop;
+    b -> d [label="falsch"];
+    d -> e -> b;
+    a[label="Eingabe der Variablen zahl1 und zahl2", shape=box];
+    b[label="ist zahl 1 größer als zahl2?", shape=diamond];
+    c[label="ausgeben(zahl1 ist größer)", shape=box];
+    d[label="ausgeben(zahl1 ist kleiner oder gleich)", shape=box];
+    e[label="zahl1 = zahl1 + 1", shape=box];
+ }
+'/>
 
 ## Subtrahieren als Programmablaufplan
 
