@@ -11,41 +11,48 @@ def addieren(summand1, summand2): # Eine Funktion wird definiert, die zwei Param
         summand2 = vorgaenger(summand2) # wie Zeile 9 nur mit anderer Funktion
     return summand1 # rückgabe des Inhalts der Variable summand 1
 
-def multiplizieren(faktor1,faktor2):
-    ergebnis = 0
-    while faktor2 > 0 :
-        ergebnis = addieren(ergebnis,faktor1)
-        faktor2 = vorgaenger(faktor2)
-    return ergebnis # 
+def multiplizieren(faktor1,faktor2): #Die Funktion Multiplizieren hat die Parameter faktor1 und faktor2
+    ergebnis = 0 # Der Variable ergebnis wird der Wert 0 zugewiesen
+    while faktor2 > 0 : #So lange faktor2 größer als 0 ist, wiederhole...
+        ergebnis = addieren(ergebnis,faktor1) #die Funktion addieren wird aufgerufen und der Rückgabewert der Variable ergebnis zugewiesen
+        faktor2 = vorgaenger(faktor2) #Die Funktion vorgaenger wird aufgerufen und der Rückgabewert der Variable faktor2 zugewiesen
+    return ergebnis # Ergebnis wird zurück gegeben 
 
-print("gib zwei Zahlen ein")
-var1 = int(input("erste Zahl: "))
-var2 = int(input("zweite Zahl: "))
-ergebnis = addieren(var1,var2)
-print("Die Summe ist")
-print(ergebnis)
-ergebnis = multiplizieren(var1,var2)
-print("Das Produkt ist")
-print(ergebnis)
+print("gib zwei Zahlen ein") #gib eine Zeichenkette aus
+var1 = int(input("erste Zahl: ")) #Der Benutzer wird zu einer Eingabe aufgefordert, die in eine Zahl umgewandelt wird. Das Ergebnis wird var1 zugewiesen.
+var2 = int(input("zweite Zahl: ")) #wie Zeile 21 nur mit var2
+ergebnis = addieren(var1,var2) #Die Funktion addieren wird aufgerufen und der Rückgabewert der Variable ergebnis zugewiesen
+print("Die Summe ist") #gib eine Zeichenkette aus
+print(ergebnis) #Der Inhalt der Variable ergebnis wird ausgegeben
+ergebnis = multiplizieren(var1,var2) #wie Zeile 23 nur mit Multiplizieren
+print("Das Produkt ist") #wie Zeile 24, nur mit einer anderen Zeichenkette
+print(ergebnis) #Der Inhalt der Variable ergebnis wird ausgegeben
 ~~~
 
 ## Subtrahieren als PAP
 
-Muss noch gemacht werden:
-
-<img src='https://g.gravizo.com/svg?
+<img height="300px" src='https://g.gravizo.com/svg?
  digraph G {
    start -> a -> b -> c;
    c->d[label="true"];
    c->e[label="false"];
    d->d2->c;
    e -> stop;
-   a[label="eingabe var1", shape=box];
-   b[label="eingabe var2", shape=box];
+   a[label="eingabe von var1", shape=box];
+   b[label="eingabe von var2", shape=box];
    c[label="var2 > 0 ???", shape=diamond];
-   d[label="vorganger(var1)", shape=box];
-   d2[label="vorganger(var2)", shape=box];
-   e[label="ausgabe(var1)", shape=box];
+   d[label="vorgaenger von var1 bilden", shape=box];
+   d2[label="vorgaenger von var2 bilden", shape=box];
+   e[label="ausgabe von var1", shape=box];
  }
 '/>
 
+## Subtrahieren in Python
+
+~~~python
+def subtrahieren(var1, var2): # Eine Funktion wird definiert, die zwei Parameter hat
+    while var2 > 0 : # eine Schleife, die so lange läuft, wie var2 größer als 0 ist
+        var1 = vorgaenger(var1) # einer Variable wird der Rückgabewert der Funktion zugewiesen
+        var2 = vorgaenger(var2) # wie Zeile 9 nur mit anderer Funktion
+    return var1 #rückgeben des Inhalts von var1
+~~~
