@@ -7,14 +7,29 @@ Einführung in Programmablaufpläne
 
 ## Start und Ende eines Programms
 
-Dafür werden Ellypsen verwendet:
+Dafür werden Ellypsen verwendet.
 
-<img height="300px" src='https://g.gravizo.com/svg?
+<img height="150px" src='https://g.gravizo.com/svg?
  digraph G {
    start -> a ->  stop;
    a[label="gib Hello World aus", shape=box];
  }
 '/>
+
+## Befehle oder Anweisungen
+
+Dafür werden Rechtecke verwendet. Für eine maximale Vereinfachung wird nicht zwischen Befehlen und Eingaben (üblicherweise Parallelogramme) unterschieden. Die Anweisungen oder Befehle können in Pseudocode oder auch schon in Programmsyntax geschrieben sein.
+
+<img height="300px" src='https://g.gravizo.com/svg?
+ digraph G {
+   start -> a -> b -> c ->  stop;
+    a[label="Eingabe der Variable zahl", shape=box];
+    b[label="ergebnis = rechne zahl mal zahl", shape=box];
+    c[label="ausgeben(Die Quadratzahl ist: ergebnis)", shape=box];
+ }
+'/>
+
+## Verzweigungen und Schleifen
 
 
 
