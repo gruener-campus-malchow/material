@@ -1,3 +1,6 @@
+Python reloaded
+================
+
 ~~~python
 def nachfolger(zahl): # Die Funktion namens "nachfolger" wird festgelegt und der Parameter "zahl""
     return zahl + 1 # zahl wird zurück gegeben und vorher um 1 erhöht
@@ -29,7 +32,9 @@ print("Das Produkt ist") #wie Zeile 24, nur mit einer anderen Zeichenkette
 print(ergebnis) #Der Inhalt der Variable ergebnis wird ausgegeben
 ~~~
 
-## Subtrahieren als PAP
+## Subtrahieren als Programmablaufpläne
+
+[Einführung in Programmablaufpläne](3_programmablaufplan.md)
 
 <img height="300px" src='https://g.gravizo.com/svg?
  digraph G {
