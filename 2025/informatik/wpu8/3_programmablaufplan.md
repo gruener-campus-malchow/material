@@ -72,8 +72,6 @@ Wenn ein Zweig der Verzweigung wieder auf die Anfangsbedingung zurück führt, e
 
 ## Subtrahieren als Programmablaufplan
 
-[Einführung in Programmablaufpläne](3_programmablaufplan.md)
-
 <img height="300px" src='https://g.gravizo.com/svg?
  digraph G {
    start -> a -> b -> c;
