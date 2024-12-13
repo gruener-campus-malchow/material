@@ -92,6 +92,13 @@ $$
 W =  \int_{0}^{Q} U(q) dq 
 $$
 
+## Ladekurve Kondensator (Spannung)
+
+todo
+
+## Lade- und Entladevorgang Stromstärke
+
+
 ## Energie im Kondensator ist nicht Energie des Teilchens
 
 LBS. 154: Feldenergie wird in kinetische Energie umgewandelt
@@ -109,5 +116,23 @@ https://www.youtube.com/watch?v=2rTqOzKRAAo
 https://www.youtube.com/watch?v=roS0IxWtq0Q
 
 https://www.youtube.com/watch?v=JHv2TBMRr8s
+
+## Strom beim Laden- und Entladevorgang
+
+https://www.elektronik-kompendium.de/sites/grd/0205301.htm
+
+> Lesen Sie die oben genannte Quelle
+>
+> Erstellen Sie einen Schaltplan für die Messung der Stromstärke
+
+... führt zum Magnetfeld ... über den Schwingkreis - das wird toll!
+
+Wir ergänzen zu der Schaltung aus dem Entladevorgang ein weiteres Bauteil, eine Spule...
+
+doch zunächst zur Theorie des Magnetismus!
+
+
+
+
 
 
