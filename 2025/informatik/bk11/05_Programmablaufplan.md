@@ -31,6 +31,10 @@ Ein Roboter hat zwei Motoren und zwei Sensoren, die jeweils links und rechts von
 
 ![Beispiel](https://creatronix.de/wp-content/uploads/2024/02/LFR-8239-1024x768.jpg)
 
+Falls Sie eine Auswahl relativ günstiger Bildungsroboter suchen: https://www.berrybase.de/robotik/roboter-kits/rad-ketten-roboter/
+
+> Ich empfehle einen Roboter auf Raspberry Pi -Basis, weil wir Raspberry Pis im Unterricht verwenden werden.
+
 Sie haben folgende Möglichkeiten zur Steuerung des Roboters:
 
 - helligkeit_L() gibt die gemessene Helligkeit des Bodens als 8-Bit Integer zurück (0-255)
