@@ -47,6 +47,8 @@ Sie haben folgende Möglichkeiten zur Steuerung des Roboters:
 
 ## Beginn einer Musterlösung
 
+editiert z.B. auf https://sketchviz.com
+
 ~~~dot
 digraph G {
   graph [fontname = "Handlee"];
