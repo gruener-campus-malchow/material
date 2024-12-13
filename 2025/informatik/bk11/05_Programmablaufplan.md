@@ -45,3 +45,21 @@ Sie haben folgende Möglichkeiten zur Steuerung des Roboters:
 
 > Erstellen Sie ein Programmablaufplan für das Verfolgen einer Linie auf dem Boden.
 
+## Beginn einer Musterlösung
+
+~~~dot
+digraph G {
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  bgcolor=transparent;
+  start -> b
+  b[shape=Mdiamond label="h_L() = h_R()"];
+  b-> c [label="yes"];
+  b-> d [label="no"];
+  d [lable="h_L() > h_R()", shape=diamond];
+  c [shape=box, label="todo"];
+  c-> end;
+}
+~~~
