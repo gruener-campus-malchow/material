@@ -13,3 +13,4 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Keppler für Woche ab 23.9.24](03_Kepler.slides.md)
 - [Elektrische Felder ab 11.11.24](04_elektrische_Felder.md)
 - [Kondensatoren ab 25.11.24](05_Kondensatoren.md)
+- [Magnetfelder ab 16.12.24](06_Magnetfelder.md)
