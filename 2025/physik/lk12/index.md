@@ -14,3 +14,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Elektrische Felder ab 11.11.24](04_elektrische_Felder.md)
 - [Kondensatoren ab 25.11.24](05_Kondensatoren.md)
 - [Magnetfelder ab 16.12.24](06_Magnetfelder.md)
+- Magnetfelder ab 10.01.24
+    - [Magnetische Flussdichte](07_Magentische_Flussdichte.md)
+    - [Magnetfelder von Draht und Spule](08_Magnetfelder_Draht_Spule.slides.md)
+    - [Elektromotoren](09_Elektromotor.slides.md)
+
