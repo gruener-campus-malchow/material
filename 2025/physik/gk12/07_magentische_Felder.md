@@ -27,7 +27,7 @@ $$
 
 ---
 
-## Magnetische Feldst채rke
+## Magnetische Feldstärke
 
 $$
 B = {\mu}_0 {\mu}_r H

@@ -37,7 +37,10 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 - Aufgabe: Erläutere den Zusammenhang zwischen Gewitter und Kondensator
 - [Kondensator](06_Kondensatoren.md)
 
-## Woche ab 02.12.24
+## Woche ab 13.01.25
+
+- Magnetismus (siehe Hefter)
+- [Magnetische Felder](07_magentische_Felder.md)
 
 
 
