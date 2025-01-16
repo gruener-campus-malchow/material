@@ -32,7 +32,7 @@ Rechnen!
 > 
 > Antworten Sie für Gleich- und für Wechselstrom.
 > 
-> (Gerthsen Physik 2009)
+> (Gerthsen Physik 2009, S.390)
 
 ---
 
