@@ -43,7 +43,7 @@ https://studyflix.de/elektrotechnik/burstenloser-gleichstrommotor-1426
 
 https://www.ulrichradig.de/home/index.php/avr/brushless-motor-controller
 
-### Wechselstrommotor (für Enthusiast*innen und Bastler*innen)
+### Wechselstrommotor (für Enthusiast\*innen und Bastler\*innen)
 
 > Läuft mit 50Hz Wechselstrom aus der Steckdose!
 >
