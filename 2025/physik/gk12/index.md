@@ -41,6 +41,9 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - Magnetismus (siehe Hefter)
 - [Magnetische Felder](07_magentische_Felder.md)
+
+## Woche ab 20.01.25
+
 - [Von Spulen zu Elektromotoren](08_Spule_Motor.md)
 
 
