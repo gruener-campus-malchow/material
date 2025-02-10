@@ -53,3 +53,22 @@ Zunächst geht es aber ohne lästige Syntax einer Programmiersprache mit Program
 
 * [PAP](05_Programmablaufplan.md)
 
+# Nicht dokumentierter GAP
+
+Es war leiter viel zu viel Ausfall aber wir haben auch Dinge gelernt: Wir können inzwischen PAP in Python-Code überführen.
+
+Es wurden Programmierparadigmen behandelt, also v.a. die imperative Programmierung. Die logische und funktionale Programmierung wurde erwähnt. Objektorientierung wurde als Weiterentwicklung der imperativen Programmierung verstanden.
+
+Ein beispielhaften Stammbaum der Programmiersprache ist: https://upload.wikimedia.org/wikipedia/commons/6/6c/StammbaumProgrammiersprachen.jpg
+
+Folgende Programmierkonzepte wurden schrittweise mit Beispielen und Erklärungen eingeführt:
+
+- Variablen (-zuweisungen)
+- Anweisungen
+- Funktionen aka Module
+- Schleifen
+- Verzweigungen
+
+# Woche ab 10.2.25
+
+* [PAP zu Python](06_Programmablaufplan_zu_Python.md)
