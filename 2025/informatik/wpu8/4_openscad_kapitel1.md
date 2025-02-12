@@ -35,4 +35,4 @@ Wir führen ein:
 
 > Bitte beachte: Diese Lösung ist nur ein Ansatz und zeigt nur die Grundlagen. Sei kreativ! Es fehlen: Fenster, Türen, Schornstein, Zimmer...
 
-![](OpenScad_Grundlagen.png)
+![](./img/OpenScad_Grundlagen.png)
