@@ -20,3 +20,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 [Einführung in Programmablaufpläne](3_programmablaufplan.md)
 
 
+# 3D-Modelle mit openScad
+
+> Ziel ist das Erstellen von Kreiseln in Kooperation mit der LG1...
+
+- [Kapitel 1 - Grundlagen](4_openscad_kapitel1.md)
