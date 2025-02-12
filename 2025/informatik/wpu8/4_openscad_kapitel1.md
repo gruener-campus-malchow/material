@@ -6,7 +6,7 @@ Kapitel 1 - Grundlagen
 - [Playlist auf gcmvideo](https://www.youtube.com/watch?v=iT_XUbgAiJY&list=PL0JavxASM3E0wbIQIrSi8fu1R6naFvHX0&index=1)
 - [OpenScad Cheatsheet](https://openscad.org/cheatsheet/)
 - [OpenScad Anleitung in englisch](https://openscad.org/documentation.html#tutorial)
-- [Deutsches Tutorial in Schriftform]https://openscad-meistern.de/buch/
+- [Deutsches Tutorial in Schriftform](https://openscad-meistern.de/buch/)
 
 # Programme und Webseiten
 
