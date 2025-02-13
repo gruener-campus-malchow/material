@@ -46,6 +46,9 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Von Spulen zu Elektromotoren](08_Spule_Motor.md)
 
+## Woche ab 13.02.25
+
+- [Induktion - Vortragsreihe - ScreenCasts](./09_Induktion.md)
 
 <!--
 
@@ -64,7 +67,7 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 ## Nach den Osterferien
 
-- [Induktion](./09_Induktion.md)
+
 
 ## Montag, den 29.4. und weiter
 
