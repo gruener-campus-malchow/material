@@ -3,31 +3,34 @@ Grundkurs Physik 12 Q2
 
 # Induktion
 
-> Erstellen Sie mit einem Partner einen Vortrag mit Präsentation aus folgender Themenauswahl.
+> Erstellen Sie mit einem Partner einen Vortrag mit Präsentation aus folgender Themenauswahl. 
+>
 > Erklären Sie an diesem Beispiel die Zusammenhänge der elektromagnetischen Induktion.
+>
+> Nehmen Sie den Vortrag als ScreenCast auf und stellen Sie uns diesen zur Verfügung.
 
 |Thema | Vortragende|
 |---|---|
-| Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| Nina, Laureen|
-| Spule als Sensor | Nikita, Vincent, Richard |
-| Induktionsschleifen | Dat, Nikolas |
-|Fernleitung elektrischer Energie (historisch, Stichwort Tesla) | Frieda, Josefine |
-| Schaltnetzteile (Drosselspule, Entstörfilter) | Ayami, Leonie |
-| induktives Laden (eher Busse, Autos) | Sandy, Elina |
-| Induktionskochplatten | Oskar, Jeremy |
-| Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) | Justin, Nicklas |
-| E-Gitarre (Tonabnehmer) | nicht vergeben |
-| Wirbelstrombremse in Achterbahnen | nicht vergeben |
+| Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| |
+| Spule als Sensor | |
+| Induktionsschleifen | |
+|Fernleitung elektrischer Energie (historisch, Stichwort Tesla) |  |
+| Schaltnetzteile (Drosselspule, Entstörfilter) |  |
+| induktives Laden (eher Busse, Autos) |  |
+| Induktionskochplatten |  |
+| Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) |  |
+| E-Gitarre (Tonabnehmer) |  |
+| Wirbelstrombremse in Achterbahnen |  |
 
 ## Zeitplan
 
 |Datum | Ereignis| Ergebnis|
 |---|---|---|
-|10.4.24 | Themenvergabe, Erste Recherche, Besprechung, Tipps für Quellen| Grobstruktur und Inhalt des Vortrages
-|15.4.24| Theorie zur Induktion | Mitschriften, Fragen klären|
-|17.4.24| 5. PK-Simulation | Einblicke in guten Stil |
-|22.4.24| Vorträge halten | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
-|25.4.24| Vorträge halten | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
+| | Themenvergabe, Erste Recherche, Besprechung, Tipps für Quellen| Grobstruktur und Inhalt des Vortrages
+|| Theorie zur Induktion | Mitschriften, Fragen klären|
+|| 5. PK-Simulation | Einblicke in guten Stil |
+|| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
+|| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 
 ## Erwarteter Umfang
 
@@ -46,6 +49,6 @@ Grundkurs Physik 12 Q2
 - Verwendung und Verständnis für die Fachbegriffe: Induktion, Selbstinduktion, Wechselfeld, Änderung des Magnetfeldes 
 - Quellenangaben
 
-## Theorie (am 15.4.24)
+## Theorie
 
 [Folien Vortrag und Links](./09_Induktion.slides.md)
