@@ -1,6 +1,8 @@
 Kapitel 1 - Grundlagen
 ==============
 
+[toc]
+
 # Hilfemöglichkeiten
 
 - [Playlist auf gcmvideo](https://www.youtube.com/watch?v=iT_XUbgAiJY&list=PL0JavxASM3E0wbIQIrSi8fu1R6naFvHX0&index=1)
@@ -22,7 +24,7 @@ Kapitel 1 - Grundlagen
 
 > Erstelle ein Programm, das ein Haus realisiert. Du darfst kreativ sein und Liebe zum Detail zeigen.
 
-Wir führen ein:
+## Neue Kompetenzen
 
 - primive Objekte
 - mathematische Operationen
@@ -36,3 +38,17 @@ Wir führen ein:
 > Bitte beachte: Diese Lösung ist nur ein Ansatz und zeigt nur die Grundlagen. Sei kreativ! Es fehlen: Fenster, Türen, Schornstein, Zimmer...
 
 ![](./img/OpenScad_Grundlagen.png)
+
+# 2D-Objekte, wie z.B. Text
+
+> Erstelle einen Schlüsselanhänger für Mama, Fortnite oder Schatzi.
+
+## Neue Kompetenzen
+
+- Text erstellen
+- 2D-Objekte zusätzlich eine Höhe geben (extrudieren)
+- Objekte farbig gestalten
+
+## Musterlösung
+
+![](./img/OpenScad_Text_einfach.png)
