@@ -18,4 +18,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Magnetische Flussdichte](07_Magentische_Flussdichte.md)
     - [Magnetfelder von Draht und Spule](08_Magnetfelder_Draht_Spule.slides.md)
     - [Elektromotoren](09_Elektromotor.slides.md)
-
+- Induktion, Lorentz-Kraft, Lenzsche Regel
+    - [Ampere und die zwei Drähte](10_historisch_Ampere.md)

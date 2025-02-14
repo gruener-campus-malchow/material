@@ -26,11 +26,11 @@ Grundkurs Physik 12 Q2
 
 |Datum | Ereignis| Ergebnis|
 |---|---|---|
-| | Themenvergabe, Erste Recherche, Besprechung, Tipps für Quellen| Grobstruktur und Inhalt des Vortrages
-|| Theorie zur Induktion | Mitschriften, Fragen klären|
-|| 5. PK-Simulation | Einblicke in guten Stil |
-|| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
-|| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
+| 13.2. | Themenvergabe, Erste Recherche, Besprechung, Tipps für Quellen| Grobstruktur und Inhalt des Vortrages
+| 13.2. | Theorie zur Induktion | Mitschriften, Fragen klären|
+| 17.2. - 21.2. | Anderer Stoff | Einblicke in guten Stil |
+| 27.2.| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
+| 26.2. um 23:59 Uhr| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 
 ## Erwarteter Umfang
 
