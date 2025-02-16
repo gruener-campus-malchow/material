@@ -50,6 +50,11 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Induktion - Vortragsreihe - ScreenCasts](./09_Induktion.md)
 
+## Woche ab 17.02.25
+
+- [Lenzsche Regel](./10_Lenzsche_Regel.md)
+
+
 <!--
 
 ## Woche nach den Winterferien
@@ -71,7 +76,7 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 ## Montag, den 29.4. und weiter
 
-- [Lenzsche Regel](./10_Lenzsche_Regel.md)
+
 
 ## Ziemlich viel Zeit in der wir
 

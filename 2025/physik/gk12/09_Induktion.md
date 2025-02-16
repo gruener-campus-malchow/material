@@ -18,7 +18,7 @@ Grundkurs Physik 12 Q2
 | Drosselspule | Jordan & ??? |
 | induktives Laden (eher Busse, Autos) | Egemen & Mias |
 | Induktionskochplatten | Jay & Stella |
-| Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) |  |
+| ~~Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo)~~ |  |
 | E-Gitarre (Tonabnehmer) | Sophy & Lea |
 | Wirbelstrombremse in Achterbahnen | Emmi, Celine |
 | RFID | Janet & Laura |
