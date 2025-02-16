@@ -11,16 +11,18 @@ Grundkurs Physik 12 Q2
 
 |Thema | Vortragende|
 |---|---|
-| Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| |
-| Spule als Sensor | |
-| Induktionsschleifen | |
-|Fernleitung elektrischer Energie (historisch, Stichwort Tesla) |  |
-| Schaltnetzteile (Drosselspule, Entstörfilter) |  |
-| induktives Laden (eher Busse, Autos) |  |
-| Induktionskochplatten |  |
+| Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| Max B & Alex|
+| Spule als Sensor | Angeline & Linh |
+| Induktionsschleifen an Ampeln| Leni & Yannik |
+| Fernleitung elektrischer Energie "Wireless Strom" (historisch, Stichwort Tesla) | Leo & Marcel |
+| Drosselspule | Jordan & ??? |
+| induktives Laden (eher Busse, Autos) | Egemen & Mias |
+| Induktionskochplatten | Jay & Stella |
 | Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) |  |
-| E-Gitarre (Tonabnehmer) |  |
-| Wirbelstrombremse in Achterbahnen |  |
+| E-Gitarre (Tonabnehmer) | Sophy & Lea |
+| Wirbelstrombremse in Achterbahnen | Emmi, Celine |
+| RFID | Janet & Laura |
+| Mikrofo (Tauchspul-Mikrofon) | Emil & Anzor |
 
 ## Zeitplan
 
