@@ -16,6 +16,8 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 1. Erstelle ein weiteres PAP, das zu einem x-Wert immer wieder einen y-Wert berechnet.
 1. Wir überführen das wieder gemeinsam in ein Python-Programm.
 
-### Musterlösung
+### Musterlösungen
 
 ![](PAP_Parsen_lineare_Funktion.jpg)
+
+![](06_Python_Parser.png)
