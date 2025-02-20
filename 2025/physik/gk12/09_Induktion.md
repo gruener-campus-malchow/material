@@ -9,16 +9,18 @@ Grundkurs Physik 12 Q2
 >
 > Nehmen Sie den Vortrag als ScreenCast auf und stellen Sie uns diesen zur Verfügung.
 
+Tipp: Senden Sie die Videodateien beispielsweise über https://fromsmash.com/de oder https://wetransfer.com/ an meine E-Mailadresse.
+
 |Thema | Vortragende|
 |---|---|
 | Kontaktloses Aufladen von Akkus (eher Smartphones, Smartwatches)| Max B & Alex|
 | Spule als Sensor | Angeline & Linh |
 | Induktionsschleifen an Ampeln| Leni & Yannik |
 | Fernleitung elektrischer Energie "Wireless Strom" (historisch, Stichwort Tesla) | Leo & Marcel |
-| Drosselspule | Jordan & ??? |
+| Drosselspule | Jordan & Max K |
 | induktives Laden (eher Busse, Autos) | Egemen & Mias |
 | Induktionskochplatten | Jay & Stella |
-| ~~Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo)~~ |  |
+| Erzeugen hoher Spannungen und Stromstärken in der Technik (Trafo) | Leona & Jaroslav |
 | E-Gitarre (Tonabnehmer) | Sophy & Lea |
 | Wirbelstrombremse in Achterbahnen | Emmi, Celine |
 | RFID | Janet & Laura |
@@ -30,7 +32,7 @@ Grundkurs Physik 12 Q2
 |---|---|---|
 | 13.2. | Themenvergabe, Erste Recherche, Besprechung, Tipps für Quellen| Grobstruktur und Inhalt des Vortrages
 | 13.2. | Theorie zur Induktion | Mitschriften, Fragen klären|
-| 17.2. - 21.2. | Anderer Stoff | Einblicke in guten Stil |
+| 17.2. - 24.2. | Anderer Stoff | Einblicke in guten Stil |
 | 27.2.| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 | 26.2. um 23:59 Uhr| Show ScreenCast | Übung von Kommunkationskompetenzen, Fachwissen Induktion |
 
