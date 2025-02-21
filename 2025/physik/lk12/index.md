@@ -23,4 +23,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Elektromotoren](09_Elektromotor.slides.md)
 - Induktion, Lorentz-Kraft, Lenzsche Regel
     - [Ampere und die zwei Drähte](10_historisch_Ampere.md)
+    - [Selbstinduktion und Energie des Magnetfeldes](11_Spule_als_Energiespeicher.md)
 - [5.PK Simulation](../5.PK_Simulationen_Themenvorschläge.md)
