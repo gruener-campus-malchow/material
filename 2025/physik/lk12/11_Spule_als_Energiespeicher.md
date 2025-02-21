@@ -9,6 +9,10 @@ https://www.youtube.com/watch?v=TVtH5atUP7Y
 
 #### Experiment
 
+![](Spule_Selbstinduktion_Aufbau.jpg)
+![](Spule_Selbstinduktion_Einschalten.jpg)
+![](Spule_Selbstinduktion_Ausschalten.jpg)
+
 > Skizzieren Sie den Versuchsaufbau.
 >
 > Übertragen Sie den vereinfachten Kurvenverlauf in Ihre Aufzeichnungen.
