@@ -25,3 +25,4 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 > Ziel ist das Erstellen von Kreiseln in Kooperation mit der LG1...
 
 - [Kapitel 1 - Grundlagen](4_openscad_kapitel1.md)
+- [Kapitel 2 - Algorithmik](4_openscad_kapitel2.md)
