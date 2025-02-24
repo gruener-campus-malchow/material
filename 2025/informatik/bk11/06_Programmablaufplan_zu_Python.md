@@ -21,3 +21,9 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 ![](PAP_Parsen_lineare_Funktion.jpg)
 
 ![](06_Python_Parser.png)
+
+## Ein einfacher Rechner
+
+Wir erstellen gemeinsam einen Rechner, der im Kern genauso funktioniert, wie Mathematik definiert ist. Wir beginnen mit der Addition und Subtraktion.
+
+![](PAP_musterlösung_rechner.png)
