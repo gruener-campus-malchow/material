@@ -27,3 +27,5 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 Wir erstellen gemeinsam einen Rechner, der im Kern genauso funktioniert, wie Mathematik definiert ist. Wir beginnen mit der Addition und Subtraktion.
 
 ![](PAP_musterlösung_rechner.png)
+
+> Hausaufgabe: Beenden Sie Ihr PAP zur Multiplikation.
