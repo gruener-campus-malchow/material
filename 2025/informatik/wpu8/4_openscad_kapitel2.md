@@ -120,9 +120,16 @@ Modulname(1,2,...) //Aufruf des Moduls
 ~~~
 $fn = 50;
 for (foo = [0:10]){
-    zufallszahl = rands(0,10,1);
-    translate([foo*3,0,0])cylinder(zufallszahl[0]);
+    zufallszahlliste = rands(0,30,1);
+    translate([foo*3,0,0])cylinder(zufallszahlliste[0]);
 }
 ~~~
 
-Der Befehl *rands(0,10,1)* erzeugt eine einzige Zahl zwischen 0 und 10. Eigentlich wird durch diesen Befehl eine Liste erstellt. Diese Liste ist in unserem Beispiel nur ein Element lang - dafür steht die 1. Deshalb erfolgt der Zufall aber über die Variable *zufallszahl[0]*. Mit den eckigen Klammern am Ende greift man auf das erste, also "nullte", Element zu.
+Der Befehl *rands(0,30,1)* erzeugt eine einzige Zahl zwischen 0 und 30. Eigentlich wird durch diesen Befehl eine Liste erstellt. Diese Liste ist in unserem Beispiel nur ein Element lang - dafür steht die 1 am Ende. Weil eine Liste (openScad nennt das Vektor) entsteht, erfolgt der Zugriff über die Variable *zufallszahlliste[0]*. Mit den eckigen Klammern am Ende greift man auf das erste, also "nullte", Element der Liste zu. Man kann den Code auch "brutal" vereinfachen, dann ist er aber schwerer lesbar.
+
+~~~
+$fn = 50;
+for (foo = [0:10]){
+    translate([foo*3,0,0])cylinder(rands(0,30,1)[0]);
+}
+~~~
