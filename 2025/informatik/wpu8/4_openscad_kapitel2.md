@@ -31,6 +31,19 @@ Beispiele:
 - 3 % 3 = 0
 - 4 % 3 = 1
 
+## Schleifen
+
+Die FOR-Schleife gibt es in verschiedenen Varianten. Wir benutzen die Einfachste:
+
+~~~
+for ( foo = [0:9]) {
+    translate([foo * 10,0,0])cube();
+}
+~~~
+
+Im Kopf der Schleife werden die einzelnen Zahlen für die Variable "foo" hochgezählt. Beim ersten Schleifendurchlauf hat "foo" den Wert 0. Im zweiten Durchlauf ist der Wert von "foo" gleich 1, dann 2, usw. Im Körper der Schleife kann ich die Variable nutzen, um damit die Position zu berechnen. Die Variable wird dann ein Faktor bei der Berechnung des x-Wertes.
+
+
 ## Mengenoperationen
 
 > Mengenoperationen werden auch Boolsche Operationen genannt. Sie dienen dazu verschiedene einfache Objekte zu kombinieren. Man kann sie zusammenfügen (union). Man kann Objekte voneinander subtrahieren oder "herausschneiden" (difference). Oder man kann, das ist am Schwersten zu verstehen, nur die Überschneidungen von Objekten verwenden (intersection).
@@ -99,3 +112,17 @@ Modulname(1,2,...) //Aufruf des Moduls
 ### Musterlösung
 
 ![](./img/OpenScad_Musterlösung_Dorf.png)
+
+## Für die Schnellen und Hungrigen: Zufallszahlen
+
+> Probiere folgenden Code aus.
+
+~~~
+$fn = 50;
+for (foo = [0:10]){
+    zufallszahl = rands(0,10,1);
+    translate([foo*3,0,0])cylinder(zufallszahl[0]);
+}
+~~~
+
+Der Befehl *rands(0,10,1)* erzeugt eine einzige Zahl zwischen 0 und 10. Eigentlich wird durch diesen Befehl eine Liste erstellt. Diese Liste ist in unserem Beispiel nur ein Element lang - dafür steht die 1. Deshalb erfolgt der Zufall aber über die Variable *zufallszahl[0]*. Mit den eckigen Klammern am Ende greift man auf das erste, also "nullte", Element zu.
