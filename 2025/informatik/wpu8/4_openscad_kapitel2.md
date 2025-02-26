@@ -83,4 +83,19 @@ intersection(){
 
 ## Module
 
+> Erstelle eine Strasse aus Häusern. Die Häuser dürfen aber nicht aus Einzelteilen zusammengesetzt sein, sondern sie müssen quasi aus einem Block bestehen, aus denen der Innenraum, die Fenster und die Türen "herausgeschnitten" werden.
+
+Wir benutzen, um Code zu vereinfachen und wieder zu verwenden sogenannte **Module**. Die funktionieren im Prinzip, wie Funktionen in anderen Programmiersprachen. Die Syntax ist relativ einfach:
+
+~~~
+module Modulname(Paramater1, Parameter2, ...)
+{
+    //Körper des Moduls
+}
+
+Modulname(1,2,...) //Aufruf des Moduls
+~~~
+
+### Musterlösung
+
 ![](./img/OpenScad_Musterlösung_Dorf.png)
