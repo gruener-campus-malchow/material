@@ -29,4 +29,14 @@ Beispiele:
 - 3 % 3 = 0
 - 4 % 3 = 1
 
-## TODO: Module bauen
+## Musterlösung
+
+> todo
+
+## Mengenoperationen
+
+> TODO
+
+## Module
+
+![](./img/OpenScad_Musterlösung_Dorf.png)
