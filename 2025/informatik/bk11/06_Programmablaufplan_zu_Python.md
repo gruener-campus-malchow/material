@@ -29,3 +29,9 @@ Wir erstellen gemeinsam einen Rechner, der im Kern genauso funktioniert, wie Mat
 ![](PAP_musterlösung_rechner.png)
 
 > Hausaufgabe: Beenden Sie Ihr PAP zur Multiplikation.
+
+### Musterlösung
+
+![](PAP_multiplizieren.png)
+
+> Ergänzen Sie Ihren Python-Code so, dass nun auch multipliziert werden kann.
