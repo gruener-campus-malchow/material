@@ -26,12 +26,24 @@ Umgebung für komfortables Arbeiten: https://sketchviz.com/new
 
 Wir erstellen gemeinsam einen Rechner, der im Kern genauso funktioniert, wie Mathematik definiert ist. Wir beginnen mit der Addition und Subtraktion.
 
+> Erstellen Sie die Funktionen vorgaenger() und subtrahieren(minuend, subtrahend) 
+>
+> Hinweis: Differenz = Minuend - Subtrahend
+
 ![](PAP_musterlösung_rechner.png)
+
+### Multiplikation
 
 > Hausaufgabe: Beenden Sie Ihr PAP zur Multiplikation.
 
-### Musterlösung
+#### Musterlösung PAP
 
 ![](PAP_multiplizieren.png)
 
+#### Aufgabe
+
 > Ergänzen Sie Ihren Python-Code so, dass nun auch multipliziert werden kann.
+
+#### Musterlösung Python
+
+![](PAP_mustertlösung_produkt.png)
