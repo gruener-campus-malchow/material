@@ -14,7 +14,7 @@ Duden SII S. 191 ff
 
 ### Wechselstrom: Maximal-, Mittel- und Effektivwerte
 
-todo
+Duden SII S. 194 ff
 
 ### Transformatoren
 
