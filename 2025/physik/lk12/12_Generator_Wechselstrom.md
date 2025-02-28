@@ -10,7 +10,8 @@ https://www.youtube.com/watch?v=qJCWKwpt1lg
 
 https://www.youtube.com/watch?v=9CBbGKImUsU
 
-Duden SII S. 191 ff
+- Duden SII S. 191 ff
+- Duden Abitur Physik (Basiswissen Schule) S. 252 ff
 
 ### Wechselstrom: Maximal-, Mittel- und Effektivwerte
 
