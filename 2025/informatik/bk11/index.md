@@ -76,3 +76,5 @@ Folgende Programmierkonzepte wurden schrittweise mit Beispielen und Erklärungen
 # Woche ab 03.02.2025
 
 * [Chatbot Programmierung](07_Chatbotprogrammierung_in_python.md)
+
+
