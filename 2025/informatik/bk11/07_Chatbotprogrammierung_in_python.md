@@ -16,7 +16,7 @@ Benutzen Sie daf체r eine Endlosschleife, die die komplette Programmroutine ausf�
 
 ## Schritt 2: Strukturierung von Code in Funktionen
 
-In []dieser Python-Datei hier](./rechner.py) befindet sich der Code des Rechners, allerdings ist der angepasst. Es wurde eine main-Funktion hinzugef체gt. Diese main-Funktion wird nur dann ausgef체hrt, wenn man *rechner.py* als eigenst채ndiges Programm ausf체hrt. Wir werden aber diesen Rechner in unserem Chatbot verwenden.
+In [dieser Python-Datei hier](./rechner.py) befindet sich der Code des Rechners, allerdings ist der angepasst. Es wurde eine main-Funktion hinzugef체gt. Diese main-Funktion wird nur dann ausgef체hrt, wenn man *rechner.py* als eigenst채ndiges Programm ausf체hrt. Wir werden aber diesen Rechner in unserem Chatbot verwenden.
 
 ### Verwendung von Funktionen aus anderen Programmen
 
