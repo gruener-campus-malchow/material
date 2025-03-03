@@ -47,3 +47,14 @@ Wir erstellen gemeinsam einen Rechner, der im Kern genauso funktioniert, wie Mat
 #### Musterlösung Python
 
 ![](PAP_mustertlösung_produkt.png)
+
+#### Klausurtraining
+
+> $$f(x)=a^x$$
+>
+> z.B. $$5^3=5 \cdot 5 \cdot 5$$
+
+1. Entwerfen Sie einen Programmablaufplan für das Potenzieren von Zahlen. Sie dürfen dafür nur folgende Operationen verwenden: addieren(sum1, sum2), multiplizieren(faktor, faktor2), nachfolger(zahl), vorgänger(zahl).
+2. Überführen Sie IHREN Plan in Python-Code.
+
+![](PAP_Musterlösung_Klausurvorberietung.jpg)
