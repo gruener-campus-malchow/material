@@ -30,7 +30,7 @@ Duden SII S. 195 ff
 1. Bilden Sie insgesamt vier Gruppen.
 1. Erstellen Sie zwei Schaltbilder für eine belastete und unbelastete Transformatorschaltung. Legen Sie dieses Schaltbild dem Lehrer vor.
 1. Bauen Sie die Schaltung auf und **lassen Sie die Schaltungen abnehmen**.
-1. Nehmen Sie für Ihre Messungen von Spannung und Stromstärke die Maximalwerte auf und ermitteln Sie die Mittel- und Effektivwerte.
+1. Nehmen Sie für Ihre Messungen von Spannung und Stromstärke die Maximalwerte auf und ermitteln Sie die Mittel- und Effektivwerte. Halten sie dabei das Verhältnis der Windungszahlen konstant. Messen Sie sowohl den belasteten als auch den unbelasteten Transformator.
 1. Zeigen Sie, dass die theoretischen Annahmen stimmen oder begründen Sie Abweichungen von der Theorie.
 1. Bestimmen Sie die Leistungen im Primär- und Sekundärkreis.
 1. Ermitteln Sie den Wirkungsgrad des Transformators.
