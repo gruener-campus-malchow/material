@@ -34,4 +34,4 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/grun
 
 > Skizzen erstellen, Tafelbild, Aufgabe
 
----
+
