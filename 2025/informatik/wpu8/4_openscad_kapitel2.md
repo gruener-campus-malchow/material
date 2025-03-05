@@ -133,3 +133,7 @@ for (foo = [0:10]){
     translate([foo*3,0,0])cylinder(rands(0,30,1)[0]);
 }
 ~~~
+
+## Turm bauen
+
+!()[OpenScad_musterlösung_turm.png]
