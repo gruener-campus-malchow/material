@@ -136,4 +136,4 @@ for (foo = [0:10]){
 
 ## Turm bauen
 
-!()[OpenScad_musterlösung_turm.png]
+!()[./img/OpenScad_musterlösung_turm.png]
