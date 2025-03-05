@@ -136,4 +136,30 @@ for (foo = [0:10]){
 
 ## Turm bauen
 
+> Aufgabe: Baue einen Turm!
+
+### Theorie
+
+Zunächst brauchen wir einen Ring aus Steinen. Erst im zweiten Schritt können wir die Ringe übereinander setzen und dadurch einen Turm entstehen lassen.
+
+Der Ring soll einen Durchmesser haben und wir kennen natürlich die Länge der Steine. Die Steinlänge wird eine Variable sein. 
+
+Um vom Durchmesser des Turms auf den Umfang zu kommen, benutzen wir eine mathematische Formel:
+
+~~~
+Umfang = Pi * Durchmesser
+~~~
+
+Die Anzahl der Steine berechnen wir, indem wir den Umfang durch die Steinlänge teilen. Dabei kommt aber oft eine Kommazahl heraus. Das ist gut, denn wir brauchen ja auch einen Abstand zwischen den Steinen - man nennt das eine Fuge.
+
+Um die richtige Anzahl zu berechnen benutzen wir die nächst kleinere natürliche Zahl:
+
+~~~
+richtige_Anzahl = floor(Anzahl)
+~~~
+
+Das Platzieren der Steine ist jetzt möglich. Dafür benutzen wir eine Schleife die so oft läuft, wie wir Steine setzen wollen. Wir brauchen außerdem einen Winkel um den wir die Steine rotieren und natürlich den Abstand vom Mittelpunkt.
+
 ![](./img/OpenScad_musterlösung_turm.png)
+
+> Zusatzaufgabe: Baue eine Kuppel!
