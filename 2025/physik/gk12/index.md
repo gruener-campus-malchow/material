@@ -53,8 +53,12 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 ## Woche ab 17.02.25
 
 - [Lenzsche Regel](./10_Lenzsche_Regel.md)
+- ScreenCasts schauen und Beispiele für Induktion verstehen
 
+## Woche ab 06.03.25
 
+- ScreenCasts schauen und Beispiele für Induktion verstehen
+- [Selbstinduktion und Energie des Magnetfeldes](11_Spule_als_Energiespeicher.md)
 <!--
 
 ## Woche nach den Winterferien
