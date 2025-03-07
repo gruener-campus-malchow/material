@@ -166,6 +166,7 @@ Das Platzieren der Steine ist jetzt möglich. Dafür benutzen wir eine Schleife 
 
 ## Mauer Reloaded
 
+
 ~~~
 steinlaenge = 5;
 
