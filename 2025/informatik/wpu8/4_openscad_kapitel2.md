@@ -166,6 +166,7 @@ Das Platzieren der Steine ist jetzt möglich. Dafür benutzen wir eine Schleife 
 
 ## Mauer Reloaded
 
+> Der folgende Code erzeugt eine Mauer auf einen Befehl hin.
 
 ~~~
 steinlaenge = 5;
@@ -182,4 +183,68 @@ module mauer(anzahl_breite, anzahl_hoehe){
         }
     }
 }
+~~~
+
+## Eine n-Eckige Burg
+
+> Burgen sind nichts Anderes, als Mauern und Türme...
+
+![](OpenScad_Musterlösung_Beispiel_Burg.png)
+
+~~~
+steinlaenge = 5;
+
+module mauer(anzahl_breite, anzahl_hoehe){
+    for (reihennummer = [0:anzahl_hoehe-1]){
+        for (steinnummer = [0:anzahl_breite-1]){
+            if (reihennummer % 2 == 0){
+                color("red")translate([steinnummer*(steinlaenge+0.1),0,reihennummer * (steinlaenge+0.1)])cube([steinlaenge,steinlaenge,steinlaenge]);
+            } 
+            else{
+                translate([steinnummer*(steinlaenge+0.1) + steinlaenge/2,0,reihennummer * (steinlaenge+0.1)])cube([steinlaenge,steinlaenge,steinlaenge]);
+            }
+        }
+    }
+}
+module ring(durchmesser)
+{
+    umfang = 3.142 * durchmesser ;
+    anzahl = umfang / steinlaenge;
+    genaue_anzahl = floor(anzahl);
+    winkel = 360 / genaue_anzahl;
+    
+    for(zaehler = [0:genaue_anzahl-1]){
+        rotate([0,0,winkel*zaehler])translate([durchmesser / 2,0,0])cube([steinlaenge,steinlaenge,steinlaenge]);
+    }
+    echo(genaue_anzahl);
+}
+
+module turm(hoehe){
+    for(zaehler = [0:hoehe-1]){
+        rotate([0,0,zaehler*steinlaenge/2])translate([0,0,zaehler*(steinlaenge+0.1)])ring(50);
+        }
+}
+
+module spitze(hoehe,durchmesser){
+    verkleinerung = floor(durchmesser / hoehe);
+    for( zaehler = [0:hoehe-1] ){
+             
+     rotate([0,0,zaehler*steinlaenge/2])translate([0,0,zaehler*(steinlaenge+0.1)])ring(durchmesser-verkleinerung*zaehler);   
+        
+    }  
+}
+
+module burg(turmanzahl){
+    segment = 360/turmanzahl;
+    for(zaehler = [0:turmanzahl-1]){ 
+        rotate([0,0,segment*zaehler])translate([turmanzahl*30,0,0])turm(10);
+    }
+    abstand_tuerme = 2 * turmanzahl*30 * sin(segment/2);
+    anzahl_steine = floor(abstand_tuerme/5);
+    for(zaehler = [0:turmanzahl-1]){ 
+        rotate([0,0,segment*zaehler])translate([turmanzahl*30,0,0])rotate([0,0,90+segment/2])mauer(anzahl_steine,7);;
+    }
+}
+
+burg(16);
 ~~~
