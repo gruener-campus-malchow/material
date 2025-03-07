@@ -185,7 +185,7 @@ module mauer(anzahl_breite, anzahl_hoehe){
 }
 ~~~
 
-## Eine n-Eckige Burg
+## Eine bleibig-eckige Burg
 
 > Burgen sind nichts Anderes, als Mauern und Türme...
 
