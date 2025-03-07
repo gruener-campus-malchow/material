@@ -163,3 +163,22 @@ Das Platzieren der Steine ist jetzt möglich. Dafür benutzen wir eine Schleife 
 ![](./img/OpenScad_musterlösung_turm.png)
 
 > Zusatzaufgabe: Baue eine Kuppel!
+
+## Mauer Reloaded
+
+~~~
+steinlaenge = 5;
+
+module mauer(anzahl_breite, anzahl_hoehe){
+    for (reihennummer = [0:anzahl_hoehe-1]){
+        for (steinnummer = [0:anzahl_breite-1]){
+            if (reihennummer % 2 == 0){
+                color("red")translate([steinnummer*(steinlaenge+0.1),0,reihennummer * (steinlaenge+0.1)])cube([steinlaenge,steinlaenge,steinlaenge]);
+            } 
+            else{
+                translate([steinnummer*(steinlaenge+0.1) + steinlaenge/2,0,reihennummer * (steinlaenge+0.1)])cube([steinlaenge,steinlaenge,steinlaenge]);
+            }
+        }
+    }
+}
+~~~
