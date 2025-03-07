@@ -38,7 +38,7 @@ Duden SII S. 195 ff
 
 ## Aufgaben
 
-Duden SII S. 199 Aufgaben 3,4,5 schriftlich!
+Duden SII S. 199 Aufgaben 3,4,5,9,10,14,15 schriftlich!
 
 > Have a lot of fun!
 
