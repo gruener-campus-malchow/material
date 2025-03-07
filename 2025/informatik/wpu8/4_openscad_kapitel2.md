@@ -189,7 +189,7 @@ module mauer(anzahl_breite, anzahl_hoehe){
 
 > Burgen sind nichts Anderes, als Mauern und Türme...
 
-![](OpenScad_Musterlösung_Beispiel_Burg.png)
+![](./img/OpenScad_Musterlösung_Beispiel_Burg.png)
 
 ~~~
 steinlaenge = 5;
