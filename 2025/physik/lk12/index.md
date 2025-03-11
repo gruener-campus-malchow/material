@@ -25,4 +25,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Ampere und die zwei Drähte](10_historisch_Ampere.md)
     - [Selbstinduktion und Energie des Magnetfeldes](11_Spule_als_Energiespeicher.md)
     - [Generatoren und Wechselstrom](12_Generator_Wechselstrom.md)
+    - [Wirbelströme](13_Wirbelströme.slides.md)
 - [5.PK Simulation](../5.PK_Simulationen_Themenvorschläge.md)
