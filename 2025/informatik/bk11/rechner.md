@@ -1,3 +1,6 @@
+Taschenrechner Quellcode
+=====================================
+~~~python
 def nachfolger(zahl): # Die Funktion namens "nachfolger" wird festgelegt und der Parameter "zahl""
     return zahl + 1 # zahl wird zurück gegeben und vorher um 1 erhöht
 
@@ -31,4 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+~~~
