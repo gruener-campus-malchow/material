@@ -20,5 +20,5 @@ Kapitel 3 - 3D-Drucktechnik
 
 ## Zuteilung der Verfahren zu den Verantwortlichen
 
-![](OpenScad_Druckverfahren_Aufteilung.png)
+![](./img/OpenScad_Druckverfahren_Aufteilung.png)
 
