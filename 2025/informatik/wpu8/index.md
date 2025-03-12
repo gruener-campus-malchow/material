@@ -26,3 +26,4 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 - [Kapitel 1 - Grundlagen](4_openscad_kapitel1.md)
 - [Kapitel 2 - Algorithmik](4_openscad_kapitel2.md)
+- [Kapitel 3 - 3D-Drucktechnik](4_openscad_kapitel3.md)
