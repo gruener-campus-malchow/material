@@ -1,8 +1,6 @@
 Kapitel 3 - 3D-Drucktechnik
 ==============
 
-[toc]
-
 # Verschiedene 3D-Druckverfahren
 
 > Erstelle zusammen mit einem Partner oder einer Partnerin einen Vortrag über 3D-Druckverfahren.
