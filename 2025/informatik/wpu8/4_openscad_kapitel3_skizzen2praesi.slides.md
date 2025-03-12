@@ -21,7 +21,7 @@ Kapitel 3 - 3D-Drucktechnik
 
 ---
 
-![!cover](./img/OpenScad_Druckverfahren_Skizze2_Bearbeitung.png)
+![!contain](./img/OpenScad_Druckverfahren_Skizze2_Bearbeitung.png)
 
 ---
 
@@ -44,3 +44,5 @@ Kapitel 3 - 3D-Drucktechnik
 # Schritt 5: Einbetten für GCM-Slides
 
 https://youtu.be/G9b501I_rjs?si=gE8NOc2DydTB4x94
+
+https://imgur.com/
