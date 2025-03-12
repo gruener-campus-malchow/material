@@ -7,7 +7,7 @@ Kapitel 3 - 3D-Drucktechnik
 
 # Schritt 1: Skizze erstellen
 
-![](./img/OpenScad_Druckverfahren_Skizze0_erstellen.jpg)
+![!large](./img/OpenScad_Druckverfahren_Skizze0_erstellen.jpg)
 
 ---
 
@@ -19,7 +19,9 @@ Kapitel 3 - 3D-Drucktechnik
 
 # Schritt 3: Kontrast und Helligkeit erhöhen
 
-![](./img/OpenScad_Druckverfahren_Skizze2_Bearbeitung.png)
+---
+
+![!cover](./img/OpenScad_Druckverfahren_Skizze2_Bearbeitung.png)
 
 ---
 
@@ -31,10 +33,14 @@ Kapitel 3 - 3D-Drucktechnik
 
 # Schritt 5: Einbetten
 
-![](./img/OpenScad_Druckverfahren_Skizze5_Einbetten.png)
+> Für LibreOffice Impress
+
+---
+
+![!contain](./img/OpenScad_Druckverfahren_Skizze5_Einbetten.png)
 
 ---
 
 # Schritt 5: Einbetten für GCM-Slides
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G9b501I_rjs?si=gNjpQhR33rluHXrJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://youtu.be/G9b501I_rjs?si=gE8NOc2DydTB4x94
