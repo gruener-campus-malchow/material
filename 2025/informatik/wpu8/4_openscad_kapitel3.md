@@ -20,3 +20,6 @@ Kapitel 3 - 3D-Drucktechnik
 
 ![](./img/OpenScad_Druckverfahren_Aufteilung.png)
 
+## Tipps für das Erstellen von Skizzen
+
+[Präsentation zum Skizzen erstellen](4_openscad_kapitel3_skizzen2praesi.slides.md)
