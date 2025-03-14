@@ -32,6 +32,16 @@ https://www.otto-junker.com/de/produkte-technologien/anlagen-fuer-silizium/
 
 ---
 
+## Aufgabenstellung: Schmelztiegel für Silizium
+
+> Erläutern Sie Anhand der auf der Webseite verfügbaren Quellen die Funktionsweise des Induktionstiegelofens. 
+>
+> Orientieren Sie sich an der Beschrifteten Grafik aus der verlinkten Broschüre auf S. 3 "Spulenaggregat mit OCP"
+
+https://www.otto-junker.com/cache/2017_04_OTTO_JUNKER_Prospekt_MFT_D.pdf
+
+---
+
 ## Prozess bei der Herstellung von polykristallinen Solarzellen
 
 https://ars.els-cdn.com/content/image/1-s2.0-S1364032115017268-gr1.jpg
