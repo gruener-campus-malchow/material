@@ -29,3 +29,31 @@ Mit der Zeile 1 haben wir die Datei "rechner.py" eingebunden. Dafür müssen bei
 In Zeile 12 können wir dann die Funktion addieren() benutzen.
 
 > Ergänzen Sie die Fähigkeit Multiplikation auszuführen.
+
+### Kommentieren
+
+> Erstellen Sie Kommentare für jede Zeile Ihres Codes.
+
+Hier ein Beispiel:
+
+~~~python
+import rechner # Es wird das Modul rechner geladen, das ist eine eigene Python-Datei rechner.py
+
+while True: # Kopf einer Endlosschleife deren Bedingung immer "Wahr" ist
+    print("Hallo, ich bin Tschätti! Was kann ich für Dich tun?") # Ein String wird durch die Print-Anweisung ausgegeben
+    antwort = input("r - für rechnen, b - für beenden: ") #Ein String wird ausgegeben und damit um eine Eingabe gebeten, die als Wert der Variable antwort zugewiesen wird
+
+    if antwort == "r": #Kopf einer Verzweigung mit der Bedingung, dass der Wert der Variable gleich dem String "r" ist
+        print("Gut, rechnen wir.") # Ausgabe eines Strings - wie Zeile 4
+        print("Als Erstes werden wir Zahlen addieren.") # wie Zeile 4
+        sum1 = int(input("Gib den ersten Summanden an: ")) # wie Zeile 5, allerdings wird die Eingabe vor der Zuweiseung in ein Integer umgewandelt
+        sum2 = int(input("Gib den zweiten Summanden an: ")) # wie Zeile 10
+        summe = rechner.addieren(sum1, sum2) # Die Funktion addieren des externen Moduls rechner wir aufgerufen. Ihr werden zwei Variablen als Parameter übergeben
+        print("Das Ergebnis ist ",summe) #wie Zeile 4, allerdings werden mehrere unterschiedliche Datentypen aneinander gereiht - der Wert von summe ist ein Integer
+    elif antwort == "b": # Kopf des Alternativzweiges, wobei die Bedingung prüft, ob der Wert der Variable "antwort" gleich "b" ist
+        print("Tschüß") # wie Zeile 4
+        quit() # Mit dieser Anweisung wird das Programm beendet
+    else: # Kopf des ultimativen Alternativzweigs (Standard-Zweig), falls alle Bedingungen unerfüllt sind
+        print ("Ich habe Dich nicht verstanden") # Wie Zeile 4
+~~~
+
