@@ -42,6 +42,10 @@ https://www.otto-junker.com/cache/2017_04_OTTO_JUNKER_Prospekt_MFT_D.pdf
 
 ---
 
+![!contain](https://www.otto-junker.com/cache/bild_1_tiegelofen_2653971e.webp)
+
+---
+
 ## Prozess bei der Herstellung von polykristallinen Solarzellen
 
 https://ars.els-cdn.com/content/image/1-s2.0-S1364032115017268-gr1.jpg
