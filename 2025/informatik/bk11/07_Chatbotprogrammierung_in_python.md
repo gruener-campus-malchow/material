@@ -62,3 +62,13 @@ while True: # Kopf einer Endlosschleife deren Bedingung immer "Wahr" ist
 Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen einfachen Vokabeltrainer realisiert. 
 
 > Binden Sie diesen Vokabeltrainer ein und verlängern Sie die Liste an Vokabeln um fünf weitere Elemente.
+
+> Erläutern Sie die Funktionsweise von Listen. Sie finden die anschauliche Bearbeitung im Code des Vokabeltrainers.
+
+### Zusatzaufgaben
+
+> Ergänzen Sie den Vokabeltrainer um eine zusätzliche CSV-Datei, in der Sie als Spalten das jeweilige englische und deutsche Wort verwenden. Statt aus der Liste sollen die Vokabeln nun aus dieser CSV-Datei geladen werden.
+
+**Für Programmier\*innen mit Superkraft:**
+
+> Erstellen Sie ein Programm, dass Vokabeln aus einer Online-Quelle bezieht und in die CSV-Datei überführt.
