@@ -16,7 +16,7 @@ Benutzen Sie dafür eine Endlosschleife, die die komplette Programmroutine ausf�
 
 ## Schritt 2: Strukturierung von Code in Funktionen
 
-Auf [dieses Seite](./rechner.md) befindet sich der Code des Rechners, allerdings ist der angepasst. Es wurde eine main-Funktion hinzugefügt. Diese main-Funktion wird nur dann ausgeführt, wenn man *rechner.py* als eigenständiges Programm ausführt. Wir werden aber diesen Rechner in unserem Chatbot verwenden.
+Auf [dieser Seite](./rechner.md) befindet sich der Code des Rechners, allerdings ist der angepasst. Es wurde eine main-Funktion hinzugefügt. Diese main-Funktion wird nur dann ausgeführt, wenn man *rechner.py* als eigenständiges Programm ausführt. Wir werden aber diesen Rechner in unserem Chatbot verwenden.
 
 ### Verwendung von Funktionen aus anderen Programmen
 
@@ -57,3 +57,8 @@ while True: # Kopf einer Endlosschleife deren Bedingung immer "Wahr" ist
         print ("Ich habe Dich nicht verstanden") # Wie Zeile 4
 ~~~
 
+### Einbettung von einem anderen Modul und ein neuer Datentyp
+
+Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen einfachen Vokabeltrainer realisiert. 
+
+> Binden Sie diesen Vokabeltrainer ein und verlängern Sie die Liste an Vokabeln um fünf weitere Elemente.
