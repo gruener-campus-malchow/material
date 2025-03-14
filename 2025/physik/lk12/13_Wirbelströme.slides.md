@@ -55,6 +55,22 @@ Ein spannender Artikel zur Herstellung von Solarzellen: https://solarenergie.de/
 
 ---
 
+![!contain](https://www.universitywafer.com/img/czochralsk-silicon-growth-process.jpg)
+
+---
+
+![!contain](https://www.universitywafer.com/img/czochralski-method.jpg)
+
+---
+
+![!contain](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Silicon_grown_by_Czochralski_process_1956.jpg/464px-Silicon_grown_by_Czochralski_process_1956.jpg)
+
+---
+
+![!contain](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Kristallziehanlage_Z141_nach_Czochralski_%281956%29.JPG/273px-Kristallziehanlage_Z141_nach_Czochralski_%281956%29.JPG)
+
+---
+
 ## Aporops Solarzelle
 
 Ein Blick in die Zukunft?
