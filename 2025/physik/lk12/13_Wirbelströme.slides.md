@@ -48,6 +48,10 @@ Ein Blick in die Zukunft?
 
 https://www.heliatek.com/de/produkte/heliasol/
 
+Und 2025:
+
+[Japan entwickelt Perowskit-Zellen](https://www.telepolis.de/features/Neue-Super-Solarzellen-sollen-Japans-Energiewende-beschleunigen-10313181.html)
+
 ---
 
 ## Vorgeschichte
