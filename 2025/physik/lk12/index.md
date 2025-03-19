@@ -26,4 +26,9 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Selbstinduktion und Energie des Magnetfeldes](11_Spule_als_Energiespeicher.md)
     - [Generatoren und Wechselstrom](12_Generator_Wechselstrom.md)
     - [Wirbelströme](13_Wirbelströme.slides.md)
+
+# Vorbereitung Abitur    
+
 - [5.PK Simulation](../5.PK_Simulationen_Themenvorschläge.md)
+- [Operatorenliste für den LK12](/Operatoren_IQB_2025_LK12.md)
+- [Operatorenliste allgemein](../Operatoren_IQB_2025.md)
