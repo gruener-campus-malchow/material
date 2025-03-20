@@ -59,6 +59,11 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - ScreenCasts schauen und Beispiele für Induktion verstehen
 - [Selbstinduktion und Energie des Magnetfeldes](11_Spule_als_Energiespeicher.md)
+
+## Woche ab dem 17.03.25
+
+- [Wechselstrom Generatoren und Transformator](12_Generator_Wechselstrom.md)
+
 <!--
 
 ## Woche nach den Winterferien
