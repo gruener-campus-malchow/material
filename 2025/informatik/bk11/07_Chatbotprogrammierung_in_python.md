@@ -61,9 +61,9 @@ while True: # Kopf einer Endlosschleife deren Bedingung immer "Wahr" ist
 
 Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen einfachen Vokabeltrainer realisiert. 
 
-> Binden Sie diesen Vokabeltrainer ein und verlängern Sie die Liste an Vokabeln um fünf weitere Elemente.
+> Binden Sie diesen Vokabeltrainer ein und verlängern Sie die Liste an Vokabeln um fünf weitere Elemente. (Schauen Sie weiter oben noch einmal, wie man andere Programm in das eigene Programm integriert.)
 
-> Erläutern Sie die Funktionsweise von Listen. Sie finden die anschauliche Bearbeitung im Code des Vokabeltrainers.
+> Erläutern Sie die Funktionsweise von Listen. Sie finden die anschauliche Bearbeitung von Listen im Code des Vokabeltrainers.
 
 ### Zusatzaufgaben
 
