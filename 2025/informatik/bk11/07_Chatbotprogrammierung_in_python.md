@@ -57,7 +57,7 @@ while True: # Kopf einer Endlosschleife deren Bedingung immer "Wahr" ist
         print ("Ich habe Dich nicht verstanden") # Wie Zeile 4
 ~~~
 
-### Einbettung von einem anderen Modul und ein neuer Datentyp
+## Schritt 3: Einbettung eines anderen Moduls und ein neuer Datentyp
 
 Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen einfachen Vokabeltrainer realisiert. 
 
@@ -72,3 +72,8 @@ Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen 
 **Für Programmier\*innen mit Superkraft:**
 
 > Erstellen Sie ein Programm, dass Vokabeln aus einer Online-Quelle bezieht und in die CSV-Datei überführt.
+>
+> Als Quelle für immerhin 10000 wichtige englische Wörter können Sie https://www.mit.edu/~ecprice/wordlist.10000 verwenden
+> Oder Sie nutzten diese Textdatei: https://raw.githubusercontent.com/dwyl/english-words/refs/heads/master/words_alpha.txt
+>
+> Mittels https://github.com/argosopentech/argos-translate kann man eine Übersetzung der Wörter ins Deutsche anfertigen.
