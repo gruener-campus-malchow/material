@@ -77,3 +77,7 @@ Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen 
 > Oder Sie nutzten diese Textdatei: https://raw.githubusercontent.com/dwyl/english-words/refs/heads/master/words_alpha.txt
 >
 > Mittels https://github.com/argosopentech/argos-translate kann man eine Übersetzung der Wörter ins Deutsche anfertigen.
+
+## Schritt 4: Listen bis zum Abwinken
+
+> todo
