@@ -16,7 +16,7 @@ def ask_for_random_DE():
     global liste_de
     global liste_en
     import random
-    zahl = random.randint(0,len(liste_de))
+    zahl = random.randint(0,len(liste_de)-1)
     inkorrekt = True
     while inkorrekt:
         antwort = input("Was ist das englische Wort für: "+liste_de[zahl]+"? ")
