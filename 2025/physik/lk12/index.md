@@ -27,6 +27,10 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Generatoren und Wechselstrom](12_Generator_Wechselstrom.md)
     - [Wirbelströme](13_Wirbelströme.slides.md)
 
+    
+## Klausuren
+    - [Transparenzdokument Q2 Klausur 1](Transparenzdokument_Q2_Klausur-1.md)
+
 # Vorbereitung Abitur    
 
 - [5.PK Simulation](../5.PK_Simulationen_Themenvorschläge.md)

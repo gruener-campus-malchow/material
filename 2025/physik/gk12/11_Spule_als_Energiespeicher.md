@@ -28,7 +28,7 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/grun
 
 > Skizzen erstellen, Tafelbild, Aufgabe
 
-### Erarbeitung
+### Energie
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-induktion/grundwissen/energie-des-magnetischen-feldes
 
