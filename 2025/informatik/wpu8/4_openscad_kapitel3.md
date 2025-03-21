@@ -23,3 +23,18 @@ Kapitel 3 - 3D-Drucktechnik
 ## Tipps für das Erstellen von Skizzen
 
 [Präsentation zum Skizzen erstellen](4_openscad_kapitel3_skizzen2praesi.slides.md)
+
+## Liste für das Glücksrad
+
+~~~
+Binder Jetting
+SLA
+FDM
+SLS
+SLM
+MJF
+CLIP
+LS
+EBM
+DED
+~~~
