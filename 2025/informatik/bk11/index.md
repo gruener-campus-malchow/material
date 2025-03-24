@@ -71,10 +71,12 @@ Folgende Programmierkonzepte wurden schrittweise mit Beispielen und Erklärungen
 
 # Woche ab 10.2.25
 
-* [PAP zu Python](06_Programmablaufplan_zu_Python.md)
+[PAP zu Python](06_Programmablaufplan_zu_Python.md)
 
 # Woche ab 03.02.2025
 
-* [Chatbot Programmierung](07_Chatbotprogrammierung_in_python.md)
+[Chatbot Programmierung](07_Chatbotprogrammierung_in_python.md)
 
+# Woche ab 24.3.20025
 
+[Listen und andere komplexe Datentypen](08_komplexe Datentypen.md)

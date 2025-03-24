@@ -80,4 +80,4 @@ Auf [dieser Seite](./vokabeltrainer.md) finden Sie ein Unterprogramm, das einen 
 
 ## Schritt 4: Listen bis zum Abwinken
 
-> todo
+[](08_komplexe Datentypen.md)
