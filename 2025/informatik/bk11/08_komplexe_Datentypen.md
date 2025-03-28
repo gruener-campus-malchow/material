@@ -62,3 +62,34 @@ neuer_Text = ' '.join(wortliste)
 
 print(neuer_Text)
 ~~~
+
+### Sortieren von Listen
+
+> Erzeugen Sie eine Liste mit zufällig generierten Integer. Die Liste soll 10.000 Elemente enthalten.
+
+Lösung von KI generiert
+~~~python
+import random
+
+# Leere Liste erstellen
+zufallszahlen = []
+
+# Füge 10.000 zufällige Ganzzahlen zur Liste hinzu
+while len(zufallszahlen) < 10000:
+    zufallszahlen.append(random.randint(1, 100))
+
+# Ausgabe der Liste
+print(zufallszahlen)
+~~~
+
+
+> Planen Sie gemeinsam mit ihrer Partnerin oder ihrem Partner einen Algorithmus mit dem Sie die Elemente der Größe nach sortieren.
+
+Theorie: https://de.wikipedia.org/wiki/Sortierverfahren
+
+#### Auswahl an Verfahren, die wir im Unterricht behandeln
+
+- https://de.wikipedia.org/wiki/Selectionsort
+- https://de.wikipedia.org/wiki/Bubblesort
+- https://de.wikipedia.org/wiki/Mergesort
+- https://de.wikipedia.org/wiki/Quicksort
