@@ -113,6 +113,10 @@ L = [2,3,4,5,6,7,100]
 > Das hier gezeigt Programm kann etwas mehr: Es überprüft, ob eine List wirklich sortiert ist. Das hilft beim Fehler finden. 
 >
 > Außerdem kann das Programm die Laufzeit ausgeben und man bekommt damit einen Eindruck von der Leistung.
+>
+> Es taucht auch zum ersten Mal eine Abkürzung auf, die das **Iterieren** vereinfacht:
+>
+> Aus *fortschritt = fortschritt + 1* wird *fortschritt += 1*
 
 ~~~python
 
