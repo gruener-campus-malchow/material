@@ -173,3 +173,85 @@ def selectsort():
 selectsort()
 
 ~~~
+
+#### Bubblesort
+
+~~~python
+
+from datetime import datetime 
+
+def generateList(größe):
+    import random
+    # Leere Liste erstellen
+    zufallszahlen = []
+    # Füge 10.000 zufällige Ganzzahlen zur Liste hinzu
+    while len(zufallszahlen) < größe:
+        zufallszahlen.append(random.randint(1, 1000))
+    # Ausgabe der Liste
+    return zufallszahlen
+
+def checklistorder(liste):
+    fortschritt = 0
+    # Äußere Schleife zum Untersuchen fast aller Elemente (bis auf das Letzte)
+    while fortschritt < len(liste) - 1:
+        if liste[fortschritt] > liste[fortschritt+1]:
+            return "Die Liste ist nicht sortiert"
+        fortschritt += 1
+    return "Alles okay!"
+
+def selectsort(liste):
+    # unsortierte Liste ausgeben
+    #print(liste)
+    #print(checklistorder(liste))
+    start = datetime.now() 
+    # Den Zeiger auf das nullte Element setzen
+    fortschritt = 0
+    # Äußere Schleife zum Untersuchen fast aller Elemente (bis auf das Letzte)
+    while fortschritt < len(liste) - 1:
+        # es wird angenommen, das gerade ausgewählte, ist das kleinste Element
+        kleinste = fortschritt
+        zeiger = fortschritt
+        while zeiger < len(liste):
+            if liste[kleinste] >= liste[zeiger]:
+                kleinste = zeiger
+            zeiger = zeiger + 1
+            
+        puffer = liste[fortschritt]
+        liste[fortschritt] = liste[kleinste]
+        liste[kleinste] = puffer
+        fortschritt = fortschritt + 1
+    #print(liste)
+    end = datetime.now() 
+    print(checklistorder(liste))
+    dauer = (end - start).total_seconds() * 10**3
+    print("Selectsort benötigte: ", dauer, "ms") 
+
+def bubblesort(liste):
+    #print(liste)
+    #print(checklistorder(liste))
+    start = datetime.now()
+
+    unsortiert = True
+    while unsortiert:
+        unsortiert = False
+        zeiger = 0
+        while zeiger < len(liste) - 1:
+            if liste[zeiger] > liste[zeiger+1]:
+                puffer = liste[zeiger]
+                liste[zeiger] = liste[zeiger+1]
+                liste[zeiger+1] = puffer
+                unsortiert = True
+            zeiger += 1
+
+    end = datetime.now() 
+    print(checklistorder(liste))
+    dauer = (end - start).total_seconds() * 10**3
+    #print(liste)
+    print("Bubblesort benötigte: ", dauer, "ms") 
+
+# Liste erzeugen
+liste = generateList(10000)
+selectsort(liste)
+bubblesort(liste)
+
+~~~
