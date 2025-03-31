@@ -93,3 +93,79 @@ Theorie: https://de.wikipedia.org/wiki/Sortierverfahren
 - https://de.wikipedia.org/wiki/Bubblesort
 - https://de.wikipedia.org/wiki/Mergesort
 - https://de.wikipedia.org/wiki/Quicksort
+
+#### Übung
+
+- Erläutern Sie das Selection-Sortierverfahren an folgendem Beispiel: L = [7,6,5,4,3,2,100]
+- Stellen Sie die Zwischenschritte in Form von Listen dar.
+
+#### Musterlösung
+
+Es wird mindestens so oft über die Liste iteriert, wie sie Elemente hat. Wenn keine Tauschoperation stattfindet und man alle Elemente untersucht hat, ist die Liste sortiert. Zu Beginn wird angenommen, das nullte Element L[0] sei das kleinste. Es wird mit allen Elementen verglichen und wenn ein kleineres gefunden wird, wird sich der Index gemerkt. Wenn alle Elemente untersucht wurden, wird das Element an der nullten Stelle mit dem indizierten Element vertauscht. Nun wird der Vorgang für das Element mit dem Index 1 wiederholt und das abgesehen von L[0] noch kleinste Element gesucht. Es wird weiterhin wiederholt, bis keine Tauschoperationen mehr stattfinden und man das vorletzte Element überprüft hat.
+
+L = [7,6,5,4,3,2,100]
+L = [2,6,5,4,3,7,100]
+L = [2,3,5,4,6,7,100]
+L = [2,3,4,5,6,7,100]
+
+#### Selectsort aka Selection-Sortierverfahren
+
+> Das hier gezeigt Programm kann etwas mehr: Es überprüft, ob eine List wirklich sortiert ist. Das hilft beim Fehler finden. 
+>
+> Außerdem kann das Programm die Laufzeit ausgeben und man bekommt damit einen Eindruck von der Leistung.
+
+~~~python
+
+from datetime import datetime 
+
+def generateList(größe):
+    import random
+    # Leere Liste erstellen
+    zufallszahlen = []
+    # Füge 10.000 zufällige Ganzzahlen zur Liste hinzu
+    while len(zufallszahlen) < größe:
+        zufallszahlen.append(random.randint(1, 1000))
+    # Ausgabe der Liste
+    return zufallszahlen
+
+def checklistorder(liste):
+    fortschritt = 0
+    # Äußere Schleife zum Untersuchen fast aller Elemente (bis auf das Letzte)
+    while fortschritt < len(liste) - 1:
+        if liste[fortschritt] > liste[fortschritt+1]:
+            return "Die Liste ist nicht sortiert"
+        fortschritt += 1
+    return "Alles okay!"
+
+def selectsort():
+    # Liste erzeugen
+    liste = generateList(10000)
+    # unsortierte Liste ausgeben
+    #print(liste)
+    print(checklistorder(liste))
+    start = datetime.now() 
+    # Den Zeiger auf das nullte Element setzen
+    fortschritt = 0
+    # Äußere Schleife zum Untersuchen fast aller Elemente (bis auf das Letzte)
+    while fortschritt < len(liste) - 1:
+        # es wird angenommen, das gerade ausgewählte, ist das kleinste Element
+        kleinste = fortschritt
+        zeiger = fortschritt
+        while zeiger < len(liste):
+            if liste[kleinste] >= liste[zeiger]:
+                kleinste = zeiger
+            zeiger = zeiger + 1
+            
+        puffer = liste[fortschritt]
+        liste[fortschritt] = liste[kleinste]
+        liste[kleinste] = puffer
+        fortschritt = fortschritt + 1
+    #print(liste)
+    end = datetime.now() 
+    print(checklistorder(liste))
+    dauer = (end - start).total_seconds() * 10**3
+    print("Das Programm benötigte: ", dauer, "ms") 
+
+selectsort()
+
+~~~
