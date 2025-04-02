@@ -1,6 +1,6 @@
 # Wasserfallmodell
 
-> sequentiell (merh oder weniger strikt)
+> sequentiell (mehr oder weniger strikt)
 
 > seit den 50er Jahren 
 
@@ -39,7 +39,7 @@
 - aufschreiben (Papier) 
 - am Ende: Pflichtenheft
 
-Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben, (semantisches Datenmodell)
+Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Datenmodell)
 
 ---
 
@@ -58,9 +58,9 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben, (semantisches D
 
 ![!right !small](./img/5_WF_Impl.png)
 
-Entwurf => Computerprogramm
+Entwurf ==(Programmierung)=>> Computerprogramm
 
-Entwurf => Prototyp
+Entwurf ==(Konstruktion)=>> Prototyp
 
 ---
 
@@ -68,7 +68,7 @@ Entwurf => Prototyp
 
 ![!right !small](./img/5_WF_Test.png)
 
-- zwei Arten von Tests
+- zwei Arten
 	- Programmtest: Teile auf logische Konsistenz
 	- Benutzertest: unter Produktionsbedingungen durch ausgesuchte Benutzer
 ---
@@ -103,6 +103,14 @@ Entwurf => Prototyp
 - unrealistische Planung
 - fehlende Kompetenz
 - zu wenig Geld
+
+---
+
+## Rückkopplung
+
+> Sinnvoll eine Phase zu wiederholen?
+
+![](./img/5_WF_Feedb_0.png)
 
 ---
 
