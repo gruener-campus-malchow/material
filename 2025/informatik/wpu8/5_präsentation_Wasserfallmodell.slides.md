@@ -58,9 +58,9 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Da
 
 ![!right !small](./img/5_WF_Impl.png)
 
-Entwurf ==(Programmierung)=>> Computerprogramm
+**Entwurf** ==(Programmierung)=>> **Programm**
 
-Entwurf ==(Konstruktion)=>> Prototyp
+**Entwurf** ==(Konstruktion)=>> **Prototyp**
 
 ---
 
