@@ -18,7 +18,7 @@
 
 ## Initialisierung
 
-![!contain](./img/5_WF_Init.png)
+![!right](./img/5_WF_Init.png)
 
 - Problembeschreibung
 - Projektziele
@@ -31,7 +31,7 @@
 
 ## Konzept
 
-![!contain](./img/5_WF_Konz.png)
+![!right](./img/5_WF_Konz.png)
 
 - Wünsche des Kunden systemanalytisch ausgewerten
 - aufschreiben (Papier) 
@@ -43,7 +43,7 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben, (semantisches D
 
 ## Entwurf
 
-![!contain](./img/5_WF_Entw.png)
+![!right](./img/5_WF_Entw.png)
 
 - auch Feinkonzept gennant 
 - eigentliche Entwicklung
@@ -54,7 +54,7 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben, (semantisches D
 
 ## Implementierung
 
-![!contain](./img/5_WF_Impl.png)
+![!right](./img/5_WF_Impl.png)
 
 Entwurf => Computerprogramm 
 
@@ -62,7 +62,7 @@ Entwurf => Computerprogramm
 
 ## Test
 
-![!contain](./img/5_WF_Test.png)
+![!right](./img/5_WF_Test.png)
 
 - zwei Arten von Tests
 	- Programmtest: Teile auf logische Konsistenz
@@ -71,7 +71,7 @@ Entwurf => Computerprogramm
 
 ## Installation
 
-![!contain](./img/5_WF_Inst.png)
+![!right](./img/5_WF_Inst.png)
 
 - Bei Software: Installationsroutine
 - Sonst: Einbau, Aufbau beim Kunden
@@ -82,7 +82,7 @@ Entwurf => Computerprogramm
 
 ## Wartung
 
-![!contain](./img/5_WF_Wart.png)
+![!right](./img/5_WF_Wart.png)
 
 - Anwenderschulungen
 - Beseitigen von weiteren Fehlern
@@ -90,7 +90,16 @@ Entwurf => Computerprogramm
 
 ---
 
-## Feedback
+## Rückkopplung
+
+> Sinnvoll eine Phase zu wiederholen?
+
+- falsche Annahmen
+- unrealistische Planung
+- fehlende Kompetenz
+- zu wenig Geld
+
+---
 
 ![!contain](./img/5_WF_Feedb.png)
 
