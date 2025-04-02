@@ -1,10 +1,12 @@
 # Wasserfallmodell
 
-> sequentiell
+> sequentiell (merh oder weniger strikt)
 
-> seit den 50er Jahren
+> seit den 50er Jahren 
 
-> 
+> ursprünglich in Bau und Produktion
+
+> einfach, weit verbreitet
 
 ---
 
@@ -56,7 +58,9 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben, (semantisches D
 
 ![!right !small](./img/5_WF_Impl.png)
 
-Entwurf => Computerprogramm 
+Entwurf => Computerprogramm
+
+Entwurf => Prototyp
 
 ---
 
@@ -95,6 +99,7 @@ Entwurf => Computerprogramm
 > Sinnvoll eine Phase zu wiederholen?
 
 - falsche Annahmen
+- neue Erkenntnisse
 - unrealistische Planung
 - fehlende Kompetenz
 - zu wenig Geld
