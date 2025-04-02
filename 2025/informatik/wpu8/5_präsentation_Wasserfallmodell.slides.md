@@ -16,7 +16,7 @@
 
 > 6 Phasen, andere Namen
 
-> frühe Phasen kommen oft kürzer
+> frühe Phasen kommen oft zu kurz
 
 ---
 
