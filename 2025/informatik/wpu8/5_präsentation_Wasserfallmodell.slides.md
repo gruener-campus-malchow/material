@@ -10,7 +10,9 @@
 
 ---
 
-![](https://wiki.ibkastl.de/w/images/thumb/8/84/Wasserfallmodell.png/600px-Wasserfallmodell.png)
+## Beispielgrafik aus dem Netz
+
+![](https://wiki.ibkastl.de/w/images/thumb/8/84/Wasserfallmodell.png/400px-Wasserfallmodell.png)
 
 ---
 
