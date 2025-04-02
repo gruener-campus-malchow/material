@@ -12,7 +12,9 @@
 
 ## Beispielgrafik aus dem Netz
 
-![](https://wiki.ibkastl.de/w/images/thumb/8/84/Wasserfallmodell.png/400px-Wasserfallmodell.png)
+![](https://www.scnsoft.de/blog-pictures/softwareentwicklung/modelle-der-softwareentwicklung/1-wasserfall-.png)
+
+> 6 Phasen, andere Namen
 
 ---
 
@@ -136,9 +138,10 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Da
 
 # Quelle
 
-https://wiki.ibkastl.de/view/Wasserfallmodell
+- https://wiki.ibkastl.de/view/Wasserfallmodell
+- https://www.scnsoft.de/blog-pictures/softwareentwicklung/modelle-der-softwareentwicklung/1-wasserfall-.png
 
-02.04.2025
+alle abgerufen: 02.04.2025
 
 ---
 
