@@ -16,6 +16,8 @@
 
 > 6 Phasen, andere Namen
 
+> frühe Phasen kommen oft kürzer
+
 ---
 
 ![!contain](./img/5_WF.png)
