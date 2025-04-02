@@ -27,3 +27,19 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 - [Kapitel 1 - Grundlagen](4_openscad_kapitel1.md)
 - [Kapitel 2 - Algorithmik](4_openscad_kapitel2.md)
 - [Kapitel 3 - 3D-Drucktechnik](4_openscad_kapitel3.md)
+
+# Projektmanagement
+
+> Um **gekonnt** im Team gute Kreisel zu erstellen, benutzen wir eines der Modelle aus dem Projektmanagement. 
+>
+> Dazu werden diese einzeln präsentiert.
+
+## Sequentielle Vorgehensmodelle
+
+- [Wasserfall-Modell](5_foo.md)
+- V-Modell
+
+## Iterative (zyklische) Vorgehensmodelle
+
+- Spiral-Modell
+- SCRUM
