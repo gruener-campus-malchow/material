@@ -144,7 +144,7 @@ https://wiki.ibkastl.de/view/Wasserfallmodell
 
 ... gerendert mit https://sketchviz.com/
 
-~~~
+~~~dot
 Initialisierung -> Konzept -> Entwurf -> Implementierung -> Test -> Installation -> Wartung
 Wartung -> Installation -> Test -> Implementierung -> Entwurf -> Konzept -> Initialisierung [color=red]
 ~~~
