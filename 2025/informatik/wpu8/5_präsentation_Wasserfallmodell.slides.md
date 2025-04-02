@@ -10,7 +10,7 @@
 
 ---
 
-![!contain](https://wiki.ibkastl.de/w/images/thumb/8/84/Wasserfallmodell.png/400px-Wasserfallmodell.png)
+![](https://wiki.ibkastl.de/w/images/thumb/8/84/Wasserfallmodell.png/400px-Wasserfallmodell.png)
 
 ---
 
@@ -120,15 +120,15 @@ Entwurf ==(Konstruktion)=>> Prototyp
 
 ## Auffällig für Software-Projekte
 
-| Phase | Anteil | Programmieren
+| Phase | Anteil | Programmieren |
 |---|---| ---|
 | Initialisierung | 0,14 | nein |
 | Konzept | 0,14 | nein |
-| Entwurf | 0,14 | vielleich |
-| Implementierung | 0,14 | ja |
-| Test | 0,14 | teilweise |
-| Installation | 0,14 | teilweise |
-| Wartung | 0,14 | teilweise |
+| Entwurf | 0,14 | nein (vielleicht) |
+| Implementierung | 0,14 | **ja** |
+| Test | 0,14 | nein (teilweise) |
+| Installation | 0,14 | nein (teilweise) |
+| Wartung | 0,14 | nein (teilweise) |
 
 ---
 
