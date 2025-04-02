@@ -105,9 +105,7 @@ Entwurf => Computerprogramm
 
 ---
 
-## Auffällig
-
-Für Software-Projekte
+## Auffällig für Software-Projekte
 
 | Phase | Anteil | Programmieren
 |---|---| ---|
