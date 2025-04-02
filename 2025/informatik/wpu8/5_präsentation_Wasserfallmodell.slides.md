@@ -52,12 +52,11 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Da
 
 ![!right !small](./img/5_WF_Entw.png)
 
-- auch Feinkonzept gennant 
 - eigentliche Entwicklung
 - Ergebnis: Programmspezifikation
-	- alle Einzelheiten beschrieben
+	- alle **Einzelheiten** beschrieben
 
-> verschiedene Technologien: Je einfacher, desto besser
+> div. Technologien: Je einfacher, desto besser
 
 ---
 
