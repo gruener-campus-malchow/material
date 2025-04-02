@@ -39,8 +39,9 @@
 
 ![!right !small](./img/5_WF_Konz.png)
 
-- Wünsche des Kunden systemanalytisch ausgewerten
-- aufschreiben (Papier) 
+- Wünsche des Kunden 
+    - auswerten
+    - aufschreiben (Papier) 
 - am Ende: Pflichtenheft
 
 Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Datenmodell)
@@ -55,6 +56,8 @@ Plichtenheft: Daten und deren Zusammenhänge verbal beschrieben (semantisches Da
 - eigentliche Entwicklung
 - Ergebnis: Programmspezifikation
 	- alle Einzelheiten beschrieben
+
+> verschiedene Technologien: Je einfacher, desto besser
 
 ---
 
