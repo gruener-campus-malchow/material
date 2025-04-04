@@ -176,6 +176,8 @@ selectsort()
 
 #### Bubblesort
 
+> Wieder sind nicht nur eine neue Funktion zum Sortieren mit BubbleSort hinzu gekommen, sondern auch Hilfsfunktionen und eine Zeitmessung. So können die einzelnen Algorithmen entsprechend ihrer Effizienz beurteilt werden.
+
 ~~~python
 
 from datetime import datetime 
@@ -255,3 +257,23 @@ selectsort(liste)
 bubblesort(liste)
 
 ~~~
+
+#### Merge-Sort
+
+Das Konzept ist auf folgender Wikipedia-Grafik gut dargestellt.
+
+![Merge-Sort](https://upload.wikimedia.org/wikipedia/de/9/99/Mergesort_example.png)
+
+Dabei müssen Sie auch ein neues Konzept verstehen, nämlich **Rekursion**. Rekursion ist vermutlich verantworltich für viele explodierte Schüler\*innenköpfe. Diese Herangehensweise verschiebt, wenn man sich die Mühe macht, sie zu verstehen, ihr Level an Vorstellungskraft.
+
+Grundsätzlich kennen wir aber das Konzept schon:
+
+> Ein Mops kam in die Küche und stahl dem Koch ein Ei. Da nam der Koch die Kelle und schlug den Mops zu brei. Da kamen viele Möpse und gruben ihm ein Grab. Und setzten ihm ein Grabstein, worauf geschrieben stand: Ein Mops kam in die Küche...
+
+oder 
+
+> Die Ameisen, ein fleißige Völkchen, wie die Bienen. Die Bienen, ein fleißiges Völkchen, wie die Ameisen. Die Ameisen...
+
+oder
+
+> comming soon
