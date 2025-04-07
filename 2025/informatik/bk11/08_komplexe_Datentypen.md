@@ -280,12 +280,29 @@ oder
 
 oder
 
-> iujhzg
+> Ein Mann hat einen Schatz gesucht. Den fand er auf einer einsamen Insel. In der Schatzkiste befand sich eine Karte. Auf der Rückseite der Karte stand folgender Hinweis: Ein Mann hat einen Schatz gesucht...
+
+oder 
+
+> Ein Julian trank einmal sehr viel<br>Am nächsten Morgen fragte er senil:<br>
+> "Was ist passiert?"<br>Da antwortete ein Emil:<br>Ein Julian trank einmal...
 
 ##### Rekursion Rezept
 
 1. Man benötigt eine Funktion.
 1. Man benötigt eine Abbruchbedingung oder Laufzeitbedingung.
 1. Die Funktion ruft sich selbst so lange auf wie die Bedingung erfüllt / nicht erfüllt ist.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
