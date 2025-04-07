@@ -276,4 +276,4 @@ oder
 
 oder
 
-> comming soon
+> In einer eiskalten Nacht in einem finsteren Wald stand eine kleine, ärmliche Hütte. In dieser lebte einst ein Mensch. Da klopfte es an der Tür und ein anderer Mensch trat ein. "Setz Dich zu mir ans Feuer, trinke einen Tee. Wenn Du fertig bist, erzähle mir eine Geschichte." Der andere Mensch erholte sich schnell mit dem warmen Getränk in den Händen und begann zu erzählen: "In einer eiskalten Nacht in einem finsteren Wald"...
