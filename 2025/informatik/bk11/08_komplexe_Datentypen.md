@@ -277,3 +277,15 @@ oder
 oder
 
 > In einer eiskalten Nacht in einem finsteren Wald stand eine kleine, ärmliche Hütte. In dieser lebte einst ein Mensch. Da klopfte es an der Tür und ein anderer Mensch trat ein. "Setz Dich zu mir ans Feuer, trinke einen Tee. Wenn Du fertig bist, erzähle mir eine Geschichte." Der andere Mensch erholte sich schnell mit dem warmen Getränk in den Händen und begann zu erzählen: "In einer eiskalten Nacht in einem finsteren Wald"...
+
+oder
+
+> 
+
+##### Rekursion Rezept
+
+1. Man benötigt eine Funktion.
+1. Man benötigt eine Abbruchbedingung oder Laufzeitbedingung.
+1. Die Funktion ruft sich selbst so lange auf wie die Bedingung erfüllt / nicht erfüllt ist.
+
+
