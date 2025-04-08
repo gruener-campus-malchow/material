@@ -64,6 +64,13 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 
 - [Wechselstrom Generatoren und Transformator](12_Generator_Wechselstrom.md)
 
+> Viele Tafelbilder und Lehrbuchseiten später...
+
+## Woche ab dem 31.03.25
+
+- [Klausurvorbereitung](13_Klingeltransformator.md)
+- [Offizielle Operatorenliste mit Erläuterung](../Operatoren_IQB_2025.md)
+
 <!--
 
 ## Woche nach den Winterferien

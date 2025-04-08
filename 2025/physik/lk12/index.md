@@ -28,6 +28,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Wirbelströme](13_Wirbelströme.slides.md)
 - Wechselstrom
     - [Impedanz](14_Widerstand_Kondensator_Spule.md)
+- [mechanische Schwingungen](15_mechanische_Schwingungen.md)
+    
     
 ## Klausuren
 
