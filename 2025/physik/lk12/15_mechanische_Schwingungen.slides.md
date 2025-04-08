@@ -1,5 +1,7 @@
 # Schwingungen
 
+Fortsetzung: Erarbeitung aus LB und Aufgaben - Roulette
+
 ---
 
 ![!white](https://upload.wikimedia.org/wikipedia/commons/7/77/Waveforms.svg)
