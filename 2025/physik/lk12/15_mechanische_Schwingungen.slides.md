@@ -78,6 +78,8 @@ Ergänzen Sie im gleichen Koordinatensystem eine Schwingung, die durch die Über
 
 ### Experimente mit überlagerten Schwingungen
 
+> Signalgeneratoren und Messwerterfassungssystem
+
 - Erstellen Sie eine Tabelle mit vier Spalten. 
 - In der ersten und zweiten Spalte wird für jedes Experiment die Frequenz der Schwingungen notiert. 
 - In der dritten Spalte wird eine Skizze der Überlagerung festgehalten. 
