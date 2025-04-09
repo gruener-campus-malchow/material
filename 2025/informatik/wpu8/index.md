@@ -36,8 +36,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Sequentielle Vorgehensmodelle
 
-- [Wasserfall-Modell](5_präsentation_Wasserfallmodell.slides.md)
-- V-Modell
+- [Wasserfall-Modell Beispielpräsentation](5_präsentation_Wasserfallmodell.slides.md)
+- [V-Modell Video](https://studyflix.de/wirtschaft/v-modell-6716)
 
 ## Iterative (zyklische) Vorgehensmodelle
 
