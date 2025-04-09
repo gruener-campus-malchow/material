@@ -34,7 +34,11 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 >
 > Dazu werden diese einzeln präsentiert.
 
+> Erstelle eine Präsentation, die das Modell insgesamt, jede einzelne Phase und Besonderheiten des Modells behandelt.
+
+
 ## Sequentielle Vorgehensmodelle
+
 
 - [Wasserfall-Modell Beispielpräsentation](5_präsentation_Wasserfallmodell.slides.md)
 - [V-Modell Video](https://studyflix.de/wirtschaft/v-modell-6716)
