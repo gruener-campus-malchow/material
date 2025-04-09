@@ -41,6 +41,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 
 - [Wasserfall-Modell Beispielpräsentation](5_präsentation_Wasserfallmodell.slides.md)
+- [Test zum Wasserfallmodell](5_test_Wasserfallmodell.md)
 - [V-Modell Video](https://studyflix.de/wirtschaft/v-modell-6716)
 - [Mit KI schnell zu einer Präsentation](5_KI-Hilfe_V-Modell.md)
 
