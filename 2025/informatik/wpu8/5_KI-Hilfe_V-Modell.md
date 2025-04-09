@@ -1,5 +1,7 @@
 # Erstellung einer Präsentation mit KI-Hilfe
 
+## Schritt 1
+
 Zunächst wurde ein LLM mit folgendem Auftrag verwendet:
 
 > Erstelle mir bitte ein Markdowndokument, das die verschiedenen Phasen des V-Modells erklärt.
@@ -43,6 +45,8 @@ Nach der Abnahme folgt die Wartungsphase, in der das System aktualisiert, verbes
 ## Fazit
 Das V-Modell bietet eine strukturierte Vorgehensweise zur Softwareentwicklung, die sicherstellt, dass alle Phasen des Entwicklungsprozesses gründlich durchlaufen werden.
 ~~~
+
+## Schritt 2
 
 Es fehlen offensichtlich Bilder und es wurden ganze Sätze verwendet. Also wurde folgende Bitte formuliert:
 
@@ -119,13 +123,15 @@ Das Ergebnis war:
 - Gründliche Durchlauf aller Phasen
 ~~~
 
+
+## Schritt 3
+
 Jetzt wurden Bilder gesucht, ergänzt und Dinge nach geschärft.
 
 > Die Antwort der KI enthielt Fehler: Die Wartung gehört nicht zum V-Modell!
 
 
 ~~~md
-
 # V-Modell
 
 ![!large](https://blog.assets.studyflix.de/wp-content/uploads/2023/06/Wordpress_V-Modell_Lina-1024x576.jpg)
@@ -242,5 +248,15 @@ Jetzt wurden Bilder gesucht, ergänzt und Dinge nach geschärft.
 - Gründliche Durchlauf aller Phasen
 
 ![](https://blog.assets.studyflix.de/wp-content/uploads/2023/06/Wordpress_V-Modell_Lina-1024x576.jpg)
-
 ~~~
+
+# Schritt 4
+
+- Testen der Folien
+- Überarbeitung
+- Anfertigung von Notizen
+- Halten des Vortrags
+
+# Schritt 5
+
+[Fertige Präsentation](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
