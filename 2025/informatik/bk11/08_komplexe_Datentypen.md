@@ -323,6 +323,9 @@ def vereinige(liste_a,liste_b):
 
 > Da fehlt natürlich noch etwas. Der komplette Code mit Listenerzeugung und Funktionsaufruf ist hier: https://gcm.schule/material/2025/informatik/bk11/sortieren.py.md
 
+##### Aufgabe für Schnelle
+
+> Erklären Sie, weshalb in Quicksort und Selectsort die Zeitdauer **innerhalb** der Funktion bestimmt und ausgegeben wird - bei Mergesort aber **außerhalb** der Funktion.
 
 
 
