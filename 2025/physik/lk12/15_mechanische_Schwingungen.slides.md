@@ -30,6 +30,10 @@ Welche der Schwingungen ist harmonisch?
 
 ![!white !large](https://www.leifiphysik.de/sites/default/files/images/68e3ca3d64a9b0dae1c85950e65a7d81/992zeit-ort-diagramm_einer_harmonischen_schwingung.svg)
 
+---
+
+![!white](https://www.leifiphysik.de/sites/default/files/images/68e3ca3d64a9b0dae1c85950e65a7d81/992zeit-ort-diagramm_einer_harmonischen_schwingung.svg)
+
 1. Stellen Sie die Schwingungsgleichung auf.
 1. Welche Daten können aus der Gleichung ermittelt werden?
 1. Stellen Sie die v(t)- und a(t)-Gleichungen auf.
