@@ -319,8 +319,9 @@ def vereinige(liste_a,liste_b):
     while liste_a != []:
             liste = liste + [liste_a.pop(0)]
     return liste;
-
 ~~~
+
+> Da fehlt natürlich noch etwas. Der komplette Code ist hier: 
 
 
 
