@@ -293,7 +293,34 @@ oder
 1. Man benötigt eine Abbruchbedingung oder Laufzeitbedingung.
 1. Die Funktion ruft sich selbst so lange auf wie die Bedingung erfüllt / nicht erfüllt ist.
 
+~~~python
+def mergesort(liste):
+    laenge = len(liste)
+    index = int(abs(laenge/2))
+    if laenge != 1:
+        linkeliste = liste[:index]
+        rechteliste = liste[index:]
+        linkeliste = mergesort(linkeliste)
+        rechteliste = mergesort(rechteliste)
+        liste = vereinige(linkeliste,rechteliste)
+    else:
+        return liste
+    return liste
 
+def vereinige(liste_a,liste_b):
+    liste = []
+    while liste_a != [] and liste_b != []:
+        if liste_a[0] < liste_b[0]:
+            liste = liste + [liste_a.pop(0)]
+        else:
+            liste = liste + [liste_b.pop(0)]
+    while liste_b != []:
+            liste = liste + [liste_b.pop(0)]
+    while liste_a != []:
+            liste = liste + [liste_a.pop(0)]
+    return liste;
+
+~~~
 
 
 
