@@ -321,7 +321,7 @@ def vereinige(liste_a,liste_b):
     return liste;
 ~~~
 
-> Da fehlt natürlich noch etwas. Der komplette Code ist hier: 
+> Da fehlt natürlich noch etwas. Der komplette Code ist hier: https://gcm.schule/material/2025/informatik/bk11/sortieren.py
 
 
 
