@@ -1,3 +1,4 @@
+~~~python
 from datetime import datetime 
 
 def generateList(größe):
@@ -111,5 +112,4 @@ print(checklistorder(result))
 dauer = (end - start).total_seconds() * 10**3
 #print(liste)
 print("Mergesort benötigte: ", dauer, "ms") 
-
-
+~~~
