@@ -1,5 +1,11 @@
 # Schwingungen
 
+> Was ist noch unklar?
+
+> Welche Dinge wollen Sie noch einmal besprechen?
+
+> 5 Minuten und TODO-Liste!
+
 Fortsetzung: Erarbeitung aus LB und Aufgaben - Roulette
 
 ---
