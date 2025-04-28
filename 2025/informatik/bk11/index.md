@@ -77,6 +77,12 @@ Folgende Programmierkonzepte wurden schrittweise mit Beispielen und Erklärungen
 
 [Chatbot Programmierung](07_Chatbotprogrammierung_in_python.md)
 
-# Woche ab 24.3.20025
+# Woche ab 24.3.2025
 
-[Listen und andere komplexe Datentypen](08_komplexe_Datentypen.md)
+[Listen, andere komplexe Datentypen, Sortieren](08_komplexe_Datentypen.md)
+
+# Woche ab 28.4.2025
+
+Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.25**.
+
+[Transparenzdokument](08_Klausur_Transparenzdokument.md)
