@@ -21,7 +21,9 @@ Auszug aus https://gcm.schule/material/2025/physik/Operatoren_IQB_2025.md
 | erläutern               | einen Sachverhalt veranschaulichend darstellen und durch zusätzliche Informationen verständlich machen                                                                |
 | planen (ENTWERFEN)      | zu einem vorgegebenen Problem (auch experimentelle) Lösungswege entwickeln und dokumentieren                                                                          |
 
-> Aufgabe: Erstellen Sie zu jedem Operator eine Aufgabe. Diese darf trivial und einfach sein. Tauschen Sie die eigenen Aufgaben mit einer Mitschülerin oder einem Mitschüler. Erfüllen Sie die Aufgaben Ihrer Kolleg*in.
+> Aufgabe 1: Erstellen Sie zu jedem Operator eine Aufgabe. Diese darf trivial und einfach sein. Tauschen Sie die eigenen Aufgaben mit einer Mitschülerin oder einem Mitschüler. Erfüllen Sie die Aufgaben Ihrer Kolleg*in.
+
+> Aufgabe 2: Überprüfen Sie, ob ihre Mitschüler\*innen die Aufgaben im Sinne der Operatoren erfüllt haben. Geben Sie mit Rotstift Hinweise. Über Unklarheiten tauschen wir uns aus.
 
 ## Kontexte / Sachinhalte
 
