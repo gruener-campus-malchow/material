@@ -30,6 +30,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Impedanz](14_Widerstand_Kondensator_Spule.md)
 - Mechanische Schwingungen
     - [Gleichungen, Aufgaben, Überlagerung, Experiment](15_mechanische_Schwingungen.slides.md)
+    - [Experiment und Protokoll](15_mechanische_Schwingungen_experiment.md)
     
     
 ## Klausuren
