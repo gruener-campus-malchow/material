@@ -13,7 +13,7 @@ Gefordert sind:
     - Aufstellen der Schwingungsgleichung
     - Bestimmung der maximalen Geschwindigkeit und der maximalen Beschleunigung
     
-<video width="720" height="1280" controls>
+<video width="360" height="640" controls loop>
   <source src="15_mechanische_Schwingungen_experiment.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
