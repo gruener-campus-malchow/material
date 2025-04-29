@@ -45,3 +45,4 @@ Vergleich: [Operatorenliste allgemein](../Operatoren_IQB_2025.md)
 ## Inhaltliche Aspekte
 
 - Hier tragen wir in einer Besprechung zusammen - Sie beurteilen ein fremdes Ergebnis.
+
