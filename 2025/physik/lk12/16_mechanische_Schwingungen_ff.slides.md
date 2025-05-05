@@ -16,7 +16,7 @@ Zusatz:
 Eine Stimmgabel schwingt mit einer Frequenz von 128Hz und einer Amplitude von 5mm. Bestimmen Sie 
 
 1. grafisch und 
-1. rechnerisch die Elongation zur Zeit t_1=3ms und t_2=6ms! 
+1. rechnerisch die Elongation zur Zeit \\( t_1=3ms und t_2=6ms \\)! 
 1. Lesen Sie aus der grafischen Darstellung ab, zu welchen Zeiten die Elongation 4mm und 2mm beträgt.
 
 ---
