@@ -71,6 +71,10 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 - [Klausurvorbereitung](13_Klingeltransformator.md)
 - [Offizielle Operatorenliste mit Erläuterung](../Operatoren_IQB_2025.md)
 
+## Woche ab 5.5.25
+
+- [mechanische Schwingungen](14_mechanische_Schwingungen.slides.md)
+
 <!--
 
 ## Woche nach den Winterferien
