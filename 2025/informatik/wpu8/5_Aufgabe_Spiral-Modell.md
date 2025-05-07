@@ -1,6 +1,8 @@
 Spiral-Modell
 =======================
 
+Theorie: https://de.wikipedia.org/wiki/Spiralmodell
+
 Erstelle eine Präsentation auf https://docs.gcm.schule/slides/, in der Du
 
 - Zuerst das Vorgehen an einer Grafik erklärst
