@@ -23,4 +23,4 @@ Erstelle eine Präsentation auf https://docs.gcm.schule/slides/, in der Du
 
 > Das Bild ist ungeeignet - es muss was Besseres gefunden werden!
 
-![Präsentation zum Spiral-Modell](5_Praesentation_spiral-modell.slides.md)
+[Präsentation zum Spiral-Modell](./5_Praesentation_spiral-modell.slides.md)
