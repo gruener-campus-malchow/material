@@ -86,3 +86,7 @@ Folgende Programmierkonzepte wurden schrittweise mit Beispielen und Erklärungen
 Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.25**.
 
 [Transparenzdokument](08_Klausur_Transparenzdokument.md)
+
+# Woche ab 9.5.2025 (davor Ferien, Klausur u.s.w.)
+
+[Einführung in die objektorientierte Programmierung](09_objektorientierung_einführung.md)
