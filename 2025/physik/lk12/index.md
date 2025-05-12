@@ -28,16 +28,16 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Wirbelströme](13_Wirbelströme.slides.md)
 - Wechselstrom
     - [Impedanz](14_Widerstand_Kondensator_Spule.md)
+- Klausuren
+    - [Transparenzdokument Q2 Klausur 1](Transparenzdokument_Q2_Klausur-1.md)
+    - https://www.iqb.hu-berlin.de/abitur/sammlung/naturwissenschaften/physik/
 - Mechanische Schwingungen
     - [Gleichungen, Aufgaben, Überlagerung](15_mechanische_Schwingungen.slides.md)
     - [Experiment und Protokoll](15_mechanische_Schwingungen_experiment.md)
     - [Gleichungen, Aufgaben, Überlagerung ff](16_mechanische_Schwingungen_ff.slides.md)
+    - [Resonanz](17_Resonanz.md)
     
-    
-## Klausuren
 
-- [Transparenzdokument Q2 Klausur 1](Transparenzdokument_Q2_Klausur-1.md)
-- https://www.iqb.hu-berlin.de/abitur/sammlung/naturwissenschaften/physik/
 
 # Vorbereitung Abitur    
 
