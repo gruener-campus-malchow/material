@@ -5,13 +5,13 @@ Gefordert sind:
 
 - Versuchsaufbau skizzieren
 - Sachanalyse:
-    - Schwingungen (Definition)
-    - Voraussetzungen für harmonische Schwingungen
-    - Erläuterun der Schwingungsgleichung
+    - Schwingungen (Definition) nennen
+    - Voraussetzungen für harmonische Schwingungen erklären
+    - Erläuterung der Schwingungsgleichung
 - Protkoll:
-    - Bestimmung von T und damit von D
+    - Bestimmung von T durch Messung und damit von D durch Berechnung
     - Aufstellen der Schwingungsgleichung
-    - Bestimmung der maximalen Geschwindigkeit und der maximalen Beschleunigung
+    - Bestimmung der maximalen Geschwindigkeit und der maximalen Beschleunigung durch Ableitung der Schwingungsgleichung und Berechnung der jeweiligen Maxima
 
 > Hinweis: Die Masse des Wägestücks beträgt 50g.
     
@@ -28,11 +28,11 @@ Your browser does not support the video tag.
 ## Vollständigkeit
 
 - Sind alle Aufgaben erfüllt?
-- Gibt es eine übersichtliche Struktur (Protkoll)?
+- Gibt es eine übersichtliche Struktur (Protokoll)?
 
 ## Formale Aspekte
 
-- Wurden die (impliziten) Operatoren erfüllt?
+- Wurden die Operatoren erfüllt?
   - Definition
   - Voraussetzungen erklären
   - Erläutern
