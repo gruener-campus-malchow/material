@@ -49,7 +49,7 @@ Eine Stimmgabel schwingt mit einer Frequenz von 128Hz und einer Amplitude von 5m
 
 ## Experiment
 
-[Der Federschwinger](15_mechanische_Schwingungen_experiment.md)
+[Der Federschwinger](./15_mechanische_Schwingungen_experiment.md)
 
 ---
 

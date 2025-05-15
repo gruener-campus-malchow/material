@@ -3,7 +3,7 @@ Protokoll: Eindimensionaler Oszillator (Federschwinger)
 
 Gefordert sind:
 
-- Versuchsaufbau
+- Versuchsaufbau skizzieren
 - Sachanalyse:
     - Schwingungen (Definition)
     - Voraussetzungen für harmonische Schwingungen
