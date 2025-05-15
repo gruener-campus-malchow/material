@@ -3,7 +3,7 @@ LK12 Physik 2024/2025
 
 In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben zusammengestellt, die zum Slebstlernen und Lernen in der Schule geeignet sind.
 
-[toc]
+<!--[toc]-->
 
 # Q1
 
@@ -37,7 +37,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Gleichungen, Aufgaben, Überlagerung ff](16_mechanische_Schwingungen_ff.slides.md)
     - [Resonanz](17_Resonanz.md)
     
-
+> Klausur Q2.2 am 13.06.2025 - 135 Minuten - 3. bis 5. Stunde
 
 # Vorbereitung Abitur    
 

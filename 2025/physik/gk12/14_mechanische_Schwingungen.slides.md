@@ -84,37 +84,8 @@ Ergänzen Sie im gleichen Koordinatensystem eine Schwingung, die durch die Über
 
 ---
 
-### Experimente mit überlagerten Schwingungen
-
-> Signalgeneratoren und Messwerterfassungssystem
-
-- Erstellen Sie eine Tabelle mit vier Spalten. 
-- In der ersten und zweiten Spalte wird für jedes Experiment die Frequenz der Schwingungen notiert. 
-- In der dritten Spalte wird eine Skizze der Überlagerung festgehalten. 
-- Die vierte Spalte soll eine sprachliche Beschreibung der Überlagerung beinhalten.
-
----
-
-![nps](https://openclipart.org/image/400px/227550)
-
-*Note - Pair - Pair - Share*
-
----
-
-## Pair Pair
-
-![pair](https://upload.wikimedia.org/wikipedia/commons/3/30/Venn0111.svg)
-
----
-
-![share](https://openclipart.org/image/400px/284226)
-
-## Share
-
-Fokus: Sprachliche Muster beim Vergleichen und Beschreibungen von Schwingungen.
-
----
-
 ## Coming soon...
 
-> Resonanz
+> Resonanz: LBS. 209
+
+
