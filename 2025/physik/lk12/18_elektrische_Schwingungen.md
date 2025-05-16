@@ -34,5 +34,5 @@ Erstellen Sie einen Kurzvortrag von maximal 5 Minuten Länge, in dem Sie zu eine
 
 # Dimmen von Licht emittierenden Dioden (LEDs)
 
-![Beispielvortrag als Screencast](screencast_dimmen_led_2023-03-27.mp4)
+[Beispielvortrag als Screencast](screencast_dimmen_led_2023-03-27.mp4)
 
