@@ -90,3 +90,9 @@ Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.2
 # Woche ab 9.5.2025 (davor Ferien, Klausur u.s.w.)
 
 [Einführung in die objektorientierte Programmierung](09_objektorientierung_einführung.md)
+
+# Woche ab 19.5.2025
+
+- [Generalisierung und Spezialisierung](10_objektorientierung_genspez.md)
+- [Der Konstruktor](11_objektorientierung_konstruktor.md)
+- Anmerkung: **Modellierung ist nicht gleich Programmierung (OO vs. OOP)** [Objektorientierte Programmierung in Python](https://www.python-kurs.eu/python_OOP.php)
