@@ -96,3 +96,5 @@ Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.2
 - [Generalisierung und Spezialisierung](10_objektorientierung_genspez.md)
 - [Der Konstruktor](11_objektorientierung_konstruktor.md)
 - Anmerkung: **Modellierung ist nicht gleich Programmierung (OO vs. OOP)** [Objektorientierte Programmierung in Python](https://www.python-kurs.eu/python_OOP.php)
+
+
