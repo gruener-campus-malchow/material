@@ -11,7 +11,9 @@ Generalisierung und Spezialisierung
 
 Und dann geht das auch anders herum.
 
-> Übung... analog zur Generalisierung
+> ### Übung... analog zur Generalisierung
+>
+> Entwerfen Sie auf Basis des folgenden Textes Kindklassen von Smartboard, welche den Kriterien des folgenden Textes genügen.
 
 ~~~txt
 Ein Smartboard kann sowohl an der Wand befestigt sein, als auch auf einem Wagen. 
