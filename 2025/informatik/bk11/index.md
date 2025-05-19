@@ -97,4 +97,6 @@ Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.2
 - [Der Konstruktor](11_objektorientierung_konstruktor.md)
 - Anmerkung: **Modellierung ist nicht gleich Programmierung (OO vs. OOP)** [Objektorientierte Programmierung in Python](https://www.python-kurs.eu/python_OOP.php)
 
-
+> Das Kapitel nur bis Abschnitt "Die ```__str__```- und die ```__repr__```-Methode" durcharbeiten! 
+>
+>**Erstellen Sie eine eigene handgeschriebene Anleitung, wie man ein Klassendiagramm in Python-Code überführt.**
