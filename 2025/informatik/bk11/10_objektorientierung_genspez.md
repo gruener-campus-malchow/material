@@ -23,3 +23,5 @@ Smartboards an der Wand haben zusätzlich noch Whiteboardflügel, die man auf- u
 > Stellen Sie eine Definition für das Konzept der Spezialisierung auf.
 
 [Musterlösung](10_objektorientierung_definitionen.md)
+
+
