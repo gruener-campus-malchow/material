@@ -14,6 +14,7 @@ Erstellen Sie einen Kurzvortrag von maximal 5 Minuten Länge, in dem Sie zu eine
 - Mikrofon
 - IR-Fernsteuerung (bevor und nachdem die Daten/Impulse übertragen wurden)
 - Eigenes Thema bei dem el. Schwingungen eine relevante Rolle spielen
+- Horn und Hupe
 
 
 ## Anforderungen an den Vortrag

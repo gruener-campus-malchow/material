@@ -48,4 +48,23 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 ## Iterative (zyklische) Vorgehensmodelle
 
 - [Spiral-Modell](5_Aufgabe_Spiral-Modell.md)
-- SCRUM
+- SCRUM kommt in der Oberstufe
+
+## Ein Projekt
+
+> Wir benutzen das Spiralmodell
+>
+> Es werden Kreisel entworfen, die nach Anforderungen der LG1 entworfen werden.
+>
+> Die Kreisel treten in einem Wettkampf gegeneinander an: https://www.youtube.com/watch?v=IwsqL-8SfWw
+
+1. Gruppenbildung
+1. Risikoanalyse
+1. Präsentation und Austausch unter den Gruppen
+1. Planung des ersten Zyklus
+    - Was wird das Ziel sein?
+    - Besuch der LG1 und Befragung
+    - Ausformulierung der Fragen
+    - Arena?
+
+
