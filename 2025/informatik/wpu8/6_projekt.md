@@ -44,7 +44,7 @@ Projektseite
 1. günstige Materialien verwenden, Material teilen, gebrauchtes Material verwenden, ausleihen, recycling, Rabatte nutzen, Budget erhöhen, Fördergelder beantragen, Geld nicht verschwenden - sparen, Filamentpresse (Fehldrucke recyclen), Sponsoren suchen
 1. Teile neu machen, einfach Probleme früher bemerken, Teile einzeln prüfen und testen, immer mehrere Teile drucken, modulares System aus mehreren Teilen zusammenbauen
 
-
+> Vervollständigung als HA - Zusammenarbeit im Team ist erwünscht
 
 
 
