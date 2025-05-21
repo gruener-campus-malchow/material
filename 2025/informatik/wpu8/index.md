@@ -58,13 +58,5 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 >
 > Die Kreisel treten in einem Wettkampf gegeneinander an: https://www.youtube.com/watch?v=IwsqL-8SfWw
 
-1. Gruppenbildung
-1. Risikoanalyse
-1. Präsentation und Austausch unter den Gruppen
-1. Planung des ersten Zyklus
-    - Was wird das Ziel sein?
-    - Besuch der LG1 und Befragung
-    - Ausformulierung der Fragen
-    - Arena?
-
+[Projektseite](6_projekt.md)
 
