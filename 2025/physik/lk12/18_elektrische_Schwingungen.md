@@ -139,3 +139,5 @@ Basis - Collector - Emitter
 > Werden alle Transistoren in sämtlichen bislang hergestellten Schaltkreisen wie Arbeitsspeicher, Prozessoren usw. zusammengezählt, ist der Transistor inzwischen diejenige technische Funktionseinheit, die von der Menschheit in den höchsten Gesamtstückzahlen produziert wurde und wird. Moderne integrierte Schaltungen, wie die in Personal Computern eingesetzten Mikroprozessoren, bestehen aus vielen Millionen bis Milliarden Transistoren, so besitzt die 2022 veröffentlichte Grafikkarte RTX 4090 76,3 Milliarden Transistoren.
 >
 > https://de.wikipedia.org/wiki/Transistor
+
+
