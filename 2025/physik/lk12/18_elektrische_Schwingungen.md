@@ -66,8 +66,9 @@ https://www.ulfkonrad.de/physik/12-13/2-semester/schwingungen-2/schwingkreis-ele
 
 ## Musterlösung 1 - der naive Ansatz
 
-$$ E_{el} = {1 \over 2} C U^2 $$
-$$ E_{mag} = {1 \over 2} L I^2 $$
+$$E_{el} = {1 \over 2} C U^2$$
+
+$$E_{mag} = {1 \over 2} L I^2$$
 
 Leider ein Irrweg...
 
@@ -80,7 +81,9 @@ Leider ein Irrweg...
 Aus
 
 \\( U_{L} =  L {d I \over dt} = L  \dot{I}  \\) 
+
 und \\( U_{C} = { Q \over C} \\)
+
 und \\( U_{C} = - U_{L} \\)
 
 folgt
