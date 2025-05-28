@@ -1,6 +1,8 @@
 Projektseite
 ===============
 
+[toc]
+
 ## Zyklus 0
 
 1. Gruppenbildung
@@ -74,3 +76,32 @@ Projektseite
 1. Erste 3D-Modelle erstellen
 
 todo
+
+### Breaking Point
+
+Chip (faceplate) :teil zum zusammenhalt des beyblades
+weight : beschwerung des beyblades
+ring : kontaktstellen aus plastik oder gummi  für angriffe
+disk : mittelteil des beyblades (größte gewicht quelle)
+tip (spitze) : teil des beyblades damit er sich drehen kann 
+
+
+# Monster Mission
+
+
+
+
+
+
+
+# Thunder
+
+
+
+# Gute Idee
+
+
+# Die Chaostruppe
+
+
+###
