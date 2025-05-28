@@ -57,10 +57,34 @@ Projektseite
 1. Formulierung von Design-Anforderungen
     - Jedes einzelne Gruppenmitglied formuliert für ein Teil Anforderunen an das Design
     - Wenn Gruppenmitglieder fehlen (oder die Arbeit verweigern), muss die Gruppe das ausgleichen
+
+### SalzH
+
+> Zyklus 1 muss bis zu dieser Stelle abgeschlossen sein.
+
+#### Erwartetes Arbeitsergebnis
+
+- pro Schüler des Kurses: 1 Mail mit
+    - Bezeichnung des Teils für das man selbst verantwortlich ist
+    - drei Anforderungen an das Design des einzelnen Teils am Ende der Seite sind Funktionen von Design aufgelistet und erläutert. Deine Anforderungen können diese Funktionen ganz spezifisch beschreiben.
+- pro Gruppe:
+    - eine Tabelle der folgenden Form (beispielhaft - die Anforderungstypen können variieren)
+
+| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+|---|---|---|---|---|
+|Ästhetik ||||
+|Funktionalität ||||
+|Kommunikation ||||
+
+### Wenn wir uns wiedersehen
+
 1. Austausch der Ergebnisse
 1. Risikoanalyse der Design-Anforderungen anderer Gruppen
 1. Feedbackrunde
 1. Planung des nächsten Zyklus
+
+
+
 
 ## Zyklus 2
 
@@ -114,4 +138,21 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 - der Blade Base (Spitze): Drehung und Interaktion verantwortlich
 - ???
 
-###
+# Funktionen von Design (KI-generiert)
+
+Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anwendung finden. Hier sind einige der wichtigsten Funktionen von Design:
+
+    Ästhetik: Design schafft visuelle Anziehungskraft und Schönheit, die das Benutzererlebnis verbessern.
+
+    Funktionalität: Ein gutes Design sorgt dafür, dass Produkte und Dienstleistungen benutzerfreundlich sind und ihre Funktion effektiv erfüllen.
+
+    Kommunikation: Design vermittelt Informationen und Botschaften klar und verständlich, sei es durch Grafikdesign, Webdesign oder Produktdesign.
+
+    Identität: Design hilft, Markenidentität und -wahrnehmung zu schaffen, indem es ein einheitliches visuelles Erscheinungsbild fördert.
+
+    Innovation: Durch kreatives Design können neue Ideen und Lösungen entwickelt werden, die Probleme lösen oder Bedürfnisse erfüllen.
+
+    Nachhaltigkeit: In vielen modernen Designs wird auch Wert auf Nachhaltigkeit gelegt, indem umweltfreundliche Materialien und Prozesse berücksichtigt werden.
+
+Wenn du an spezifischen Aspekten von Design interessiert bist oder mehr über nachhaltige Designpraktiken erfahren möchtest, lass es mich wissen!
+
