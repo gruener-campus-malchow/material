@@ -46,5 +46,27 @@ Projektseite
 
 > Vervollständigung als HA - Zusammenarbeit im Team ist erwünscht
 
+## Zyklus 1
 
+1. Namensfindung
+1. Analyse bestehender Kreisel-Systeme
+1. Formulierung von Design-Anforderungen
+1. Austausch der Ergebnisse
+1. Risikoanalyse der Design-Anforderungen anderer Gruppen
+1. Feedbackrunde
+1. Planung des nächsten Zyklus
 
+## Zyklus 2
+
+1. Skizzen erstellen
+    - mindestens so viele Teile, wie Personen
+1. Skizzen vorstellen
+1. Risikoanalyse durch andere Gruppe
+1. Feedbackrunde
+1. Schlussfolgerungen aus Risikoanalyse
+
+## Zyklus 3
+
+1. Erste 3D-Modelle erstellen
+
+todo
