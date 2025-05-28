@@ -72,9 +72,9 @@ Projektseite
 
 | Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
 |---|---|---|---|---|
-|Ästhetik ||||
-|Funktionalität ||||
-|Kommunikation ||||
+|Ästhetik | | | |
+|Funktionalität | | | |
+|Kommunikation | | | |
 
 ### Wenn wir uns wiedersehen
 
