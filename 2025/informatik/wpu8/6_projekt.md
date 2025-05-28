@@ -77,7 +77,7 @@ Projektseite
 
 todo
 
-### Breaking Point
+# Breaking Point
 
 - Chip (faceplate) :teil zum zusammenhalt des beyblades
 - weight : beschwerung des beyblades
@@ -85,23 +85,33 @@ todo
 - disk : mittelteil des beyblades (größte gewicht quelle)
 - tip (spitze) : teil des beyblades damit er sich drehen kann 
 
-
 # Monster Mission
 
-
-
-
-
-
+- Spitze: sorgt für wenig Bodenreibung, dass er sich drehen kann
+- Laufspur: Hält die Spitze
+- Angriffsscheibe: Ballerst die anderen Kreisel weg
+- Bolzen: Fixiert die Angriffsscheibe, Anschluss für Akkubohrer
 
 # Thunder
 
-
+> keine Ergebnisse
 
 # Gute Idee
+
+## Beschreibung einer KI (Was ist ein Beyblade?)
+
+Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein Spielzeugkampfspiel entwickelt wurde. Das System stammt ursprünglich aus Japan und wurde von Takara Tomy eingeführt. Ein Beyblade besteht typischerweise aus drei Hauptkomponenten (je nach Generation variabel):
+
+- Ebene 1: Energy Layer (Angriffsschicht) – beeinflusst das Kontaktverhalten
+- Forge Disc (Metallscheibe) – reguliert Gewicht und Stabilität
+- Performance Tip (Spitze) – bestimmt das Bewegungsmuster
 
 
 # Die Chaostruppe
 
+- dem Attack Ring: soll schaden machen
+- der Weight Disk: soll Gewicht hinzufügen, um mehr kinetische Energie zu haben
+- der Blade Base (Spitze): Drehung und Interaktion verantwortlich
+- ???
 
 ###
