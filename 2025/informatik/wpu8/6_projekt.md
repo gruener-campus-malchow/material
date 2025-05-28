@@ -72,9 +72,9 @@ Projektseite
 
 | Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
 |---|---|---|---|---|
-|Ästhetik | | | |
-|Funktionalität | | | |
-|Kommunikation | | | |
+|Ästhetik | | | | |
+|Funktionalität | | | | |
+|Kommunikation | | | | |
 
 ### Wenn wir uns wiedersehen
 
@@ -82,9 +82,6 @@ Projektseite
 1. Risikoanalyse der Design-Anforderungen anderer Gruppen
 1. Feedbackrunde
 1. Planung des nächsten Zyklus
-
-
-
 
 ## Zyklus 2
 
@@ -153,6 +150,4 @@ Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anw
     Innovation: Durch kreatives Design können neue Ideen und Lösungen entwickelt werden, die Probleme lösen oder Bedürfnisse erfüllen.
 
     Nachhaltigkeit: In vielen modernen Designs wird auch Wert auf Nachhaltigkeit gelegt, indem umweltfreundliche Materialien und Prozesse berücksichtigt werden.
-
-Wenn du an spezifischen Aspekten von Design interessiert bist oder mehr über nachhaltige Designpraktiken erfahren möchtest, lass es mich wissen!
 
