@@ -12,7 +12,7 @@ Projektseite
     - Ausformulierung der Fragen
     - Arena?
 
-### Gruppeneinteilung
+### Teams
 
 ![Gruppen](6_projekt_gruppenbildung.png)
 
@@ -50,7 +50,11 @@ Projektseite
 
 1. Namensfindung
 1. Analyse bestehender Kreisel-Systeme
+    - > Ergebnis: Bezeichnung der Einzelteile und Funktion dieser Teile
+    - > Vorgabe: Je Gruppenmitglied ein Teil definieren
 1. Formulierung von Design-Anforderungen
+    - Jedes einzelne Gruppenmitglied formuliert für ein Teil Anforderunen an das Design
+    - Wenn Gruppenmitglieder fehlen (oder die Arbeit verweigern), muss die Gruppe das ausgleichen
 1. Austausch der Ergebnisse
 1. Risikoanalyse der Design-Anforderungen anderer Gruppen
 1. Feedbackrunde
