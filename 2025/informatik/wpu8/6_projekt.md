@@ -79,11 +79,11 @@ todo
 
 ### Breaking Point
 
-Chip (faceplate) :teil zum zusammenhalt des beyblades
-weight : beschwerung des beyblades
-ring : kontaktstellen aus plastik oder gummi  für angriffe
-disk : mittelteil des beyblades (größte gewicht quelle)
-tip (spitze) : teil des beyblades damit er sich drehen kann 
+- Chip (faceplate) :teil zum zusammenhalt des beyblades
+- weight : beschwerung des beyblades
+- ring : kontaktstellen aus plastik oder gummi  für angriffe
+- disk : mittelteil des beyblades (größte gewicht quelle)
+- tip (spitze) : teil des beyblades damit er sich drehen kann 
 
 
 # Monster Mission
