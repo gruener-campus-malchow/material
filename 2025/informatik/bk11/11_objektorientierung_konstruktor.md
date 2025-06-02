@@ -6,3 +6,11 @@ Ein Objekt, auch **Instanz** genannt, entsteht, wenn den Attributen einer Klasse
 > Legen Sie jeweils einen Konstruktor für die Klassen Ihres Klassendiagramms fest.
 
 
+## Übungsaufgabe
+
+![Klassendiagramm](11_objektorientierung_Klassendiagramm_HtmlElement.png)
+
+> Überführen Sie das Klassendiagramm in Python-Code.
+
+~~~
+
