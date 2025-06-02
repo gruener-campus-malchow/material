@@ -12,5 +12,6 @@ Ein Objekt, auch **Instanz** genannt, entsteht, wenn den Attributen einer Klasse
 
 > Überführen Sie das Klassendiagramm in Python-Code.
 
-~~~
+---
 
+> Entwerfen Sie eine Methode mit der Sie Klassenvariablen setzen, die noch nicht gesetzt werden.
