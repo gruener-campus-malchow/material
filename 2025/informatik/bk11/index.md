@@ -100,3 +100,7 @@ Wir haben es mit der Vorbereitung der Klausur zu tun. Der Termin ist der **5.5.2
 > Das Kapitel nur bis Abschnitt "Die ```__str__```- und die ```__repr__```-Methode" durcharbeiten! 
 >
 >**Erstellen Sie eine eigene handgeschriebene Anleitung, wie man ein Klassendiagramm in Python-Code überführt.**
+
+# Woche ab 02.06.2025
+
+- [Wir bauen einen Webserver](12_objektorientierung_webserver.md)
