@@ -82,11 +82,15 @@ Aus
 
 \\( U_{L} =  L {d I \over dt} = L  \dot{I}  \\) 
 
-und \\( U_{C} = { Q \over C} \\)
+und 
 
-und \\( U_{C} = - U_{L} \\)
+\\( U_{C} = { Q \over C} \\)
 
-folgt
+und 
+
+\\( U_{C} = - U_{L} \\)
+
+folgt:
 
 \\( -{1 \over C} Q = L  \dot{I}  \\) 
 
