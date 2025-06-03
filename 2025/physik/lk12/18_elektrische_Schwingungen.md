@@ -115,9 +115,19 @@ aka **Thomson'sche Schwingungsgleichung**
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-schwingungen/aufgabe/thomsonsche-schwingungsgleichung
 
 
-## Vertiefung / Wiederholung
+## SalzH: Vertiefung / Wiederholung
 
 https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-schwingungen/grundwissen/elektromagnetischer-schwingkreis-ungedaempft
+
+Die Animation Abb2. simuliert verschiedene Schwingungen verschiedener physikalischer Größen unter der Veränderung von Kapazität und Induktivität.
+
+- Beschäftigen Sie sich mit der Animation und verändern Sie alle möglichen Parameter
+- Beschreiben Sie die Unterschiede zwischen E(t)-Schwingungen und U(t)-Schwingungen.
+- Erläutern Sie, weshalb die Energie-Schwingungen eine andere Form haben, als die Ladungs-, Stromstärke- oder Spannungsschwingungen.
+- Begründen Sie, weshalb die I(t)-Amplitude sich verändert, wenn Sie die Kapazität variieren.
+- Begründen Sie, weshalb sich die Amplitude im I(t)-Diagramm aber nicht im U(t)-Diagramm ändert, wenn man die Induktivität variiert.
+
+Weisen Sie Ihre Arbeitsergebnisse (Texte) per E-Mail an mich nach.
 
 
 ## Der weniger ideale Ausblick
