@@ -84,11 +84,11 @@ Aus
 
 und 
 
-\\( U_{C} = { Q \over C} \\)
+\\( U_{C} = {Q \over C} \\)
 
 und 
 
-\\( U_{C} = - U_{L} \\)
+\\( U_{C} = -U_{L} \\)
 
 folgt:
 
