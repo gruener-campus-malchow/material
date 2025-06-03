@@ -66,9 +66,9 @@ https://www.ulfkonrad.de/physik/12-13/2-semester/schwingungen-2/schwingkreis-ele
 
 ## Musterlösung 1 - der naive Ansatz
 
-$$E_{el} = {1 \over 2} C U^2$$
+\\( E_{el} = {1 \over 2} C U^2 \\) 
 
-$$E_{mag} = {1 \over 2} L I^2$$
+\\( E_{mag} = {1 \over 2} L I^2$$ \\) 
 
 Leider ein Irrweg...
 
@@ -90,7 +90,11 @@ folgt
 
 \\( -{1 \over C} Q = L  \dot{I}  \\) 
 
-wobei \\(I = \dot{Q}\\) und damit
+wobei 
+
+\\( I = \dot{Q} \\) 
+
+und damit
 
 \\( -{1 \over C} Q = L  \ddot{Q}  \\) 
 
