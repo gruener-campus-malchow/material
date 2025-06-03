@@ -37,7 +37,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Gleichungen, Aufgaben, Überlagerung ff](16_mechanische_Schwingungen_ff.slides.md)
     - [Resonanz](17_Resonanz.md)
 - elektrische Schwingungen
-    - [Nutzen und Verwendung](18_elektrische_Schwingungen.md)
+    - [Nutzen, Verwendung, Manipulation und Erzeugung](18_elektrische_Schwingungen.md)
     
 > Klausur Q2.2 am 13.06.2025 - 135 Minuten - 3. bis 5. Stunde
 
