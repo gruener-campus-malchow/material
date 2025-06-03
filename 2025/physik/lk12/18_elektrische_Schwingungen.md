@@ -88,7 +88,7 @@ und
 
 und 
 
-\\( U_{C} = -U_{L} \\)
+\\( U_C = -U_L \\)
 
 folgt:
 
