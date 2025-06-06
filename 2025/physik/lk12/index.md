@@ -40,6 +40,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - [Nutzen, Verwendung, Manipulation und Erzeugung](18_elektrische_Schwingungen.md)
     
 > Klausur Q2.2 am 13.06.2025 - 135 Minuten - 3. bis 5. Stunde
+>
+> [Transparenzdokument Q2 Klausur 2](Transparenzdokument_Q2_Klausur-2.md)
 
 # Vorbereitung Abitur    
 
