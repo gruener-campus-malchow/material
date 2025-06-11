@@ -164,35 +164,11 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 - der Blade Base (Spitze): Drehung und Interaktion verantwortlich
 - ???
 
-| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+| Anforderungstyp | Denny: Attack Ring | Kay: Spitze | Friedrich: Energiering | Nico: Symboltzen
 |---|---|---|---|---|
-|Ästhetik | | | | |
-|Funktionalität | | | | |
-|Kommunikation | | | | |
-
-
-Denny: Attack Ring
-Kay: Spitze
-Friedrich: Energiering
-Nico: Symboltzen
-Ästhetik
-Spitzen und ecken
-Muss funktioniren und nicht schön sein
-Ecken Kanten und muss schön sein
-Gut aussehen
-Funktionalität
-Angriff (Zerstören)
-Soll für drehung sorgten
-Kreisel in drehung halten
-Soll alles zusammen-halten
-Kommunikation
-Agressivität
-(design)
-Keine
-Stärke vermitteln
-Motive (z.B. Totenkopf)
-
-
+|Ästhetik | Spitzen und ecken | Muss funktioniren und nicht schön sein | Ecken Kanten und muss schön sein | Gut aussehen |
+|Funktionalität | Angriff (Zerstören) | Soll für drehung sorgten | Kreisel in drehung halten | Soll alles zusammen-halten |
+|Kommunikation | Agressivität (design) | Keine | Stärke vermitteln | Motive (z.B. Totenkopf)|
 
 # Funktionen von Design (KI-generiert)
 
