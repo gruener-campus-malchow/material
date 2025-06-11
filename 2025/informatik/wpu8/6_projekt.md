@@ -94,7 +94,7 @@ Projektseite
 
 ## Zyklus 3
 
-![!left Beispielcode](./img/kreisel_examplecode.png)
+![Beispielcode](./img/kreisel_examplecode.png)
 
 1. Erste 3D-Modelle erstellen
 
