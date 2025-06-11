@@ -115,6 +115,12 @@ todo
 - Angriffsscheibe: Ballerst die anderen Kreisel weg
 - Bolzen: Fixiert die Angriffsscheibe, Anschluss für Akkubohrer
 
+| Anforderungstyp | Teil A (Rastin) | Teil B (Malik) | Teil "Disc" (Ty) | Teil D (Luca) |
+|---|---|---|---|---|
+|Ästhetik | | | Disc Für Gewicht und Balance des beyblades muss aber auch cool aussehen.| |
+|Funktionalität | | | Muss schwer sein um den beyblade in balence zu halten das er nicht so leicht umfällt.| |
+|Kommunikation | | |JAJAJAJAJAJAJA | |
+
 # Thunder
 
 > keine Ergebnisse
