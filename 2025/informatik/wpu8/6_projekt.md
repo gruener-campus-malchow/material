@@ -94,6 +94,8 @@ Projektseite
 
 ## Zyklus 3
 
+![!left](kreisel_examplecode.png)
+
 1. Erste 3D-Modelle erstellen
 
 todo
