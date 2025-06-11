@@ -116,6 +116,8 @@ todo
 |Funktionalität | hält Kreisel zusammen | ist angriffsfläche | Gleichgewicht, kein Umkippen | Geschwindigkeit und Last aufnehmen |
 |Kommunikation | Alle zerstören | Alle zerstören | Alle zerstören | Alle zerstören |
 
+> Risikoanalyse mit: Thunder
+
 
 # Monster Mission
 
@@ -130,16 +132,21 @@ todo
 |Funktionalität | hält Kreisel zusammen | Bremsen der anderen Kreisel | Muss schwer sein um den beyblade in balence zu halten das er nicht so leicht umfällt.| gut drehen, wenig Reibung, wie möglich|
 |Kommunikation | Zusammenhalt| Tod und Verderben, Gefahr | richtige Balance haben | Speed, Geschwindigkeit |
 
+> analysiert Risiken von: Die Chaostruppe
+
+[Skizzen](Beyblade_monster_mission.pdf)
+
 # Thunder
 
 > keine Ergebnisse Zyklus 0
 
-| Anforderungstyp |Engery disk (Vincent)|Gewicht(Melina)|Bolzen(Murad)|Spitze (Ole)|
+| Anforderungstyp |Engery disk (Vincent)|Gewicht(Melina)|Bolzen (Murad)|Spitze (Ole)|
 |---|---|---|---|---|
 |Ästhetik | muss schön und krass seien|gibt es nicht | Besonderes designe | Muss gut aussehen einzigartiges designe |
 | Funktionalität | ist zum angreifen da | Balance und Gleichgewicht| hält den Blayblade zusammen| sorgt dafür das sich der Blayblade dreht |
 |Kommunikation | Tod und Verderben | keine | Stabilität | Ausdauernd |
 
+> Risikoanalyse mit: Breaking Point
 
 # Gute Idee
 
@@ -157,6 +164,8 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 |Funktionalität | Gegner zerstören, stoppen | gleichmäßiges Tempo, nicht zu schwer, nicht zu leicht, hält alles zusammen | | |
 |Kommunikation | Selbstbewusstsein | Stabilität, Gleichgewicht | | |
 
+> analysiert Risiken von: Monster Mission
+
 # Die Chaostruppe
 
 - dem Attack Ring: soll schaden machen
@@ -170,6 +179,8 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 |Funktionalität | Angriff (Zerstören) | Soll für drehung sorgten | Kreisel in drehung halten | Soll alles zusammen-halten |
 |Kommunikation | Agressivität (design) | Keine | Stärke vermitteln | Motive (z.B. Totenkopf)|
 
+> analysiert Risiken von: Gute Idee
+
 # Funktionen von Design (KI-generiert)
 
 Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anwendung finden. Hier sind einige der wichtigsten Funktionen von Design:
@@ -180,4 +191,5 @@ Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anw
 - **Identität:** Design hilft, Markenidentität und -wahrnehmung zu schaffen, indem es ein einheitliches visuelles Erscheinungsbild fördert.
 - **Innovation:** Durch kreatives Design können neue Ideen und Lösungen entwickelt werden, die Probleme lösen oder Bedürfnisse erfüllen.
 - **Nachhaltigkeit:** In vielen modernen Designs wird auch Wert auf Nachhaltigkeit gelegt, indem umweltfreundliche Materialien und Prozesse berücksichtigt werden.
+
 
