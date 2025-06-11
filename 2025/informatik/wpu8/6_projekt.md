@@ -124,11 +124,11 @@ todo
 - Angriffsscheibe: Ballerst die anderen Kreisel weg
 - Bolzen: Fixiert die Angriffsscheibe, Anschluss für Akkubohrer
 
-| Anforderungstyp | Teil A (Rastin) | Teil B (Malik) | Teil "Disc" (Ty) | Teil D (Luca) |
+| Anforderungstyp | Teil "Bolzen" (Rastin) | Teil "Angriffsscheibe" (Malik) | Teil "Disc" (Ty) | Teil "Spitze" (Luca) |
 |---|---|---|---|---|
-|Ästhetik | | | Disc Für Gewicht und Balance des beyblades muss aber auch cool aussehen.| |
-|Funktionalität | | | Muss schwer sein um den beyblade in balence zu halten das er nicht so leicht umfällt.| |
-|Kommunikation | | |JAJAJAJAJAJAJA | |
+|Ästhetik | | rund, leicht aussehen, kinderfreundlich | Disc Für Gewicht und Balance des beyblades muss aber auch cool aussehen.| farbe der anderen, rund|
+|Funktionalität | hält Kreisel zusammen | Bremsen der anderen Kreisel | Muss schwer sein um den beyblade in balence zu halten das er nicht so leicht umfällt.| gut drehen, wenig Reibung, wie möglich|
+|Kommunikation | Zusammenhalt| Tod und Verderben, Gefahr | richtige Balance haben | Speed, Geschwindigkeit |
 
 # Thunder
 
@@ -139,6 +139,13 @@ todo
 |Ästhetik | | | | |
 |Funktionalität | | | | |
 |Kommunikation | | | | |
+
+| Anforderungstyp |Engery disk (Vincent)|Gewicht(Melina)|Bolzen(Murad)|Spitze (Ole)|
+|---|---|---|---|---|
+|Ästhetik | muss schön und krass seien|gibt es nicht | Besonderes designe | Muss gut aussehen einzigartiges designe |
+| Funktionalität | ist zum angreifen da | Balance und Gleichgewicht| hält den Blayblade zusammen| sorgt dafür das
+sich der Blayblade dreht|
+|Kommunikation | Tod und Verderben | keine | Stabilität | Ausdauernd |
 
 
 # Gute Idee
@@ -151,11 +158,11 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 - Forge Disc (Metallscheibe) – reguliert Gewicht und Stabilität
 - Performance Tip (Spitze) – bestimmt das Bewegungsmuster
 
-| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+| Anforderungstyp | Teil "Angriffsplatte" (Giulio) | Teil "Gewicht" (Oscar) | Teil "Spitze" (Alex) | Teil D (Jeff) |
 |---|---|---|---|---|
-|Ästhetik | | | | |
-|Funktionalität | | | | |
-|Kommunikation | | | | |
+|Ästhetik | Spitz, Stärke | unaffällig, verschmilzt mit Kreisel, nicht erkennbar | nicht anwesend | keine Beiträge |
+|Funktionalität | Gegner zerstören, stoppen | gleichmäßiges Tempo, nicht zu schwer, nicht zu leicht, hält alles zusammen | | |
+|Kommunikation | Selbstbewusstsein | Stabilität, Gleichgewicht | | |
 
 # Die Chaostruppe
 
@@ -169,6 +176,29 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 |Ästhetik | | | | |
 |Funktionalität | | | | |
 |Kommunikation | | | | |
+
+
+Denny: Attack Ring
+Kay: Spitze
+Friedrich: Energiering
+Nico: Symboltzen
+Ästhetik
+Spitzen und ecken
+Muss funktioniren und nicht schön sein
+Ecken Kanten und muss schön sein
+Gut aussehen
+Funktionalität
+Angriff (Zerstören)
+Soll für drehung sorgten
+Kreisel in drehung halten
+Soll alles zusammen-halten
+Kommunikation
+Agressivität
+(design)
+Keine
+Stärke vermitteln
+Motive (z.B. Totenkopf)
+
 
 
 # Funktionen von Design (KI-generiert)
