@@ -60,3 +60,12 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 [Projektseite](6_projekt.md)
 
+## Klassenarbeit
+
+> 25.6.2025 1. Stunde 45 Minuten
+
+- Projektmangement
+	- Wasserfallmodell
+	- V-Modell
+	- Spiralmodell
+- Grundlagen OpenScad
