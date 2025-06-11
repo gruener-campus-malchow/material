@@ -132,19 +132,12 @@ todo
 
 # Thunder
 
-> keine Ergebnisse
-
-| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
-|---|---|---|---|---|
-|Ästhetik | | | | |
-|Funktionalität | | | | |
-|Kommunikation | | | | |
+> keine Ergebnisse Zyklus 0
 
 | Anforderungstyp |Engery disk (Vincent)|Gewicht(Melina)|Bolzen(Murad)|Spitze (Ole)|
 |---|---|---|---|---|
 |Ästhetik | muss schön und krass seien|gibt es nicht | Besonderes designe | Muss gut aussehen einzigartiges designe |
-| Funktionalität | ist zum angreifen da | Balance und Gleichgewicht| hält den Blayblade zusammen| sorgt dafür das
-sich der Blayblade dreht|
+| Funktionalität | ist zum angreifen da | Balance und Gleichgewicht| hält den Blayblade zusammen| sorgt dafür das sich der Blayblade dreht |
 |Kommunikation | Tod und Verderben | keine | Stabilität | Ausdauernd |
 
 
