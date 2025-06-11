@@ -174,15 +174,10 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 
 Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anwendung finden. Hier sind einige der wichtigsten Funktionen von Design:
 
-    Ästhetik: Design schafft visuelle Anziehungskraft und Schönheit, die das Benutzererlebnis verbessern.
-
-    Funktionalität: Ein gutes Design sorgt dafür, dass Produkte und Dienstleistungen benutzerfreundlich sind und ihre Funktion effektiv erfüllen.
-
-    Kommunikation: Design vermittelt Informationen und Botschaften klar und verständlich, sei es durch Grafikdesign, Webdesign oder Produktdesign.
-
-    Identität: Design hilft, Markenidentität und -wahrnehmung zu schaffen, indem es ein einheitliches visuelles Erscheinungsbild fördert.
-
-    Innovation: Durch kreatives Design können neue Ideen und Lösungen entwickelt werden, die Probleme lösen oder Bedürfnisse erfüllen.
-
-    Nachhaltigkeit: In vielen modernen Designs wird auch Wert auf Nachhaltigkeit gelegt, indem umweltfreundliche Materialien und Prozesse berücksichtigt werden.
+- Ästhetik: Design schafft visuelle Anziehungskraft und Schönheit, die das Benutzererlebnis verbessern.
+- Funktionalität: Ein gutes Design sorgt dafür, dass Produkte und Dienstleistungen benutzerfreundlich sind und ihre Funktion effektiv erfüllen.
+- Kommunikation: Design vermittelt Informationen und Botschaften klar und verständlich, sei es durch Grafikdesign, Webdesign oder Produktdesign.
+- Identität: Design hilft, Markenidentität und -wahrnehmung zu schaffen, indem es ein einheitliches visuelles Erscheinungsbild fördert.
+- Innovation: Durch kreatives Design können neue Ideen und Lösungen entwickelt werden, die Probleme lösen oder Bedürfnisse erfüllen.
+- Nachhaltigkeit: In vielen modernen Designs wird auch Wert auf Nachhaltigkeit gelegt, indem umweltfreundliche Materialien und Prozesse berücksichtigt werden.
 
