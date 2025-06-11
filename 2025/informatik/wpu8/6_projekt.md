@@ -108,6 +108,13 @@ todo
 - disk : mittelteil des beyblades (größte gewicht quelle)
 - tip (spitze) : teil des beyblades damit er sich drehen kann 
 
+| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+|---|---|---|---|---|
+|Ästhetik | | | | |
+|Funktionalität | | | | |
+|Kommunikation | | | | |
+
+
 # Monster Mission
 
 - Spitze: sorgt für wenig Bodenreibung, dass er sich drehen kann
@@ -125,6 +132,13 @@ todo
 
 > keine Ergebnisse
 
+| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+|---|---|---|---|---|
+|Ästhetik | | | | |
+|Funktionalität | | | | |
+|Kommunikation | | | | |
+
+
 # Gute Idee
 
 ## Beschreibung einer KI (Was ist ein Beyblade?)
@@ -135,6 +149,11 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 - Forge Disc (Metallscheibe) – reguliert Gewicht und Stabilität
 - Performance Tip (Spitze) – bestimmt das Bewegungsmuster
 
+| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+|---|---|---|---|---|
+|Ästhetik | | | | |
+|Funktionalität | | | | |
+|Kommunikation | | | | |
 
 # Die Chaostruppe
 
@@ -142,6 +161,13 @@ Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein
 - der Weight Disk: soll Gewicht hinzufügen, um mehr kinetische Energie zu haben
 - der Blade Base (Spitze): Drehung und Interaktion verantwortlich
 - ???
+
+| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+|---|---|---|---|---|
+|Ästhetik | | | | |
+|Funktionalität | | | | |
+|Kommunikation | | | | |
+
 
 # Funktionen von Design (KI-generiert)
 
