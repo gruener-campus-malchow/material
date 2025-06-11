@@ -18,6 +18,8 @@ Projektseite
 
 ![Gruppen](6_projekt_gruppenbildung.png)
 
+> Jeff: Gute Idee
+
 ### Risiken
 
 1. Faulheit
@@ -108,11 +110,11 @@ todo
 - disk : mittelteil des beyblades (größte gewicht quelle)
 - tip (spitze) : teil des beyblades damit er sich drehen kann 
 
-| Anforderungstyp | Teil A (Verantwortlich) | Teil B (Verantwortlich) | Teil C (Verantwortlich) | Teil D (Verantwortlich) |
+| Anforderungstyp | Teil "Chip" (Aik) | Teil "Ring" (Aik) | Teil "Gewicht" (Felix) | Teil "Spitze" (Rico) |
 |---|---|---|---|---|
-|Ästhetik | | | | |
-|Funktionalität | | | | |
-|Kommunikation | | | | |
+|Ästhetik |Gesicht des Kreisels schön aussehen, kräftig aussehen | | nicht wichtig | muss zum Kreisel passen|
+|Funktionalität | hält Kreisel zusammen | ist angriffsfläche | Gleichgewicht, kein Umkippen | Geschwindigkeit und Last aufnehmen |
+|Kommunikation | Alle zerstören | Alle zerstören | Alle zerstören | Alle zerstören |
 
 
 # Monster Mission
