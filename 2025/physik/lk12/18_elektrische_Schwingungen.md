@@ -138,7 +138,7 @@ Die Animation Abb2. simuliert verschiedene Schwingungen verschiedener physikalis
 Weisen Sie Ihre Arbeitsergebnisse (Texte) per E-Mail an mich nach.
 
 
-## Der weniger ideale Ausblick
+## Der weniger ideale Ausblick: Einfach genial!
 
 ### Meißnersche Rückkopplungsschaltung
 
@@ -148,7 +148,7 @@ https://www.lernhelfer.de/schuelerlexikon/physik/artikel/meissnersche-rueckkoppl
 
 ### Transistor
 
-![!large](https://thumbs.gfycat.com/KindlyImprobableBighornedsheep-max-1mb.gif)
+![!large](https://upload.wikimedia.org/wikipedia/commons/7/73/Transistor_animation.gif)
 
 ![!white](https://upload.wikimedia.org/wikipedia/commons/f/f2/BJT_NPN_symbol-fr.svg)
 
