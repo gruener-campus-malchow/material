@@ -140,16 +140,13 @@ Weisen Sie Ihre Arbeitsergebnisse (Texte) per E-Mail an mich nach.
 
 ## Der weniger ideale Ausblick
 
-Formulieren Sie eine Idee, wie Sie der (starken) Dämpfung eines realen Schwingkreises entgegenwirken können.
-
-## Meißnersche Rückkopplungsschaltung
+### Meißnersche Rückkopplungsschaltung
 
 ![](https://www.lernhelfer.de/sites/default/files/lexicon/image/BWS-PHY-0073-01.gif)
 
 https://www.lernhelfer.de/schuelerlexikon/physik/artikel/meissnersche-rueckkopplungsschaltung
 
-
-## Transistor
+### Transistor
 
 ![!large](https://thumbs.gfycat.com/KindlyImprobableBighornedsheep-max-1mb.gif)
 
@@ -161,4 +158,9 @@ Basis - Collector - Emitter
 >
 > https://de.wikipedia.org/wiki/Transistor
 
+### Aufgaben
 
+1. Formulieren Sie einen Vorschlag, wie Sie der (starken) Dämpfung eines realen Schwingkreises entgegenwirken können.
+1. Entwerfen Sie ein Schaltbild, dass in der Meßnerschen Schaltung an den geeigneten Stellen Messgeräte ergänzt.
+1. Stellen Sie eine Tabelle auf, die in 1/8T-Schritten des Schwingkreises vor allem die Rückkopplung erklärt. Als Spaltenüberschriften wählen Sie die Messwerte aus der vorangegangenen Aufgabe.
+1. Begründen Sie, weshalb diese Schaltung zwar dauerhafte harmonische Schwingungen erzeugt, aber nicht von einer stabilen Frequenz ausgegangen werden kann.
