@@ -67,7 +67,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 - Projektmangement
 	- Nennen von Schritten/Phasen
 	- Einzelne Phase erklären können
-	- Bedeutung (an einem Beispiel) erläutern
+	- Bedeutung einer ausgewählten Phase (an einem Beispiel) erläutern
 		- Wasserfallmodell
 		- V-Modell
 		- Spiralmodell
