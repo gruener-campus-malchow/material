@@ -65,7 +65,11 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 > 25.6.2025 1. Stunde 45 Minuten
 
 - Projektmangement
-	- Wasserfallmodell
-	- V-Modell
-	- Spiralmodell
+	- Nennen von Schritten/Phasen
+	- Einzelne Phase erklären können
+	- Bedeutung (an einem Beispiel) erläutern
+		- Wasserfallmodell
+		- V-Modell
+		- Spiralmodell
 - Grundlagen OpenScad
+	- Ein einfaches Modell als Code entwerfen
