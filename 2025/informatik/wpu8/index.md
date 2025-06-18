@@ -62,7 +62,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Klassenarbeit
 
-> 25.6.2025 1. Stunde 45 Minuten
+> 25.6.2025 1. Stunde - Dauer: 45 Minuten
 
 - Projektmangement
 	- Nennen von Schritten/Phasen
