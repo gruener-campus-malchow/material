@@ -49,6 +49,8 @@ https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-schwingungen/g
 
 Die Animation Abb2. simuliert verschiedene Schwingungen verschiedener physikalischer Größen unter der Veränderung von Kapazität und Induktivität.
 
+> Hausaufgabe zum 23.6.25
+
 - Beschäftigen Sie sich mit der Animation und verändern Sie alle möglichen Parameter
 - Beschreiben Sie die Unterschiede zwischen E(t)-Schwingungen und U(t)-Schwingungen.
 - Erläutern Sie, weshalb die Energie-Schwingungen eine andere Form haben, als die Ladungs-, Stromstärke- oder Spannungsschwingungen.
