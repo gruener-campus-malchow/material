@@ -64,3 +64,5 @@ Die Animation Abb2. simuliert verschiedene Schwingungen verschiedener physikalis
 | Energieformen ||||
 | Dämpfung durch ||||
 | schwingende physikalische Größen ||||
+
+
