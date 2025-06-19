@@ -74,6 +74,9 @@ https://www.iqb.hu-berlin.de/abitur/dokumente/naturwissenschaften/
 ## Woche ab 5.5.25
 
 - [mechanische Schwingungen](14_mechanische_Schwingungen.slides.md)
+
+## Wochen ab 9.6.25
+
 - [elektromagnetische Schwingungen](16_elektromag_Schwingungen.md)
 
 <!--

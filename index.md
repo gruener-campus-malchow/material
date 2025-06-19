@@ -10,7 +10,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 ## Physik
 
 * [Leistungskurs Klasse 12](2025/physik/lk12/)
-* [Grundkurskurs Klasse 12](2025/physik/gk12/)
+* [Grundkurs Klasse 12](2025/physik/gk12/)
 
 ## Informatik
 
