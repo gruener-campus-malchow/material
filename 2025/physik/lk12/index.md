@@ -15,6 +15,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Kondensatoren ab 25.11.24](05_Kondensatoren.md)
 - [Magnetfelder ab 16.12.24](06_Magnetfelder.md)
 
+done!
+
 # Q2
 
 - Magnetfelder ab 10.01.24
