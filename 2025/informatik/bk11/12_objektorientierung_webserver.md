@@ -1,6 +1,8 @@
 Wir bauen einen Webserver
 ====================
 
+[toc]
+
 Die Quelle für dieses Tutorial basiert auf https://anvileight.com/blog/posts/simple-python-http-server/
 
 ~~~python
@@ -235,7 +237,7 @@ httpd = HTTPServer(('localhost', 8000), SimpleHTTPRequestHandler)
 httpd.serve_forever()
 ~~~
 
-# Version 0.2
+# Version 0.3
 
 > Das System verarbeitet den Login - aber da die Daten und das geheime Passwort an den Server übertragen wird, kann der Server damit machen, was er will.
 > 
