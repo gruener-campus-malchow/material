@@ -164,3 +164,15 @@ Basis - Collector - Emitter
 1. Entwerfen Sie ein Schaltbild, dass in der Meßnerschen Schaltung an den geeigneten Stellen Messgeräte ergänzt.
 1. Stellen Sie eine Tabelle auf, die in 1/8T-Schritten des Schwingkreises vor allem die Rückkopplung erklärt. Als Spaltenüberschriften wählen Sie die Messwerte aus der vorangegangenen Aufgabe.
 1. Begründen Sie, weshalb diese Schaltung zwar dauerhafte harmonische Schwingungen erzeugt, aber nicht von einer stabilen Frequenz ausgegangen werden kann.
+
+## Finale
+
+### Plan A
+
+- 5.PK-Simulationen
+
+### Plan B
+
+- Vertiefung: Wünsche
+- Vertiefung: Curriculum
+- Vertiefung: Harmonische Schwingungen, Kräfteansatz
