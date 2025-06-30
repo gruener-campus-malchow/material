@@ -394,3 +394,155 @@ httpd.serve_forever()
 
 
 ~~~
+
+
+# Version 0.4
+
+> Es wurde eine neue Klasse eingeführt: Das Eingabefeld erbt alle Eigenschaften von HTML-Element. Es ergänzt neue Attribute und überschreibt den Konstruktor und die Methode zum Erzeugen des HTML-Codes.
+
+## InputField erbt von HtmlElement
+
+~~~python
+from HtmlElement import HtmlElement
+
+class InputField(HtmlElement):
+    label = ''
+    inputtype = ''
+    preset = ''
+
+    def __init__(self, name, label, inputtype, preset):
+        self.name = name
+        self.content = []
+        self.attributes = {}
+        self.label = label
+        self.inputtype = inputtype
+        self.preset = preset
+
+    def getHtml(self):
+        attributesCode = ''
+        if len(self.attributes) > 0:
+            attributesCode = self.getAttributesCode()
+        openTag ='<label for="'+ self.name +'">'+self.label+':</label><input type="'+self.inputtype+'" id="'+self.name+'" name="'+self.name+' value="'+self.preset+'""'+ attributesCode + '>'
+        closeTag = '</input>'
+
+        html = openTag + closeTag
+        return html
+~~~
+
+## Webserver
+
+> Am Anfang muss nun die neue Klasse als Modul importiert werden. Achten Sie unbedingt auf die richtigen Dateinamen beim Speichern.
+>
+> In createTrustForm() finden Sie die Verwendung des neuen Eingabe-Feldes. Details können Sie auf https://wiki.selfhtml.org/wiki/HTML/Elemente/input nachlesen.
+
+
+~~~python
+from http.server import HTTPServer, BaseHTTPRequestHandler
+from HtmlElement import HtmlElement
+from InputField import InputField
+import cgi
+
+class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
+
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        webContent = self.createLoginForm()
+        rootElement = self.createSkeleton(webContent)
+        html = "<!DOCTYPE html>" + rootElement.getHtml()
+        self.wfile.write(html.encode(encoding="utf-8"))
+
+    def do_POST(self):
+        response = self.evaluatePOST()
+        self.send_response(200)
+        self.end_headers()
+
+        body = "Hallo "+response
+        form =  self.createTrustForm()
+
+        rootElement = self.createSkeleton(body)
+        rootElement.addContent(form)
+
+        html = "<!DOCTYPE html>" + rootElement.getHtml()
+        self.wfile.write(html.encode(encoding="utf-8"))
+
+    # returns the root html-object
+    def createSkeleton(self,content):
+        webseite = HtmlElement("html")
+        webseite.addAttribute("lang","de")
+
+        kopf = HtmlElement("head")
+        meta1 = HtmlElement("meta")
+        meta1.addAttribute("charset","utf-8")
+        kopf.addContent(meta1)
+
+        meta2 = HtmlElement("meta")
+        meta2.addAttribute("name","viewport")
+        meta2.addAttribute("content","width=device-width, initial-scale=1.0")
+        kopf.addContent(meta2)
+
+        titleTag  = HtmlElement("title")
+        titleTag.addContent("Just Another Website")
+        kopf.addContent(titleTag)
+
+        webseite.addContent(kopf)
+
+        koerper = HtmlElement("body")
+        koerper.addContent(content)
+
+        webseite.addContent(koerper)
+
+        return webseite
+
+    def createLoginForm(self):
+        wrapper = HtmlElement("form")
+        wrapper.addAttribute("method","POST")
+        name = HtmlElement("input")
+        name.addAttribute("type","text")
+        name.addAttribute("name","username") # NEU
+        passphrase = HtmlElement("input")
+        passphrase.addAttribute("type","password")
+        passphrase.addAttribute("name","topsecret") # NEU
+        button = HtmlElement("input")
+        button.addAttribute("type","submit")
+        wrapper.addContent(name)
+        wrapper.addContent(passphrase)
+        wrapper.addContent(button)
+        return wrapper
+
+    def createTrustForm(self):
+        wrapper = HtmlElement("form")
+        wrapper.addAttribute("method","POST")
+
+        surname = InputField("surname", "Vorname", "text", "Bitte hier eintragen")
+        wrapper.addContent(surname)
+
+        lastname = InputField("lastname", "Nachname", "number", "Bitte hier eintragen")
+        wrapper.addContent(lastname)
+
+        titles = InputField("titles", "Titel", "text", "Bitte hier eintragen")
+        wrapper.addContent(titles)
+
+        birthdate = InputField("birthdate", "Geburtsdatum", "date", "Bitte hier eintragen")
+        wrapper.addContent(birthdate)
+
+        return wrapper
+
+    def evaluatePOST(self):
+        form = cgi.FieldStorage(
+            fp=self.rfile,
+            headers=self.headers,
+            environ={'REQUEST_METHOD': 'POST',
+                     'CONTENT_TYPE': self.headers['Content-Type'],
+                     }
+        )
+        # Get the form values
+        benutzername = form.getvalue("username")
+        passwort = form.getvalue("topsecret")
+        print("User: ", benutzername, " Geheimes Passwort: ", passwort)
+        return benutzername
+
+
+httpd = HTTPServer(('localhost', 8000), SimpleHTTPRequestHandler)
+httpd.serve_forever()
+~~~
