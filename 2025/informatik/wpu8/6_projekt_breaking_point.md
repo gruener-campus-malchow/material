@@ -1,5 +1,5 @@
 Projektseite von Breaking Point
-===============
+====================================
 
 > **Techniker:** rico, felix, aik, wael
 
