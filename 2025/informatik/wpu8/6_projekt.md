@@ -24,6 +24,7 @@ Folgende Seiten fassen die bisherigen Arbeiten der Gruppen zusammen:
 - [Kreiselmission](6_projekt_kreiselmission.md)
 - [Thunder](6_projekt_thunder.md)
 
+
 ### Risiken
 
 > Die folgenden Risiken wurden identifiziert. Manchen davon begnen wir immer wieder bei der Arbeit.
