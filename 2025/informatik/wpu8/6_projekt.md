@@ -99,8 +99,14 @@ Projektseite
 ![Beispielcode](./img/kreisel_examplecode.png)
 
 1. Erste 3D-Modelle erstellen
+1. Planung des nächsten Zyklus
 
-todo
+## Werbekampagne
+
+1. Vorproduktion: Skript schreiben
+1. Produktion: Videoclips aufzeichnen
+1. Postproduktion: Schnitt
+1. Distribution: Rendern und abgeben
 
 # Breaking Point
 
