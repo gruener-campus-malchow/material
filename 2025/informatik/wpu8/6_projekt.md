@@ -16,11 +16,17 @@ Projektseite
 
 ### Teams
 
-![Gruppen](6_projekt_gruppenbildung.png)
+Folgende Seiten fassen die bisherigen Arbeiten der Gruppen zusammen:
 
-> Jeff: Gute Idee
+- [Breaking Point](6_projekt_breaking_point.md)
+- [Die Chaostruppe](6_projekt_chaostruppe.md)
+- [Gute Idee](6_projekt_gute_idee.md)
+- [Kreiselmission](6_projekt_kreiselmission.md)
+- [Thunder](6_projekt_thunder.md)
 
 ### Risiken
+
+> Die folgenden Risiken wurden identifiziert. Manchen davon begnen wir immer wieder bei der Arbeit.
 
 1. Faulheit
 1. Teamprobleme: Jeder hat eine andere Meinung, Einzelne wollen sich durchsetzen, es kommt zu Streit
@@ -108,86 +114,9 @@ Projektseite
 1. Postproduktion: Schnitt
 1. Distribution: Rendern und abgeben
 
-# Breaking Point
+# Zusätzliche Informationen
 
-- Chip (faceplate) :teil zum zusammenhalt des beyblades
-- weight : beschwerung des beyblades
-- ring : kontaktstellen aus plastik oder gummi  für angriffe
-- disk : mittelteil des beyblades (größte gewicht quelle)
-- tip (spitze) : teil des beyblades damit er sich drehen kann 
-
-| Anforderungstyp | Teil "Chip" (Aik) | Teil "Ring" (Aik) | Teil "Gewicht" (Felix) | Teil "Spitze" (Rico) |
-|---|---|---|---|---|
-|Ästhetik |Gesicht des Kreisels schön aussehen, kräftig aussehen | | nicht wichtig | muss zum Kreisel passen|
-|Funktionalität | hält Kreisel zusammen | ist angriffsfläche | Gleichgewicht, kein Umkippen | Geschwindigkeit und Last aufnehmen |
-|Kommunikation | Alle zerstören | Alle zerstören | Alle zerstören | Alle zerstören |
-
-> Risikoanalyse mit: Thunder
-
-
-# Monster Mission
-
-- Spitze: sorgt für wenig Bodenreibung, dass er sich drehen kann
-- Laufspur: Hält die Spitze
-- Angriffsscheibe: Ballerst die anderen Kreisel weg
-- Bolzen: Fixiert die Angriffsscheibe, Anschluss für Akkubohrer
-
-| Anforderungstyp | Teil "Bolzen" (Rastin) | Teil "Angriffsscheibe" (Malik) | Teil "Disc" (Ty) | Teil "Spitze" (Luca) |
-|---|---|---|---|---|
-|Ästhetik | | rund, leicht aussehen, kinderfreundlich | Disc Für Gewicht und Balance des beyblades muss aber auch cool aussehen.| farbe der anderen, rund|
-|Funktionalität | hält Kreisel zusammen | Bremsen der anderen Kreisel | Muss schwer sein um den beyblade in balence zu halten das er nicht so leicht umfällt.| gut drehen, wenig Reibung, wie möglich|
-|Kommunikation | Zusammenhalt| Tod und Verderben, Gefahr | richtige Balance haben | Speed, Geschwindigkeit |
-
-> analysiert Risiken von: Die Chaostruppe
-
-[Skizzen](Beyblade_monster_mission.pdf)
-
-# Thunder
-
-> keine Ergebnisse Zyklus 0
-
-| Anforderungstyp |Engery disk (Vincent)|Gewicht(Melina)|Bolzen (Murad)|Spitze (Ole)|
-|---|---|---|---|---|
-|Ästhetik | muss schön und krass seien|gibt es nicht | Besonderes designe | Muss gut aussehen einzigartiges designe |
-| Funktionalität | ist zum angreifen da | Balance und Gleichgewicht| hält den Blayblade zusammen| sorgt dafür das sich der Blayblade dreht |
-|Kommunikation | Tod und Verderben | keine | Stabilität | Ausdauernd |
-
-> Risikoanalyse mit: Breaking Point
-
-# Gute Idee
-
-## Beschreibung einer KI (Was ist ein Beyblade?)
-
-Ein Beyblade ist ein rotierender Kreisel aus Kunststoff und Metall, der für ein Spielzeugkampfspiel entwickelt wurde. Das System stammt ursprünglich aus Japan und wurde von Takara Tomy eingeführt. Ein Beyblade besteht typischerweise aus drei Hauptkomponenten (je nach Generation variabel):
-
-- Ebene 1: Energy Layer (Angriffsschicht) – beeinflusst das Kontaktverhalten
-- Forge Disc (Metallscheibe) – reguliert Gewicht und Stabilität
-- Performance Tip (Spitze) – bestimmt das Bewegungsmuster
-
-| Anforderungstyp | Teil "Angriffsplatte" (Giulio) | Teil "Gewicht" (Oscar) | Teil "Spitze" (Alex) | Teil D (Jeff) |
-|---|---|---|---|---|
-|Ästhetik | Spitz, Stärke | unaffällig, verschmilzt mit Kreisel, nicht erkennbar | nicht anwesend | keine Beiträge |
-|Funktionalität | Gegner zerstören, stoppen | gleichmäßiges Tempo, nicht zu schwer, nicht zu leicht, hält alles zusammen | | |
-|Kommunikation | Selbstbewusstsein | Stabilität, Gleichgewicht | | |
-
-> analysiert Risiken von: Monster Mission
-
-# Die Chaostruppe
-
-- dem Attack Ring: soll schaden machen
-- der Weight Disk: soll Gewicht hinzufügen, um mehr kinetische Energie zu haben
-- der Blade Base (Spitze): Drehung und Interaktion verantwortlich
-- ???
-
-| Anforderungstyp | Denny: Attack Ring | Kay: Spitze | Friedrich: Energiering | Nico: Symboltzen
-|---|---|---|---|---|
-|Ästhetik | Spitzen und ecken | Muss funktioniren und nicht schön sein | Ecken Kanten und muss schön sein | Gut aussehen |
-|Funktionalität | Angriff (Zerstören) | Soll für drehung sorgten | Kreisel in drehung halten | Soll alles zusammen-halten |
-|Kommunikation | Agressivität (design) | Keine | Stärke vermitteln | Motive (z.B. Totenkopf)|
-
-> analysiert Risiken von: Gute Idee
-
-# Funktionen von Design (KI-generiert)
+## Funktionen von Design (KI-generiert)
 
 Design erfüllt eine Vielzahl von Funktionen, die in verschiedenen Bereichen Anwendung finden. Hier sind einige der wichtigsten Funktionen von Design:
 
