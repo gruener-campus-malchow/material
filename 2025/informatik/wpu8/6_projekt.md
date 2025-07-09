@@ -27,7 +27,7 @@ Folgende Seiten fassen die bisherigen Arbeiten der Gruppen zusammen:
 
 ### Risiken
 
-> Die folgenden Risiken wurden identifiziert. Manchen davon begnen wir immer wieder bei der Arbeit.
+> Die folgenden Risiken wurden identifiziert. Manchen davon begegnen wir immer wieder bei der Arbeit.
 
 1. Faulheit
 1. Teamprobleme: Jeder hat eine andere Meinung, Einzelne wollen sich durchsetzen, es kommt zu Streit
