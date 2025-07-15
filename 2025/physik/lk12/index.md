@@ -41,6 +41,10 @@ done!
 - elektrische Schwingungen
     - [Nutzen, Verwendung, Manipulation und Erzeugung](18_elektrische_Schwingungen.md)
     - [Transparenzdokument Q2 Klausur 2](Transparenzdokument_Q2_Klausur-2.md)
+- Wahlthema: Halbleiter
+    - Vorträge zum Thema Herstellung und Verfügbarkeit (5.PK-Simulation)
+    - [Dioden](19_Halbleiter_Dioden.md)
+    - [Transistoren](19_Halbleiter_Transistoren.md)
 
 # Vorbereitung Abitur    
 
