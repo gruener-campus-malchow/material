@@ -1,62 +1,60 @@
-LK Physik Q3 Woche 01
+LK Physik Q3 Woche 01 Mechanische Wellen
 ==============================
 
 ## Ziele
 
-* Den roten Faden in Q3 verstehen
-* Verstehen, dass Energie quantisiert ist
-  * Aufbau des Millikan-Versuch beschreiben
-  * Ablauf des Millikan-Versuch beschreiben
-  * Schlussfolgerungen aus dem M-V nachvollziehen
+* Die Lernenden…
+  * … veranschaulichen die Entstehung (stehender) Wellen in sachgerechten Darstellungsformen, auch mithilfe digitaler Werkzeuge. (K 6)
+  * … präsentieren Eigenschaften und Anwendungen von Frequenzbereichen des elektromagnetischen Spektrums sach- und adressatengerecht unter Einsatz geeigneter analoger und digitaler Medien. (K 7)
+  * … bilden sich reflektiert und rational in außerfachlichen Kontexten (z.B. „Handystrahlung“) ein eigenes Urteil. (B4)
+  * … reflektieren Risikoeinschätzungen zur Mobilfunktechnologie („Handystrahlung“) hinsichtlich der Güte des durchgeführten Bewertungsprozesses. (B 5)
+* Basiskonzepte
+  * Superposition und Komponenten
+    * Erklärung von Interferenzphänomenen mithilfe der Superposition von Wellen
 
 ## Inhalte
 
-### Unser schulinternes Curriculum-Physik
-
-[Download hier](../Q3_Physik.pdf)
-
-### Millikan-Versuch
-
-Gerthsen:
-
-> Schwebekondensator, Millikan-Versuch. 
->
-> Als Ladungsträger wird ein kleines Flüssigkeitströpfchen zwischen die Platten des horizontal gelagerten Kondensators gebracht. Im feldfreien Raum sinkt es unter dem Einfluss der Schwere und des Reibungswiderstandes mit gleichförmiger Geschwindigkeit, aus der nach dem Stokes-Gesetz (3.35) der Radius und damit auch das Gewicht mg bestimmt werden kann. Legt man eine veränderliche Spannung an den Kondensator, so kann man diese so regulieren, dass das Tröpfchen in der Schwebe gehalten wird. 
->
-> Dann ist seine Ladung: 
-\begin{equation}
-  Q=\frac{mg}{|E|}\ = \frac{mgd}{U}\
-\end{equation}
-
->
-> Damit ist die zu messende Ladung direkt durch bekannte Größen ausgedrückt
-> (Aufgabe 6.1.14).
-> Mit dieser Methode fand Millikan heraus, dass die Ladung solcher Tröpfchen stets
-> ein niedriges ganzes Vielfaches von 1,6 · 10^ −19 C beträgt, d. h. wenige Elementarladungen **e** enthält (Abschn. 6.1.1). Er konnte **e** so mit hoher Genauigkeit direkt bestimmen. Heutiger Wert: e = (1,602 176 46 ± 0,000 000 06) · 10 −19 C .
-
-#### Aufgaben
-
-1. Skizzieren Sie den Aufbau des Millikan-Versuchs.
-2. Skizzieren Sie folgende Kräfteverhältnisse:
-     1. Das Öltröpfchen steigt
-     2. Das Öltröpfchen sinkt
-     3. Das Öltröpfchen schwebt
-3. Stellen Sie für den Schwebezustand eine mathematische Gleichung auf, bei der die nach oben wirkende Coulomb-Kraft gleich der nach unten wirkenden Gravitationskraft ist. Vereinfachen Sie diese Gleichung weitgehend.
-4. Stellen Sie eine Vermutung auf, weshalb dieser Versuch an den Beginn einer Reihe über Quantenphysik gestellt wird.
-
-[Material auf Leifi](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/versuche/millikan-versuch-schwebe-fall-methode-simulation)
-
-### Nur ein Technik-Test
+### Einstieg Resonanz
 
 <img src='https://g.gravizo.com/svg?
  digraph G {
-   main -> parse -> execute;
-   main -> init;
-   main -> cleanup;
-   execute -> make_string;
-   execute -> printf
-   init -> make_string;
-   main -> printf;
-   execute -> compare;
+  graph [fontname = "Handlee"];
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  bgcolor=white;
+
+  R [label="Resonanz"];
+  Err [label="Erregerschwingung"];
+  Erz [label="Erzwungene\nSchwingung"];
+  K [label="Resonanzkatastrophe"];
+  O[label="Oszillatoren"];
+  D[label="Dämpfung"];
+  RK[label="Resonanzkurve"];
+  E[label="Eigenfrequenz"];
+  RB[label="Resonanzbedingung"];
+  A[label="Amplitude"]
+
+  O -> E [label="hat"];
+  RK -> D [label="ist abhängig von"]
+  Err -> O [label="wirkt auf"]
+  Err -> Erz [label="ist ähnlich (f)"]
+  Err -> RB [label="f_0 approx f_E"];
+  O -> Erz [label="führt aus"]
+  Err -> Erz [label="führt Energie zu"]
+  Erz -> K [label="ohne Dämpfung"]
+  RB -> R [label="wenn erfüllt dann"];
+  R -> K [label="eskaliert zu"];
+  D -> K [label="verhindert"];
+  K -> O [label="zerstört"]
+  A->Err [label="ist abhängig"]
+  D->A [label="beeinflusst"]
  }
 '/>
+
+
+### Aufgaben
+
+
+## Nur ein Technik-Test
+
