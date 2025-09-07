@@ -14,7 +14,7 @@ LK Physik Q3 Woche 01 Mechanische Wellen
 
 ## Inhalte
 
-### Einstieg Resonanz
+### Einstieg: Resonanz
 
 <img src='https://g.gravizo.com/svg?
  digraph G {
@@ -49,9 +49,32 @@ LK Physik Q3 Woche 01 Mechanische Wellen
  }
 '/>
 
+### Aufgaben
+
+1. Überführen Sie die ConceptMap in einen kurzen Fachtext.
+1. Lesen Sie ihren Text einem anderen Mitschüler vor und holen Sie sich Feedback ein.
+1. Bewerten Sie ihren eigenen Text auf Basis des Feedbacks.
+
+### Von der Schwingung zur Welle
+
+#### Schwingungen
+* **Definition:** Schwingungen sind periodische Bewegungen eines Systems um eine stabile Gleichgewichtslage, die durch eine Rückstellkraft charakterisiert sind. Diese Bewegungen können als harmonisch oder nicht-harmonisch klassifiziert werden, abhängig von der Form der Zeitfunktion, die die Bewegung beschreibt.
+* **Mathematische Beschreibung:** Schwingungen werden häufig durch sinusförmige Funktionen dargestellt, wobei die Parameter Amplitude (A), Frequenz (f) und Phase (φ) entscheidend sind. Die allgemeine Gleichung einer harmonischen Schwingung kann als $$x(t) = A \cdot \sin(2\pi f t + φ)$$ formuliert werden.
+* **Beispiele:** Ein einfaches Pendel, das um seine Ruhelage schwingt, oder eine Feder, die komprimiert und wieder dekomprimiert wird, sind klassische Beispiele für schwingende Systeme.
+Physikalische Eigenschaften: Schwingungen sind charakterisiert durch ihre Frequenz (Anzahl der Schwingungen pro Zeiteinheit), Periodendauer (T) und Amplitude, die die maximale Auslenkung von der Gleichgewichtslage angibt.
+
+#### Wellen
+
+* **Definition:** Wellen sind räumlich ausgedehnte Störungen, die sich durch ein Medium oder im Vakuum ausbreiten und dabei Energie und Impuls transportieren, ohne dass eine dauerhafte materielle Verschiebung des Mediums erfolgt. Wellen können als Überlagerung von Schwingungen beschrieben werden, die sich synchron in Raum und Zeit ausbreiten.
+* **Mathematische Beschreibung:** Wellen werden durch Wellenfunktionen beschrieben, die Parameter wie Wellenlänge (λ), Frequenz (f), Amplitude (A) und Phasengeschwindigkeit (v) umfassen. Die allgemeine Form einer Welle kann durch die Gleichung $$y(x, t) = A \cdot \sin(kx - ωt + φ)$$ dargestellt werden, wobei ( k ) die Wellenzahl und ( ω ) die Kreisfrequenz ist.
+* **Beispiele:** Schallwellen, die sich in Luft ausbreiten, elektromagnetische Wellen (wie Licht) und Wasserwellen sind exemplarische Darstellungen von Wellenphänomenen.
+* **Physikalische Eigenschaften:** Wellen besitzen Eigenschaften wie Interferenz, Beugung und Reflexion. Sie können in verschiedene Kategorien unterteilt werden, darunter Transversalwellen (bei denen die Auslenkung senkrecht zur Ausbreitungsrichtung erfolgt) und Longitudinalwellen (bei denen die Auslenkung parallel zur Ausbreitungsrichtung erfolgt).
+
+#### Zusammenfassung
+
+Der fundamentale Unterschied zwischen Schwingungen und Wellen liegt darin, dass Schwingungen die zeitabhängige Bewegung eines einzelnen Systems um eine Gleichgewichtslage beschreiben, während Wellen die räumliche Ausbreitung von Störungen sind, die aus einer Vielzahl von Schwingungen bestehen und dabei Energie und Impuls transportieren.
 
 ### Aufgaben
 
-
-## Nur ein Technik-Test
-
+* Skizzieren Sie eine reihe gekoppelter Oszillatoren und erläutern Sie anhand der Skizze den Unterschied zwischen Schwinungen und Wellen.
+* Beschreiben Sie die Unterschiede bei der mathematischen Darstellung von Schwingungen und Wellen.
