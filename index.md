@@ -5,6 +5,18 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 [toc]
 
+# 2025-2026
+
+## Physik
+
+* [Leistungskurs Klasse 13](2026/physik/lk13/)
+* [Grundkurs Klasse 13](2026/physik/gk13/)
+
+## Informatik
+
+* [Wahlpflicht 9](2026/informatik/wpu9/)
+* [Grundkurs Klasse 12](2026/informatik/gk12/)
+
 # 2024-2025
 
 ## Physik
