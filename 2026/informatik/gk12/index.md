@@ -18,5 +18,5 @@ Grundkurs Informatik 12
 
 ## Woche 01
 
-[Begrüßung und erste Infos](01_intro.md)
-[Einführung in Datenbankensysteme](02_DBS_Einführung_DBMS.md)
+* [Begrüßung und erste Infos](01_intro.md)
+* [Einführung in Datenbankensysteme](02_DBS_Einführung_DBMS.md)
