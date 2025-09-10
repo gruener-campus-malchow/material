@@ -55,3 +55,4 @@ Es gibt zahlreiche Anwendungsfälle für Datenbankensysteme. Folgende unvollstä
 1. Besonders gelungen Präsentationen dürfen dem gesamten Auditorium vorgestellt werden.
 
 Hinweis: Eigene Bilder in CS einbinden kann man [hier in 2 Minuten](https://www.youtube.com/watch?v=G9b501I_rjs) lernen.
+
