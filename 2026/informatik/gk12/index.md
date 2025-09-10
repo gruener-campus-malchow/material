@@ -12,8 +12,7 @@ Grundkurs Informatik 12
 
 > Als übergeordneter Kontext wurde sich für ein Beschwerdesystem bei Problemen mit Korrekturen entschieden.
 
-## Wichtige Dokumente
-
+**Wichtige Dokumente**: 
 [Belehrung](../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
 [Unterschriftenliste](../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
 
