@@ -1,4 +1,4 @@
-Grundkurs Informatik 12
+GK Informatik 12
 ===========
 
 # Q1
