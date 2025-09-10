@@ -79,13 +79,9 @@ Der fundamentale Unterschied zwischen Schwingungen und Wellen liegt darin, dass 
 * Skizzieren Sie eine reihe gekoppelter Oszillatoren und erläutern Sie anhand der Skizze den Unterschied zwischen Schwinungen und Wellen. Üben Sie das Erläutern in Partnerarbeit.
 * Beschreiben Sie die Unterschiede bei der mathematischen Darstellung von Schwingungen und Wellen.
 * Vergleichen Sie die hier gefundene Darstellung mit der des Lehrbuchs von Seite 222 bis 224. Notieren Sie bisher noch unvollständige Aspekte.
-
-<!--
   * Skizzen
   * Rechnung
   
 ### Rechenaufgaben
 
-LBS: 243 Nr. 
-  
-  -->
+LBS: 243 Nr. 1,2,3,5
