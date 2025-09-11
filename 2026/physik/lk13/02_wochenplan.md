@@ -96,4 +96,14 @@ LBS: 243 Nr. 1,2,3,5
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a3OYsAzLpio?si=IM8MuEvlUTZaFqag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Skizzieren wir für dieses Konzept die Effekte der Reflektion, Beugung und Interferenz am Doppelspalt.
+Skizzieren wir für dieses Konzept die Effekte der:
+
+* Punktquelle
+* Wellenfronten
+* Reflektion
+* Brechung (Dispersion erklären)
+* Beugung
+* den Einfachspalt
+* Interferenz am Doppelspalt.
+
+... und ergänzen ggf. um Erläuterungen
