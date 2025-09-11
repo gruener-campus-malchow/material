@@ -20,11 +20,12 @@ WPU 9 Informatik
 
 1. Lies den Artikel über die Rollen der drei Technologien auf [selfhtml](https://wiki.selfhtml.org/wiki/HTML/Tutorials/Trennung_von_Inhalt,_Pr%C3%A4sentation_und_Verhalten)
 1. Fertige eine Tabelle an, die nach folgendem Schema funktioniert:
+
 |Abkürzung|richtiger Name|Nutzen und Zweck|
 |---|---|---|
-|HTML|
-|CSS|
-|JS|
+|HTML| | |
+|CSS| | |
+|JS| | |
 
 # JavaScript
 
