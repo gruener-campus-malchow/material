@@ -98,6 +98,10 @@ LBS: 243 Nr. 1,2,3,5
 
 Skizzieren wir für dieses Konzept die Effekte der:
 
+![reminder](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2lwYmswNTRvM2Q1bGJqbGd0enY2dWJrbWdwb29rMjh5MHJtd2M0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT5LMOX8HAvNPtayDC/giphy.gif)
+
+> Reminder: NTA - LRS
+
 * Punktquelle
 * Wellenfronten
 * Reflektion
