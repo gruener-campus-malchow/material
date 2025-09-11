@@ -1,6 +1,8 @@
 LK Physik Q3 Woche 01 Mechanische Wellen
 ==============================
 
+[toc]
+
 ## Ziele
 
 * Die Lernenden…
@@ -85,3 +87,13 @@ Der fundamentale Unterschied zwischen Schwingungen und Wellen liegt darin, dass 
 ### Rechenaufgaben
 
 LBS: 243 Nr. 1,2,3,5
+
+### Eigenschaften von Wellen
+
+> Das Konzept der Elementarwellen, das "Huygensche Prinzip" besagt, dass jeder Oszillator wieder Ausgangspunkt von neuen Wellen ist, die sich zu gemeinsamen Wellenfronten überlagern.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cnVkYK2L-wI?si=JrclXoH-hNgi8L2f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a3OYsAzLpio?si=IM8MuEvlUTZaFqag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Skizzieren wir für dieses Konzept die Effekte der Reflektion, Beugung und Interferenz am Doppelspalt.
