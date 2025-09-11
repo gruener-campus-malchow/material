@@ -90,7 +90,7 @@ LBS: 243 Nr. 1,2,3,5
 
 ### Eigenschaften von Wellen
 
-> Das Konzept der Elementarwellen, das "Huygensche Prinzip" besagt, dass jeder Oszillator wieder Ausgangspunkt von neuen Wellen ist, die sich zu gemeinsamen Wellenfronten überlagern.
+> Das Konzept der Elementarwellen, das "Huygensche Prinzip" besagt, dass eine gewisse Menge Oszillatoren wieder Ausgangspunkt von neuen Wellen ist, die sich zu gemeinsamen Wellenfronten überlagern. Achtung: Während das Oszillatorkonzept quasi das Medium beschreibt, können sich im gleichen Medium Wellen unterschiedlicher Wellenlängen ausbreiten (z.B. 20m-Basswelle)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cnVkYK2L-wI?si=JrclXoH-hNgi8L2f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
