@@ -2,7 +2,6 @@ WPU 9 Informatik
 ===========
 
 
-
 # Orga
 
 > Wir sehen uns nur noch zwei Stunden pro Woche!
@@ -12,6 +11,11 @@ WPU 9 Informatik
 * [Regeln im NAWI-Fachraum](../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
 * [Regeln im Computerraum](../../Regeln_Computerraum_2025-09-10.pdf)
 * [Unterschriften](../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
+
+## Wichtige Tools
+
+[![gcm_pad](../../../gcm_pad.png)](https://docs.gcm.schule/pad/)
+[![gcm_slides](../../../gcm_slides.png)](https://docs.gcm.schule/slides/)
 
 # Webentwicklung
 
