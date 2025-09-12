@@ -14,8 +14,9 @@ WPU 9 Informatik
 
 ## Wichtige Tools
 
-[![gcm_pad](../../../gcm_pad.png)](https://docs.gcm.schule/pad/)
-[![gcm_slides](../../../gcm_slides.png)](https://docs.gcm.schule/slides/)
+[![gcm_pad !small](../../../gcm_pad.png)](https://docs.gcm.schule/pad/)
+
+[![gcm_slides !small](../../../gcm_slides.png)](https://docs.gcm.schule/slides/)
 
 # Webentwicklung
 
