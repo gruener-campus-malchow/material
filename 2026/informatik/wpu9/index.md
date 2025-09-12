@@ -97,3 +97,5 @@ function zoom1_out()
 ~~~
 
 [Teste den Code](01_test.html)
+
+![!contain](Zwischenergebnis_2025-09-12.png)
