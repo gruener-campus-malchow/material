@@ -104,7 +104,8 @@ Skizzieren wir für dieses Konzept die Effekte der:
 
 * Punktquelle
 * Wellenfronten
-* Reflektion
+* Elementarwellen
+* Reflektion (todo)
 * Brechung (Dispersion erklären)
 * Beugung
 * den Einfachspalt

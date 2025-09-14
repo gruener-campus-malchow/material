@@ -11,6 +11,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 * [Leistungskurs Klasse 13](2026/physik/lk13/)
 * [Grundkurs Klasse 13](2026/physik/gk13/)
+* [Profilkurs Klasse 11](2026/physik/pk11/)
 
 ## Informatik
 
