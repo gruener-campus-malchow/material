@@ -4,7 +4,7 @@
 
 2025-2026
 
-<div style="z-index:0;">
+<div style="z-index:-1;">
 
 ![!cover](./spaceship.jpg)
 
