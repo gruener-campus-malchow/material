@@ -28,7 +28,7 @@ Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
 ---
 
-##Meine Ziele für Sie:
+## Meine Ziele für Sie:
 
 - Gutes Abitur erhalten
 - Vorstellung über die Arbeitsweise der Physik
@@ -42,7 +42,7 @@ Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
 ## Und Ihre Ziele sind?
 
-![!cover](./moonshadow.jpg)
+![!large](./moonshadow.jpg)
 
 ---
 
