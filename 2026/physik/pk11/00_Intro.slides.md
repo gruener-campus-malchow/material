@@ -1,6 +1,6 @@
 # PK Pysik 11
 
-2023-2024
+2025-2026
 
 ---
 
@@ -20,11 +20,27 @@ Sind alle da? Sonst Rückmeldung
 
 Klarstellung: **Leiden**schaft für Physik
 
-Was wollen wir voneinander wissen?
+Was wollen wir voneinander wissen? Sammeln!
 
 Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
-Meine Ziele für Sie
+---
+
+Meine Ziele für Sie:
+
+- Gutes Abitur erhalten
+- Vorstellung über die Arbeitsweise der Physik
+- Spaß am Nerden
+- Richtig anstrengende Sachen toll finden
+- Freude am fleißig sein
+- Zu den Besten gehören wollen, weil schwieriges Fach gewält
+- Anspruchsvolles Studium ins Auge fassen
+
+---
+
+# Und Ihre Ziele sind?
+
+![!contain](moonshadow.jpg)
 
 ---
 
