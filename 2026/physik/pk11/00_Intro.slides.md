@@ -2,7 +2,7 @@
 
 2025-2026
 
-![!contain](spaceship.jpg)
+![foo](spaceship.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
 ## Und Ihre Ziele sind?
 
-![Ziele !contain](moonshadow.jpg)
+![Ziele](moonshadow.jpg)
 
 ---
 
