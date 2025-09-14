@@ -7,6 +7,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Erstes Halbjahr
 
+![!large aussichten](./aussichten.jpg)
+
 ## Woche 01
 
 - [Intro](./00_Intro.slides.md)
@@ -17,7 +19,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 Themen, die Sie sich in Physik wünschen: ?
 
-![!large aussichten](./aussichten.jpg)
+
 
 <!--
 
