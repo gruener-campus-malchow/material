@@ -1,13 +1,14 @@
-<div style="z-index:902;">
+
 
 # PK Pysik 11
 
 2025-2026
 
-</div>
+<div style="z-index:0;">
 
 ![!cover](./spaceship.jpg)
 
+</div>
 ---
 
 # Intro
