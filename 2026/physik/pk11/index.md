@@ -17,6 +17,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 Themen, die Sie sich in Physik wünschen: ?
 
+![!large aussichten](./aussichten.jpg)
 
 <!--
 
