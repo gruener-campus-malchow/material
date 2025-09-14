@@ -35,7 +35,7 @@ Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 - Spaß am Nerden
 - Richtig anstrengende Sachen toll finden
 - Freude am fleißig sein
-- Zu den Besten gehören wollen, weil schwieriges Fach gewält
+- Zu den Besten gehören wollen, weil schwieriges Fach gewählt
 - Anspruchsvolles Studium ins Auge fassen
 
 ---
