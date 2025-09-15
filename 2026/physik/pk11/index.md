@@ -17,7 +17,18 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
     - Ich will Sie und Ihre Fähigkeiten kennenlernen
 - [Aufwärmübungen](./01_Aufgaben_Aufwärmen.md)
 
-Themen, die Sie sich in Physik wünschen: ?
+### Themen, die Sie sich in Physik wünschen: 
+
+### Wissenswertes über uns
+
+- IT Ausstattung
+- Größter Erfolg in Physik
+- Hassfach in der Schulzeit
+- Physik-Laufbahn
+- Lieblingsbereich in der Physik
+- Hobbys
+- Warum Physik als Fach?
+- Welche anderen Fächer spielen eine Rolle?
 
 
 
