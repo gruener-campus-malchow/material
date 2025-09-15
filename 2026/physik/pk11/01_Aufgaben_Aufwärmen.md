@@ -29,6 +29,8 @@ Piet entdeckt auf einer Burg einen tiefen Brunnen. Niemand kann erklären, wie t
 
 # Betty soll angehoben werden
 
+![betty](./segelboot.jpg)
+
 Das Segelboot "Betty" mit einer Masse von 0,75t soll durch Sie nur mit Muskelkraft um 1 Meter angehoben werden.
 
 1. Skizzieren Sie den Aufbau.
