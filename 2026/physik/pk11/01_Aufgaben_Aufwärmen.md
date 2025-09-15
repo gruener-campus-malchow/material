@@ -23,6 +23,8 @@ Erst sieben Sekunden nach dem Leuchten eines Blitzes, hört man seinen Donner. E
 
 # Stein im Brunnen
 
+![brunnen](./brunnen.jpg)
+
 Piet entdeckt auf einer Burg einen tiefen Brunnen. Niemand kann erklären, wie tief der Brunnen ist. Deshalb wirft er einen kleinen Stein hinein. Sein Aufprall ist erst nach 7 Sekunden zu hören. Berechne die Tiefe des Brunnens.
 
 # Betty soll angehoben werden
