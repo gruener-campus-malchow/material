@@ -42,7 +42,7 @@ Steckbrief per **E-Mail** an mich, Antwort auch per Mail
 
 ## Und Ihre Ziele sind?
 
-![!large](./moonshadow.jpg)
+![!background](./moonshadow.jpg)
 
 ---
 
