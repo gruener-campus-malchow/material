@@ -9,3 +9,4 @@ Leistungskurs Physik Klasse 13
 ## Wochenpläne
 
 * [Woche 01](02_wochenplan.md)
+* [Woche 02](03_wochenplan.md)
