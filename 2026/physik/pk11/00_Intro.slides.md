@@ -2,7 +2,7 @@
 
 # PK Pysik 11
 
-![!large](./spaceship.jpg)
+![!background](./spaceship.jpg)
 
 ---
 
