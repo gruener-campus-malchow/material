@@ -20,3 +20,7 @@ GK Informatik 12
 
 * [Begrüßung und erste Infos](01_intro.md)
 * [Einführung in Datenbankensysteme](02_DBS_Einführung_DBMS.md)
+
+## Woche 02
+
+* [Funktionen eines DBMS](03_Funktionen_DBMS.md)
