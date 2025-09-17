@@ -12,15 +12,53 @@ GK Informatik 12
 
 > Als übergeordneter Kontext wurde sich für ein Beschwerdesystem bei Problemen mit Korrekturen entschieden.
 
+## Klausur in Q1
+
+> Mittwoch, 19.11.2025 ab 8:10 Uhr für 90 Minuten
+
+* [Transparenzdokument für den vorangegangenen Kurs 2023-2024](08_transparenzdokument_Klausur_Q2_JG_2023-2024.md)
+
 **Wichtige Dokumente**: 
 [Belehrung](../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
 [Unterschriftenliste](../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
 
 ## Woche 01
 
+> 10.9.2025 ff
+
 * [Begrüßung und erste Infos](01_intro.md)
 * [Einführung in Datenbankensysteme](02_DBS_Einführung_DBMS.md)
 
 ## Woche 02
 
+> 17.9.2025 ff
+
 * [Funktionen eines DBMS](03_Funktionen_DBMS.md)
+
+## Woche 03
+
+> 24.9.2025 ff
+
+- Modellierung in Tabellen
+
+## Woche 04
+
+> 01.10.2025 ff
+
+- Relationenmodell (RM)
+
+## Woche 05
+
+> 08.10.2025 ff
+
+- Entity-Relationship-Models (ERM)
+    - (Kardinalitäten) in RM überführen
+
+## Woche 06
+
+> 15.10.2025 ff
+
+- Klausurvorbereitung, Wiederholung, Übung
+    
+    
+## Herbstferien vom 20.10. bis 01.11.
