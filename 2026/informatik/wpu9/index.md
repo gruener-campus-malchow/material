@@ -100,3 +100,19 @@ function zoom1_out()
 
 ![!large](Zwischenergebnis_2025-09-12.png)
 [Zwischenergebnis als ZIP-Archiv](stand_2025-09-12.zip)
+
+## Ein schlechtes Beispiel
+
+> Im Folgenden geht es darum, dass man das Konzept, das ihr bisher verfolgt habt, ins Absurde weiterdenkt. Gleichzeitig nähern wir uns der Idee eines Memoryspiels.
+
+### Aufgaben
+
+1. Lade das [Absurdes Beispiel ZIP-Archiv](AbsurdesBeispiel.zip) herunter und entpacke es.
+1. Erkläre einem Mitschüler, weshalb das Beispiel schlecht ist.
+1. Schreibe eine Mail an Deinen Lehrer, in welcher Du erklärst, weshalb das Beispiel so absurd ist.
+
+### Code along
+
+1. Ziel: Levels - also dynamische Anzahl an Bildern.
+1. Ziel: Aus Liste an Bildern zufällig ziehen.
+1. Ziel: Erkennen, ob zwei gleiche Bilder gewählt wurden.
