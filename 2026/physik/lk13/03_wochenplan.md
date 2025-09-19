@@ -49,6 +49,8 @@ Skizzieren wir für dieses Konzept die Effekte der:
 
 [Simulation einer stehenden Welle](https://www.leifiphysik.de/mechanik/mechanische-wellen/versuche/stehende-welle-simulation)
 
+![!large](./img/stehende_Welle.png)
+
 1. Beschreiben Sie das Phänomen, der stehenden Welle, wie in dem Applet zu beobachten war.
 1. Erklären Sie das Phänomen.
 1. Formulieren Sie eine Bedingung für den Abstand zwischen Quelle und Reflektor(en).
