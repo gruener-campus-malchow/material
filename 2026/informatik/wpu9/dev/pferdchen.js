@@ -3,6 +3,9 @@
 document.addEventListener('DOMContentLoaded', registerEvents);
 
 function readImageList(){
+
+    let BilderListe = [];
+
     fetch('./feather/filelist.txt')
     .then(response => {
         if (!response.ok) {
@@ -12,9 +15,11 @@ function readImageList(){
     })
     .then(text => {
         const lines = text.split('\n'); // Zeilen in ein Array umwandeln
-        lines.forEach(line=>{alert(line)})
+        lines.forEach(line=>{BilderListe.push(line)})
     })
     .catch(error => console.error('Fehler:', error));
+
+    console.log(BilderListe);
 }
 
 function registerEvents(){
