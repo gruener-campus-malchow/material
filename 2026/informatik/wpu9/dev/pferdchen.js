@@ -12,7 +12,7 @@ function readImageList(){
     })
     .then(text => {
         const lines = text.split('\n'); // Zeilen in ein Array umwandeln
-        alert(lines);
+        lines.forEach(line=>{alert(line)})
     })
     .catch(error => console.error('Fehler:', error));
 }
