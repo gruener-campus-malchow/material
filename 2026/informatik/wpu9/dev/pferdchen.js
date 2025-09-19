@@ -20,6 +20,8 @@ function readImageList(){
     .catch(error => console.error('Fehler:', error));
 
     console.log(BilderListe);
+
+    alert("Fertig")
 }
 
 function registerEvents(){
