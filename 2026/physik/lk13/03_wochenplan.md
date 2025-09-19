@@ -44,3 +44,13 @@ Skizzieren wir für dieses Konzept die Effekte der:
 * Interferenz am Doppelspalt.
 
 ... und ergänzen ggf. um Erläuterungen
+
+### Stehende Wellen
+
+[Simulation einr stehenden Welle](https://www.leifiphysik.de/mechanik/mechanische-wellen/versuche/stehende-welle-simulation)
+
+1. Beschreiben Sie das Phänomen, der stehenden Welle, wie in dem Applet zu beobachten war.
+1. Erklären Sie das Phänomen.
+1. Formulieren Sie eine Bedingung für den Abstand zwischen Quelle und Reflektor(en).
+1. Erläutern Sie das Konzept Wellenknoten und Wellenbauch einer stehenden Welle.
+1. Skizzieren Sie eine stehende Welle im Hefter.
