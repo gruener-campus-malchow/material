@@ -99,3 +99,4 @@ function zoom1_out()
 [Teste den Code](01_test.html)
 
 ![!large](Zwischenergebnis_2025-09-12.png)
+[Zwischenergebnis als ZIP-Archiv](stand_2025-09-12.zip)
