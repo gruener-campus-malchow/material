@@ -1,0 +1,51 @@
+LK Physik Q3 Woche 01 Mechanische Wellen
+==============================
+
+[toc]
+
+## Ziele
+
+* Die Lernenden…
+  * … veranschaulichen die Entstehung (stehender) Wellen in sachgerechten Darstellungsformen, auch mithilfe digitaler Werkzeuge. (K 6)
+  * … präsentieren Eigenschaften und Anwendungen von Frequenzbereichen des elektromagnetischen Spektrums sach- und adressatengerecht unter Einsatz geeigneter analoger und digitaler Medien. (K 7)
+  * … bilden sich reflektiert und rational in außerfachlichen Kontexten (z.B. „Handystrahlung“) ein eigenes Urteil. (B4)
+  * … reflektieren Risikoeinschätzungen zur Mobilfunktechnologie („Handystrahlung“) hinsichtlich der Güte des durchgeführten Bewertungsprozesses. (B 5)
+* Basiskonzepte
+  * Superposition und Komponenten
+    * Erklärung von Interferenzphänomenen mithilfe der Superposition von Wellen
+
+## Inhalte
+
+
+### Stehende Wellen
+
+[Simulation einer stehenden Welle](https://www.leifiphysik.de/mechanik/mechanische-wellen/versuche/stehende-welle-simulation)
+
+![!large](./img/stehende_Welle.png)
+
+1. ~Beschreiben Sie das Phänomen, der stehenden Welle, wie in dem Applet zu beobachten war.~
+1. ~Erklären Sie das Phänomen.~
+1. ~Formulieren Sie Bedingungen für das Entstehen einer stehenden Welle.~
+1. ~Erläutern Sie die Konzepte "Wellenknoten" und "Wellenbauch" einer stehenden Welle.~
+1. Skizzieren Sie eine stehende Welle im Hefter.
+
+### Elektromagnetische Wellen
+
+![dipolanimation](https://upload.wikimedia.org/wikipedia/commons/2/24/Dipolentstehung.gif)
+
+#### Material
+
+> Das Prinzip der elektrischen Dipolantenne geht auf den deutschen Physiker Heinrich Hertz zurück, der im Jahr 1886 als Erster elektromagnetische Wellen experimentell nachweisen konnte. Sein Dipol (Hertzscher Dipol), der wesentlich kleiner als λ/8 war, hat nur noch theoretische Bedeutung. Die Verlängerung auf etwa λ/2 führt zu einer Resonanz, die die Anpassung der Antenne an die Speiseleitung erleichtert und den Wirkungsgrad erhöht. Der russische Physiker Alexander Stepanowitsch Popow verwendete 1895 erstmals eine Dipolantenne zum Empfang elektromagnetischer Wellen.
+
+![Entstehung der Welle (E-Feld)](https://upload.wikimedia.org/wikipedia/commons/d/dd/Dipole_receiving_antenna_animation_6_800x394x150ms.gif)
+
+- Hertzscher Dipol (LBS. 230)
+- [Youtube: Elektromagnetische Welle 1](https://www.youtube.com/watch?v=FLQ1nDHi_uk)
+
+#### Aufgaben
+
+- Nahfeld und Fernfeld skizzieren
+- Resonanzfrequenz des Dipols erklären
+- Resonanzfrequenz einer Dipolantenne für eine bestimmte Frequenz bestimmen.
+- Ausbreitungsgeschwindigkeit EMW
+- Übungen LBS. 244 Nr. 7,8,9 (Fritz: 102,6), 12
