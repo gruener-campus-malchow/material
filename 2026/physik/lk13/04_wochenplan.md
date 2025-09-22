@@ -31,11 +31,17 @@ LK Physik Q3 Woche 01 Mechanische Wellen
 
 ### Elektromagnetische Wellen
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H7_vpO33P04?si=TLJqzW8bInB-iai_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uj8oN3WETKo?si=62StSJ8o37iVA5ri" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ![dipolanimation](https://upload.wikimedia.org/wikipedia/commons/2/24/Dipolentstehung.gif)
 
 #### Material
 
 > Das Prinzip der elektrischen Dipolantenne geht auf den deutschen Physiker Heinrich Hertz zurück, der im Jahr 1886 als Erster elektromagnetische Wellen experimentell nachweisen konnte. Sein Dipol (Hertzscher Dipol), der wesentlich kleiner als λ/8 war, hat nur noch theoretische Bedeutung. Die Verlängerung auf etwa λ/2 führt zu einer Resonanz, die die Anpassung der Antenne an die Speiseleitung erleichtert und den Wirkungsgrad erhöht. Der russische Physiker Alexander Stepanowitsch Popow verwendete 1895 erstmals eine Dipolantenne zum Empfang elektromagnetischer Wellen.
+>
+> https://de.wikipedia.org/wiki/Dipolantenne
 
 ![Entstehung der Welle (E-Feld)](https://upload.wikimedia.org/wikipedia/commons/d/dd/Dipole_receiving_antenna_animation_6_800x394x150ms.gif)
 
@@ -45,6 +51,7 @@ LK Physik Q3 Woche 01 Mechanische Wellen
 #### Aufgaben
 
 - Nahfeld und Fernfeld skizzieren
+- Erstellen Sie eine Tabelle mit den einzelnen Schritten zur Abstrahlung einer Welle in 
 - Resonanzfrequenz des Dipols erklären
 - Resonanzfrequenz einer Dipolantenne für eine bestimmte Frequenz bestimmen.
 - Ausbreitungsgeschwindigkeit EMW
