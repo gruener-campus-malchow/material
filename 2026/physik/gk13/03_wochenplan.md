@@ -34,7 +34,6 @@ Skizzieren wir für dieses Konzept die Effekte der:
 * Brechung
   * Brechungsgesetz formulieren
   * [Totalreflexion](https://www.leifiphysik.de/optik/lichtbrechung/grundwissen/totalreflexion)
-  * Funktionsweise [Regensensor](https://de.wikipedia.org/wiki/Regensensor)
 * Beugung
 * den Einfachspalt
 * Interferenz am Doppelspalt.
