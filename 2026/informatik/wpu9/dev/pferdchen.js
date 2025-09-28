@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', registerEvents);
 
 function readImageList(){
 
-    let BilderListe = [];
+    var BilderListe = [];
 
     fetch('./feather/filelist.txt')
     .then(response => {

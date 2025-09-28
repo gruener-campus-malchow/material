@@ -34,6 +34,7 @@ GK Informatik 12
 > 17.9.2025 ff
 
 * [Funktionen eines DBMS](03_Funktionen_DBMS.md)
+* [Präsentationen zu den Funktionen](03_schuelerpraesentationen.dbms.slides.md)
 
 ## Woche 03
 

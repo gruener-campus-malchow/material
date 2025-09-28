@@ -24,4 +24,4 @@ Zusätzlich soll ein kompletter Arbeitszyklus des eDumpers schematisch dargestel
 
 Abschließend ist darauf einzugehen, weshalb dieser Transporter ein ökologischer Gewinn ist.
 
-Bevor Sie in Panik geraten: Ich werde parallel mit Ihnen auch ein Arbeitsergebnis erstellen, damit Sie jederzeit abkupfern können.
+> Bevor Sie in Panik geraten: Ich werde parallel mit Ihnen auch ein Arbeitsergebnis erstellen, damit Sie jederzeit abkupfern können.
