@@ -1,4 +1,4 @@
-LK Physik Q3 Woche 01 Mechanische Wellen
+LK Physik Q3 Woche 03 Mechanische Wellen
 ==============================
 
 [toc]

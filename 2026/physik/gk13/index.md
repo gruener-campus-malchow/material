@@ -11,3 +11,4 @@ Grundkurs Physik Klasse 13
 * [Woche 01](02_wochenplan.md)
 * [Woche 02](02_wochenplan.md)
 * [Woche 03](03_wochenplan.md)
+* [Woche 04](04_wochenplan.md)

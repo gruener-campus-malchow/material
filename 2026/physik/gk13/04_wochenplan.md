@@ -1,4 +1,4 @@
-LK Physik Q3 Woche 03 und 04 Mechanische Wellen
+LK Physik Q3 Woche 04 Mechanische Wellen
 ==============================
 
 [toc]
@@ -16,6 +16,19 @@ LK Physik Q3 Woche 03 und 04 Mechanische Wellen
 
 ## Inhalte
 
+### Eigenschaften von Wellen
+
+[...]
+
+Skizzieren wir für dieses Konzept die Effekte der:
+
+[...]
+
+* Beugung
+* den Einfachspalt
+* Interferenz am Doppelspalt.
+
+... und ergänzen ggf. um Erläuterungen
 
 ### Stehende Wellen
 
@@ -23,10 +36,10 @@ LK Physik Q3 Woche 03 und 04 Mechanische Wellen
 
 ![!large](./img/stehende_Welle.png)
 
-1. ~Beschreiben Sie das Phänomen, der stehenden Welle, wie in dem Applet zu beobachten war.~
-1. ~Erklären Sie das Phänomen.~
-1. ~Formulieren Sie Bedingungen für das Entstehen einer stehenden Welle.~
-1. ~Erläutern Sie die Konzepte "Wellenknoten" und "Wellenbauch" einer stehenden Welle.~
+1. Beschreiben Sie das Phänomen, der stehenden Welle, wie in dem Applet zu beobachten war.
+1. Erklären Sie das Phänomen.
+1. Formulieren Sie Bedingungen für das Entstehen einer stehenden Welle.
+1. Erläutern Sie die Konzepte "Wellenknoten" und "Wellenbauch" einer stehenden Welle.
 1. Skizzieren Sie eine stehende Welle im Hefter.
 
 ### Elektromagnetische Wellen

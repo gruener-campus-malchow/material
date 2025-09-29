@@ -38,7 +38,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 - [Aufwärmübungen](./01_Aufgaben_Aufwärmen.md)
 
-## Woche 03 (nach den Ferien)
+## Woche 03
 
 - [Arbeitsauftrag Elektrofahrzeuge](./02_Aufgaben_Elektrofahrzeuge.md)
 
