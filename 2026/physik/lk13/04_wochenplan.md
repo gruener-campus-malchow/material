@@ -56,3 +56,14 @@ LK Physik Q3 Woche 03 und 04 Mechanische Wellen
 - Resonanzfrequenz einer Dipolantenne für eine bestimmte Frequenz bestimmen.
 - Ausbreitungsgeschwindigkeit EMW
 - Übungen LBS. 244 Nr. 7,8,9 (Fritz: 102,6), 12
+
+## Transparenzdokument für die Klausur am Donnerstag, den 9.10.
+
+- Skizzen von EM-Wellen nah, EM-Wellen fern, Dipol, Schwingkreis
+- Entstehung von EM-Wellen
+- optimale (minimale) Länge eines Dipols bestimmen
+- Länge einer realistischen Antenne abschätzen/bestimmen
+- Polarisation und Wirkungen von gleich oder unterschiedlich polarisierten Empfänger und Sender begründen
+- Leistung und Frequenz im Zusammenhang mit dem Absorbtionsvermögen in verschiedenen Medien und an Grenzflächen verstehen
+- Ursache für schlechten Empfang in Gebäuden erläutern
+- elektromagnetische Spektrum graphisch wiedergeben
