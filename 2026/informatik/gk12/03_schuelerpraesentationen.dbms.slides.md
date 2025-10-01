@@ -112,9 +112,11 @@ SELECT Titel
 
 ![!contain](https://datascientest.com/de/files/2023/09/trigger-sql.png)
 
-![Ein Datenbanktrigger, in der Informatik meist nur Trigger genannt, ist eine Funktion diverser Datenbankmanagementsysteme, insbesondere großer relationaler Datenbankmanagementsysteme.
+---
 
-Bei einer bestimmten Art der Änderungen (z. B. INSERT, UPDATE, DELETE bei SQL) von Daten in einer Tabelle wird ein gespeichertes Programm aufgerufen, das diese Änderung erlaubt, verhindert und/oder weitere Tätigkeiten vornimmt.]
+Ein Datenbanktrigger, in der Informatik meist nur Trigger genannt, ist eine Funktion diverser Datenbankmanagementsysteme, insbesondere großer relationaler Datenbankmanagementsysteme.
+
+Bei einer bestimmten Art der Änderungen (z. B. INSERT, UPDATE, DELETE bei SQL) von Daten in einer Tabelle wird ein gespeichertes Programm aufgerufen, das diese Änderung erlaubt, verhindert und/oder weitere Tätigkeiten vornimmt.
 
 ---
 
