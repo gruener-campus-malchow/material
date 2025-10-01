@@ -126,6 +126,8 @@ Bei einer bestimmten Art der Änderungen (z. B. INSERT, UPDATE, DELETE bei SQL) 
 
 ## Stored Procedures
 
+---
+
 ![!contain](https://www.sqlservertutorial.net/wp-content/uploads/SQL-Server-Stored-Procedure-Compiling.png)
 
 ---
