@@ -4,51 +4,53 @@
 ---
 
 ## Definition und Abgrenzung
-<!-- Abgrenzung zu Abfragesprachen-->
-<!--
+
 - Turing-complete (es lässt sich theoretisch jede Funktion berechnen)
 - keine klassische Programmiersprache -> es kann keine Anwendungssoftware damit geschrieben werden
 - Mit Hilfe der Datenbanksprache kommuniziert ein Benutzer oder auch ein Programm mit der Datenbank bzw. dem Datenbankmanagementsystem
--->
+
+---
+
 ![!left](https://i.imgur.com/rvtGeSA.png)
 ![!right](https://cdni.iconscout.com/illustration/premium/thumb/database-management-10216063-8266093.png)
 
 ---
 
 ## Unterteilung
-<!--
-Data Manipulation Language (DML, deutsch „Datenverarbeitungssprache“): Sprache oder Sprachteile für das Abfragen, Einfügen, Ändern oder Löschen von Nutzdaten (Schlüssel-Wert-Paare)
--->
-<!--
-Data Definition Language (DDL, deutsch „Datenbeschreibungssprache“): Sprache oder Sprachteile für das Anlegen, Ändern und Löschen von Datenstrukturen ( Tabellen, z.B. Entwurf der Spalten )
--->
-<!--
-Data Control Language (DCL, deutsch „Datenaufsichtssprache“): Sprache oder Sprachteile für die Zugriffskontrolle (Sicherheit)
--->
+
+- Data Manipulation Language (DML, deutsch „Datenverarbeitungssprache“): Sprache oder Sprachteile für das Abfragen, Einfügen, Ändern oder Löschen von Nutzdaten (Schlüssel-Wert-Paare)
+
+- Data Definition Language (DDL, deutsch „Datenbeschreibungssprache“): Sprache oder Sprachteile für das Anlegen, Ändern und Löschen von Datenstrukturen ( Tabellen, z.B. Entwurf der Spalten )
+
+-Data Control Language (DCL, deutsch „Datenaufsichtssprache“): Sprache oder Sprachteile für die Zugriffskontrolle (Sicherheit)
+
+---
+
 ![!large](https://k21academy.com/wp-content/uploads/2022/02/SQL_Diagram-1024x972.png)
 
 ---
 
 ## Weitere Unterteilung
-<!--
-Kategorie Data Query Language (DQL) (oder auch DRL) für die Abfrage von Daten
+
+- Kategorie Data Query Language (DQL) (oder auch DRL) für die Abfrage von Daten
  -> Diese Einteilung ist jedoch nicht allgemein anerkannt (gehört eigentlich zu DML)
 
-Einen weiteren Sonderfall bilden die Sprachelemente zur Arbeit mit Transaktionen, die uneinheitlich entweder der DML, der DCL oder einer eigenen Kategorie Transaction Control Language (TCL) zugeordnet werden
+- Einen weiteren Sonderfall bilden die Sprachelemente zur Arbeit mit Transaktionen, die uneinheitlich entweder der DML, der DCL oder einer eigenen Kategorie Transaction Control Language (TCL) zugeordnet werden
 
-Transaktion: logische Einheit, Folge von Programmierschritten,
-		wird vollständig und fehlerfrei oder gar nicht ausgeführt.
--->
+- Transaktion: logische Einheit, Folge von Programmierschritten, wird vollständig und fehlerfrei oder gar nicht ausgeführt.
+
+---
+
 ![!large](https://k21academy.com/wp-content/uploads/2022/02/SQL_Diagram-1024x972.png)
 
 ---
 
 ## SQL
-<!--
-SQL selbst schreibt nicht vor, wie die Befehle implementiert werden
--> sagt nur was passieren soll ( Entwurf )
-weitverbreitete normierte Sprache
--->
+
+- SQL selbst schreibt nicht vor, wie die Befehle implementiert werden -> sagt nur was passieren soll ( Entwurf )
+- weitverbreitete normierte Sprache
+---
+
 ![!contain](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/SQL.png/500px-SQL.png)
 
 ---
@@ -67,8 +69,12 @@ SELECT Titel
 ---
 
 ## Übersicht an SQL Dialekten
-<!-- Es gibt auch andere Datenbanksprachen neben SQL, jedoch seltener benutzt -->
-<!-- Elefant: PostgreSQL -->
+
+- Es gibt auch andere Datenbanksprachen neben SQL, jedoch seltener benutzt
+- Elefant: PostgreSQL 
+
+---
+
 ![!large](https://www.c-sharpcorner.com/article/what-are-sql-dialects-with-example/Images/1676870252163%20(Small).png)
 
 ---
