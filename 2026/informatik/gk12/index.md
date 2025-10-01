@@ -40,12 +40,13 @@ GK Informatik 12
 
 > 24.9.2025 ff
 
-- Modellierung in Tabellen
+- [Normalformen](03_Normalformen.md)
 
 ## Woche 04
 
 > 01.10.2025 ff
 
+- [Normalformen](03_Normalformen.md)
 - Relationenmodell (RM)
 
 ## Woche 05
