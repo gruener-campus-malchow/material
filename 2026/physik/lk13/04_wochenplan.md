@@ -63,7 +63,7 @@ LK Physik Q3 Woche 03 und 04 Mechanische Wellen
 - Entstehung von EM-Wellen
 - optimale (minimale) Länge eines Dipols bestimmen
 - Länge einer realistischen Antenne abschätzen/bestimmen
-- Polarisation und Wirkungen von gleich oder unterschiedlich polarisierten Empfänger und Sender begründen
+- [Polarisation](https://de.wikipedia.org/wiki/Polarisation) und [Wirkungen von gleich oder unterschiedlich polarisierten Empfänger und Sender](https://www.dl3ftz.de/horizontale-und-vertikale-polarisation-bei-antennen/) begründen
 - Leistung und Frequenz im Zusammenhang mit dem Absorbtionsvermögen in verschiedenen Medien und an Grenzflächen verstehen
 - Ursache für schlechten Empfang in Gebäuden erläutern
 - elektromagnetische Spektrum graphisch wiedergeben
