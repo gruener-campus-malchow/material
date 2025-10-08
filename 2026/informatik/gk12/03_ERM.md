@@ -5,6 +5,8 @@ Entity-Relationship-Modelle
 
 ### Aufgaben
 
-Überführen Sie das folgende ERM in ein RM
-
 ![!large](03_geocaching_erm.png)
+
+![!large](03_Klausurtext_Beispiel.png)
+
+![!large](03_Klausuraufgaben_Beispiel.png)
