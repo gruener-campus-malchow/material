@@ -5,6 +5,8 @@ Entity-Relationship-Modelle
 
 ### Aufgaben
 
+> Erfüllen Sie nur die Klausuraufgaben, die sie erfüllen können, also 2.2.3 und 2.4.1 !
+
 ![!large](03_geocaching_erm.png)
 
 ![!large](03_Klausurtext_Beispiel.png)
