@@ -53,7 +53,7 @@ GK Informatik 12
 
 > 08.10.2025 ff
 
-- Entity-Relationship-Models (ERM)
+- [Entity-Relationship-Models (ERM)](03_ERM.md)
     - (Kardinalitäten) in RM überführen
 
 ## Woche 06
