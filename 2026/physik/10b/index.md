@@ -8,10 +8,12 @@ Physik 10b
     - Was wurde behandelt?
     - Was ist interessant?
     - Was ihr dazu noch lernen sollt.
-    
+
+![!round](Kernphysik-wortwolke.png)
+
 ## Atommodelle
 
-> Zeitdruck: Was auch immer die Leute sich vorgestellt haben: Bohrsches Atommodell
+> Zeitdruck: Was auch immer die Leute sich (vorher) vorgestellt haben: Bohrsches Atommodell
 
 - Video: Offline
 - Aufgabe: Zufällige Dreiergruppen erstellen eine Skizze von einem Atommodell.
@@ -19,6 +21,8 @@ Physik 10b
     - Ranking B: Ästhetik
     - Ranking C: Meinung der SuS
 
+> Wir haben den Aufbau von Atomen für ein paar Beispiele gezeigt.
+    
 ### Atom Aufbau 
 
 SimpleClub: https://www.youtube.com/watch?v=BqeSHBgIRWI
