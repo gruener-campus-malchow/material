@@ -1,6 +1,10 @@
 Physik 10b
 ==============
 
+~~~
+2.10.2025
+~~~
+
 # Kernphysik
 
 - Wortwolke erstellen https://www.wortwolke24.de/
@@ -9,7 +13,13 @@ Physik 10b
     - Was ist interessant?
     - Was ihr dazu noch lernen sollt.
 
+## Erste Sammlung an Begriffen, die man schon einmal gehört hat
+    
 ![!round](Kernphysik-wortwolke.png)
+
+## Gewichtung der Interessen aus einer Umfrage
+
+![Gewichtung](Umfrage_Interesse_Themen.png)
 
 ## Atommodelle
 
@@ -22,6 +32,14 @@ Physik 10b
     - Ranking C: Meinung der SuS
 
 > Wir haben den Aufbau von Atomen für ein paar Beispiele gezeigt.
+
+---
+~~~
+9.10.2025
+~~~
+
+- Eine kleine Geschichte vom PSE
+- Ein Spiel für alle, die gerne [mit Atomen spielen](https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html?locale=de)
     
 ### Atom Aufbau 
 
