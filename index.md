@@ -1,7 +1,7 @@
-Material einiger Fachbereiche
+Material einiger Fächer
 =========================
 
-Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden. Außerdem kann man sich die Planungen der vergangenen Jahre anschauen.
+Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM von Alexander Baldauf unterrichtet werden. Außerdem kann man sich die Planungen der vergangenen Jahre anschauen.
 
 > Have a lot of fun!
 
