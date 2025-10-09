@@ -1,7 +1,9 @@
-Material der Fachbereiche
+Material einiger Fachbereiche
 =========================
 
-Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden.
+Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM unterrichtet werden. Außerdem kann man sich die Planungen der vergangenen Jahre anschauen.
+
+> Have a lot of fun!
 
 [toc]
 
