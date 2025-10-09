@@ -69,6 +69,12 @@ Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 
 > Erstellen wir eine Mitschrift!
 
+### Isotope
+
+- Formelsammlung: https://gcm.schule/formelsammlung.pdf
+- Nuklidkarte1: https://www.egwoerth.de/images/Faecher/Physik/Physik_Nuklidkarte_EGW.pdf
+- Nuklidkarte2: https://physiklehrer.net/Nuklidkarte/
+
 <!--
 
 Lagerung: https://www.youtube.com/watch?v=h7G4-WgAPJk
