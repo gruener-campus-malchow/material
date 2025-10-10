@@ -15,7 +15,7 @@
 
 ![!large](https://www.fe-lexikon.info/bild/elektromagnetisches_spektrum_albertz.jpg)
 
-$$ E = h \cdot f $$
+> $$ E = h \cdot f $$
 
 ## Warum ist der Himmel blau?
 
@@ -33,7 +33,7 @@ $$ E = h \cdot f $$
 
 ### Hilfestellung
 
-> Stichworte: Raleigh-Streuung, Polarisation
+> Stichworte: Rayleigh-Streuung, Polarisation
 
 <!--
 - Das Licht aus Himmelsrichtung besteht zum Großteil aus blauem senkrecht zur Sonne polarisierten Licht
