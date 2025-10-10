@@ -1,12 +1,11 @@
 'use strict';
 
+var BilderListe = [];
+
 document.addEventListener('DOMContentLoaded', registerEvents);
 
 function readImageList(){
-
-    var BilderListe = [];
     /*
-
     fetch('https://gcm.schule/material/2026/informatik/wpu9/dev/feather/filelist.txt')
     .then(response => {
         if (!response.ok) {
@@ -23,10 +22,9 @@ function readImageList(){
 
     BilderListe = svgFiles;
 
+    alert("Fertig");
 
     console.log(BilderListe);
-
-    alert("Fertig")
 
 
 }
@@ -52,6 +50,8 @@ function registerEvents(){
 
     document.getElementById('bild6').addEventListener('pointerover', zoom6_in);
     document.getElementById('bild6').addEventListener('pointerleave', zoom6_out);
+
+
 }
 
 function zoom1_in(){
