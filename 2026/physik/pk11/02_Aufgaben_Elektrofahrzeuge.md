@@ -1,7 +1,7 @@
-Profilkurs Physik (Klasse 11) 2023/2024
+Aufgaben Elektrofahrzeuge
 ======================
 
-# Aufgaben Elektrofahrzeuge
+
 
 Lesen Sie den folgenden Artikel über einen Akku-Betriebenen Transporter im Bergbau:
 
