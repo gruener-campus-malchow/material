@@ -27,6 +27,9 @@ Grundkurs Physik
 1. Entwerfen Sie basierend auf dem oberen Bild eine eigene Darstellung im Hefter.
 2. Ordnen Sie den "typischen Bändern" Beispiele aus Natur und Technik zu.
 3. Lesen Sie die ersten **vier** Abschnitte des [Wikipediartikels über Laser](https://de.wikipedia.org/wiki/Laser).
-4. Fassen Sie die Eigenschaften von Laserstrahlun zusammen.
+4. Fassen Sie die Eigenschaften von Laserstrahlung zusammen.
 5. Erklären Sie das Akronym LASER.
-6. Ordnen Sie die Geschichte der Speichermedien den Wellenlängen, Technologien und Energien zu: CD, DVD, BluRay.
+6. Fassen Sie den Artikel [Bestandteile eines Lasers](https://www.leifiphysik.de/atomphysik/laser/grundwissen/bestandteile-eines-lasers) zusammen.
+7. Verfassen Sie eine Liste an Begriffen, die wir unbedingt noch klären sollten.
+
+> Klären wir die Begriffe!
