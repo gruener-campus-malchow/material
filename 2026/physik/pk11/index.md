@@ -44,6 +44,15 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon mal wissen wollten, was Energie eigentlich ist: https://www.heise.de/hintergrund/Energie-Ein-Crash-Kurs-4271946.html
 
+## Woche xx (nach den Herbstferien)
+
+1. Einer aus jeder Gruppe präsentiert den aktuellen Entwurf einer anderen Gruppe.
+    - Teilgruppe: Todo-Liste (schriftlich), Feedback (mündlich)
+2. Arbeitszeit
+3. Vorlage beim Lehrer (freiwillig)
+
+
+
 <!--
 
 ## Fachprojektwoche

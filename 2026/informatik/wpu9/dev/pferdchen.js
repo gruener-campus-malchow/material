@@ -5,6 +5,7 @@ var BilderListe = [];
 document.addEventListener('DOMContentLoaded', registerEvents);
 
 function readImageList(){
+
     /*
     fetch('https://gcm.schule/material/2026/informatik/wpu9/dev/feather/filelist.txt')
     .then(response => {
@@ -109,7 +110,7 @@ function zoom6_out(){
 
 
 const svgFiles = [
-    "activity.svg",
+"activity.svg",
 "airplay.svg",
 "alert-circle.svg",
 "alert-octagon.svg",
