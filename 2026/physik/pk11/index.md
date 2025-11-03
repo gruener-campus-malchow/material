@@ -61,6 +61,36 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 > - Wirkungsgrad
 > - Kraftumformende Einrichtungen: Flaschen-/Seilzug
 
+## Woche xx+01
+
+- Der englischsprachige Blog https://betterposters.blogspot.com/ enthält eine [Vorbereitung auf einen Postertalk](https://betterposters.blogspot.com/).
+
+> In that conference, flash talks for posters should be at most 2:30 minutes, and had to be pre-recorded.
+>
+> und
+> 
+> It took me a couple of tries to get it short. It is much more difficult than in person, but I think this is the same lesson I have learned teaching remote classes this year and organising remote meetings and supervision. 
+>
+> Quelle: https://betterposters.blogspot.com/
+
+- 30 Minuten voller Poster-Talks: https://www.youtube.com/watch?v=WWHbe1nfChA
+
+### Ablauf der Doppelstunde
+
+- 20 Minuten Vorbereitungszeit
+- 4 x 3 Minuten pro Talk
+- Feedbackrunde
+- Notenbestimmung
+
+Und weil womöglich noch Zeit ist:
+
+- Unterschied zwischen Energie, Arbeit und Leistung
+- Energieumwandlungskette für den eDumper
+- Energieumwandlungskette eines ÖPNV-Busses mit Klima-Anlage
+- Energieumwandlungskette einer Straßenbahn mit Klima-Anlage
+- Definition des Wirkungsgrades, Beispielrechnungen
+
+
 
 
 <!--
