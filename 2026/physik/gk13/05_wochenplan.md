@@ -27,9 +27,12 @@ Grundkurs Physik
 1. Entwerfen Sie basierend auf dem oberen Bild eine eigene Darstellung im Hefter.
 2. Ordnen Sie den "typischen Bändern" Beispiele aus Natur und Technik zu.
 3. Lesen Sie die ersten **vier** Abschnitte des [Wikipediartikels über Laser](https://de.wikipedia.org/wiki/Laser).
+27. Lesen Sie die Seiten 296 und 297 im Lehrbuch.
 4. Fassen Sie die Eigenschaften von Laserstrahlung zusammen.
+243. Nennen Sie drei Anwendungsgebiete von Lasern und erläutern Sie, wie Laser so nützlich für diese Anwendungen sind.
 5. Erklären Sie das Akronym LASER.
 6. Fassen Sie den Artikel [Bestandteile eines Lasers](https://www.leifiphysik.de/atomphysik/laser/grundwissen/bestandteile-eines-lasers) zusammen.
-7. Verfassen Sie eine Liste an Begriffen, die wir unbedingt noch klären sollten.
+45. Erstellen Sie eine Skizze zum Aufbau an welcher Sie die Funktionsweise eines Lasers erklären können.
+7. Verfassen Sie eine Liste an Begriffen, die wir unbedingt noch klären sollten - die Sie noch nicht wirklich verstanden haben.
 
 > Klären wir die Begriffe!
