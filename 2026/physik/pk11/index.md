@@ -53,7 +53,7 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 
 ## Klausur am 01.12.2025
 
-> [Operatoren](../../Operatoren_IQB_2025.md): Erläutern, Beschreiben, Skizzieren, Berechnen, Begründen
+> [Operatoren](../../../Operatoren_IQB_2025.md): Erläutern, Beschreiben, Skizzieren, Berechnen, Begründen
 
 > Thema: Energie, Energieformen und -Umwandlung
 > - Energie, Arbeit, Leistung
