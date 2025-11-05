@@ -64,3 +64,10 @@ GK Informatik 12
     
     
 ## Herbstferien vom 20.10. bis 01.11.
+
+## Woche 07
+
+> 05.11.25 ff
+
+- Klausurvorbereitung: [Entity-Relationship-Models (ERM)](03_ERM.md)
+- Nulltestundeaufgabe: Erstellen Sie ein ERM für Ihr Szenario
