@@ -12,3 +12,7 @@ Entity-Relationship-Modelle
 ![!large](03_Klausurtext_Beispiel.png)
 
 ![!large](03_Klausuraufgaben_Beispiel.png)
+
+#### Aus dem Erwartungshorizont
+
+![!large](03_Klausuraufgaben_Lösungshinweis_EH.png)
