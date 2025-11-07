@@ -8,3 +8,6 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 # Erstes Halbjahr
 
 - [Lernumgebung - Rechnen in der Physik](00_Lernumgebung.zip) Passwort siehe Hefter
+- Aufbau Formelsammlung
+- Checkliste
+- Test zur Übung gemeinsam lösen...
