@@ -15,7 +15,7 @@ Die Lernenden…
 - Doppelspalt-Experiment
     - Beobachtungen
     - Theorie: https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/doppelspalt
-    - Mitschrift: Aufbau, Berechnung (keine Herleitung)
+    - Mitschrift: Aufbau, Berechnung (mit Herleitung der Formel)
     - Bestimmung des Spaltabstandes
     - Bestimmung der Wellenlänge
     - Noch Fragen?
