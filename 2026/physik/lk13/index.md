@@ -14,4 +14,5 @@ Leistungskurs Physik Klasse 13
 * [Woche 04: Elektromagnetische Wellen](05_wochenplan.md)
 * [Woche 05 & 06](06_wochenplan.md)
 * Herbstferien
-* [Woche 07](07_wochenplan.md)
+* [Woche 07: Laser](07_wochenplan.md)
+* [Woche 08: Laser - Doppelspalt](08_wochenplan.md)
