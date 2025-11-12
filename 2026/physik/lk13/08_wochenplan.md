@@ -19,3 +19,7 @@ Die Lernenden…
     - Bestimmung des Spaltabstandes
     - Bestimmung der Wellenlänge
     - Noch Fragen?
+- Bragg
+    - Lehrbuchseite
+    - Grafische Konstruktion
+    - Mathematische Modellierung: Bragg-Gleichung [Leifi](https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/bragg-reflexion)
