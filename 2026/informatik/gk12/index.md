@@ -71,3 +71,13 @@ GK Informatik 12
 
 - Klausurvorbereitung: [Entity-Relationship-Models (ERM)](03_ERM.md)
 - Nulltestundeaufgabe: Erstellen Sie ein ERM für Ihr Szenario
+
+## Woche 08
+
+### Klausurvorbereitung
+
+> Beurteilen Sie, ob das von Ihrem Mitschüler präsentierte ERM für sein zuvor vorgestelltes Szenarion geeignet ist.
+
+Tipps:
+
+- Gehen Sie nach Kriterien vor: Überprüfen Sie, ob alle Entitäten, Attribute und Beziehung vorhanden sind. Stellen Sie Überlegungen an, ob die verwendeten Kardinalitäten geeignet sind, die Zusammenhänge zu modellieren. Fassen Sie dann ihre Erkenntnisse, also Ihr begründetes Urteil auf Basis ihrer systematischen Untersuchung zusammen.
