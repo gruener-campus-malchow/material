@@ -29,7 +29,7 @@ Tipps:
 
 1. Vergleichen Sie das oben gezeigte ERM mit dem ERM auf der Projektseite für das "Colaborative Measurement Network" (https://github.com/gruener-campus-malchow/colamator) und beschreiben Sie die Unterschiede.
 1. Überführen Sie das ERM von oben in ein RM und außerdem in Tabellen mit je 3 Beispielwerten.
-1. Lesen Sie den Abschnitt "Ziele" auf der [Projektseite von colamator] und beurteilen Sie, ob das dort vorgestellte ERM geeignet ist, die Ziele zu erfüllen.
+1. Lesen Sie den Abschnitt "Ziele" auf der [Projektseite von colamator](https://github.com/gruener-campus-malchow/colamator) und beurteilen Sie, ob das dort vorgestellte ERM geeignet ist, die Ziele zu erfüllen.
 1. Modellieren Sie ein ERM, welches möglich macht, dass einzelne Messwerte öffentlich oder privat sind.
 
 ## Transparenzdokument
