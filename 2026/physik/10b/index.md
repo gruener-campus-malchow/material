@@ -75,6 +75,20 @@ Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 - Nuklidkarte1: https://www.egwoerth.de/images/Faecher/Physik/Physik_Nuklidkarte_EGW.pdf
 - Nuklidkarte2: https://physiklehrer.net/Nuklidkarte/
 
+#### Schreibweisen
+
+- Massenzahl, Kernladungszahl
+
+![Isotopenschreibweise](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Isotope_NiCuZn.svg/1920px-Isotope_NiCuZn.svg.png)
+
+### Radioaktive Teilchen
+
+- **Noch einmal:** Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
+- Alpha-, Beta-, Gammastrahlen
+- Auch Kernstrahlung aber nicht ionisierend: Neutronen
+- Röntgenstrahlung (X-Strahlen) stammt nicht aus dem Kern
+
+
 <!--
 
 Lagerung: https://www.youtube.com/watch?v=h7G4-WgAPJk
