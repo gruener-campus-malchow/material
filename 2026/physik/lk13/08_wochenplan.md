@@ -23,3 +23,4 @@ Die Lernenden…
     - Lehrbuchseite
     - Grafische Konstruktion
     - Mathematische Modellierung: Bragg-Gleichung [Leifi](https://www.leifiphysik.de/optik/beugung-und-interferenz/grundwissen/bragg-reflexion)
+    - Übungsaufgaben rechnen (pro Person 3 Aufgaben, davon 1 mittelschwere Aufgabe)
