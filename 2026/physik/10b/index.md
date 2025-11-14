@@ -83,10 +83,19 @@ Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 
 ### Radioaktive Teilchen
 
+> Übung: Benutzen Sie die Formelsammlung auf S. 71,72 und 73
+>
+> Nennen Sie die Ordnungszahl **und** Halbwertszeit von: Bi210, Pt198, Rn225, O13 und C14
+
 - **Noch einmal:** Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 - Alpha-, Beta-, Gammastrahlen
-- Auch Kernstrahlung aber nicht ionisierend: Neutronen
-- Röntgenstrahlung (X-Strahlen) stammt nicht aus dem Kern
+- Auch Kernstrahlung aber nicht ionisierend: Neutronenstrahlung (wichtig für das Verständnis von Atomkraftwerken)
+- Röntgenstrahlung (X-Strahlen) stammt nicht aus dem Kern, deshalb nicht radioaktiv aber ionisierend
+- Lehrbuchseite 129
+- Zerfallsgleichung
+- Zerfallsketten
+
+> Test: Nuklidkarte, Zerfallsgleichung
 
 
 <!--

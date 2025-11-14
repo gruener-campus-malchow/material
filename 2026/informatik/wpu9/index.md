@@ -118,3 +118,16 @@ https://gcm.schule/material/2026/informatik/wpu9/dev/fliegendespferd.html
 1. Ziel: Levels - also dynamische Anzahl an Bildern.
 1. Ziel: Aus Liste an Bildern zufällig ziehen.
 1. Ziel: Erkennen, ob zwei gleiche Bilder gewählt wurden.
+
+# Vorbereitung der Klassenarbeit
+
+## Transparenzdokument
+
+- Eine Webseite skizzieren
+- Steuerelemente platzieren
+- Steuerelementen IDs zuweisen
+- EventListener entwerfen, die den IDs zugeordnet werden, vorgegebene Funktionalität
+- Beispielcode als Vorlage verwenden
+- Wichtige Verwendungszwecke für JavaScript nennen
+- Erklären, was ein Event ist
+- Beschreiben, was ein EventListener in JavaScript im Allgemeinen tut
