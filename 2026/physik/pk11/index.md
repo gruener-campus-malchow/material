@@ -91,7 +91,9 @@ Und weil womöglich noch Zeit ist:
 - Definition des Wirkungsgrades, Beispielrechnungen
 
 
+# Messwerterfassungssystem
 
+- [Aufgabenstellug und Material](./03_Messwerterfassungssystem.md)
 
 <!--
 

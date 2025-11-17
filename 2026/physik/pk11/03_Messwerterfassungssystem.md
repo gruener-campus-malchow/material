@@ -1,4 +1,4 @@
-Fachprojektwoche
+Profilkus Physik
 ==================
 
 # Zielstellung
@@ -16,14 +16,12 @@ Fachprojektwoche
 
 Erstellen Sie folgende Dokumente:
 
-- Anleitung zur Verbindung der Sensoren mit dem eigenen Laptop / Smartphone
 - Beispiel einer Entladekurve auf Basis folgender Abiturprüfungen
 	- [Beispielaufgabe 2013](https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/fachbriefe_berlin/physik/fachbrief_physik_08_beispielaufgaben_lk_2013.pdf)
 	- [Beispielaufgabe 2015](https://www.isq-bb.de/wordpress/wp-content/uploads/2018/04/2015_Physik_Physik-Leistungskurs-Aufgaben.pdf)
 
-# Leistungsbewertung
+# Leistungsbewertung?
 
 - Arbeit in der Arbeitsphase
 - Arbeiten mit den Geräten und Messinstrumenten
-- Arbeitsergebnis Anleitung
 - Arbeitsergebnis Entladekurve
