@@ -16,3 +16,5 @@ Leistungskurs Physik Klasse 13
 * Herbstferien
 * [Woche 07: Laser](07_wochenplan.md)
 * [Woche 08: Laser - Doppelspalt](08_wochenplan.md)
+* [Woche 09: Interferometer](09_wochenplan.md)
+
