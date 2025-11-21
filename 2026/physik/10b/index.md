@@ -95,7 +95,7 @@ Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 - Zerfallsgleichung
 - Zerfallsketten
 
-> Test: Nuklidkarte, Zerfallsgleichung
+> Test: Nuklidkarte, ~~Zerfallsgleichung~~
 
 
 <!--
