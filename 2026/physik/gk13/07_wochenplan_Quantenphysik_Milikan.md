@@ -25,7 +25,7 @@ Gerthsen:
 > Damit ist die zu messende Ladung direkt durch bekannte Größen ausgedrückt
 > (Aufgabe 6.1.14).
 > Mit dieser Methode fand Millikan heraus, dass die Ladung solcher Tröpfchen stets
-> ein niedriges ganzes Vielfaches von 1,6 · 10^ −19 C beträgt, d. h. wenige Elementarladungen **e** enthält (Abschn. 6.1.1). Er konnte **e** so mit hoher Genauigkeit direkt bestimmen. Heutiger Wert: e = (1,602 176 46 ± 0,000 000 06) · 10 −19 C .
+> ein niedriges ganzes Vielfaches von \\( 1,6 \cdot 10^{−19} C \\)  beträgt, d. h. wenige Elementarladungen **e** enthält (Abschn. 6.1.1). Er konnte **e** so mit hoher Genauigkeit direkt bestimmen. Heutiger Wert: \\( e = (1,602 176 46 ± 0,000 000 06) · 10^{−19} C \\) .
 
 ### Aufgaben
 
