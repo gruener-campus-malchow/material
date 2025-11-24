@@ -51,16 +51,6 @@ Falls Sie etwas übersehen haben, nachschlagen wollen oder insgesamt immer schon
 2. Arbeitszeit
 3. Vorlage beim Lehrer (freiwillig)
 
-## Klausur am 01.12.2025
-
-> [Operatoren](../../../Operatoren_IQB_2025.md): Erläutern, Beschreiben, Skizzieren, Berechnen, Begründen
-
-> Thema: Energie, Energieformen und -Umwandlung
-> - Energie, Arbeit, Leistung
-> - Energieumwandlungsketten
-> - Wirkungsgrad
-> - Kraftumformende Einrichtungen: Flaschen-/Seilzug
-
 ## Woche xx+01
 
 - Der englischsprachige Blog https://betterposters.blogspot.com/ enthält eine [Vorbereitung auf einen Postertalk](https://betterposters.blogspot.com/).
@@ -93,7 +83,24 @@ Und weil womöglich noch Zeit ist:
 
 # Messwerterfassungssystem
 
+## Studienfahrt
+
+> Werbung!
+
+## Klausur am 01.12.2025
+
+> [Operatoren](../../../Operatoren_IQB_2025.md): Erläutern, Beschreiben, Skizzieren, Berechnen, Begründen
+
+> Thema: Energie, Energieformen und -Umwandlung
+> - Energie, Arbeit, Leistung
+> - Energieumwandlungsketten
+> - Wirkungsgrad
+> - Kraftumformende Einrichtungen: Flaschen-/Seilzug
+
 - [Aufgabenstellug und Material](./03_Messwerterfassungssystem.md)
+
+
+
 
 <!--
 
