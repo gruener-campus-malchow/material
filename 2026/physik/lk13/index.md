@@ -18,3 +18,7 @@ Leistungskurs Physik Klasse 13
 * [Woche 08: Laser - Doppelspalt](08_wochenplan.md)
 * [Woche 09: Interferometer](09_wochenplan.md)
 
+### Quantenphysik
+
+* [Woche 10: Millikan](10_wochenplan_Quantenphysik_Milikan.md)
+
