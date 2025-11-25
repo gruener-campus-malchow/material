@@ -53,8 +53,9 @@ https://www.leifiphysik.de/quantenphysik/quantenobjekt-photon/versuche/h-bestimm
 3. Beurteilen Sie die Bedeutung des photoelektrischen Effekts für die moderne Photografie.
 
 > Der Photoeffekt ist für die moderne Photografie deshalb äußerst wichtig, weil er theoretisch beschreibt, wie und weshalb freie Elektronen durch Licht aus einem Material gelöst werden. Bei Halbleitern, aus denen Bildsensoren bestehen, führt der innere photoelektrische Effekt dazu, dass Elektronen aus dem Valenzband in das Leitungsband wechseln. Damit sind Sensoren möglich, die das Vorhandensein und sogar die Menge an Licht an einem Punkt (Pixel) messen können.
-> ---
-> FunFact: Auch bei analoger Photografie (ca. 150-200 Jahre alt), ist der innere Photoeffekt für die chemische Veränderung des Films an den stellen, wo er belichtet wurde, verantwortlich. Stichworte: Silberhalogenid und Photoeffekt.
+> 
+>
+> FunFact: Auch bei analoger Photografie (ca. 150-200 Jahre alt), ist der innere Photoeffekt für die chemische Veränderung des Films an den Stellen, wo er belichtet wurde, verantwortlich. Stichworte: Silberhalogenid und Photoeffekt.
 
 ### Aufgabe Teil 2
 
@@ -72,5 +73,6 @@ die Photonenmasse m her.
 
 Leiten Sie außerdem mit den selben Gleichungen und der Definition des Impulses $$ p = m \cdot v = m \cdot c $$ den Impuls des Photons her.
 
+> Haben wir etwas vergessen? https://www.youtube.com/watch?v=65LyUlUJIPk
 
 Have a lot of fun!
