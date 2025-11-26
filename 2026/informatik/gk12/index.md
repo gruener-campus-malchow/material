@@ -76,3 +76,10 @@ GK Informatik 12
 
 - [Klausurvorbereitung](04_Klausurvorbereitung.md)
 
+## Woche 09
+
+- Einführung in SQL - DDL
+- Einführung in die Dokumentation / das Manual von MariaDB
+- Erstellen eigener SQL-Create Statements
+- Beispiele und Debugging mit phpMyAdmin auf Bplaced
+

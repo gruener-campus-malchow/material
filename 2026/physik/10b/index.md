@@ -97,6 +97,69 @@ Radioaktive Strahlung: https://www.youtube.com/watch?v=rHUJMVDOMtM
 
 > Test: Nuklidkarte, ~~Zerfallsgleichung~~
 
+### Die Uran-238-Reihe
+
+![Reihendarstellung](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Uranova_rada.svg/1280px-Uranova_rada.svg.png)
+
+> Vollziehe die Reihe fünf Schritte lang nach.
+
+#### Man kann auch zurück rechnen: [Transurane](https://de.wikipedia.org/wiki/Transurane)
+
+"Alle bekannten Transurane sind radioaktiv mit Halbwertszeiten zwischen einigen 10 Millionen Jahren (selten, z. B. Plutonium-244) über Minuten bis zu Bruchteilen einer Sekunde (häufig). Einige Isotope der leichteren Transurane von Neptunium bis Curium haben Halbwertszeiten von einigen Jahrmillionen, Jahrtausenden oder Jahrhunderten. Sie entstehen in Kernreaktoren und machen einen Teil der langlebigen radioaktiven Abfälle aus.
+
+Im Periodensystem der Elemente beginnt nach dem Uran mit der Ordnungszahl 92 die Reihe der Transurane mit dem Neptunium (Element 93). Neben dem für die Kernspaltung bedeutenden Element Plutonium (94) gehören auch Americium (95), Curium (96), Berkelium (97), Californium (98), Einsteinium (99), Fermium (100), Mendelevium (101), Nobelium (102) und Lawrencium (103) sowie alle weiteren schwereren Elemente (Transactinoide) zu den Transuranen."
+
+https://www.astropage.eu/2021/05/19/radioaktives-plutonium-244-und-ein-umdenken-bei-der-nukleosynthese/
+
+### Im Kernreaktor beim Verbrennen
+
+![Brennstab](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Nuklearer_Brennstoffverbrauch.png/2560px-Nuklearer_Brennstoffverbrauch.png)
+
+Bevor wir weiter machen:
+
+### Halbwertszeit
+
+> Notiere die Halbwertszeiten folgender Elemente in Deinen Hefter:
+> - Neptunium
+> - Plutonium
+> - Americium
+> - Curium
+
+Halbwertszeit verstehen: https://www.mintjanssen.de/web-apps/wuerfelzerfall/
+
+|Vorgang|Zeit|
+|---|---|
+| Spielen | 3 Minuten |
+| Erkläre Deinem Nachbarn, was bei dem Experiment geschieht. Erkläre insbesondere, weshalb der Zufall eine wichtige Rolle spielt. | 2 x 1 Minute |
+| Erstelle eine Tabelle in der Du für jeden Wurf die Anzahl aller noch vorhanden Würfel notierst (siehe unten) | 5 Minuten |
+| Stelle die Tabelle grafisch dar. (x-Achse für die Wurfnummer, y-Achse für die Anzahl der Würfel) | 5 Minuten |
+
+> Vergleiche Deine eigene Grafik mit folgender Grafik. Was fällt Dir auf?
+>
+> Tipps:
+> - Beschreibe den Kurvenverlauf
+> - Wie beginnt die Kurve
+> - Welche Unterschiede gibt es?
+
+![Halbwertszeit](https://www.leifiphysik.de/sites/default/files/2021/01/image/zerfallsgesetz_t_n_halbwertszeit_1.svg)
+
+> Bestimme die Halbwertszeit des Würfelexperimentes.
+
+Und nun der schwierige Teil:
+
+> 1. Entwirf eine Definition für den Begriff "Halbwertszeit".
+> 1. Tausche Deine Definition mit jemanden, der nicht in unmittelbarer Nähe sitzt.
+> 1. Ergänze die fremde Definition mit kurzen Hilfen oder einem Lob.
+> 1. Finden wir im Anschluss einen Konsens?
+
+#### Rechenaufgaben
+
+1. Die erste wägbare Menge von Plutonium-239, etwa 4 μg, wurde im August/September 1942 von Burris B. Cunningham, M. Cefola und Louis B. Werner isoliert. Wenn man diese Menge 200'000 Jahre lagern würde. Wieviel wäre ungefähr noch vorhanden?
+1. In einem Kernreaktor wurde 1g des Transurans Americium-238 hergestellt. 
+    - Stelle den Zerfall in einem Graphen dar. 
+    - Erläutere anhand des Graphen, weshalb 24h später kaum noch Spuren davon zu finden waren.
+    - Ermittle aus der Isotopenkarte, welches Isotop stattdessen vorhanden war.
+
 
 <!--
 
