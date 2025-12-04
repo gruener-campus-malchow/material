@@ -131,3 +131,17 @@ https://gcm.schule/material/2026/informatik/wpu9/dev/fliegendespferd.html
 - Wichtige Verwendungszwecke für JavaScript nennen
 - Erklären, was ein Event ist
 - Beschreiben, was ein EventListener in JavaScript im Allgemeinen tut
+
+# Achtung, jetzt kommt ein Projekt
+
+https://makecode.microbit.org/?lang=DE
+
+- [Einführung](https://makecode.microbit.org/about) und [Editor](https://www.youtube.com/watch?v=UrwyKOKNxC0)
+- Ziele für diese Stunde
+  - Gruppen bilden (es gibt fünf Micro:Bits), Namen festlegen
+  - 30 Minuten den M:B entdecken. 
+    - Erfolgreich: Eigener Code läuft (z.B. Projektname auf LED-Display)
+  - Projektvorschlag ausarbeiten
+    - Ziel des Projektes
+    - Welche Teile werden benötigt?
+    - Arbeitsaufteilung: Wer macht was?
