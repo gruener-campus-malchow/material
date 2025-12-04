@@ -141,9 +141,16 @@ https://makecode.microbit.org/?lang=DE
 - [Einführung](https://makecode.microbit.org/about) und [Editor](https://www.youtube.com/watch?v=UrwyKOKNxC0)
 - Ziele für diese Stunde
   - Gruppen bilden (es gibt fünf Micro:Bits), Namen festlegen
-  - 30 Minuten den M:B entdecken. 
+  - 30 Minuten den m:b entdecken. 
     - Erfolgreich: Eigener Code läuft (z.B. Projektname auf LED-Display)
   - Projektvorschlag ausarbeiten
     - Ziel des Projektes
     - Welche Teile werden benötigt?
     - Arbeitsaufteilung: Wer macht was?
+
+## Editoren
+
+> Achtung, bei den Script-Sprachen werden nicht alle Sprachbestandteile vom m:b unterstützt.
+
+- Blöcke / Python / JavaScrip: https://makecode.microbit.org/#editor
+- Nur Python: https://python.microbit.org/v/3
