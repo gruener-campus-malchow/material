@@ -134,6 +134,8 @@ https://gcm.schule/material/2026/informatik/wpu9/dev/fliegendespferd.html
 
 # Achtung, jetzt kommt ein Projekt
 
+![m:b](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/BBC_micro_bit_%2826212930836%29.png/2560px-BBC_micro_bit_%2826212930836%29.png)
+
 https://makecode.microbit.org/?lang=DE
 
 - [Einführung](https://makecode.microbit.org/about) und [Editor](https://www.youtube.com/watch?v=UrwyKOKNxC0)
