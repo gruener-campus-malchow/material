@@ -30,10 +30,6 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - Warum Physik als Fach?
 - Welche anderen Fächer spielen eine Rolle?
 
-
-
-
-
 ## Woche 02
 
 - [Aufwärmübungen](./01_Aufgaben_Aufwärmen.md)
@@ -80,8 +76,7 @@ Und weil womöglich noch Zeit ist:
 - Energieumwandlungskette einer Straßenbahn mit Klima-Anlage
 - Definition des Wirkungsgrades, Beispielrechnungen
 
-
-# Messwerterfassungssystem
+# Off Topic aber wichtig
 
 ## Studienfahrt
 
@@ -97,10 +92,13 @@ Und weil womöglich noch Zeit ist:
 > - Wirkungsgrad
 > - Kraftumformende Einrichtungen: Flaschen-/Seilzug
 
+# Messwerterfassungssystem
+
+## Woche vom 08.12.
+
+- Nachbesprechung Klausur
+- Blick auf [Abituraufgaben](https://www.isq.berlin/wordpress/pruefungsarbeiten/berlin_zentralabitur/#1523966044400-d7c2f1c1-e34d)
 - [Aufgabenstellug und Material](./03_Messwerterfassungssystem.md)
-
-
-
 
 <!--
 
