@@ -18,3 +18,5 @@ Grundkurs Physik Klasse 13
 * [Woche 05](05_wochenplan.md)
 * [Woche 06](06_wochenplan.md)
 * [Woche 07](07_wochenplan_Quantenphysik_Milikan.md)
+* [Woche 08 und 09](08_09_wochenplan_Photoeffekt.md)
+* [Woche 10](10_wochenplan_de-broglie.md)
