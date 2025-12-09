@@ -3,7 +3,8 @@ Material einiger Fächer
 
 Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger Kurse zusammenfassen, die im aktuellen Schuljahr am GCM von Alexander Baldauf unterrichtet werden. Außerdem kann man sich die Planungen der vergangenen Jahre anschauen.
 
-[Liste der offiziell definierten Operatoren](https://gcm.schule/material/Operatoren_IQB_2025.md)
+- [Liste der offiziell definierten Operatoren](https://gcm.schule/material/Operatoren_IQB_2025.md)
+- [Inhalte der zentralen Abschlussprüfungen](https://www.iqb.hu-berlin.de/media/documents/N_Inhaltliche_Vereinbarungen_zur_Gestaltung_der_Aufgaben_Physik.pdf)
 
 > Have a lot of fun!
 
