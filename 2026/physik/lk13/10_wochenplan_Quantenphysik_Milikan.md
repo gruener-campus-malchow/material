@@ -75,4 +75,28 @@ Leiten Sie außerdem mit den selben Gleichungen und der Definition des Impulses 
 
 > Haben wir etwas vergessen? https://www.youtube.com/watch?v=65LyUlUJIPk
 
+## Klausur
+
+- Experimente, die den Welle-Teilchen-Dualismus bzw. die einzelnen Eigenschaften aufzeigen, auch mathematische Zusammenhänge und Herleitung
+- Compton-Effekt (qualitativ)
+- Beugung und Interferenz an Spalten und Kanten (Huygens Elementarwellenmodell sollte präsent sein)
+- Statistische Interpretation der Quantenmechanik (qualitativ)
+- Energie, Impuls, Masse von Photonen
+- Interpretation technischer Zeichnungen und von Grafiken/Diagrammen
+
+## Auch Elektronen (und andere Teilchen) sind Quanten
+
+Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
+
+### Aufgaben
+
+- Beschreiben Sie die Hypothese von de Broglie in eigenen Worten.
+- Nennen Sie die de-Broglie-Wellenlänge für Elektronen für die Fälle (v < 0,1c & v >= 0,1c)
+- Nennen Sie die de-Broglie-Wellenlänge für Elektronen, wenn sie dessen kinetische Energie kennen.
+- Nennen Sie die de-Broglie-Wellenlänge für Elektronen, wenn sie dessen Beschleunigung kennen.
+- Vergleichen Sie die de-Broglie-Wellenlänge von Elektronen im relativistischen und nicht relativistischen Fall. Beurteilen Sie die Unterschiede.
+
+
+
+
 Have a lot of fun!

@@ -20,5 +20,5 @@ Leistungskurs Physik Klasse 13
 
 ### Quantenphysik
 
-* [Woche 10: Millikan](10_wochenplan_Quantenphysik_Milikan.md)
+* [Woche 10, 11: Millikan, Photoeffekt, Klausur, de-Broglie](10_wochenplan_Quantenphysik_Milikan.md)
 
