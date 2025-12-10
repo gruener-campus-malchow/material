@@ -142,6 +142,7 @@ Davon abgesehen besitzt er keine besonderen Eigenschaften.
 Es kann interessant sein, zu notieren, nach welchem Wurf, bzw. zu welchem Zeitpunkt er zerfallen ist. 
 Lässt sich eine Regelmäßigkeit feststellen? 
 ~~~
+Quelle: https://www.mintjanssen.de/web-apps/wuerfelzerfall.html#start
 
 
 |Vorgang|Zeit|
