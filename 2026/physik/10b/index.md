@@ -127,6 +127,23 @@ Bevor wir weiter machen:
 
 Halbwertszeit verstehen: https://www.mintjanssen.de/web-apps/wuerfelzerfall/
 
+~~~
+Am Anfang werden 150 Würfel geworfen. Alle Würfel, die danach eine Sechs zeigen, 
+werden rot markiert und gelten als zerfallen. Sie können nun gezählt werden.
+
+Die Würfel entsprechen also in diesem Modellexperiment radioaktive Atomkerne.
+
+Vor dem nächsten Wurf werden sie automatisch aussortiert.
+
+Ein Wurf entspricht einem Zeitschritt in der Realität.
+
+Ein Würfel ist gelb mit schwarzen Augen gefärbt. 
+Davon abgesehen besitzt er keine besonderen Eigenschaften. 
+Es kann interessant sein, zu notieren, nach welchem Wurf, bzw. zu welchem Zeitpunkt er zerfallen ist. 
+Lässt sich eine Regelmäßigkeit feststellen? 
+~~~
+
+
 |Vorgang|Zeit|
 |---|---|
 | Spielen | 3 Minuten |
