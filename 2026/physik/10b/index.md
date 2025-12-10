@@ -152,7 +152,7 @@ Und nun der schwierige Teil:
 > 1. Ergänze die fremde Definition mit kurzen Hilfen oder einem Lob.
 > 1. Finden wir im Anschluss einen Konsens?
 
-#### Rechenaufgaben
+#### Aufgaben
 
 1. Die erste wägbare Menge von Plutonium-239, etwa 4 μg, wurde im August/September 1942 von Burris B. Cunningham, M. Cefola und Louis B. Werner isoliert. Wenn man diese Menge 200'000 Jahre lagern würde. Wieviel wäre ungefähr noch vorhanden?
 1. In einem Kernreaktor wurde 1g des Transurans Americium-238 hergestellt. 
@@ -160,10 +160,23 @@ Und nun der schwierige Teil:
     - Erläutere anhand des Graphen, weshalb 24h später kaum noch Spuren davon zu finden waren.
     - Ermittle aus der Isotopenkarte, welches Isotop stattdessen vorhanden war.
 
+### Apropos Lagerung
+
+https://www.youtube.com/watch?v=h7G4-WgAPJk
+
+#### Aufgaben
+
+- Übernimm folgende Tabelle in Deinen Hefter und vervollständige sie:
+
+| Halbwertszeit | Aktivität | Risiko unmittelbar | Risiko langfristig |
+|---|---|---|---|
+| gering | | | |
+| |gering | | |
+
+- Beurteile unter welchen Bedingungen Du radioaktive Stoffe zu Hause (in Deinem Zimmer) lagern würdest - oder weshalb nicht.
+- Beurteile unter welchen Bedingungen Du an einem Ort mit radioaktiven Stoffen, z.B. einem Labor, arbeiten würdest.
 
 <!--
-
-Lagerung: https://www.youtube.com/watch?v=h7G4-WgAPJk
 
 Argumente: https://www.youtube.com/watch?v=7oP2Cx-ssOc
 
