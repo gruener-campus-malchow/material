@@ -88,6 +88,8 @@ Leiten Sie außerdem mit den selben Gleichungen und der Definition des Impulses 
 
 Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 
+![Louis de Broglie](https://www.leifiphysik.de/sites/default/files/images/ad7812579fa13a358da35442b5d07b9b/0Portrait_deBroglie.webp)
+
 ### Aufgaben
 
 - Beschreiben Sie die Hypothese von de Broglie in eigenen Worten.
