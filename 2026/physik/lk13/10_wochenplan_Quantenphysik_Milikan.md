@@ -98,6 +98,8 @@ Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 - Nennen Sie die de-Broglie-Wellenlänge für Elektronen, wenn sie dessen Beschleunigung kennen.
 - Vergleichen Sie die de-Broglie-Wellenlänge von Elektronen im relativistischen und nicht relativistischen Fall. Beurteilen Sie die Unterschiede.
 
+[Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)
+
 
 
 
