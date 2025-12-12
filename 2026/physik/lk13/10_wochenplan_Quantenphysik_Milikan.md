@@ -93,9 +93,9 @@ Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 ### Aufgaben
 
 - Beschreiben Sie die Hypothese von de Broglie in eigenen Worten.
-- Nennen Sie die de-Broglie-Wellenlänge für Elektronen für die Fälle (v < 0,1c & v >= 0,1c)
-- Nennen Sie die de-Broglie-Wellenlänge für Elektronen, wenn sie dessen kinetische Energie kennen.
-- Nennen Sie die de-Broglie-Wellenlänge für Elektronen, wenn sie dessen Beschleunigung kennen.
+- Nennen Sie die Gleichung der de-Broglie-Wellenlänge für Elektronen für die Fälle (v < 0,1c & v >= 0,1c)
+- Nennen Sie die Gleichung der de-Broglie-Wellenlänge für Elektronen, wenn sie dessen kinetische Energie kennen.
+- Nennen Sie die Gleichung der de-Broglie-Wellenlänge für Elektronen, wenn sie dessen Beschleunigung kennen.
 - Vergleichen Sie die de-Broglie-Wellenlänge von Elektronen im relativistischen und nicht relativistischen Fall. Beurteilen Sie die Unterschiede.
 
 [Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)

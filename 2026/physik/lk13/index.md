@@ -22,3 +22,5 @@ Leistungskurs Physik Klasse 13
 
 * [Woche 10, 11: Millikan, Photoeffekt, Klausur, de-Broglie](10_wochenplan_Quantenphysik_Milikan.md)
 
+> Test: Berechnung der de-Broglie-Wellenlänge für ein gegebenes Teilchen am **Dienstag, den 16.12.2025**.
+
