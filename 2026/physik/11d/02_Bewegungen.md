@@ -14,3 +14,18 @@ Bewegungen
 
 - Sie fahren mit einem Elektrorad 20 Minuten eine konstante Geschwindigkeit von 25km/h. Welche Strecke legen Sie zurück?
 - Für eine Strecke von 12km wird insgesamt 40 Minuten Zeit benötigt. Wie schnell war der oder die Fortbewegende?
+
+## Die schräge Ebene
+
+- Skizzieren Sie den Versuchsaufbau.
+- Beschreiben Sie das Verhalten der Kugel.
+- Wir messen die Zeit, die eine Kugel für die verschiedenen Abschnitte benötigt.
+- Stellen Sie die Messwerte in einer Tabelle dar.
+- Stellen Sie die Messwerte grafisch dar.
+- Ermitteln Sie mit Hilfe des Selbstlernmaterials, um welchen mathematischen Zusammenhang es sich handelt.
+
+## Gesetzmäßigkeiten
+
+todo:
+- konstante Geschwindigkeit: https://www.leifiphysik.de/mechanik/gleichfoermige-bewegung/grundwissen/bewegungsgesetz-der-gleichfoermigen-bewegung
+- wie auch immer das heißt: https://www.leifiphysik.de/mechanik/beschleunigte-bewegung/grundwissen/bewegungsgesetze-der-gleichmaessig-beschleunigten-bewegung
