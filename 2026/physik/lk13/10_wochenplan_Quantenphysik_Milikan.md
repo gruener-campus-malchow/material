@@ -100,6 +100,10 @@ Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 
 [Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)
 
+[Auch der Schweizer Apollo bringt die Zusammenhänge auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
+
+[Apollo geht noch weiter:](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
+
 
 
 
