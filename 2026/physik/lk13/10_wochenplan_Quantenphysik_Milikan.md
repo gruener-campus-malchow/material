@@ -98,13 +98,15 @@ Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 - Nennen Sie die Gleichung der de-Broglie-Wellenlänge für Elektronen, wenn sie dessen Beschleunigung kennen.
 - Vergleichen Sie die de-Broglie-Wellenlänge von Elektronen im relativistischen und nicht relativistischen Fall. Beurteilen Sie die Unterschiede.
 
-[Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)
+### Casts
 
-[Auch der Schweizer Apollo bringt die Zusammenhänge auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
+- [Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)
 
-[Apollo geht noch weiter:](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
+- [Auch der Schweizer Apolin bringt die Zusammenhänge auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
 
+- [Apolin geht noch weiter](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
 
+- [Apolin spricht über Heisenberg](https://www.youtube.com/watch?v=deEyG4Nm9MA)
 
 
 Have a lot of fun!
