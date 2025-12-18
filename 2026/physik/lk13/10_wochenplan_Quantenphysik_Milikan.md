@@ -100,13 +100,12 @@ Portal: https://www.leifiphysik.de/quantenphysik/quantenobjekt-elektron
 
 ### Casts
 
-- [Der Studytiger erklärt das auch noch einmal](https://www.youtube.com/watch?v=URibk4Hx0Zc)
-
-- [Auch der Schweizer Apolin bringt die Zusammenhänge auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
-
-- [Apolin geht noch weiter](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
-
+- [Der Studytiger erklärt de-Broglie](https://www.youtube.com/watch?v=URibk4Hx0Zc)
+- [Auch der Schweizer Apolin bringt die Zusammenhänge für den nicht relativistischen de-Broglie auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
+- [Apolin geht noch weiter: Die Wahrscheinlichkeitswelle](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
 - [Apolin spricht über Heisenberg](https://www.youtube.com/watch?v=deEyG4Nm9MA)
+- [Ein neues Atommodell](https://www.youtube.com/watch?v=behQ3O97DXw)
+- [Orbitale](https://www.youtube.com/watch?v=2e31oqxlkJg)
 
 
 Have a lot of fun!
