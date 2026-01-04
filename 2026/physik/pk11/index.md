@@ -100,6 +100,23 @@ Und weil womöglich noch Zeit ist:
 - Blick auf [Abituraufgaben](https://www.isq.berlin/wordpress/pruefungsarbeiten/berlin_zentralabitur/#1523966044400-d7c2f1c1-e34d)
 - [Aufgabenstellug und Material](./03_Messwerterfassungssystem.md)
 
+## Gesundes Neues Jahr
+
+> Es gibt eine grafische Darstellung? Fein!
+
+### Neue Aufgabenstellung
+
+- Vergleichen Sie die Temperaturverlaufskurven von schmelzendem Schnee, wenn Sie die selbe Menge tauen lassen oder gleichzeitig mit einem Gebläse verschiedene Zonen des Gefäßes belüften.
+
+# Basiskonzepte
+
+- Lesen Sie das Kapitel Basiskonzepte ab S. 18 (bzw. 19) in [Bildungsstandards im
+Fach Physik für die
+Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2020/2020_06_18-BildungsstandardsAHR_Physik.pdf)
+- Nennen Sie pro Basiskonzept jeweils ein Beispiel aus Ihrem bisherigen Physikunterricht (ohne das letzte Experiment zum Schmelzen von Schnee - der eDumper ist aber erlaubt).
+- Entwerfen Sie eine griffige Definition für jedes Basiskonzept
+- Erstellen Sie eine Tabelle in der Sie **alle** Basiskonzepte auf das Experiment mit dem Schmelzen von Schnee anwenden
+
 <!--
 
 ## Fachprojektwoche
