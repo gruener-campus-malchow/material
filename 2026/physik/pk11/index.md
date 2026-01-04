@@ -100,13 +100,18 @@ Und weil womöglich noch Zeit ist:
 - Blick auf [Abituraufgaben](https://www.isq.berlin/wordpress/pruefungsarbeiten/berlin_zentralabitur/#1523966044400-d7c2f1c1-e34d)
 - [Aufgabenstellug und Material](./03_Messwerterfassungssystem.md)
 
-## Gesundes Neues Jahr
+# 2026
 
-> Es gibt eine grafische Darstellung? Fein!
+![!small](happy_new_year.webp)
+
+## Rückblick
+
+> Review: Was war das letzte vor den Ferien? Was bleibt zu tun? Es gibt eine grafische Darstellung in jedem Hefter?
 
 ### Neue Aufgabenstellung
 
-- Vergleichen Sie die Temperaturverlaufskurven von schmelzendem Schnee, wenn Sie die selbe Menge tauen lassen oder gleichzeitig mit einem Gebläse verschiedene Zonen des Gefäßes belüften.
+- Vergleichen Sie die Temperaturverlaufskurven von schmelzendem Schnee, wenn Sie die selbe Menge ungestört tauen lassen oder gleichzeitig mit einem Gebläse verschiedene Zonen des Gefäßes belüften.
+- Erstellen Sie zunächst pro Arbeitsgruppe eine Planung mit Skizze, Teileliste und einer Hypothese über die Ergebnisse.
 
 # Basiskonzepte
 
