@@ -102,7 +102,7 @@ Und weil womöglich noch Zeit ist:
 
 # 2026
 
-![!small](happy_new_year.webp)
+![normal](happy_new_year.webp)
 
 ## Rückblick
 
