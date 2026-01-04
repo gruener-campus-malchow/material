@@ -6,7 +6,7 @@ Grundkurs Physik Klasse 13
 
 > Achtung: Wir werden uns nicht an die Wochenangaben halten (können).
 
-## Wochenpläne
+## Wochenpläne Q3
 
 * [Woche 01](02_wochenplan.md)
 * [Woche 02](02_wochenplan.md)
@@ -20,3 +20,11 @@ Grundkurs Physik Klasse 13
 * [Woche 07](07_wochenplan_Quantenphysik_Milikan.md)
 * [Woche 08 und 09](08_09_wochenplan_Photoeffekt.md)
 * [Woche 10](10_wochenplan_de-broglie.md)
+
+> Weihnachtsferien, Neujahr
+
+![hny](happy_new_year.webp)
+
+## Wochenpläne Q4
+
+* [Woche 01](11_wochenplan_rueckblick_QM-Q4-start.md)
