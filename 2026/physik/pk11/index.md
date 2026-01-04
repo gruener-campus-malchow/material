@@ -108,10 +108,13 @@ Und weil womöglich noch Zeit ist:
 
 > Review: Was war das letzte vor den Ferien? Was bleibt zu tun? Es gibt eine grafische Darstellung in jedem Hefter?
 
-### Neue Aufgabenstellung
+## Temperaturverlaufskurven
+
+**Neue Aufgabenstellung**
 
 - Vergleichen Sie die Temperaturverlaufskurven von schmelzendem Schnee, wenn Sie die selbe Menge ungestört tauen lassen oder gleichzeitig mit einem Gebläse verschiedene Zonen des Gefäßes belüften.
 - Erstellen Sie zunächst pro Arbeitsgruppe eine Planung mit Skizze, Teileliste und einer Hypothese über die Ergebnisse.
+- Nutzen Sie die Erkenntnisse bzw. Vorarbeiten aus dem Basiskurs: Stellen Sie auf Basis der Art der Kurven Vermutungen auf, welche mathematischen Zusammenhänge zugrunde liegen könnten.
 
 # Basiskonzepte
 
