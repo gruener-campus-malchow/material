@@ -1,7 +1,7 @@
-Rückblick und Ergänzungen
-===========================
 
-## Casts
+## Rückblick und Ergänzungen: Casts
+
+> Die Videos sind sehr sehenswert und runden das im Unterricht gelernt ab, bzw. gehen darüber hinaus. Vergleich mit den [Anforderungen an die Abiturprüfung](https://www.iqb.hu-berlin.de/media/documents/N_Inhaltliche_Vereinbarungen_zur_Gestaltung_der_Aufgaben_Physik.pdf).
 
 - [Der Studytiger erklärt de-Broglie](https://www.youtube.com/watch?v=URibk4Hx0Zc)
 - [Auch der Schweizer Apolin bringt die Zusammenhänge für den nicht relativistischen de-Broglie auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
@@ -17,17 +17,15 @@ Start in Q4
 
 Die Lernenden…
 
-- entwickeln Fragestellungen zur Analyse von 
-Linienspektren. (E 1)
+- entwickeln Fragestellungen zur Analyse von Linienspektren. (E 1)
 - erklären die Entstehung von Absorptionslinien unter Nutzung eines Energieniveauschemas. (S 1)
 - veranschaulichen Orbitale des Wasserstoffatoms mithilfe geeigneter Software (K 6)
 
 ## Links
 
-- https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads 
 - https://phet.colorado.edu/de/simulations/molecules-and-light 
 - https://phet.colorado.edu/sims/cheerpj/discharge-lamps/latest/discharge-lamps.html?simulation=discharge-lamps&locale=de 
-- https://www.kippenbergs.de/app/mint-index-physics
+
 
 # Inhalte
 
@@ -44,10 +42,25 @@ Harald Lesch erklärt: https://www.youtube.com/watch?v=imTFizzJ3P8
   - Erläutern Sie den Begriff "molekulares Skalpell"
   - Erläutern Sie den Zusammenhang zwischen Planetenbewegung, Blau- und Rotverschiebung, sowie Spektrallinien.
   - Begründen Sie die Bedeutung von Absorptionslinien für die Astrophysik anhand der Beobachtungsmöglichkeiten.
+  
+## Spektren durch Simulationen besser verstehen
+
+- https://phet.colorado.edu/de/simulations/molecules-and-light 
+- https://phet.colorado.edu/sims/cheerpj/discharge-lamps/latest/discharge-lamps.html?simulation=discharge-lamps&locale=de 
+- https://www.kippenbergs.de/app/mint-index-physics
 
 ## Linienspektren im Lehrbuch
 
 Fokus Physik SII S. 332
+
+## Energieniveauschemata
+
+<!--https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads -->
+
+- Simulation 1: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-prinzip-animation
+- Simulation 2: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-varianten-animation
+- Skizzieren Sie im Hefter die Emission von Licht
+- 
 
 ## Tafelbild mit allen Erkenntnissen
 
