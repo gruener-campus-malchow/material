@@ -21,12 +21,6 @@ Die Lernenden…
 - erklären die Entstehung von Absorptionslinien unter Nutzung eines Energieniveauschemas. (S 1)
 - veranschaulichen Orbitale des Wasserstoffatoms mithilfe geeigneter Software (K 6)
 
-## Links
-
-- https://phet.colorado.edu/de/simulations/molecules-and-light 
-- https://phet.colorado.edu/sims/cheerpj/discharge-lamps/latest/discharge-lamps.html?simulation=discharge-lamps&locale=de 
-
-
 # Inhalte
 
 ## Einführung in die Spektrallinien
