@@ -43,7 +43,19 @@ Einfach anschauen
 1. Begründen Sie die Bedeutung von Absorptionslinien für die Astrophysik anhand der Beobachtungsmöglichkeiten.
   
 Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v=B12E72jyOHI
-  
+
+### kontinuierliches Spektrum (VIS)
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/1/19/Spectral-lines-continuous.svg)
+
+### Emissionslinien 
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/d/de/Spectral-lines-emission.svg)
+
+### Absorbtionslinien
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/a/a4/Spectral-lines-absorption.svg)
+
 ### Rotverschiebung
 
 ![Illustration der Rotverschiebung der Spektrallinien für einen weit entfernten Supergalaxienhaufen (BAS11) rechts im Vergleich zur Sonne links](https://upload.wikimedia.org/wikipedia/commons/6/6a/Redshift.svg)
