@@ -52,7 +52,7 @@ Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v
 
 #### Doppler-Effekt
 
-![Doppler-Effekt](https://upload.wikimedia.org/wikipedia/commons/9/90/Dopplerfrequenz.gif)
+![!large](https://upload.wikimedia.org/wikipedia/commons/9/90/Dopplerfrequenz.gif)
 
 > Objekte, die sich auf einen Betrachter zu bewegen, haben eine kürzere Wellenlänge (Blauverschiebung), die sich weg bewegen eine größere Wellenlänge (Rotverschiebung)
 
