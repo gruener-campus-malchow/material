@@ -27,15 +27,20 @@ Die Lernenden…
 
 Harald Lesch erklärt: https://www.youtube.com/watch?v=imTFizzJ3P8
 
-- 1. Runde: Einfach anschauen
-- 2. Runde: Folgende Aufgaben auf Basis der Informationen aus dem Video erfüllen
-    1. Zusammenhang von Spektren und Astronomie erklären
-    1. Erläutern der Geschichte von Spektren und Spektrallinien
-    1. Herkunft der Spektrallinien im Sonnenlicht erläutern
-    1. Beitrag von Spektren zur Quantenphysik beurteilen
-    1. Erläutern Sie den Begriff "molekulares Skalpell"
-    1. Erläutern Sie den Zusammenhang zwischen Planetenbewegung, Blau- und Rotverschiebung, sowie Spektrallinien.
-    1. Begründen Sie die Bedeutung von Absorptionslinien für die Astrophysik anhand der Beobachtungsmöglichkeiten.
+### 1. Runde
+
+Einfach anschauen
+### 2. Runde
+
+> Folgende Aufgaben auf Basis der Informationen aus dem Video erfüllen
+
+1. Zusammenhang von Spektren und Astronomie erklären
+1. Erläutern der Geschichte von Spektren und Spektrallinien
+1. Herkunft der Spektrallinien im Sonnenlicht erläutern
+1. Beitrag von Spektren zur Quantenphysik beurteilen
+1. Erläutern Sie den Begriff "molekulares Skalpell"
+1. Erläutern Sie den Zusammenhang zwischen Planetenbewegung, Blau- und Rotverschiebung, sowie Spektrallinien.
+1. Begründen Sie die Bedeutung von Absorptionslinien für die Astrophysik anhand der Beobachtungsmöglichkeiten.
   
 Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v=B12E72jyOHI
   
