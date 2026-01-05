@@ -44,6 +44,18 @@ Einfach anschauen
   
 Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v=B12E72jyOHI
   
+### Rotverschiebung
+
+![Illustration der Rotverschiebung der Spektrallinien für einen weit entfernten Supergalaxienhaufen (BAS11) rechts im Vergleich zur Sonne links](https://upload.wikimedia.org/wikipedia/commons/6/6a/Redshift.svg)
+
+> Illustration der Rotverschiebung der Spektrallinien für einen weit entfernten Supergalaxienhaufen (BAS11) rechts im Vergleich zur Sonne links
+
+#### Doppler-Effekt
+
+![Doppler-Effekt](https://upload.wikimedia.org/wikipedia/commons/9/90/Dopplerfrequenz.gif)
+
+> Objekte, die sich auf einen Betrachter zu bewegen, haben eine kürzere Wellenlänge (Blauverschiebung), die sich weg bewegen eine größere Wellenlänge (Rotverschiebung)
+
 ## Spektren durch Simulationen besser verstehen
 
 - https://phet.colorado.edu/de/simulations/molecules-and-light 
