@@ -56,6 +56,8 @@ Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v
 
 > Objekte, die sich auf einen Betrachter zu bewegen, haben eine kürzere Wellenlänge (Blauverschiebung), die sich weg bewegen eine größere Wellenlänge (Rotverschiebung)
 
+Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine_Physik
+
 ## Spektren durch Simulationen besser verstehen
 
 - https://phet.colorado.edu/de/simulations/molecules-and-light 
