@@ -62,6 +62,12 @@ Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v
 
 Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine_Physik
 
+![!large](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/EB1911_-_Planet_-_Plate_II.jpg/1280px-EB1911_-_Planet_-_Plate_II.jpg)
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/e/e5/Meyers_b15_s0117a.jpg)
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/c/c9/NIEdot362.jpg)
+
 ## Spektren durch Simulationen besser verstehen
 
 - https://phet.colorado.edu/de/simulations/molecules-and-light 
