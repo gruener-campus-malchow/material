@@ -24,3 +24,6 @@ Leistungskurs Physik Klasse 13
 
 > Test: Berechnung der de-Broglie-Wellenlänge für ein gegebenes Teilchen am **Dienstag, den 16.12.2025**.
 
+# Q4
+
+* [Woche 11: Spektroskopie](11_wochenplan_Q4-start_Spektroskopie.md)

@@ -1,15 +1,3 @@
-
-## Rückblick und Ergänzungen: Casts
-
-> Die Videos sind sehr sehenswert und runden das im Unterricht gelernt ab, bzw. gehen darüber hinaus. Vergleich mit den [Anforderungen an die Abiturprüfung](https://www.iqb.hu-berlin.de/media/documents/N_Inhaltliche_Vereinbarungen_zur_Gestaltung_der_Aufgaben_Physik.pdf).
-
-- [Der Studytiger erklärt de-Broglie](https://www.youtube.com/watch?v=URibk4Hx0Zc)
-- [Auch der Schweizer Apolin bringt die Zusammenhänge für den nicht relativistischen de-Broglie auf den Punkt](https://www.youtube.com/watch?v=M8MuyfjtUFU)
-- [Apolin geht noch weiter: Die Wahrscheinlichkeitswelle](https://www.youtube.com/watch?v=Emn1Knkzg2Q&t=21s)
-- [Apolin spricht über Heisenberg](https://www.youtube.com/watch?v=deEyG4Nm9MA)
-- [Ein neues Atommodell](https://www.youtube.com/watch?v=behQ3O97DXw)
-- [Orbitale](https://www.youtube.com/watch?v=2e31oqxlkJg)
-
 Start in Q4
 ================
 
@@ -70,8 +58,6 @@ Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v
 
 > Objekte, die sich auf einen Betrachter zu bewegen, haben eine kürzere Wellenlänge (Blauverschiebung), die sich weg bewegen eine größere Wellenlänge (Rotverschiebung)
 
-
-
 Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine_Physik
 
 ## Spektren durch Simulationen besser verstehen
@@ -113,6 +99,6 @@ not here yet
 
 * Können wir mit Gittern oder Prismen Spektren sichtbar machen?
 * Was erfahren wir aus dem Betrachten einer CD/DVD?
-* Können Sie Ihre Experimente als Videos festhalten und anderen SuS zur Verfüfung stellen?
+* Können Sie Ihre Experimente als Videos festhalten und anderen SuS zur Verfügung stellen?
 
 
