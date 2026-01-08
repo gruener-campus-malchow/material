@@ -194,6 +194,36 @@ https://www.youtube.com/watch?v=h7G4-WgAPJk
 - Beurteile unter welchen Bedingungen Du radioaktive Stoffe zu Hause (in Deinem Zimmer) lagern würdest - oder weshalb nicht.
 - Beurteile unter welchen Bedingungen Du an einem Ort mit radioaktiven Stoffen, z.B. einem Labor, arbeiten würdest.
 
+# Nutzung der Kernenergie: Kernspaltung
+
+## Kettenreaktionen
+
+Ansprechend von einem Energiekonzern moderiert: https://www.youtube.com/watch?v=jpDRfaWYk3I
+
+Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fission
+
+> Erstelle eine Skizze, aus welcher die Funktionsweise von Zerfallswärmebetriebenen Dampfmaschinen (aka Atomkraftwerke) hervorgeht.
+
+## Funktionsweise eines AKW beschreiben
+
+- Exkurs in die Geschichte: Plutoniumproduktion in Windscale
+- Vollständige Doku (1h28min) https://www.youtube.com/watch?v=x_pWgRx7lno
+
+## Größen zur Beschreibung radioaktiver Strahlung
+
+- Aktivität ([Leifi](https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/grundwissen/zerfallsgesetz-zerfallskonstante-und-halbwertszeit))
+- Energiedosis ([Lernhelfer](https://www.lernhelfer.de/schuelerlexikon/physik/artikel/energiedosis))
+- Äquivalentdosis ([Lernhelfer](https://www.lernhelfer.de/schuelerlexikon/physik/artikel/aequivalentdosis))
+- Halbwertszeit ([Leifi](https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-fortfuehrung/grundwissen/zerfallsgesetz-zerfallskonstante-und-halbwertszeit))
+
+## Folgen einer Katastrophe
+
+https://www.youtube.com/watch?v=aM_HbyIBbwc
+
+## Update nach 10 Jahren
+
+https://www.youtube.com/watch?v=lPWU5oICd00
+
 <!--
 
 Argumente: https://www.youtube.com/watch?v=7oP2Cx-ssOc
