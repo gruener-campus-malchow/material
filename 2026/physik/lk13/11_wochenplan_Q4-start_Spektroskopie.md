@@ -82,6 +82,7 @@ Fokus Physik SII S. 332
 
 > Bestimmen Sie die Wellenlängen der ersten drei Emissionslinien von Wasserstoff.
 
+![!normal](https://lp.uni-goettingen.de/get/math/a9f6e6f91df423832c5ce5fd9071240e.png)
 ![!large](https://lp.uni-goettingen.de/get/image/5094)
 
 ### Nützliche Links
