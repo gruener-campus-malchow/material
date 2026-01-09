@@ -74,9 +74,13 @@ Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine
 - https://phet.colorado.edu/sims/cheerpj/discharge-lamps/latest/discharge-lamps.html?simulation=discharge-lamps&locale=de 
 - https://www.kippenbergs.de/app/mint-index-physics
 
+> Erklären Sie im Hefter die Emission von Licht in einer Gasentladungslampe.
+
 ## Linienspektren im Lehrbuch
 
 Fokus Physik SII S. 332
+
+> Bestimmen Sie die Wellenlängen der ersten drei Emissionslinien von Wasserstoff.
 
 ## Energieniveauschemata
 
@@ -84,8 +88,8 @@ Fokus Physik SII S. 332
 
 - Simulation 1: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-prinzip-animation
 - Simulation 2: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-varianten-animation
-- Skizzieren Sie im Hefter die Emission von Licht
-- 
+- Skizzieren Sie zwei EN-Schemata
+    - todo
 
 ## Tafelbild mit allen Erkenntnissen
 
