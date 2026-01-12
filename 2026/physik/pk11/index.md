@@ -116,6 +116,10 @@ Und weil womöglich noch Zeit ist:
 - Erstellen Sie zunächst pro Arbeitsgruppe eine Planung mit Skizze, Teileliste und einer Hypothese über die Ergebnisse.
 - Nutzen Sie die Erkenntnisse bzw. Vorarbeiten aus dem Basiskurs: Stellen Sie auf Basis der Art der Kurven Vermutungen auf, welche mathematischen Zusammenhänge zugrunde liegen könnten.
 
+> Abstrahieren Sie von den Ergebnissen des Experimentes auf die Themen Wetter und Klima: Welche Auswirkungen hat mehr (kinetische) Energie in der Atmosphäre auf das Wetter und das Klima?
+>
+> Halten Sie eine [Konferenz](https://de.wikipedia.org/wiki/Wissenschaftliche_Konferenz) ab, und verfassen Sie ein gemeinsames Ergebnis.
+
 # Basiskonzepte
 
 - Lesen Sie das Kapitel Basiskonzepte ab S. 18 (bzw. 19) in [Bildungsstandards im
