@@ -195,9 +195,9 @@ https://www.youtube.com/watch?v=h7G4-WgAPJk
 
 |Stahlungsart|Teilchen oder Welle|Reichweite|Abschirmbarkeit|Ionisierungsvermögen|Vorgang im Kern |
 |---|---|---|---|---|---|
-|alpha | | | | | | |
-|beta | | | | | | |
-|gamma| | | | | | |
+|alpha | | | | | | 
+|beta | | | | | | 
+|gamma| | | | | | 
 
 - Beurteile unter welchen Bedingungen Du radioaktive Stoffe zu Hause (in Deinem Zimmer) lagern würdest - oder weshalb nicht.
 - Beurteile unter welchen Bedingungen Du an einem Ort mit radioaktiven Stoffen, z.B. einem Labor, arbeiten würdest.
