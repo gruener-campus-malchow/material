@@ -191,6 +191,12 @@ https://www.youtube.com/watch?v=h7G4-WgAPJk
 | gering | | | |
 | |gering | | |
 
+- Eigenschaften radioaktiver Strahlung
+
+|Stahlungsart|Teilchen oder Welle|Reichweite|Abschirmbarkeit|Ionisierungsvermögen|
+|---|---|---|---|---|
+| | | | |
+
 - Beurteile unter welchen Bedingungen Du radioaktive Stoffe zu Hause (in Deinem Zimmer) lagern würdest - oder weshalb nicht.
 - Beurteile unter welchen Bedingungen Du an einem Ort mit radioaktiven Stoffen, z.B. einem Labor, arbeiten würdest.
 
