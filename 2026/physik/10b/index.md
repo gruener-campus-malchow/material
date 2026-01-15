@@ -191,7 +191,7 @@ https://www.youtube.com/watch?v=h7G4-WgAPJk
 | gering | | | |
 | |gering | | |
 
-- Eigenschaften radioaktiver Strahlung (Quelle: [Leifi](https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-einfuehrung/grundwissen/ueberblick-ueber-die-strahlungsarten))
+- Eigenschaften radioaktiver ionisierender Strahlung (Quelle: [Leifi](https://www.leifiphysik.de/kern-teilchenphysik/radioaktivitaet-einfuehrung/grundwissen/ueberblick-ueber-die-strahlungsarten))
 
 |Stahlungsart|Teilchen oder Welle|Reichweite|Abschirmbarkeit|Ionisierungsvermögen|Vorgang im Kern |
 |---|---|---|---|---|---|
