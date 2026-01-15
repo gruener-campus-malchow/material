@@ -195,9 +195,9 @@ https://www.youtube.com/watch?v=h7G4-WgAPJk
 
 |Stahlungsart|Teilchen oder Welle|Reichweite|Abschirmbarkeit|Ionisierungsvermögen|
 |---|---|---|---|---|
-|alpha | | | | |
-|beta | | | | |
-|gamma| | | | |
+|alpha | | | | | |
+|beta | | | | | |
+|gamma| | | | | |
 
 
 
