@@ -13,6 +13,8 @@
 Start in Q4
 ================
 
+![!large](./img/spektrum_stars_pyramid.webp)
+
 ## Ziele
 
 Die Lernenden…
@@ -70,9 +72,13 @@ Freiwillig gern vom Studytiger erklären lassen: https://www.youtube.com/watch?v
 
 > Objekte, die sich auf einen Betrachter zu bewegen, haben eine kürzere Wellenlänge (Blauverschiebung), die sich weg bewegen eine größere Wellenlänge (Rotverschiebung)
 
-
-
 Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine_Physik
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/EB1911_-_Planet_-_Plate_II.jpg/1280px-EB1911_-_Planet_-_Plate_II.jpg)
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/e/e5/Meyers_b15_s0117a.jpg)
+
+![!large](https://upload.wikimedia.org/wikipedia/commons/c/c9/NIEdot362.jpg)
 
 ## Spektren durch Simulationen besser verstehen
 
@@ -80,9 +86,24 @@ Details: https://de.wikipedia.org/wiki/Doppler-Effekt#Astrophysik_und_allgemeine
 - https://phet.colorado.edu/sims/cheerpj/discharge-lamps/latest/discharge-lamps.html?simulation=discharge-lamps&locale=de 
 - https://www.kippenbergs.de/app/mint-index-physics
 
+> Erklären Sie im Hefter die Emission von Licht in einer Gasentladungslampe.
+
 ## Linienspektren im Lehrbuch
 
 Fokus Physik SII S. 332
+
+> Bestimmen Sie die Wellenlängen der ersten drei Emissionslinien von Wasserstoff.
+>
+> **ACHTUNG, DAS IST EINE FALLE!**
+
+![!normal](https://lp.uni-goettingen.de/get/math/a9f6e6f91df423832c5ce5fd9071240e.png)
+![!large](https://lp.uni-goettingen.de/get/image/5094)
+
+### Nützliche Links
+
+- https://lp.uni-goettingen.de/get/text/1610
+- https://www.periodni.com/gallery/spectral_line_series.png
+- https://physics.nist.gov/PhysRefData/ASD/lines_form.html
 
 ## Energieniveauschemata
 
@@ -90,8 +111,8 @@ Fokus Physik SII S. 332
 
 - Simulation 1: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-prinzip-animation
 - Simulation 2: https://www.leifiphysik.de/atomphysik/atomarer-energieaustausch/downloads/energieabgabe-durch-emission-varianten-animation
-- Skizzieren Sie im Hefter die Emission von Licht
-- 
+- Skizzieren Sie zwei EN-Schemata
+    - todo
 
 ## Tafelbild mit allen Erkenntnissen
 
@@ -113,6 +134,6 @@ not here yet
 
 * Können wir mit Gittern oder Prismen Spektren sichtbar machen?
 * Was erfahren wir aus dem Betrachten einer CD/DVD?
-* Können Sie Ihre Experimente als Videos festhalten und anderen SuS zur Verfüfung stellen?
+* Können Sie Ihre Experimente als Videos festhalten und anderen SuS zur Verfügung stellen?
 
 
