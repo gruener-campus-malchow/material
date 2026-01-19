@@ -1,8 +1,6 @@
 Röntgen
 ================
 
-![!large](./img/spektrum_stars_pyramid.webp)
-
 ## Ziele
 
 Die Lernenden…
