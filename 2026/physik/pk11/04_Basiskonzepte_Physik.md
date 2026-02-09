@@ -16,11 +16,19 @@ Basiskonzepte werden in Lehr-Lernprozessen wiederholt thematisiert und ausdiffer
 
 Viele Sachverhalte und Vorgänge lassen sich in der Physik durch ein Denken in Bilanzen oder Gleichgewichten beschreiben und erklären. Hierbei spielen neben statischen und dynamischen Gleichgewichtsbedingungen auch Erhaltungssätze wie z. B. der Energie- und der Impulserhaltungssatz eine wesentliche Rolle. Das Basiskonzept Erhaltung und Gleichgewicht ermöglicht einen auch quantifizierenden Zugang zu Themen wie z. B. dem Hall-Effekt, der Gegenfeldmethode bei der Fotozelle, dem Franck-Hertz-Versuch, der Absorption und Emission von Licht, der charakteristischen Strahlung oder der Kernstrahlung.
 
+> ### Schülerdefinition des PK11-2026
+>
+> 
+
 ## Superposition und Komponenten
 
 Die Superposition bildet eine wesentliche Grundlage der analytisch-synthetischen Vorgehensweise in der Physik. Die
 Überlagerung gleicher physikalischen Größen oder die Zerlegung von physikalischen Größen in Komponenten wird
 z. B. bei der Kräfteaddition, bei der Vektorsumme von Feldstärken, bei der Bewegung von geladenen Teilchen in Feldern, beim Induktionsgesetz oder bei der Polarisation verwendet. Darüber hinaus ist die Superposition ein zentraler Begriff in der Quantenphysik.
+
+> ### Schülerdefinition des PK11-2026
+>
+> 
 
 ## Mathematisieren und Vorhersagen
 
@@ -28,6 +36,10 @@ Ein zentrales Merkmal der Physik ist es, Vorgänge und Zusammenhänge mathematis
 Erkenntnisse und Vorhersagen zu erhalten. Die Beschreibung von Größenabhängigkeiten erfolgt in Gestalt von Gleichungen und Funktionen. Die physikalische Interpretation von gegebenenfalls grafisch ermittelten Ableitungen und
 Integrationen eröffnet weitere Möglichkeiten für die Erkenntnisgewinnung, z. B. bei dem Lade- und Entladevorgang
 eines Kondensators, bei Schwingungen oder bei Induktionsvorgängen.
+
+> ### Schülerdefinition des PK11-2026
+>
+> 
 
 ## Zufall und Determiniertheit
 
@@ -37,5 +49,8 @@ Determiniertheit ist in allen Bereichen der Physik die Grundvoraussetzung für e
 durch Gesetzmäßigkeiten, etwa für die Vorhersage von Ereignissen oder für die Modellierung durch Ausgleichskurven.
 Zufall tritt in der Physik in unterschiedlichen Interpretationen in Erscheinung, z. B. als Messunsicherheit, als statistische Verteilung physikalischer Größen oder im Zusammenhang mit Quantenobjekten.
 
-In der Atomphysik ist z. B. bei einer Gasentladungsröhre der Zeitpunkt der Emission eines Photons durch ein einzelnes Gasatom zufällig, bei einer festen angelegten Spannung stellt sich aber dennoch eine eindeutig vorhersagbare
-Strahlungsleistung ein. Am Beispiel der Quantenphysik kann zwischen der prinzipiellen Nichtdeterminiertheit des Verhaltens einzelner Quantenobjekte und der Determiniertheit von Nachweiswahrscheinlichkeiten durch die Versuchsbedingungen unterschieden werden.
+In der Atomphysik ist z. B. bei einer Gasentladungsröhre der Zeitpunkt der Emission eines Photons durch ein einzelnes Gasatom zufällig, bei einer festen angelegten Spannung stellt sich aber dennoch eine eindeutig vorhersagbare Strahlungsleistung ein. Am Beispiel der Quantenphysik kann zwischen der prinzipiellen Nichtdeterminiertheit des Verhaltens einzelner Quantenobjekte und der Determiniertheit von Nachweiswahrscheinlichkeiten durch die Versuchsbedingungen unterschieden werden.
+
+> ### Schülerdefinition des PK11-2026
+>
+> 
