@@ -29,3 +29,5 @@ Grundkurs Physik Klasse 13
 
 * [Woche 01 und 02](11_wochenplan_rueckblick_QM-Q4-start.md)
 * [Woche 03](12_wochenplan_roentgen.md)
+* Winterferien
+* [Woche 04](13_wochenplan_roentgen_ff.md)
