@@ -28,7 +28,7 @@ z. B. bei der Kräfteaddition, bei der Vektorsumme von Feldstärken, bei der Bew
 
 > ### Schülerdefinition des PK11-2026
 >
-> 
+> ... ist die Zerlegung von komplexen physikalischen Größen in ihre einfacheren Bestandteile (Größen).
 
 ## Mathematisieren und Vorhersagen
 
@@ -39,7 +39,7 @@ eines Kondensators, bei Schwingungen oder bei Induktionsvorgängen.
 
 > ### Schülerdefinition des PK11-2026
 >
-> 
+> Mit mathematischen Methoden physikalische Prozesse beschreiben und vorhersagen.
 
 ## Zufall und Determiniertheit
 
@@ -53,4 +53,4 @@ In der Atomphysik ist z. B. bei einer Gasentladungsröhre der Zeitpunkt der Emis
 
 > ### Schülerdefinition des PK11-2026
 >
-> 
+> Auf der kleinsten physikalischen Ebene verhalten sich die Bestandteile zufällig. Eine Anhäufung von Zufällen wird als Objekt betrachtet und verhält sich dann vorhersagbar.
