@@ -7,14 +7,14 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 
 ## Grupppen
 
-~~
+~~~
 (Jesko, FelixM), 
 (Levin), 
 (Karl, FelixT), 
 (Shawn, TobiK), 
 (Yannis), 
 (Mattheo, TobiS)
-~~
+~~~
 
 ## PLANCK-Konstante bestimmen
 
