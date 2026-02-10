@@ -23,6 +23,7 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 
 ### Aufgaben
 
-1. Vollziehen Sie die Bestimmung der Planck-Konstante mittels Photo-Effekt nach.
+1. Vollziehen Sie die Bestimmung der Planck-Konstante mittels Photo-Effekt, Franck-Hertz-Versuch und Röntgen-Spektrum nach.
+1. Entscheiden Sie sich pro Gruppe, welche der **h**-Bestimmgunen Sie präsentieren wollen (alle Versuche müssen insgesamt bearbeitet und präsentiert werden).
 2. Erstellen Sie paarweise eine Präsentation, bei der sie die Ermittlung von **h** durch den Franck-Hertz-Versuch erklären.
 3. Erstellen Sie paarweise eine Präsentation, bei der sie die Ermittlung von **h** aus dem Röntgen-Spektrum erklären.
