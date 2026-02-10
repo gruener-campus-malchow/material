@@ -30,3 +30,4 @@ Leistungskurs Physik Klasse 13
 * [Woche 12: Röntgenstrahlung](12_wochenplan_Q4-Roentgenroehre.md)
 * Winterferien
 * [Woche 13: Franck-Hertz-Versuch](13_wochenplan_Q4-Franck-Hertz-Versuch.md)
+* [Woche 14: Potentialtopf](14_wochenplan_Q4-Potentialtopf.md)
