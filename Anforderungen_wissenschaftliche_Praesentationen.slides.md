@@ -45,6 +45,7 @@ Dazu gehört:
 
 - Sachgerechter Einsatz visueller Medien (Grafiken, Diagramme, Simulationen), die komplexe Zusammenhänge veranschaulichen, ohne zu vereinfachen oder zu verfälschen
 - Klare Trennung zwischen Fakten, Hypothesen und Interpretationen, z. B.  durch sprachliche Signalwörter wie „nachweislich“, „angenommen“ oder „möglicherweise“
+- Angemessene Zeiteinteilung
 
 ---
 

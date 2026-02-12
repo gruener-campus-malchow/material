@@ -16,6 +16,9 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 (Mattheo, TobiS)
 ~~~
 
+> [Anforderungern an wissenschaftliche Präsentationen](https://gcm.schule/material/Anforderungen_wissenschaftliche_Praesentationen.slides.md)
+
+
 ## PLANCK-Konstante bestimmen
 
 * [Photo-Effekt und Franck-Hertz-Versuch](https://www.leifiphysik.de/atomphysik/roentgen-strahlung/aufgabe/bestimmung-der-planck-konstante-abitur-2019-ph12-1-a2)
