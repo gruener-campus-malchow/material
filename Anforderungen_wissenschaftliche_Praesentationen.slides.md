@@ -60,3 +60,12 @@ Dazu gehört:
 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|
 | | | |
+
+---
+
+# Für Abiturprüfungen
+
+Weitere prüfungsrelevante Hinweise finden Sie im
+
+- [Handreichung zur fünften Prüfungskomponente](https://bildungsserver.berlin-brandenburg.de/fileadmin/bbb/unterricht/pruefungen/Fuenfte_Pruefungskomponente_im_Abitur_2012-03-19.pdf)
+- [Protokoll der 5. Prüfungskomponente – Präsentationsprüfung](https://www.natorp-gymnasium.de/fileadmin/PNSMedien/Organisation/PaekoInfos/2021/Abitur/protokoll-pk5.pdf)
