@@ -131,7 +131,7 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 # Protokolle
 
-[Charakteristische Denk- und Arbeitsweisen in der Physik](04_Methoden_Physik.md)
+[Charakteristische Denk- und Arbeitsweisen in der Physik: Protokolle](04_Methoden_Physik.md)
 
 
 <!--
