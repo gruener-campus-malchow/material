@@ -6,7 +6,7 @@ Spätestens im Studium werden Protkolle zu einer sehr aufwändigen aber interess
 
 In der Schule spielen Protokolle schon in der Primarstufe eine Rolle und werden in der Sekundarstufe weiter differenziert. In der Sek II soll nun von dem Ziel, für das naturwissenschaftliche Studium vorbereitet zu sein, ausgegangen werden.
 
-## Aufgabe
+## Aufgaben
 
 1. Analysieren Sie die Musterprotokolle unter https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/phys/Grundpraktikum/Dokumente/Materialien/Musterprotokoll_Federpendel.pdf unter der Maßgabe von: Was können Sie schon leisten? 
 1. Erstellen Sie eine Liste von Protkollinhalten, deren Sinn und Nutzen Sie nicht nachvollziehen können. Dabei geht es nicht um den physikalischen Fachinhalt, sondern um den Formalismus.
