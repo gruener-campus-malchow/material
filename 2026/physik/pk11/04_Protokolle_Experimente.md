@@ -6,9 +6,14 @@ Spätestens im Studium werden Protkolle zu einer sehr aufwändigen aber interess
 
 In der Schule spielen Protokolle schon in der Primarstufe eine Rolle und werden in der Sekundarstufe weiter differenziert. In der Sek II soll nun von dem Ziel, für das naturwissenschaftliche Studium vorbereitet zu sein, ausgegangen werden.
 
-Analysieren Sie die Musterprotokolle unter http://www-ekp.physik.uni-karlsruhe.de/~simonis/praktikum/musterprotokolle/musterprotokolle.html unter der Maßgabe von: Was können Sie schon leisten? Erstellen Sie eine Liste von Protkollinhalten, deren Sinn und Nutzen Sie nicht nachvollziehen können. Dabei geht es nicht um den physikalischen Fachinhalt, sondern um den Formalismus.
+## Aufgabe
+
+1. Analysieren Sie die Musterprotokolle unter https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/phys/Grundpraktikum/Dokumente/Materialien/Musterprotokoll_Federpendel.pdf unter der Maßgabe von: Was können Sie schon leisten? 
+1. Erstellen Sie eine Liste von Protkollinhalten, deren Sinn und Nutzen Sie nicht nachvollziehen können. Dabei geht es nicht um den physikalischen Fachinhalt, sondern um den Formalismus.
 
 Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/studium/lehrveranstaltungen/praktika/hidden/musterprotokoll), habe ich eine Minimalforderung entwickelt.
+
+<!--
 
 ## Umfang eines Protokolls im Leistungskurs
 
@@ -50,7 +55,7 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Beantwortung spezieller Fragen der Aufgabenstellung/en
   - äußere Bedingungen, die besonderen Einfluss auf die Messungen hatten
 
-# Umfang eines Protokolls im Profilkurs (basiert auf Vorschlägen)
+## Umfang eines Protokolls im Profilkurs (basiert auf Vorschlägen)
 
 - Protokollkopf [Protkollvorlage als ODT](./Protokoll_Profilkurs_Physik.odt)
   - Mitglieder der Arbeitsgruppe
