@@ -15,7 +15,7 @@ Anforderungen an wissenschaftliche Präsentationen
 
 ## Fachliche Tiefe
 
-> Fachliche Tiefe beschreibt das umfassende, detaillierte und vertiefte Wissen in einem bestimmten Fachgebiet.  Sie geht über grundlegendes Verständnis hinaus und zeichnet sich durch die Fähigkeit aus, komplexe Zusammenhänge zu erkennen, kritisch zu hinterfragen und anzuwenden.
+> Fachliche Tiefe beschreibt das umfassende, detaillierte und vertiefte Wissen in einem bestimmten Fachgebiet. Sie geht über grundlegendes Verständnis hinaus und zeichnet sich durch die Fähigkeit aus, komplexe Zusammenhänge zu erkennen, kritisch zu hinterfragen und anzuwenden.
 
 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|
@@ -43,7 +43,7 @@ Anforderungen an wissenschaftliche Präsentationen
 
 Dazu gehört:
 
-- Sachgerechter Einsatz visueller Medien (Grafiken, Diagramme, Simulationen), die komplexe Zusammenhänge veranschaulichen, ohne zu vereinfachen oder zu verfälschen
+- Sachgerechter Einsatz visueller Medien (Grafiken, Diagramme, Simulationen), die komplexe Zusammenhänge veranschaulichen, ggf. zu vereinfachen ohne zu verfälschen
 - Klare Trennung zwischen Fakten, Hypothesen und Interpretationen, z. B.  durch sprachliche Signalwörter wie „nachweislich“, „angenommen“ oder „möglicherweise“
 - Angemessene Zeiteinteilung
 

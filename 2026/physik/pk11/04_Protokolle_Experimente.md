@@ -91,8 +91,3 @@ Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/st
   - Vergleich mit Tabellen- oder erwarteten Werten
   - Beantwortung spezieller Fragen der Aufgabenstellung/en
   - äußere Bedingungen, die besonderen Einfluss auf die Messungen hatten
-
-
-
-
-
