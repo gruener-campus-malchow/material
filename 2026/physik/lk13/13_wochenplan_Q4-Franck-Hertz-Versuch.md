@@ -28,8 +28,7 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 
 1. Vollziehen Sie die Bestimmung der Planck-Konstante mittels Photo-Effekt, Franck-Hertz-Versuch und Röntgen-Spektrum nach.
 1. Wir gehen schrittweise vor: Es wird von jeder Gruppe zu jedem Thema eine Präsentation erstellt (werden Sie schnell und pragmatisch).
-1. Nach jedem Zyklus dürfen Sie entscheiden, ob Sie präsentieren wollen und können.
-1. Sie dürfen vorarbeiten und schneller sein.
+1. Nach der Vorbereitungsphase dürfen Sie entscheiden, welches Thema Sie präsentieren wollen. Wir finden ein Schedule...
 
 #### Zeitplan
 
