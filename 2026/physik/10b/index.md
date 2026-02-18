@@ -214,7 +214,7 @@ Kettenreaktion spielerisch: https://phet.colorado.edu/de/simulations/nuclear-fis
 
 ## Funktionsweise eines AKW beschreiben
 
-- Exkurs in die Geschichte: Plutoniumproduktion in Windscale
+- Exkurs in die Geschichte: [Plutoniumproduktion in Windscale](https://youtu.be/x_pWgRx7lno?si=PB8oXg4Q26J6NXGE&t=1021)
 - Vollständige Doku (1h28min) https://www.youtube.com/watch?v=x_pWgRx7lno
 
 ## Größen zur Beschreibung radioaktiver Strahlung
