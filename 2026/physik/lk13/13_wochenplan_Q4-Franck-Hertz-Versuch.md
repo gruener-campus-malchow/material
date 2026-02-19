@@ -35,8 +35,8 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 |Termin|Zeitdauer|Tätigkeit|
 |------|---------|-----|
 | 17.2.| 90 | Vorbereitungen |
-| 19.2.|90 | Vorbereitungen |
-| 20.2.|45 | Präsentationen |
+| 19.2.|45 | Vorbereitungen |
+| 19.2.|45 | Präsentationen |
 
 <!--
 1. Entscheiden Sie sich pro Gruppe, welche der **h**-Bestimmgunen Sie präsentieren wollen (alle Versuche müssen insgesamt bearbeitet und präsentiert werden).
