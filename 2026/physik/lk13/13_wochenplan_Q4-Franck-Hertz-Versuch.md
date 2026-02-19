@@ -38,6 +38,17 @@ https://www.lehrplanplus.bayern.de/sixcms/media.php/71/FOSBOS_Ph_13_Franck_Hertz
 | 19.2.|45 | Vorbereitungen |
 | 19.2.|45 | Präsentationen |
 
+- Photoeffekt: TobiS, Mattheo
+- Franck-Hertz: Jesko, FelixM
+- Röntgen-Spektrum: Levin
+
+## es verbleiben
+
+~~~
+(Shawn, TobiK), 
+(Yannis), 
+~~~
+
 <!--
 1. Entscheiden Sie sich pro Gruppe, welche der **h**-Bestimmgunen Sie präsentieren wollen (alle Versuche müssen insgesamt bearbeitet und präsentiert werden).
 2. Erstellen Sie paarweise eine Präsentation, bei der sie die Ermittlung von **h** durch den Franck-Hertz-Versuch erklären.

@@ -15,6 +15,8 @@ Daher wird ein vereinfachtes Modell mit unendlich hohen Wänden und konstanter p
 
 ![!small](https://www.leifiphysik.de/sites/default/files/images/c75c8b4087c9f53e68c80f1531f40ae7/0wasserstoffatom-anpassung-des-potentialtopfes_skizze1.gif)
 
+Ein Orbitalsimmulator: https://www.kavang.com/atom
+
 ![!small](https://www.leifiphysik.de/sites/default/files/images/dea516e401c9ccce3c64e905ff311b9b/0Linearer%20Potentialtopf_-_Schr%C3%B6dingergleichung_Modell.gif)
 
 ## Erläuterungen 
