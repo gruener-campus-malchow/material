@@ -34,7 +34,3 @@ Bewegungen
 
 - konstante Geschwindigkeit: https://www.leifiphysik.de/mechanik/gleichfoermige-bewegung/grundwissen/bewegungsgesetz-der-gleichfoermigen-bewegung
 - wie auch immer das heißt: https://www.leifiphysik.de/mechanik/beschleunigte-bewegung/grundwissen/bewegungsgesetze-der-gleichmaessig-beschleunigten-bewegung
-
-## Klausur am 13.03.2026
-
-Grundlage ist eine jahrgangsübergreifende Klausur.

@@ -14,3 +14,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - Klassenarbeit
 - [01 Experimente in der Physik](01_Experimente.md)
 - [Bewegungen aka Kinematik](02_Bewegungen.md)
+- Zusammengesetzte Bewegungen
+
+## Klausur am 13.03.2026
+
+Grundlage ist eine jahrgangsübergreifende Klausur.
