@@ -154,3 +154,18 @@ https://makecode.microbit.org/?lang=DE
 
 - Blöcke / Python / JavaScrip: https://makecode.microbit.org/#editor
 - Nur Python: https://python.microbit.org/v/3
+
+## Vor langer, langer Zeit in einer weit, weit entfernten...
+
+> Viel Zeit ist vergangenen seit der letzten Projektarbeit.
+
+1. Gibt es Praktika, die etwas mit Informatik zu tun haben?
+1. Orientiert euch im Projekt: Was ist der Arbeitsstand?
+1. Erstellt eine TODO-Liste.
+1. Stellt mir die Liste vor (einzeln, nicht vor Allen).
+1. Erstellt einen Zeitplan, indem ihr die Punkte der TODO-Liste 90-Minuten-Slots zuordnet.
+1. Stellt mir den Zeitplan vor.
+
+~~~
+Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung
+~~~
