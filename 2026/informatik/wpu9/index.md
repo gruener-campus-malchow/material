@@ -157,6 +157,8 @@ https://makecode.microbit.org/?lang=DE
 
 ## Vor langer, langer Zeit in einer weit, weit entfernten...
 
+![like sw](star-wars-like_introtext.jpg)
+
 > Viel Zeit ist vergangenen seit der letzten Projektarbeit.
 
 1. Gibt es Praktika, die etwas mit Informatik zu tun haben?
