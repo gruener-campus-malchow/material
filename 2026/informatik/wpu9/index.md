@@ -155,7 +155,7 @@ https://makecode.microbit.org/?lang=DE
 - Blöcke / Python / JavaScrip: https://makecode.microbit.org/#editor
 - Nur Python: https://python.microbit.org/v/3
 
-## Vor langer, langer Zeit in einer weit, weit entfernten...
+## Vor langer langer Zeit in einer weit entfernten...
 
 ![like sw](star-wars-like_introtext.jpg)
 
