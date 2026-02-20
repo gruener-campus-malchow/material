@@ -167,5 +167,5 @@ https://makecode.microbit.org/?lang=DE
 1. Stellt mir den Zeitplan vor.
 
 ~~~
-Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung
+Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 ~~~
