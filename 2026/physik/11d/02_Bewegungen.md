@@ -26,6 +26,12 @@ Bewegungen
 
 ## Gesetzmäßigkeiten
 
-todo:
+![Messwerte](Messwerte_Experiment_Schiefe_Ebene.jpg)
+
+- Ermitteln Sie mit Hilfe des Selbstlernmaterials, um welchen mathematischen Zusammenhang es sich handelt.
+
+## Übungsaufgaben
+
 - konstante Geschwindigkeit: https://www.leifiphysik.de/mechanik/gleichfoermige-bewegung/grundwissen/bewegungsgesetz-der-gleichfoermigen-bewegung
 - wie auch immer das heißt: https://www.leifiphysik.de/mechanik/beschleunigte-bewegung/grundwissen/bewegungsgesetze-der-gleichmaessig-beschleunigten-bewegung
+
