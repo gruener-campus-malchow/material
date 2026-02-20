@@ -26,7 +26,7 @@ Bewegungen
 
 ## Gesetzmäßigkeiten
 
-![Messwerte](Messwerte_Experiment_Schiefe_Ebene.jpg)
+![!large](Messwerte_Experiment_Schiefe_Ebene.jpg)
 
 - Ermitteln Sie mit Hilfe des Selbstlernmaterials, um welchen mathematischen Zusammenhang es sich handelt.
 
