@@ -13,7 +13,7 @@ In der Schule spielen Protokolle schon in der Primarstufe eine Rolle und werden 
 
 Basierend auf [einer Webseite der TU-Dresden](https://tu-dresden.de/mn/physik/studium/lehrveranstaltungen/praktika/hidden/musterprotokoll), habe ich eine Minimalforderung entwickelt.
 
-<!--
+
 
 ## Umfang eines Protokolls im Leistungskurs
 
