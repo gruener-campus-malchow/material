@@ -7,7 +7,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Erstes Halbjahr
 
-![!large aussichten](./aussichten.jpg)
+![aussichten](./aussichten.jpg)
 
 ## Woche 01
 
