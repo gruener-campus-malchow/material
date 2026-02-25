@@ -83,3 +83,19 @@ GK Informatik 12
 - Erstellen eigener SQL-Create Statements
 - Beispiele und Debugging mit phpMyAdmin auf Bplaced
 
+## Woche 10
+
+- Einführung einer DB-Klasse in PHP 
+- Einführung einer Config-Datei
+- Anpassung individueller DEV-Environments
+- Upload mit FileZilla
+- Arbeitsteilige Erweiterung eines Installations-Skriptes mit vielen git-Problemen und einer Menge wilder "merges"
+- Einbau von mehr oder weniger sinnvollen Dingen
+
+## Woche 11
+
+### TODO
+
+- Formularverarbeitung (POST) am Beispiel der Config-Datei
+- Verwendung von HTML-Klassen des gcm-css
+- Entwicklung einzelner Eingabe-Masken für Testdaten
