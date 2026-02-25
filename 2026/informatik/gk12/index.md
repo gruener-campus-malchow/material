@@ -92,6 +92,8 @@ GK Informatik 12
 - Arbeitsteilige Erweiterung eines Installations-Skriptes mit vielen git-Problemen und einer Menge wilder "merges"
 - Einbau von mehr oder weniger sinnvollen Dingen
 
+> [5.PK Simulation](5pk_simulation_2026.md)
+
 ## Woche 11
 
 ### TODO
