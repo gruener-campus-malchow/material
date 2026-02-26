@@ -32,3 +32,5 @@ Leistungskurs Physik Klasse 13
 * [Woche 13: Franck-Hertz-Versuch](13_wochenplan_Q4-Franck-Hertz-Versuch.md)
 * [Woche 14: Potentialtopf](14_wochenplan_Q4-Potentialtopf.md)
 * Blick in die [Abituranforderungen](https://www.iqb.hu-berlin.de/media/documents/N_Inhaltliche_Vereinbarungen_zur_Gestaltung_der_Aufgaben_Physik.pdf) und das Curriciulum [Q1](../Q1_Physik.pdf),[Q2](../Q2_Physik.pdf),[Q3](../Q3_Physik.pdf),[Q4](../Q4_Physik.pdf) - Schuljahresendplanung
+
+> Bonusmaterial: [Quantenmechanik](zz_Quantenmechanik_Quantenphysik.md)
