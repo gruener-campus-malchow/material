@@ -13,7 +13,7 @@ Daher wird ein vereinfachtes Modell mit unendlich hohen Wänden und konstanter p
 
 ![!small](https://upload.wikimedia.org/wikipedia/commons/2/20/Atomic_orbitals_spdf_m-eigenstates_mpositive.png)
 
-Ein Orbitalsimmulator: https://www.kavang.com/atom
+Ein Orbitalsimulator: https://www.kavang.com/atom
 
 ![!small](https://www.leifiphysik.de/sites/default/files/images/c75c8b4087c9f53e68c80f1531f40ae7/0wasserstoffatom-anpassung-des-potentialtopfes_skizze1.gif)
 
