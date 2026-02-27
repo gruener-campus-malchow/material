@@ -35,6 +35,8 @@ https://www.damtp.cam.ac.uk/user/tong/pp/pp.pdf
 
 https://www.leifiphysik.de/kern-teilchenphysik/teilchenphysik/grundwissen/feynman-diagramme
 
+Ebenfalls sehr anschaulich ab Folie 24: https://www.schul-physik.de/downloads/zoofol99.pdf
+
 ## Das Standard-Modell
 
 ![foo](https://www.explainxkcd.com/wiki/images/thumb/e/ed/1024px-Standard_Model_of_Elementary_Particles.svg.png/626px-1024px-Standard_Model_of_Elementary_Particles.svg.png)
