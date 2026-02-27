@@ -13,7 +13,7 @@ Zusammengesetzte Bewegungen
 
 ### Beispielaufgabe
 
-![foo](gartenbewaesserung.webp)
+![foo](./gartenbewaesserung.webp)
 
 > Ein quadratisches Beet auf der Erde von 2x2m soll bewässert werden. das Wasser tritt mit einer Geschwindigkeit von 12 m/s aus dem Schlauch aus.
 
