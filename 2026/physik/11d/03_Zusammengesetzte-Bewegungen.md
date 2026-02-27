@@ -1,7 +1,7 @@
 Zusammengesetzte Bewegungen
 ==========
 
-## Der Waagerechte Wurf
+## Der waagerechte Wurf
 
 ![waagerechter Wurf](https://media.4teachers.de/images/thumbs/image_thumb.2802.png)
 
