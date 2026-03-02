@@ -133,6 +133,13 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 [Charakteristische Denk- und Arbeitsweisen in der Physik: Protokolle](04_Methoden_Physik.md)
 
+# Theorieteil
+
+- Einstieg in die [Thermodynamik](https://www.deutsche-thermo.de/wiki/thermodynamik/)
+
+> Welche der benannten Größen ist für unsere Arbeit relevant?
+
+
 
 <!--
 
