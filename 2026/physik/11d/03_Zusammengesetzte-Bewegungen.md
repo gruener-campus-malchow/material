@@ -55,6 +55,6 @@ Noch einmal deutlicher: **Es geht um die Fähre im Hintergrund, nicht um den Dam
     - Mit der Strömung (vom Ufer aus gesehen)
     - Mit der Strömung (von einem Floß aus gesehen)
     - Senkrecht zur Strömung (vom Ufer aus gesehen)
-2. Erstelle für die drei Fälle jeweils eine Skizze, zeichne dabei die Geschwindigkeiten als Vektorpfeile ein.
+2. Erstelle für die verschiedenen Fälle jeweils eine Skizze, zeichne dabei die Geschwindigkeiten als Vektorpfeile ein.
 3. Beschreibe Ähnlichkeiten und Unterschiede der senkrechten Bewegung zum Fluss und dem Beispiel mit dem Bewässern.
 4. Bestimme, wie weit ein Boot abtreiben würde, wenn es einen 1km breiten Fluss senkrecht durchqueren würde. Erstelle hierzu ein Koordinatensystem und löse die Aufgabe zunächst graphisch. Löse das Problem anschließend mathematisch und gib dabei die Zeit an, die für das Erreichen des anderen Ufers notwendig ist.
