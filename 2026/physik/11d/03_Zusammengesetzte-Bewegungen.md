@@ -49,7 +49,7 @@ Noch einmal deutlicher: **Es geht um die Fähre im Hintergrund, nicht um den Dam
 
 #### Aufgaben
 
-1. Bestimme die Geschwindigkeit:
+1. Bestimme die Geschwindigkeit des Schiffes:
     - Gegen die Strömung (vom Ufer aus gesehen)
     - Gegen die Strömung (von einem Floß aus gesehen)
     - Mit der Strömung (vom Ufer aus gesehen)
