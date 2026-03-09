@@ -1,4 +1,4 @@
-Finale
+Ein Modell für Alles
 ===========
 
 # Ein Kapitel in einem gut geschriebenen Buch
