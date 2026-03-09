@@ -1,14 +1,9 @@
-UNDER CONSTRUCTION
-==================
-~~~
-Weil die Links kaputt sind...
-~~~
-
-
 Finale
 ===========
 
+# Ein Kapitel in einem gut geschriebenen Buch
 
+Quantenphysik für Alle, Kapitel 11
 
 ![foo](https://imgs.xkcd.com/comics/particle_properties_2x.png)
 
@@ -43,7 +38,3 @@ Ebenfalls sehr anschaulich ab Folie 24: https://www.schul-physik.de/downloads/zo
 ![foo](https://imgs.xkcd.com/comics/standard_model_changes_2x.png)
 
 Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
-
-# Ein Kapitel in einem gut geschriebenen Buch
-
-Quantenphysik für Alle, Kapitel 11
