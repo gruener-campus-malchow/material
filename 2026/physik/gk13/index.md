@@ -33,3 +33,4 @@ Grundkurs Physik Klasse 13
 * [Woche 04 Aufgaben und Franck-Hertz-Versuch](13_wochenplan_roentgen_ff.md)
 * [Transparenzdokument LEK 23.02.26](14_Transparenzdokument_LEK.md)
 * [Woche ab 02.03.2026](15_wochenplan_Q4-Potentialtopf.md)
+* [Quantenmechanik und das Standardmodell der Physik](zz_Quantenmechanik_Quantenphysik.md)
