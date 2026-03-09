@@ -43,11 +43,15 @@ Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model
 
 ![!large](https://cds.cern.ch/images/CERN-DI-9905005-1/file?size=original)
 
-![!large](https://cds.cern.ch/images/OPEN-PHO-CHART-2015-001-1/file?size=original)
+![!large](https://cds.cern.ch/images/CERN-DI-0108003-01/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-0108010-01/file?size=original)
 
 ![!large](https://cds.cern.ch/images/CERN-DI-9803026-1/file?size=original)
 
 ![!large](https://cds.cern.ch/record/2260843/files/2%20ALICEimages.jpg?subformat=icon-1440)
+
+![!large](https://cds.cern.ch/images/OPEN-PHO-CHART-2015-001-1/file?size=original)
 
 ![!large](https://cds.cern.ch/images/CERN-DI-9501005-1/file?size=original)
 
