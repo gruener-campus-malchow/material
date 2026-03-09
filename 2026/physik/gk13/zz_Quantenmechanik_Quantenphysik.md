@@ -47,7 +47,7 @@ Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model
 
 ![!large](https://cds.cern.ch/images/CERN-DI-9803026-1/file?size=original)
 
-![!large](https://cds.cern.ch/images/OPEN-PHO-EXP-2017-003-2/file?size=original)
+![!large](https://cds.cern.ch/record/2260843/files/2%20ALICEimages.jpg?subformat=icon-1440)
 
 ![!large](https://cds.cern.ch/images/CERN-DI-9501005-1/file?size=original)
 
