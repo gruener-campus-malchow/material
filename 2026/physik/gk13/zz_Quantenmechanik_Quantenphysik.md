@@ -38,3 +38,17 @@ Ebenfalls sehr anschaulich ab Folie 24: https://www.schul-physik.de/downloads/zo
 ![foo](https://imgs.xkcd.com/comics/standard_model_changes_2x.png)
 
 Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
+
+## Moderne Methoden des Nachweises
+
+![!large](https://cds.cern.ch/images/CERN-DI-9905005-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/OPEN-PHO-CHART-2015-001-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9803026-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/OPEN-PHO-EXP-2017-003-2/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9501005-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9108002-1/file?size=original)
