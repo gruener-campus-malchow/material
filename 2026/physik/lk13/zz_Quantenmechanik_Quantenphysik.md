@@ -1,14 +1,9 @@
-UNDER CONSTRUCTION
-==================
-~~~
-Weil die Links kaputt sind...
-~~~
-
-
-Finale
+Ein Modell für Alles
 ===========
 
+# Ein Kapitel in einem gut geschriebenen Buch
 
+Quantenphysik für Alle, Kapitel 11
 
 ![foo](https://imgs.xkcd.com/comics/particle_properties_2x.png)
 
@@ -44,6 +39,20 @@ Ebenfalls sehr anschaulich ab Folie 24: https://www.schul-physik.de/downloads/zo
 
 Lernen von XKCD: https://www.explainxkcd.com/wiki/index.php/2351:_Standard_Model_Changes
 
-# Ein Kapitel in einem gut geschriebenen Buch
+## Moderne Methoden des Nachweises
 
-Quantenphysik für Alle, Kapitel 11
+![!large](https://cds.cern.ch/images/CERN-DI-9905005-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-0108003-01/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-0108010-01/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9803026-1/file?size=original)
+
+![!large](https://cds.cern.ch/record/2260843/files/2%20ALICEimages.jpg?subformat=icon-1440)
+
+![!large](https://cds.cern.ch/images/OPEN-PHO-CHART-2015-001-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9501005-1/file?size=original)
+
+![!large](https://cds.cern.ch/images/CERN-DI-9108002-1/file?size=original)
