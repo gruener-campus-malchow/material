@@ -1,6 +1,9 @@
 Exkurs
 ========================================
 
+Vorwort: https://www.youtube.com/watch?v=WtlM5E1DPCs
+
+
 ## Kernphysik
 
 Erkennen an der Bahn in einem Magnetfeld, um welchen Strahlungstyp es sich handelt:
