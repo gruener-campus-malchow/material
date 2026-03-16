@@ -51,3 +51,7 @@ digraph G {
 }
 
 ~~~
+
+Die KI hat folgende Grafik erzeugt:
+
+![!large](waermeuebertragung_KI.png)
