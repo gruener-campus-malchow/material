@@ -5,7 +5,7 @@ Wir haben folgende Mitschrift erarbeitet:
 
 ![!large](waermeuebertragung.png)
 
-Dafür wurde die Grphviz-IDE [Sketchviz](https://sketchviz.com/new) verwendet und folgender Code generiert:
+Dafür wurde die Graphviz-IDE [Sketchviz](https://sketchviz.com/new) verwendet und folgender Code generiert:
 
 ~~~dot
 digraph G {
