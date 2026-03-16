@@ -136,6 +136,7 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 # Theorieteil
 
 - Einstieg in die [Thermodynamik](https://www.deutsche-thermo.de/wiki/thermodynamik/)
+- [Wärmeübertragung](05_waermeuebertragung.md)
 
 > Welche der benannten Größen ist für unsere Arbeit relevant?
 
