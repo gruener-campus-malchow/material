@@ -69,7 +69,7 @@ Ausgangslage:
 
 Aufgabe:
 
-1. Erstellen Sie ein Aufgabe, die später andere Schüler*innen der Klasse lösen sollen. Es geht beispielsweise darum, einen Gegenstand über ein Objekt zu werfen.
+1. Erstellen Sie eine Aufgabe, die später andere Schüler*innen der Klasse lösen sollen. Es geht beispielsweise darum, einen Gegenstand über ein Objekt zu werfen.
 1. Nutzen Sie [den Simulator](https://www.leifiphysik.de/mechanik/waagerechter-und-schraeger-wurf/versuche/schraeger-wurf-simulation-von-walter-fendt), um ihre Aufgabe zu testen.
 1. Gestalten Sie ein Aufgabenblatt und stellen Sie dieses einer zufälligen Person vor - bitten Sie um Verbesserungsvorschläge.
 1. Überarbeiten Sie Ihr Aufgabenblatt.
