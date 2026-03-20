@@ -76,5 +76,5 @@ Aufgabe:
 1. Bei einer weiteren Zuordnung erhält ein*e Mitschüler*in die verbesserte Aufgabe und soll diese Lösen.
 1. Kontrollieren Sie die Lösung.
 
-> Bonus: [qBasic - Gorillaz](https://classicreload.com/qbasic-gorillas.html)
+> Bonus: [qBasic - Gorillas](https://classicreload.com/qbasic-gorillas.html)
 
