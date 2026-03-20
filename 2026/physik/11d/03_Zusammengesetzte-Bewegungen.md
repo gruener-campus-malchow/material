@@ -58,3 +58,21 @@ Noch einmal deutlicher: **Es geht um die Fähre im Hintergrund, nicht um den Dam
 2. Erstelle für die verschiedenen Fälle eine Skizze, zeichne dabei die Geschwindigkeiten als Vektorpfeile ein.
 3. Beschreibe Ähnlichkeiten und Unterschiede der senkrechten Bewegung zum Fluss und dem Beispiel mit dem Bewässern.
 4. Bestimme, wie weit ein Boot abtreiben würde, wenn es einen 1km breiten Fluss senkrecht durchqueren würde. Erstelle hierzu ein Koordinatensystem und löse die Aufgabe zunächst graphisch. Löse das Problem anschließend mathematisch und gib dabei die Zeit an, die für das Erreichen des anderen Ufers notwendig ist.
+
+### Exkurs: Schräger Wurf
+
+Ausgangslage:
+
+- Skizzen der echten Würfe
+- Theorie: https://www.leifiphysik.de/mechanik/waagerechter-und-schraeger-wurf/grundwissen/schraeger-wurf-nach-oben-mit-anfangshoehe
+- Sammlung von Fragen / Problemen, die man so lösen kann
+
+Aufgabe:
+
+1. Erstellen Sie ein Aufgabe, die später andere Schüler*innen der Klasse lösen sollen. Es geht beispielsweise darum, einen Gegenstand über ein Objekt zu werfen.
+1. Nutzen Sie [den Simulator](https://www.leifiphysik.de/mechanik/waagerechter-und-schraeger-wurf/versuche/schraeger-wurf-simulation-von-walter-fendt), um ihre Aufgabe zu testen.
+1. Gestalten Sie ein Aufgabenblatt und stellen Sie dieses einer zufälligen Person vor - bitten Sie um Verbesserungsvorschläge.
+1. Überarbeiten Sie Ihr Aufgabenblatt.
+1. Bei einer weiteren Zuordnung erhält ein*e Mitschüler*in die verbesserte Aufgabe und soll diese Lösen.
+1. Kontrollieren Sie die Lösung.
+
