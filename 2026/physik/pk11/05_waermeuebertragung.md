@@ -58,10 +58,12 @@ Die KI hat folgende Grafik erzeugt:
 
 ## Kontext Wärmeübertragung
 
+> 1. Erstellen Sie eine Concept-Map, die die verschiedenen Wärmeübertragungen bei einer modernen Heizungsanlage erklärt.
+
 ![foo](https://www.harm-haustechnik.de/images/solarthermieschema.jpg)
 
 ![foo](https://schlieger.de/wp-content/uploads/2024/08/WAeRMEPUMPENGRUPPE-FUeR-HEIZUNG-UND-WARMWASSER.jpg.webp)
 
-1. Erstellen Sie eine Concept-Map, die die verschiedenen Wärmeübertragungen bei einer modernen Heizungsanlage erklärt.
+
 
 
