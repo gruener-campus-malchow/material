@@ -55,3 +55,13 @@ digraph G {
 Die KI hat folgende Grafik erzeugt:
 
 ![!large](waermeuebertragung_KI.png)
+
+## Kontext Wärmeübertragung
+
+![foo](https://www.harm-haustechnik.de/images/solarthermieschema.jpg)
+
+![foo](https://schlieger.de/wp-content/uploads/2024/08/WAeRMEPUMPENGRUPPE-FUeR-HEIZUNG-UND-WARMWASSER.jpg.webp)
+
+1. Erstellen Sie eine Comcept-Map, die die verschiedenen Wärmeübertragungen bei einer modernen Heizungsanlage erklärt.
+
+
