@@ -79,3 +79,9 @@ https://www.youtube.com/watch?v=0MVo_qre3-g
 ### Zusatzmaterial 
 
 Video- Animus: https://youtu.be/aFtfsFnxc3g
+
+## Weitere Kurz-Dokus zur Geschichte der Atomphysik
+
+- Marie Curie und die Entdeckungen ihrer Zeit: https://youtu.be/kQCqv1klb-Q
+- Entwicklung der ersten Atombombe: https://youtu.be/nAm_OPVeS4w
+- Einordnung des Abwurfs: https://youtu.be/hlAUaEP9Vgs
