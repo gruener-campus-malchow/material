@@ -62,6 +62,6 @@ Die KI hat folgende Grafik erzeugt:
 
 ![foo](https://schlieger.de/wp-content/uploads/2024/08/WAeRMEPUMPENGRUPPE-FUeR-HEIZUNG-UND-WARMWASSER.jpg.webp)
 
-1. Erstellen Sie eine Comcept-Map, die die verschiedenen Wärmeübertragungen bei einer modernen Heizungsanlage erklärt.
+1. Erstellen Sie eine Concept-Map, die die verschiedenen Wärmeübertragungen bei einer modernen Heizungsanlage erklärt.
 
 
