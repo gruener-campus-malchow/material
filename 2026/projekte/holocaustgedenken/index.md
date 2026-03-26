@@ -6,7 +6,7 @@ Holocaust-Gedenken
 Es sollen zwei Orte geschaffen werden, die das aktive Gedenken und die Auseinandersetzung mit dem Holocaust fördern.
 
 1. Ein Ort der öffentlich sichtbar ist, bei dem das Design darauf ausgelegt ist, dass es gelegentlich, je nach gesellschaftlicher Entwicklung, repariert werden muss. Dieser Gedenkort soll und darf verwittern, damit er gelegentlich von den jeweils aktuellen Schülergenerationen saniert werden kann. Er soll robust gegen Vandalismus sein.
-1. Ein der Schulgemeinschaft vorbehaltener Ort darf künstlerisch aufwendiger gestaltet sein. Er muss nicht so robust sein. Allerdings soll er ausdrücklich regelmäßig (jährlich) weiter entwickelt und gestaltet werden können.
+1. Ein der Schulgemeinschaft vorbehaltener Ort darf künstlerisch aufwendiger gestaltet sein. Er muss nicht so robust sein. Allerdings soll er ausdrücklich regelmäßig (jährlich) weiterentwickelt und gestaltet werden können.
 
 ## Ideen zur Umsetzung
 
