@@ -25,6 +25,10 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 * [Wahlpflicht 9](2026/informatik/wpu9/)
 * [Grundkurs Klasse 12](2026/informatik/gk12/)
 
+## Projekte
+
+* [Holocaust-Gedenken](2026/Projekte/Holocaust-Gedenken/)
+
 # 2024-2025
 
 ## Physik
