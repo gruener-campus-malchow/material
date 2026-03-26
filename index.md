@@ -27,7 +27,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 ## Projekte
 
-* [Holocaust-Gedenken](2026/Projekte/Holocaust-Gedenken/)
+* [Holocaust-Gedenken](2026/projekte/holocaustgedenken/)
 
 # 2024-2025
 
