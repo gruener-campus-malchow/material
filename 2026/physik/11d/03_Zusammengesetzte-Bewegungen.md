@@ -78,3 +78,12 @@ Aufgabe:
 
 > Bonus: [qBasic - Gorillas](https://classicreload.com/qbasic-gorillas.html)
 
+### Senkrechter Wurf
+
+Ein Körper wird aus einer Anfangshöhe von $$ y_0 = 20m$$ mit einer Anfangsgeschwindigkeit von 
+$$v_{y0}=5 {{m}\over{s}}$$ nach unten geworfen und bewegt sich reibungsfrei unter dem Einfluss der Erdbeschleunigung weiter.
+
+1. Berechnen Sie die Flugdauer.
+1. Skizzieren sie die klassischen Diagramme.
+
+> Was geschieht, wenn die Anfangsgeschwindigkeit bei $$v_{y0}=-5 {{m}\over{s}}$$ nach oben gerichtet ist?
