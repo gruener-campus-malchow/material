@@ -16,6 +16,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Bewegungen aka Kinematik](02_Bewegungen.md)
 - [Zusammengesetzte Bewegungen](03_Zusammengesetzte-Bewegungen.md)
 
+<!--
 ## Klausur am 13.03.2026
 
 Grundlage ist eine jahrgangsübergreifende Klausur.
+-->
