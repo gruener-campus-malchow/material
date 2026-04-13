@@ -64,6 +64,14 @@ Die KI hat folgende Grafik erzeugt:
 
 ![foo](https://schlieger.de/wp-content/uploads/2024/08/WAeRMEPUMPENGRUPPE-FUeR-HEIZUNG-UND-WARMWASSER.jpg.webp)
 
+## Nach den Osterferien
 
+### Interpretation von IR-Bildern
+
+> Recherchieren Sie ein IR-Bild und präsentieren Sie dieses dem Kurs. Erläutern Sie die physikalischen Hintergründe zu den besonders interessanten Stellen im Bild.
+
+### Anwendungsgebiete von IR Licht erläutern
+
+> Der Wikipediaartikel zum Thema Infrarotstrahlung listet 13 Anwendungsgebiete auf. Erläutern Sie zwei dieser Anwendungsgebiete. Beurteilen Sie begründet den persönlichen Nutzen für Sie und genauso den Nutzen für die Gesellschaft im Allgemeinen.
 
 
