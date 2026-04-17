@@ -1,8 +1,3 @@
-Physik 10b
-==============
-
-Der erste Teil des Schuljahres war mit [Kernphysik oder Atomphysik](01_Atomphysik.md) gefüllt.
-
 # Kernphysik
 
 - Wortwolke erstellen https://www.wortwolke24.de/

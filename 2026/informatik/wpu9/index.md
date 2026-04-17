@@ -171,3 +171,9 @@ https://makecode.microbit.org/?lang=DE
 ~~~
 Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 ~~~
+
+# Grafikverarbeitung
+
+![foo](bruttostromerzeugung-energietraeger.png)
+
+![foo](bruttostromerzeugung-energietraeger.svg)
