@@ -74,5 +74,5 @@ https://youtube.com/shorts/0b40puT7N68?si=q6x9jsi281WhDaF7
 
 1. Skizzieren Sie die Bewegung einer Münze auf einer rotierenden Scheibe und zeichnen Sie die Kräfte ein.
 1. Recherchieren Sie die Formel für die Zentrifugalkraft.
-2. Beobachten Sie die Münze auf der Drehscheibe: Welche Kraft wirkt als Zentripetalkraft? (Kontrolle: $F_H = m \cdot g \cdot \my_H$ mit $\mu_H$ auf Holz von 0,5 bis 0,6)
+2. Beobachten Sie die Münze auf der Drehscheibe: Welche Kraft wirkt als Zentripetalkraft? (Kontrolle: $F_H = m \cdot g \cdot \mu_H$ mit $\mu_H$ auf Holz von 0,5 bis 0,6)
 3. Bestimmen Sie alle Größen, die Sie benötigen, um zu ermitteln ab welcher Winkelgeschwindigkeit die Münze von der Scheibe fliegt.
