@@ -177,3 +177,33 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 ![foo](bruttostromerzeugung-energietraeger.png)
 
 ![foo](bruttostromerzeugung-energietraeger.svg)
+
+## Grafikformate
+
+> Recherchiere mit maximal einem(!) Partner die Eigenschaften der folgenden Formate und präsentiere uns diese unter folgenden Überschriften in einer Präsentation
+>
+> - Name ausgeschrieben
+> - Besonderheit
+> - Anwendungsgebiet
+> - Verhältnis von Qualität und Speicherbedarf
+
+- SVG
+- EPS
+- RAW
+- PNG
+- JPG
+- GIF
+- PDF
+- TIFF
+- WebP
+- BMP
+
+## Metadaten
+
+> Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
+
+> Beurteile, unter welchen Bedingungen die Risiken der Veröffentlichung solcher Daten gegenüber dem Nutzen überwiegen.
+
+> Nenne je zwei Beispiele bei denen der Nutzen überwiegt oder bei denen der Schaden überwiegt.
+
+> Recherchiere Möglichkeiten, wie ein sinnvoller Schutz vor dem Missbrauch von Metadaten in Fotos aussehen kann.
