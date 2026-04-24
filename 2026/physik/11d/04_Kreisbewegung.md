@@ -76,3 +76,15 @@ https://youtube.com/shorts/0b40puT7N68?si=q6x9jsi281WhDaF7
 1. Recherchieren Sie die Formel für die Zentrifugalkraft.
 2. Beobachten Sie die Münze auf der Drehscheibe: Welche Kraft wirkt als Zentripetalkraft? (Kontrolle: $F_H = m \cdot g \cdot \mu_H$ mit $\mu_H$ auf Holz von 0,5 bis 0,6)
 3. Bestimmen Sie alle Größen, die Sie benötigen, um zu ermitteln ab welcher Winkelgeschwindigkeit die Münze von der Scheibe fliegt.
+
+### Betrachtungen im sehr Großen
+
+![milchstraße](https://upload.wikimedia.org/wikipedia/commons/5/5a/800_nasa_structure_renderin2.jpg)
+
+Sterne, wie die Sonnen, bewegen sich um das Zentrum ihrer Galaxie mit einer Geschwindigkeit von etwa $ 220 km s^{-1}$. Sie sind dabei etwas 26.000 Lichtjahre vom Zentrum entfernt. Bestimmen Sie die Masse, die innerhalb ihrer Umlaufbahn liegen muss. Interessant ist, dass Abschätzungen zeigen, dass die sichtbare Masse nicht ausreicht um diese Bewegung zu erklären. Deshalb wurde die dunkle Materie "erfunden".
+
+**work in progress**
+
+~~~
+Idee: Vom ganz großen immer weiter ins Kleine gehen.
+~~~
