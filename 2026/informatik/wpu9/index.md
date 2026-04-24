@@ -198,6 +198,12 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 - WebP
 - BMP
 
+### Vor der Präsentation
+
+> Bewirb Dich mit Deinem Format für eines der Szenarien und begründe, weshalb Dein Grafikformat besonders geeignet ist.
+
+[Einsatzszenarien der Grafikformate](Szenarien_Grafikformate.slides.md)
+
 ## Metadaten
 
 > Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
