@@ -39,3 +39,40 @@ https://www.leifiphysik.de/mechanik/kreisbewegung/grundwissen/bahngeschwindigkei
 
 - https://www.leifiphysik.de/mechanik/kreisbewegung/aufgabe/quiz-zur-formel-fuer-die-winkelgeschwindigkeit
 - https://www.leifiphysik.de/mechanik/kreisbewegung/aufgabe/quiz-zur-formel-fuer-die-bahngeschwindigkeit
+
+## Beobachten und beschreiben
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K8bdYzUMJOo?si=a7SGIX9yttcx1Iwd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+und
+
+https://youtube.com/shorts/0b40puT7N68?si=q6x9jsi281WhDaF7
+
+> Beschreiben Sie den Zusammenhang zwischen Winkelgeschwindigkeit und Gewichtsverteilung bei variablem Radius.
+
+> Stellen Sei eine Vermutung auf mit welchen Größen das zusammenhängen kann.
+
+## Kräfte
+
+### Zentrifugalkraft
+
+> Der Wortstamm **fuge** leitet sich vom lateinischen Verb fugere (Infinitiv) ab, dessen Hauptformen fugiō, fūgī und fugitūrus lauten.  Es handelt sich um ein Verb der konsonantischen Konjugation auf -io. Die Grundbedeutung von fugere ist fliehen, entkommen oder meiden (oft mit Akkusativobjekt).
+
+### Zentripetalkraft
+
+> centripetal: zentripetal; zum Zentrum hin tendierend; bewegung zum Mittelpunkt
+
+### Radialkraft
+
+> wie der Radius nach innen wirkend
+
+### Fliehkraft
+
+> vom Radius weg führend...
+
+### Aufgaben
+
+1. Skizzieren Sie die Bewegung einer Münze auf einer rotierenden Scheibe und zeichnen Sie die Kräfte ein.
+1. Recherchieren Sie die Formel für die Zentrifugalkraft.
+2. Beobachten Sie die Münze auf der Drehscheibe: Welche Kraft wirkt als Zentripetalkraft? (Kontrolle: $F_H = m \cdot g \cdot \my_H$ mit $\mu_H$ auf Holz von 0,5 bis 0,6)
+3. Bestimmen Sie alle Größen, die Sie benötigen, um zu ermitteln ab welcher Winkelgeschwindigkeit die Münze von der Scheibe fliegt.
