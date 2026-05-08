@@ -206,19 +206,10 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 
 ## Metadaten
 
-> Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
-
-
-
-> Beurteile, unter welchen Bedingungen die Risiken der Veröffentlichung solcher Daten gegenüber dem Nutzen überwiegen.
-
-
-
-> Nenne je zwei Beispiele bei denen der Nutzen überwiegt oder bei denen der Schaden überwiegt.
-
-
-
-> Recherchiere Möglichkeiten, wie ein sinnvoller Schutz vor dem Missbrauch von Metadaten in Fotos aussehen kann.
+> 1. Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
+> 1. Beurteile, unter welchen Bedingungen die Risiken der Veröffentlichung solcher Daten gegenüber dem Nutzen überwiegen.
+> 1. Nenne je zwei Beispiele bei denen der Nutzen überwiegt oder bei denen der Schaden überwiegt.
+> 1. Recherchiere Möglichkeiten, wie ein sinnvoller Schutz vor dem Missbrauch von Metadaten in Fotos aussehen kann.
 
 
 ## Animationen mit Pixel-Grafiken
