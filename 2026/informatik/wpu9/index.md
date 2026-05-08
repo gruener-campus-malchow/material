@@ -209,10 +209,39 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 > Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
 
 
+
 > Beurteile, unter welchen Bedingungen die Risiken der Veröffentlichung solcher Daten gegenüber dem Nutzen überwiegen.
+
 
 
 > Nenne je zwei Beispiele bei denen der Nutzen überwiegt oder bei denen der Schaden überwiegt.
 
 
+
 > Recherchiere Möglichkeiten, wie ein sinnvoller Schutz vor dem Missbrauch von Metadaten in Fotos aussehen kann.
+
+
+## Animationen mit Pixel-Grafiken
+
+![animation](Bouncywikilogo.gif)
+
+1. Erstelle eine Animation mit Gimp. Entscheide, ob Du GIF (altmodisch) oder WebP (modern) verwendest.
+
+> GIMP unterstützt die Erstellung und den Export von animierten WebP-Dateien ab Version 2.10.
+
+### Erstellung und Export
+1.  Öffnen Sie Ihre Animations-Frames mit **Datei > Als Ebenen öffnen**. 
+3.  Geben Sie einen Dateinamen mit der Endung `.webp` ein.
+4.  Klicken Sie auf "Exportieren".
+5.  Aktivieren Sie im folgenden Dialog die Option **Als Animation**.
+6.  Passen Sie die Einstellungen an:
+    *   **Zeit zwischen Frames**: Legen Sie die Verzögerung in Millisekunden fest.
+    *   **Schleife**: Deaktivieren Sie "Für immer", wenn die Animation nur einmal abgespielt werden soll.
+    *   **Optimieren**: Aktivieren Sie, um die Dateigröße zu reduzieren.
+7.  Klicken Sie auf "Exportieren". 
+
+### Wichtige Hinweise
+*   Jede Ebene wird als ein Frame der Animation interpretiert.
+*   Layer-Gruppen werden beim Export nicht unterstützt.
+*   Bei transparenten Ebenen kann es zu unerwünschten Effekten kommen, da die darunterliegenden Ebenen sichtbar bleiben.
+*   Die Verzögerung und der Animationsmodus können direkt im Namen einer Ebene festgelegt werden (z. B. `MeinLayer (100)(combine)`).   

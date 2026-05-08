@@ -140,6 +140,11 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 > Welche der benannten Größen ist für unsere Arbeit relevant?
 
+# Klausurvorbereitung
+
+> Datum: 18.05.2026 (90 Minuten + NTA)
+
+[Transparenzdokument](Transdparenzdokument_Klausur_2_PK_11.md)
 
 
 <!--
