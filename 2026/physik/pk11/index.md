@@ -148,7 +148,9 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 ![foo](Bilanz_der_Wärmepumpe.png)
 
-> 
+> 1. Stellen Sie eine begründete Vermutung auf, welche Bedeutung der Fachbergriff "Anergie" hat.
+>
+> 1. Erläutern Sie anhand der Grafik, wie ein Wirkungsgrad über 100% zustande kommen kann.
 
 
 <!--
