@@ -152,6 +152,19 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 >
 > 1. Erläutern Sie anhand der Grafik, wie ein Wirkungsgrad über 100% zustande kommen kann.
 
+![doppelfoo](https://upload.wikimedia.org/wikipedia/commons/0/00/Heatpump_hg.svg)
+
+> Nennen Sie alle Formen der Wärmeübertragung und ordnen Sie diese den einzelnen Komponenten des Heizungssystems aus der Abbildung zu.
+
+![triplefoo](JAZ_Formel.png)
+
+![quadrofoo](JAZ_Berechnung.png)
+
+> Ermitteln Sie den jährlichen Stromverbrauch eines $$200 m^2$$ großen Hauses, das aufgrund seiner Dämmung einen Heizbedarf von $$183 kWh \over {m^2 a}$$ und mit einer Sole-Wasser-Wärmepumpe mit Erdsonden betrieben wird.
+
+
+Berechnen
+
 
 <!--
 
