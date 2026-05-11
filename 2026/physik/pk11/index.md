@@ -146,6 +146,10 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 [Transparenzdokument](Transdparenzdokument_Klausur_2_PK_11.md)
 
+![foo](Bilanz_der_Wärmepumpe.png)
+
+> 
+
 
 <!--
 
