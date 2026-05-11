@@ -156,7 +156,7 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 > Nennen Sie alle Formen der Wärmeübertragung und ordnen Sie diese den einzelnen Komponenten des Heizungssystems aus der Abbildung zu.
 
-![triplefoo](JAZ_Formel.png)
+![!small](JAZ_Formel.png)
 
 ![quadrofoo](JAZ_Berechnung.png)
 
