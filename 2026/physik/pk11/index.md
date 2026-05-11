@@ -160,7 +160,7 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 
 ![quadrofoo](JAZ_Berechnung.png)
 
-> Ermitteln Sie den jährlichen Stromverbrauch eines $200 m^2$ großen Hauses, das aufgrund seiner Dämmung einen Heizenergiebedarf von $183 kWh \over {m^2 a}$ und das mit einer Sole-Wasser-Wärmepumpe mit Erdsonden betrieben wird.
+> Ermitteln Sie den jährlichen Stromverbrauch eines $200 m^2$ großen Hauses, das aufgrund seiner Dämmung einen Heizenergiebedarf von $183 {kWh \over {m^2 a}}$ und das mit einer Sole-Wasser-Wärmepumpe mit Erdsonden betrieben wird.
 
 Quelle: 
 
