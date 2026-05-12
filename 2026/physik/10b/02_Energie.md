@@ -5,7 +5,9 @@ Energie
 
 ![foo](Energieformen.jpg)
 
-## 
+## Umfrageergebnis
+
+![foo](wordlcloud_energie.png)
 
 <!--
 
