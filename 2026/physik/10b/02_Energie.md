@@ -9,6 +9,8 @@ Energie
 
 ![foo](wordlcloud_energie.png)
 
+> Das Material besteht derzeit v.a. in Form von Präsentationen, Tafelbildern, Arbeit mit dem Lehrbuch und Arbeitsblättern.
+
 <!--
 
 - Energieerhaltung -> siehe AB
