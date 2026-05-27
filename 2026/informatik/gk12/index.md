@@ -101,3 +101,10 @@ GK Informatik 12
 - Formularverarbeitung (POST) am Beispiel der Config-Datei
 - Verwendung von HTML-Klassen des gcm-css
 - Entwicklung einzelner Eingabe-Masken für Testdaten
+
+## Keine Ahnung welche Woche: Ende Mai (27.5.2026)
+
+- Einführung in das [Wasserfallmodell](https://de.wikiversity.org/wiki/Kurs:Wirtschaftsinformatik_SS09/SE1/Lernskript/Wasserfallmodell#/media/Datei:Wasserfallmodell.svg) ([auch](https://upload.wikimedia.org/wikipedia/commons/e/e8/Waterfall_model-de.svg), [auch](https://upload.wikimedia.org/wikiversity/de/c/c6/Wasserfallmodell_relevant.png)) und [V-Modell](https://www.webergmbh.de/weber/img/Allgemein/w1120/V-Modell_001_001.png) als [Beispiele](https://de.wikipedia.org/wiki/Liste_von_Softwareentwicklungsprozessen) für sequentielle [Vorgehensmodelle](https://de.wikipedia.org/wiki/Vorgehensmodell_zur_Softwareentwicklung)
+- Einführung in [SCRUM](https://www.spacesquad.de/wp-content/uploads/2019/03/spacesquad_scrum_workflow.jpg) als Beispiel für zyklische (iterative) Vorgehensmodelle
+
+> Notieren Sie alle Artefakte, Rollen und Ereignisse, die in folgendem Text erläutert werden: https://www.spacesquad.de/314/wie-das-arbeiten-mit-scrum-in-der-agilen-softwareentwicklung-funktioniert/
