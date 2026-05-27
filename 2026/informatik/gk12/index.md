@@ -109,4 +109,4 @@ GK Informatik 12
 
 > Notieren Sie alle Artefakte, Rollen und Ereignisse, die in folgendem Text erläutert werden: https://www.spacesquad.de/314/wie-das-arbeiten-mit-scrum-in-der-agilen-softwareentwicklung-funktioniert/
 
-![SCRUM-Grafik](https://www.agile-academy.com/media/pages/scrum-master/was-geschieht-in-einem-sprint-und-wann/00d6eb831a-1778058375/scrum-flow-deutsch-aufbau-sprint-min-600x.webp)
+![SCRUM-Grafik !large](https://www.agile-academy.com/media/pages/scrum-master/was-geschieht-in-einem-sprint-und-wann/00d6eb831a-1778058375/scrum-flow-deutsch-aufbau-sprint-min-600x.webp)
