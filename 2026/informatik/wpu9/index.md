@@ -236,3 +236,7 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 *   Layer-Gruppen werden beim Export nicht unterstützt.
 *   Bei transparenten Ebenen kann es zu unerwünschten Effekten kommen, da die darunterliegenden Ebenen sichtbar bleiben.
 *   Die Verzögerung und der Animationsmodus können direkt im Namen einer Ebene festgelegt werden (z. B. `MeinLayer (100)(combine)`).   
+
+### SalzH in der Prüfungswoche
+
+Bitte folgende Aufgabenstellung bearbeiten: [SalzH-Aufgabe für die Doppelstunde](SalzH_Aufgabe_Mai_2026.md)
