@@ -110,3 +110,7 @@ GK Informatik 12
 > Notieren Sie alle Artefakte, Rollen und Ereignisse, die in folgendem Text erläutert werden: https://www.spacesquad.de/314/wie-das-arbeiten-mit-scrum-in-der-agilen-softwareentwicklung-funktioniert/
 
 ![SCRUM-Grafik !large](https://www.agile-academy.com/media/pages/scrum-master/was-geschieht-in-einem-sprint-und-wann/00d6eb831a-1778058375/scrum-flow-deutsch-aufbau-sprint-min-600x.webp)
+
+> Das [agile Manifest](https://agilemanifesto.org/iso/de/manifesto.html) ist ein Versuch, die Bedürfnisse der Entwickler im Prozess zu berücksichtigen.
+>
+> Erklären sie, welche weiteren Vorteile Sie bei der Befolgung des Manifestes sehen.
