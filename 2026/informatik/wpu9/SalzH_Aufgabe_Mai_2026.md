@@ -9,3 +9,5 @@ SalzH - Das wird toll!
 ![Beispiel](Beispielbild_Vector.jpg)
 
 > Sende das Ergebnis per Mail an mich. Stelle Dich auf einen mündlichen Kurztest dazu ein.
+
+[Videoanleitung zur Vektorisierung](./Anleitung_vektorisierung.mp4)
