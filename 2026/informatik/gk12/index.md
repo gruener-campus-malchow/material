@@ -106,6 +106,7 @@ GK Informatik 12
 
 - Einführung in das [Wasserfallmodell](https://de.wikiversity.org/wiki/Kurs:Wirtschaftsinformatik_SS09/SE1/Lernskript/Wasserfallmodell#/media/Datei:Wasserfallmodell.svg) ([auch](https://upload.wikimedia.org/wikipedia/commons/e/e8/Waterfall_model-de.svg), [auch](https://upload.wikimedia.org/wikiversity/de/c/c6/Wasserfallmodell_relevant.png)) und [V-Modell](https://www.webergmbh.de/weber/img/Allgemein/w1120/V-Modell_001_001.png) als [Beispiele](https://de.wikipedia.org/wiki/Liste_von_Softwareentwicklungsprozessen) für sequentielle [Vorgehensmodelle](https://de.wikipedia.org/wiki/Vorgehensmodell_zur_Softwareentwicklung)
 - Einführung in [SCRUM](https://www.spacesquad.de/wp-content/uploads/2019/03/spacesquad_scrum_workflow.jpg) als Beispiel für zyklische (iterative) Vorgehensmodelle
+- Noch eine Quelle: Der mehr oder weniger [offizielle SCRUM-Guide auf deutsch](https://www.inloox.de/unternehmen/blog/artikel/scrum-guide-2020-pdf-download-auf-deutsch/)
 
 > Notieren Sie alle Artefakte, Rollen und Ereignisse, die in folgendem Text erläutert werden: https://www.spacesquad.de/314/wie-das-arbeiten-mit-scrum-in-der-agilen-softwareentwicklung-funktioniert/
 
