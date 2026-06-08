@@ -6,6 +6,8 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 - [Liste der offiziell definierten Operatoren](https://gcm.schule/material/Operatoren_IQB_2025.md)
 - [Inhalte der zentralen Abschlussprüfungen](https://www.iqb.hu-berlin.de/media/documents/N_Inhaltliche_Vereinbarungen_zur_Gestaltung_der_Aufgaben_Physik.pdf)
 
+> Endlich wieder gefunden, das [Particle Physics Booklet](https://pdg.lbl.gov/2026/html/computer_read.html) der "particle data group" mit dem kompletten Teilchenzoo und den jeweiligen Eigenschaften.
+
 > Have a lot of fun!
 
 [toc]
