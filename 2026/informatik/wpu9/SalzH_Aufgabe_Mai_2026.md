@@ -11,3 +11,5 @@ SalzH - Das wird toll!
 > Sende das Ergebnis per Mail an mich. Stelle Dich auf einen mündlichen Kurztest dazu ein.
 
 [Videoanleitung zur Vektorisierung](./Anleitung_vektorisierung.mp4)
+
+[Videoanleitung 3D-Objekt vom Foto](./Foto_als_3D-Objekt.mp4)
