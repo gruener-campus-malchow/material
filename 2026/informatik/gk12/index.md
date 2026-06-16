@@ -115,3 +115,7 @@ GK Informatik 12
 > Das [agile Manifest](https://agilemanifesto.org/iso/de/manifesto.html) ist ein Versuch, die Bedürfnisse der Entwickler im Prozess zu berücksichtigen.
 >
 > Erklären sie, welche weiteren Vorteile Sie bei der Befolgung des Manifestes sehen.
+
+## mehr SCRUM
+
+... z.B. ein [Glossar o.ä.](scrum_glossar.slides.md)
