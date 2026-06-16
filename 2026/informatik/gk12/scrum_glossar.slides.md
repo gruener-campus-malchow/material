@@ -25,7 +25,7 @@ Definiert wann eine Produkterweiterung als abgeschlossen gilt. Sollte die in der
 
 ---
   
-# PBIs (Product Backlog Items):
+# PBIs (Product Backlog Items)
 
 - auch Product Backlog Items
 - grundlegende Bestandteile des Product Backlogs
@@ -34,7 +34,7 @@ Definiert wann eine Produkterweiterung als abgeschlossen gilt. Sollte die in der
 
 ---
 
-# Daily SCRUM:
+# Daily SCRUM
 
 - Tägliche treffen
 - Dauer: ca. 15 min
