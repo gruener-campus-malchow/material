@@ -58,4 +58,20 @@ Liste der genauen Ziele und Anforderungen welche in einem Sprint erledigt werden
 
 Planung des anstehenden Sprints mit Festlegung eines Sprint Ziels und den Anforderungen unter Berücksichtigung einer eventuellen Sprint-Retrospektive. Also die Erstellung eines Sprint-Backlogs aus Teilen des Product-Backlogs. Das Planning findet in einem Meeting statt und wird vollständig an einem Stück abgeschlossen.
 
+---
 
+# Scrum-Master
+
+Der Scrum-Master sorgt dafür, dass das Scrum-Team ungestört und effizient arbeiten kann ohne inhaltlich einzugreifen. Dabei gilt er nicht als klassischer Chef, welcher Aufgaben verteilt oder Druck macht. Viel mehr unterstützt er das Scrum-Team. Beispielweise moderiert er Scrum-Meetings und beobachtet wie sich das Team verhält und gibt Verbesserungsvorschläge. Weiterhin übernimmt er auch die Kommunikation zwischen dem Scrum-Team und den Stakeholdern.
+
+---
+
+# Product Increment
+
+Das Product Increment ist das konkrete, nutzbare Ergebnis eines Sprints. Dabei enthält jedes Increment die Incremente vorheriger Sprints. Dieses Product Increment wird nach jedem Sprint den Stakeholder präsentiert. Damit dieses Ergebnis verwendbar ist, muss es fertig sein, also der Definition of Done entsprechen.
+
+---
+
+# Sprint
+
+Ein Sprint ist eine kurze Zeit, in welcher das Entwicklerteam sich bestimmte Aufgaben aus dem Product Backlog vornimmt und am Ende mit einem Teilergebnis hervor geht. Dieses Teilergebnis wird auch Product Increment genannt. Dabei kommt es zu den Daily Scrums, welche tägliche treffen des Entwicklerteams sind, in welchen sich über die Arbeit ausgetauscht wird. Am Ende jedes Sprints gibt es retrospektive Treffen in welcher der Sprint ausgewertet wird. Nach einem abgeschlossenen Sprint startet der nächste bis das Produkt fertig ist.
