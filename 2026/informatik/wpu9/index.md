@@ -243,6 +243,8 @@ Bitte folgende Aufgabenstellung bearbeiten: [SalzH-Aufgabe für die Doppelstunde
 
 ### Ein paar nette Kompositionen
 
+![foo](./img/10.png)
+
 [Intro und Geschichte -Inspirationen](Compositing_Techniken.pdf)
 
 [Arbeitsergebnisse](kompositionen.slides.md)
