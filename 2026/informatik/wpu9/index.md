@@ -240,3 +240,9 @@ Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
 ### SalzH in der Prüfungswoche
 
 Bitte folgende Aufgabenstellung bearbeiten: [SalzH-Aufgabe für die Doppelstunde](SalzH_Aufgabe_Mai_2026.md)
+
+### Ein paar nette Kompositionen
+
+[Intro und Geschichte -Inspirationen](Compositing_Techniken.pdf)
+
+[Arbeitsergebnisse](kompositionen.slides.md)
