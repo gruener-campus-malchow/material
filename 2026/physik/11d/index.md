@@ -15,8 +15,11 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [01 Experimente in der Physik](01_Experimente.md)
 - [Bewegungen aka Kinematik](02_Bewegungen.md)
 - [Zusammengesetzte Bewegungen](03_Zusammengesetzte-Bewegungen.md)
-- [Kreisbewegungen](04_Kreisbewegung.md)
 
+# Zweites Halbjahr
+
+- [Kreisbewegungen](04_Kreisbewegung.md)
+- [Was noch zu sagen ist](zz_was_noch_zu_sagen_ist.slides.md)
 
 
 <!--
