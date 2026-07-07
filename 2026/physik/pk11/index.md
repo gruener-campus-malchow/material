@@ -168,7 +168,7 @@ Allgemeine Hochschulreife](https://www.kmk.org/fileadmin/veroeffentlichungen_bes
 ![!small](Wasserrakete_01.jpeg)
 
 - [Projektseite](06_Wasserrakete.md)
-- [Plakat v.1](todo.pdf)
+- [Plakat v.1](Wasserrakete_2026.pdf)
 
 <!--
 

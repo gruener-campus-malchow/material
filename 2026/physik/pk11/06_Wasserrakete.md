@@ -1,6 +1,6 @@
 # Projektseite Wasserrakete 2026
 
-[toc]
+[Plakat zum Projekt](Wasserrakete_2026.pdf)
 
 ## Videos
 
