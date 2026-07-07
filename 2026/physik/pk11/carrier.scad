@@ -34,39 +34,39 @@ module carrier(){
     
     
     
-    difference(){
+    color("red")difference(){
         union(){
-            translate([0,0,+1+diameter/2- cutout])cube([4,diameter,2],true);
-            rotate([0,0,90])translate([0,0,+1+diameter/2- cutout])cube([4,diameter,2],true);
+            translate([0,0,+1+diameter/2- cutout+2])cube([4,diameter,4],true);
+            rotate([0,0,90])translate([0,0,+1+diameter/2- cutout+2])cube([4,diameter,4],true);
             
-            rotate([0,0,0])translate([+diameter/2-10,0,diameter/2-2])cube([20,4,3],true);
-            rotate([0,0,180])translate([+diameter/2-10,0,diameter/2-2])cube([20,4,3],true);
+            rotate([0,0,0])translate([+diameter/2-10,0,diameter/2-2])cube([20,4,4],true);
+            rotate([0,0,180])translate([+diameter/2-10,0,diameter/2-2])cube([20,4,4],true);
         }
         union(){
             rotate([0,0,0])translate([+diameter/2-10,0,diameter/2-1])cube([10,2,16],true);
             rotate([0,0,180])translate([+diameter/2-10,0,diameter/2-1])cube([10,2,16],true);
         }
-    }
+    }    
     
+    color("blue")translate([0,0,-1])union(){
     
-    
-    
-    translate([0,0,0])cube([4,diameter,2],true);
-    rotate([0,0,90])translate([0,0,0])cube([4,diameter,2],true);
-    
-    
-    difference(){
-        translate([0,0,-3])cylinder(4,d=diameter+2);
-        translate([0,0,-3.2])cylinder(4.4,d=diameter-4);
+        translate([0,0,-1])cube([4,diameter,4],true);
+        rotate([0,0,90])translate([0,0,-1])cube([4,diameter,4],true);
+        
+        
+        difference(){
+            translate([0,0,-3])cylinder(4,d=diameter+2);
+            translate([0,0,-3.2])cylinder(4.4,d=diameter-4);
+        }
     }
     
 }
 
 module top(){
     difference(){
-        cylinder(50,r1=diameter/2+thickness,r2=1);
+        cylinder(90,r1=diameter/2+thickness,r2=1);
         union(){
-            translate([0,0,-2])cylinder(50,r1=diameter/2+thickness-9,r2=1);
+            translate([0,0,-2])cylinder(90,r1=diameter/2+thickness-9,r2=1);
 
         }
     }
@@ -75,15 +75,21 @@ module top(){
     {
         cylinder(10,r=diameter/2+thickness);
         union(){
-            translate([-diameter/2+3,0,-2])rotate([0,45,0])cylinder(15,r=1.5);
-            translate([+diameter/2-3,0,-2])rotate([0,-45,0])cylinder(15,r=1.5);
-            translate([0,0,-0.5])cylinder(11,r=diameter/2-10);
+            translate([-diameter/2+3,0,-1])rotate([0,45,0])cylinder(15,r=1.5);
+            translate([+diameter/2-3,0,-1])rotate([0,-45,0])cylinder(15,r=1.5);
+            translate([0,0,-0.5])cylinder(11,r=diameter/2-8);
             
-            rotate([0,0,45])translate([+diameter/2-15,0,4])cube([20,4.5,10],true);
-            rotate([0,0,45+180])translate([+diameter/2-15,0,4])cube([20,4.5,10],true);
+            //rotate([0,0,45])translate([+diameter/2-15,0,4])cube([20,4.5,10],true);
+            //rotate([0,0,45+180])translate([+diameter/2-15,0,4])cube([20,4.5,10],true);
+            rotate([0,0,45])translate([+diameter/2-10,0,3])cube([10,2.5,16],true);
+            rotate([0,0,45+180])translate([+diameter/2-10,0,3])cube([10,2.5,16],true);
         }
     }
     
+        translate([10,60,-9])rotate([90,0,0])cube([10,2,16],true);
+        translate([-10,60,-9])rotate([90,0,0])cube([10,2,16],true);
+        
+
     
 }
 
