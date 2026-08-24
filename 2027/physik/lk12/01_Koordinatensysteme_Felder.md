@@ -38,13 +38,7 @@ Korrigieren und eränzen Sie Ihre Aufzeichnungen.
 
 ## Share
 
-Wir diskutieren zwei beispielhafte Versionen im ganzen Auditorium.
-
-> Was wir beim letzten Mal nicht besprochen haben: Punkte in Koordinatensystemen.
-
-
-> Was Sie noch nicht können, aber wichtig ist: Vektoren...
-
+Wir diskutieren zwei beispielhafte Versionen von Schülerarbeiten im Auditorium.
 
 
 # Felder
