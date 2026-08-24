@@ -17,6 +17,7 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 ## Physik
 
 * [Leistungskurs Klasse 12](2027/physik/lk12/)
+* [Klasse 10e](2027/physik/10e/)
 
 # 2025-2026
 
