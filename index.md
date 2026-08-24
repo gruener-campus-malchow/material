@@ -12,6 +12,12 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 [toc]
 
+# 2026-2027
+
+## Physik
+
+* [Leistungskurs Klasse 12](2027/physik/lk12/)
+
 # 2025-2026
 
 ## Physik
