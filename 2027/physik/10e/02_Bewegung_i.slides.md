@@ -1,5 +1,3 @@
----
-
 ## Ein Spiel
 
 * 5 Minuten Zeit
@@ -18,9 +16,21 @@
 3. Beschreibe die Bewegung mit eigenen Worten.
 4. Notiere die entscheidenden Adjektive.
 
-### Sozusagen Tafelbild
+### Sozusagen Tafelbild -> Hier STOPP
 
 > Strukturvorschlag: Ortsverlauf, Geschwindigkeitsverlauf
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vjDYMSMNn0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+## Bewegungen beschreiben
+
+![](skateboard_dropin.gif)
+
+> Beschreibe die Bewegung mit eigenen Worten.
 
 ---
 
