@@ -1,4 +1,4 @@
-# Kriterien für die mündliche Bewertung
+# Kriterien für die mündliche Bewertung SEK-I
 
 > Achtung, ich wende diese Kriterien niemals gleichzeitig und für alle im selben Maße an. Jeder Mensch ist unterschiedlich. Manche Menschen stehen gern im Rampenlicht (wie ich) und andere bleiben gerne unauffällig. Die folgenden Kriterien dienen zur Orientierung und zur Motivation auf welchem Weg man sich in den Unterricht einbringen kann. Die Reihenfolge ist zufällig und nicht eine Rangfolge.
 
