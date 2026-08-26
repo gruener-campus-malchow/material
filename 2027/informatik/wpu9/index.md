@@ -1,0 +1,252 @@
+WPU 9 Informatik
+===========
+
+
+# Orga
+
+> Wir sehen uns nur noch zwei Stunden pro Woche!
+
+## Belehrungen
+
+* [Regeln im NAWI-Fachraum](../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
+* [Regeln im Computerraum](../../Regeln_Computerraum_2025-09-10.pdf)
+* [Unterschriften](../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
+
+## Wichtige Tools
+
+[![gcm_pad !small](../../../gcm_pad.png)](https://docs.gcm.schule/pad/)
+
+[![gcm_slides !small](../../../gcm_slides.png)](https://docs.gcm.schule/slides/)
+
+# Webentwicklung
+
+![Technologien in WPU](01_Technologien.png)
+
+> Dritte jetzt neue Technologie: JavaScript
+
+## Aufgaben
+
+1. Lies den Artikel über die Rollen der drei Technologien auf [selfhtml](https://wiki.selfhtml.org/wiki/HTML/Tutorials/Trennung_von_Inhalt,_Pr%C3%A4sentation_und_Verhalten)
+1. Fertige eine Tabelle an, die nach folgendem Schema funktioniert:
+
+|Abkürzung|richtiger Name|Nutzen und Zweck|
+|---|---|---|
+|HTML| | |
+|CSS| | |
+|JS| | |
+
+# JavaScript
+
+Das ist eine vollwertige Programmiersprache!
+
+## Aufgaben (als Code along)
+
+1. Erstelle mit KI eine freundliche Webseite, die auch schick aussieht.
+1. Binde drei Bilder ein, die alle relativ klein dargestellt werden.
+1. Ergänze JS-Code mit dem man die Größe verändert, sobald man mit dem Mauszeiger darüber schwebt.
+
+### Code Snippets
+
+#### HTML-Datei
+~~~html
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" sync></script>
+    <title>Test</title>
+    <style>
+    	img
+    	{
+            width:200px;
+		}
+    </style>
+  </head>
+  <body>
+    <img src="01_Technologien.png" id="bild1">
+  </body>
+</html>
+
+~~~
+
+#### JS-Datei
+~~~JavaScript
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function ()
+{
+    alert("Ich heiße dich herzlich Willkommen!");
+    document.getElementById('bild1').addEventListener('pointerover', zoom1_in);
+    document.getElementById('bild1').addEventListener('pointerleave', zoom1_out);
+
+});
+
+function zoom1_in()
+{
+    var dasBild1 = document.getElementById('bild1');
+    dasBild1.style.width = "400px";
+}
+
+function zoom1_out()
+{
+    var dasBild1 = document.getElementById('bild1');
+    dasBild1.style.width = "200px";
+}
+
+~~~
+
+<!--
+
+[Teste den Code](01_test.html)
+
+![!large](Zwischenergebnis_2025-09-12.png)
+[Zwischenergebnis als ZIP-Archiv](stand_2025-09-12.zip)
+
+## Ein schlechtes Beispiel
+
+> Im Folgenden geht es darum, dass man das Konzept, das ihr bisher verfolgt habt, ins Absurde weiterdenkt. Gleichzeitig nähern wir uns der Idee eines Memoryspiels.
+
+### Aufgaben
+
+1. Lade das [Absurdes Beispiel ZIP-Archiv](AbsurdesBeispiel.zip) herunter und entpacke es.
+1. Erkläre einem Mitschüler, weshalb das Beispiel schlecht ist.
+1. Schreibe eine Mail an Deinen Lehrer, in welcher Du erklärst, weshalb das Beispiel so absurd ist.
+
+### Code along
+
+https://gcm.schule/material/2026/informatik/wpu9/dev/fliegendespferd.html
+
+1. Ziel: Levels - also dynamische Anzahl an Bildern.
+1. Ziel: Aus Liste an Bildern zufällig ziehen.
+1. Ziel: Erkennen, ob zwei gleiche Bilder gewählt wurden.
+
+# Vorbereitung der Klassenarbeit
+
+## Transparenzdokument
+
+- Eine Webseite skizzieren
+- Steuerelemente platzieren
+- Steuerelementen IDs zuweisen
+- EventListener entwerfen, die den IDs zugeordnet werden, vorgegebene Funktionalität
+- Beispielcode als Vorlage verwenden
+- Wichtige Verwendungszwecke für JavaScript nennen
+- Erklären, was ein Event ist
+- Beschreiben, was ein EventListener in JavaScript im Allgemeinen tut
+
+# Achtung, jetzt kommt ein Projekt
+
+![m:b](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/BBC_micro_bit_%2826212930836%29.png/2560px-BBC_micro_bit_%2826212930836%29.png)
+
+https://makecode.microbit.org/?lang=DE
+
+- [Einführung](https://makecode.microbit.org/about) und [Editor](https://www.youtube.com/watch?v=UrwyKOKNxC0)
+- Ziele für diese Stunde
+  - Gruppen bilden (es gibt fünf Micro:Bits), Namen festlegen
+  - 30 Minuten den m:b entdecken. 
+    - Erfolgreich: Eigener Code läuft (z.B. Projektname auf LED-Display)
+  - Projektvorschlag ausarbeiten
+    - Ziel des Projektes
+    - Welche Teile werden benötigt?
+    - Arbeitsaufteilung: Wer macht was?
+
+## Editoren
+
+> Achtung, bei den Script-Sprachen werden nicht alle Sprachbestandteile vom m:b unterstützt.
+
+- Blöcke / Python / JavaScrip: https://makecode.microbit.org/#editor
+- Nur Python: https://python.microbit.org/v/3
+
+## Vor langer langer Zeit in einer weit entfernten...
+
+![like sw](star-wars-like_introtext.jpg)
+
+> Viel Zeit ist vergangenen seit der letzten Projektarbeit.
+
+1. Gibt es Praktika, die etwas mit Informatik zu tun haben?
+1. Orientiert euch im Projekt: Was ist der Arbeitsstand?
+1. Erstellt eine TODO-Liste.
+1. Stellt mir die Liste vor (einzeln, nicht vor Allen).
+1. Erstellt einen Zeitplan, indem ihr die Punkte der TODO-Liste 90-Minuten-Slots zuordnet.
+1. Stellt mir den Zeitplan vor.
+
+~~~
+Zeitfenster: 2 x 90 Minuten Unterrichtszeit bis zur Vorstellung (+ heute)
+~~~
+
+# Grafikverarbeitung
+
+![foo](bruttostromerzeugung-energietraeger.png)
+
+![foo](bruttostromerzeugung-energietraeger.svg)
+
+## Grafikformate
+
+> Recherchiere mit maximal einem(!) Partner die Eigenschaften der folgenden Formate und präsentiere uns diese unter folgenden Überschriften in einer Präsentation
+>
+> - Name ausgeschrieben
+> - Besonderheit
+> - Anwendungsgebiet
+> - Verhältnis von Qualität und Speicherbedarf
+
+- SVG
+- EPS
+- RAW
+- PNG
+- JPG
+- GIF
+- PDF
+- TIFF
+- WebP
+- BMP
+
+### Vor der Präsentation
+
+> Bewirb Dich mit Deinem Format für eines der Szenarien und begründe, weshalb Dein Grafikformat besonders geeignet ist.
+
+[Einsatzszenarien der Grafikformate](Szenarien_Grafikformate.slides.md)
+
+## Metadaten
+
+> 1. Recherchiere, welche Metadaten in Fotos, die mit Smartphones gemacht werden, enthalten sind.
+> 1. Beurteile, unter welchen Bedingungen die Risiken der Veröffentlichung solcher Daten gegenüber dem Nutzen überwiegen.
+> 1. Nenne je zwei Beispiele bei denen der Nutzen überwiegt oder bei denen der Schaden überwiegt.
+> 1.   Recherchiere Möglichkeiten, wie ein sinnvoller Schutz vor dem Missbrauch von Metadaten in Fotos aussehen kann.
+
+
+## Animationen mit Pixel-Grafiken
+
+![animation](Bouncywikilogo.gif)
+
+1. Erstelle eine Animation mit Gimp. Entscheide, ob Du GIF (altmodisch) oder WebP (modern) verwendest.
+
+> GIMP unterstützt die Erstellung und den Export von animierten WebP-Dateien ab Version 2.10.
+
+### Erstellung und Export
+1.  Öffnen Sie Ihre Animations-Frames mit **Datei > Als Ebenen öffnen**. 
+3.  Geben Sie einen Dateinamen mit der Endung `.webp` ein.
+4.  Klicken Sie auf "Exportieren".
+5.  Aktivieren Sie im folgenden Dialog die Option **Als Animation**.
+6.  Passen Sie die Einstellungen an:
+    *   **Zeit zwischen Frames**: Legen Sie die Verzögerung in Millisekunden fest.
+    *   **Schleife**: Deaktivieren Sie "Für immer", wenn die Animation nur einmal abgespielt werden soll.
+    *   **Optimieren**: Aktivieren Sie, um die Dateigröße zu reduzieren.
+7.  Klicken Sie auf "Exportieren". 
+
+### Wichtige Hinweise
+*   Jede Ebene wird als ein Frame der Animation interpretiert.
+*   Layer-Gruppen werden beim Export nicht unterstützt.
+*   Bei transparenten Ebenen kann es zu unerwünschten Effekten kommen, da die darunterliegenden Ebenen sichtbar bleiben.
+*   Die Verzögerung und der Animationsmodus können direkt im Namen einer Ebene festgelegt werden (z. B. `MeinLayer (100)(combine)`).   
+
+### SalzH in der Prüfungswoche
+
+Bitte folgende Aufgabenstellung bearbeiten: [SalzH-Aufgabe für die Doppelstunde](SalzH_Aufgabe_Mai_2026.md)
+
+### Ein paar nette Kompositionen
+
+![foo](./img/10.png)
+
+[Intro und Geschichte -Inspirationen](Compositing_Techniken.pdf)
+
+[Arbeitsergebnisse](kompositionen.slides.md)
