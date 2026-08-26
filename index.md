@@ -19,6 +19,12 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 * [Leistungskurs Klasse 12](2027/physik/lk12/)
 * [Klasse 10e](2027/physik/10e/)
 
+## Informatik
+
+* [Grundkurs Klasse 13](2027/informatik/gk13/)
+* [Wahlpflicht 9](2027/informatik/wpu9/)
+* [Wahlpflicht 10](2027/informatik/wpu10/)
+
 # 2025-2026
 
 ## Physik

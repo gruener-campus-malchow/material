@@ -7,5 +7,5 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 # Bewegung!
 
-* [2026-08-24 Orga](./01_Orga.slides.md)
-* [2026-08-24 Bewegung](./02_Bewegung_i.slides.md)
+* [2026-08-25 Orga](./01_Orga.slides.md)
+* [2026-08-25 Bewegung](./02_Bewegung_i.slides.md)
