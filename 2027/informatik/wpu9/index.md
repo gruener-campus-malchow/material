@@ -8,11 +8,11 @@ WPU 9 Informatik
 
 ## Belehrungen
 
-* [Regeln im NAWI-Fachraum](../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
-* [Regeln im Computerraum](../../Regeln_Computerraum_2025-09-10.pdf)
-* [Unterschriften](../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
-* [Operatoren](../../Operatoren_IQB_2025.md)
-* [Kriterien für die mündliche Bewertung](../../Kriterien_mündlich_SEK-I.md)
+* [Regeln im NAWI-Fachraum](../../../Fachraumordnung_und_Experimentierregeln_SuS.pdf)
+* [Regeln im Computerraum](../../../Regeln_Computerraum_2025-09-10.pdf)
+* [Unterschriften](../../../Unterschriftenliste_Sicherheitsunterweisung_GCM_SuS.pdf)
+* [Operatoren](../../../Operatoren_IQB_2025.md)
+* [Kriterien für die mündliche Bewertung](../../../../Kriterien_mündlich_SEK-I.md)
 
 ## Wichtige Tools
 
