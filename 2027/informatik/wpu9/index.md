@@ -20,6 +20,15 @@ WPU 9 Informatik
 
 [![gcm_slides !small](../../../gcm_slides.png)](https://docs.gcm.schule/slides/)
 
+## Kennenlernen
+
+1. Welche Computer nutzt du?
+1. Welche Technologien nutzt du?
+1. Welche Sprachen hast du kennengelernt?
+1. Welche Projekte fandest du interessant?
+1. Was möchtest du in Informatik lernen?
+1. In welchen Kriterien für die mündl. Bewertung siehst du deine Stärken?
+
 # Webentwicklung
 
 ![Technologien in WPU](01_Technologien.png)
