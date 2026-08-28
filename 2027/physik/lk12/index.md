@@ -9,6 +9,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 - [Aufwärmübung](01_Diskussion_Fachartikel.md)
 - [Koordinatensysteme](01_Koordinatensysteme_Felder.md)
+* [Operatoren](../../../Operatoren_IQB_2025.md)
+* [Kriterien für die mündliche Bewertung](../../../Kriterien_mündlich_SEK-II.md)
 - [Gravitation Intro](02_Newton_Gravitation.md)
 
 <!---
