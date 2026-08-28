@@ -1,4 +1,4 @@
-WPU 9 Informatik
+WPU 10 Informatik
 ===========
 
 
@@ -24,7 +24,7 @@ WPU 9 Informatik
 
 ![Technologien in WPU](01_Technologien.png)
 
-> Dritte jetzt neue Technologie: JavaScript
+> Vierte jetzt neue Technologie: PHP
 
 # Spielen in PHP
 
