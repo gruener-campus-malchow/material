@@ -68,7 +68,8 @@ Mitschrift/Notizen entwerfen!
 5. Ergänzen Sie die Sätze:
    * Je ...  der Abstand der Feldlinien ist, desto ... ist die Kraft.
    * Umgekehrt bedeutet das: Je ...  der Abstand der Feldlinien ist, desto ... ist die Kraft.
-6. Definieren Sie die Gravitationsfeldstärke in Worten und als Formel (LaTeX, LO-Math oder auch in Klammerschreibweise). Bsp: wird zu x_1/2 = - p / 2 +- sqrt( p^2 /4 -q) oder halt x_{1/2} = - {p over 2} +- sqrt{ p^2 over 4 -q}
+6. Definieren Sie die Gravitationsfeldstärke in Worten und als Formel (LaTeX, LO-Math oder auch in Klammerschreibweise). Bsp: wird $$ x_{1/2} = -{p\over 2} \pm \sqrt{
+  \left( p\over 2 \right)^2 - q} $$ zu x_1/2 = - p / 2 +- sqrt( p^2 /4 -q) oder halt x_{1/2} = - {p over 2} +- sqrt{ p^2 over 4 -q}
 7. Nennen Sie den Bereich eines Himmelskörpers, in dem man das Gravitationsfeld als homogen annehmen kann.
 8. Berechnen Sie die Höhe über der Erdoberfläche, in der die Gravitationsfeldstärke um 1 % abgenommen hat.
 9. Berechnen Sie die Gravitationsfeldstärke auf dem Mond.
