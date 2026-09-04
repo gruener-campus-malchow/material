@@ -7,10 +7,14 @@ Grundkurs Informatik 13
 - Planung Schuljahr
 - [Intro-Video(s)](https://www.youtube.com/watch?v=5LyruYhfzRc)
 - [Einführung Automatentheorie](https://unterrichten.zum.de/wiki/Einf%C3%BChrung_in_die_Automatentheorie)
-- Tools testen:
+- Tools getstet:
     - https://www.automataaa.com/
+    - https://flaci.com/home/
     
-> Ausprobieren: https://flaci.com/home/
+- Kleensche Hülle: https://www.youtube.com/watch?v=x7eZUFo7uAE
+- Formale Sprache: https://www.youtube.com/watch?v=VKqpst2tf5I
+- Konkatenation von Wörtern: https://www.youtube.com/watch?v=ZOc6VQk0sfM
+- Mengenoperationen auf formalen Sprachen: https://www.youtube.com/watch?v=C8MwMhDFSXY
     
 ### Übungsaufgaben aus der K"I"
 
