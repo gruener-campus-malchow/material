@@ -55,4 +55,32 @@ echo $datum," - ",$uhrzeit," Uhr";
 
 https://bplaced.net
 
-* Upload des eigenen Codes per FTP
+* Upload des eigenen Codes per FTP und Testen mit dem Code aus der vergangenen Stunde.
+
+## Aufgaben für Fortgeschrittene
+
+1. Erstelle eine PHP-Datei, die ein Formular auslesen kann. Das Formular soll einen Benutzernamen und Passwort erfragen.
+1. Damit das Passwort sicher übertragen wird, muss Serverseitig zu Beginn geprüft werden, ob es eine sichere und verschlüsselte Verbindung gibt. Dazu muss die Systemvariable **$_SERVER['HTTPS']** richtig gesetzt sein.
+1. Wenn keine sichere Verbindung genutzt wird, wird kein Login angezeigt.
+1. Ihr werdet feststellen, dass bplaced in der kostenlosen Variante keine Verschlüsselung anbietet - trotzdem solltet ihr das implementieren, weil es im realen Leben absolut notwendig ist.
+1. Ein erfolgreicher Login geschieht, indem man den HASH, der aus dem Passwort erzeugt wird, mit dem HASH, der auf dem Server gespeichert ist, vergleicht.
+1. Es gibt hier noch einige Stolperfallen - viel Spaß beim Tüfteln!
+
+~~~php
+// Serverseitige Hash-Erzeugung (z.B. bei Registrierung)
+$hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
+$storedHash = '...'; // wie kommt man da nur heran? Tipp: Einmal vorher per echo das gehashte Passwort ausgeben und kopieren.
+
+// Serverseitige Verifikation (z.B. bei Login)
+if (password_verify($_POST['password'], $storedHash)) {
+    echo "Login erfolgreich";
+} else {
+    echo "Login fehlgeschlagen";
+}
+~~~
+
+## Aufgaben für weniger Fortgeschrittene
+
+1. Erstelle eine PHP-Datei mit einem Formular, das eine Chat-Oberfläche darstellt.
+1. Der Chatverlauf wird in einer Variable, einem Array gespeichert.
+1. Folge dem **Code-Along** mit dem Lehrer.

@@ -9,8 +9,8 @@ Grundkurs Informatik 13
 - [Einführung Automatentheorie](https://unterrichten.zum.de/wiki/Einf%C3%BChrung_in_die_Automatentheorie)
 - Tools testen:
     - https://www.automataaa.com/
-    - https://ivanzuzak.info/noam/webapps/fsm_simulator/
-    - https://finsm.io/ (https://arxiv.org/html/2410.12115v1)
+    
+> Ausprobieren: https://flaci.com/home/
     
 ### Übungsaufgaben aus der K"I"
 
