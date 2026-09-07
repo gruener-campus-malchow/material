@@ -74,6 +74,7 @@ Mitschrift/Notizen entwerfen!
 8. Berechnen Sie die Höhe über der Erdoberfläche, in der die Gravitationsfeldstärke um 1 % abgenommen hat.
 9. Berechnen Sie die Gravitationsfeldstärke auf dem Mond.
 
+> Zusatzaufgabe: Skizzieren wir diverse Konstellationen von Körpern als Feldlinienbilder.
 
 ## Arbeit im Gravitationsfeld
 
