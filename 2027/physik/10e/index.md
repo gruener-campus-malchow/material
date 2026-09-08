@@ -1,4 +1,4 @@
-LK12 Physik 2024/2025
+Klasse 10e Physik 2026-2027
 ======================
 
 In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben zusammengestellt, die zum Slebstlernen und Lernen in der Schule geeignet sind.

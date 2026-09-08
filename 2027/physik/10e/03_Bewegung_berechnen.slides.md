@@ -8,6 +8,10 @@
 
 ---
 
+Notiz: Diagramme interpretieren, aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
+
+---
+
 ### Einfache Bewegungen berechnen
 
 $$ Geschwindigkeit = {Weg \over Zeit} $$
