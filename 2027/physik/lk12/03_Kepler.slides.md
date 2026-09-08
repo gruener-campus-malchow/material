@@ -14,7 +14,7 @@ Ein von der Sonne zum Planeten gezogener Fahrstrahl überstreicht in gleichen Ze
 
 ### Drittes Keplersches Gesetz
 
-Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
+Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen [Halbachsen](https://de.wikipedia.org/wiki/Halbachsen_der_Ellipse) ihrer Bahnellipsen.
 
 ---
 
@@ -62,7 +62,7 @@ Sichwort: Geschwindigkeiten im Jahresverlauf
 
 ![!white !round](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
-Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
+Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen [Halbachsen](https://de.wikipedia.org/wiki/Halbachsen_der_Ellipse) ihrer Bahnellipsen.
 
 ---
 
@@ -70,7 +70,7 @@ Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die 
 
 ![!white](./img/SolarSystem_Radii_and_Period.svg.webp)
 
-Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen Halbachsen ihrer Bahnellipsen.
+Die Quadrate der Umlaufzeiten zweier Planeten verhalten sich zueinander wie die Kuben (dritten Potenzen) der großen [Halbachsen](https://de.wikipedia.org/wiki/Halbachsen_der_Ellipse) ihrer Bahnellipsen.
 
 
 ---
