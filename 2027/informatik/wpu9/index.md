@@ -107,6 +107,67 @@ function zoom1_out()
 
 ~~~
 
+## Ein schlechtes Beispiel
+
+> Im Folgenden geht es darum, dass man das Konzept, das ihr bisher verfolgt habt, ins Absurde weiterdenkt. Gleichzeitig nähern wir uns der Idee eines Memoryspiels.
+
+### Aufgaben
+
+1. Lade das [Absurdes Beispiel ZIP-Archiv](AbsurdesBeispiel.zip) herunter und entpacke es.
+1. Erkläre einem Mitschüler, weshalb das Beispiel schlecht programmiert ist.
+1. Schreibe eine Mail an Deinen Lehrer, in welcher Du erklärst, weshalb das ein schlechtes Beispiel für Programmierung ist.
+
+> Um eine allgemeine Funktion zu schreiben, die auf alle möglichen HTML-Elemente angewendet werden kann, übergibt man der durch den Eventlistener ausgelösten Funktion das jeweilige event und greift auf das HTML-Element mit event.target zu.
+
+~~~html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Event-Delegation mit benannter Funktion</title>
+  <style>
+    button { margin: 4px; }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <button>Knopf 1</button>
+    <button>Knopf 2</button>
+    <button>Knopf 3</button>
+  </div>
+
+  <p id="ausgabe"></p>
+
+  <script>
+    function wer_bin_ich(event) {
+      if (event.target.tagName !== 'BUTTON') return;
+
+      document.getElementById('ausgabe').textContent =
+        'Geklickt: ' + event.target.textContent +
+        ' (currentTarget: ' + event.currentTarget.id + ')';
+    }
+
+    const container = document.getElementById('container');
+    container.addEventListener('click', wer_bin_ich);
+
+    // Listener kann jetzt jederzeit entfernt werden:
+    // container.removeEventListener('click', handleContainerClick);
+  </script>
+
+</body>
+</html>
+~~~
+
+### Aufgaben
+
+1. Überführe den JS-Code in eine eigene Datei und registriere sie im Kopf des HTML-Dokumentes
+2. Probiere aus, was passiert, wenn Du beliebig viele Knöpfe ergänzt.
+3. Dokumentiere Deine Erkenntnisse in einer Mail an Deinen Lehrer in der Du die beiden veränderten Dateien hochlädst.
+4. Überführe das Konzept auf das Beispiel mit dem Pferde-Memory.
+
+
+
 <!--
 
 [Teste den Code](01_test.html)

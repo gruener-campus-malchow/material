@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Event-Delegation mit benannter Funktion</title>
+  <style>
+    button { margin: 4px; }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <button>Knopf 1</button>
+    <button>Knopf 2</button>
+    <button>Knopf 3</button>
+  </div>
+
+  <p id="ausgabe"></p>
+
+  <script>
+    function wer_bin_ich(event) {
+      if (event.target.tagName !== 'BUTTON') return;
+
+      document.getElementById('ausgabe').textContent =
+        'Geklickt: ' + event.target.textContent +
+        ' (currentTarget: ' + event.currentTarget.id + ')';
+    }
+
+    const container = document.getElementById('container');
+    container.addEventListener('click', wer_bin_ich);
+
+    // Listener kann jetzt jederzeit entfernt werden:
+    // container.removeEventListener('click', handleContainerClick);
+  </script>
+
+</body>
+</html>
