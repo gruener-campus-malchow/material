@@ -117,7 +117,7 @@ function zoom1_out()
 1. Erkläre einem Mitschüler, weshalb das Beispiel schlecht programmiert ist.
 1. Schreibe eine Mail an Deinen Lehrer, in welcher Du erklärst, weshalb das ein schlechtes Beispiel für Programmierung ist.
 
-> Um eine allgemeine Funktion zu schreiben, die auf alle möglichen HTML-Elemente angewendet werden kann, übergibt man der durch den Eventlistener ausgelösten Funktion das jeweilige event und greift auf das HTML-Element mit event.target zu.
+> Um eine allgemeine Funktion zu schreiben, die auf alle möglichen HTML-Elemente angewendet werden kann, verwendet man **Event-Delegation**.
 
 ~~~html
 <!DOCTYPE html>
@@ -166,7 +166,7 @@ function zoom1_out()
 3. Dokumentiere Deine Erkenntnisse in einer Mail an Deinen Lehrer in der Du die beiden veränderten Dateien hochlädst.
 4. Überführe das Konzept auf das Beispiel mit dem Pferde-Memory.
 
-
+> Nächste Woche: Test
 
 <!--
 
