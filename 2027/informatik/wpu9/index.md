@@ -168,6 +168,8 @@ function zoom1_out()
 
 > Nächste Woche: Test
 
+- Beispiel Soundboard
+
 <!--
 
 [Teste den Code](01_test.html)

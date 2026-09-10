@@ -25,6 +25,10 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 * [Wahlpflicht 9](2027/informatik/wpu9/)
 * [Wahlpflicht 10](2027/informatik/wpu10/)
 
+## Pluto
+
+* [Pluto 7-8](2027/pluto/7-8/)
+
 # 2025-2026
 
 ## Physik
