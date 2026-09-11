@@ -87,7 +87,7 @@ if (password_verify($_POST['password'], $storedHash)) {
 
 ### Start-Datei
 
-~~~php
+~~~html
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -184,3 +184,13 @@ echo "Hello World";
 </body>
 </html>
 ~~~
+
+
+> Theorieteil: Mehrdimensionale Arrays am Beispiel von XXO
+
+## Nächste Schritte
+
+- Login von Friedrich übernehmen
+- Benutzer in eine Datei schreiben
+- Nachrichten einem Benutzer zuordnen
+- Chatverlauf in eine Datei schreiben

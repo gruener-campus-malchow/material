@@ -3,10 +3,10 @@ Pluto 7-8
 
 # Theorie und Praxis
 
-<img src="https://quickchart.io/graphviz?graph=digraph{ Produktion -> Postproduktion;
+<img width="75%" src="https://quickchart.io/graphviz?graph=digraph{ Produktion -> Postproduktion;
     Produktion -> Vorproduktion;
     Produktion -> eigentliche_Produktion;
-    Produktion -> Distribution}&format=png" />   
+    Produktion -> Distribution}&format=svg" />   
 )
 
 ## Vorproduktion
