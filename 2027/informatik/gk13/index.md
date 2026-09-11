@@ -1,7 +1,7 @@
 Grundkurs Informatik 13
 ================================
 
-## 2026-08-26
+## Q1
 
 - Rechner aufsetzen
 - Planung Schuljahr
@@ -38,3 +38,11 @@ Erstelle einen DEA über dem Alphabet Σ = {a, b}, der die Sprache L = { w ∈ {
 <!--
 - **Erwartetes Ergebnis:** Ein Automat mit drei akzeptierenden Zuständen (0, 1 bzw. 2 b's gezählt) und einem zusätzlichen „Fallen“-Zustand, der nach dem dritten b erreicht wird und von dem aus kein Wort mehr akzeptiert wird.   
 -->
+
+### DEA und NEA
+
+Neue Quelle, die auch viele Definitionen enthält: https://i2.net-schulbuch.de/index.php?t=@@@&s=bdaa_fachinhalte&s=bda_index
+
+Von dort ist auch ein interessantes PDF verlinkt: https://classic.csunplugged.org/documents/activities/finite-state-automata/unplugged-11-finite_state_automata.pdf
+
+> Besonders S. 12 (97) unten fand ich lustig.
