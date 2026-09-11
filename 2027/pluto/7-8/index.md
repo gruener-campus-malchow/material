@@ -3,7 +3,12 @@ Pluto 7-8
 
 # Theorie und Praxis
 
-![!large](https://vizdom.dev/embed/view?a=dAAAACJsAAEA9Q9kaWdyYXBoIHsgClByb2R1a3Rpb24gLT4gUG9zdHASAAsdAD9Wb3IcAAbTImVpZ2VudGxpY2hlIFQAYGlvbiIKfQ)
+<img src="https://quickchart.io/graphviz?graph=digraph{
+Produktion -> Postproduktion
+    Produktion -> Vorproduktion
+    Produktion -> eigentliche_Produktion
+    Produktion -> Distribution}&format=png" />   
+)
 
 ## Vorproduktion
 
