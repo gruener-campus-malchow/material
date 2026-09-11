@@ -14,6 +14,12 @@ Pluto 7-8
 - Skripte (heute nicht)
 - Perspektiven
 
+## Produktion
+
 > ### Aufgabe
 >
 > Nochmal im Park: Das gleiche Objekt aus allen Perspektiven
+
+## Postproduktion
+
+- Schnitt mit kdenlive
