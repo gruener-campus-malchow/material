@@ -38,11 +38,15 @@
 
 ---
 
-![!large](./bewegungen_grafisch_00.png)
+### Bewegungen grafisch darstellen und Graphen interpretieren
+
+![foo](./bewegungen_grafisch_00.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
 ---
+
+### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![!large](./bewegungen_grafisch_01.png)
 
@@ -50,11 +54,15 @@
 
 ---
 
+### Bewegungen grafisch darstellen und Graphen interpretieren
+
 ![!large](./bewegungen_grafisch_02.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
 ---
+
+### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![!large](./bewegungen_grafisch_03.png)
 
