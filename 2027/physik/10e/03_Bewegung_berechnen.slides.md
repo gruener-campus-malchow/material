@@ -28,7 +28,7 @@
 
 ### Bewegungen grafisch darstellen
 
-![!large](Bewegungen_grafisch_Einfuehrung.png)
+![!large](./Bewegungen_grafisch_Einfuehrung.png)
 
 > **Interpretiere** das Diagramm und **beschreibe** die Bewegung
 
