@@ -38,7 +38,7 @@
 
 ---
 
-### Bewegungen grafisch darstellen und Graphen interpretieren
+#### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![foo](./bewegungen_grafisch_00.png)
 
@@ -46,7 +46,7 @@
 
 ---
 
-### Bewegungen grafisch darstellen und Graphen interpretieren
+#### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![!large](./bewegungen_grafisch_01.png)
 
@@ -54,7 +54,7 @@
 
 ---
 
-### Bewegungen grafisch darstellen und Graphen interpretieren
+#### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![!large](./bewegungen_grafisch_02.png)
 
@@ -62,7 +62,7 @@
 
 ---
 
-### Bewegungen grafisch darstellen und Graphen interpretieren
+#### Bewegungen grafisch darstellen und Graphen interpretieren
 
 ![!large](./bewegungen_grafisch_03.png)
 
@@ -70,7 +70,7 @@
 
 ---
 
-Notiz: Diagramme interpretieren, aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
+Todo: Aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
 
 ---
 
