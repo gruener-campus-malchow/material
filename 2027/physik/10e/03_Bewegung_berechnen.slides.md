@@ -28,17 +28,17 @@
 
 ### Bewegungen grafisch darstellen
 
-![!large](./bewegungen_grafisch_Einfuehrung.png)
+![!large](./bewegungen_grafisch_00.png)
 
 ---
 
-![!large](./bewegungen_grafisch_Einfuehrung.png)
+![!large](./bewegungen_grafisch_00.png)
 
 > **Interpretiere** das Diagramm und **beschreibe** die Bewegung.
 
 ---
 
-![!large](./bewegungen_grafisch_Einfuehrung.png)
+![!large](./bewegungen_grafisch_00.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
