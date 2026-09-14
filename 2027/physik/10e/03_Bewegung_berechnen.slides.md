@@ -34,7 +34,31 @@
 
 ![!large](./Bewegungen_grafisch_Einfuehrung.png)
 
-> **Interpretiere** das Diagramm und **beschreibe** die Bewegung
+> **Interpretiere** das Diagramm und **beschreibe** die Bewegung.
+
+---
+
+![!large](./Bewegungen_grafisch_Einfuehrung.png)
+
+> Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
+
+---
+
+![!large](./Bewegungen_grafisch_01.png)
+
+> Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
+
+---
+
+![!large](./Bewegungen_grafisch_02.png)
+
+> Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
+
+---
+
+![!large](./Bewegungen_grafisch_03.png)
+
+> Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
 ---
 
