@@ -8,6 +8,32 @@
 
 ---
 
+# Test
+
+---
+
+# Feedback Klassenrat
+
+- Kleine Denkanstöße
+- Strengere Mitarbeitsbewertung 
+- Einfachere Arbeitsaufträge
+    - Arbeitsaufträge erklären 
+- Ruhiges Umfeld 
+- Kleine Pausen 
+- Musik erlauben 
+- Mehr mündliche Abfragungen 
+- Verschiedene Schwierigkeitslevel
+
+---
+
+### Bewegungen grafisch darstellen
+
+![!large](Bewegungen_grafisch_Einfuehrung.png)
+
+> **Interpretiere** das Diagramm und **beschreibe** die Bewegung
+
+---
+
 Notiz: Diagramme interpretieren, aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
 
 ---
