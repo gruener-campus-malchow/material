@@ -54,7 +54,7 @@
 
 ---
 
-#### Bewegungen grafisch darstellen und Graphen interpretieren
+#### HAUSAUFGABE
 
 ![!large](./bewegungen_grafisch_02.png)
 
