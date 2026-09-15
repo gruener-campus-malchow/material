@@ -70,6 +70,14 @@
 
 ---
 
+| ⚠️ **Definitionen** |
+|---|
+| **Ortsänderung (kinematisch):** Ein Körper befindet sich in Bewegung, wenn sich sein Ort mit der Zeit ändert. |
+| **Geschwindigkeit ungleich null:** Ein Körper ist in Bewegung, wenn er eine von Null verschiedene Geschwindigkeit besitzt: $\|{v}\| > 0$.
+|**Lageänderung relativ zu einem Bezugssystem:** Ein Körper ist in Bewegung, wenn sich seine Lage relativ zu einem gewählten Bezugskörper, einem anderen Ort bzw. Bezugssystem mit der Zeit ändert. |
+
+---
+
 Todo: Aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
 
 ---
