@@ -29,6 +29,10 @@ Diese Seite soll die Informationen, das Material und Aufgabenstellungen einiger 
 
 * [Pluto 7-8](2027/pluto/7-8/)
 
+## Arbeitsgemeinschaften
+
+* [AG Jüdisches Leben in Hohenschönhausen](2027/ag/juelih)
+
 # 2025-2026
 
 ## Physik
