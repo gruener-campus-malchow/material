@@ -19,7 +19,9 @@ $$ C = {{T^2} \over {a^3}}$$
 \\( C_{Sonne} = 2,97 \cdot 10^{-19} {s^2 \over m^3} \\)
 
 \\( C_{Erde} = 9,91 \cdot 10^{-14} {s^2 \over m^3} \\)
+
 oder 
+
 \\(C_{Erde} = 9,81 \cdot 10^{-14} {s^2 \over m^3}\\)
 
 \\( C_{Jupiter} = 3,1 \cdot 10^{-16} {s^2 \over m^3} \\)
@@ -28,8 +30,7 @@ oder
 
 #### zu 2.
 
-todo
-
+![](./img/Loesungsansaetze_Herleitung.jpg)
 
 
 ## Exkurs: Theia, die Quelle des Wassers auf der Erde und andere Theorien
