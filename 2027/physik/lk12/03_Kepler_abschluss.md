@@ -14,5 +14,7 @@ $$ C = {{T^2} \over {a^3}}$$
 
 ![!large](https://image.geo.de/33962984/t/Ts/v7/w1440/r1.7778/-/02--urnnewsmldpacom2009010123110299790415v3w800h600l231t181r2124b1582jpeg---3f9f4a3fca85fc18.jpg)
 
-https://www.mps.mpg.de/theia-und-erde-waren-nachbarn
+- https://www.mps.mpg.de/theia-und-erde-waren-nachbarn
+- https://www.geo.de/wissen/weltall/forschende-entdecken-reste-von-himmelskoerper-theia-im-erdmantel-33962982.html
 
+> Stellen Sie die verschiedenen Theorien dar und bewerten Sie diese aus Ihrer Perspektive.
