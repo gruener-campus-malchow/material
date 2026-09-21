@@ -70,6 +70,36 @@
 
 ---
 
+#### Graphen erstellen
+
+Erstelle zu folgenden Szenarien jeweils eine grafische Darstellung.
+
+> Ein Mensch läuft mit konstanter Geschwindigkeit in eine Richtung und fährt anschließend ebenfalls konstant mit einem Fahrrad in die gleiche Richtung.
+
+> Ein Schnecke überquert mit maximaler Geschwindigkeit eine Straße. Auf der anderen Seite wartet eine andere Schnecke auf sie.
+
+---
+
+#### Graphen erstellen
+
+Erstelle zu folgendem Szenario eine grafische Darstellung:
+
+![!large](https://i.giphy.com/aTGwuEFyg6d8c.webp)
+
+---
+
+#### off topic
+
+![!large](https://i.giphy.com/PXqNXjkTmEfRK.webp)
+
+---
+
+#### off topic
+
+![!large](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzRvbTBvbDB6bjg1aXpwbWtpb2JzamlqcXlqYmlwNzMyZGY1Z2ZyOSZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l41m3ywjOxm9SzAhG/giphy.webp)
+
+---
+
 | ⚠️ **Definitionen** |
 |---|
 | **Ortsänderung (kinematisch):** Ein Körper befindet sich in Bewegung, wenn sich sein Ort mit der Zeit ändert. |

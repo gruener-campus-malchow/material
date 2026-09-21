@@ -12,17 +12,22 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 * [Operatoren](../../../Operatoren_IQB_2025.md)
 * [Kriterien für die mündliche Bewertung](../../../Kriterien_mündlich_SEK-II.md)
 
+## Felder und Gravitation
+
 - [Aufwärmübung](01_Diskussion_Fachartikel.md)
 - [Koordinatensysteme](01_Koordinatensysteme_Felder.md)
 - [Gravitation Intro](02_Newton_Gravitation.md)
 - [Kepler](03_Kepler.slides.md)
+- [Kepler Abschluss](03_Kepler_abschluss.md)
+
+## Elektrostatik
 
 > ## Orga-Block
 >
-> - BO-Termin
-> - Fotoaktion
+> - SANA-Leseprojekt
+> - Berlinwoche
 
-- [Kepler Abschluss](03_Kepler_abschluss.md)
+
 
 <!---
 - [Keppler für Woche ab 23.9.24](03_Kepler.slides.md)
