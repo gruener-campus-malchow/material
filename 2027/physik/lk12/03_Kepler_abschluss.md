@@ -10,7 +10,7 @@ $$ C = {{T^2} \over {a^3}}$$
     - https://de.wikipedia.org/wiki/Liste_der_Jupitermonde
     - https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Objekte_im_Sonnensystem
     - https://de.wikipedia.org/wiki/Mond
-1. Zeigen sie, dass außerdem gilt \\( C = {{4 \pi^2} \over {G (M + m)}} \\) oder \\( C = {{4 \pi^2} \over {G (M)}} \\)(Wenn Sie keine Idee haben, holen Sie sich Tipps.)
+1. Zeigen sie, dass außerdem gilt \\( C = {{4 \pi^2} \over {G (M)}} \\)(Wenn Sie keine Idee haben, holen Sie sich Tipps.)
 
 ### Lösungen 
 
@@ -39,5 +39,6 @@ oder
 
 - https://www.mps.mpg.de/theia-und-erde-waren-nachbarn
 - https://www.geo.de/wissen/weltall/forschende-entdecken-reste-von-himmelskoerper-theia-im-erdmantel-33962982.html
+- https://www.uni-muenster.de/news/view.php?cmdid=10277
 
 > Stellen Sie die verschiedenen Theorien dar und bewerten Sie diese aus Ihrer Perspektive.
