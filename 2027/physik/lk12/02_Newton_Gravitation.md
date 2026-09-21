@@ -1,4 +1,3 @@
-
 # Gravitation
 
 ## Newtonsches Gravitationsgesetz
