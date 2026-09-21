@@ -28,11 +28,11 @@
 
 ### Bewegungen grafisch darstellen
 
-![!large](./bewegungen_grafisch_00.png)
+![!large](./img/bewegungen_grafisch_00.png)
 
 ---
 
-![!large](./bewegungen_grafisch_00.png)
+![!large](./img/bewegungen_grafisch_00.png)
 
 > **Interpretiere** das Diagramm und **beschreibe** die Bewegung.
 
@@ -40,7 +40,7 @@
 
 #### Bewegungen grafisch darstellen und Graphen interpretieren
 
-![foo](./bewegungen_grafisch_00.png)
+![foo](./img/bewegungen_grafisch_00.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
@@ -48,7 +48,7 @@
 
 #### Bewegungen grafisch darstellen und Graphen interpretieren
 
-![!large](./bewegungen_grafisch_01.png)
+![!large](./img/bewegungen_grafisch_01.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
@@ -56,7 +56,7 @@
 
 #### HAUSAUFGABE
 
-![!large](./bewegungen_grafisch_02.png)
+![!large](./img/bewegungen_grafisch_02.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
@@ -64,7 +64,7 @@
 
 #### Bewegungen grafisch darstellen und Graphen interpretieren
 
-![!large](./bewegungen_grafisch_03.png)
+![!large](./img/bewegungen_grafisch_03.png)
 
 > Übernimm die Graphen in Deinen Hefter und ergänze zu jedem Universum in Stichworten die Interpretation.
 
@@ -100,15 +100,31 @@ Erstelle zu folgendem Szenario eine grafische Darstellung:
 
 ---
 
+#### Geschwindigkeiten bestimmen
+
+![!large](./img/bewegungen_grafisch_02.png)
+
+> Wir ergänzen hier Zahlenwerte und berechnen die Geschwindigkeit.
+
+---
+
+#### Geschwindigkeiten bestimmen
+
+![!large](./img/geschwindigkeiten_01.png)
+
+---
+
+#### Geschwindigkeiten bestimmen
+
+![!large](./img/geschwindigkeiten_02.png)
+
+---
+
 | ⚠️ **Definitionen** |
 |---|
 | **Ortsänderung (kinematisch):** Ein Körper befindet sich in Bewegung, wenn sich sein Ort mit der Zeit ändert. |
 | **Geschwindigkeit ungleich null:** Ein Körper ist in Bewegung, wenn er eine von Null verschiedene Geschwindigkeit besitzt: $\|{v}\| > 0$.
 |**Lageänderung relativ zu einem Bezugssystem:** Ein Körper ist in Bewegung, wenn sich seine Lage relativ zu einem gewählten Bezugskörper, einem anderen Ort bzw. Bezugssystem mit der Zeit ändert. |
-
----
-
-Todo: Aus Diagrammen Geschwindigkeit ermitteln, Diagramme aus Vorgaben erstellen
 
 ---
 
