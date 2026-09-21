@@ -110,13 +110,13 @@ Erstelle zu folgendem Szenario eine grafische Darstellung:
 
 #### Geschwindigkeiten bestimmen
 
-![!large](./img/geschwindigkeiten_01.png)
+![!large](./img/geschwindigkeit_01.png)
 
 ---
 
 #### Geschwindigkeiten bestimmen
 
-![!large](./img/geschwindigkeiten_02.png)
+![!large](./img/geschwindigkeit_02.png)
 
 ---
 
