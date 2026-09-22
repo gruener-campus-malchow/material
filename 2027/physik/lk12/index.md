@@ -27,7 +27,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 > - SANA-Leseprojekt
 > - Berlinwoche
 
-
+- [Einführung in elektrische Felder](04_elektrische_Felder.md)
 
 <!---
 - [Keppler für Woche ab 23.9.24](03_Kepler.slides.md)
