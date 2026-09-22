@@ -1,7 +1,6 @@
 Elektrische Felder
 ==================
 
-[toc]
 
 # Skizzen elektrischer Felder
 
@@ -19,7 +18,9 @@ Elektrische Felder
 
 ## Kraftwirkung (Coulombsches Gesetz)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png" style="background-color:white; width:400px;">
+<!--<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/CoulombsLaw.svg/1024px-CoulombsLaw.svg.png" style="background-color:white; width:400px;">-->
+
+![foo](https://upload.wikimedia.org/wikipedia/commons/0/07/CoulombsLaw.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 $$
 F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} \cdot {{q_1 \cdot q_2 }\over{r^2}}
