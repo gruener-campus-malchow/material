@@ -166,11 +166,18 @@ function zoom1_out()
 3. Dokumentiere Deine Erkenntnisse in einer Mail an Deinen Lehrer in der Du die beiden veränderten Dateien hochlädst.
 4. Überführe das Konzept auf das Beispiel mit dem Pferde-Memory.
 
+# Exkurs Programmieren lernen
+
+Wir beginnen mit den ersten Levels eines Roboterspiels: https://gcm.schule/jsrobot
+
+> Have a lot of fun!
+
+<!--
+
+
 > Nächste Woche: Test
 
 - Beispiel Soundboard
-
-<!--
 
 [Teste den Code](01_test.html)
 
