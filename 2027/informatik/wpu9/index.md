@@ -168,7 +168,31 @@ function zoom1_out()
 
 # Exkurs Programmieren lernen
 
+Hausaufgabe: Spiele alle Levels durch von https://compute-it.toxicode.fr/ und https://silentteacher.toxicode.fr/
+
+Erkläre auf Basis des Gelernten folgende Konzepte:
+
+- Anweisung (Befehl)
+- Variable
+- Schleife
+- Verzweigung
+- Funktion
+
 Wir beginnen mit den ersten Levels eines Roboterspiels: https://gcm.schule/jsrobot
+
+## Level 1
+
+Hier lernt man die Grundfunktionen kennen. Außerdem lernt man, die verschiedenen Tools zu nutzen.
+
+**Achtung:** Wenn man etwas programmiert hat, muss man es auch erklären können. Alle Programme werden am Stundenende per Mail an den Lehrer gesendet. Wenn man früher fertig wird, darf man auch früher eine Mail schicken.
+
+### Challenges
+
+> Sammle keine Coins!
+
+> Sammle exakt vier Coins!
+
+---
 
 > Have a lot of fun!
 
