@@ -190,6 +190,7 @@ Hier lernt man die Grundfunktionen kennen. Außerdem lernt man, die verschiedene
 
 > Sammle keine Coins!
 
+und
 
 > Sammle exakt vier Coins!
 
