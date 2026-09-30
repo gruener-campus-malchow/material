@@ -53,4 +53,4 @@ Von dort ist auch ein interessantes PDF verlinkt: https://classic.csunplugged.or
 
 [Simulation der Kartenerkennung "ExploreSquare"](./exploreSquare) von Rico
 
-![DEA des Roboters](Explorer.svg)
+![DEA des Roboters !large](Explorer.svg)
