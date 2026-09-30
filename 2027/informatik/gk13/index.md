@@ -51,4 +51,6 @@ Von dort ist auch ein interessantes PDF verlinkt: https://classic.csunplugged.or
 
 > Als Anwendung für das Gelernte entwickeln wir einen Roboter, der eine quadaratische Mattenfläche desinfizieren soll.
 
-- [Simulation der Kartenerkennung "ExploreSquare"](./exploreSquare) von Rico
+[Simulation der Kartenerkennung "ExploreSquare"](./exploreSquare) von Rico
+
+![DEA des Roboters](Explorer.svg)

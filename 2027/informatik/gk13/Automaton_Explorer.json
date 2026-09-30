@@ -1,0 +1,210 @@
+﻿{
+  "name": "Explorer",
+  "description": "",
+  "type": "DEA",
+  "automaton": {
+    "acceptCache": [],
+    "simulationInput": [],
+    "Alphabet": [
+      "Start",
+      "Rand vorne rechts",
+      "Hinderniss in Nähe",
+      "kein Hinderniss mehr",
+      "Rand vorne links",
+      "kein Rand",
+      "Hinderniss Gefahrenbereich",
+      "Drehung abgeschlossen"
+    ],
+    "StackAlphabet": [
+      "|"
+    ],
+    "States": [
+      {
+        "ID": 1,
+        "Name": "stehen",
+        "x": 150,
+        "y": 150,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 1,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "Start"
+            ]
+          }
+        ],
+        "Start": true
+      },
+      {
+        "ID": 3,
+        "Name": "langsamer fahren",
+        "x": 620,
+        "y": 30,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 3,
+            "Target": 2,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "kein Hinderniss mehr"
+            ]
+          },
+          {
+            "Source": 3,
+            "Target": 4,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "Hinderniss Gefahrenbereich"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 4,
+        "Name": "warten",
+        "x": 1350,
+        "y": 340,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 4,
+            "Target": 3,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "Hinderniss in Nähe"
+            ]
+          },
+          {
+            "Source": 4,
+            "Target": 2,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "kein Hinderniss mehr"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 6,
+        "Name": "drehen links",
+        "x": 110,
+        "y": 410,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 6,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "kein Rand"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 5,
+        "Name": "drehen rechts",
+        "x": 370,
+        "y": 590,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 5,
+            "Target": 7,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "kein Rand"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 2,
+        "Name": "fahren geradeaus",
+        "x": 590,
+        "y": 370,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 2,
+            "Target": 3,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "Hinderniss in Nähe"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 4,
+            "x": 50,
+            "y": 0,
+            "Labels": [
+              "Hinderniss Gefahrenbereich"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 6,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "Rand vorne rechts"
+            ]
+          },
+          {
+            "Source": 2,
+            "Target": 5,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "Rand vorne links"
+            ]
+          }
+        ],
+        "Start": false
+      },
+      {
+        "ID": 7,
+        "Name": "weitere Drehung",
+        "x": 90,
+        "y": 610,
+        "Final": false,
+        "Radius": 30,
+        "Transitions": [
+          {
+            "Source": 7,
+            "Target": 2,
+            "x": 0,
+            "y": 0,
+            "Labels": [
+              "Drehung abgeschlossen"
+            ]
+          }
+        ],
+        "Start": false
+      }
+    ],
+    "lastInputs": []
+  }
+}
