@@ -70,7 +70,7 @@ Unterschied zwischen homogenem und inhomogenem Feld:
 
 ## Herleitung von E für Radialfeld
 
-Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q_1 q_2 }\over{r^2}}$ und der Definition $E =  {{F}\over{q}}$ entsteht $E = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{q}\over{r^2}}$
+Mittels des Coulomb-Gesetzes $F_{el} = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{Q q }\over{r^2}}$ und der Definition $E =  {{F}\over{q}}$ entsteht $E = {{1} \over {4 \pi \epsilon_o \epsilon_r }} {{Q}\over{r^2}}$
 
 ## Arbeit im homogenen el. Feld liefert die Spannung
 

@@ -46,3 +46,9 @@ Neue Quelle, die auch viele Definitionen enthält: https://i2.net-schulbuch.de/i
 Von dort ist auch ein interessantes PDF verlinkt: https://classic.csunplugged.org/documents/activities/finite-state-automata/unplugged-11-finite_state_automata.pdf
 
 > Besonders S. 12 (97) unten fand ich lustig.
+
+### DesinfectionBot
+
+> Als Anwendung für das Gelernte entwickeln wir einen Roboter, der eine quadaratische Mattenfläche desinfizieren soll.
+
+- [Simulation der Kartenerkennung "ExploreSquare"](./exploreSquare) von Rico
