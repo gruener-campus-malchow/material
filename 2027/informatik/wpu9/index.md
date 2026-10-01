@@ -178,6 +178,8 @@ Erkläre auf Basis des Gelernten folgende Konzepte:
 - Verzweigung
 - Funktion
 
+![!large](jsrobot.png)
+
 Wir beginnen mit den ersten Levels eines Roboterspiels: https://gcm.schule/jsrobot
 
 ## Level 1
