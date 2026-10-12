@@ -156,6 +156,22 @@ Die Buslinie 47 verbindet den Bahnhofsvorplatz mit dem Stadtzentrum. Die Strecke
 
 ---
 
+## Orga & Rückblick
+
+> "Schlecht erzogen..."
+
+und
+
+> "Feedback zu den Läufen"
+
+---
+
+### Musterlösung erarbeiten
+
+![!large](./img/tafelarbeit.jpg)
+
+---
+
 ### Gleichförmige Bewegung (Lichtsignal)
 Ein Laserimpuls wird von einer Station auf der Erde zur ISS (Orbithöhe ca. \\( 408 \text{ km}\\)) gesendet. Das Licht bewegt sich mit \\(v = 300000 \text{ km/s}\\).
 - Ermittle die Dauer des Hinwegs des Signals.

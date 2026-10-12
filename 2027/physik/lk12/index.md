@@ -31,6 +31,8 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 ### Klausurvorbereitung
 
+> Fragen: Einzelraumregelung?
+
 Folgende Fähigkeiten sollten Sie erworben und geübt haben, um erfolgreich die Klausur zu bestreiten:
 
 - Anwendungen und Rechnungen mit den Kepplerschen Gesetzen verstehen, erklären bzw. durchführen
