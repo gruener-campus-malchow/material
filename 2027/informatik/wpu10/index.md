@@ -312,6 +312,7 @@ else{
 ~~~php
 <?php
 session_start();
+date_default_timezone_set('Europe/Berlin');
 
 ?>
 <!DOCTYPE html>
@@ -356,13 +357,19 @@ session_start();
     background-color: #007bff;
     color: white;
     float: right;
-    text-align: right;
+    text-align: left;
   }
   .bot-message {
     background-color: #e5e5ea;
     color: black;
     float: left;
-    text-align: left;
+    text-align: right;
+  }
+  .foreign-message {
+    background-color: red;
+    color: black;
+    float: left;
+    text-align: right;
   }
   #chat-form {
     display: flex;
@@ -412,16 +419,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function nachrichten_ausgeben($nachrichten){
 	foreach($nachrichten as $nachricht){
-		echo '<div class="message user-message">'.$nachricht.'</div>';	
+		
+		switch ($nachricht['author']){
+			case 'bot':
+				echo '<div class="message bot-message">'.$nachricht['message'].'</div>';
+				break;
+			case 'me':
+				echo '<div class="message user-message">'.$nachricht['message'].'</div>';
+				break;
+			default:
+				echo '<div class="message foreign-message">'.$nachricht['message'].'</div>';
+				break;
+		}		
 	}
+}
+
+function erstelle_nachricht($from, $message){
+	$nachricht = [
+		'author' => $from,
+		'date' => date("l, j. F Y"),
+		'message' => $message
+	];
+	return $nachricht;
 }
 
 function bot_reply($chat_post){
 	$answer = "";
-	echo $chat_post; 
+	//echo $chat_post; 
 	switch($chat_post){
 		case "destroy chat":	
 			session_destroy();
+			die();
 			break;
 		case "Are you there?":
 			$answer = "I am always here... all the time.";
@@ -434,6 +462,7 @@ function bot_reply($chat_post){
 			if ($chat_post == 'passwort123'){
 				$_SESSION['chatting_allowed'] = true;
 				$_SESSION['passworteingabe'] = false;
+				$_SESSION['anmeldevorgang'] = false;
 				$answer = "Korrekt, viel Spaß beim Chatten!";
 			}else {
 				$answer = "Das ist das falsche Passwort!";
@@ -454,19 +483,22 @@ if(!array_key_exists('chatverlauf', $_SESSION))
 	$_SESSION['passworteingabe'] = false;
 	$_SESSION['chatting_allowed'] = false;
 	
-	array_push($_SESSION['chatverlauf'],"Logge Dich ein! Sag mir, wie Du heißt.");
+	$nachricht = erstelle_nachricht('bot', 'Logge Dich ein! Sag mir, wie Du heißt.');
+	
+	array_push($_SESSION['chatverlauf'],$nachricht);
 	nachrichten_ausgeben($_SESSION['chatverlauf']);
 	
 }elseif(array_key_exists('chatverlauf', $_SESSION) and array_key_exists('eingabe', $_POST) and $_SESSION['chatting_allowed']) {
-	array_push($_SESSION['chatverlauf'],$_POST['eingabe']);
-	$reply = bot_reply($_POST['eingabe']);
+	$nachricht = erstelle_nachricht('me',$_POST['eingabe']);
+	array_push($_SESSION['chatverlauf'],$nachricht);
+	$reply = erstelle_nachricht('bot',bot_reply($_POST['eingabe']));
 	if ($reply !== "kein Kommentar"){	
 			array_push($_SESSION['chatverlauf'],$reply);
 	}		
 	nachrichten_ausgeben($_SESSION['chatverlauf']);
 }
 else{
-	$reply = bot_reply($_POST['eingabe']);
+	$reply = erstelle_nachricht('bot', bot_reply($_POST['eingabe']));
 	if ($reply !== "kein Kommentar"){	
 			array_push($_SESSION['chatverlauf'],$reply);
 	}
