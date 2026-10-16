@@ -307,6 +307,190 @@ else{
 
 ~~~
 
+## Code vor den Herbstferien
+
+~~~php
+<?php
+session_start();
+
+?>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chat-Formular</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  #chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    overflow-anchor: auto;
+  }
+  .message {
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    clear: both;
+  }
+  .user-message {
+    background-color: #007bff;
+    color: white;
+    float: right;
+    text-align: right;
+  }
+  .bot-message {
+    background-color: #e5e5ea;
+    color: black;
+    float: left;
+    text-align: left;
+  }
+  #chat-form {
+    display: flex;
+    padding: 10px;
+  }
+  #chat-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  #chat-submit {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #chat-submit:hover {
+    background-color: #0056b3;
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const chatContainer = document.getElementById('chat-box');
+  if (chatContainer) {
+    // Scrollt sofort beim Laden der Seite ganz nach unten
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+  }
+  const chatInput = document.getElementById('chat-input');    
+  if (chatInput) {
+      // Setzt den Cursor direkt in das Textfeld
+      chatInput.focus();
+    }
+});
+</script>
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="chat-box">
+<?php
+
+function nachrichten_ausgeben($nachrichten){
+	foreach($nachrichten as $nachricht){
+		echo '<div class="message user-message">'.$nachricht.'</div>';	
+	}
+}
+
+function bot_reply($chat_post){
+	$answer = "";
+	echo $chat_post; 
+	switch($chat_post){
+		case "destroy chat":	
+			session_destroy();
+			break;
+		case "Are you there?":
+			$answer = "I am always here... all the time.";
+			break;
+		case "Alex" and $_SESSION['anmeldevorgang'] and !$_SESSION['passworteingabe']:
+			$answer = "Schön Dich wieder zu sehen. Wie heiß Dein Passwort?";
+			$_SESSION['passworteingabe'] = true;
+			break;
+		case $_SESSION['passworteingabe']:
+			if ($chat_post == 'passwort123'){
+				$_SESSION['chatting_allowed'] = true;
+				$_SESSION['passworteingabe'] = false;
+				$answer = "Korrekt, viel Spaß beim Chatten!";
+			}else {
+				$answer = "Das ist das falsche Passwort!";
+			}
+			break;
+		default:
+			$answer = "kein Kommentar";
+			break;
+	}
+	return $answer;
+}
+
+if(!array_key_exists('chatverlauf', $_SESSION))
+{
+	
+	$_SESSION['chatverlauf']=array();
+	$_SESSION['anmeldevorgang']=true;
+	$_SESSION['passworteingabe'] = false;
+	$_SESSION['chatting_allowed'] = false;
+	
+	array_push($_SESSION['chatverlauf'],"Logge Dich ein! Sag mir, wie Du heißt.");
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+	
+}elseif(array_key_exists('chatverlauf', $_SESSION) and array_key_exists('eingabe', $_POST) and $_SESSION['chatting_allowed']) {
+	array_push($_SESSION['chatverlauf'],$_POST['eingabe']);
+	$reply = bot_reply($_POST['eingabe']);
+	if ($reply !== "kein Kommentar"){	
+			array_push($_SESSION['chatverlauf'],$reply);
+	}		
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+}
+else{
+	$reply = bot_reply($_POST['eingabe']);
+	if ($reply !== "kein Kommentar"){	
+			array_push($_SESSION['chatverlauf'],$reply);
+	}
+	//array_push($_SESSION['chatverlauf'],"Hast Du nichts zu sagen?");	
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+}
+
+?>  
+  
+  
+  </div>
+  <form id="chat-form" method="post">
+  
+    <input type=<?= $_SESSION['passworteingabe'] ? '"password"' : '"text"' ?> name="eingabe" id="chat-input" placeholder="Schreib eine Nachricht..." autocomplete="off" required />
+    <button type="submit" id="chat-submit">Senden</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+~~~
+
+
 ## Nächste Schritte
 
 - **Nachrichten ordentlich ausgeben**
