@@ -22,11 +22,6 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 
 ## Elektrostatik
 
-> ## Orga-Block
->
-> - SANA-Leseprojekt
-> - Berlinwoche
-
 - [Einführung in elektrische Felder](04_elektrische_Felder.md)
 - [Klausurvorbereitung](04_Klausurvorbereitung.md)
 - [Kondensatoren](05_Kondensatoren.md)
