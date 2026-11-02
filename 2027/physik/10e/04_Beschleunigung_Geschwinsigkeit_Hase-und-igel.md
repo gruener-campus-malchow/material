@@ -6,7 +6,7 @@ https://bernsteinbaeder-usedom.de/loddin/maerchenseiten/hase-und-igel/
 
 ## Ziel der Stunde
 
-Kleine Gruppen sollen ihre Arbeitsergebnisse entwickeln. Sie werden am Ende der Stunde abgegeben und in der kommenden Stunde von mir präsentiert und kommentiert. Die Ergebnisse fließen in die Bewertung ein.
+Kleine Gruppen sollen ihre Arbeitsergebnisse ansprechend dokumentieren. Sie werden am Ende der Stunde abgegeben und in der kommenden Stunde von mir präsentiert und kommentiert. Die Ergebnisse fließen in die Bewertung ein.
 
 ## Vorwissen
 
