@@ -4,6 +4,9 @@ https://bernsteinbaeder-usedom.de/loddin/maerchenseiten/hase-und-igel/
 
 > Anmerkung: Wie in vielen alten Märchen enthält es viele sexistische Stereotype. Auch rassistische Tendenzen oder andere Diskriminierungsformen kann man hinein interpretieren.
 
+## Ziel der Stunde
+
+Kleine Gruppen sollen ihre Arbeitsergebnisse entwickeln. Sie werden am Ende der Stunde abgegeben und in der kommenden Stunde von mir präsentiert und kommentiert. Die Ergebnisse fließen in die Bewertung ein.
 
 ## Vorwissen
 
