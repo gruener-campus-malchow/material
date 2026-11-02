@@ -2,6 +2,8 @@
 
 https://bernsteinbaeder-usedom.de/loddin/maerchenseiten/hase-und-igel/
 
+> Anmerkung: Wie in vielen alten Märchen enthält es viele sexistische Stereotype. Auch rassistische Tendenzen oder andere Diskriminierungsformen kann man hinein interpretieren.
+
 
 ## Vorwissen
 
