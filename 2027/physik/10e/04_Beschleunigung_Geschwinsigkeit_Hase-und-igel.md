@@ -6,7 +6,7 @@ https://bernsteinbaeder-usedom.de/loddin/maerchenseiten/hase-und-igel/
 
 ## Ziel der Stunde
 
-Kleine Gruppen sollen ihre Arbeitsergebnisse ansprechend dokumentieren. Sie werden am Ende der Stunde abgegeben und in der kommenden Stunde von mir präsentiert und kommentiert. Die Ergebnisse fließen in die Bewertung ein.
+Kleine Gruppen sollen ihre Arbeitsergebnisse **ansprechend** dokumentieren. Sie werden am Ende der Stunde abgegeben und in der kommenden Stunde von mir präsentiert und kommentiert. Die Ergebnisse fließen in die Bewertung ein.
 
 ## Vorwissen
 
@@ -17,9 +17,9 @@ Kleine Gruppen sollen ihre Arbeitsergebnisse ansprechend dokumentieren. Sie werd
 
 **Sozialform:** Einzelarbeit, dann Partnerarbeit
 
-> Legt ein Koordinatensystem fest. Triff dabei auch Entscheidungen, welche Strecken in welchen Zeiten zurückgelegt werden.
+> Lege ein Koordinatensystem fest. Triff dabei auch Entscheidungen, welche Strecken in welchen Zeiten zurückgelegt werden. Versuche, dabei realistisch zu bleiben.
 
-### a) Hase
+### a) Hase, Igel und Igelin
 
 Zeichne in ein Koordinatensystem (*s* über *t*) den Verlauf für den Hasen und die Igel.
 
@@ -33,7 +33,7 @@ Zeichne in ein Koordinatensystem (*s* über *t*) den Verlauf für den Hasen und 
 
 ### a) Hase
 
-> Leite aus deinem *s-t*-Diagramm das *v-t*-Diagramm ab:
+> Leite aus deinem *s-t*-Diagramm das *v-t*-Diagramm ab.
 
 | Abschnitt | Was passiert? | Geschwindigkeit |
 |:---:|:---|:---:|
@@ -44,7 +44,8 @@ Zeichne in ein Koordinatensystem (*s* über *t*) den Verlauf für den Hasen und 
 Zeichne die drei Abschnitte in ein *v-t*-Koordinatensystem.
 
 ### b) Igel
-Mache dasselbe für den Igel.
+
+Mache dasselbe für die Igel im gleichen Koordinatensystem.
 
 ### c) Vergleiche
 
@@ -53,7 +54,9 @@ Mache dasselbe für den Igel.
 
 ## Aufgabe 3: Kernerkenntnis (ca. 15 min)
 
-**Sozialform:** Plenum / Tafel
+**Sozialform:** Gruppenarbeit (Die Gruppen werden vom Lehrer zufällig erstellt.)
+
+Ab hier wird eine der Vorarbeiten als gemeinsame Darstellung weiterentwickelt. Alle Darstellungen müssen aber in die eigene Aufzeichnung übernommen werden, sodass inhaltlich jede und jeder eine vollständige Kopie hat.
 
 ### a) Steigung
 
