@@ -71,15 +71,11 @@ $$v = \frac{\Delta s}{\Delta t} = \frac{d}{t_1} = \ldots \text{ m/s}$$
 
 Berechne die Fläche des Hinwegs (Rechteck) und vergleiche mit dem Wert aus Aufgabe 1.
 
----
-
 ## Aufgabe 4: Transfer (ca. 10 min)
 
 **Sozialform:** Einzelarbeit
 
 > Erstelle ein a-t-Diagramm.
-
----
 
 ## Aufgabe 5: Eigene Geschichte
 
