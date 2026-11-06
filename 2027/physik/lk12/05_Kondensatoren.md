@@ -49,7 +49,7 @@ $$
 
 > Ermitteln Sie die theoretische Dauer mit der ein 12V, 0,23A Lüfter betrieben werden kann.
 
-> HA: Erstellen Sie einen Schaltplan für einen Energiespeicher, der mindestens für 60s reicht.
+> **Zweitens:** Erstellen Sie einen Schaltplan für einen Energiespeicher, der mindestens für 60s reicht.
 
 ## Entladung eines Kondensators
 
