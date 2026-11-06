@@ -47,7 +47,7 @@ $$
 E = {{1}\over{2}} C U^2
 $$
 
-> Ermitteln Sie die theoretische Dauer mit der ein 12V, 0,12A Lüfter betrieben werden kann.
+> Ermitteln Sie die theoretische Dauer mit der ein 12V, 0,23A Lüfter betrieben werden kann.
 
 > HA: Erstellen Sie einen Schaltplan für einen Energiespeicher, der mindestens für 60s reicht.
 
