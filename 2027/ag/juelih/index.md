@@ -1,7 +1,5 @@
 # Ideen für unsere AG "Jüdisches Leben in Hohenschönhausen"
 
-> Kontakt Ausschwitzfahrt 2027 über Fr. Sernau
-
 ## Ablauf erstes Treffen
 
 - Vorstellungsrunde
@@ -12,6 +10,8 @@
 	- Wenn wir zu Hause bleiben oder bei schlechtem Wetter: Aufarbeitung des Erlebten, Gemeinsam planen, Projekte vorantreiben
 
 ## Projekte
+
+* [Portfolio Victor Aronstein](Portfolio_Victor_Aronstein.md)
 
 * Lesen gegen das Vergessen
 	* FG1
