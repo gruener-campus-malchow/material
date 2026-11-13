@@ -97,7 +97,7 @@ Notiert zu jeder Aufgabe die Filter, die ihr gesetzt habt, und das Ergebnis.
    | `absender_id` | INTEGER | NN, **Fremdschlüssel** → `benutzer(benutzer_id)` |
    | `empfaenger_id` | INTEGER | NN, **Fremdschlüssel** → `benutzer(benutzer_id)` |
    | `text` | TEXT | NN |
-   | `zeitstempel` | TEXT | NN; Format `JJJJ-MM-TT HH:MM` |
+   | `zeitstempel` | TEXT | NN|
 
    *So legt ihr den Fremdschlüssel an:* Geht in **„Tabelle bearbeiten“** und klickt beim Feld in die Spalte **„Fremdschlüssel“**. Wählt dort die Tabelle `benutzer` und die Spalte `benutzer_id` aus.
 

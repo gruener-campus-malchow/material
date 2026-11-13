@@ -87,16 +87,16 @@ $$
 W =  \int_{0}^{Q} U(q) dq 
 $$
 
-### Experiment "Spannungs- und Stromstärke-Entladekurve eines Kondensators"
+### Experiment "Spannungs-Entladekurve eines Kondensators"
 
-- Entwerfen Sie eine Schaltung um gleichzeitig Spannung und Stromstärke zu messen
+- Entwerfen Sie eine Schaltung um die Spannung beim Entladen eines Kondensators zu messen
 - Bauen Sie die (korrigierte) Schaltung auf und lassen Sie diese genehmigen
-- Erstellen Sie mit dem [Messwerterfassungssystem](https://www.phywe.de/sensoren-software/mess-software-apps/measureapp-die-kostenlose-mess-software-fuer-alle-endgeraete_2274_3205/) ein U(t)-Diagramm und gleichzeitig ein I(t)-Diagramm für 10µF und 47Ω.
+- Erstellen Sie mit dem [Messwerterfassungssystem](https://www.phywe.de/sensoren-software/mess-software-apps/measureapp-die-kostenlose-mess-software-fuer-alle-endgeraete_2274_3205/) ein U(t)-Diagramm für 10µF und 47kΩ.
 - Bringen Sie den Kurvenverlauf in Zusammenhang mit dem Verhalten des Lüfters.
 
-## Ladekurve Kondensator (Spannung)
+## Entladekurve verwenden, um die Kapazität zu bestimmen
 
-todo
+![!large](Messung_spannung_kondensator.jpg)
 
 ## Lade- und Entladevorgang Stromstärke
 
