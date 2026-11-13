@@ -1,6 +1,8 @@
 # Einführung in Datenbanken mit DB Browser for SQLite
 **Kontext:** Wir bauen die Datenbank eines einfachen Chat-Systems
 
+> Du kannst alle Aufgaben, bei den es um den Austausch geht, zunächst mündlich mit einem Partner erledigen. Bedenke: Zukünftig musst Du Dich schriftlich äußern und Text formulieren.
+
 ---
 
 ## Übung 1: Die Benutzertabelle anlegen

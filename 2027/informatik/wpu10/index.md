@@ -45,4 +45,6 @@ Wir arbeiten mit SQLite und folgendem Werkzeug: https://sqlitebrowser.org/
 > - Zeige, wie man eine Datenbank erstellt
 > - Zeige, wie man eine Tabelle erstellt
 > - Zeige, wie man Daten in eine Tabelle einfügt
+> - Erkläre, welchen Nutzen die folgenden Bedingungen haben: NN, unique
 > - Zeige, was passiert, wenn man sich nicht an die Constraints hält
+
