@@ -1,0 +1,504 @@
+# Spielen in PHP
+
+https://www.programiz.com/php/online-compiler/
+
+## Aufgaben
+
+1. Erstelle ein Hello World.
+1. Erstelle ein Programm, das eine Webseite ausgibt (Boilerplate genügt).
+1. Die Webseite soll die Uhrzeit zum Zeitpunkt des Renderns ausgeben.
+1. Die Webseite soll eine zufällige Anzahl an Uhren anzeigen, wobei die Zahl zwischen 1 und 100 liegen soll. Jede Uhr ist in einem eigenen DIV-Tag und hat eine eigene Hintergrundfarbe, die per inline-CSS gestaltet ist.
+
+> Sende am Ende der Stunde den von Dir generierten Code per Mail.
+
+### Code-Snippets
+
+#### Uhrzeit bestimmen
+
+~~~php
+date_default_timezone_set("Europe/Berlin");
+$timestamp = time();
+$datum = date("d.m.Y",$timestamp);
+$uhrzeit = date("H:i",$timestamp);
+echo $datum," - ",$uhrzeit," Uhr";
+~~~
+
+# Einen eigenen Server betreiben
+
+https://bplaced.net
+
+* Upload des eigenen Codes per FTP und Testen mit dem Code aus der vergangenen Stunde.
+
+## Aufgaben für Fortgeschrittene
+
+1. Erstelle eine PHP-Datei, die ein Formular auslesen kann. Das Formular soll einen Benutzernamen und Passwort erfragen.
+1. Damit das Passwort sicher übertragen wird, muss Serverseitig zu Beginn geprüft werden, ob es eine sichere und verschlüsselte Verbindung gibt. Dazu muss die Systemvariable **$_SERVER['HTTPS']** richtig gesetzt sein.
+1. Wenn keine sichere Verbindung genutzt wird, wird kein Login angezeigt.
+1. Ihr werdet feststellen, dass bplaced in der kostenlosen Variante keine Verschlüsselung anbietet - trotzdem solltet ihr das implementieren, weil es im realen Leben absolut notwendig ist.
+1. Ein erfolgreicher Login geschieht, indem man den HASH, der aus dem Passwort erzeugt wird, mit dem HASH, der auf dem Server gespeichert ist, vergleicht.
+1. Es gibt hier noch einige Stolperfallen - viel Spaß beim Tüfteln!
+
+~~~php
+// Serverseitige Hash-Erzeugung (z.B. bei Registrierung)
+$hash = password_hash($_POST['password'], PASSWORD_DEFAULT);
+$storedHash = '...'; // wie kommt man da nur heran? Tipp: Einmal vorher per echo das gehashte Passwort ausgeben und kopieren.
+
+// Serverseitige Verifikation (z.B. bei Login)
+if (password_verify($_POST['password'], $storedHash)) {
+    echo "Login erfolgreich";
+} else {
+    echo "Login fehlgeschlagen";
+}
+~~~
+
+## Aufgaben für weniger Fortgeschrittene
+
+1. Erstelle eine PHP-Datei mit einem Formular, das eine Chat-Oberfläche darstellt.
+1. Der Chatverlauf wird in einer Variable, einem Array gespeichert.
+1. Folge dem **Code-Along** mit dem Lehrer.
+
+### Start-Datei
+
+~~~html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chat-Formular</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  #chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .message {
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    clear: both;
+  }
+  .user-message {
+    background-color: #007bff;
+    color: white;
+    float: right;
+    text-align: right;
+  }
+  .bot-message {
+    background-color: #e5e5ea;
+    color: black;
+    float: left;
+    text-align: left;
+  }
+  #chat-form {
+    display: flex;
+    padding: 10px;
+  }
+  #chat-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  #chat-submit {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #chat-submit:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="chat-box">
+<?php
+
+echo "Hello World";
+
+?>  
+  
+  
+  </div>
+  <form id="chat-form">
+    <input type="text" id="chat-input" placeholder="Schreib eine Nachricht..." autocomplete="off" required />
+    <button type="submit" id="chat-submit">Senden</button>
+  </form>
+</div>
+
+</body>
+</html>
+~~~
+
+
+> Theorieteil: Mehrdimensionale Arrays am Beispiel von XXO
+
+## Stand vor dem Test kommende Woche
+
+~~~html
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chat-Formular</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  #chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  .message {
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    clear: both;
+  }
+  .user-message {
+    background-color: #007bff;
+    color: white;
+    float: right;
+    text-align: right;
+  }
+  .bot-message {
+    background-color: #e5e5ea;
+    color: black;
+    float: left;
+    text-align: left;
+  }
+  #chat-form {
+    display: flex;
+    padding: 10px;
+  }
+  #chat-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  #chat-submit {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #chat-submit:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="chat-box">
+<?php
+
+if(!array_key_exists('chatverlauf', $_SESSION))
+{
+	$_SESSION['chatverlauf']=array();
+}elseif(array_key_exists('chatverlauf', $_SESSION) and array_key_exists('eingabe', $_POST)) {
+	
+	if($_POST['eingabe']=='destroy chat'){
+		session_destroy();
+	}else {
+		array_push($_SESSION['chatverlauf'],$_POST['eingabe']);
+		print_r($_SESSION['chatverlauf']);
+	}
+	
+}
+else{
+	print_r($_SESSION['chatverlauf']);
+}
+
+?>  
+  
+  
+  </div>
+  <form id="chat-form" method="post">
+    <input type="text" name="eingabe" id="chat-input" placeholder="Schreib eine Nachricht..." autocomplete="off" required />
+    <button type="submit" id="chat-submit">Senden</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+~~~
+
+## Code vor den Herbstferien
+
+~~~php
+<?php
+session_start();
+date_default_timezone_set('Europe/Berlin');
+
+?>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chat-Formular</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #chat-container {
+    width: 400px;
+    height: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  #chat-box {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    overflow-anchor: auto;
+  }
+  .message {
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 70%;
+    clear: both;
+  }
+  .user-message {
+    background-color: #007bff;
+    color: white;
+    float: right;
+    text-align: left;
+  }
+  .bot-message {
+    background-color: #e5e5ea;
+    color: black;
+    float: left;
+    text-align: right;
+  }
+  .foreign-message {
+    background-color: red;
+    color: black;
+    float: left;
+    text-align: right;
+  }
+  #chat-form {
+    display: flex;
+    padding: 10px;
+  }
+  #chat-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  #chat-submit {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #chat-submit:hover {
+    background-color: #0056b3;
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const chatContainer = document.getElementById('chat-box');
+  if (chatContainer) {
+    // Scrollt sofort beim Laden der Seite ganz nach unten
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+  }
+  const chatInput = document.getElementById('chat-input');    
+  if (chatInput) {
+      // Setzt den Cursor direkt in das Textfeld
+      chatInput.focus();
+    }
+});
+</script>
+</head>
+<body>
+
+<div id="chat-container">
+  <div id="chat-box">
+<?php
+
+function nachrichten_ausgeben($nachrichten){
+	foreach($nachrichten as $nachricht){
+		
+		switch ($nachricht['author']){
+			case 'bot':
+				echo '<div class="message bot-message">'.$nachricht['message'].'</div>';
+				break;
+			case 'me':
+				echo '<div class="message user-message">'.$nachricht['message'].'</div>';
+				break;
+			default:
+				echo '<div class="message foreign-message">'.$nachricht['message'].'</div>';
+				break;
+		}		
+	}
+}
+
+function erstelle_nachricht($from, $message){
+	$nachricht = [
+		'author' => $from,
+		'date' => date("l, j. F Y"),
+		'message' => $message
+	];
+	return $nachricht;
+}
+
+function bot_reply($chat_post){
+	$answer = "";
+	//echo $chat_post; 
+	switch($chat_post){
+		case "destroy chat":	
+			session_destroy();
+			die();
+			break;
+		case "Are you there?":
+			$answer = "I am always here... all the time.";
+			break;
+		case "Alex" and $_SESSION['anmeldevorgang'] and !$_SESSION['passworteingabe']:
+			$answer = "Schön Dich wieder zu sehen. Wie heiß Dein Passwort?";
+			$_SESSION['passworteingabe'] = true;
+			break;
+		case $_SESSION['passworteingabe']:
+			if ($chat_post == 'passwort123'){
+				$_SESSION['chatting_allowed'] = true;
+				$_SESSION['passworteingabe'] = false;
+				$_SESSION['anmeldevorgang'] = false;
+				$answer = "Korrekt, viel Spaß beim Chatten!";
+			}else {
+				$answer = "Das ist das falsche Passwort!";
+			}
+			break;
+		default:
+			$answer = "kein Kommentar";
+			break;
+	}
+	return $answer;
+}
+
+if(!array_key_exists('chatverlauf', $_SESSION))
+{
+	
+	$_SESSION['chatverlauf']=array();
+	$_SESSION['anmeldevorgang']=true;
+	$_SESSION['passworteingabe'] = false;
+	$_SESSION['chatting_allowed'] = false;
+	
+	$nachricht = erstelle_nachricht('bot', 'Logge Dich ein! Sag mir, wie Du heißt.');
+	
+	array_push($_SESSION['chatverlauf'],$nachricht);
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+	
+}elseif(array_key_exists('chatverlauf', $_SESSION) and array_key_exists('eingabe', $_POST) and $_SESSION['chatting_allowed']) {
+	$nachricht = erstelle_nachricht('me',$_POST['eingabe']);
+	array_push($_SESSION['chatverlauf'],$nachricht);
+	$reply = erstelle_nachricht('bot',bot_reply($_POST['eingabe']));
+	if ($reply !== "kein Kommentar"){	
+			array_push($_SESSION['chatverlauf'],$reply);
+	}		
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+}
+else{
+	$reply = erstelle_nachricht('bot', bot_reply($_POST['eingabe']));
+	if ($reply !== "kein Kommentar"){	
+			array_push($_SESSION['chatverlauf'],$reply);
+	}
+	//array_push($_SESSION['chatverlauf'],"Hast Du nichts zu sagen?");	
+	nachrichten_ausgeben($_SESSION['chatverlauf']);
+}
+
+?>  
+  
+  
+  </div>
+  <form id="chat-form" method="post">
+  
+    <input type=<?= $_SESSION['passworteingabe'] ? '"password"' : '"text"' ?> name="eingabe" id="chat-input" placeholder="Schreib eine Nachricht..." autocomplete="off" required />
+    <button type="submit" id="chat-submit">Senden</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+~~~
+
+
+## Nächste Schritte
+
+- **Nachrichten ordentlich ausgeben**
+- Login von Friedrich übernehmen
+- Benutzer in eine Datei schreiben
+- Nachrichten einem Benutzer zuordnen
+- Chatverlauf in eine Datei schreiben
