@@ -38,4 +38,4 @@ WPU 10 Informatik
 
 Wir arbeiten mit SQLite und folgendem Werkzeug: https://sqlitebrowser.org/
 
-[Übungen zum Umgang mit Datenbanken]()
+[Übungen zum Umgang mit Datenbanken](uebung_sqlite.md)
