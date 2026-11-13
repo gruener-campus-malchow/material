@@ -89,6 +89,7 @@ Notiert zu jeder Aufgabe die Filter, die ihr gesetzt habt, und das Ergebnis.
 
 ### Aufgaben
 
+
 1. Öffnet eure `chat.db` aus Übung 1 und legt die Tabelle `nachricht` an:
 
    | Feld | Datentyp | Einstellungen |
