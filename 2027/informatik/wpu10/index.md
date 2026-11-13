@@ -39,3 +39,10 @@ WPU 10 Informatik
 Wir arbeiten mit SQLite und folgendem Werkzeug: https://sqlitebrowser.org/
 
 [Übungen zum Umgang mit Datenbanken](uebung_sqlite.md)
+
+> ### Tägliche Übung
+>
+> - Zeige, wie man eine Datenbank erstellt
+> - Zeige, wie man eine Tabelle erstellt
+> - Zeige, wie man Daten in eine Tabelle einfügt
+> - Zeige, was passiert, wenn man sich nicht an die Constraints hält
