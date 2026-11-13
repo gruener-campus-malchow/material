@@ -32,7 +32,7 @@ WPU 10 Informatik
 
 ![dbs](Datenbanken_DBMS_uebersicht.png)
 
-> Erläutere die folgende Grafik und erkläre zu jedem der Bestandteile die Funktion.
+> Erläutere die Grafik und erkläre zu jedem der Bestandteile die Funktion.
 >
 > Think - Pair - Share
 
