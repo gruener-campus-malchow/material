@@ -18,7 +18,7 @@
    | `benutzername` | TEXT | NN (nicht leer), U (eindeutig) |
    | `anzeigename` | TEXT | – |
    | `geburtsjahr` | INTEGER | – |
-   | `registriert_am` | TEXT | NN; Format `JJJJ-MM-TT`, z. B. `2026-11-13` |
+   | `registriert_am` | TEXT | NN |
 
 3. Wechselt zum Reiter **„Daten durchsuchen“** und legt mindestens 8 Benutzer an.
 4. Speichert eure Arbeit mit **„Änderungen schreiben“**.
