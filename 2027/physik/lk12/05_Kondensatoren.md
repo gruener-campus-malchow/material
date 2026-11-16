@@ -121,13 +121,24 @@ https://www.youtube.com/watch?v=2rTqOzKRAAo
 
 > Ermitteln Sie die Beschleunigungsspannung in einer Elektronenkanone, wenn das Elektron auf 50% der Lichtgeschwindigkeit beschleunigt werden soll.
 
-https://www.youtube.com/watch?v=roS0IxWtq0Q
-
 https://www.youtube.com/watch?v=JHv2TBMRr8s
+
+https://www.youtube.com/watch?v=roS0IxWtq0Q
 
 [Virtuelles Experiment](https://virtuelle-experimente.de/e-feld/hypothesen/experiment.php) individuell...
 
+### Aufgabe Brownsche Röhre mit Querschirm
+
 > Berechnen Sie die maximale Ablenkspannung (Plattenspannung) eines Kondensators, wenn die Elektronen diesen noch verlassen können. Sie gelte für einen 10cm langen Kondensator, dessen Platten 2cm Abstand zueinander haben. Die Elektronen wurden mit 4kV beschleunigt.
+>
+> Stellen Sie Ihren Lösung mit vollständigem Formalismus und mit Skizze dar.
+
+### Aufgabe Röhre mit entferntem Schirm
+
+> Verwenden Sie die gleichen Parameter, wie in der oberen Aufgabe. Der Schirm (eines Oszilloskops) ist 20 cm entfernt. Bestimmen Sie den Radius des Schirms.
+>
+> Stellen Sie Ihren Lösung mit vollständigem Formalismus und mit Skizze dar.
+
 
 ## Zurück zum Kondensator: Strom beim Laden- und Entladevorgang
 
