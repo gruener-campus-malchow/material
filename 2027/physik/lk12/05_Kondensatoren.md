@@ -115,6 +115,8 @@ Blick ins Tafelwerk
 
 https://www.youtube.com/watch?v=2rTqOzKRAAo
 
+> Ermitteln Sie die Beschleunigungsspannung in einer Elektronenkanone, wenn das Elektron auf 50% der Lichtgeschwindigkeit beschleunigt werden soll.
+
 https://www.youtube.com/watch?v=roS0IxWtq0Q
 
 https://www.youtube.com/watch?v=JHv2TBMRr8s
