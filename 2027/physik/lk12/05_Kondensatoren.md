@@ -127,6 +127,8 @@ https://www.youtube.com/watch?v=JHv2TBMRr8s
 
 [Virtuelles Experiment](https://virtuelle-experimente.de/e-feld/hypothesen/experiment.php) individuell...
 
+> Berechnen Sie die maximale Ablenkspannung (Plattenspannung) eines Kondensators, wenn die Elektronen diesen noch verlassen können. Sie gelte für einen 10cm langen Kondensator, dessen Platten 2cm Abstand zueinander haben. Die Elektronen wurden mit 4kV beschleunigt.
+
 ## Zurück zum Kondensator: Strom beim Laden- und Entladevorgang
 
 https://www.elektronik-kompendium.de/sites/grd/0205301.htm
