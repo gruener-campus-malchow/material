@@ -113,7 +113,9 @@ Blick ins Tafelwerk
 
 ## Elektronenstrahlröhren
 
-![!large](https://virtuelle-experimente.de/bilder/e-feld/Versuchsaufbau-Elektronenablenkroehre.svg)
+![kompletter Überblick](https://virtuelle-experimente.de/bilder/e-feld/Versuchsaufbau-Elektronenablenkroehre.svg)
+
+### Elektronenkanone
 
 https://www.youtube.com/watch?v=2rTqOzKRAAo
 
@@ -137,4 +139,9 @@ https://www.elektronik-kompendium.de/sites/grd/0205301.htm
 
 Wir ergänzen zu der Schaltung aus dem Entladevorgang ein weiteres Bauteil, eine Spule...
 
-Have a lot of fun!
+
+
+
+
+
+> Have a lot of fun!
