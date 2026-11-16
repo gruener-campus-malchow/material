@@ -111,8 +111,16 @@ LBS. 160 Nr. 16
 
 Blick ins Tafelwerk
 
+## Elektronenstrahlröhren
 
-## Strom beim Laden- und Entladevorgang
+https://www.youtube.com/watch?v=2rTqOzKRAAo
+
+https://www.youtube.com/watch?v=roS0IxWtq0Q
+
+https://www.youtube.com/watch?v=JHv2TBMRr8s
+
+
+## Zurück zum Kondensator: Strom beim Laden- und Entladevorgang
 
 https://www.elektronik-kompendium.de/sites/grd/0205301.htm
 
@@ -124,10 +132,6 @@ https://www.elektronik-kompendium.de/sites/grd/0205301.htm
 
 Wir ergänzen zu der Schaltung aus dem Entladevorgang ein weiteres Bauteil, eine Spule...
 
-## Elektronenstrahlröhren
+[Virtuelles Experiment](https://virtuelle-experimente.de/e-feld/hypothesen/experiment.php) individuell...
 
-https://www.youtube.com/watch?v=2rTqOzKRAAo
-
-https://www.youtube.com/watch?v=roS0IxWtq0Q
-
-https://www.youtube.com/watch?v=JHv2TBMRr8s
+Have a lot of fun!
