@@ -135,7 +135,7 @@ https://www.youtube.com/watch?v=roS0IxWtq0Q
 
 ### Aufgabe Röhre mit entferntem Schirm
 
-> Verwenden Sie die gleichen Parameter, wie in der oberen Aufgabe. Der Schirm (eines Oszilloskops) ist 20 cm entfernt. Bestimmen Sie den Radius des Schirms.
+> Verwenden Sie die gleichen Parameter, wie in der oberen Aufgabe. Der Schirm (eines Oszilloskops) ist 20 cm vom Kondensator entfernt. Bestimmen Sie den Radius des Schirms.
 >
 > Stellen Sie Ihren Lösung mit vollständigem Formalismus und mit Skizze dar.
 
