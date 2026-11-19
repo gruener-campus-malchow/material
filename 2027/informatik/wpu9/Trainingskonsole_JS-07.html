@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trainingskonsole JS-07 · JavaScript &amp; Events</title>
+<style>
+  :root{
+    --bg:#000;
+    --o:#ff9c00;   /* orange */
+    --p:#ffcc99;   /* pfirsich */
+    --l:#cc99cc;   /* lavendel */
+    --b:#9999ff;   /* blauviolett */
+    --t:#99ccff;   /* hellblau */
+    --r:#cc6666;   /* rot */
+    --y:#ffcc66;   /* gelb */
+    --g:#88cc88;   /* grün */
+    --side:150px;
+    --bar:26px;
+    --gap:6px;
+    --font:"Antonio","Oswald","Bebas Neue","Arial Narrow","Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+    --mono:"JetBrains Mono","Fira Code",Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--p);font-family:var(--font);font-stretch:condensed}
+  body{min-height:100vh;padding:14px}
+  button{font-family:var(--font);font-stretch:condensed;cursor:pointer;border:0}
+  button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+
+  /* ---------- Rahmen ---------- */
+  .frame{display:grid;grid-template-columns:var(--side) 1fr;grid-template-rows:auto 1fr auto;gap:0 var(--gap);max-width:1200px;margin:0 auto;min-height:calc(100vh - 28px)}
+  .elbow{position:relative;height:96px;background:var(--l)}
+  .elbow.tl{border-top-left-radius:70px 60px}
+  .elbow.bl{border-bottom-left-radius:70px 60px;background:var(--b);height:80px}
+  .elbow::after{content:"";position:absolute;right:calc(-1 * var(--gap));width:calc(100% - var(--side) + var(--gap) + 40px);background:var(--bg)}
+  .elbow.tl::after{bottom:0;height:calc(100% - var(--bar));border-top-left-radius:34px 30px;width:40px}
+  .elbow.bl::after{top:0;height:calc(100% - var(--bar));border-bottom-left-radius:34px 30px;width:40px}
+  .elbow .lbl{position:absolute;left:18px;bottom:10px;color:#000;font-size:15px;letter-spacing:1px}
+  .elbow.bl .lbl{bottom:auto;top:12px}
+  .bars{display:flex;gap:var(--gap);align-items:flex-start;min-width:0}
+  .bars.bottom{align-items:flex-end}
+  .seg{height:var(--bar);flex:0 0 auto;display:flex;align-items:center;justify-content:flex-end;padding:0 8px;color:#000;font-size:14px;letter-spacing:1px}
+  .seg.grow{flex:1 1 auto;min-width:60px}
+  .cap{height:var(--bar);width:34px;border-radius:0 13px 13px 0;flex:0 0 auto}
+  .title{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;color:var(--o);font-size:clamp(20px,3.2vw,34px);letter-spacing:2px;line-height:var(--bar);white-space:nowrap;padding:0 6px;text-transform:uppercase;margin-top:-4px}
+  .bars .sub{margin-left:auto}
+
+  /* ---------- Seitenleiste ---------- */
+  .side{display:flex;flex-direction:column;gap:var(--gap);padding:var(--gap) 0}
+  .blk{background:var(--o);color:#000;min-height:58px;padding:6px 10px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-end;text-align:right;text-transform:uppercase;letter-spacing:1px;font-size:13px;transition:background .3s}
+  .blk b{font-size:22px;font-weight:600;letter-spacing:0}
+  .blk.grow{flex:1 1 auto}
+  .blk.c1{background:var(--p)}.blk.c2{background:var(--l)}.blk.c3{background:var(--b)}.blk.c4{background:var(--t)}.blk.c5{background:var(--y)}.blk.c6{background:var(--r)}
+  .blk.btn{cursor:pointer}
+  .blk.btn:hover{filter:brightness(1.15)}
+  .blk.off{opacity:.35;cursor:default}
+  .shields{display:flex;gap:4px;margin-top:4px}
+  .shields i{display:block;width:22px;height:10px;border-radius:5px;background:#000}
+  .shields i.lost{background:transparent;border:2px solid #000}
+
+  /* ---------- Hauptbereich ---------- */
+  main{padding:18px 6px 18px 18px;min-width:0}
+  .screen{display:none;animation:fade .35s ease}
+  .screen.on{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h1,h2,h3{font-weight:500;text-transform:uppercase;letter-spacing:2px;margin:0 0 10px}
+  h1{color:var(--o);font-size:clamp(26px,4vw,44px)}
+  h2{color:var(--l);font-size:22px}
+  h3{color:var(--t);font-size:17px}
+  p{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;line-height:1.45;font-size:16px;color:var(--p);margin:0 0 12px}
+  .muted{color:#b9a58e}
+
+  .pill{border-radius:22px;padding:10px 22px;font-size:18px;letter-spacing:1px;text-transform:uppercase;color:#000;background:var(--o);transition:filter .15s,transform .1s}
+  .pill:hover{filter:brightness(1.15)}
+  .pill:active{transform:scale(.97)}
+  .pill.l{background:var(--l)}.pill.b{background:var(--b)}.pill.t{background:var(--t)}.pill.p{background:var(--p)}.pill.r{background:var(--r)}.pill.y{background:var(--y)}
+  .pill[disabled]{opacity:.35;cursor:default;filter:none}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+  .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:18px 0}
+  .mode{border:3px solid var(--l);border-radius:0 26px 26px 0;padding:14px 16px;cursor:pointer;background:transparent;text-align:left;color:var(--p);transition:background .2s}
+  .mode:hover,.mode.sel{background:#2a1a2a}
+  .mode.sel{border-color:var(--o)}
+  .mode h3{margin-bottom:6px}
+  .mode p{font-size:14px;margin:0}
+
+  .hud{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;color:var(--t);text-transform:uppercase;letter-spacing:1.5px;font-size:15px;margin-bottom:10px}
+  .hud .tag{background:var(--b);color:#000;border-radius:12px;padding:2px 12px}
+  .timer{height:12px;background:#222;border-radius:6px;overflow:hidden;margin:6px 0 16px}
+  .timer i{display:block;height:100%;width:100%;background:var(--o);border-radius:6px;transition:width .2s linear,background .3s}
+  .q{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:clamp(17px,2vw,21px);line-height:1.4;color:var(--p);margin:0 0 14px}
+
+  pre.code{background:#0d0d18;border-left:8px solid var(--b);border-radius:0 14px 14px 0;padding:10px 0;margin:0 0 16px;overflow-x:auto;font-family:var(--mono);font-size:14px;line-height:1.55;color:#e8e2ff}
+  pre.code .ln{display:block;padding:0 14px 0 0;white-space:pre}
+  pre.code .ln::before{content:attr(data-n);display:inline-block;width:2.6em;text-align:right;margin-right:12px;color:#6f6a9a}
+  pre.code.pick .ln{cursor:pointer}
+  pre.code.pick .ln:hover{background:#2a2450}
+  pre.code .ln.ok{background:#1d3a1d}
+  pre.code .ln.bad{background:#4a1d1d}
+
+  .opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:14px}
+  .opt{display:flex;align-items:stretch;text-align:left;background:transparent;padding:0;border-radius:22px;overflow:hidden;min-height:46px;color:#000}
+  .opt .k{flex:0 0 52px;background:var(--l);display:flex;align-items:center;justify-content:center;font-size:20px}
+  .opt .v{flex:1;background:var(--p);padding:10px 16px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15.5px;line-height:1.35;display:flex;align-items:center;border-radius:0 22px 22px 0;margin-left:4px}
+  .opt .v code{font-family:var(--mono);font-size:13.5px;background:rgba(0,0,0,.08);padding:1px 4px;border-radius:4px}
+  .opt:hover:not([disabled]) .v{background:#ffe0bf}
+  .opt[disabled]{cursor:default}
+  .opt.ok .v{background:var(--g)}.opt.ok .k{background:#4a9a4a}
+  .opt.bad .v{background:var(--r)}.opt.bad .k{background:#933}
+  .opt.gone{visibility:hidden}
+
+  .order{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+  .slots{display:flex;flex-direction:column;gap:6px;margin:6px 0 14px}
+  .slot{display:flex;gap:6px;align-items:stretch;min-height:38px}
+  .slot .n{flex:0 0 46px;background:var(--b);color:#000;border-radius:19px 0 0 19px;display:flex;align-items:center;justify-content:center;font-size:18px}
+  .slot .s{flex:1;border:2px dashed #554;border-radius:0 19px 19px 0;padding:7px 14px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15px;color:var(--p)}
+  .slot .s.f{border-style:solid;border-color:var(--b)}
+  .slot.ok .s{border-color:var(--g);background:#1d3a1d}
+  .slot.bad .s{border-color:var(--r);background:#4a1d1d}
+
+  .fb{border-left:10px solid var(--g);border-radius:0 18px 18px 0;background:#101810;padding:12px 16px;margin:6px 0 14px;display:none}
+  .fb.bad{border-color:var(--r);background:#1a0f0f}
+  .fb.on{display:block;animation:fade .3s}
+  .fb h3{margin-bottom:4px}
+  .fb.bad h3{color:var(--r)}
+  .fb:not(.bad) h3{color:var(--g)}
+  .fb p{margin:0;font-size:15px}
+
+  .score{font-size:clamp(54px,9vw,96px);color:var(--o);letter-spacing:3px;line-height:1}
+  .rank{display:inline-block;background:var(--l);color:#000;border-radius:20px;padding:6px 20px;font-size:22px;letter-spacing:2px;text-transform:uppercase;margin:10px 0 16px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:14px 0 20px}
+  .stat{background:#151520;border-left:6px solid var(--t);border-radius:0 14px 14px 0;padding:8px 12px;text-transform:uppercase;letter-spacing:1px;font-size:13px;color:var(--t)}
+  .stat b{display:block;font-size:26px;color:var(--p);font-weight:500}
+  .catbars{display:flex;flex-direction:column;gap:6px;margin-bottom:20px}
+  .cb{display:grid;grid-template-columns:150px 1fr 54px;gap:8px;align-items:center;text-transform:uppercase;font-size:14px;letter-spacing:1px}
+  .cb .tr{height:16px;background:#222;border-radius:8px;overflow:hidden}
+  .cb .tr i{display:block;height:100%;border-radius:8px}
+  .review{display:flex;flex-direction:column;gap:8px}
+  .rv{border-left:8px solid var(--g);background:#0f150f;border-radius:0 14px 14px 0;padding:8px 14px}
+  .rv.bad{border-color:var(--r);background:#170e0e}
+  .rv .h{color:var(--t);text-transform:uppercase;letter-spacing:1px;font-size:13px}
+  .rv p{font-size:14px;margin:4px 0 0}
+
+  .flash{position:fixed;inset:0;pointer-events:none;opacity:0;z-index:9}
+  .flash.hit{background:radial-gradient(circle,rgba(204,102,102,0) 40%,rgba(204,102,102,.55));animation:hit .5s}
+  .flash.good{background:radial-gradient(circle,rgba(136,204,136,0) 50%,rgba(136,204,136,.35));animation:hit .5s}
+  @keyframes hit{0%{opacity:1}100%{opacity:0}}
+  .shake{animation:shake .35s}
+  @keyframes shake{0%,100%{transform:none}20%{transform:translateX(-8px)}40%{transform:translateX(7px)}60%{transform:translateX(-5px)}80%{transform:translateX(3px)}}
+  .pop{position:fixed;font-size:34px;color:var(--y);pointer-events:none;z-index:10;animation:pop 1s forwards;letter-spacing:2px}
+  @keyframes pop{0%{opacity:0;transform:translateY(10px) scale(.8)}20%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-50px)}}
+  .blink{animation:blink 1s steps(2) infinite}
+  @keyframes blink{50%{opacity:.3}}
+
+  .kbd{display:inline-block;border:1px solid var(--l);border-radius:5px;padding:0 6px;font-size:13px;color:var(--l);margin:0 2px}
+
+  @media (max-width:720px){
+    :root{--side:84px;--bar:20px}
+    body{padding:6px}
+    .elbow{height:70px}.elbow.bl{height:56px}
+    .elbow .lbl{font-size:11px;left:10px}
+    .blk{font-size:10px;min-height:44px;padding:4px 6px}
+    .blk b{font-size:16px}
+    .seg{font-size:10px}
+    .hide-s{display:none}
+    .seg.grow{min-width:20px}
+    main{padding:12px 0 12px 10px}
+    .cb{grid-template-columns:96px 1fr 44px;font-size:11px}
+    .title{font-size:18px}
+  }
+</style>
+</head>
+<body>
+<div class="flash" id="flash"></div>
+
+<div class="frame" id="frame">
+  <!-- oben -->
+  <div class="elbow tl"><span class="lbl" id="sysno">07-4471</span></div>
+  <div class="bars">
+    <div class="seg grow" style="background:var(--l)"></div>
+    <div class="title"><span class="hide-s">Trainingskonsole · </span>JavaScript &amp; Events</div>
+    <div class="seg hide-s" style="background:var(--o);width:90px">EVT-2</div>
+    <div class="seg hide-s" style="background:var(--p);width:44px"></div>
+    <div class="cap" style="background:var(--b)"></div>
+  </div>
+
+  <!-- Mitte -->
+  <aside class="side">
+    <div class="blk c1"><span>Aufgabe</span><b id="sProg">--/--</b></div>
+    <div class="blk"><span>Punkte</span><b id="sScore">0</b></div>
+    <div class="blk c2"><span>Serie</span><b id="sStreak">0</b></div>
+    <div class="blk c6" id="sShieldBlk"><span>Schilde</span><div class="shields" id="sShields"></div></div>
+    <div class="blk c3 btn off" id="jFifty" title="Zwei falsche Antworten ausblenden"><span>Analyse</span><b id="jFiftyN">2</b></div>
+    <div class="blk c4 btn off" id="jTime" title="Zeit für diese Aufgabe anhalten"><span>Zeitstopp</span><b id="jTimeN">1</b></div>
+    <div class="blk c5 grow btn" id="sSound" title="Ton an/aus"><span>Ton</span><b id="sSoundV">An</b></div>
+  </aside>
+
+  <main>
+    <!-- Start -->
+    <section class="screen on" id="scrStart">
+      <h1>Missionsbriefing</h1>
+      <p>Diese Konsole prüft dein Wissen für die Klassenarbeit: <b>Webtechnologien</b>, <b>Events</b>, <b>EventListener</b>, <b>Grundprinzipien der Programmierung</b>, <b>Code lesen</b> und <b>Positionierung über JavaScript</b>.</p>
+      <p>Jede Mission besteht aus <b>12 Aufgaben</b> aus sechs Sektoren. Der Aufgabenpool ist groß – bei jedem neuen Start werden bevorzugt Aufgaben gezogen, die du noch nicht gesehen hast.</p>
+
+      <div class="modes">
+        <button class="mode sel" data-mode="training">
+          <h3>Training</h3>
+          <p>Keine Zeitbegrenzung, keine Schilde. Ideal zum Üben und Nachlesen der Erklärungen.</p>
+        </button>
+        <button class="mode" data-mode="einsatz">
+          <h3>Einsatz</h3>
+          <p>30 Sekunden pro Aufgabe, Zeitbonus, 3 Schilde. Bei jedem Fehler fällt ein Schild aus.</p>
+        </button>
+      </div>
+
+      <h3>Spielregeln</h3>
+      <p class="muted">Richtige Antwort: 100 Punkte. Serien-Multiplikator: ab 3 richtigen in Folge ×1,5, ab 5 ×2. Im Einsatz gibt es bis zu 50 Bonuspunkte für schnelle Antworten. Joker: <b>Analyse</b> blendet zwei falsche Antworten aus (2×), <b>Zeitstopp</b> hält die Zeit an (1×). Tastatur: <span class="kbd">1</span>–<span class="kbd">5</span> wählen, <span class="kbd">Enter</span> weiter.</p>
+      <p id="hsLine" class="muted"></p>
+      <div class="row" style="margin-top:16px">
+        <button class="pill" id="btnStart">Mission starten</button>
+      </div>
+    </section>
+
+    <!-- Frage -->
+    <section class="screen" id="scrQ">
+      <div class="hud">
+        <span class="tag" id="qCat">Sektor</span>
+        <span id="qType">Auswahl</span>
+        <span id="qMult" style="color:var(--y)"></span>
+      </div>
+      <div class="timer" id="timerWrap"><i id="timerBar"></i></div>
+      <div class="q" id="qText"></div>
+      <div id="qCode"></div>
+      <div id="qBody"></div>
+      <div class="fb" id="fb"><h3 id="fbH"></h3><p id="fbP"></p></div>
+      <div class="row">
+        <button class="pill b" id="btnConfirm" style="display:none">Bestätigen</button>
+        <button class="pill l" id="btnReset" style="display:none">Zurücksetzen</button>
+        <button class="pill" id="btnNext" style="display:none">Weiter</button>
+      </div>
+    </section>
+
+    <!-- Ende -->
+    <section class="screen" id="scrEnd">
+      <h2 id="endHead">Mission abgeschlossen</h2>
+      <div class="score" id="endScore">0</div>
+      <div class="rank" id="endRank">Rang</div>
+      <p id="endMsg"></p>
+      <div class="stats" id="endStats"></div>
+      <h3>Systemdiagnose nach Sektoren</h3>
+      <div class="catbars" id="endCats"></div>
+      <div class="row" style="margin-bottom:22px">
+        <button class="pill" id="btnAgain">Neue Mission</button>
+        <button class="pill l" id="btnMenu">Zum Briefing</button>
+      </div>
+      <h3>Logbuch der Mission</h3>
+      <div class="review" id="endReview"></div>
+    </section>
+  </main>
+
+  <!-- unten -->
+  <div class="elbow bl"><span class="lbl">JS-07</span></div>
+  <div class="bars bottom">
+    <div class="seg" style="background:var(--b);width:120px" id="poolInfo">POOL</div>
+    <div class="seg grow" style="background:var(--o)"></div>
+    <div class="seg hide-s" style="background:var(--l);width:70px">ON</div>
+    <div class="seg hide-s" style="background:var(--t);width:110px" id="clock">00:00:00</div>
+    <div class="cap" style="background:var(--p)"></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* =====================================================================
+   AUFGABENPOOL
+   c: Sektor · t: Typ (mc | tf | order | line) · q: Frage
+   code: Code (optional) · a: Antworten · k: Index der richtigen Antwort
+   order: a in RICHTIGER Reihenfolge · line: k = Array richtiger Zeilen
+   e: Erklärung
+   ===================================================================== */
+const P5 = ['Schleife', 'Verzweigung', 'Befehl', 'Variable', 'Funktion'];
+
+const POOL = [
+  // ---------------- WEBTECHNOLOGIEN ----------------
+  {c:'web', t:'mc', q:'Welche Webtechnologie legt den Inhalt und die Struktur einer Webseite fest?', a:['HTML','CSS','JavaScript','Python'], k:0,
+   e:'HTML (HyperText Markup Language) beschreibt, was auf der Seite steht: Überschriften, Absätze, Bilder, Buttons.'},
+  {c:'web', t:'mc', q:'Welche Webtechnologie bestimmt das Aussehen, also Farben, Schriftarten und Abstände?', a:['HTML','CSS','JavaScript','PHP'], k:1,
+   e:'CSS (Cascading Style Sheets) ist für das Design zuständig.'},
+  {c:'web', t:'mc', q:'Welche Webtechnologie sorgt für Verhalten und Interaktivität, z. B. eine Reaktion auf einen Klick?', a:['HTML','CSS','JavaScript','SQL'], k:2,
+   e:'JavaScript macht die Seite interaktiv: Es reagiert auf Events, rechnet und verändert die Seite.'},
+  {c:'web', t:'mc', q:'Zu welcher Webtechnologie gehört dieser Code?', code:'<button id="start">Start</button>', a:['HTML','CSS','JavaScript'], k:0,
+   e:'Spitze Klammern < > kennzeichnen HTML-Tags.'},
+  {c:'web', t:'mc', q:'Zu welcher Webtechnologie gehört dieser Code?', code:'h1 {\n    color: blue;\n}', a:['HTML','CSS','JavaScript'], k:1,
+   e:'Der Aufbau Selektor { Eigenschaft: Wert; } ist typisch für CSS.'},
+  {c:'web', t:'mc', q:'Zu welcher Webtechnologie gehört dieser Code?', code:"var punkte = 5;\nconsole.log(punkte);", a:['HTML','CSS','JavaScript'], k:2,
+   e:'Schlüsselwörter wie var, function, if, while und Befehle wie console.log gehören zu JavaScript.'},
+  {c:'web', t:'tf', q:'CSS allein kann auf einen Klick reagieren und dabei eine Funktion ausführen.', a:['Wahr','Falsch'], k:1,
+   e:'Funktionen gibt es nur in JavaScript. CSS legt das Aussehen fest, führt aber keine Funktionen aus.'},
+  {c:'web', t:'mc', q:'Wofür steht die Abkürzung HTML?', a:['HyperText Markup Language','High Tech Modern Language','Hyper Transfer Main Layout','Home Tool Markup Language'], k:0,
+   e:'HTML = HyperText Markup Language, eine Auszeichnungssprache für Inhalte.'},
+  {c:'web', t:'mc', q:'Wofür steht die Abkürzung CSS?', a:['Cascading Style Sheets','Computer Style System','Creative Screen Setup','Colored Site Sheets'], k:0,
+   e:'CSS = Cascading Style Sheets.'},
+  {c:'web', t:'mc', q:'Was passiert in dieser Zeile?', code:"document.body.style.backgroundColor = 'black';", a:['JavaScript ändert eine CSS-Eigenschaft eines HTML-Elements','CSS erzeugt ein neues HTML-Element','HTML lädt eine JavaScript-Datei','Der Browser löscht den Seiteninhalt'], k:0,
+   e:'Hier arbeiten alle drei Technologien zusammen: JavaScript verändert die CSS-Eigenschaft backgroundColor des HTML-Elements body.'},
+  {c:'web', t:'tf', q:'Eine ID (id="…") sollte auf einer Webseite nur ein einziges Mal vorkommen.', a:['Wahr','Falsch'], k:0,
+   e:'IDs müssen eindeutig sein, sonst weiß getElementById nicht, welches Element gemeint ist.'},
+  {c:'web', t:'mc', q:'Woran erkennt man HTML-Code am schnellsten?', a:['An Tags in spitzen Klammern < >','An geschweiften Klammern { }','Am Schlüsselwort var','An Semikolons am Zeilenende'], k:0,
+   e:'HTML besteht aus Tags wie <p>, <h1> oder <button>.'},
+  {c:'web', t:'mc', q:'Ein Vergleich mit einem Haus: Welche Technologie entspricht dem Strom, der das Licht beim Druck auf den Schalter einschaltet?', a:['JavaScript','HTML','CSS'], k:0,
+   e:'HTML = Gerüst, CSS = Farbe und Einrichtung, JavaScript = Strom bzw. Verhalten.'},
+
+  // ---------------- EVENTS ----------------
+  {c:'evt', t:'mc', q:'Was ist ein Event in JavaScript?', a:['Ein Ereignis im Browser, z. B. ein Klick, auf das ein Programm reagieren kann','Eine Variable, die Text speichert','Ein CSS-Befehl für Farben','Eine Liste von HTML-Elementen'], k:0,
+   e:'Ein Event ist ein Ereignis im Browser – meist durch Nutzerinteraktion ausgelöst – das Funktionen auslösen kann.'},
+  {c:'evt', t:'mc', q:'Welches Event wird bei einem Mausklick oder Antippen auf dem Touchscreen ausgelöst?', a:['click','pointerleave','DOMContentLoaded','keydown'], k:0,
+   e:'click funktioniert für Mausklicks und Touchscreen-Tipps.'},
+  {c:'evt', t:'mc', q:'Welches Event wird ausgelöst, wenn der Zeiger (Maus, Stift, Finger) auf ein Element kommt?', a:['pointerover','pointerleave','click','DOMContentLoaded'], k:0,
+   e:'pointerover: Der Zeiger kommt auf das Element.'},
+  {c:'evt', t:'mc', q:'Welches Event wird ausgelöst, wenn der Zeiger ein Element verlässt?', a:['pointerleave','pointerover','pointerdown','click'], k:0,
+   e:'pointerleave: Der Zeiger verlässt das Element.'},
+  {c:'evt', t:'mc', q:'Welches Event wird ausgelöst, wenn die HTML-Seite vollständig geladen ist?', a:['DOMContentLoaded','click','pointerover','pageready'], k:0,
+   e:'DOMContentLoaded meldet: Alle HTML-Elemente sind geladen und können angesprochen werden.'},
+  {c:'evt', t:'mc', q:'Welches Event wird ausgelöst, wenn ein Zeiger auf ein Element drückt?', a:['pointerdown','pointerup','pointerleave','DOMContentLoaded'], k:0,
+   e:'pointerdown: drücken; pointerup: loslassen.'},
+  {c:'evt', t:'tf', q:'Events werden meistens durch eine Interaktion des Nutzers ausgelöst.', a:['Wahr','Falsch'], k:0,
+   e:'Klicken, Tippen, Zeiger bewegen – meistens steckt der Nutzer dahinter. Es gibt aber auch Events wie DOMContentLoaded.'},
+  {c:'evt', t:'tf', q:'Das Event „click“ funktioniert nur mit der Maus, nicht auf Smartphones.', a:['Wahr','Falsch'], k:1,
+   e:'click erkennt auch Touchscreen-Tipps.'},
+  {c:'evt', t:'order', q:'Bringe das Event-Konzept in die richtige Reihenfolge.', a:['Ein EventListener wird an ein HTML-Element gehängt.','Der Nutzer klickt auf das Element – das Event tritt ein.','Der EventListener bemerkt das Event.','Die zugehörige Funktion wird ausgeführt.'],
+   e:'Zuerst wird der „Wachposten“ aufgestellt, dann passiert das Event, er bemerkt es und ruft die Funktion auf.'},
+  {c:'evt', t:'mc', q:'Was passiert, sobald ein Event ausgelöst wird, für das ein EventListener existiert?', a:['Der Code einer Funktion wird ausgeführt','Die Webseite wird neu geladen','Alle Variablen werden gelöscht','Das HTML-Element verschwindet'], k:0,
+   e:'Genau das ist die Basisantwort aus der Klassenarbeit: Sobald das Event ausgelöst wird, wird der Code einer Funktion ausgeführt.'},
+  {c:'evt', t:'tf', q:'Events sind in allen gängigen Browsern standardisiert.', a:['Wahr','Falsch'], k:0,
+   e:'Deshalb funktioniert z. B. click in jedem modernen Browser gleich.'},
+  {c:'evt', t:'mc', q:'Welcher Begriff ist KEIN Event?', a:['getElementById','click','pointerover','DOMContentLoaded'], k:0,
+   e:'getElementById ist ein Befehl, um ein HTML-Element über seine ID zu holen.'},
+  {c:'evt', t:'tf', q:'Ohne EventListener führt ein Klick auf einen Button keine eigene JavaScript-Funktion aus.', a:['Wahr','Falsch'], k:0,
+   e:'Erst der EventListener verknüpft das Event mit der Funktion.'},
+
+  // ---------------- EVENTLISTENER ----------------
+  {c:'lis', t:'mc', q:'Was ist ein EventListener?', a:['Ein „Zuhörer“, der auf ein Event wartet und dann eine Funktion ausführt','Ein Event, das beim Laden ausgelöst wird','Eine CSS-Regel für Buttons','Eine Schleife, die Klicks zählt'], k:0,
+   e:'Der EventListener wartet auf ein Event und verknüpft es mit einer Reaktion (Funktion).'},
+  {c:'lis', t:'mc', q:'An welches Element wird hier der EventListener gehängt?', code:"document.getElementById('knopf').addEventListener('click', zeigeNachricht);", a:["An das Element mit der ID „knopf“","An das ganze Dokument","An die Funktion zeigeNachricht","An alle Buttons der Seite"], k:0,
+   e:"getElementById('knopf') holt das HTML-Element mit der ID knopf."},
+  {c:'lis', t:'mc', q:'Auf welches Event wartet dieser EventListener?', code:"document.getElementById('bild1').addEventListener('pointerover', zoom1_in);", a:['pointerover','click','zoom1_in','bild1'], k:0,
+   e:'Die erste Angabe in addEventListener ist das Event.'},
+  {c:'lis', t:'mc', q:'Welche Funktion wird ausgeführt, wenn das Event eintritt?', code:"document.getElementById('btnDunkel').addEventListener('click', dunkelModus);", a:['dunkelModus','btnDunkel','click','addEventListener'], k:0,
+   e:'Die zweite Angabe in addEventListener ist die Funktion, die ausgeführt wird.'},
+  {c:'lis', t:'mc', q:'Warum stehen hinter dem Funktionsnamen im EventListener KEINE Klammern?', code:"knopf.addEventListener('click', zeigeNachricht);", a:['Die Funktion soll erst beim Event ausgeführt werden, nicht sofort','Klammern sind in JavaScript verboten','Weil die Funktion keinen Namen hat','Damit der Button unsichtbar wird'], k:0,
+   e:'Ohne Klammern wird die Funktion nur übergeben. Mit Klammern würde sie sofort beim Anhängen ausgeführt.'},
+  {c:'lis', t:'mc', q:'Was passiert bei diesem Code?', code:"document.getElementById('start').addEventListener('click', starte());", a:['starte wird sofort ausgeführt – nicht erst beim Klick','starte wird beim Klick zweimal ausgeführt','Der Code ist korrekt und funktioniert wie gewünscht','Der Button wird gelöscht'], k:0,
+   e:'Durch die Klammern () wird starte sofort aufgerufen. Richtig wäre: addEventListener(\'click\', starte);'},
+  {c:'lis', t:'mc', q:'Was passiert, sobald das Event ausgelöst wird? (erweitertes Niveau)', code:"document.getElementById('bild1').addEventListener('pointerover', zoom1_in);", a:['Sobald „pointerover“ auf dem Element mit der ID „bild1“ ausgelöst wird, wird der Code der Funktion „zoom1_in“ ausgeführt','Sobald „zoom1_in“ geklickt wird, wird „bild1“ ausgeführt','Sobald die Seite lädt, wird „pointerover“ gelöscht','Sobald „bild1“ verlassen wird, wird „zoom1_in“ ausgeführt'], k:0,
+   e:'Eine vollständige Antwort nennt Event, ID des Elements und Funktionsname.'},
+  {c:'lis', t:'mc', q:'Warum werden die EventListener erst in registerEvents nach „DOMContentLoaded“ angehängt?', code:"document.addEventListener('DOMContentLoaded', registerEvents);", a:['Die HTML-Elemente müssen erst geladen sein, sonst findet getElementById sie nicht','Damit die Seite schneller lädt','Weil DOMContentLoaded ein Klick ist','Damit CSS nicht mehr funktioniert'], k:0,
+   e:'Ein Element, das noch nicht geladen ist, kann nicht gefunden werden – der Listener würde ins Leere laufen.'},
+  {c:'lis', t:'mc', q:'Welche zwei Angaben bekommt addEventListener in unserem Unterricht?', a:['Das Event und die Funktion','Die ID und die Farbe','Die Variable und die Schleife','Den HTML-Tag und die CSS-Datei'], k:0,
+   e:"addEventListener('event', funktion) – zuerst das Event, dann die Funktion."},
+  {c:'lis', t:'mc', q:'Was liefert dieser Befehl?', code:"document.getElementById('menue')", a:['Das HTML-Element mit der ID „menue“','Alle Elemente mit der Klasse „menue“','Den Text „menue“','Eine neue Funktion namens menue'], k:0,
+   e:'getElementById sucht genau das eine Element mit dieser ID.'},
+  {c:'lis', t:'tf', q:'An ein HTML-Element können mehrere EventListener gehängt werden.', a:['Wahr','Falsch'], k:0,
+   e:'Im Projekt hat bild1 z. B. einen Listener für pointerover und einen für pointerleave.'},
+  {c:'lis', t:'mc', q:'Im HTML steht id="menue", im JavaScript getElementById(\'menu\'). Was passiert?', a:['Das Element wird nicht gefunden, der Code funktioniert nicht','JavaScript korrigiert den Tippfehler automatisch','Es funktioniert, weil die Namen ähnlich sind','Es wird ein neues Menü erstellt'], k:0,
+   e:'JavaScript vergleicht IDs exakt – schon ein fehlender Buchstabe führt zum Fehler.'},
+  {c:'lis', t:'mc', q:'Welches Wort fehlt in der Lücke?', code:"document.getElementById('btn').________('click', starte);", a:['addEventListener','getElementById','eventStart','onClick'], k:0,
+   e:'Mit addEventListener wird ein EventListener angehängt.'},
+  {c:'lis', t:'mc', q:'Welche Zeile hängt KORREKT einen Klick-Listener an den Button „btnHell“?', a:["document.getElementById('btnHell').addEventListener('click', hellModus);","document.getElementById('btnHell').addEventListener(hellModus, 'click');","document.getElementById('click').addEventListener('btnHell', hellModus);","addEventListener('btnHell', 'click', hellModus());"], k:0,
+   e:'Element holen → addEventListener → erst Event, dann Funktionsname ohne Klammern.'},
+  {c:'lis', t:'line', q:'Klicke auf die Zeile, die dafür sorgt, dass die EventListener erst nach dem Laden der Seite angehängt werden.',
+   code:"'use strict';\ndocument.addEventListener('DOMContentLoaded', registerEvents);\nfunction registerEvents() {\n    document.getElementById('btnDunkel').addEventListener('click', dunkelModus);\n    document.getElementById('titelbild').addEventListener('pointerover', bildGross);\n}\nfunction dunkelModus() {\n    document.body.style.backgroundColor = 'black';\n}", k:[1],
+   e:'Zeile 2: Erst wenn DOMContentLoaded eintritt, wird registerEvents ausgeführt.'},
+  {c:'lis', t:'line', q:'Klicke auf die Zeile, die darauf reagiert, dass der Zeiger auf das Titelbild kommt.',
+   code:"'use strict';\ndocument.addEventListener('DOMContentLoaded', registerEvents);\nfunction registerEvents() {\n    document.getElementById('btnDunkel').addEventListener('click', dunkelModus);\n    document.getElementById('titelbild').addEventListener('pointerover', bildGross);\n}\nfunction bildGross() {\n    document.getElementById('titelbild').style.width = '600px';\n}", k:[4],
+   e:'Zeile 5: Listener für pointerover am Element titelbild.'},
+  {c:'lis', t:'order', q:'Was passiert in welcher Reihenfolge, wenn die Seite des Schülerzeitungsprojekts geöffnet und dann benutzt wird?', a:['Der Browser lädt das HTML der Seite.','Das Event „DOMContentLoaded“ wird ausgelöst.','registerEvents hängt die EventListener an die Elemente.','Der Nutzer klickt auf den Button „Dunkelmodus“.','Die Funktion dunkelModus wird ausgeführt.'],
+   e:'Erst laden, dann registrieren, dann reagieren.'},
+
+  // ---------------- PRINZIPIEN ----------------
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:'var level = 1;', a:P5, k:3,
+   e:'Mit var wird eine Variable deklariert, die einen Wert speichert.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:'var punkte = 0;\npunkte = punkte + 10;', a:P5, k:3,
+   e:'Die Variable punkte wird deklariert und ihr Wert verändert.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"var vorname = 'Lena';\nvar nachname = 'Schulz';\nvar vollerName = vorname + ' ' + nachname;", a:P5, k:3,
+   e:'Werte werden in Variablen gespeichert und zu einer neuen Variable verbunden.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"if (anzahlSpieler > 4) {\n    alert('Höchstens 4 Personen!');\n}", a:P5, k:1,
+   e:'if prüft eine Bedingung – der Code läuft nur, wenn sie wahr ist.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"if (temperatur > 25) {\n    console.log('Es ist heiß.');\n} else {\n    console.log('Es ist angenehm.');\n}", a:P5, k:1,
+   e:'if-else: Je nach Bedingung wird der eine oder der andere Teil ausgeführt.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"if (note === 1) {\n    console.log('sehr gut');\n} else if (note === 2) {\n    console.log('gut');\n} else {\n    console.log('anderes');\n}", a:P5, k:1,
+   e:'Eine else-if-Kette ist eine Verzweigung mit mehreren Fällen.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"var countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}", a:P5, k:0,
+   e:'while wiederholt den Code, solange die Bedingung wahr ist.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"var karte = 1;\nwhile (karte <= 16) {\n    console.log('Karte ' + karte + ' wird gemischt');\n    karte = karte + 1;\n}", a:P5, k:0,
+   e:'Kopfgesteuerte while-Schleife: 16 Wiederholungen.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"var farben = ['rot', 'grün', 'blau'];\nvar index = 0;\nwhile (index < farben.length) {\n    console.log(farben[index]);\n    index++;\n}", a:P5, k:0,
+   e:'Die while-Schleife geht nacheinander alle Einträge der Liste durch.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"console.log('Willkommen beim Training!');", a:P5, k:2,
+   e:'Eine einzelne Anweisung, die etwas tut – hier eine Ausgabe.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"alert('Das Spiel startet!');", a:P5, k:2,
+   e:'alert ist ein einzelner Befehl, der ein Hinweisfenster öffnet.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"document.getElementById('menue').style.backgroundColor = 'yellow';", a:P5, k:2,
+   e:'Ein einzelner Befehl, der eine Eigenschaft eines Elements ändert.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"function begruesse(name) {\n    console.log('Hallo ' + name + '!');\n}", a:P5, k:4,
+   e:'function bündelt Code unter einem Namen, damit man ihn aufrufen kann.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"function quadrat(zahl) {\n    return zahl * zahl;\n}", a:P5, k:4,
+   e:'Eine Funktion mit Parameter und Rückgabewert (return).'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"var verdopple = function (x) {\n    return x * 2;\n};", a:P5, k:4,
+   e:'Eine Funktion, die in einer Variable gespeichert wird – das Hauptprinzip ist die Funktion.'},
+  {c:'pri', t:'mc', q:'Welches Grundprinzip der Programmierung zeigt dieser Code?', code:"function neues_spiel() {\n    document.getElementById('spielfeld').style.display = 'block';\n}", a:P5, k:4,
+   e:'Der Befehl steckt in einer Funktion. Der ganze Ausschnitt ist eine Funktion.'},
+  {c:'pri', t:'mc', q:'Welches Prinzip wiederholt Code, solange eine Bedingung wahr ist?', a:P5, k:0,
+   e:'Das ist die Schleife.'},
+  {c:'pri', t:'mc', q:'Welches Prinzip trifft eine Entscheidung und führt je nach Bedingung unterschiedlichen Code aus?', a:P5, k:1,
+   e:'Das ist die Verzweigung (if, if-else, else-if).'},
+  {c:'pri', t:'mc', q:'Welches Prinzip speichert einen Wert unter einem Namen?', a:P5, k:3,
+   e:'Das ist die Variable.'},
+  {c:'pri', t:'mc', q:'Welches Prinzip fasst Code unter einem Namen zusammen, sodass man ihn später aufrufen kann?', a:P5, k:4,
+   e:'Das ist die Funktion.'},
+  {c:'pri', t:'tf', q:'Eine while-Schleife prüft ihre Bedingung VOR jedem Durchlauf (kopfgesteuert).', a:['Wahr','Falsch'], k:0,
+   e:'Deshalb kann eine while-Schleife auch null Mal durchlaufen werden.'},
+
+  // ---------------- CODE LESEN ----------------
+  {c:'cod', t:'line', q:'Klicke auf den Funktionskopf.', code:"function begruesse(name) {\n    var nachricht = 'Hallo ' + name + '!';\n    console.log(nachricht);\n}\nbegruesse('Mia');", k:[0],
+   e:'Der Funktionskopf besteht aus function, Funktionsname und Parametern: Zeile 1.'},
+  {c:'cod', t:'line', q:'Klicke auf die Zeile, in der die Funktion aufgerufen wird.', code:"function begruesse(name) {\n    var nachricht = 'Hallo ' + name + '!';\n    console.log(nachricht);\n}\nbegruesse('Mia');", k:[4],
+   e:'Zeile 5: begruesse(\'Mia\') ruft die Funktion mit dem Argument \'Mia\' auf.'},
+  {c:'cod', t:'line', q:'Klicke auf eine Zeile, die zum Funktionskörper gehört.', code:"function flaeche(breite, hoehe) {\n    var ergebnis = breite * hoehe;\n    return ergebnis;\n}\nconsole.log(flaeche(4, 3));", k:[1,2],
+   e:'Der Funktionskörper ist alles zwischen { und }: Zeilen 2 und 3.'},
+  {c:'cod', t:'line', q:'Klicke auf die Zeile mit der Bedingung der Verzweigung.', code:"var schriftgroesse = 16;\nfunction vergroessern(schritt) {\n    if (schriftgroesse < 30) {\n        schriftgroesse = schriftgroesse + schritt;\n    } else {\n        alert('Größer geht es nicht!');\n    }\n    document.body.style.fontSize = schriftgroesse + 'px';\n}", k:[2],
+   e:'Zeile 3: if (schriftgroesse < 30) prüft die Bedingung.'},
+  {c:'cod', t:'line', q:'Klicke auf die Zeile, die eine Endlosschleife verhindert.', code:"var karte = 1;\nwhile (karte <= 16) {\n    console.log('Karte ' + karte);\n    karte = karte + 1;\n}", k:[3],
+   e:'Zeile 4 erhöht karte. Ohne sie bliebe die Bedingung immer wahr.'},
+  {c:'cod', t:'line', q:'Klicke auf die Zeile mit der Schleifenbedingung.', code:"var zaehler = 1;\nwhile (zaehler <= 3) {\n    console.log('Artikel ' + zaehler + ' geladen');\n    zaehler++;\n}", k:[1],
+   e:'Zeile 2: while (zaehler <= 3) – die Bedingung steht im Kopf der Schleife.'},
+  {c:'cod', t:'mc', q:'Wie heißt der Parameter dieser Funktion?', code:"function vergroessern(schritt) {\n    schriftgroesse = schriftgroesse + schritt;\n}", a:['schritt','vergroessern','function','schriftgroesse'], k:0,
+   e:'Der Parameter steht in den runden Klammern im Funktionskopf.'},
+  {c:'cod', t:'mc', q:'Wie heißen die Parameter dieser Funktion?', code:"function flaeche(breite, hoehe) {\n    return breite * hoehe;\n}", a:['breite und hoehe','flaeche','return','flaeche und breite'], k:0,
+   e:'Eine Funktion kann mehrere Parameter haben, getrennt durch Komma.'},
+  {c:'cod', t:'mc', q:'Was ist hier das Argument?', code:"begruesse('Mia');", a:["'Mia'",'begruesse','name','()'], k:0,
+   e:'Das Argument ist der konkrete Wert, der beim Aufruf übergeben wird.'},
+  {c:'cod', t:'mc', q:'Was gibt dieses Programm aus?', code:"var zahl = 1;\nwhile (zahl <= 3) {\n    console.log(zahl);\n    zahl++;\n}", a:['1 2 3','0 1 2','1 2 3 4','1'], k:0,
+   e:'zahl startet bei 1 und läuft bis einschließlich 3.'},
+  {c:'cod', t:'mc', q:'Was gibt dieses Programm aus?', code:"var countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}\nconsole.log('Los!');", a:['3 2 1 Los!','3 2 1 0 Los!','Los! 3 2 1','1 2 3 Los!'], k:0,
+   e:'Bei countdown = 0 ist 0 > 0 falsch, die Schleife endet, danach folgt „Los!“.'},
+  {c:'cod', t:'mc', q:'Was gibt dieses Programm aus?', code:"var zahl = 1;\nwhile (zahl <= 4) {\n    if (zahl === 3) {\n        console.log('Drei!');\n    } else {\n        console.log(zahl);\n    }\n    zahl++;\n}", a:['1 2 Drei! 4','1 2 3 4','Drei! Drei! Drei! Drei!','1 2 Drei!'], k:0,
+   e:'Nur wenn zahl genau 3 ist, wird „Drei!“ ausgegeben.'},
+  {c:'cod', t:'mc', q:'Welchen Wert hat schriftgroesse nach dem Aufruf vergroessern(2)?', code:"var schriftgroesse = 16;\nfunction vergroessern(schritt) {\n    if (schriftgroesse < 30) {\n        schriftgroesse = schriftgroesse + schritt;\n    } else {\n        alert('Größer geht es nicht!');\n    }\n}\nvergroessern(2);", a:['18','16','2','30'], k:0,
+   e:'16 < 30 ist wahr, also 16 + 2 = 18.'},
+  {c:'cod', t:'mc', q:'Was passiert beim Aufruf vergroessern(2)?', code:"var schriftgroesse = 30;\nfunction vergroessern(schritt) {\n    if (schriftgroesse < 30) {\n        schriftgroesse = schriftgroesse + schritt;\n    } else {\n        alert('Größer geht es nicht!');\n    }\n}\nvergroessern(2);", a:['Es erscheint „Größer geht es nicht!“, der Wert bleibt 30','Der Wert wird 32','Der Wert wird 28','Es passiert gar nichts'], k:0,
+   e:'30 < 30 ist falsch, also wird der else-Teil ausgeführt.'},
+  {c:'cod', t:'mc', q:'Was passiert, wenn man in dieser Schleife die Zeile „zaehler++;“ löscht?', code:"var zaehler = 1;\nwhile (zaehler <= 3) {\n    console.log(zaehler);\n    zaehler++;\n}", a:['Es entsteht eine Endlosschleife','Die Schleife läuft genau einmal','Die Schleife läuft gar nicht','Es wird 1 2 3 ausgegeben'], k:0,
+   e:'zaehler bliebe immer 1, die Bedingung immer wahr.'},
+  {c:'cod', t:'mc', q:'Was bedeutet „zahl++“?', a:['zahl = zahl + 1','zahl = zahl + zahl','zahl = 2','zahl wird gelöscht'], k:0,
+   e:'++ erhöht den Wert einer Variable um 1.'},
+  {c:'cod', t:'mc', q:'Was ist der Unterschied zwischen = und === ?', a:['= weist einen Wert zu, === vergleicht zwei Werte','= vergleicht, === weist zu','Es gibt keinen Unterschied','=== ist nur in CSS erlaubt'], k:0,
+   e:'var a = 5; (Zuweisung) – if (a === 5) (Vergleich).'},
+  {c:'cod', t:'mc', q:'Was gibt dieses Programm aus?', code:"var a = 5;\nvar b = 8;\nvar tausch = a;\na = b;\nb = tausch;\nconsole.log(a, b);", a:['8 5','5 8','8 8','5 5'], k:0,
+   e:'Mit der Hilfsvariable tausch werden die Werte von a und b vertauscht.'},
+  {c:'cod', t:'mc', q:'Welchen Wert gibt das Programm aus?', code:"var summe = 0;\nvar i = 1;\nwhile (summe < 10) {\n    summe = summe + i;\n    i++;\n}\nconsole.log(summe);", a:['10','9','15','6'], k:0,
+   e:'0+1=1, +2=3, +3=6, +4=10 → 10 < 10 ist falsch, Ende.'},
+  {c:'cod', t:'mc', q:'Wie oft wird der Schleifenkörper ausgeführt?', code:"var i = 0;\nwhile (i < 5) {\n    i = i + 2;\n}", a:['3-mal','5-mal','2-mal','unendlich oft'], k:0,
+   e:'i = 0 → 2 → 4 → 6. Bei 6 ist 6 < 5 falsch. Also drei Durchläufe.'},
+  {c:'cod', t:'mc', q:'Was gibt dieses Programm aus?', code:"var alter = 15;\nif (alter >= 18) {\n    console.log('volljährig');\n} else {\n    console.log('minderjährig');\n}", a:['minderjährig','volljährig','volljährig minderjährig','nichts'], k:0,
+   e:'15 >= 18 ist falsch, also läuft der else-Teil.'},
+  {c:'cod', t:'tf', q:'Eine Funktion wird automatisch ausgeführt, sobald sie deklariert wird.', a:['Wahr','Falsch'], k:1,
+   e:'Eine Funktion läuft erst, wenn sie aufgerufen wird – oder wenn ein EventListener sie auslöst.'},
+  {c:'cod', t:'order', q:'Bringe den Ablauf einer while-Schleife in die richtige Reihenfolge.', a:['Die Variable bekommt einen Startwert.','Die Bedingung wird geprüft.','Der Schleifenkörper wird ausgeführt.','Die Variable wird verändert.','Die Bedingung wird erneut geprüft.'],
+   e:'Kopfgesteuert: Erst prüfen, dann ausführen, dann verändern, dann wieder prüfen.'},
+
+  // ---------------- POSITIONIERUNG ----------------
+  {c:'pos', t:'mc', q:'Welche Werte verschieben ein Element nach OBEN RECHTS?', a:["left 'auto', right '0', top '0', bottom 'auto'","left '0', right 'auto', top '0', bottom 'auto'","left 'auto', right '0', top 'auto', bottom '0'","left '0', right 'auto', top 'auto', bottom '0'"], k:0,
+   e:'Oben rechts: right und top auf 0, left und bottom auf auto.'},
+  {c:'pos', t:'mc', q:'Welche Werte verschieben ein Element nach UNTEN LINKS?', a:["left '0', right 'auto', top 'auto', bottom '0'","left 'auto', right '0', top '0', bottom 'auto'","left '0', right 'auto', top '0', bottom 'auto'","left 'auto', right '0', top 'auto', bottom '0'"], k:0,
+   e:'Unten links: left und bottom auf 0, right und top auf auto.'},
+  {c:'pos', t:'mc', q:'Wohin verschiebt diese Funktion das Element?', code:"function verschiebe() {\n    var m = document.getElementById('menue');\n    m.style.position = 'fixed';\n    m.style.left = 'auto';\n    m.style.right = '0';\n    m.style.top = 'auto';\n    m.style.bottom = '0';\n}", a:['Unten rechts','Oben links','Oben rechts','Unten links'], k:0,
+   e:'right 0 und bottom 0 → die untere rechte Ecke.'},
+  {c:'pos', t:'mc', q:'Wohin verschiebt diese Funktion das Element?', code:"function top_left() {\n    var m = document.getElementById('beispiel');\n    m.style.position = 'fixed';\n    m.style.left = '0';\n    m.style.right = 'auto';\n    m.style.top = '0';\n    m.style.bottom = 'auto';\n}", a:['Oben links','Oben rechts','Unten links','In die Mitte'], k:0,
+   e:'left 0 und top 0 → die obere linke Ecke.'},
+  {c:'pos', t:'mc', q:"Was bewirkt style.position = 'fixed'?", a:['Das Element bleibt an einer festen Stelle im Browserfenster','Das Element wird gelöscht','Das Element bekommt eine feste Farbe','Das Element wird unsichtbar'], k:0,
+   e:'Mit fixed lässt sich ein Element über top, left, right und bottom am Fensterrand ausrichten.'},
+  {c:'pos', t:'mc', q:'Warum funktioniert diese Zeile NICHT?', code:"document.getElementById('menue').style.left = auto;", a:['auto steht nicht in Anführungszeichen und wird als Variable gesucht','left gibt es in CSS nicht','getElementById ist falsch geschrieben','Man darf style nicht verändern'], k:0,
+   e:"Richtig ist style.left = 'auto'; – Text muss in Anführungszeichen stehen."},
+  {c:'pos', t:'mc', q:'Mit welcher Eigenschaft ändert JavaScript die Hintergrundfarbe eines Elements?', a:['style.backgroundColor','style.color','style.background-color','style.fontSize'], k:0,
+   e:'In JavaScript werden CSS-Namen ohne Bindestrich in „camelCase“ geschrieben: backgroundColor.'},
+  {c:'pos', t:'mc', q:'Welche Zeile macht das Titelbild 600 Pixel breit?', a:["document.getElementById('titelbild').style.width = '600px';","document.getElementById('titelbild').width = 600;","titelbild.style = 600px;","style.width('titelbild', 600);"], k:0,
+   e:'Element holen → style → Eigenschaft width → Wert mit Einheit als Text.'},
+  {c:'pos', t:'tf', q:'Ein Button, der das Menü verschiebt, braucht eine eindeutige ID, damit JavaScript ihn finden kann.', a:['Wahr','Falsch'], k:0,
+   e:'Über die ID holt getElementById genau diesen Button.'},
+];
+
+/* =====================================================================
+   HILFSFUNKTIONEN
+   ===================================================================== */
+const CATS = {web:'Webtechnologien', evt:'Events', lis:'EventListener', pri:'Prinzipien', cod:'Code lesen', pos:'Positionierung'};
+const CATCOL = {web:'var(--p)', evt:'var(--o)', lis:'var(--l)', pri:'var(--b)', cod:'var(--t)', pos:'var(--y)'};
+const TYPES = {mc:'Auswahl', tf:'Wahr oder falsch', order:'Reihenfolge', line:'Zeile finden'};
+const ROUND = 12, PER_CAT = 2, SHIELDS = 3;
+const $ = id => document.getElementById(id);
+POOL.forEach((q, i) => q.id = i);
+
+function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+function store(k, v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k, JSON.stringify(v)); }catch(e){ return null; } }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function fmtAnswer(s){ // Code-artige Antworten hervorheben
+  const t = esc(s);
+  return /[();=]|getElement|style\.|^'|^\w+\(/.test(s) && s.length < 90 && !/ (wird|ist|der|die|das) /.test(s) ? '<code>'+t+'</code>' : t;
+}
+
+/* ---------- Ton ---------- */
+let actx = null, soundOn = store('js07_sound') !== false;
+function beep(seq){
+  if(!soundOn) return;
+  try{
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    let t = actx.currentTime;
+    seq.forEach(([f, d, type]) => {
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = type || 'sine'; o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.12, t+0.01); g.gain.exponentialRampToValueAtTime(0.0001, t+d);
+      o.connect(g); g.connect(actx.destination); o.start(t); o.stop(t+d+0.02); t += d*0.85;
+    });
+  }catch(e){}
+}
+const SND = {
+  tap:  () => beep([[1320,.06],[990,.06]]),
+  ok:   () => beep([[880,.09],[1175,.09],[1568,.16]]),
+  bad:  () => beep([[220,.22,'square'],[165,.3,'square']]),
+  tick: () => beep([[1760,.03]]),
+  end:  () => beep([[660,.12],[880,.12],[1100,.12],[1320,.3]]),
+  joker:() => beep([[600,.06],[900,.06],[1200,.06],[1500,.1]])
+};
+
+/* =====================================================================
+   SPIELZUSTAND
+   ===================================================================== */
+let mode = 'training';
+let G = null;
+
+function pickRound(){
+  const seen = store('js07_seen') || [];
+  const chosen = [];
+  Object.keys(CATS).forEach(cat => {
+    const list = shuffle(POOL.filter(q => q.c === cat));
+    list.sort((a,b) => (seen.includes(a.id)?1:0) - (seen.includes(b.id)?1:0)); // Ungesehene zuerst
+    chosen.push(...list.slice(0, PER_CAT));
+  });
+  const newSeen = seen.filter(id => !chosen.some(q => q.id === id)).concat(chosen.map(q => q.id));
+  store('js07_seen', newSeen.slice(-48));
+  return shuffle(chosen);
+}
+
+function startGame(){
+  SND.tap();
+  G = { qs: pickRound(), i: 0, score: 0, streak: 0, best: 0, shields: SHIELDS, fifty: 2, tstop: 1,
+        log: [], answered: false, timer: null, tLeft: 0, tMax: 0, paused: false, orderSel: [] };
+  show('scrQ');
+  renderSide();
+  renderQ();
+}
+
+function show(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.toggle('on', s.id === id));
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function mult(){ return G.streak >= 5 ? 2 : G.streak >= 3 ? 1.5 : 1; }
+
+function renderSide(){
+  const inGame = !!G && $('scrQ').classList.contains('on');
+  $('sProg').textContent = G ? String(Math.min(G.i+1, G.qs.length)).padStart(2,'0') + '/' + G.qs.length : '--/--';
+  $('sScore').textContent = G ? G.score : 0;
+  $('sStreak').textContent = G ? G.streak : 0;
+  const sh = $('sShields'); sh.innerHTML = '';
+  const einsatz = mode === 'einsatz';
+  $('sShieldBlk').style.opacity = einsatz ? 1 : .35;
+  for(let i=0;i<SHIELDS;i++){ const s = document.createElement('i'); if(G && einsatz && i >= G.shields) s.className='lost'; sh.appendChild(s); }
+  const q = G && G.qs[G.i];
+  const fiftyOk = inGame && !G.answered && G.fifty > 0 && q && (q.t === 'mc') && q.a.length >= 4;
+  const timeOk = inGame && !G.answered && G.tstop > 0 && einsatz && !G.paused;
+  $('jFifty').classList.toggle('off', !fiftyOk); $('jFiftyN').textContent = G ? G.fifty : 2;
+  $('jTime').classList.toggle('off', !timeOk);  $('jTimeN').textContent = G ? G.tstop : 1;
+  $('sSoundV').textContent = soundOn ? 'An' : 'Aus';
+}
+
+/* ---------- Frage anzeigen ---------- */
+function renderQ(){
+  const q = G.qs[G.i];
+  G.answered = false; G.paused = false; G.orderSel = [];
+  $('qCat').textContent = 'Sektor · ' + CATS[q.c];
+  $('qCat').style.background = CATCOL[q.c];
+  $('qType').textContent = TYPES[q.t];
+  $('qMult').textContent = mult() > 1 ? 'Serie ×' + String(mult()).replace('.',',') : '';
+  $('qText').textContent = q.q;
+  $('fb').className = 'fb';
+  $('btnNext').style.display = 'none';
+  $('btnConfirm').style.display = 'none';
+  $('btnReset').style.display = 'none';
+
+  // Code
+  const codeBox = $('qCode'); codeBox.innerHTML = '';
+  if(q.code){
+    const pre = document.createElement('pre'); pre.className = 'code' + (q.t === 'line' ? ' pick' : '');
+    q.code.split('\n').forEach((ln, idx) => {
+      const s = document.createElement('span'); s.className = 'ln'; s.dataset.n = idx+1; s.textContent = ln || ' ';
+      if(q.t === 'line') s.addEventListener('click', () => answerLine(idx, s));
+      pre.appendChild(s);
+    });
+    codeBox.appendChild(pre);
+  }
+
+  // Antworten
+  const body = $('qBody'); body.innerHTML = '';
+  if(q.t === 'mc' || q.t === 'tf'){
+    const order = shuffleIdx(q);
+    G.cur = order;
+    const wrap = document.createElement('div'); wrap.className = 'opts';
+    order.forEach((ai, n) => {
+      const b = document.createElement('button'); b.className = 'opt'; b.dataset.ai = ai;
+      b.innerHTML = '<span class="k">' + (n+1) + '</span><span class="v">' + fmtAnswer(q.a[ai]) + '</span>';
+      b.addEventListener('click', () => answerMC(ai, b));
+      wrap.appendChild(b);
+    });
+    body.appendChild(wrap);
+  } else if(q.t === 'order'){
+    const slots = document.createElement('div'); slots.className = 'slots'; slots.id = 'slots';
+    q.a.forEach((_, n) => { slots.insertAdjacentHTML('beforeend', '<div class="slot"><span class="n">' + (n+1) + '</span><span class="s"></span></div>'); });
+    const wrap = document.createElement('div'); wrap.className = 'opts'; wrap.id = 'orderOpts';
+    shuffleOrder(q.a.length).forEach(ai => {
+      const b = document.createElement('button'); b.className = 'opt'; b.dataset.ai = ai;
+      b.innerHTML = '<span class="k">+</span><span class="v">' + esc(q.a[ai]) + '</span>';
+      b.addEventListener('click', () => pickOrder(ai, b));
+      wrap.appendChild(b);
+    });
+    body.appendChild(slots); body.appendChild(wrap);
+    $('btnReset').style.display = '';
+    $('btnConfirm').style.display = '';
+    $('btnConfirm').disabled = true;
+  }
+
+  // Timer
+  clearInterval(G.timer);
+  const tw = $('timerWrap');
+  if(mode === 'einsatz'){
+    tw.style.display = '';
+    G.tMax = (q.t === 'order' || q.t === 'line' || (q.code && q.code.split('\n').length > 5)) ? 45 : 30;
+    G.tLeft = G.tMax;
+    updTimer();
+    G.timer = setInterval(() => {
+      if(G.paused || G.answered) return;
+      G.tLeft = Math.max(0, G.tLeft - 0.2);
+      updTimer();
+      if(G.tLeft <= 5 && Math.abs(G.tLeft - Math.round(G.tLeft)) < 0.1) SND.tick();
+      if(G.tLeft <= 0) timeout();
+    }, 200);
+  } else tw.style.display = 'none';
+  renderSide();
+}
+function shuffleIdx(q){ return q.t === 'tf' ? [0,1] : shuffle(q.a.map((_,i)=>i)); }
+function shuffleOrder(n){ let o; do{ o = shuffle([...Array(n).keys()]); }while(o.every((v,i)=>v===i)); return o; }
+
+function updTimer(){
+  const bar = $('timerBar'), pct = G.tLeft / G.tMax * 100;
+  bar.style.width = pct + '%';
+  bar.style.background = G.paused ? 'var(--t)' : pct < 20 ? 'var(--r)' : pct < 50 ? 'var(--y)' : 'var(--o)';
+  bar.classList.toggle('blink', G.paused);
+}
+
+/* ---------- Antworten ---------- */
+function answerMC(ai, btn){
+  if(G.answered) return;
+  const q = G.qs[G.i], ok = ai === q.k;
+  document.querySelectorAll('#qBody .opt').forEach(b => {
+    b.disabled = true;
+    if(+b.dataset.ai === q.k) b.classList.add('ok');
+  });
+  if(!ok) btn.classList.add('bad');
+  finish(ok, q.a[ai]);
+}
+
+function answerLine(idx, el){
+  if(G.answered) return;
+  const q = G.qs[G.i], ok = q.k.includes(idx);
+  const lines = document.querySelectorAll('#qCode .ln');
+  q.k.forEach(k => lines[k].classList.add('ok'));
+  if(!ok) el.classList.add('bad');
+  document.querySelector('#qCode pre').classList.remove('pick');
+  finish(ok, 'Zeile ' + (idx+1));
+}
+
+function pickOrder(ai, btn){
+  if(G.answered) return;
+  SND.tap();
+  G.orderSel.push(ai);
+  btn.classList.add('gone');
+  const slots = document.querySelectorAll('#slots .slot .s');
+  slots[G.orderSel.length-1].textContent = G.qs[G.i].a[ai];
+  slots[G.orderSel.length-1].classList.add('f');
+  $('btnConfirm').disabled = G.orderSel.length !== G.qs[G.i].a.length;
+}
+function resetOrder(){
+  if(G.answered) return;
+  G.orderSel = [];
+  document.querySelectorAll('#slots .s').forEach(s => { s.textContent=''; s.classList.remove('f'); });
+  document.querySelectorAll('#orderOpts .opt').forEach(b => b.classList.remove('gone'));
+  $('btnConfirm').disabled = true;
+}
+function confirmOrder(){
+  if(G.answered || G.orderSel.length !== G.qs[G.i].a.length) return;
+  const q = G.qs[G.i];
+  const slots = document.querySelectorAll('#slots .slot');
+  let ok = true;
+  G.orderSel.forEach((ai, pos) => { const r = ai === pos; ok = ok && r; slots[pos].classList.add(r ? 'ok' : 'bad'); });
+  $('btnReset').style.display = 'none'; $('btnConfirm').style.display = 'none';
+  finish(ok, ok ? 'richtige Reihenfolge' : 'falsche Reihenfolge',
+    ok ? '' : 'Richtig: ' + q.a.map((t,i)=>(i+1)+'. '+t).join('  '));
+}
+
+function timeout(){
+  if(G.answered) return;
+  const q = G.qs[G.i];
+  if(q.t === 'mc' || q.t === 'tf') document.querySelectorAll('#qBody .opt').forEach(b => { b.disabled = true; if(+b.dataset.ai === q.k) b.classList.add('ok'); });
+  if(q.t === 'line'){ const lines = document.querySelectorAll('#qCode .ln'); q.k.forEach(k => lines[k].classList.add('ok')); }
+  if(q.t === 'order'){ $('btnReset').style.display='none'; $('btnConfirm').style.display='none'; }
+  finish(false, 'Zeit abgelaufen', q.t === 'order' ? 'Richtig: ' + q.a.map((t,i)=>(i+1)+'. '+t).join('  ') : '', true);
+}
+
+function finish(ok, given, extra, isTimeout){
+  G.answered = true;
+  clearInterval(G.timer);
+  const q = G.qs[G.i];
+  let pts = 0;
+  if(ok){
+    G.streak++; G.best = Math.max(G.best, G.streak);
+    const bonus = mode === 'einsatz' ? Math.round(50 * G.tLeft / G.tMax) : 0;
+    pts = Math.round((100 + bonus) * mult());
+    G.score += pts;
+    SND.ok(); flash('good'); popup('+' + pts);
+  } else {
+    G.streak = 0;
+    if(mode === 'einsatz'){ G.shields--; }
+    SND.bad(); flash('hit');
+    const f = $('frame'); f.classList.remove('shake'); void f.offsetWidth; f.classList.add('shake');
+  }
+  G.log.push({q, ok, given, pts});
+  const fb = $('fb');
+  fb.className = 'fb on' + (ok ? '' : ' bad');
+  $('fbH').textContent = ok ? 'Korrekt · +' + pts + ' Punkte' : (isTimeout ? 'Zeit abgelaufen' : 'Fehler') + (mode === 'einsatz' ? ' · Schild beschädigt' : '');
+  $('fbP').textContent = q.e + (extra ? '  ' + extra : '');
+  const last = G.i >= G.qs.length - 1 || (mode === 'einsatz' && G.shields <= 0);
+  $('btnNext').textContent = last ? 'Auswertung' : 'Weiter';
+  $('btnNext').style.display = '';
+  $('btnNext').focus({preventScroll:true});
+  renderSide();
+}
+
+function next(){
+  if(!G || !G.answered) return;
+  SND.tap();
+  if(G.i >= G.qs.length - 1 || (mode === 'einsatz' && G.shields <= 0)) return endGame();
+  G.i++;
+  renderQ();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* ---------- Joker ---------- */
+function useFifty(){
+  if($('jFifty').classList.contains('off')) return;
+  const q = G.qs[G.i];
+  const wrong = shuffle([...document.querySelectorAll('#qBody .opt')].filter(b => +b.dataset.ai !== q.k));
+  wrong.slice(0, wrong.length - 1).slice(0, 2).forEach(b => { b.classList.add('gone'); b.disabled = true; });
+  G.fifty--; SND.joker(); renderSide();
+}
+function useTime(){
+  if($('jTime').classList.contains('off')) return;
+  G.paused = true; G.tstop--; updTimer(); SND.joker(); renderSide();
+}
+
+/* ---------- Effekte ---------- */
+function flash(kind){ const f = $('flash'); f.className = 'flash'; void f.offsetWidth; f.className = 'flash ' + kind; }
+function popup(txt){
+  const r = $('qText').getBoundingClientRect();
+  const p = document.createElement('div'); p.className = 'pop'; p.textContent = txt;
+  p.style.left = (r.left + Math.min(r.width - 120, 260)) + 'px'; p.style.top = (r.top + 10) + 'px';
+  document.body.appendChild(p); setTimeout(() => p.remove(), 1000);
+}
+
+/* ---------- Auswertung ---------- */
+const RANKS = [
+  [90, 'Kommandoebene',     'Hervorragend! Du beherrschst den Stoff sicher. Die Klassenarbeit kann kommen.'],
+  [75, 'Führungsoffizier/in','Sehr gut! Nur noch kleine Lücken – schau dir die Fehler im Logbuch an.'],
+  [55, 'Leutnant',          'Gut! Die Grundlagen sitzen. Wiederhole die Sektoren mit kurzen Balken.'],
+  [35, 'Fähnrich',          'Ein Anfang ist gemacht. Lies die Erklärungen und starte eine neue Mission.'],
+  [0,  'Kadett/in',         'Noch viel Training nötig. Nutze den Trainingsmodus und lies jede Erklärung genau.']
+];
+function endGame(){
+  clearInterval(G.timer);
+  SND.end();
+  const total = G.log.length, right = G.log.filter(l => l.ok).length;
+  const pct = Math.round(right / G.qs.length * 100);
+  const rk = RANKS.find(r => pct >= r[0]);
+  const aborted = mode === 'einsatz' && G.shields <= 0 && total < G.qs.length;
+  $('endHead').textContent = aborted ? 'Schilde ausgefallen – Mission abgebrochen' : 'Mission abgeschlossen';
+  $('endRank').textContent = 'Rang · ' + rk[1];
+  $('endMsg').textContent = rk[2];
+
+  // Highscore
+  const hsKey = 'js07_hs_' + mode;
+  const hs = store(hsKey) || 0;
+  const isNew = G.score > hs;
+  if(isNew) store(hsKey, G.score);
+
+  // Punktzahl hochzählen
+  const el = $('endScore'); let cur = 0; const step = Math.max(1, Math.round(G.score / 40));
+  const iv = setInterval(() => { cur = Math.min(G.score, cur + step); el.textContent = cur; if(cur >= G.score) clearInterval(iv); }, 25);
+
+  $('endStats').innerHTML =
+    stat('Richtig', right + ' / ' + G.qs.length) + stat('Quote', pct + ' %') + stat('Beste Serie', G.best) +
+    stat(isNew ? 'Neuer Rekord!' : 'Rekord (' + (mode === 'einsatz' ? 'Einsatz' : 'Training') + ')', isNew ? G.score : hs);
+
+  // Sektoren
+  const cb = $('endCats'); cb.innerHTML = '';
+  Object.keys(CATS).forEach(c => {
+    const all = G.qs.filter(q => q.c === c).length;
+    const r = G.log.filter(l => l.q.c === c && l.ok).length;
+    const w = all ? Math.round(r / all * 100) : 0;
+    cb.insertAdjacentHTML('beforeend', '<div class="cb"><span style="color:' + CATCOL[c] + '">' + CATS[c] + '</span><span class="tr"><i style="width:' + w + '%;background:' + CATCOL[c] + '"></i></span><span>' + r + '/' + all + '</span></div>');
+  });
+
+  // Logbuch
+  const rv = $('endReview'); rv.innerHTML = '';
+  G.log.forEach((l, n) => {
+    rv.insertAdjacentHTML('beforeend',
+      '<div class="rv' + (l.ok ? '' : ' bad') + '"><div class="h">' + String(n+1).padStart(2,'0') + ' · ' + CATS[l.q.c] + ' · ' + (l.ok ? 'korrekt +' + l.pts : 'fehler') + '</div>' +
+      '<p><b>' + esc(l.q.q) + '</b></p>' +
+      (l.ok ? '' : '<p>Deine Antwort: ' + esc(l.given) + (l.q.t === 'mc' || l.q.t === 'tf' ? ' · Richtig: ' + esc(l.q.a[l.q.k]) : '') + '</p>') +
+      '<p class="muted">' + esc(l.q.e) + '</p></div>');
+  });
+  G.i = G.qs.length - 1;
+  show('scrEnd');
+  renderSide();
+  $('sProg').textContent = 'ENDE';
+}
+function stat(l, v){ return '<div class="stat">' + l + '<b>' + v + '</b></div>'; }
+
+/* =====================================================================
+   EREIGNISSE
+   ===================================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.mode').forEach(m => m.addEventListener('click', () => {
+    mode = m.dataset.mode; SND.tap();
+    document.querySelectorAll('.mode').forEach(x => x.classList.toggle('sel', x === m));
+    renderSide(); showHS();
+  }));
+  $('btnStart').addEventListener('click', startGame);
+  $('btnAgain').addEventListener('click', startGame);
+  $('btnMenu').addEventListener('click', () => { SND.tap(); G = null; show('scrStart'); renderSide(); showHS(); });
+  $('btnNext').addEventListener('click', next);
+  $('btnConfirm').addEventListener('click', confirmOrder);
+  $('btnReset').addEventListener('click', () => { SND.tap(); resetOrder(); });
+  $('jFifty').addEventListener('click', useFifty);
+  $('jTime').addEventListener('click', useTime);
+  $('sSound').addEventListener('click', () => { soundOn = !soundOn; store('js07_sound', soundOn); renderSide(); SND.tap(); });
+
+  document.addEventListener('keydown', e => {
+    if(!G || !$('scrQ').classList.contains('on')) return;
+    if(e.key === 'Enter' && G.answered){ e.preventDefault(); next(); return; }
+    const n = parseInt(e.key, 10);
+    if(n >= 1 && n <= 5 && !G.answered){
+      const btns = [...document.querySelectorAll('#qBody .opt')].filter(b => !b.classList.contains('gone'));
+      const all = [...document.querySelectorAll('#qBody .opt')];
+      const b = all[n-1];
+      if(b && !b.classList.contains('gone') && btns.includes(b)) b.click();
+    }
+  });
+
+  $('poolInfo').textContent = 'POOL ' + POOL.length;
+  $('sysno').textContent = String(Math.floor(Math.random()*90)+10) + '-' + String(Math.floor(Math.random()*9000)+1000);
+  setInterval(() => { const d = new Date(); $('clock').textContent = d.toTimeString().slice(0,8); }, 1000);
+  renderSide(); showHS();
+});
+
+function showHS(){
+  const t = store('js07_hs_training') || 0, e = store('js07_hs_einsatz') || 0;
+  $('hsLine').textContent = (t || e) ? 'Rekorde auf diesem Gerät – Training: ' + t + ' · Einsatz: ' + e : '';
+}
+</script>
+</body>
+</html>

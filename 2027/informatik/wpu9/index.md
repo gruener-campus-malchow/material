@@ -50,6 +50,8 @@ WPU 9 Informatik
 - [Übung 2](KA_uebung_2.md)
 - [Lösung 2](KA_uebung_2_lsg.md)
 
+Zur Unterhaltung und zur Prüfung eine Art Lernspiel: [Trainingskonsole](Trainingskonsole_JS-07.html)
+
 ---
 
 > Have a lot of fun!
