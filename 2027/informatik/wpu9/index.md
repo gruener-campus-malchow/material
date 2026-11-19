@@ -1,7 +1,6 @@
 WPU 9 Informatik
 ===========
 
-
 # Orga
 
 > Wir sehen uns nur noch zwei Stunden pro Woche!
@@ -34,6 +33,10 @@ WPU 9 Informatik
 - [Webentwicklung](Webentwicklung_mit_js.md)
 - [Grundlagen der Programmierung](Grundlagen_der_Programmierung.md)
 - [Spiel steuern mit JS](Spiel_steuern_mit_js.md)
+
+## Noch vor der KA
+
+![hackn8](17hackn8_flyer.jpg)
 
 ## Was in der Klassenarbeit vorkommen wird
 
