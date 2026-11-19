@@ -1,12 +1,11 @@
 # Gedenken an den Beginn der systematischen Deportationen ab 18. Oktober 1941
 
-> Zwei Fotos aus der Werbung
+![Layout](./galerie_litfasssauele_2026/Layout_Saeule.png)
+![Layout](./galerie_litfasssauele_2026/Saeule_prerower.png)
 
 Das Projekt [Gleis 69](https://gleis69.de/projekte/sie-wollten-leben) hat 25 Litfaßsäulen in Berlin mit Fotos und Texten von deportierten Menschen gestaltet. An einer dieser Säulen trafen wir uns am 26. November 2026 für eine Veranstaltung. In der Nähe des Prerower Platzes gab es zu Kriegszeiten nur [Rieselfelder](https://de.wikipedia.org/wiki/Berliner_Rieselfelder) und [Laubenkolonien](https://de.wikipedia.org/wiki/Kleingarten), deshalb ging es an dem Nachmittag um Familien aus Karlshorst.
 
 Schüler\*innen und Kolleg\*innen des Grünen Campus Malchow und viele andere Gäste befassten sich mit den Biografien, einem Gedicht von [Selma Meerbaum-Eisinger](https://de.wikipedia.org/wiki/Selma_Meerbaum-Eisinger) und passenden Fragen. Isa Neu begleitete die Wortbeiträge mit Musik der Verfolgten auf dem Akkordeon und mit Gesang.
-
-> Galerie
 
 <!-- ===== Galerie: Anfang ===== -->
 <div id="md-galerie" class="mdg"></div>
