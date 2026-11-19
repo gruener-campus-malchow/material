@@ -1,6 +1,6 @@
 # Übungsarbeit Informatik WPU 9 – JavaScript und Events
 
-**Name:** ______________________  **Datum:** ______________
+> Diese Sammlung ist aufgebaut wie eine richtige Klassenarbeit oder wie ein Klausur in der Oberstufe: Es gibt einen Aufgabenteil, der sich auch den Materialteil bezieht. Nur die Hinweise zu den Operatoren sind untypisch, werden in der Prüfung also fehlen. 
 
 **Hinweise**
 - Antworte in **ganzen Sätzen**, nicht in Stichpunkten, wenn nicht anders verlangt.

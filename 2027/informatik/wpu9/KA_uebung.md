@@ -1,8 +1,6 @@
 # Übungsaufgaben zur Klassenarbeit – Webtechnologien & JavaScript
 
-Name: ______________________  Datum: ______________
-
----
+> Diese Aufgabensammlung ist eher an Aufgaben wie im Unterricht orientiert. Die Aufgaben sind in sich geschlossen.
 
 ## Aufgabe 1 – Webtechnologien nennen
 
