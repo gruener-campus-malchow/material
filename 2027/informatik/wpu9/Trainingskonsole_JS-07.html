@@ -91,8 +91,10 @@
   .q{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:clamp(17px,2vw,21px);line-height:1.4;color:var(--p);margin:0 0 14px}
 
   pre.code{background:#0d0d18;border-left:8px solid var(--b);border-radius:0 14px 14px 0;padding:10px 0;margin:0 0 16px;overflow-x:auto;font-family:var(--mono);font-size:14px;line-height:1.55;color:#e8e2ff}
-  pre.code .ln{display:block;padding:0 14px 0 0;white-space:pre}
-  pre.code .ln::before{content:attr(data-n);display:inline-block;width:2.6em;text-align:right;margin-right:12px;color:#6f6a9a}
+  pre.code{white-space:normal;overflow-x:visible}
+  pre.code .ln{display:grid;grid-template-columns:2.6em minmax(0,1fr);column-gap:12px;padding:1px 14px 1px 0}
+  pre.code .ln .nr{text-align:right;color:#6f6a9a;user-select:none}
+  pre.code .ln .cx{white-space:pre-wrap;overflow-wrap:anywhere;min-width:0}
   pre.code.pick .ln{cursor:pointer}
   pre.code.pick .ln:hover{background:#2a2450}
   pre.code .ln.ok{background:#1d3a1d}
@@ -101,8 +103,8 @@
   .opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:14px}
   .opt{display:flex;align-items:stretch;text-align:left;background:transparent;padding:0;border-radius:22px;overflow:hidden;min-height:46px;color:#000}
   .opt .k{flex:0 0 52px;background:var(--l);display:flex;align-items:center;justify-content:center;font-size:20px}
-  .opt .v{flex:1;background:var(--p);padding:10px 16px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15.5px;line-height:1.35;display:flex;align-items:center;border-radius:0 22px 22px 0;margin-left:4px}
-  .opt .v code{font-family:var(--mono);font-size:13.5px;background:rgba(0,0,0,.08);padding:1px 4px;border-radius:4px}
+  .opt .v{flex:1;min-width:0;background:var(--p);padding:10px 16px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15.5px;line-height:1.35;display:flex;flex-direction:column;justify-content:center;border-radius:0 22px 22px 0;margin-left:4px;overflow-wrap:anywhere}
+  .opt .v code{display:block;font-family:var(--mono);font-size:13.5px;line-height:1.45;background:rgba(0,0,0,.08);padding:3px 6px;border-radius:4px;white-space:normal;overflow-wrap:anywhere;min-width:0}
   .opt:hover:not([disabled]) .v{background:#ffe0bf}
   .opt[disabled]{cursor:default}
   .opt.ok .v{background:var(--g)}.opt.ok .k{background:#4a9a4a}
@@ -167,6 +169,10 @@
     main{padding:12px 0 12px 10px}
     .cb{grid-template-columns:96px 1fr 44px;font-size:11px}
     .title{font-size:18px}
+    pre.code{font-size:12.5px}
+    pre.code .ln{grid-template-columns:2em minmax(0,1fr);column-gap:8px;padding-right:8px}
+    .opt .v code{font-size:12.5px}
+    .opt .k{flex-basis:40px}
   }
 </style>
 </head>
@@ -502,9 +508,13 @@ POOL.forEach((q, i) => q.id = i);
 function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
 function store(k, v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k, JSON.stringify(v)); }catch(e){ return null; } }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+// Umbruchstellen in Code: nach Punkt vor einem Namen, nach "(" und nach ","
+function codeBreaks(s){
+  return esc(s).replace(/\.(?=[A-Za-z_])/g, '.<wbr>').replace(/\((?=\S)/g, '(<wbr>').replace(/,(?=\S)/g, ',<wbr>');
+}
 function fmtAnswer(s){ // Code-artige Antworten hervorheben
-  const t = esc(s);
-  return /[();=]|getElement|style\.|^'|^\w+\(/.test(s) && s.length < 90 && !/ (wird|ist|der|die|das) /.test(s) ? '<code>'+t+'</code>' : t;
+  const isCode = /[();=]|getElement|style\.|^'|^\w+\(/.test(s) && s.length < 90 && !/ (wird|ist|der|die|das) /.test(s);
+  return isCode ? '<code>' + codeBreaks(s) + '</code>' : esc(s);
 }
 
 /* ---------- Ton ---------- */
@@ -602,7 +612,9 @@ function renderQ(){
   if(q.code){
     const pre = document.createElement('pre'); pre.className = 'code' + (q.t === 'line' ? ' pick' : '');
     q.code.split('\n').forEach((ln, idx) => {
-      const s = document.createElement('span'); s.className = 'ln'; s.dataset.n = idx+1; s.textContent = ln || ' ';
+      const s = document.createElement('span'); s.className = 'ln';
+      const ind = ln.match(/^ */)[0].length;
+      s.innerHTML = '<span class="nr">' + (idx+1) + '</span><span class="cx" style="padding-left:' + (ind+4) + 'ch;text-indent:-4ch">' + (codeBreaks(ln.slice(ind)) || '&nbsp;') + '</span>';
       if(q.t === 'line') s.addEventListener('click', () => answerLine(idx, s));
       pre.appendChild(s);
     });
