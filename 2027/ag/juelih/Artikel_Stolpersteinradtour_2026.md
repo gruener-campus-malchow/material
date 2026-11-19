@@ -10,6 +10,7 @@ Bei den Stolpersteinen referierten wir kurz aus der [Broschüre](https://www.sto
 
 Als Abschluss hörten wir noch einen kleinen Vortrag über [Victor Aronstein](https://de.wikipedia.org/wiki/Victor_Aronstein).
 
+
 <!-- ===== Galerie: Anfang ===== -->
 <div id="md-galerie" class="mdg"></div>
 <style>
