@@ -47,7 +47,6 @@ Als Abschluss hörten wir noch einen kleinen Vortrag über [Victor Aronstein](ht
     { src: "galerier_stolpersteine_2026/09.jpg", titel: "Erstes Bild" },    
     { src: "galerier_stolpersteine_2026/10.jpg", titel: "Erstes Bild" },
     { src: "galerier_stolpersteine_2026/11.jpg", titel: "Erstes Bild" },
-    { src: "galerier_stolpersteine_2026/12.jpg", titel: "Erstes Bild" },
     { src: "galerier_stolpersteine_2026/12b.jpg", titel: "Erstes Bild" },
     { src: "galerier_stolpersteine_2026/13.jpg", titel: "Erstes Bild" }
   ];
