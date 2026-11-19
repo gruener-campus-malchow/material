@@ -1,167 +1,179 @@
-# Erwartungshorizont zur Übungsarbeit – JavaScript und Events
-
-Die Musterantworten sind in ganzen Sätzen formuliert, so wie sie auch in der Klassenarbeit erwartet werden. Andere Formulierungen sind richtig, wenn der Inhalt stimmt.
-
-**Bewertung bei Erklär-Aufgaben:** *ansatzweise* (1 BE) – *teilweise* (2 BE) – *vollständig* (3 BE)
+# Lösungen und Erklärungen zu den Übungsaufgaben
 
 ---
 
-## Aufgabe 1 – Webtechnologien (6 BE)
+## Aufgabe 1 – Webtechnologien nennen
 
-**a)** (AFB I, 3 BE)
-Die drei Webtechnologien sind **HTML**, **CSS** und **JavaScript**.
+| Technologie | Wofür ist sie zuständig? |
+|-------------|--------------------------|
+| **HTML** (HyperText Markup Language) | Legt den **Inhalt und die Struktur** fest, also Überschriften, Absätze, Bilder und Buttons. |
+| **CSS** (Cascading Style Sheets) | Bestimmt das **Aussehen** (Design), also Farben, Schriftarten, Größen und Abstände. |
+| **JavaScript** | Sorgt für **Verhalten und Interaktivität**, also Reaktionen auf Klicks, Berechnungen und das Ändern der Seite. |
 
-**b)** (AFB II, 3 BE)
-> Der Button „Dunkelmodus“ wird mit **HTML** erstellt, weil HTML den Inhalt und die Struktur der Webseite festlegt. Die schwarze Hintergrundfarbe ist eine Frage des Aussehens und wird deshalb mit **CSS** festgelegt. Dass die Seite auf den Klick reagiert, wird mit **JavaScript** programmiert, denn JavaScript ist für das Verhalten und die Interaktivität einer Webseite zuständig.
-
-**Erklärung:** Im Projekt arbeiten alle drei zusammen. In Zeile 13 von Material 2 ändert JavaScript eine CSS-Eigenschaft (`backgroundColor`) eines HTML-Elements (`body`).
-
----
-
-## Aufgabe 2 – Event definieren (AFB I, 3 BE)
-
-> Ein Event ist ein **Ereignis**, das im **Browser** passiert, zum Beispiel ein Klick auf einen Button oder das Bewegen des Zeigers über ein Bild. Events werden meistens durch die **Interaktion des Nutzers** ausgelöst. Sie sind in allen Browsern **standardisiert** und können **Funktionen auslösen**.
-
-**Für die volle Punktzahl** sollte die Antwort enthalten:
-- Ein Event ist ein Ereignis (im Browser).
-- Es entsteht durch eine Interaktion des Nutzers (oder z. B. durch das Laden der Seite).
-- Es kann eine Funktion auslösen.
-- Ein Beispiel (`click`, `pointerover` …).
+**Erklärung:** Ein Vergleich mit einem Haus hilft beim Merken. HTML ist das Gerüst, CSS ist die Farbe und Einrichtung, JavaScript ist der Strom, mit dem das Licht beim Drücken des Schalters angeht.
 
 ---
 
-## Aufgabe 3 – EventListener erklären (AFB I, 3 BE)
+## Aufgabe 2 – Webtechnologien zuordnen
 
-> Ein EventListener ist ein „Zuhörer“, der an ein HTML-Element gehängt wird und dort **auf ein bestimmtes Event wartet**. **Wenn das Event eintritt, führt er eine festgelegte Funktion aus.** Damit **verknüpft** der EventListener ein Event mit einer **Reaktion** der Webseite.
+| Code | Technologie |
+|------|-------------|
+| `<h1>Willkommen</h1>` | HTML |
+| `h1 { color: blue; }` | CSS |
+| `var zahl = 5;` | JavaScript |
+| `<button id="start">Start</button>` | HTML |
+| `body { background-color: yellow; }` | CSS |
+| `console.log("Hallo");` | JavaScript |
 
-**Für die volle Punktzahl** sollte die Antwort enthalten:
-- Er wartet auf ein Event.
-- Wenn das Event eintritt, wird eine Funktion ausgeführt.
-- Er verknüpft Event und Reaktion.
-
----
-
-## Aufgabe 4 – Wahlaufgabe (AFB I / II, 2 oder 4 BE)
-
-**Basisniveau (2 BE):**
-> Sobald das Event ausgelöst wird, wird der Code einer Funktion ausgeführt.
-
-**Erweitertes Niveau (4 BE):**
-> Sobald das Event **„click“** auf dem HTML-Element mit der ID **„btnDunkel“** ausgelöst wird, wird der Code der Funktion **„dunkelModus“** ausgeführt. Dadurch wird der Hintergrund der Seite schwarz und die Schrift weiß.
-
-**Erklärung:** Beim erweiterten Niveau werden die drei Angaben aus dem Code genannt, also **Event**, **ID des Elements** und **Funktionsname**.
+**Erklärung:**
+- **HTML** erkennt man an den spitzen Klammern, den **Tags** `< >`.
+- **CSS** erkennt man am Aufbau **Selektor { Eigenschaft: Wert; }**.
+- **JavaScript** erkennt man an Schlüsselwörtern wie `var`, `function`, `if` und `while` oder an Befehlen wie `console.log()`.
 
 ---
 
-## Aufgabe 5 – EventListener beschreiben (AFB II, 4 BE)
+## Aufgabe 3 – Was ist ein Event?
 
-> In Zeile 8 wird mit `document.getElementById('titelbild')` das HTML-Element mit der ID **„titelbild“** ausgewählt. An dieses Element wird mit `addEventListener` ein EventListener gehängt, der auf das Event **„pointerover“** wartet. Dieses Event wird ausgelöst, sobald der Zeiger auf das Bild kommt. Dann wird die Funktion **„bildGross“** ausgeführt, die die Breite des Bildes auf **600 Pixel** setzt, sodass der Nutzer das Bild **vergrößert** sieht.
+a) Ein **Event** ist ein **Ereignis**, das auf der Webseite passiert. Meistens löst der Nutzer es aus. Das Programm kann auf dieses Ereignis reagieren.
 
-| Kriterium | BE |
-|-----------|----|
-| Element mit ID „titelbild“ | 1 |
-| Event „pointerover“ mit Bedeutung | 1 |
-| Funktion „bildGross“ | 1 |
-| Wirkung: Bild wird auf 600px vergrößert | 1 |
+b) Mögliche Beispiele:
+- `click`: Ein Element wird angeklickt.
+- `mouseover`: Die Maus fährt über ein Element.
+- `mouseout`: Die Maus verlässt ein Element.
+- `keydown`: Eine Taste wird gedrückt.
+- `input`: In ein Eingabefeld wird etwas getippt.
+- `dblclick`: Ein Doppelklick.
 
-**Hinweis:** Hinter `bildGross` stehen **keine Klammern**. Die Funktion wird nur übergeben und erst später ausgeführt, wenn das Event eintritt.
-
----
-
-## Aufgabe 6 – DOMContentLoaded und registerEvents (AFB II, 3 BE)
-
-> In Zeile 3 wird ein EventListener an das gesamte Dokument gehängt. Er wartet auf das Event **„DOMContentLoaded“**, das ausgelöst wird, sobald die HTML-Seite vollständig geladen ist. Dann wird die Funktion **„registerEvents“** ausgeführt, die alle anderen EventListener an die Buttons und an das Bild hängt. Das ist nötig, weil `getElementById` ein Element nur finden kann, **wenn es schon geladen ist**. Würde man die EventListener zu früh anhängen, gäbe es die Elemente noch nicht und es käme zu einem Fehler.
+**Erklärung:** Ohne Events wäre eine Webseite starr. Events machen sie interaktiv, weil das Programm „wartet“, bis etwas passiert, und dann reagiert.
 
 ---
 
-## Aufgabe 7 – Prinzipien zuordnen (AFB I / II, 5 BE)
+## Aufgabe 4 – Das Event-Konzept
 
-| Ausschnitt | Prinzip | Begründung (Beispielsatz) |
-|------------|---------|---------------------------|
-| A: Zeile 1 | **Variable** | Mit `var` wird die Variable `schriftgroesse` deklariert, die den Wert 16 speichert. |
-| B: Zeilen 3–10 | **Funktion** | Mit `function` wird Code unter dem Namen `vergroessern` zusammengefasst, damit man ihn später aufrufen kann. |
-| C: Zeilen 4–8 | **Verzweigung** | Mit `if … else` wird geprüft, ob die Schriftgröße kleiner als 30 ist, und je nach Ergebnis wird ein anderer Code ausgeführt. |
-| D: Zeilen 13–16 | **Schleife** | Mit `while` wird der Code wiederholt, solange die Bedingung `zaehler <= 3` wahr ist. |
-| E: Zeile 14 | **Befehl** | `console.log(...)` ist eine einzelne Anweisung, die einen Text in der Konsole ausgibt. |
+| Nr. | Schritt |
+|-----|---------|
+| **4** | Die Funktion wird ausgeführt und die Webseite reagiert. |
+| **1** | Ein EventListener wird an ein HTML-Element gehängt. |
+| **3** | Der EventListener bemerkt das Event. |
+| **2** | Der Nutzer klickt auf das Element (das Event tritt ein). |
 
-Je richtiger Zuordnung **mit** passender Begründung gibt es 1 BE.
+**Richtige Reihenfolge:** Listener anhängen → Event tritt ein → Listener bemerkt es → Funktion wird ausgeführt.
 
-**Erklärung:** Die Prinzipien stecken ineinander. Die Verzweigung (C) liegt **innerhalb** der Funktion (B), der Befehl (E) liegt **innerhalb** der Schleife (D). Achte deshalb genau auf die angegebenen Zeilen.
-
----
-
-## Aufgabe 8 – Wahlaufgabe Funktion (AFB II, 3 oder 5 BE)
-
-**Basisniveau (3 BE):**
-> Der Funktionskopf steht in **Zeile 3** und lautet `function vergroessern(schritt) {`. Der Funktionskörper umfasst die **Zeilen 4 bis 9**, also alles zwischen den geschweiften Klammern. Der Parameter der Funktion heißt **`schritt`**.
-
-**Erweitertes Niveau (5 BE):** wie Basisniveau, zusätzlich:
-> Beim Aufruf `vergroessern(2)` bekommt der Parameter `schritt` den Wert 2. In Zeile 4 wird geprüft, ob `schriftgroesse` kleiner als 30 ist. Da 16 kleiner als 30 ist, ist die Bedingung wahr und Zeile 5 wird ausgeführt. Dort wird `schriftgroesse` um 2 erhöht und hat danach den Wert **18**. Der else-Teil in Zeile 7 wird übersprungen. In Zeile 9 wird die Schriftgröße der Seite auf **„18px“** gesetzt.
-
-**Begriffe zum Merken:**
-
-| Begriff | Im Beispiel |
-|---------|-------------|
-| Funktionskopf | `function vergroessern(schritt) {` |
-| Funktionsname | `vergroessern` |
-| Parameter (Platzhalter) | `schritt` |
-| Funktionskörper | Zeilen 4–9 |
-| Aufruf mit Argument | `vergroessern(2)`, das Argument ist `2` |
+**Erklärung:** Der EventListener ist wie ein **Wachposten**. Er wird zuerst aufgestellt, dann wartet er. Erst wenn das Event passiert, ruft er die Funktion auf.
 
 ---
 
-## Aufgabe 9 – Schleife zeilenweise erklären (AFB II, 5 BE)
+## Aufgabe 5 – Einen EventListener beschreiben
 
-> In **Zeile 12** wird die Variable `zaehler` deklariert und bekommt den Startwert 1. In **Zeile 13** beginnt eine kopfgesteuerte while-Schleife, die so lange läuft, wie `zaehler` kleiner oder gleich 3 ist. In **Zeile 14** wird in der Konsole der Text „Artikel“, der aktuelle Wert von `zaehler` und „geladen“ ausgegeben. In **Zeile 15** wird `zaehler` um 1 erhöht. **Zeile 16** schließt den Schleifenkörper, danach wird die Bedingung in Zeile 13 erneut geprüft.
+a) **Element:** der Button mit der id `knopf`. Er wird mit `document.getElementById("knopf")` geholt und in der Variable `knopf` gespeichert.
 
-**Ausgabe:**
+b) **Event:** `"click"`, also ein Mausklick.
+
+c) **Funktion:** `zeigeNachricht`
+
+d) **Wirkung:** Es öffnet sich ein Hinweisfenster mit dem Text **„Du hast geklickt!“**.
+
+**Erklärung:** `addEventListener` bekommt zwei Angaben:
+1. **welches Event** abgewartet werden soll (`"click"`),
+2. **welche Funktion** dann ausgeführt wird (`zeigeNachricht`).
+
+Hinter `zeigeNachricht` stehen **keine Klammern**. Die Funktion soll nicht sofort ausgeführt werden, sondern erst beim Klick.
+
+---
+
+## Aufgabe 6 – Noch ein EventListener
+
+| Frage | Antwort |
+|-------|---------|
+| Element | Der Absatz `<p>` mit der id `text` |
+| Event | `"mouseover"`, die Maus fährt über das Element |
+| Funktion | `faerbeRot` |
+| Wirkung | Die Schrift des Absatzes wird **rot** |
+
+**Erklärung:** Mit `text.style.color = "red";` ändert JavaScript eine **CSS-Eigenschaft**. Hier sieht man gut, wie die drei Webtechnologien zusammenarbeiten: HTML liefert das Element, JavaScript reagiert auf das Event, und dabei wird das CSS-Aussehen verändert.
+
+---
+
+## Aufgabe 7 – Programmierprinzipien zuordnen
+
+| Code | Prinzip | Woran erkennt man es? |
+|------|---------|------------------------|
+| A | **Variable** | `var` und ein Name speichern einen Wert. |
+| B | **Verzweigung** | `if` prüft eine Bedingung, der Code läuft nur, wenn sie wahr ist. |
+| C | **Befehl** | Eine einzelne Anweisung, die etwas tut (hier: ausgeben). |
+| D | **Schleife** | `while` wiederholt den Code, solange die Bedingung wahr ist. |
+| E | **Funktion** | `function`, ein Name und Klammern bündeln Code unter einem Namen. |
+
+---
+
+## Aufgabe 8 – Prinzipien in einem Programm finden
+
+a) **Variable:** Zeile **1** (`var alter = 16;`)
+
+b) **Funktion:** beginnt in Zeile **3**, endet in Zeile **9**
+
+c) **Verzweigung:** Zeilen **4 bis 8** (`if … else`)
+
+d) **Befehl:** z. B. Zeile **5** oder Zeile **7** (`console.log(...)`). Auch Zeile **11**, der Funktionsaufruf, ist eine Anweisung.
+
+**Erklärung:** In echten Programmen kommen die Prinzipien **gemischt** vor. Die Verzweigung steckt hier **innerhalb** der Funktion. Ausgegeben wird **„minderjährig“**, weil 16 nicht größer oder gleich 18 ist.
+
+---
+
+## Aufgabe 9 – Eine Funktion zeilenweise erklären
+
+a) **Funktionskopf:** Zeile **1**, also `function begruesse(name) {`
+
+b) **Funktionskörper:** Zeilen **2 und 3**, der Code zwischen `{` und `}`
+
+c) **Funktionsname:** `begruesse`. **Parameter:** `name`
+
+d) In Zeile 6 wird die Funktion **aufgerufen**. Der Wert `"Mia"` wird an den Parameter `name` übergeben. Ausgabe: **`Hallo Mia!`**
+
+**Erklärung der Fachbegriffe:**
+
+| Begriff | Bedeutung | Im Beispiel |
+|---------|-----------|-------------|
+| Schlüsselwort | zeigt an, dass eine Funktion folgt | `function` |
+| Funktionsname | Name, mit dem man die Funktion aufruft | `begruesse` |
+| Parameter | „Platzhalter“, der beim Aufruf einen Wert bekommt | `name` |
+| Funktionskopf | Schlüsselwort, Name und Parameter | Zeile 1 |
+| Funktionskörper | Anweisungen in den geschweiften Klammern | Zeilen 2–3 |
+| Funktionsaufruf | startet die Funktion | Zeile 6 |
+| Argument | der konkrete Wert beim Aufruf | `"Mia"` |
+
+**Wichtig:** Eine Funktion macht nichts, solange sie nicht **aufgerufen** wird. Erst Zeile 6 bringt sie zum Laufen.
+
+---
+
+## Aufgabe 10 – Eine Schleife zeilenweise erklären
+
+a) Zeile für Zeile:
+
+| Zeile | Erklärung |
+|-------|-----------|
+| 1 | Die Variable `zahl` wird deklariert und bekommt den Startwert 1. |
+| 2 | Die while-Schleife beginnt und läuft, solange `zahl` kleiner oder gleich 4 ist. |
+| 3 | Verzweigung: Es wird geprüft, ob `zahl` genau 3 ist. |
+| 4 | Wenn ja, wird „Drei!“ ausgegeben. |
+| 5 | Sonst (else) … |
+| 6 | … wird der aktuelle Wert von `zahl` ausgegeben. |
+| 7 | Ende der Verzweigung. |
+| 8 | `zahl` wird um 1 erhöht (`zahl++` bedeutet `zahl = zahl + 1`). |
+| 9 | Ende des Schleifenkörpers, dann zurück zur Bedingung in Zeile 2. |
+
+b) **Bedingung:** `zahl <= 4`
+
+c) **Ausgabe:**
 ```
-Artikel 1 geladen
-Artikel 2 geladen
-Artikel 3 geladen
+1
+2
+Drei!
+4
 ```
 
-> Die Schleife endet, weil `zaehler` nach dem dritten Durchlauf den Wert 4 hat und die Bedingung `4 <= 3` falsch ist. Ohne Zeile 15 bliebe `zaehler` immer 1 und es entstünde eine Endlosschleife.
+**Erklärung:** Die while-Schleife ist **kopfgesteuert**. Die Bedingung wird **vor** jedem Durchlauf geprüft. Wenn `zahl` den Wert 5 hat, ist `5 <= 4` falsch und die Schleife endet.
 
-| Kriterium | BE |
-|-----------|----|
-| Zeilen 12–16 richtig erklärt | 3 |
-| Ausgabe richtig | 1 |
-| Abbruch der Schleife begründet | 1 |
+Zeile 8 ist wichtig: Ohne `zahl++` bliebe `zahl` immer 1. Die Bedingung wäre dann immer wahr und die Schleife würde **nie enden** (Endlosschleife).
 
----
-
-## Aufgabe 10 – EventListener und Funktion entwerfen (AFB II / III, 9 BE)
-
-**Musterlösung:**
-
-```javascript
-'use strict';
-
-document.addEventListener('DOMContentLoaded', registerEvents);
-
-function registerEvents() {
-  document.getElementById('btnUntenLinks').addEventListener('click', unten_links);
-}
-
-function unten_links() {
-  document.getElementById('menue').style.position = 'fixed';
-  document.getElementById('menue').style.left = '0';
-  document.getElementById('menue').style.right = 'auto';
-  document.getElementById('menue').style.top = 'auto';
-  document.getElementById('menue').style.bottom = '0';
-}
-```
-
-| Kriterium | AFB | BE |
-|-----------|-----|----|
-| EventListener ansatzweise / teilweise / vollständig (Element holen, `addEventListener`, Event, Funktionsname ohne Klammern, Registrierung nach `DOMContentLoaded`) | III | 3 |
-| Funktion ansatzweise / teilweise / vollständig (Kopf, Körper, alle vier Positionsangaben passend zu „unten links“) | III | 3 |
-| Verwendung des richtigen Events (`click`) und der richtigen IDs (`btnUntenLinks`, `menue`) | II | 3 |
-
-**Erklärung:** Für „unten links“ werden `left` und `bottom` auf 0 gesetzt, `right` und `top` auf `auto`. So klebt das Menü an der unteren linken Ecke. Vergleiche dazu Material 4: Bei „oben rechts“ ist es genau umgekehrt.
-
-**Typische Fehler:**
-- Klammern hinter dem Funktionsnamen im EventListener, also `addEventListener('click', unten_links())`. Dann wird die Funktion sofort ausgeführt statt erst beim Klick.
-- Falsche oder abweichend geschriebene IDs, z. B. `menu` statt `menue`. JavaScript unterscheidet genau.
-- `auto` ohne Anführungszeichen schreiben. Richtig ist `'auto'` als Text.
+Für die Prüfung `===` gilt: **ein** `=` weist einen Wert zu, **drei** `===` vergleichen zwei Werte.
