@@ -23,3 +23,9 @@ Pluto 7-8
 ## Postproduktion
 
 - Schnitt mit kdenlive
+
+## Filmfehler
+
+https://www.youtube.com/watch?v=RdG09TXvZSk
+
+https://www.youtube.com/watch?v=lc3h_qP1nmE
