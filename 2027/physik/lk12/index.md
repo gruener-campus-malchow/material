@@ -25,6 +25,7 @@ In diesem Dokument werden im Verlauf des Jahres diverse Materialien und Aufgaben
 - [Einführung in elektrische Felder](04_elektrische_Felder.md)
 - [Klausurvorbereitung](04_Klausurvorbereitung.md)
 - [Kondensatoren](05_Kondensatoren.md)
+- [Klausurvorbereitung](05_Kondensatoren_Vorbereitung_LK_Klausur.md)
 
 
 <!---
