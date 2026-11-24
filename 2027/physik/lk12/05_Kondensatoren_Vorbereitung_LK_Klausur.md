@@ -62,7 +62,7 @@ Weiterlesen: [Lithium-Ionen-Akkumulator](https://de.wikipedia.org/wiki/Lithium-I
 
 ---
 
-## Arbeitsauftrag (Partnerarbeit, 15 min)
+## Arbeitsaufträge (Partnerarbeit, 15 min)
 
 ### Aufgabe 1 – Energie im Versuch
 
