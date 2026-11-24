@@ -9,7 +9,7 @@
 
 # Kondensator oder Akku? – Energiespeicher im Vergleich
 
-> **Leitfrage:** Warum fährt ein E-Auto mit Akku, während ein Bus ihre Bremsenergie oft in Kondensatoren speichert?
+> **Leitfrage:** Warum fährt ein E-Auto mit Akku, während ein Bus seine Bremsenergie oft in Kondensatoren speichert?
 
 ---
 
