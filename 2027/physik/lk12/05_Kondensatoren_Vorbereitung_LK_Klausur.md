@@ -27,7 +27,7 @@ Beide Fahrzeuge speichern elektrische Energie – aber in unterschiedlichen Spei
 
 ## Experiment
 
-**Aufbau:** Ein Superkondensator (1 F), der mit einer R6-Batterie auf 1,5 V geladen wurde, und anschließend eine R6-Batterie (1,5 V) werden jeweils über einen Widerstand $R = 10\,\Omega$ entladen. Die Spannung $U(t)$ wird ca. 3 Minuten lang aufgezeichnet.
+**Aufbau:** Ein Superkondensator (1 F), wird mit einer R6-Batterie auf 1,5 V geladen. Anschließend werden die R6-Batterie (1,5 V) und der geladene Kondensator jeweils über einen Widerstand $R = 10\,\Omega$ entladen. Die beiden Spannung $U(t)$ werden ca. 3 Minuten lang mit dem Messwerterfassungssystem aufgezeichnet.
 
 **Aufträge:**
 
