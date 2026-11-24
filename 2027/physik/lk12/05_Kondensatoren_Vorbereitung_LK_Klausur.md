@@ -27,7 +27,7 @@ Beide Fahrzeuge speichern elektrische Energie – aber in unterschiedlichen Spei
 
 ## Experiment
 
-**Aufbau:** Ein Superkondensator (1 F), der mit einer R6-Batterie auf 1,5 V geladen wurde, und anschließend eine R6-Batterie (1,5 V) werden jeweils über einen Widerstand R = 10 Ω entladen. Die Spannung U(t) wird ca. 3 Minuten lang aufgezeichnet.
+**Aufbau:** Ein Superkondensator (1 F), der mit einer R6-Batterie auf 1,5 V geladen wurde, und anschließend eine R6-Batterie (1,5 V) werden jeweils über einen Widerstand $R = 10\,\Omega$ entladen. Die Spannung $U(t)$ wird ca. 3 Minuten lang aufgezeichnet.
 
 **Aufträge:**
 
@@ -46,14 +46,14 @@ Ein Superkondensator speichert Ladung in einer sehr dünnen **Doppelschicht** zw
 
 ![Prinzip der Helmholtz-Doppelschicht in einem Superkondensator](https://upload.wikimedia.org/wikipedia/commons/b/b2/EDLC-simplified-principle.png)
 
-- Spannung und Ladung sind proportional: **U = Q / C** → beim Entladen sinkt die Spannung.
-- Gespeicherte Energie: **W = ½ · C · U²**
+- Spannung und Ladung sind proportional: $U = \dfrac{Q}{C}$ → beim Entladen sinkt die Spannung.
+- Gespeicherte Energie: $W = \tfrac{1}{2}\,C\,U^2$
 
 ### Batterie und Akku – Energie in chemischen Bindungen
 
 In Batterien und Akkus wird Energie elektrochemisch gespeichert. Im Lithium-Ionen-Akku werden Li⁺-Ionen beim Laden und Entladen in die Elektroden eingelagert und wieder ausgelagert (**Interkalation**). Die Zellspannung wird von den beteiligten Stoffen bestimmt und bleibt beim Entladen lange nahezu konstant.
 
-- Gespeicherte Energie: **W ≈ Q · U_Nenn** (Q in As: 1 Ah = 3600 As)
+- Gespeicherte Energie: $W \approx Q \cdot U_\mathrm{Nenn}$ ($Q$ in As: $1\,\mathrm{Ah} = 3600\,\mathrm{As}$)
 - Lithium-Eisenphosphat-Zellen (LiFePO4, LFP) haben eine Nennspannung von ca. 3,2 V – unabhängig von ihrer Größe:
 
 ![Große LiFePO4-Zellen mit 700 Ah und 3,25 V](https://upload.wikimedia.org/wikipedia/commons/4/43/Lithium_Iron_Phosphate_LiFePO4_Cells_700_Ah_Amp_Hours_3.25_Volts_-_2.jpg)
@@ -83,10 +83,10 @@ Gegeben: große LiFePO4-Zelle 3,2 V / 100 Ah, Masse ca. 2 kg; Superkondensator 3
 
 ### Aufgabe 3 – Leistung (Zusatzaufgabe)
 
-Eine Spannungsquelle mit Leerlaufspannung U und Innenwiderstand Rᵢ wird mit einem Lastwiderstand R belastet.
+Eine Spannungsquelle mit Leerlaufspannung $U$ und Innenwiderstand $R_\mathrm{i}$ wird mit einem Lastwiderstand $R$ belastet.
 
-1. **Leiten** Sie **her**, dass die im Lastwiderstand umgesetzte Leistung für R = Rᵢ maximal wird und P_max = U² / (4 · Rᵢ) beträgt. *(AFB II)*
-2. **Berechnen** Sie P_max und die massenbezogene Leistung für (a) einen Superkondensator 3000 F / 2,7 V mit Rᵢ = 0,3 mΩ und 0,51 kg sowie (b) eine LiFePO4-Zelle (Bauform 18650) mit 3,2 V, Rᵢ = 30 mΩ und 40 g. *(AFB I)*
+1. **Leiten** Sie **her**, dass die im Lastwiderstand umgesetzte Leistung für $R = R_\mathrm{i}$ maximal wird und $P_\mathrm{max} = \dfrac{U^2}{4\,R_\mathrm{i}}$ beträgt. *(AFB II)*
+2. **Berechnen** Sie $P_\mathrm{max}$ und die massenbezogene Leistung für (a) einen Superkondensator 3000 F / 2,7 V mit $R_\mathrm{i} = 0{,}3\,\mathrm{m\Omega}$ und 0,51 kg sowie (b) eine LiFePO4-Zelle (Bauform 18650) mit 3,2 V, $R_\mathrm{i} = 30\,\mathrm{m\Omega}$ und 40 g. *(AFB I)*
 3. **Begründen** Sie, warum es sich bei diesen Werten nur um theoretische Obergrenzen handelt. *(AFB II)*
 
 ---
@@ -123,141 +123,7 @@ Ergänzen Sie die leeren Felder mit Ihren Ergebnissen aus dem Experiment und den
 
 ## Hausaufgabe – Anwendung Straßenbahn
 
-Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum Stillstand. Die Bremsenergie soll vollständig gespeichert werden.
-
-1. **Berechnen** Sie die zurückzugewinnende Energie und die mittlere Bremsleistung. *(AFB I)*
-2. **Ermitteln** Sie Anzahl und Masse der Superkondensatorzellen aus Aufgabe 2, die benötigt werden, wenn jede Zelle nur zwischen 2,7 V und 1,35 V genutzt wird. *(AFB II)*
-3. Eine LiFePO4-Batterie darf dauerhaft höchstens mit 10 C belastet werden (Strom in A = 10 × Kapazität in Ah). **Bestimmen** Sie die Mindestkapazität der Batterie in kWh, damit sie die Bremsleistung aufnehmen kann, und **schätzen** Sie ihre Masse bei einer spezifischen Energie von 150 Wh/kg **ab**. *(AFB II)*
-4. Die Bahn bremst etwa 100-mal pro Tag. **Bewerten** Sie beide Speicherlösungen unter Berücksichtigung von Masse, Zyklenfestigkeit und Lebensdauer. *(AFB III)*
-
----
-
-# Zu erwartende Klausurinhalte
-
-- Kondensatoren Aufbau und elektrisches Feld
-- Entwerfen eines Stromkreises
-- Entladen von Kondensatoren
-- Dielektrikum
-- Energie und Leistung (Kondensator als Energiespeicher)
-- Vergleich Entladevorgang verschiedener Energiespeicher
-
-# Kondensator oder Akku? – Energiespeicher im Vergleich
-
-> **Leitfrage:** Warum fährt ein E-Auto mit Akku, während ein Bus seine Bremsenergie oft in Kondensatoren speichert?
-
----
-
-## Vergleich
-
-|PKW | Capabus (Belgrad) |
-|---|---|
-|![foo](https://upload.wikimedia.org/wikipedia/commons/2/26/Elektroauto_CCS_HPC.jpg)| ![foo](https://upload.wikimedia.org/wikipedia/commons/7/78/Higer_GSP_2101.jpg)
-
-Beide Fahrzeuge speichern elektrische Energie – aber in unterschiedlichen Speichern.
-
-**Auftrag:** Stellen Sie Hypothesen auf, warum die Ingenieure jeweils einen anderen Speicher gewählt haben.
-
----
-
-## Experiment
-
-**Aufbau:** Ein Superkondensator (1 F), der mit einer R6-Batterie auf 1,5 V geladen wurde, und anschließend eine R6-Batterie (1,5 V) werden jeweils über einen Widerstand R = 10 Ω entladen. Die Spannung U(t) wird ca. 3 Minuten lang aufgezeichnet.
-
-**Aufträge:**
-
-1. **Skizzieren** Sie den Schaltplan in Ihrem Heft.
-1. **Messen** Sie die Kurvenverläufe mit dem Messwerterfassungssystem.
-2. **Beschreiben** Sie die Unterschiede zwischen den beiden Kurven.
-3. **Bestimmen** Sie aus der Messkurve die Halbwertszeit.
-
----
-
-## Info: Zwei Speicherprinzipien
-
-### Kondensator – Energie im elektrischen Feld
-
-Ein Superkondensator speichert Ladung in einer sehr dünnen **Doppelschicht** zwischen Elektrode (poröse Aktivkohle mit riesiger Oberfläche) und Elektrolyt. Dabei findet keine chemische Reaktion statt.
-
-![Prinzip der Helmholtz-Doppelschicht in einem Superkondensator](https://upload.wikimedia.org/wikipedia/commons/b/b2/EDLC-simplified-principle.png)
-
-- Spannung und Ladung sind proportional: **U = Q / C** → beim Entladen sinkt die Spannung.
-- Gespeicherte Energie: **W = ½ · C · U²**
-
-### Batterie und Akku – Energie in chemischen Bindungen
-
-In Batterien und Akkus wird Energie elektrochemisch gespeichert. Im Lithium-Ionen-Akku werden Li⁺-Ionen beim Laden und Entladen in die Elektroden eingelagert und wieder ausgelagert (**Interkalation**). Die Zellspannung wird von den beteiligten Stoffen bestimmt und bleibt beim Entladen lange nahezu konstant.
-
-- Gespeicherte Energie: **W ≈ Q · U_Nenn** (Q in As: 1 Ah = 3600 As)
-- Lithium-Eisenphosphat-Zellen (LiFePO4, LFP) haben eine Nennspannung von ca. 3,2 V – unabhängig von ihrer Größe:
-
-![Große LiFePO4-Zellen mit 700 Ah und 3,25 V](https://upload.wikimedia.org/wikipedia/commons/4/43/Lithium_Iron_Phosphate_LiFePO4_Cells_700_Ah_Amp_Hours_3.25_Volts_-_2.jpg)
-
-Weiterlesen: [Lithium-Ionen-Akkumulator](https://de.wikipedia.org/wiki/Lithium-Ionen-Akkumulator) · [Lithium-Eisenphosphat-Akkumulator](https://de.wikipedia.org/wiki/Lithium-Eisenphosphat-Akkumulator) · [Superkondensator](https://de.wikipedia.org/wiki/Superkondensator)
-
----
-
-## Arbeitsaufträge (Partnerarbeit, 15 min)
-
-### Aufgabe 1 – Energie im Versuch
-
-Gegeben: Superkondensator 1 F / 2,7 V, Masse ca. 1 g, im Versuch mit einer R6-Batterie auf 1,5 V geladen; R6-Batterie (Alkali-Mangan) mit einer Kapazität von ca. 2,5 Ah bei geringer Last, mittlerer Entladespannung ca. 1,25 V und Masse ca. 23 g.
-
-1. **Berechnen** Sie die im auf 1,5 V geladenen Superkondensator gespeicherte Energie. *(AFB I)*
-2. **Bestimmen** Sie die Energie, die bei der Entladung bis auf 0,75 V entnommen werden kann. **Zeigen** Sie allgemein, dass bei Entladung auf die halbe Ausgangsspannung stets 75 % der gespeicherten Energie entnommen werden. *(AFB II)*
-3. **Berechnen** Sie die in der R6-Batterie gespeicherte Energie und **vergleichen** Sie beide Speicher hinsichtlich gespeicherter Energie und spezifischer Energie (Energie pro Masse). *(AFB II)*
-
-### Aufgabe 2 – Äquivalente Kapazität
-
-Gegeben: große LiFePO4-Zelle 3,2 V / 100 Ah, Masse ca. 2 kg; Superkondensator 3000 F / 2,7 V, Masse 0,51 kg.
-
-1. **Berechnen** Sie die in der LiFePO4-Zelle gespeicherte Energie. *(AFB I)*
-2. **Bestimmen** Sie die Kapazität eines Kondensators, der bei 3,2 V dieselbe Energie speichert. *(AFB II)*
-3. **Ermitteln** Sie Anzahl und Gesamtmasse der Superkondensatoren, die dieselbe Energie speichern, unter der Annahme, dass sie vollständig bis 0 V entladen werden können. **Vergleichen** Sie mit der Masse der LiFePO4-Zelle. *(AFB II)*
-4. **Beurteilen** Sie, ob die Annahme vollständiger Entladung realistisch ist, und **erläutern** Sie, wie sich das Ergebnis aus 2.3 bei einer Nutzung zwischen 2,7 V und 1,35 V verändert. *(AFB III)*
-
-### Aufgabe 3 – Leistung (Zusatzaufgabe)
-
-Eine Spannungsquelle mit Leerlaufspannung U und Innenwiderstand Rᵢ wird mit einem Lastwiderstand R belastet.
-
-1. **Leiten** Sie **her**, dass die im Lastwiderstand umgesetzte Leistung für R = Rᵢ maximal wird und P_max = U² / (4 · Rᵢ) beträgt. *(AFB II)*
-2. **Berechnen** Sie P_max und die massenbezogene Leistung für (a) einen Superkondensator 3000 F / 2,7 V mit Rᵢ = 0,3 mΩ und 0,51 kg sowie (b) eine LiFePO4-Zelle (Bauform 18650) mit 3,2 V, Rᵢ = 30 mΩ und 40 g. *(AFB I)*
-3. **Begründen** Sie, warum es sich bei diesen Werten nur um theoretische Obergrenzen handelt. *(AFB II)*
-
----
-
-## Sicherung
-
-### Vergleichstabelle
-
-Ergänzen Sie die leeren Felder mit Ihren Ergebnissen aus dem Experiment und den Aufgaben 1 und 2. Die übrigen Werte sind Richtwerte.
-
-| Kenngröße | Superkondensator | Li-Ionen-Akku (NMC) | LiFePO4-Akku (LFP) |
-|---|---|---|---|
-| Speicherprinzip | | | |
-| Spannungsverlauf beim Entladen | | | |
-| Zellspannung | max. 2,5–3 V | 3,6–3,7 V nominal | 3,2–3,3 V nominal |
-| Spezifische Energie | | ca. 150–270 Wh/kg | |
-| Spezifische Leistung | ca. 5–15 kW/kg | ca. 0,3–1,5 kW/kg | ca. 0,3–2 kW/kg |
-| Zyklenfestigkeit | 500 000–1 000 000 | ca. 500–2000 | ca. 2000–6000 und mehr |
-| Ladezeit | Sekunden | ca. 0,5 bis mehrere Stunden | ca. 0,5 bis mehrere Stunden |
-| Sicherheit | kein thermisches Durchgehen | thermisches Durchgehen möglich | thermisch und chemisch deutlich stabiler |
-| Typische Anwendung | | | |
-
-### Ragone-Diagramm
-
-![!large Ragone-Diagramm: Leistungsdichte gegen Energiedichte verschiedener Energiespeicher](https://upload.wikimedia.org/wikipedia/commons/2/28/Power-energy_for_energy_storage_systems.png)
-
-**Aufträge:**
-
-1. **Beschreiben** Sie, wo Kondensatoren, Superkondensatoren und Akkus im Diagramm liegen.
-2. **Erläutern** Sie, warum der Quotient aus spezifischer Energie und spezifischer Leistung die typische Entladezeit angibt.
-3. **Beantworten** Sie die Leitfrage in 3–5 Sätzen.
-
----
-
-## Hausaufgabe – Anwendung Straßenbahn
-
-Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum Stillstand. Die Bremsenergie soll vollständig gespeichert werden.
+Eine Straßenbahn ($m = 30\,\mathrm{t}$) bremst gleichmäßig aus 50 km/h in 10 s bis zum Stillstand. Die Bremsenergie soll vollständig gespeichert werden.
 
 1. **Berechnen** Sie die zurückzugewinnende Energie und die mittlere Bremsleistung. *(AFB I)*
 2. **Ermitteln** Sie Anzahl und Masse der Superkondensatorzellen aus Aufgabe 2, die benötigt werden, wenn jede Zelle nur zwischen 2,7 V und 1,35 V genutzt wird. *(AFB II)*
@@ -280,7 +146,7 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 <h2>Experiment</h2>
 <details>
 <summary><b>1. Schaltplan</b></summary>
-<p>Kondensatorkreis mit Umschalter S: Stellung 1 lädt den Kondensator über einen kleinen Vorwiderstand an der R6-Batterie, Stellung 2 entlädt ihn über R = 10 Ω. Das Messwerterfassungssystem misst die Spannung U(t) <strong>parallel</strong> zum Kondensator.</p>
+<p>Kondensatorkreis mit Umschalter S: Stellung 1 lädt den Kondensator über einen kleinen Vorwiderstand $R_\mathrm{v}$ an der R6-Batterie, Stellung 2 entlädt ihn über $R = 10\,\Omega$. Das Messwerterfassungssystem misst die Spannung $U(t)$ <strong>parallel</strong> zum Kondensator.</p>
 <pre><code> Stellung 1: Laden                 Stellung 2: Entladen
 
  ┌─┤|──[ R_v ]──┬───┐              ┌───┬───────┐
@@ -289,47 +155,49 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
  │              │   │              │   │       │
  └──────────────┴───┘              └───┴───────┘
 </code></pre>
-<p>Batteriekreis: R6-Batterie direkt mit Schalter und R = 10 Ω, Spannungsmessung parallel zur Batterie.</p>
+<p>Batteriekreis: R6-Batterie direkt mit Schalter und $R = 10\,\Omega$, Spannungsmessung parallel zur Batterie.</p>
 <p><strong>Hinweise:</strong> Polung des Superkondensators beachten (Minus an Minus). Ohne Vorwiderstand fließt beim Laden kurzzeitig ein sehr großer Strom.</p>
 </details>
 <details>
 <summary><b>2. Messung: zu erwartende Kurven</b></summary>
 <ul>
-<li><strong>Kondensator:</strong> U fällt exponentiell nach U(t) = U₀ · e^(−t/(R·C)) mit τ = R · C = 10 Ω · 1 F = 10 s. Nach etwa 5τ ≈ 50 s ist der Kondensator praktisch entladen.</li>
-<li><strong>R6-Batterie:</strong> U sinkt beim Einschalten etwas (Spannungsabfall am Innenwiderstand) und bleibt danach während der 3 Minuten nahezu konstant bei ca. 1,4–1,5 V.</li>
+<li><strong>Kondensator:</strong> $U$ fällt exponentiell nach $U(t) = U_0 \cdot e^{-t/(RC)}$ mit $\tau = R \cdot C = 10\,\Omega \cdot 1\,\mathrm{F} = 10\,\mathrm{s}$. Nach etwa $5\tau \approx 50\,\mathrm{s}$ ist der Kondensator praktisch entladen.</li>
+<li><strong>R6-Batterie:</strong> $U$ sinkt beim Einschalten etwas (Spannungsabfall am Innenwiderstand) und bleibt danach während der 3 Minuten nahezu konstant bei ca. 1,4–1,5 V.</li>
 </ul>
 </details>
 <details>
 <summary><b>3. Unterschiede zwischen den Kurven</b></summary>
 <ul>
 <li>Die Kondensatorspannung sinkt stetig und schnell. Die Batteriespannung bleibt fast konstant.</li>
-<li><strong>Erklärung:</strong> Beim Kondensator gilt U = Q / C. Mit jeder abfließenden Ladung sinkt die Spannung, und damit auch der Strom I = U / R, sodass die Entladung immer langsamer wird (Exponentialfunktion). Bei der Batterie wird die Spannung von der chemischen Reaktion bestimmt (Differenz der Elektrodenpotenziale) und hängt kaum davon ab, wie viel Ladung schon entnommen wurde.</li>
+<li><strong>Erklärung:</strong> Beim Kondensator gilt $U = \dfrac{Q}{C}$. Mit jeder abfließenden Ladung sinkt die Spannung, und damit auch der Strom $I = \dfrac{U}{R}$, sodass die Entladung immer langsamer wird (Exponentialfunktion). Bei der Batterie wird die Spannung von der chemischen Reaktion bestimmt (Differenz der Elektrodenpotenziale) und hängt kaum davon ab, wie viel Ladung schon entnommen wurde.</li>
 <li><strong>Folge:</strong> Beim Kondensator zeigt die Spannung den Ladezustand an, bei der Batterie kaum.</li>
 </ul>
 </details>
 <details>
 <summary><b>4. Halbwertszeit</b></summary>
-<p>Aus U(t½) = U₀ / 2 folgt e^(−t½/τ) = ½, also</p>
-<p><strong>t½ = τ · ln 2 = R · C · ln 2 = 10 Ω · 1 F · 0,693 ≈ 6,9 s</strong></p>
+<p>Aus $U(t_{1/2}) = \dfrac{U_0}{2}$ folgt $e^{-t_{1/2}/\tau} = \dfrac{1}{2}$, also</p>
+<p>$$t_{1/2} = \tau \cdot \ln 2 = R \cdot C \cdot \ln 2 = 10\,\Omega \cdot 1\,\mathrm{F} \cdot 0{,}693 \approx 6{,}9\,\mathrm{s}$$</p>
 <p>In der Messkurve: Zeitpunkt ablesen, an dem die Spannung von 1,5 V auf 0,75 V gesunken ist. Die Halbwertszeit ist unabhängig vom Startwert: Von 0,75 V auf 0,375 V dauert es wieder ca. 6,9 s.</p>
-<p>Abweichungen sind normal: Superkondensatoren haben große Kapazitätstoleranzen (oft −20 % bis +80 %), dazu kommen Innen- und Leitungswiderstände. Umgekehrt lässt sich aus dem gemessenen t½ die tatsächliche Kapazität bestimmen: C = t½ / (R · ln 2).</p>
+<p>Abweichungen sind normal: Superkondensatoren haben große Kapazitätstoleranzen (oft −20 % bis +80 %), dazu kommen Innen- und Leitungswiderstände. Umgekehrt lässt sich aus dem gemessenen $t_{1/2}$ die tatsächliche Kapazität bestimmen: $C = \dfrac{t_{1/2}}{R \cdot \ln 2}$.</p>
 <p>Für die Batterie lässt sich keine Halbwertszeit angeben: Ihre Spannung halbiert sich in der Messzeit nicht.</p>
 </details>
 <h2>Aufgabe 1 – Energie im Versuch</h2>
 <details>
 <summary><b>1.1 Gespeicherte Energie</b></summary>
-<p>W = ½ · C · U² = ½ · 1 F · (1,5 V)² <strong>≈ 1,1 J</strong></p>
-<p>Zum Vergleich: Bei der Nennspannung 2,7 V wären es ½ · 1 F · (2,7 V)² ≈ 3,6 J. Da W ~ U² gilt, bringt die höhere Spannung mehr als die dreifache Energie.</p>
+<p>$$W = \tfrac{1}{2}\,C\,U^2 = \tfrac{1}{2} \cdot 1\,\mathrm{F} \cdot (1{,}5\,\mathrm{V})^2 \approx 1{,}1\,\mathrm{J}$$</p>
+<p>Zum Vergleich: Bei der Nennspannung 2,7 V wären es $\tfrac{1}{2} \cdot 1\,\mathrm{F} \cdot (2{,}7\,\mathrm{V})^2 \approx 3{,}6\,\mathrm{J}$. Da $W \sim U^2$ gilt, bringt die höhere Spannung mehr als die dreifache Energie.</p>
 </details>
 <details>
 <summary><b>1.2 Entnehmbare Energie und 75-%-Regel</b></summary>
-<p>Restenergie bei 0,75 V: W_Rest = ½ · 1 F · (0,75 V)² ≈ 0,28 J</p>
-<p>Entnehmbar: ΔW = 1,125 J − 0,28 J <strong>≈ 0,84 J</strong></p>
-<p><strong>Allgemein:</strong> W_Rest / W₀ = (½ · C · (U₀/2)²) / (½ · C · U₀²) = 1/4. Bei Entladung auf die halbe Spannung bleiben 25 % im Kondensator, <strong>75 % werden entnommen</strong>, und zwar unabhängig von C und U₀.</p>
+<p>Restenergie bei 0,75 V: $W_\mathrm{Rest} = \tfrac{1}{2} \cdot 1\,\mathrm{F} \cdot (0{,}75\,\mathrm{V})^2 \approx 0{,}28\,\mathrm{J}$</p>
+<p>$$\Delta W = 1{,}125\,\mathrm{J} - 0{,}28\,\mathrm{J} \approx 0{,}84\,\mathrm{J}$$</p>
+<p><strong>Allgemein:</strong></p>
+<p>$$\frac{W_\mathrm{Rest}}{W_0} = \frac{\tfrac{1}{2}\,C\,\left(\tfrac{U_0}{2}\right)^2}{\tfrac{1}{2}\,C\,U_0^2} = \frac{1}{4}$$</p>
+<p>Bei Entladung auf die halbe Spannung bleiben 25 % im Kondensator, <strong>75 % werden entnommen</strong>, und zwar unabhängig von $C$ und $U_0$.</p>
 </details>
 <details>
 <summary><b>1.3 Vergleich mit der R6-Batterie</b></summary>
-<p>W = Q · U = 2,5 Ah · 3600 s/h · 1,25 V = 11 250 J <strong>≈ 11 kJ ≈ 3,1 Wh</strong></p>
+<p>$$W = Q \cdot U = 2{,}5\,\mathrm{Ah} \cdot 3600\,\tfrac{\mathrm{s}}{\mathrm{h}} \cdot 1{,}25\,\mathrm{V} = 11\,250\,\mathrm{J} \approx 3{,}1\,\mathrm{Wh}$$</p>
 <table>
 <thead>
 <tr>
@@ -341,8 +209,8 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 <tbody>
 <tr>
 <td>Energie</td>
-<td>≈ 1,1 J</td>
-<td>≈ 11 000 J</td>
+<td>$\approx 1{,}1\,\mathrm{J}$</td>
+<td>$\approx 11\,000\,\mathrm{J}$</td>
 </tr>
 <tr>
 <td>Masse</td>
@@ -351,8 +219,8 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 </tr>
 <tr>
 <td>spezifische Energie</td>
-<td>≈ 1,1 J/g ≈ 0,3 Wh/kg</td>
-<td>≈ 490 J/g ≈ 135 Wh/kg</td>
+<td>$\approx 1{,}1\,\mathrm{J/g} \approx 0{,}3\,\mathrm{Wh/kg}$</td>
+<td>$\approx 490\,\mathrm{J/g} \approx 135\,\mathrm{Wh/kg}$</td>
 </tr>
 </tbody>
 </table>
@@ -361,51 +229,57 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 <h2>Aufgabe 2 – Äquivalente Kapazität</h2>
 <details>
 <summary><b>2.1 Energie der LiFePO4-Zelle</b></summary>
-<p>W = Q · U = 100 Ah · 3600 s/h · 3,2 V = 1 152 000 J <strong>≈ 1,15 MJ = 320 Wh</strong></p>
+<p>$$W = Q \cdot U = 100\,\mathrm{Ah} \cdot 3600\,\tfrac{\mathrm{s}}{\mathrm{h}} \cdot 3{,}2\,\mathrm{V} = 1\,152\,000\,\mathrm{J} \approx 1{,}15\,\mathrm{MJ} = 320\,\mathrm{Wh}$$</p>
 </details>
 <details>
 <summary><b>2.2 Äquivalente Kapazität</b></summary>
-<p>Aus W = ½ · C · U² folgt C = 2W / U² = 2 · 1,152 · 10⁶ J / (3,2 V)² <strong>≈ 225 000 F</strong></p>
+<p>Aus $W = \tfrac{1}{2}\,C\,U^2$ folgt</p>
+<p>$$C = \frac{2W}{U^2} = \frac{2 \cdot 1{,}152 \cdot 10^6\,\mathrm{J}}{(3{,}2\,\mathrm{V})^2} \approx 225\,000\,\mathrm{F}$$</p>
 <p>Das entspricht 75 Superkondensatoren mit je 3000 F, allerdings bei 3,2 V, was über deren Nennspannung liegt.</p>
 </details>
 <details>
 <summary><b>2.3 Anzahl und Masse der Superkondensatoren</b></summary>
-<p>Energie pro Zelle: W = ½ · 3000 F · (2,7 V)² ≈ 10 935 J ≈ 3 Wh</p>
-<p>Anzahl: n = 1 152 000 J / 10 935 J ≈ 105,3, also <strong>106 Zellen</strong> (aufrunden!)</p>
-<p>Masse: 106 · 0,51 kg <strong>≈ 54 kg</strong> gegenüber ca. 2 kg für die LiFePO4-Zelle, also etwa das 27-Fache.</p>
+<p>Energie pro Zelle: $W = \tfrac{1}{2} \cdot 3000\,\mathrm{F} \cdot (2{,}7\,\mathrm{V})^2 \approx 10\,935\,\mathrm{J} \approx 3\,\mathrm{Wh}$</p>
+<p>$$n = \frac{1\,152\,000\,\mathrm{J}}{10\,935\,\mathrm{J}} \approx 105{,}3 \quad\Rightarrow\quad n = 106 \text{ Zellen (aufrunden!)}$$</p>
+<p>Masse: $106 \cdot 0{,}51\,\mathrm{kg} \approx 54\,\mathrm{kg}$ gegenüber ca. 2 kg für die LiFePO4-Zelle, also etwa das 27-Fache.</p>
 <p>Spezifische Energie: Superkondensator ≈ 6 Wh/kg, LiFePO4 ≈ 160 Wh/kg</p>
 </details>
 <details>
 <summary><b>2.4 Beurteilung der Annahme</b></summary>
 <p>Die Annahme ist <strong>nicht realistisch</strong>:</p>
 <ul>
-<li>Die angeschlossene Elektronik (DC/DC-Wandler) braucht eine Mindestspannung. Damit die Leistung P = U · I gleich bleibt, muss der Strom bei sinkender Spannung immer weiter steigen. Unterhalb etwa der halben Nennspannung ist das nicht mehr sinnvoll (hohe Verluste, Überlastung).</li>
-<li>Bei Nutzung zwischen 2,7 V und 1,35 V stehen nach der 75-%-Regel nur 0,75 · 10 935 J ≈ 8 200 J pro Zelle zur Verfügung.</li>
+<li>Die angeschlossene Elektronik (DC/DC-Wandler) braucht eine Mindestspannung. Damit die Leistung $P = U \cdot I$ gleich bleibt, muss der Strom bei sinkender Spannung immer weiter steigen. Unterhalb etwa der halben Nennspannung ist das nicht mehr sinnvoll (hohe Verluste, Überlastung).</li>
+<li>Bei Nutzung zwischen 2,7 V und 1,35 V stehen nach der 75-%-Regel nur $0{,}75 \cdot 10\,935\,\mathrm{J} \approx 8\,200\,\mathrm{J}$ pro Zelle zur Verfügung.</li>
 </ul>
-<p>Neue Anzahl: n = 1 152 000 J / 8 200 J ≈ 140,5, also <strong>141 Zellen ≈ 72 kg</strong>. Der Massennachteil gegenüber dem Akku wird noch größer.</p>
+<p>$$n = \frac{1\,152\,000\,\mathrm{J}}{8\,200\,\mathrm{J}} \approx 140{,}5 \quad\Rightarrow\quad n = 141 \text{ Zellen} \approx 72\,\mathrm{kg}$$</p>
+<p>Der Massennachteil gegenüber dem Akku wird noch größer.</p>
 </details>
 <h2>Aufgabe 3 – Leistung</h2>
 <details>
-<summary><b>3.1 Herleitung von P_max</b></summary>
-<p>Strom im Kreis: I = U / (R + Rᵢ)</p>
-<p>Leistung im Lastwiderstand: P(R) = I² · R = U² · R / (R + Rᵢ)²</p>
+<summary><b>3.1 Herleitung von $P_\mathrm{max}$</b></summary>
+<p>Strom im Kreis: $I = \dfrac{U}{R + R_\mathrm{i}}$</p>
+<p>Leistung im Lastwiderstand:</p>
+<p>$$P(R) = I^2 \cdot R = \frac{U^2\,R}{(R + R_\mathrm{i})^2}$$</p>
 <p>Ableiten mit der Quotientenregel:</p>
-<p>dP/dR = U² · [(R + Rᵢ)² − R · 2(R + Rᵢ)] / (R + Rᵢ)⁴ = U² · (Rᵢ − R) / (R + Rᵢ)³</p>
-<p>dP/dR = 0 ⇒ <strong>R = Rᵢ</strong>. Es handelt sich um ein Maximum, weil dP/dR für R &lt; Rᵢ positiv und für R &gt; Rᵢ negativ ist.</p>
-<p>Einsetzen: P_max = U² · Rᵢ / (2Rᵢ)² = <strong>U² / (4 · Rᵢ)</strong></p>
+<p>$$\frac{\mathrm{d}P}{\mathrm{d}R} = U^2 \cdot \frac{(R + R_\mathrm{i})^2 - R \cdot 2(R + R_\mathrm{i})}{(R + R_\mathrm{i})^4} = U^2 \cdot \frac{R_\mathrm{i} - R}{(R + R_\mathrm{i})^3}$$</p>
+<p>$\dfrac{\mathrm{d}P}{\mathrm{d}R} = 0 \;\Rightarrow\; R = R_\mathrm{i}$. Es handelt sich um ein Maximum, weil $\dfrac{\mathrm{d}P}{\mathrm{d}R}$ für $R &lt; R_\mathrm{i}$ positiv und für $R &gt; R_\mathrm{i}$ negativ ist.</p>
+<p>Einsetzen:</p>
+<p>$$P_\mathrm{max} = \frac{U^2\,R_\mathrm{i}}{(2R_\mathrm{i})^2} = \frac{U^2}{4\,R_\mathrm{i}}$$</p>
 <p>Dieser Fall heißt <strong>Leistungsanpassung</strong>.</p>
 </details>
 <details>
 <summary><b>3.2 Zahlenwerte</b></summary>
-<p>(a) Superkondensator: P_max = (2,7 V)² / (4 · 0,0003 Ω) ≈ 6 100 W → 6 100 W / 0,51 kg <strong>≈ 12 kW/kg</strong></p>
-<p>(b) LiFePO4-Zelle: P_max = (3,2 V)² / (4 · 0,030 Ω) ≈ 85 W → 85 W / 0,040 kg <strong>≈ 2,1 kW/kg</strong></p>
+<p>(a) Superkondensator:</p>
+<p>$$P_\mathrm{max} = \frac{(2{,}7\,\mathrm{V})^2}{4 \cdot 0{,}0003\,\Omega} \approx 6\,100\,\mathrm{W} \quad\Rightarrow\quad \frac{6\,100\,\mathrm{W}}{0{,}51\,\mathrm{kg}} \approx 12\,\mathrm{kW/kg}$$</p>
+<p>(b) LiFePO4-Zelle:</p>
+<p>$$P_\mathrm{max} = \frac{(3{,}2\,\mathrm{V})^2}{4 \cdot 0{,}030\,\Omega} \approx 85\,\mathrm{W} \quad\Rightarrow\quad \frac{85\,\mathrm{W}}{0{,}040\,\mathrm{kg}} \approx 2{,}1\,\mathrm{kW/kg}$$</p>
 <p>Der Superkondensator erreicht also eine etwa sechsmal höhere Leistung pro Masse.</p>
 </details>
 <details>
 <summary><b>3.3 Warum nur theoretische Obergrenzen?</b></summary>
 <ul>
 <li>Bei Leistungsanpassung wird im Innenwiderstand genauso viel Leistung in Wärme umgesetzt wie in der Last (Wirkungsgrad nur 50 %). Die Zellen würden sich stark erhitzen und Schaden nehmen.</li>
-<li>Beim Kondensator sinkt die Spannung während der Entladung. P_max gilt also nur im ersten Moment.</li>
+<li>Beim Kondensator sinkt die Spannung während der Entladung. $P_\mathrm{max}$ gilt also nur im ersten Moment.</li>
 <li>Beim Akku begrenzen zusätzlich die Geschwindigkeit der chemischen Reaktion und die Diffusion der Ionen den Strom. Der Hersteller gibt deshalb eine maximale Belastung (C-Rate) an, die weit unter dem rechnerischen Kurzschlussstrom liegt.</li>
 </ul>
 </details>
@@ -430,7 +304,7 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 </tr>
 <tr>
 <td>Spannungsverlauf beim Entladen</td>
-<td>fällt stetig (über R exponentiell, bei konstantem Strom linear)</td>
+<td>fällt stetig (über $R$ exponentiell, bei konstantem Strom linear)</td>
 <td>fällt langsam (ca. 4,2 V → 3,0 V)</td>
 <td>sehr flaches Plateau bei ca. 3,2 V, erst am Ende steiler Abfall</td>
 </tr>
@@ -461,9 +335,9 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 </details>
 <details>
 <summary><b>Ragone-Diagramm 2: Quotient = Entladezeit</b></summary>
-<p>(W/m) / (P/m) = W / P = t, die Masse kürzt sich heraus. Die Einheit ist (Wh/kg) / (W/kg) = h.</p>
-<p>Der Quotient gibt also an, wie lange der Speicher seine Leistung abgeben kann, bis er leer ist. Da beide Achsen logarithmisch sind, liegen alle Punkte mit gleicher Entladezeit auf einer Geraden (Diagonale). Typische Werte: Kondensator Millisekunden bis Sekunden, Superkondensator Sekunden, Akku Minuten bis Stunden.</p>
-<p>Beispiel: LiFePO4 mit 160 Wh/kg und 0,5 kW/kg: t = 160 Wh / 500 W ≈ 0,3 h ≈ 20 min.</p>
+<p>$$\frac{W/m}{P/m} = \frac{W}{P} = t \qquad \text{Einheit: } \frac{\mathrm{Wh/kg}}{\mathrm{W/kg}} = \mathrm{h}$$</p>
+<p>Die Masse kürzt sich heraus. Der Quotient gibt also an, wie lange der Speicher seine Leistung abgeben kann, bis er leer ist. Da beide Achsen logarithmisch sind, liegen alle Punkte mit gleicher Entladezeit auf einer Geraden (Diagonale). Typische Werte: Kondensator Millisekunden bis Sekunden, Superkondensator Sekunden, Akku Minuten bis Stunden.</p>
+<p>Beispiel: LiFePO4 mit 160 Wh/kg und 0,5 kW/kg: $t = \dfrac{160\,\mathrm{Wh}}{500\,\mathrm{W}} \approx 0{,}3\,\mathrm{h} \approx 20\,\mathrm{min}$</p>
 </details>
 <details>
 <summary><b>Ragone-Diagramm 3: Antwort auf die Leitfrage</b></summary>
@@ -472,21 +346,22 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 <h2>Hausaufgabe – Anwendung Straßenbahn</h2>
 <details>
 <summary><b>1. Energie und Bremsleistung</b></summary>
-<p>v = 50 km/h = 13,9 m/s</p>
-<p>E_kin = ½ · m · v² = ½ · 30 000 kg · (13,9 m/s)² <strong>≈ 2,9 MJ ≈ 0,8 kWh</strong></p>
-<p>P = E / t = 2,9 MJ / 10 s <strong>≈ 290 kW</strong></p>
+<p>$v = 50\,\mathrm{km/h} = 13{,}9\,\mathrm{m/s}$</p>
+<p>$$E_\mathrm{kin} = \tfrac{1}{2}\,m\,v^2 = \tfrac{1}{2} \cdot 30\,000\,\mathrm{kg} \cdot \left(13{,}9\,\tfrac{\mathrm{m}}{\mathrm{s}}\right)^2 \approx 2{,}9\,\mathrm{MJ} \approx 0{,}8\,\mathrm{kWh}$$</p>
+<p>$$P = \frac{E}{t} = \frac{2{,}9\,\mathrm{MJ}}{10\,\mathrm{s}} \approx 290\,\mathrm{kW}$$</p>
 </details>
 <details>
 <summary><b>2. Anzahl und Masse der Superkondensatorzellen</b></summary>
-<p>Nutzbare Energie pro Zelle (75-%-Regel): 0,75 · 10 935 J ≈ 8 200 J</p>
-<p>n = 2 894 000 J / 8 200 J ≈ 352,9, also <strong>353 Zellen</strong></p>
-<p>Masse: 353 · 0,51 kg <strong>≈ 180 kg</strong></p>
+<p>Nutzbare Energie pro Zelle (75-%-Regel): $0{,}75 \cdot 10\,935\,\mathrm{J} \approx 8\,200\,\mathrm{J}$</p>
+<p>$$n = \frac{2\,894\,000\,\mathrm{J}}{8\,200\,\mathrm{J}} \approx 352{,}9 \quad\Rightarrow\quad n = 353 \text{ Zellen}$$</p>
+<p>Masse: $353 \cdot 0{,}51\,\mathrm{kg} \approx 180\,\mathrm{kg}$</p>
 </details>
 <details>
 <summary><b>3. Mindestkapazität und Masse des LiFePO4-Akkus</b></summary>
-<p>Bei 10 C gilt I = 10 h⁻¹ · Q. Damit ist P = U · I = 10 h⁻¹ · (Q · U) = 10 h⁻¹ · W.</p>
-<p>W = P / 10 h⁻¹ = 290 kW / 10 h⁻¹ <strong>= 29 kWh</strong></p>
-<p>Masse: 29 000 Wh / 150 Wh/kg <strong>≈ 190 kg</strong></p>
+<p>Bei 10 C gilt $I = 10\,\mathrm{h^{-1}} \cdot Q$. Damit ist</p>
+<p>$$P = U \cdot I = 10\,\mathrm{h^{-1}} \cdot (Q \cdot U) = 10\,\mathrm{h^{-1}} \cdot W$$</p>
+<p>$$W = \frac{P}{10\,\mathrm{h^{-1}}} = \frac{290\,\mathrm{kW}}{10\,\mathrm{h^{-1}}} = 29\,\mathrm{kWh}$$</p>
+<p>Masse: $\dfrac{29\,000\,\mathrm{Wh}}{150\,\mathrm{Wh/kg}} \approx 190\,\mathrm{kg}$</p>
 <p>Auffällig: Gespeichert werden müssen nur 0,8 kWh. Der Akku muss aber 36-mal so groß sein, nur damit er die <strong>Leistung</strong> verträgt.</p>
 </details>
 <details>
@@ -499,3 +374,8 @@ Eine Straßenbahn (m = 30 t) bremst gleichmäßig aus 50 km/h in 10 s bis zum St
 <li><strong>Urteil:</strong> Für die Rückgewinnung von Bremsenergie ist der Superkondensator die bessere Wahl. Soll die Bahn dagegen längere Strecken ohne Oberleitung fahren (viel Energie), ist der Akku nötig. In der Praxis kombiniert man deshalb oft beide Speicher (Hybridspeicher).</li>
 </ul>
 </details>
+
+<script>
+window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] } };
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
