@@ -59,6 +59,7 @@ Zur Unterhaltung und zur Prüfung eine Art Lernspiel:
 - [Trainingskonsole 08](Trainingskonsole_JS-08.html) Übungsaufgaben und **Wissen/Lektionen** im Archiv
 - [Trainingskonsole 09](Trainingskonsole_JS-09.html) Weitere Aufgabenformate, Duell-Modus, **Spiel**
 
+
 ---
 
 > Have a lot of fun!
