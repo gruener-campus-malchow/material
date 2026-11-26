@@ -55,8 +55,8 @@ WPU 9 Informatik
 
 Zur Unterhaltung und zur Prüfung eine Art Lernspiel: 
 
--[Trainingskonsole 07](Trainingskonsole_JS-07.html)
--[Trainingskonsole 08](Trainingskonsole_JS-08.html)
+- [Trainingskonsole 07](Trainingskonsole_JS-07.html)
+- [Trainingskonsole 08](Trainingskonsole_JS-08.html)
 
 
 ---
