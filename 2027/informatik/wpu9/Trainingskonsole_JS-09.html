@@ -259,8 +259,7 @@
   .ast{position:absolute;left:0;top:0;cursor:crosshair;will-change:transform;z-index:2}
   .ast svg{width:100%;height:100%;display:block;pointer-events:none}
   .ast.kristall{filter:drop-shadow(0 0 8px #7ff) drop-shadow(0 0 3px #fff)}
-  .ast.popin svg{animation:popin .35s ease-out}
-  @keyframes popin{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+  .ast.popin{transform-origin:center}
   .ast.fade{pointer-events:none;transition:opacity .3s;opacity:0}
   .ast.scanned{pointer-events:none;animation:scanned .45s forwards}
   @keyframes scanned{0%{filter:brightness(2) drop-shadow(0 0 10px var(--o))}100%{opacity:0;filter:brightness(3);scale:.4}}
@@ -273,6 +272,12 @@
   .gpop{position:absolute;z-index:4;pointer-events:none;color:var(--y);font-size:22px;letter-spacing:1px;translate:-50% -50%;animation:gpop .9s forwards;text-shadow:0 0 6px #000}
   .gpop.big{color:#9ff;font-size:32px}
   @keyframes gpop{0%{opacity:0;transform:translateY(0)}15%{opacity:1}100%{opacity:0;transform:translateY(-46px)}}
+  #fEnergie{color:var(--g)}
+  #fEnergie.low{color:var(--r);animation:blink 1s steps(2) infinite}
+  .stat small{font-size:13px;color:var(--r)}
+  .flock{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:20px;background:rgba(6,6,12,.82)}
+  .flock h3{color:var(--r);font-size:22px}
+  .flock p{max-width:420px}
   .fres{position:absolute;inset:0;margin:auto;width:min(90%,360px);height:fit-content;background:rgba(10,8,20,.94);border:3px solid var(--o);border-radius:0 26px 26px 0;padding:16px 20px;z-index:5;text-align:center}
   .fres h3{color:var(--o)}
   .fres b{color:var(--y);font-size:24px;font-weight:500}
@@ -340,7 +345,7 @@
     <div class="blk c3 btn off" id="jFifty" title="Zwei falsche Antworten ausblenden"><span>Analyse</span><b id="jFiftyN">2</b></div>
     <div class="blk c4 btn off" id="jTime" title="Zeit für diese Aufgabe anhalten"><span>Zeitstopp</span><b id="jTimeN">1</b></div>
     <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Archiv</span><b id="sArchivV">0/9</b></div>
-    <div class="blk c4 btn" id="sScan" title="Asteroiden-Scan öffnen"><span>Scan-Daten</span><b id="sScanV">0</b></div>
+    <div class="blk c4 btn" id="sScan" title="Asteroiden-Scan öffnen"><span>Scan-Energie</span><b id="sScanV">0</b></div>
     <div class="blk c5 grow btn" id="sSound" title="Ton an/aus"><span>Ton</span><b id="sSoundV">An</b></div>
   </aside>
 
@@ -358,7 +363,7 @@
         </button>
         <button class="mode" data-mode="einsatz">
           <h3>Einsatz</h3>
-          <p>30 Sekunden pro Aufgabe, Zeitbonus, 3 Schilde. Bei jedem Fehler fällt ein Schild aus.</p>
+          <p>30 Sekunden pro Aufgabe, Zeitbonus, 3 Schilde. Bei jedem Fehler fällt ein Schild aus. Jede richtige Antwort lädt 10 Scan-Energie auf.</p>
         </button>
         <button class="mode" data-mode="duell">
           <h3>Duell</h3>
@@ -383,21 +388,25 @@
     <!-- Asteroiden-Scan -->
     <section class="screen" id="scrGame">
       <h1>Asteroiden-Scan</h1>
-      <p>Scanne die vorbeiziehenden Asteroiden, indem du sie anklickst oder antippst. Jeder Scan kostet eine Ladung – auch daneben. Kleine, schnelle Brocken bringen mehr Daten, leuchtende <b>Kristalle</b> sind selten und besonders wertvoll. Schnelle Treffer hintereinander ergeben eine <b>Combo</b>. Mit den Daten rüstest du den Scanner auf. Quiz-Punkte bringen zusätzlich Bonus-Daten.</p>
+      <p>Scanne die vorbeiziehenden Asteroiden, indem du sie anklickst oder antippst. Jeder Scan kostet eine Ladung – auch daneben. Kleine, schnelle Brocken bringen mehr Daten, leuchtende <b>Kristalle</b> sind selten und besonders wertvoll. Manche Asteroiden tauchen in der Ferne auf und kommen langsam näher – wer sie früh erwischt, bekommt einen <b>Fernscan-Bonus</b>. Schnelle Treffer hintereinander ergeben eine <b>Combo</b>. Mit den Daten rüstest du den Scanner auf.</p>
+      <p><b>Scan-Energie</b> verdienst du nur im <b>Einsatz</b>: Jede richtige Antwort bringt 10 Scans, eine teilweise richtige 5. Jeder Klick im Feld verbraucht einen Scan, Sensordrohnen verbrauchen ebenfalls Energie.</p>
       <div class="gstats">
+        <div class="stat">Scan-Energie<b id="gEnergie">0</b></div>
         <div class="stat">Daten<b id="gDaten">0</b></div>
         <div class="stat">pro Scan<b id="gPer">1</b></div>
-        <div class="stat">pro Sekunde<b id="gSec">0</b></div>
+        <div class="stat">Drohnen pro Sekunde<b><span id="gSec">0</span> <small id="gSecUse"></small></b></div>
         <div class="stat">Gescannt<b id="gScans">0</b></div>
         <div class="stat">Rekord-Lauf<b id="gBest">0</b></div>
       </div>
       <div class="field" id="field">
-        <div class="fhud"><span id="fTime">Freies Scannen</span><span class="chg" id="fCharges"></span><span id="fCombo"></span><span id="fRun"></span></div>
+        <div class="fhud"><span id="fEnergie">Energie</span><span id="fTime">Freies Scannen</span><span class="chg" id="fCharges"></span><span id="fCombo"></span><span id="fRun"></span></div>
         <div id="fMsg"></div>
+        <div class="flock" id="flock" style="display:none"><h3>Scan-Energie leer</h3><p>Neue Scans verdienst du im Einsatz: 10 pro richtiger Antwort.</p><button class="pill" id="gEinsatz">Einsatz starten</button></div>
       </div>
       <div class="row" style="margin:12px 0 18px">
         <button class="pill" id="gRun">Scan-Lauf starten (60 s)</button>
         <button class="pill l" id="gReload">Nachladen</button>
+        <button class="pill t" id="gEinsatz2">Energie im Einsatz verdienen</button>
         <span class="muted">Nachladen auch mit Leertaste oder Rechtsklick.</span>
       </div>
       <h3>Aufrüstung</h3>
@@ -1095,7 +1104,7 @@ function renderSide(){
   const busy = inQ && !G.answered;
   $('sArchiv').classList.toggle('off', busy);
   $('sScan').classList.toggle('off', busy);
-  $('sScanV').textContent = fmtNum(AST.s.daten);
+  $('sScanV').textContent = fmtNum(AST.s.energie);
 }
 
 function renderDuelBar(){
@@ -1313,6 +1322,8 @@ function finish(ok, given, extra, isTimeout, frac){
     pts = Math.round((100 * frac + bonus) * mult());
     pl.score += pts;
   }
+  let en = 0;                                   // Scan-Energie gibt es nur im Einsatz
+  if(G.mode === 'einsatz'){ en = ok ? EN_RIGHT : frac > 0 ? EN_PART : 0; if(en){ AST.addEnergy(en); G.energy = (G.energy || 0) + en; } }
   if(ok){ SND.ok(); flash('good'); popup('+' + pts); }
   else {
     pl.streak = 0;
@@ -1322,7 +1333,7 @@ function finish(ok, given, extra, isTimeout, frac){
   G.log.push({q, ok, given, pts, who: isDuel() ? pl.name : ''});
   $('fb').className = 'fb on' + (ok ? '' : ' bad');
   const who = isDuel() ? pl.name + ': ' : '';
-  $('fbH').textContent = who + (ok ? 'Korrekt · +' + pts + ' Punkte' : frac > 0 ? 'Teilweise · +' + pts + ' Punkte' : (isTimeout ? 'Zeit abgelaufen' : 'Fehler') + (G.mode === 'einsatz' ? ' · Schild beschädigt' : ''));
+  $('fbH').textContent = who + (ok ? 'Korrekt · +' + pts + ' Punkte' : frac > 0 ? 'Teilweise · +' + pts + ' Punkte' : (isTimeout ? 'Zeit abgelaufen' : 'Fehler') + (G.mode === 'einsatz' ? ' · Schild beschädigt' : '')) + (en ? ' · +' + en + ' Scan-Energie' : '');
   $('fbP').textContent = (q.t === 'text' ? '' : q.e) + (extra ? (q.t === 'text' ? '' : '  ') + extra : '');
   const last = G.i >= G.qs.length - 1 || (G.mode === 'einsatz' && pl.shields <= 0);
   $('btnNext').textContent = last ? 'Auswertung' : isDuel() ? 'Weiter – ' + G.players[(G.i + 1) % 2].name + ' ist dran' : 'Weiter';
@@ -1413,8 +1424,7 @@ function endGame(){
       statsHtml += stat(isNew ? 'Neuer Rekord!' : 'Rekord (' + (G.mode === 'einsatz' ? 'Einsatz' : 'Training') + ')', isNew ? pl.score : hs);
     }
   }
-  const bonus = Math.floor(G.players.reduce((s, p) => s + p.score, 0) / 10);
-  if(bonus > 0){ AST.add(bonus); statsHtml += stat('Scan-Bonus', '+' + fmtNum(bonus) + ' Daten'); }
+  if(G.mode === 'einsatz') statsHtml += stat('Scan-Energie', '+' + (G.energy || 0) + ' Scans');
   $('endHead').textContent = head;
   $('endMsg').textContent = msg;
   $('endStats').innerHTML = statsHtml;
@@ -1518,10 +1528,12 @@ const UPG = [
   {id:'verst',    name:'Scan-Verstärker', desc:'+1 Daten pro Scan',                              base:15, f:1.6,  max:60},
   {id:'zellen',   name:'Energiezellen',   desc:'+2 Ladungen im Scanner',                         base:25, f:1.8,  max:10},
   {id:'ladung',   name:'Schnellladung',   desc:'Ladungen füllen sich schneller nach',            base:30, f:1.9,  max:8},
-  {id:'drohne',   name:'Sensordrohne',    desc:'+0,5 Daten pro Sekunde – auch ohne Klicken',     base:40, f:1.45, max:99},
+  {id:'drohne',   name:'Sensordrohne',    desc:'+0,5 Daten pro Sekunde ohne Klicken, verbraucht 1 Energie pro 10 s', base:40, f:1.45, max:99},
   {id:'ziel',     name:'Zielerfassung',   desc:'Asteroiden fliegen langsamer und sind größer',   base:60, f:2,    max:5},
   {id:'kristall', name:'Kristalldetektor',desc:'Seltene Kristalle tauchen häufiger auf',         base:80, f:2.2,  max:5}
 ];
+const EN_RIGHT = 10, EN_PART = 5, EN_START = 20;   // Scans pro richtiger / teilweise richtiger Antwort, Startguthaben
+const DRONE_USE = 0.1;                                // Energie pro Drohne und Sekunde
 const KINDS = {
   gross:   {r:40, v:75,  val:1,  w:40},
   mittel:  {r:28, v:110, val:2,  w:35},
@@ -1529,7 +1541,7 @@ const KINDS = {
   kristall:{r:20, v:210, val:15, w:0}
 };
 const AST = {
-  s: Object.assign({daten:0, total:0, scans:0, best:0, lv:{}}, store('js07_ast') || {}),
+  s: Object.assign({daten:0, total:0, scans:0, best:0, lv:{}, energie:EN_START}, store('js07_ast') || {}),
   asts: [], active: false, running: false, runEnd: 0, runData: 0, runHits: 0, combo: 0, lastHit: 0,
   charges: 0, lastCharge: 0, nextSpawn: 0, raf: 0, last: 0, reloadUntil: 0, saveT: 0,
 
@@ -1541,19 +1553,27 @@ const AST = {
   perSec(){ return 0.5 * this.lv('drohne'); },
   save(){ store('js07_ast', this.s); },
   add(n){ this.s.daten += n; this.s.total += n; this.save(); this.ui(); },
+  addEnergy(n){ this.s.energie = (this.s.energie || 0) + n; this.save(); this.ui(); },
+  hasEnergy(){ return this.s.energie >= 1; },
   comboMul(){ return Math.min(3, 1 + Math.floor(this.combo / 5) * 0.5); },
 
   init(){
     this.field = $('field');
     this.charges = this.maxCharges();
-    this.field.addEventListener('pointerdown', e => { if(e.target.closest('.ast') || e.target.closest('.fres')) return; this.miss(e); });
+    this.field.addEventListener('pointerdown', e => { if(e.target.closest('.ast') || e.target.closest('.fres') || e.target.closest('.flock')) return; this.miss(e); });
+    $('gEinsatz').addEventListener('click', () => {
+      mode = 'einsatz';
+      document.querySelectorAll('.mode').forEach(x => x.classList.toggle('sel', x.dataset.mode === 'einsatz'));
+      $('duelSetup').style.display = 'none'; $('btnStart').textContent = 'Mission starten';
+      startGame();
+    });
     this.field.addEventListener('contextmenu', e => { e.preventDefault(); this.reload(); });
     $('gRun').addEventListener('click', () => this.startRun());
     $('gReload').addEventListener('click', () => this.reload());
     $('gBack').addEventListener('click', () => { SND.tap(); G = null; show('scrStart'); showHS(); });
-    setInterval(() => {   // Drohnen arbeiten, solange die Seite offen ist
-      const ps = this.perSec();
-      if(ps > 0){ this.s.daten += ps; this.s.total += ps; }
+    setInterval(() => {   // Drohnen arbeiten nur bei geöffnetem Scan-Feld und verbrauchen Energie
+      const ps = this.perSec(), use = DRONE_USE * this.lv('drohne');
+      if(this.active && ps > 0 && this.s.energie >= use){ this.s.daten += ps; this.s.total += ps; this.s.energie -= use; }
       if(++this.saveT % 5 === 0) this.save();
       this.ui();
     }, 1000);
@@ -1599,7 +1619,12 @@ const AST = {
     el.style.width = el.style.height = (2 * r) + 'px';
     el.innerHTML = this.shape(kind);
     const a = {el, x, y, vx: (tx - x) / d * v, vy: (ty - y) / d * v, r, rot: Math.random() * 360, vr: (Math.random() - 0.5) * 90, kind,
-               die: popIn ? performance.now() + (1900 + Math.random() * 1500) * (this.running ? 0.8 : 1) * (kind === 'kristall' ? 0.7 : 1) * (1 + 0.1 * this.lv('ziel')) : 0};
+               die: 0, born: performance.now(), grow: 0};
+    if(popIn){   // taucht in der Ferne auf und kommt langsam auf den Betrachter zu
+      const life = (3200 + Math.random() * 1600) * (this.running ? 0.8 : 1) * (kind === 'kristall' ? 0.75 : 1) * (1 + 0.1 * this.lv('ziel'));
+      a.die = a.born + life; a.grow = life * 0.9;
+      el.style.transform = 'translate(' + (x - r) + 'px,' + (y - r) + 'px) scale(.12)';
+    }
     el.addEventListener('pointerdown', e => { e.stopPropagation(); this.hit(a, e); });
     this.field.appendChild(el);
     this.asts.push(a);
@@ -1617,23 +1642,25 @@ const AST = {
   },
   pos(e){ const r = this.field.getBoundingClientRect(); return {x: e.clientX - r.left, y: e.clientY - r.top}; },
   useCharge(){
+    if(!this.hasEnergy()){ SND.empty(); this.ui(); return false; }
     if(performance.now() < this.reloadUntil) return false;
     if(this.charges <= 0){ SND.empty(); this.msg('Leer! Nachladen (Leertaste / Rechtsklick)'); return false; }
-    this.charges--; return true;
+    this.charges--; this.s.energie -= 1; return true;
   },
   hit(a, e){
     if(!this.useCharge()) return;
     const now = performance.now();
     this.combo = now - this.lastHit < 1500 ? this.combo + 1 : 1;
     this.lastHit = now;
-    const gain = Math.round(KINDS[a.kind].val * this.perScan() * this.comboMul());
+    const far = a.grow && a.sc < 0.5;                     // Fernscan: früh erwischt, noch klein
+    const gain = Math.round(KINDS[a.kind].val * this.perScan() * this.comboMul() * (far ? 1.5 : 1));
     this.s.daten += gain; this.s.total += gain; this.s.scans++;
     if(this.running){ this.runData += gain; this.runHits++; }
     a.el.classList.add('scanned'); a.dead = true;
     setTimeout(() => a.el.remove(), 450);
     const p = this.pos(e);
     this.fx(p.x, p.y, 'ring' + (a.kind === 'kristall' ? ' gem' : ''));
-    this.pop(p.x, p.y, '+' + gain, a.kind === 'kristall');
+    this.pop(p.x, p.y, (far ? 'Fernscan +' : '+') + gain, a.kind === 'kristall' || far);
     a.kind === 'kristall' ? SND.gem() : SND.scan();
     this.ui();
   },
@@ -1657,17 +1684,16 @@ const AST = {
   msg(t){ const m = $('fMsg'); m.textContent = t; m.classList.remove('show'); void m.offsetWidth; m.classList.add('show'); },
 
   startRun(){
-    if(this.running) return;
+    if(this.running || !this.hasEnergy()) return;
     SND.joker();
     const old = this.field.querySelector('.fres'); if(old) old.remove();
     this.running = true; this.runEnd = performance.now() + 60000; this.runData = 0; this.runHits = 0; this.combo = 0;
     this.charges = this.maxCharges();
-    $('gRun').disabled = true;
+    this.ui();
     this.msg('Scan-Lauf gestartet!');
   },
   endRun(){
     this.running = false;
-    $('gRun').disabled = false;
     const rec = this.runData > this.s.best;
     if(rec) this.s.best = this.runData;
     this.save();
@@ -1693,14 +1719,21 @@ const AST = {
       if(a.die && t > a.die){ a.dead = true; a.el.classList.add('fade'); setTimeout(() => a.el.remove(), 300); return false; }
       a.x += a.vx * dt; a.y += a.vy * dt; a.rot += a.vr * dt;
       if(a.x < -a.r * 2 - 10 || a.x > W + a.r * 2 + 10 || a.y < -a.r * 2 - 10 || a.y > H + a.r * 2 + 10){ a.el.remove(); return false; }
-      a.el.style.transform = 'translate(' + (a.x - a.r) + 'px,' + (a.y - a.r) + 'px) rotate(' + a.rot + 'deg)';
+      let sc = 1;
+      if(a.grow){   // Annäherung: Größe wächst beschleunigt, wie bei echter Perspektive
+        const k = Math.min(1, (t - a.born) / a.grow);
+        sc = 0.12 + 1.23 * k * k;   // endet etwas größer als normal: fliegt nah vorbei
+        a.el.style.opacity = (0.35 + 0.65 * Math.min(1, k * 1.6)).toFixed(2);
+      }
+      a.sc = sc;
+      a.el.style.transform = 'translate(' + (a.x - a.r) + 'px,' + (a.y - a.r) + 'px) scale(' + sc.toFixed(3) + ') rotate(' + a.rot + 'deg)';
       return true;
     });
     if(this.combo && t - this.lastHit > 1500){ this.combo = 0; this.uiHud(); }
     if(this.running){
       const left = Math.max(0, this.runEnd - t);
       $('fTime').textContent = Math.ceil(left / 1000) + ' s';
-      if(left <= 0) this.endRun();
+      if(left <= 0 || !this.hasEnergy()) this.endRun();
     }
     this.raf = requestAnimationFrame(tt => this.loop(tt));
   },
@@ -1732,8 +1765,15 @@ const AST = {
     if(!this.running) $('fTime').textContent = 'Freies Scannen';
   },
   ui(){
-    const sv = $('sScanV'); if(sv) sv.textContent = fmtNum(this.s.daten);
+    const sv = $('sScanV'); if(sv) sv.textContent = fmtNum(this.s.energie);
     if(!this.active) return;
+    const e = Math.floor(this.s.energie);
+    $('gEnergie').textContent = fmtNum(e);
+    $('fEnergie').textContent = 'Energie ' + fmtNum(e);
+    $('fEnergie').classList.toggle('low', e < 15);
+    $('flock').style.display = this.hasEnergy() ? 'none' : '';
+    $('gRun').disabled = this.running || !this.hasEnergy();
+    $('gSecUse').textContent = this.lv('drohne') ? '−' + String(+(DRONE_USE * this.lv('drohne')).toFixed(1)).replace('.', ',') + ' Energie/s' : '';
     $('gDaten').textContent = fmtNum(this.s.daten);
     $('gPer').textContent = fmtNum(this.perScan());
     $('gSec').textContent = String(this.perSec()).replace('.', ',');
@@ -1776,6 +1816,7 @@ document.addEventListener('DOMContentLoaded', () => {
   $('jTime').addEventListener('click', useTime);
   $('sArchiv').addEventListener('click', openArchiv);
   $('sScan').addEventListener('click', () => { if($('sScan').classList.contains('off')) return; SND.tap(); if(G) clearInterval(G.timer); show('scrGame'); });
+  $('gEinsatz2').addEventListener('click', () => $('gEinsatz').click());
   $('sSound').addEventListener('click', () => { soundOn = !soundOn; store('js07_sound', soundOn); renderSide(); SND.tap(); });
   $('lesCheck').addEventListener('click', () => startGame({cat: catOf(lessonById(curLesson)), n: 3, lesson: curLesson}));
   $('lesTrain').addEventListener('click', () => startGame({cat: catOf(lessonById(curLesson)), n: 8, from: curLesson}));
