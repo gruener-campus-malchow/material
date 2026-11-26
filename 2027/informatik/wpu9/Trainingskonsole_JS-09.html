@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trainingskonsole JS-09.2 · JavaScript &amp; Events</title>
+<title>Trainingskonsole JS-09.3 · JavaScript &amp; Events</title>
 <style>
   :root{
     --bg:#000;
@@ -159,7 +159,7 @@
   .mini:hover{filter:brightness(1.15)}
   pre.code .cm{color:#8f8ab8;font-style:italic}
 
-  /* Archiv & Lektionen */
+  /* Lektionen */
   .alist{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:10px;margin:14px 0 20px}
   .lcard{display:flex;align-items:stretch;gap:0;background:#0c0c14;border:0;border-left:10px solid;border-radius:0 24px 24px 0;padding:0;text-align:left;color:var(--p);min-height:64px;overflow:hidden}
   .lcard:hover{background:#1a1424}
@@ -331,7 +331,7 @@
   <div class="bars">
     <div class="seg grow" style="background:var(--l)"></div>
     <div class="title"><span class="hide-s">Trainingskonsole · </span>JavaScript &amp; Events</div>
-    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.2</div>
+    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.3</div>
     <div class="seg hide-s" style="background:var(--p);width:44px"></div>
     <div class="cap" style="background:var(--b)"></div>
   </div>
@@ -344,7 +344,7 @@
     <div class="blk c6" id="sShieldBlk"><span>Schilde</span><div class="shields" id="sShields"></div></div>
     <div class="blk c3 btn off" id="jFifty" title="Zwei falsche Antworten ausblenden"><span>Analyse</span><b id="jFiftyN">2</b></div>
     <div class="blk c4 btn off" id="jTime" title="Zeit für diese Aufgabe anhalten"><span>Zeitstopp</span><b id="jTimeN">1</b></div>
-    <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Archiv</span><b id="sArchivV">0/9</b></div>
+    <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Lektionen</span><b id="sArchivV">0/9</b></div>
     <div class="blk c4 btn" id="sScan" title="Asteroiden-Scan öffnen"><span>Scan-Energie</span><b id="sScanV">0</b></div>
     <div class="blk c5 grow btn" id="sSound" title="Ton an/aus"><span>Ton</span><b id="sSoundV">An</b></div>
   </aside>
@@ -378,10 +378,10 @@
       <h3>Spielregeln</h3>
       <p class="muted">Richtige Antwort: 100 Punkte. Serien-Multiplikator: ab 3 richtigen in Folge ×1,5, ab 5 ×2. Im Einsatz gibt es bis zu 50 Bonuspunkte für schnelle Antworten. Joker: <b>Analyse</b> blendet zwei falsche Antworten aus (2×), <b>Zeitstopp</b> hält die Zeit an (1×). Tastatur: <span class="kbd">1</span>–<span class="kbd">5</span> wählen, <span class="kbd">Enter</span> weiter.</p>
       <p id="hsLine" class="muted"></p>
-      <p class="muted" id="verLine">Version JS-09.2</p>
+      <p class="muted" id="verLine">Version JS-09.3</p>
       <div class="row" style="margin-top:16px">
         <button class="pill" id="btnStart">Mission starten</button>
-        <button class="pill l" id="btnArchiv">Archiv: Lektionen</button>
+        <button class="pill l" id="btnArchiv">Lektionen</button>
         <button class="pill t" id="btnGame">Asteroiden-Scan</button>
       </div>
     </section>
@@ -390,7 +390,7 @@
     <section class="screen" id="scrGame">
       <h1>Asteroiden-Scan</h1>
       <p>Scanne die vorbeiziehenden Asteroiden, indem du sie anklickst oder antippst. Jeder Scan kostet eine Ladung – auch daneben. Kleine, schnelle Brocken bringen mehr Daten, leuchtende <b>Kristalle</b> sind selten und besonders wertvoll. Manche Asteroiden tauchen in der Ferne auf und kommen langsam näher – wer sie früh erwischt, bekommt einen <b>Fernscan-Bonus</b>. Schnelle Treffer hintereinander ergeben eine <b>Combo</b>. Mit den Daten rüstest du den Scanner auf.</p>
-      <p><b>Scan-Energie</b> verdienst du nur im <b>Einsatz</b>: Jede richtige Antwort bringt 10 Scans, eine teilweise richtige 5. Jeder Klick im Feld verbraucht einen Scan, Sensordrohnen verbrauchen ebenfalls Energie.</p>
+      <p><b>Scan-Energie</b> verdienst du im <b>Einsatz</b> und in den <b>Lektionstests</b> (Mini-Check und Sektor-Training): Jede richtige Antwort bringt 10 Scans, eine teilweise richtige 5. Jeder Klick im Feld verbraucht einen Scan, Sensordrohnen verbrauchen ebenfalls Energie.</p>
       <div class="gstats">
         <div class="stat">Scan-Energie<b id="gEnergie">0</b></div>
         <div class="stat">Daten<b id="gDaten">0</b></div>
@@ -402,7 +402,7 @@
       <div class="field" id="field">
         <div class="fhud"><span id="fEnergie">Energie</span><span id="fTime">Freies Scannen</span><span class="chg" id="fCharges"></span><span id="fCombo"></span><span id="fRun"></span></div>
         <div id="fMsg"></div>
-        <div class="flock" id="flock" style="display:none"><h3>Scan-Energie leer</h3><p>Neue Scans verdienst du im Einsatz: 10 pro richtiger Antwort.</p><button class="pill" id="gEinsatz">Einsatz starten</button></div>
+        <div class="flock" id="flock" style="display:none"><h3>Scan-Energie leer</h3><p>Neue Scans verdienst du im Einsatz oder in den Lektionstests: 10 pro richtiger Antwort.</p><button class="pill" id="gEinsatz">Einsatz starten</button></div>
       </div>
       <div class="row" style="margin:12px 0 18px">
         <button class="pill" id="gRun">Scan-Lauf starten (60 s)</button>
@@ -415,9 +415,9 @@
       <div class="row"><button class="pill b" id="gBack">Zum Briefing</button></div>
     </section>
 
-    <!-- Archiv -->
+    <!-- Lektionen -->
     <section class="screen" id="scrArchiv">
-      <h1>Archiv</h1>
+      <h1>Lektionen</h1>
       <p>Kurze Lektionen zu den Webtechnologien und den Grundprinzipien der Programmierung – jeweils mit Beispielen, Merksätzen und typischen Fehlern.</p>
       <p class="muted" id="archivInfo"></p>
       <div id="archivList"></div>
@@ -430,12 +430,12 @@
       <span class="lstate" id="lesState">Offen</span>
       <div id="lesBody"></div>
       <div class="lnav">
-        <button class="pill" id="lesCheck">Mini-Check (3 Aufgaben)</button>
-        <button class="pill t" id="lesTrain">Sektor-Training (8 aus <span id="lesTrainN">–</span>)</button>
+        <button class="pill" id="lesCheck">Mini-Check (3 Aufgaben, auf Zeit)</button>
+        <button class="pill t" id="lesTrain">Sektor-Training (8 aus <span id="lesTrainN">–</span>, auf Zeit)</button>
         <span class="sp"></span>
         <button class="pill l" id="lesPrev">Zurück</button>
         <button class="pill l" id="lesNext">Weiter</button>
-        <button class="pill b" id="lesBack">Archiv</button>
+        <button class="pill b" id="lesBack">Alle Lektionen</button>
       </div>
     </section>
 
@@ -478,7 +478,7 @@
   </main>
 
   <!-- unten -->
-  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.2</span></div>
+  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.3</span></div>
   <div class="bars bottom">
     <div class="seg" style="background:var(--b);width:120px" id="poolInfo">POOL</div>
     <div class="seg grow" style="background:var(--o)"></div>
@@ -961,7 +961,7 @@ const LESSONS = [
 /* =====================================================================
    SPIEL-LOGIK
    ===================================================================== */
-const VERSION = 'JS-09.2';
+const VERSION = 'JS-09.3';
 const CATS = {web:'Webtechnologien', evt:'Events', lis:'EventListener', zuo:'Prinzipien erkennen', var:'Variable', bef:'Befehl', ver:'Verzweigung', sch:'Schleife', fun:'Funktion'};
 const CATCOL = {web:'var(--p)', evt:'var(--o)', lis:'var(--l)', zuo:'var(--g)', var:'var(--t)', bef:'var(--y)', ver:'var(--b)', sch:'var(--r)', fun:'var(--l)'};
 const COMP = {web:1, evt:1, lis:1, zuo:2, var:1, bef:1, ver:1, sch:1, fun:1};   // 10 nach Sektoren …
@@ -1063,7 +1063,7 @@ function newPlayer(name, fifty){ return {name, score:0, streak:0, best:0, right:
 function startGame(opts){
   opts = opts || {};
   SND.tap();
-  const m = opts.cat ? 'training' : mode;
+  const m = opts.cat ? 'einsatz' : mode;   // Lektionstests laufen mit Zeitdruck wie ein Einsatz
   let players;
   if(m === 'duell'){
     const a = ($('nameA').value.trim() || 'Spieler A').slice(0, 18), b = ($('nameB').value.trim() || 'Spieler B').slice(0, 18);
@@ -1380,9 +1380,9 @@ function popup(txt){
 const RANKS = [
   [90, 'Kommandoebene',      'Hervorragend! Du beherrschst den Stoff sicher.'],
   [75, 'Führungsoffizier/in','Sehr gut! Nur noch kleine Lücken – schau dir die Fehler im Logbuch an.'],
-  [55, 'Leutnant',           'Gut! Die Grundlagen sitzen. Wiederhole die Sektoren mit kurzen Balken im Archiv.'],
-  [35, 'Fähnrich',           'Ein Anfang ist gemacht. Lies die passenden Lektionen im Archiv und starte neu.'],
-  [0,  'Kadett/in',          'Noch viel Training nötig. Beginne mit den Lektionen im Archiv.']
+  [55, 'Leutnant',           'Gut! Die Grundlagen sitzen. Wiederhole die Sektoren mit kurzen Balken in den Lektionen.'],
+  [35, 'Fähnrich',           'Ein Anfang ist gemacht. Lies die passenden Lektionen und starte neu.'],
+  [0,  'Kadett/in',          'Noch viel Training nötig. Beginne mit den Lektionen.']
 ];
 function endGame(){
   clearInterval(G.timer);
@@ -1414,9 +1414,9 @@ function endGame(){
       if(passed){
         const done = store('js07_done') || [];
         if(!done.includes(o.lesson)) store('js07_done', done.concat(o.lesson));
-        msg = 'Bestanden! Die Lektion ist im Archiv als abgeschlossen markiert.';
-      } else msg = 'Noch nicht bestanden – mindestens ' + need + ' von ' + G.qs.length + ' müssen richtig sein. Lies die Lektion noch einmal und versuche es erneut.';
-    } else if(o.cat) head = 'Sektor-Training · ' + CATS[o.cat];
+        msg = 'Bestanden! Die Lektion ist in der Übersicht als abgeschlossen markiert.';
+      } else msg = 'Noch nicht bestanden – mindestens ' + need + ' von ' + G.qs.length + ' müssen richtig sein (und die Schilde dürfen nicht ausfallen). Lies die Lektion noch einmal und versuche es erneut.';
+    } else if(o.cat) head = (aborted ? 'Schilde ausgefallen · ' : '') + 'Sektor-Training · ' + CATS[o.cat];
     let cur = 0; const step = Math.max(1, Math.round(pl.score / 40));
     const iv = setInterval(() => { cur = Math.min(pl.score, cur + step); el.textContent = cur; if(cur >= pl.score) clearInterval(iv); }, 25);
     statsHtml = stat('Richtig', right + ' / ' + G.qs.length) + stat('Quote', pct + ' %') + stat('Beste Serie', pl.best);
@@ -1486,7 +1486,7 @@ function openArchiv(){
     b.addEventListener('click', () => openLesson(l.id));
     box.appendChild(b);
   });
-  $('archivInfo').textContent = done.length + ' von ' + LESSONS.length + ' Lektionen abgeschlossen. Jede Lektion endet mit einem Mini-Check aus 3 Aufgaben – mit 2 richtigen ist sie bestanden. Die Lektionen der Webtechnologien teilen sich einen Aufgabensektor.';
+  $('archivInfo').textContent = done.length + ' von ' + LESSONS.length + ' Lektionen abgeschlossen. Jede Lektion endet mit einem Mini-Check aus 3 Aufgaben – mit 2 richtigen ist sie bestanden. Mini-Check und Sektor-Training laufen mit Zeitdruck wie ein Einsatz und bringen Scan-Energie. Die Lektionen der Webtechnologien teilen sich einen Aufgabensektor.';
   show('scrArchiv');
 }
 function openLesson(id){
