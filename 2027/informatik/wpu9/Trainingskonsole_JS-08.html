@@ -164,10 +164,10 @@
   .lcard{display:flex;align-items:stretch;gap:0;background:#0c0c14;border:0;border-left:10px solid;border-radius:0 24px 24px 0;padding:0;text-align:left;color:var(--p);min-height:64px;overflow:hidden}
   .lcard:hover{background:#1a1424}
   .lcard .no{flex:0 0 54px;display:flex;align-items:center;justify-content:center;color:#000;font-size:22px}
-  .lcard .tx{flex:1;padding:10px 14px;display:flex;flex-direction:column;justify-content:center;gap:2px}
-  .lcard .tx b{font-size:20px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase}
+  .lcard .tx{flex:1;min-width:0;padding:10px 14px;display:flex;flex-direction:column;justify-content:center;gap:2px}
+  .lcard .tx b{overflow-wrap:anywhere;hyphens:auto;font-size:20px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase}
   .lcard .tx span{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:14px;color:#b9a58e}
-  .lcard .st,.lstate{align-self:center;margin-right:14px;border-radius:12px;padding:2px 10px;font-size:13px;letter-spacing:1px;text-transform:uppercase;background:#333;color:#ccc;white-space:nowrap}
+  .lcard .st,.lstate{flex:0 0 auto;align-self:center;margin-right:14px;border-radius:12px;padding:2px 10px;font-size:13px;letter-spacing:1px;text-transform:uppercase;background:#333;color:#ccc;white-space:nowrap}
   .lcard .st.ok,.lstate.ok{background:var(--g);color:#000}
   .lstate{display:inline-block;margin:0 0 12px}
   .lintro{font-size:17px}
@@ -175,6 +175,7 @@
   .part h3{color:var(--o)}
   .part h3.sm{color:var(--t);font-size:15px;margin-top:4px}
   .lesson code,.lintro code,.merke code,.part p code,.ops code{font-family:var(--mono);font-size:.9em;color:#e8e2ff;background:#1b1830;padding:1px 5px;border-radius:4px}
+  .lesson p code,.merke code,.lintro code{overflow-wrap:anywhere}
   .outbox{background:#06120a;border-left:8px solid var(--g);border-radius:0 14px 14px 0;padding:8px 14px 10px;margin:-8px 0 16px;font-family:var(--mono);font-size:14px;color:#b8f5c0;white-space:pre-wrap}
   .outbox span{display:block;font-family:var(--font);font-stretch:condensed;color:var(--g);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:2px}
   .scroll{overflow-x:auto}
@@ -195,6 +196,14 @@
   .lnav{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px;padding-top:16px;border-top:4px solid #222}
   .lnav .sp{flex:1}
 
+  .agrp{color:var(--l);font-size:19px;margin:18px 0 0}
+  .agrp + .alist{margin-top:8px}
+  .preview{background:#fff;color:#111;border-left:8px solid var(--y);border-radius:0 14px 14px 0;padding:8px 16px 12px;margin:-8px 0 16px;font-family:"Times New Roman",Times,serif;font-stretch:normal}
+  .preview .pl{display:block;font-family:var(--font);font-stretch:condensed;color:#8a6d00;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px}
+  .preview .pv h1{color:#111;font-size:28px;margin:4px 0 8px;letter-spacing:0;text-transform:none;font-weight:700}
+  .preview .pv p{color:inherit;font-family:inherit;font-size:16px;margin:0 0 8px}
+  .preview .pv button{font-family:Arial,sans-serif;font-stretch:normal;font-size:14px;padding:4px 10px;cursor:default}
+
   .kbd{display:inline-block;border:1px solid var(--l);border-radius:5px;padding:0 6px;font-size:13px;color:var(--l);margin:0 2px}
 
   @media (max-width:720px){
@@ -210,6 +219,10 @@
     main{padding:12px 0 12px 10px}
     .cb{grid-template-columns:96px 1fr 40px 64px;font-size:11px}
     .lcard .st{display:none}
+    table.ops,table.trace{font-size:13px;min-width:0;width:100%}
+    table.ops td,table.ops th,table.trace td,table.trace th{padding:5px 6px}
+    table.ops td code{overflow-wrap:anywhere;font-size:12px}
+    table.trace td{font-size:12.5px}
     .lnav .sp{display:none}
     .title{font-size:18px}
     pre.code{font-size:12.5px}
@@ -241,7 +254,7 @@
     <div class="blk c6" id="sShieldBlk"><span>Schilde</span><div class="shields" id="sShields"></div></div>
     <div class="blk c3 btn off" id="jFifty" title="Zwei falsche Antworten ausblenden"><span>Analyse</span><b id="jFiftyN">2</b></div>
     <div class="blk c4 btn off" id="jTime" title="Zeit für diese Aufgabe anhalten"><span>Zeitstopp</span><b id="jTimeN">1</b></div>
-    <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Archiv</span><b id="sArchivV">0/6</b></div>
+    <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Archiv</span><b id="sArchivV">0/9</b></div>
     <div class="blk c5 grow btn" id="sSound" title="Ton an/aus"><span>Ton</span><b id="sSoundV">An</b></div>
   </aside>
 
@@ -275,9 +288,9 @@
     <!-- Archiv -->
     <section class="screen" id="scrArchiv">
       <h1>Archiv</h1>
-      <p>Kurze Lektionen zu den Grundprinzipien – jeweils mit Beispielen, Merksätzen und typischen Fehlern.</p>
+      <p>Kurze Lektionen zu den Webtechnologien und den Grundprinzipien der Programmierung – jeweils mit Beispielen, Merksätzen und typischen Fehlern.</p>
       <p class="muted" id="archivInfo"></p>
-      <div class="alist" id="archivList"></div>
+      <div id="archivList"></div>
       <div class="row"><button class="pill b" id="arBack">Zum Briefing</button></div>
     </section>
 
@@ -377,6 +390,23 @@ mc('web','Was passiert in dieser Zeile?',"document.body.style.backgroundColor = 
 tf('web','Eine ID (id="…") sollte auf einer Webseite nur ein einziges Mal vorkommen.',true,'IDs müssen eindeutig sein, sonst weiß getElementById nicht, welches Element gemeint ist.');
 mc('web','Woran erkennt man HTML-Code am schnellsten?',null,['An Tags in spitzen Klammern < >','An geschweiften Klammern { }','Am Schlüsselwort var','An Semikolons am Zeilenende'],'HTML besteht aus Tags wie <p>, <h1> oder <button>.');
 mc('web','Ein Vergleich mit einem Haus: Welche Technologie entspricht dem Strom, der das Licht beim Druck auf den Schalter einschaltet?',null,['JavaScript','HTML','CSS'],'HTML = Gerüst, CSS = Farbe und Einrichtung, JavaScript = Strom bzw. Verhalten.');
+
+mc('web','Mit welchem Tag schreibt man eine Hauptüberschrift?',null,['<h1>','<p>','<head>','<title>'],'h1 bis h6 sind Überschriften, h1 ist die wichtigste.');
+mc('web','Mit welchem Tag schreibt man einen Absatz?',null,['<p>','<h1>','<a>','<br>'],'p steht für paragraph (Absatz).');
+mc('web','Wie lautet das End-Tag zu <p>?',null,['</p>','<p/>','<\\p>','<end p>'],'Das End-Tag hat einen Schrägstrich direkt nach der spitzen Klammer.');
+tf('web','Ein HTML-Element besteht meist aus Start-Tag, Inhalt und End-Tag.',true,'Beispiel: <h1>Hallo</h1>');
+mc('web','Was ist in diesem Code das Attribut?','<button id="start">Los</button>',['id="start"','button','Los','</button>'],'Attribute stehen im Start-Tag und liefern Zusatzinformationen.');
+mc('web','Wozu dient das Attribut id?',null,['Es gibt einem Element einen eindeutigen Namen, über den CSS und JavaScript es finden','Es färbt das Element ein','Es macht das Element unsichtbar','Es verlinkt auf eine andere Seite'],'Über die id holt z. B. getElementById genau dieses Element.');
+mc('web','In welchem Teil des HTML-Grundgerüsts steht alles, was man auf der Seite sieht?',null,['<body>','<head>','<title>','<!DOCTYPE html>'],'head enthält Infos über die Seite, body den sichtbaren Inhalt.');
+mc('web','Mit welcher Zeile bindet man eine CSS-Datei ein?',null,['<link rel="stylesheet" href="style.css">','<script src="style.css"><\/script>','<css>style.css</css>','<style href="style.css">'],'CSS-Dateien werden im head mit link eingebunden.');
+mc('web','Mit welcher Zeile bindet man eine JavaScript-Datei ein?',null,['<script src="script.js"><\/script>','<link rel="script" href="script.js">','<js>script.js</js>','<javascript src="script.js">'],'JavaScript wird mit dem script-Tag eingebunden.');
+mc('web','Was ist in dieser CSS-Regel der Selektor?','p {\n    color: red;\n}',['p','color','red','{ }'],'Der Selektor legt fest, WELCHE Elemente gestaltet werden.');
+mc('web','Was ist in dieser CSS-Regel die Eigenschaft?','h1 {\n    font-size: 32px;\n}',['font-size','h1','32px','px'],'Die Eigenschaft sagt, WAS verändert wird. 32px ist der Wert.');
+mc('web','Welcher CSS-Selektor wählt genau das Element mit id="start"?',null,['#start','.start','start','*start'],'Das Rautezeichen # steht in CSS für eine id.');
+mc('web','Welche Webtechnologie änderst du, wenn alle Überschriften dauerhaft blau sein sollen?',null,['CSS','HTML','JavaScript'],'Aussehen = CSS. JavaScript braucht man nur, wenn sich etwas bei einer Aktion ändern soll.');
+mc('web','Welche Dateiendung hat eine JavaScript-Datei?',null,['.js','.java','.css','.html'],'HTML: .html, CSS: .css, JavaScript: .js');
+mc('web','Wie heißt die CSS-Eigenschaft background-color, wenn man sie in JavaScript über style anspricht?',null,['backgroundColor','background-color','BackgroundColor','background_color'],'Bindestrich weg, nächster Buchstabe groß (camelCase).');
+tf('web','Mit CSS kann man den Text einer Überschrift ändern, z. B. aus „Hallo“ „Tschüss“ machen.',false,'Der Inhalt steht im HTML. CSS ändert nur, wie er aussieht.');
 
 /* ---------------- EVENTS ---------------- */
 mc('evt','Was ist ein Event in JavaScript?',null,['Ein Ereignis im Browser, z. B. ein Klick, auf das ein Programm reagieren kann','Eine Variable, die Text speichert','Ein CSS-Befehl für Farben','Eine Liste von HTML-Elementen'],'Ein Event ist ein Ereignis im Browser, meist durch Nutzerinteraktion ausgelöst.');
@@ -603,7 +633,41 @@ od('zuo','Bringe die Prinzipien in diesem Code von AUSSEN nach INNEN in die rich
    ===================================================================== */
 const LESSONS = [
 {
-  id:'bef', title:'Befehl', kurz:'Eine Anweisung – ein Schritt',
+  id:'web1', cat:'web', group:'Webtechnologien', title:'HTML', kurz:'Das Gerüst: Inhalt und Struktur',
+  intro:'<b>HTML</b> (HyperText Markup Language) legt fest, <b>was</b> auf einer Webseite steht und wie es gegliedert ist: Überschriften, Absätze, Bilder, Buttons. HTML ist keine Programmiersprache, sondern eine <b>Auszeichnungssprache</b>: Mit <b>Tags</b> wird dem Browser gesagt, was ein Stück Text ist.',
+  parts:[
+    {h:'Tags und Elemente', p:'Ein <b>Element</b> besteht meist aus einem <b>Start-Tag</b>, dem <b>Inhalt</b> und einem <b>End-Tag</b>. Das End-Tag hat einen Schrägstrich: <code>&lt;/p&gt;</code>.', code:'<h1>Schülerzeitung</h1>\n<p>Heute neu: unser Quiz!</p>', preview:'<h1>Schülerzeitung</h1><p>Heute neu: unser Quiz!</p>'},
+    {h:'Attribute und die id', p:'<b>Attribute</b> stehen im Start-Tag und liefern Zusatzinformationen. Besonders wichtig ist die <b>id</b>: ein <b>eindeutiger Name</b>, über den CSS und JavaScript genau dieses Element finden. Jede id darf auf einer Seite nur einmal vorkommen.', code:'<button id="start">Los geht\'s</button>\n<p id="hinweis">Drücke auf Start.</p>', preview:'<button>Los geht\'s</button><p>Drücke auf Start.</p>'},
+    {h:'Das Grundgerüst einer Seite', p:'Im <code>head</code> stehen Infos <b>über</b> die Seite, z. B. der Titel und die eingebundene CSS-Datei. Im <code>body</code> steht alles, was man <b>sieht</b>. Die JavaScript-Datei wird meist ganz unten eingebunden.', code:'<!DOCTYPE html>\n<html lang="de">\n<head>\n    <title>Meine Seite</title>\n    <link rel="stylesheet" href="style.css">\n</head>\n<body>\n    <h1 id="titel">Hallo!</h1>\n    <script src="script.js"><\/script>\n</body>\n</html>'}
+  ],
+  merke:['HTML legt Inhalt und Struktur fest.','Element = Start-Tag + Inhalt + End-Tag.','Die id ist ein eindeutiger Name für ein Element.','head = Infos über die Seite, body = sichtbarer Inhalt.'],
+  fehler:['End-Tag vergessen: <code>&lt;p&gt;Text</code> ohne <code>&lt;/p&gt;</code>.','Dieselbe id zweimal vergeben.','Schrägstrich an der falschen Stelle: <code>&lt;p/&gt;</code> statt <code>&lt;/p&gt;</code>.']
+},
+{
+  id:'web2', cat:'web', group:'Webtechnologien', title:'CSS', kurz:'Das Aussehen: Farben, Größen, Abstände',
+  intro:'<b>CSS</b> (Cascading Style Sheets) bestimmt, <b>wie</b> die Inhalte aussehen: Farben, Schriftarten, Größen, Abstände, Rahmen. Den Inhalt selbst ändert CSS nicht.',
+  parts:[
+    {h:'Aufbau einer CSS-Regel', p:'Eine Regel besteht aus dem <b>Selektor</b> (<i>wen</i> gestalte ich?), und in geschweiften Klammern aus <b>Eigenschaft</b> (<i>was</i> ändere ich?) und <b>Wert</b> (<i>wie</i>?). Jede Zeile endet mit einem Semikolon.', code:'h1 {\n    color: darkorange;\n    font-size: 32px;\n}', preview:'<h1 style="color:darkorange;font-size:32px">Schülerzeitung</h1>'},
+    {h:'Selektoren', p:'Ein <b>Tag-Name</b> wie <code>p</code> wählt <b>alle</b> Absätze. Ein <b>#</b> mit id wählt <b>genau ein</b> Element – hier den Button mit <code>id="start"</code>.', code:'p {\n    color: gray;\n}\n#start {\n    background-color: green;\n    color: white;\n}', preview:'<p style="color:gray">Drücke auf Start.</p><button style="background-color:green;color:white;border:0;padding:6px 14px">Los geht\'s</button>'},
+    {h:'Häufige Eigenschaften', html:'<table class="ops"><tr><th>Eigenschaft</th><th>ändert …</th><th>Beispiel</th></tr><tr><td><code>color</code></td><td>Schriftfarbe</td><td><code>color: red;</code></td></tr><tr><td><code>background-color</code></td><td>Hintergrundfarbe</td><td><code>background-color: black;</code></td></tr><tr><td><code>font-size</code></td><td>Schriftgröße</td><td><code>font-size: 20px;</code></td></tr><tr><td><code>width</code></td><td>Breite</td><td><code>width: 300px;</code></td></tr><tr><td><code>border</code></td><td>Rahmen</td><td><code>border: 2px solid blue;</code></td></tr><tr><td><code>display</code></td><td>Anzeige</td><td><code>display: none;</code> (ausblenden)</td></tr></table>'}
+  ],
+  merke:['CSS legt das Aussehen fest, nicht den Inhalt.','Selektor { Eigenschaft: Wert; }','Tag-Name wählt alle Elemente dieser Art, #id genau eines.'],
+  fehler:['Semikolon oder geschweifte Klammer vergessen – dann wirken die folgenden Regeln nicht.','Punkt statt Raute: <code>.start</code> wählt eine Klasse, nicht die id.','Doppelpunkt vergessen: <code>color red;</code>']
+},
+{
+  id:'web3', cat:'web', group:'Webtechnologien', title:'JavaScript & Zusammenspiel', kurz:'Das Verhalten – und wie alle drei zusammenarbeiten',
+  intro:'<b>JavaScript</b> sorgt für <b>Verhalten und Interaktivität</b>: Es kann rechnen, Entscheidungen treffen, auf Aktionen des Nutzers reagieren und die Seite <b>verändern</b>, während sie angezeigt wird.',
+  parts:[
+    {h:'JavaScript rechnet und gibt aus', p:'Ausgaben in der Konsole sieht nur, wer die Entwicklertools öffnet – sie sind zum Testen gedacht.', code:"var preis = 3;\nvar anzahl = 4;\nconsole.log(preis * anzahl);", out:'12'},
+    {h:'Ein HTML-Element holen und verändern', p:'<code>document.getElementById(\'titel\')</code> holt das Element mit <code>id="titel"</code> aus dem HTML. Über <code>.style</code> ändert JavaScript eine CSS-Eigenschaft – hier die Schriftfarbe.', code:"document.getElementById('titel').style.color = 'red';", preview:'<h1 style="color:red">Hallo!</h1>'},
+    {h:'CSS-Namen in JavaScript', p:'In JavaScript fallen die Bindestriche weg, der nächste Buchstabe wird großgeschrieben (<b>camelCase</b>).', html:'<table class="ops"><tr><th>CSS</th><th>JavaScript</th></tr><tr><td><code>color</code></td><td><code>style.color</code></td></tr><tr><td><code>background-color</code></td><td><code>style.backgroundColor</code></td></tr><tr><td><code>font-size</code></td><td><code>style.fontSize</code></td></tr></table>'},
+    {h:'Das Zusammenspiel', p:'Ein Vergleich mit einem Haus hilft beim Merken:', html:'<table class="ops"><tr><th>Technologie</th><th>Aufgabe</th><th>Im Haus</th><th>Datei</th></tr><tr><td>HTML</td><td>Inhalt und Struktur</td><td>Rohbau, Wände, Räume</td><td><code>index.html</code></td></tr><tr><td>CSS</td><td>Aussehen</td><td>Farbe und Einrichtung</td><td><code>style.css</code></td></tr><tr><td>JavaScript</td><td>Verhalten</td><td>Strom: Licht geht beim Schalter an</td><td><code>script.js</code></td></tr></table>'}
+  ],
+  merke:['JavaScript ist für Verhalten und Interaktivität zuständig.','JavaScript findet HTML-Elemente über ihre id und kann ihr CSS verändern.','HTML – CSS – JavaScript: Inhalt – Aussehen – Verhalten.'],
+  fehler:['Die id im JavaScript ist anders geschrieben als im HTML – das Element wird nicht gefunden.','<code>style.background-color</code> statt <code>style.backgroundColor</code>.','Wert ohne Anführungszeichen: <code>style.color = red;</code> sucht eine Variable namens red.']
+},
+{
+  id:'bef', cat:'bef', group:'Grundprinzipien der Programmierung', title:'Befehl', kurz:'Eine Anweisung – ein Schritt',
   intro:'Ein <b>Befehl</b> (auch <b>Anweisung</b>) ist die kleinste Einheit eines Programms. Er sagt dem Computer, <b>eine Sache</b> zu tun: etwas ausgeben, ein Fenster öffnen, eine Farbe ändern. In JavaScript endet ein Befehl mit einem Semikolon <code>;</code>.',
   parts:[
     {h:'Ein einzelner Befehl', p:'Der Befehl <code>console.log()</code> schreibt das, was in den Klammern steht, in die Konsole des Browsers. Die Konsole findest du in den Entwicklertools (Taste F12).', code:"console.log('Hallo Welt!');", out:'Hallo Welt!'},
@@ -615,7 +679,7 @@ const LESSONS = [
   fehler:['<code>Console.log</code> statt <code>console.log</code>: JavaScript unterscheidet Groß- und Kleinschreibung.','Anführungszeichen vergessen: <code>console.log(Hallo);</code> sucht eine Variable namens Hallo.','Klammer nicht geschlossen: <code>console.log(\'Hi\';</code>']
 },
 {
-  id:'var', title:'Variable', kurz:'Ein Speicherplatz mit Namen',
+  id:'var', cat:'var', group:'Grundprinzipien der Programmierung', title:'Variable', kurz:'Ein Speicherplatz mit Namen',
   intro:'Eine <b>Variable</b> ist wie eine <b>Kiste mit Etikett</b>: Auf dem Etikett steht der Name, in der Kiste liegt ein Wert. Man kann den Wert später wieder hervorholen oder austauschen.',
   parts:[
     {h:'Deklarieren: eine Variable anlegen', p:'Mit dem Schlüsselwort <code>var</code> wird eine Variable angelegt (<b>deklariert</b>). Das Gleichheitszeichen <code>=</code> legt einen Wert hinein (<b>Zuweisung</b>). Beim Ausgeben steht der Name <b>ohne</b> Anführungszeichen.', code:"var punkte = 0;\nvar spielerName = 'Kim';\nconsole.log(spielerName);\nconsole.log(punkte);", out:'Kim\n0'},
@@ -627,7 +691,7 @@ const LESSONS = [
   fehler:['<code>console.log(\'punkte\')</code> gibt das Wort „punkte“ aus, nicht den Wert.','<code>Punkte</code> und <code>punkte</code> sind zwei verschiedene Variablen.','Eine Variable benutzen, bevor sie deklariert wurde → Fehler.']
 },
 {
-  id:'ver', title:'Verzweigung', kurz:'Wenn …, dann …, sonst …',
+  id:'ver', cat:'ver', group:'Grundprinzipien der Programmierung', title:'Verzweigung', kurz:'Wenn …, dann …, sonst …',
   intro:'Mit einer <b>Verzweigung</b> trifft das Programm eine <b>Entscheidung</b>. Es prüft eine <b>Bedingung</b>. Ist sie wahr, wird ein Teil des Codes ausgeführt – sonst ein anderer oder gar keiner.',
   parts:[
     {h:'if – wenn', p:'Der Code in den geschweiften Klammern läuft nur, wenn die Bedingung in den runden Klammern wahr ist. Danach geht es ganz normal weiter.', code:"var punkte = 8;\nif (punkte > 5) {\n    console.log('Bestanden!');\n}\nconsole.log('Ende');", out:'Bestanden!\nEnde'},
@@ -639,7 +703,7 @@ const LESSONS = [
   fehler:['<code>if (punkte = 10)</code> – hier wird zugewiesen statt verglichen.','<code>&gt;</code> statt <code>&gt;=</code>: Bei genau 18 ist <code>alter &gt; 18</code> falsch!','Geschweifte Klammer vergessen – dann ist unklar, wo der Zweig endet.']
 },
 {
-  id:'sch', title:'Schleife', kurz:'Wiederholen, solange …',
+  id:'sch', cat:'sch', group:'Grundprinzipien der Programmierung', title:'Schleife', kurz:'Wiederholen, solange …',
   intro:'Eine <b>Schleife</b> <b>wiederholt</b> Code, solange eine Bedingung wahr ist. Wir benutzen die <b>while-Schleife</b>. Sie ist <b>kopfgesteuert</b>: Die Bedingung steht im Kopf und wird <b>vor jedem Durchlauf</b> geprüft.',
   parts:[
     {h:'Die drei Zutaten', p:'Eine Zählschleife braucht: <b>1. Startwert</b> (Zeile 1), <b>2. Bedingung</b> (Zeile 2) und <b>3. Veränderung</b> der Zählvariable (Zeile 4).', code:"var i = 1;\nwhile (i <= 3) {\n    console.log(i);\n    i++;\n}", out:'1\n2\n3',
@@ -652,7 +716,7 @@ const LESSONS = [
   fehler:['Veränderung vergessen → Endlosschleife.','Falsche Richtung: <code>i--</code> bei <code>i &lt; 10</code> → Endlosschleife.','<code>&lt;</code> und <code>&lt;=</code> verwechselt → ein Durchlauf zu viel oder zu wenig.']
 },
 {
-  id:'fun', title:'Funktion', kurz:'Code mit Namen, auf Abruf',
+  id:'fun', cat:'fun', group:'Grundprinzipien der Programmierung', title:'Funktion', kurz:'Code mit Namen, auf Abruf',
   intro:'Eine <b>Funktion</b> fasst mehrere Befehle unter einem <b>Namen</b> zusammen. Sie wird erst ausgeführt, wenn man sie <b>aufruft</b> – so oft man will.',
   parts:[
     {h:'Aufbau einer Funktion', p:'Zeile 1 ist der <b>Funktionskopf</b>: Schlüsselwort <code>function</code>, <b>Name</b> und runde Klammern mit dem <b>Parameter</b>. Zwischen den geschweiften Klammern steht der <b>Funktionskörper</b> (Zeilen 2–3). Zeilen 5 und 6 sind <b>Aufrufe</b>: <code>\'Mia\'</code> und <code>\'Tom\'</code> sind <b>Argumente</b>, die im Parameter <code>name</code> landen.', code:"function begruesse(name) {\n    var text = 'Hallo ' + name + '!';\n    console.log(text);\n}\nbegruesse('Mia');\nbegruesse('Tom');", out:'Hallo Mia!\nHallo Tom!'},
@@ -664,7 +728,7 @@ const LESSONS = [
   fehler:['Aufruf ohne Klammern (<code>begruesse;</code>) führt die Funktion nicht aus.','Argument vergessen: <code>begruesse()</code> → name ist <code>undefined</code>.','Im EventListener dagegen <b>ohne</b> Klammern: <code>addEventListener(\'click\', starte)</code>.']
 },
 {
-  id:'zuo', title:'Prinzipien erkennen', kurz:'Was zeigt der Ausschnitt als Ganzes?',
+  id:'zuo', cat:'zuo', group:'Grundprinzipien der Programmierung', title:'Prinzipien erkennen', kurz:'Was zeigt der Ausschnitt als Ganzes?',
   intro:'In echten Programmen stecken die Prinzipien <b>ineinander</b>. Um einen Codeausschnitt zuzuordnen, schaust du auf die <b>äußerste</b> Struktur – also darauf, womit der Ausschnitt beginnt und was alles andere umschließt.',
   parts:[
     {h:'Erkennungsmerkmale', html:'<table class="ops"><tr><th>Prinzip</th><th>Erkennst du an …</th></tr><tr><td>Variable</td><td><code>var name = …;</code></td></tr><tr><td>Befehl</td><td>einer einzelnen Anweisung, z. B. <code>console.log(…);</code> oder <code>alert(…);</code></td></tr><tr><td>Verzweigung</td><td><code>if (…) { … }</code>, evtl. mit <code>else</code> oder <code>else if</code></td></tr><tr><td>Schleife</td><td><code>while (…) { … }</code></td></tr><tr><td>Funktion</td><td><code>function name(…) { … }</code></td></tr></table>'},
@@ -1028,14 +1092,14 @@ function endGame(){
     const all = G.qs.filter(q => q.c === c).length;
     const r = G.log.filter(l => l.q.c === c && l.ok).length;
     const w = Math.round(r / all * 100);
-    const les = LESSONS.find(l => l.id === c);
+    const les = LESSONS.find(l => catOf(l) === c);
     cb.insertAdjacentHTML('beforeend', '<div class="cb"><span style="color:' + CATCOL[c] + '">' + CATS[c] + '</span><span class="tr"><i style="width:' + w + '%;background:' + CATCOL[c] + '"></i></span><span>' + r + '/' + all + '</span>' +
-      (les && w < 100 ? '<button class="mini" data-lesson="' + c + '">Lektion</button>' : '<span></span>') + '</div>');
+      (les && w < 100 ? '<button class="mini" data-lesson="' + les.id + '">Lektion</button>' : '<span></span>') + '</div>');
   });
   cb.querySelectorAll('[data-lesson]').forEach(b => b.addEventListener('click', () => openLesson(b.dataset.lesson)));
 
   $('btnAgain').textContent = o.lesson ? 'Mini-Check wiederholen' : o.cat ? 'Nochmal trainieren' : 'Neue Mission';
-  $('btnMenu').textContent = o.lesson || o.cat ? 'Zur Lektion' : 'Zum Briefing';
+  $('btnMenu').textContent = o.lesson || o.from ? 'Zur Lektion' : 'Zum Briefing';
 
   const rv = $('endReview'); rv.innerHTML = '';
   G.log.forEach((l, n) => {
@@ -1053,23 +1117,30 @@ function stat(l, v){ return '<div class="stat">' + l + '<b>' + v + '</b></div>';
    ARCHIV & LEKTIONEN
    ===================================================================== */
 function lessonById(id){ return LESSONS.find(l => l.id === id); }
+function catOf(l){ return l.cat || l.id; }
 function openArchiv(){
   if($('sArchiv').classList.contains('off')) return;
   SND.tap();
   clearInterval(G && G.timer);
   const done = store('js07_done') || [];
-  const box = $('archivList'); box.innerHTML = '';
+  const wrap = $('archivList'); wrap.innerHTML = '';
+  let box = null, grp = null;
   LESSONS.forEach((l, n) => {
+    if(l.group !== grp){
+      grp = l.group;
+      wrap.insertAdjacentHTML('beforeend', '<h2 class="agrp">' + esc(grp) + '</h2>');
+      box = document.createElement('div'); box.className = 'alist'; wrap.appendChild(box);
+    }
     const b = document.createElement('button'); b.className = 'lcard';
-    b.style.borderColor = CATCOL[l.id];
+    b.style.borderColor = CATCOL[catOf(l)];
     const isDone = done.includes(l.id);
-    b.innerHTML = '<span class="no" style="background:' + CATCOL[l.id] + '">' + String(n+1).padStart(2,'0') + '</span>' +
+    b.innerHTML = '<span class="no" style="background:' + CATCOL[catOf(l)] + '">' + String(n+1).padStart(2,'0') + '</span>' +
       '<span class="tx"><b>' + l.title + '</b><span>' + l.kurz + '</span></span>' +
       '<span class="st' + (isDone ? ' ok' : '') + '">' + (isDone ? 'Abgeschlossen' : 'Offen') + '</span>';
     b.addEventListener('click', () => openLesson(l.id));
     box.appendChild(b);
   });
-  $('archivInfo').textContent = done.length + ' von ' + LESSONS.length + ' Lektionen abgeschlossen. Jede Lektion endet mit einem Mini-Check aus 3 Aufgaben – mit 2 richtigen ist sie bestanden.';
+  $('archivInfo').textContent = done.length + ' von ' + LESSONS.length + ' Lektionen abgeschlossen. Jede Lektion endet mit einem Mini-Check aus 3 Aufgaben – mit 2 richtigen ist sie bestanden. Die Lektionen der Webtechnologien teilen sich einen Aufgabensektor.';
   show('scrArchiv');
 }
 function openLesson(id){
@@ -1078,7 +1149,7 @@ function openLesson(id){
   const n = LESSONS.indexOf(l);
   const done = (store('js07_done') || []).includes(id);
   $('lesHead').textContent = 'Lektion ' + String(n+1).padStart(2,'0') + ' · ' + l.title;
-  $('lesHead').style.color = CATCOL[id];
+  $('lesHead').style.color = CATCOL[catOf(l)];
   $('lesState').textContent = done ? 'Abgeschlossen' : 'Offen';
   $('lesState').className = 'lstate' + (done ? ' ok' : '');
   const box = $('lesBody'); box.innerHTML = '';
@@ -1090,6 +1161,7 @@ function openLesson(id){
     if(pt.html) sec.insertAdjacentHTML('beforeend', '<div class="scroll">' + pt.html + '</div>');
     if(pt.code) renderCode(sec, pt.code, null);
     if(pt.out) sec.insertAdjacentHTML('beforeend', '<div class="outbox"><span>Konsole</span>' + esc(pt.out) + '</div>');
+    if(pt.preview) sec.insertAdjacentHTML('beforeend', '<div class="preview"><span class="pl">Im Browser</span><div class="pv">' + pt.preview + '</div></div>');
     if(pt.trace){
       let t = '<div class="scroll"><table class="trace"><tr>' + pt.trace.head.map(h => '<th>' + esc(h) + '</th>').join('') + '</tr>';
       pt.trace.rows.forEach(r => { t += '<tr' + (/falsch/.test(r[2]) ? ' class="end"' : '') + '>' + r.map(c => '<td>' + esc(c) + '</td>').join('') + '</tr>'; });
@@ -1101,7 +1173,7 @@ function openLesson(id){
   box.insertAdjacentHTML('beforeend', '<div class="merke warn"><h3>Typische Fehler</h3><ul>' + l.fehler.map(m => '<li>' + m + '</li>').join('') + '</ul></div>');
   $('lesPrev').disabled = n === 0;
   $('lesNext').disabled = n === LESSONS.length - 1;
-  $('lesTrainN').textContent = POOL.filter(q => q.c === id).length;
+  $('lesTrainN').textContent = POOL.filter(q => q.c === catOf(l)).length;
   show('scrLesson');
 }
 
@@ -1119,7 +1191,7 @@ document.addEventListener('DOMContentLoaded', () => {
   $('btnAgain').addEventListener('click', () => startGame(G && G.opts));
   $('btnMenu').addEventListener('click', () => {
     const o = G && G.opts;
-    if(o && (o.lesson || o.cat)) openLesson(o.lesson || o.cat);
+    if(o && (o.lesson || o.from)) openLesson(o.lesson || o.from);
     else { SND.tap(); G = null; show('scrStart'); showHS(); }
   });
   $('btnNext').addEventListener('click', next);
@@ -1129,8 +1201,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $('jTime').addEventListener('click', useTime);
   $('sArchiv').addEventListener('click', openArchiv);
   $('sSound').addEventListener('click', () => { soundOn = !soundOn; store('js07_sound', soundOn); renderSide(); SND.tap(); });
-  $('lesCheck').addEventListener('click', () => startGame({cat: curLesson, n: 3, lesson: curLesson}));
-  $('lesTrain').addEventListener('click', () => startGame({cat: curLesson, n: 8}));
+  $('lesCheck').addEventListener('click', () => startGame({cat: catOf(lessonById(curLesson)), n: 3, lesson: curLesson}));
+  $('lesTrain').addEventListener('click', () => startGame({cat: catOf(lessonById(curLesson)), n: 8, from: curLesson}));
   $('lesBack').addEventListener('click', openArchiv);
   $('lesPrev').addEventListener('click', () => openLesson(LESSONS[LESSONS.indexOf(lessonById(curLesson)) - 1].id));
   $('lesNext').addEventListener('click', () => openLesson(LESSONS[LESSONS.indexOf(lessonById(curLesson)) + 1].id));
