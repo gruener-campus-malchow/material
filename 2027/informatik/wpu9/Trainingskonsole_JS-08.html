@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trainingskonsole JS-07 · JavaScript &amp; Events</title>
+<style>
+  :root{
+    --bg:#000;
+    --o:#ff9c00;   /* orange */
+    --p:#ffcc99;   /* pfirsich */
+    --l:#cc99cc;   /* lavendel */
+    --b:#9999ff;   /* blauviolett */
+    --t:#99ccff;   /* hellblau */
+    --r:#cc6666;   /* rot */
+    --y:#ffcc66;   /* gelb */
+    --g:#88cc88;   /* grün */
+    --side:150px;
+    --bar:26px;
+    --gap:6px;
+    --font:"Antonio","Oswald","Bebas Neue","Arial Narrow","Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+    --mono:"JetBrains Mono","Fira Code",Consolas,"Liberation Mono",Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--p);font-family:var(--font);font-stretch:condensed}
+  body{min-height:100vh;padding:14px}
+  button{font-family:var(--font);font-stretch:condensed;cursor:pointer;border:0}
+  button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+
+  /* ---------- Rahmen ---------- */
+  .frame{display:grid;grid-template-columns:var(--side) 1fr;grid-template-rows:auto 1fr auto;gap:0 var(--gap);max-width:1200px;margin:0 auto;min-height:calc(100vh - 28px)}
+  .elbow{position:relative;height:96px;background:var(--l)}
+  .elbow.tl{border-top-left-radius:70px 60px}
+  .elbow.bl{border-bottom-left-radius:70px 60px;background:var(--b);height:80px}
+  .elbow::after{content:"";position:absolute;right:calc(-1 * var(--gap));width:calc(100% - var(--side) + var(--gap) + 40px);background:var(--bg)}
+  .elbow.tl::after{bottom:0;height:calc(100% - var(--bar));border-top-left-radius:34px 30px;width:40px}
+  .elbow.bl::after{top:0;height:calc(100% - var(--bar));border-bottom-left-radius:34px 30px;width:40px}
+  .elbow .lbl{position:absolute;left:18px;bottom:10px;color:#000;font-size:15px;letter-spacing:1px}
+  .elbow.bl .lbl{bottom:auto;top:12px}
+  .bars{display:flex;gap:var(--gap);align-items:flex-start;min-width:0}
+  .bars.bottom{align-items:flex-end}
+  .seg{height:var(--bar);flex:0 0 auto;display:flex;align-items:center;justify-content:flex-end;padding:0 8px;color:#000;font-size:14px;letter-spacing:1px}
+  .seg.grow{flex:1 1 auto;min-width:60px}
+  .cap{height:var(--bar);width:34px;border-radius:0 13px 13px 0;flex:0 0 auto}
+  .title{flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;color:var(--o);font-size:clamp(20px,3.2vw,34px);letter-spacing:2px;line-height:var(--bar);white-space:nowrap;padding:0 6px;text-transform:uppercase;margin-top:-4px}
+  .bars .sub{margin-left:auto}
+
+  /* ---------- Seitenleiste ---------- */
+  .side{display:flex;flex-direction:column;gap:var(--gap);padding:var(--gap) 0}
+  .blk{background:var(--o);color:#000;min-height:58px;padding:6px 10px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-end;text-align:right;text-transform:uppercase;letter-spacing:1px;font-size:13px;transition:background .3s}
+  .blk b{font-size:22px;font-weight:600;letter-spacing:0}
+  .blk.grow{flex:1 1 auto}
+  .blk.c1{background:var(--p)}.blk.c2{background:var(--l)}.blk.c3{background:var(--b)}.blk.c4{background:var(--t)}.blk.c5{background:var(--y)}.blk.c6{background:var(--r)}
+  .blk.btn{cursor:pointer}
+  .blk.btn:hover{filter:brightness(1.15)}
+  .blk.off{opacity:.35;cursor:default}
+  .shields{display:flex;gap:4px;margin-top:4px}
+  .shields i{display:block;width:22px;height:10px;border-radius:5px;background:#000}
+  .shields i.lost{background:transparent;border:2px solid #000}
+
+  /* ---------- Hauptbereich ---------- */
+  main{padding:18px 6px 18px 18px;min-width:0}
+  .screen{display:none;animation:fade .35s ease}
+  .screen.on{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h1,h2,h3{font-weight:500;text-transform:uppercase;letter-spacing:2px;margin:0 0 10px}
+  h1{color:var(--o);font-size:clamp(26px,4vw,44px)}
+  h2{color:var(--l);font-size:22px}
+  h3{color:var(--t);font-size:17px}
+  p{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;line-height:1.45;font-size:16px;color:var(--p);margin:0 0 12px}
+  .muted{color:#b9a58e}
+
+  .pill{border-radius:22px;padding:10px 22px;font-size:18px;letter-spacing:1px;text-transform:uppercase;color:#000;background:var(--o);transition:filter .15s,transform .1s}
+  .pill:hover{filter:brightness(1.15)}
+  .pill:active{transform:scale(.97)}
+  .pill.l{background:var(--l)}.pill.b{background:var(--b)}.pill.t{background:var(--t)}.pill.p{background:var(--p)}.pill.r{background:var(--r)}.pill.y{background:var(--y)}
+  .pill[disabled]{opacity:.35;cursor:default;filter:none}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+
+  .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:18px 0}
+  .mode{border:3px solid var(--l);border-radius:0 26px 26px 0;padding:14px 16px;cursor:pointer;background:transparent;text-align:left;color:var(--p);transition:background .2s}
+  .mode:hover,.mode.sel{background:#2a1a2a}
+  .mode.sel{border-color:var(--o)}
+  .mode h3{margin-bottom:6px}
+  .mode p{font-size:14px;margin:0}
+
+  .hud{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;color:var(--t);text-transform:uppercase;letter-spacing:1.5px;font-size:15px;margin-bottom:10px}
+  .hud .tag{background:var(--b);color:#000;border-radius:12px;padding:2px 12px}
+  .timer{height:12px;background:#222;border-radius:6px;overflow:hidden;margin:6px 0 16px}
+  .timer i{display:block;height:100%;width:100%;background:var(--o);border-radius:6px;transition:width .2s linear,background .3s}
+  .q{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:clamp(17px,2vw,21px);line-height:1.4;color:var(--p);margin:0 0 14px}
+
+  pre.code{background:#0d0d18;border-left:8px solid var(--b);border-radius:0 14px 14px 0;padding:10px 0;margin:0 0 16px;overflow-x:auto;font-family:var(--mono);font-size:14px;line-height:1.55;color:#e8e2ff}
+  pre.code{white-space:normal;overflow-x:visible}
+  pre.code .ln{display:grid;grid-template-columns:2.6em minmax(0,1fr);column-gap:12px;padding:1px 14px 1px 0}
+  pre.code .ln .nr{text-align:right;color:#6f6a9a;user-select:none}
+  pre.code .ln .cx{white-space:pre-wrap;overflow-wrap:anywhere;min-width:0}
+  pre.code.pick .ln{cursor:pointer}
+  pre.code.pick .ln:hover{background:#2a2450}
+  pre.code .ln.ok{background:#1d3a1d}
+  pre.code .ln.bad{background:#4a1d1d}
+
+  .opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;margin-bottom:14px}
+  .opt{display:flex;align-items:stretch;text-align:left;background:transparent;padding:0;border-radius:22px;overflow:hidden;min-height:46px;color:#000}
+  .opt .k{flex:0 0 52px;background:var(--l);display:flex;align-items:center;justify-content:center;font-size:20px}
+  .opt .v{flex:1;min-width:0;background:var(--p);padding:10px 16px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15.5px;line-height:1.35;display:flex;flex-direction:column;justify-content:center;border-radius:0 22px 22px 0;margin-left:4px;overflow-wrap:anywhere}
+  .opt .v code{display:block;font-family:var(--mono);font-size:13.5px;line-height:1.45;background:rgba(0,0,0,.08);padding:3px 6px;border-radius:4px;white-space:normal;overflow-wrap:anywhere;min-width:0}
+  .opt:hover:not([disabled]) .v{background:#ffe0bf}
+  .opt[disabled]{cursor:default}
+  .opt.ok .v{background:var(--g)}.opt.ok .k{background:#4a9a4a}
+  .opt.bad .v{background:var(--r)}.opt.bad .k{background:#933}
+  .opt.gone{visibility:hidden}
+
+  .order{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+  .slots{display:flex;flex-direction:column;gap:6px;margin:6px 0 14px}
+  .slot{display:flex;gap:6px;align-items:stretch;min-height:38px}
+  .slot .n{flex:0 0 46px;background:var(--b);color:#000;border-radius:19px 0 0 19px;display:flex;align-items:center;justify-content:center;font-size:18px}
+  .slot .s{flex:1;border:2px dashed #554;border-radius:0 19px 19px 0;padding:7px 14px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15px;color:var(--p)}
+  .slot .s.f{border-style:solid;border-color:var(--b)}
+  .slot.ok .s{border-color:var(--g);background:#1d3a1d}
+  .slot.bad .s{border-color:var(--r);background:#4a1d1d}
+
+  .fb{border-left:10px solid var(--g);border-radius:0 18px 18px 0;background:#101810;padding:12px 16px;margin:6px 0 14px;display:none}
+  .fb.bad{border-color:var(--r);background:#1a0f0f}
+  .fb.on{display:block;animation:fade .3s}
+  .fb h3{margin-bottom:4px}
+  .fb.bad h3{color:var(--r)}
+  .fb:not(.bad) h3{color:var(--g)}
+  .fb p{margin:0;font-size:15px}
+
+  .score{font-size:clamp(54px,9vw,96px);color:var(--o);letter-spacing:3px;line-height:1}
+  .rank{display:inline-block;background:var(--l);color:#000;border-radius:20px;padding:6px 20px;font-size:22px;letter-spacing:2px;text-transform:uppercase;margin:10px 0 16px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:14px 0 20px}
+  .stat{background:#151520;border-left:6px solid var(--t);border-radius:0 14px 14px 0;padding:8px 12px;text-transform:uppercase;letter-spacing:1px;font-size:13px;color:var(--t)}
+  .stat b{display:block;font-size:26px;color:var(--p);font-weight:500}
+  .catbars{display:flex;flex-direction:column;gap:6px;margin-bottom:20px}
+  .cb{display:grid;grid-template-columns:150px 1fr 54px;gap:8px;align-items:center;text-transform:uppercase;font-size:14px;letter-spacing:1px}
+  .cb .tr{height:16px;background:#222;border-radius:8px;overflow:hidden}
+  .cb .tr i{display:block;height:100%;border-radius:8px}
+  .review{display:flex;flex-direction:column;gap:8px}
+  .rv{border-left:8px solid var(--g);background:#0f150f;border-radius:0 14px 14px 0;padding:8px 14px}
+  .rv.bad{border-color:var(--r);background:#170e0e}
+  .rv .h{color:var(--t);text-transform:uppercase;letter-spacing:1px;font-size:13px}
+  .rv p{font-size:14px;margin:4px 0 0}
+
+  .flash{position:fixed;inset:0;pointer-events:none;opacity:0;z-index:9}
+  .flash.hit{background:radial-gradient(circle,rgba(204,102,102,0) 40%,rgba(204,102,102,.55));animation:hit .5s}
+  .flash.good{background:radial-gradient(circle,rgba(136,204,136,0) 50%,rgba(136,204,136,.35));animation:hit .5s}
+  @keyframes hit{0%{opacity:1}100%{opacity:0}}
+  .shake{animation:shake .35s}
+  @keyframes shake{0%,100%{transform:none}20%{transform:translateX(-8px)}40%{transform:translateX(7px)}60%{transform:translateX(-5px)}80%{transform:translateX(3px)}}
+  .pop{position:fixed;font-size:34px;color:var(--y);pointer-events:none;z-index:10;animation:pop 1s forwards;letter-spacing:2px}
+  @keyframes pop{0%{opacity:0;transform:translateY(10px) scale(.8)}20%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-50px)}}
+  .blink{animation:blink 1s steps(2) infinite}
+  @keyframes blink{50%{opacity:.3}}
+
+  .cb{grid-template-columns:150px 1fr 54px 84px}
+  .mini{border-radius:12px;padding:3px 10px;font-size:13px;letter-spacing:1px;text-transform:uppercase;background:var(--l);color:#000}
+  .mini:hover{filter:brightness(1.15)}
+  pre.code .cm{color:#8f8ab8;font-style:italic}
+
+  /* Archiv & Lektionen */
+  .alist{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:10px;margin:14px 0 20px}
+  .lcard{display:flex;align-items:stretch;gap:0;background:#0c0c14;border:0;border-left:10px solid;border-radius:0 24px 24px 0;padding:0;text-align:left;color:var(--p);min-height:64px;overflow:hidden}
+  .lcard:hover{background:#1a1424}
+  .lcard .no{flex:0 0 54px;display:flex;align-items:center;justify-content:center;color:#000;font-size:22px}
+  .lcard .tx{flex:1;padding:10px 14px;display:flex;flex-direction:column;justify-content:center;gap:2px}
+  .lcard .tx b{font-size:20px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase}
+  .lcard .tx span{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:14px;color:#b9a58e}
+  .lcard .st,.lstate{align-self:center;margin-right:14px;border-radius:12px;padding:2px 10px;font-size:13px;letter-spacing:1px;text-transform:uppercase;background:#333;color:#ccc;white-space:nowrap}
+  .lcard .st.ok,.lstate.ok{background:var(--g);color:#000}
+  .lstate{display:inline-block;margin:0 0 12px}
+  .lintro{font-size:17px}
+  .part{margin:22px 0 6px}
+  .part h3{color:var(--o)}
+  .part h3.sm{color:var(--t);font-size:15px;margin-top:4px}
+  .lesson code,.lintro code,.merke code,.part p code,.ops code{font-family:var(--mono);font-size:.9em;color:#e8e2ff;background:#1b1830;padding:1px 5px;border-radius:4px}
+  .outbox{background:#06120a;border-left:8px solid var(--g);border-radius:0 14px 14px 0;padding:8px 14px 10px;margin:-8px 0 16px;font-family:var(--mono);font-size:14px;color:#b8f5c0;white-space:pre-wrap}
+  .outbox span{display:block;font-family:var(--font);font-stretch:condensed;color:var(--g);font-size:12px;letter-spacing:2px;text-transform:uppercase;margin-bottom:2px}
+  .scroll{overflow-x:auto}
+  table.trace,table.ops{border-collapse:separate;border-spacing:0 4px;margin:0 0 16px;font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15px;color:var(--p);min-width:100%}
+  table.trace th,table.ops th{background:var(--b);color:#000;font-family:var(--font);font-stretch:condensed;font-weight:500;text-transform:uppercase;letter-spacing:1px;font-size:13px;padding:5px 10px;text-align:left}
+  table.trace th:first-child,table.ops th:first-child{border-radius:12px 0 0 12px}
+  table.trace th:last-child,table.ops th:last-child{border-radius:0 12px 12px 0}
+  table.trace td,table.ops td{background:#12121c;padding:6px 10px}
+  table.trace td{font-family:var(--mono);font-size:14px}
+  table.trace th{text-transform:none;font-family:var(--mono);font-size:13px;letter-spacing:0}
+  table.trace tr.end td{background:#2a1414;color:#f0b0b0}
+  .merke{border:3px solid var(--l);border-radius:0 26px 26px 0;padding:10px 18px 6px;margin:20px 0 12px}
+  .merke h3{color:var(--l)}
+  .merke.warn{border-color:var(--r)}
+  .merke.warn h3{color:var(--r)}
+  .merke ul{margin:0 0 8px;padding-left:20px}
+  .merke li{font-family:"Helvetica Neue",Arial,sans-serif;font-stretch:normal;font-size:15.5px;line-height:1.45;color:var(--p);margin-bottom:5px}
+  .lnav{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px;padding-top:16px;border-top:4px solid #222}
+  .lnav .sp{flex:1}
+
+  .kbd{display:inline-block;border:1px solid var(--l);border-radius:5px;padding:0 6px;font-size:13px;color:var(--l);margin:0 2px}
+
+  @media (max-width:720px){
+    :root{--side:84px;--bar:20px}
+    body{padding:6px}
+    .elbow{height:70px}.elbow.bl{height:56px}
+    .elbow .lbl{font-size:11px;left:10px}
+    .blk{font-size:10px;min-height:44px;padding:4px 6px}
+    .blk b{font-size:16px}
+    .seg{font-size:10px}
+    .hide-s{display:none}
+    .seg.grow{min-width:20px}
+    main{padding:12px 0 12px 10px}
+    .cb{grid-template-columns:96px 1fr 40px 64px;font-size:11px}
+    .lcard .st{display:none}
+    .lnav .sp{display:none}
+    .title{font-size:18px}
+    pre.code{font-size:12.5px}
+    pre.code .ln{grid-template-columns:2em minmax(0,1fr);column-gap:8px;padding-right:8px}
+    .opt .v code{font-size:12.5px}
+    .opt .k{flex-basis:40px}
+  }
+</style>
+</head>
+<body>
+<div class="flash" id="flash"></div>
+
+<div class="frame" id="frame">
+  <!-- oben -->
+  <div class="elbow tl"><span class="lbl" id="sysno">07-4471</span></div>
+  <div class="bars">
+    <div class="seg grow" style="background:var(--l)"></div>
+    <div class="title"><span class="hide-s">Trainingskonsole · </span>JavaScript &amp; Events</div>
+    <div class="seg hide-s" style="background:var(--o);width:90px">EVT-2</div>
+    <div class="seg hide-s" style="background:var(--p);width:44px"></div>
+    <div class="cap" style="background:var(--b)"></div>
+  </div>
+
+  <!-- Mitte -->
+  <aside class="side">
+    <div class="blk c1"><span>Aufgabe</span><b id="sProg">--/--</b></div>
+    <div class="blk"><span>Punkte</span><b id="sScore">0</b></div>
+    <div class="blk c2"><span>Serie</span><b id="sStreak">0</b></div>
+    <div class="blk c6" id="sShieldBlk"><span>Schilde</span><div class="shields" id="sShields"></div></div>
+    <div class="blk c3 btn off" id="jFifty" title="Zwei falsche Antworten ausblenden"><span>Analyse</span><b id="jFiftyN">2</b></div>
+    <div class="blk c4 btn off" id="jTime" title="Zeit für diese Aufgabe anhalten"><span>Zeitstopp</span><b id="jTimeN">1</b></div>
+    <div class="blk c2 btn" id="sArchiv" title="Lektionen öffnen"><span>Archiv</span><b id="sArchivV">0/6</b></div>
+    <div class="blk c5 grow btn" id="sSound" title="Ton an/aus"><span>Ton</span><b id="sSoundV">An</b></div>
+  </aside>
+
+  <main>
+    <!-- Start -->
+    <section class="screen on" id="scrStart">
+      <h1>Missionsbriefing</h1>
+      <p>Diese Konsole trainiert die <b>Grundprinzipien der Programmierung</b> – <b>Befehl</b>, <b>Variable</b>, <b>Verzweigung</b>, <b>Schleife</b> und <b>Funktion</b> – sowie Webtechnologien, Events und EventListener.</p>
+      <p>Jede Mission besteht aus <b>14 Aufgaben</b> aus neun Sektoren, der Schwerpunkt liegt auf den Prinzipien. Der Pool umfasst <b id="poolCount">–</b> Aufgaben: Bei jedem Start werden bevorzugt Aufgaben gezogen, die du noch nicht gesehen hast.</p>
+
+      <div class="modes">
+        <button class="mode sel" data-mode="training">
+          <h3>Training</h3>
+          <p>Keine Zeitbegrenzung, keine Schilde. Ideal zum Üben und Nachlesen der Erklärungen.</p>
+        </button>
+        <button class="mode" data-mode="einsatz">
+          <h3>Einsatz</h3>
+          <p>30 Sekunden pro Aufgabe, Zeitbonus, 3 Schilde. Bei jedem Fehler fällt ein Schild aus.</p>
+        </button>
+      </div>
+
+      <h3>Spielregeln</h3>
+      <p class="muted">Richtige Antwort: 100 Punkte. Serien-Multiplikator: ab 3 richtigen in Folge ×1,5, ab 5 ×2. Im Einsatz gibt es bis zu 50 Bonuspunkte für schnelle Antworten. Joker: <b>Analyse</b> blendet zwei falsche Antworten aus (2×), <b>Zeitstopp</b> hält die Zeit an (1×). Tastatur: <span class="kbd">1</span>–<span class="kbd">5</span> wählen, <span class="kbd">Enter</span> weiter.</p>
+      <p id="hsLine" class="muted"></p>
+      <div class="row" style="margin-top:16px">
+        <button class="pill" id="btnStart">Mission starten</button>
+        <button class="pill l" id="btnArchiv">Archiv: Lektionen</button>
+      </div>
+    </section>
+
+    <!-- Archiv -->
+    <section class="screen" id="scrArchiv">
+      <h1>Archiv</h1>
+      <p>Kurze Lektionen zu den Grundprinzipien – jeweils mit Beispielen, Merksätzen und typischen Fehlern.</p>
+      <p class="muted" id="archivInfo"></p>
+      <div class="alist" id="archivList"></div>
+      <div class="row"><button class="pill b" id="arBack">Zum Briefing</button></div>
+    </section>
+
+    <!-- Lektion -->
+    <section class="screen lesson" id="scrLesson">
+      <h1 id="lesHead">Lektion</h1>
+      <span class="lstate" id="lesState">Offen</span>
+      <div id="lesBody"></div>
+      <div class="lnav">
+        <button class="pill" id="lesCheck">Mini-Check (3 Aufgaben)</button>
+        <button class="pill t" id="lesTrain">Sektor-Training (8 aus <span id="lesTrainN">–</span>)</button>
+        <span class="sp"></span>
+        <button class="pill l" id="lesPrev">Zurück</button>
+        <button class="pill l" id="lesNext">Weiter</button>
+        <button class="pill b" id="lesBack">Archiv</button>
+      </div>
+    </section>
+
+    <!-- Frage -->
+    <section class="screen" id="scrQ">
+      <div class="hud">
+        <span class="tag" id="qCat">Sektor</span>
+        <span id="qType">Auswahl</span>
+        <span id="qMult" style="color:var(--y)"></span>
+      </div>
+      <div class="timer" id="timerWrap"><i id="timerBar"></i></div>
+      <div class="q" id="qText"></div>
+      <div id="qCode"></div>
+      <div id="qBody"></div>
+      <div class="fb" id="fb"><h3 id="fbH"></h3><p id="fbP"></p></div>
+      <div class="row">
+        <button class="pill b" id="btnConfirm" style="display:none">Bestätigen</button>
+        <button class="pill l" id="btnReset" style="display:none">Zurücksetzen</button>
+        <button class="pill" id="btnNext" style="display:none">Weiter</button>
+      </div>
+    </section>
+
+    <!-- Ende -->
+    <section class="screen" id="scrEnd">
+      <h2 id="endHead">Mission abgeschlossen</h2>
+      <div class="score" id="endScore">0</div>
+      <div class="rank" id="endRank">Rang</div>
+      <p id="endMsg"></p>
+      <div class="stats" id="endStats"></div>
+      <h3>Systemdiagnose nach Sektoren</h3>
+      <div class="catbars" id="endCats"></div>
+      <div class="row" style="margin-bottom:22px">
+        <button class="pill" id="btnAgain">Neue Mission</button>
+        <button class="pill l" id="btnMenu">Zum Briefing</button>
+      </div>
+      <h3>Logbuch der Mission</h3>
+      <div class="review" id="endReview"></div>
+    </section>
+  </main>
+
+  <!-- unten -->
+  <div class="elbow bl"><span class="lbl">JS-07</span></div>
+  <div class="bars bottom">
+    <div class="seg" style="background:var(--b);width:120px" id="poolInfo">POOL</div>
+    <div class="seg grow" style="background:var(--o)"></div>
+    <div class="seg hide-s" style="background:var(--l);width:70px">ON</div>
+    <div class="seg hide-s" style="background:var(--t);width:110px" id="clock">00:00:00</div>
+    <div class="cap" style="background:var(--p)"></div>
+  </div>
+</div>
+
+<script>
+'use strict';
+/* =====================================================================
+   AUFGABENPOOL
+   Konvention: Bei mc() steht die RICHTIGE Antwort immer an erster Stelle
+   (die Reihenfolge wird beim Anzeigen gemischt).
+   out(): Ausgabe-Frage – wird beim Testen automatisch nachgerechnet.
+   val(): Wert einer Variable am Ende – wird ebenfalls nachgerechnet.
+   ===================================================================== */
+const P5 = ['Schleife', 'Verzweigung', 'Befehl', 'Variable', 'Funktion'];
+const POOL = [];
+function mc(c, q, code, a, e, x){ POOL.push(Object.assign({c, t:'mc', q, code, a, k:0, e}, x || {})); }
+function tf(c, q, wahr, e){ POOL.push({c, t:'tf', q, a:['Wahr','Falsch'], k: wahr ? 0 : 1, e}); }
+function ln(c, q, code, k, e){ POOL.push({c, t:'line', q, code, k, e}); }
+function od(c, q, a, e, code){ POOL.push({c, t:'order', q, a, e, code}); }
+function out(c, code, a, e){ mc(c, 'Was gibt das Programm in der Konsole aus?', code, a, e, {o:1}); }
+function val(c, name, code, a, e){ mc(c, 'Welchen Wert hat die Variable ' + name + ' am Ende?', code, a, e, {v:name}); }
+function pr(code, k, e){ POOL.push({c:'zuo', t:'mc', q:'Welches Grundprinzip zeigt dieser Codeausschnitt als Ganzes?', code, a:P5, k, e}); }
+
+/* ---------------- WEBTECHNOLOGIEN ---------------- */
+mc('web','Welche Webtechnologie legt den Inhalt und die Struktur einer Webseite fest?',null,['HTML','CSS','JavaScript','Python'],'HTML (HyperText Markup Language) beschreibt, was auf der Seite steht: Überschriften, Absätze, Bilder, Buttons.');
+mc('web','Welche Webtechnologie bestimmt das Aussehen, also Farben, Schriftarten und Abstände?',null,['CSS','HTML','JavaScript','PHP'],'CSS (Cascading Style Sheets) ist für das Design zuständig.');
+mc('web','Welche Webtechnologie sorgt für Verhalten und Interaktivität?',null,['JavaScript','HTML','CSS','SQL'],'JavaScript macht die Seite interaktiv: Es reagiert auf Events, rechnet und verändert die Seite.');
+mc('web','Zu welcher Webtechnologie gehört dieser Code?','<button id="start">Start</button>',['HTML','CSS','JavaScript'],'Spitze Klammern < > kennzeichnen HTML-Tags.');
+mc('web','Zu welcher Webtechnologie gehört dieser Code?','h1 {\n    color: blue;\n}',['CSS','HTML','JavaScript'],'Der Aufbau Selektor { Eigenschaft: Wert; } ist typisch für CSS.');
+mc('web','Zu welcher Webtechnologie gehört dieser Code?',"var punkte = 5;\nconsole.log(punkte);",['JavaScript','HTML','CSS'],'Schlüsselwörter wie var, function, if, while und Befehle wie console.log gehören zu JavaScript.');
+tf('web','CSS allein kann eine Funktion ausführen.',false,'Funktionen gibt es nur in JavaScript. CSS legt das Aussehen fest.');
+mc('web','Wofür steht die Abkürzung HTML?',null,['HyperText Markup Language','High Tech Modern Language','Hyper Transfer Main Layout','Home Tool Markup Language'],'HTML = HyperText Markup Language, eine Auszeichnungssprache für Inhalte.');
+mc('web','Wofür steht die Abkürzung CSS?',null,['Cascading Style Sheets','Computer Style System','Creative Screen Setup','Colored Site Sheets'],'CSS = Cascading Style Sheets.');
+mc('web','Was passiert in dieser Zeile?',"document.body.style.backgroundColor = 'black';",['JavaScript ändert eine CSS-Eigenschaft eines HTML-Elements','CSS erzeugt ein neues HTML-Element','HTML lädt eine JavaScript-Datei','Der Browser löscht den Seiteninhalt'],'Alle drei arbeiten zusammen: JavaScript verändert die CSS-Eigenschaft backgroundColor des HTML-Elements body.');
+tf('web','Eine ID (id="…") sollte auf einer Webseite nur ein einziges Mal vorkommen.',true,'IDs müssen eindeutig sein, sonst weiß getElementById nicht, welches Element gemeint ist.');
+mc('web','Woran erkennt man HTML-Code am schnellsten?',null,['An Tags in spitzen Klammern < >','An geschweiften Klammern { }','Am Schlüsselwort var','An Semikolons am Zeilenende'],'HTML besteht aus Tags wie <p>, <h1> oder <button>.');
+mc('web','Ein Vergleich mit einem Haus: Welche Technologie entspricht dem Strom, der das Licht beim Druck auf den Schalter einschaltet?',null,['JavaScript','HTML','CSS'],'HTML = Gerüst, CSS = Farbe und Einrichtung, JavaScript = Strom bzw. Verhalten.');
+
+/* ---------------- EVENTS ---------------- */
+mc('evt','Was ist ein Event in JavaScript?',null,['Ein Ereignis im Browser, z. B. ein Klick, auf das ein Programm reagieren kann','Eine Variable, die Text speichert','Ein CSS-Befehl für Farben','Eine Liste von HTML-Elementen'],'Ein Event ist ein Ereignis im Browser, meist durch Nutzerinteraktion ausgelöst.');
+mc('evt','Welches Event wird bei einem Mausklick oder Antippen auf dem Touchscreen ausgelöst?',null,['click','pointerleave','DOMContentLoaded','keydown'],'click funktioniert für Mausklicks und Touchscreen-Tipps.');
+mc('evt','Welches Event wird ausgelöst, wenn der Zeiger (Maus, Stift, Finger) auf ein Element kommt?',null,['pointerover','pointerleave','click','DOMContentLoaded'],'pointerover: Der Zeiger kommt auf das Element.');
+mc('evt','Welches Event wird ausgelöst, wenn der Zeiger ein Element verlässt?',null,['pointerleave','pointerover','pointerdown','click'],'pointerleave: Der Zeiger verlässt das Element.');
+mc('evt','Welches Event wird ausgelöst, wenn die HTML-Seite vollständig geladen ist?',null,['DOMContentLoaded','click','pointerover','pageready'],'DOMContentLoaded meldet: Alle HTML-Elemente sind geladen.');
+mc('evt','Welches Event wird ausgelöst, wenn ein Zeiger auf ein Element drückt?',null,['pointerdown','pointerup','pointerleave','DOMContentLoaded'],'pointerdown: drücken; pointerup: loslassen.');
+tf('evt','Events werden meistens durch eine Interaktion des Nutzers ausgelöst.',true,'Klicken, Tippen, Zeiger bewegen. Es gibt aber auch Events wie DOMContentLoaded.');
+tf('evt','Das Event „click“ funktioniert nur mit der Maus, nicht auf Smartphones.',false,'click erkennt auch Touchscreen-Tipps.');
+od('evt','Bringe das Event-Konzept in die richtige Reihenfolge.',['Ein EventListener wird an ein HTML-Element gehängt.','Der Nutzer klickt auf das Element – das Event tritt ein.','Der EventListener bemerkt das Event.','Die zugehörige Funktion wird ausgeführt.'],'Zuerst wird der „Wachposten“ aufgestellt, dann passiert das Event, er bemerkt es und ruft die Funktion auf.');
+tf('evt','Events sind in allen gängigen Browsern standardisiert.',true,'Deshalb funktioniert z. B. click in jedem modernen Browser gleich.');
+mc('evt','Welcher Begriff ist KEIN Event?',null,['getElementById','click','pointerover','DOMContentLoaded'],'getElementById ist ein Befehl, um ein HTML-Element über seine ID zu holen.');
+tf('evt','Ohne EventListener führt ein Klick auf einen Button keine eigene JavaScript-Funktion aus.',true,'Erst der EventListener verknüpft das Event mit der Funktion.');
+
+/* ---------------- EVENTLISTENER ---------------- */
+mc('lis','Was ist ein EventListener?',null,['Ein „Zuhörer“, der auf ein Event wartet und dann eine Funktion ausführt','Ein Event, das beim Laden ausgelöst wird','Eine CSS-Regel für Buttons','Eine Schleife, die Klicks zählt'],'Der EventListener verknüpft ein Event mit einer Reaktion (Funktion).');
+mc('lis','An welches Element wird hier der EventListener gehängt?',"document.getElementById('knopf').addEventListener('click', zeigeNachricht);",['An das Element mit der ID „knopf“','An das ganze Dokument','An die Funktion zeigeNachricht','An alle Buttons der Seite'],"getElementById('knopf') holt das HTML-Element mit der ID knopf.");
+mc('lis','Auf welches Event wartet dieser EventListener?',"document.getElementById('foto').addEventListener('pointerleave', verkleinern);",['pointerleave','click','verkleinern','foto'],'Die erste Angabe in addEventListener ist das Event.');
+mc('lis','Welche Funktion wird ausgeführt, wenn das Event eintritt?',"document.getElementById('btnDunkel').addEventListener('click', dunkelModus);",['dunkelModus','btnDunkel','click','addEventListener'],'Die zweite Angabe in addEventListener ist die Funktion.');
+mc('lis','Warum stehen hinter dem Funktionsnamen im EventListener KEINE Klammern?',"knopf.addEventListener('click', zeigeNachricht);",['Die Funktion soll erst beim Event ausgeführt werden, nicht sofort','Klammern sind in JavaScript verboten','Weil die Funktion keinen Namen hat','Damit der Button unsichtbar wird'],'Ohne Klammern wird die Funktion nur übergeben. Mit Klammern würde sie sofort ausgeführt.');
+mc('lis','Was passiert bei diesem Code?',"document.getElementById('start').addEventListener('click', starte());",['starte wird sofort ausgeführt – nicht erst beim Klick','starte wird beim Klick zweimal ausgeführt','Der Code funktioniert wie gewünscht','Der Button wird gelöscht'],"Durch die Klammern () wird starte sofort aufgerufen. Richtig: addEventListener('click', starte);");
+mc('lis','Warum werden die EventListener erst nach „DOMContentLoaded“ angehängt?',"document.addEventListener('DOMContentLoaded', registerEvents);",['Die HTML-Elemente müssen erst geladen sein, sonst findet getElementById sie nicht','Damit die Seite schneller lädt','Weil DOMContentLoaded ein Klick ist','Damit CSS nicht mehr funktioniert'],'Ein Element, das noch nicht geladen ist, kann nicht gefunden werden.');
+mc('lis','Welche zwei Angaben bekommt addEventListener in unserem Unterricht?',null,['Das Event und die Funktion','Die ID und die Farbe','Die Variable und die Schleife','Den HTML-Tag und die CSS-Datei'],"addEventListener('event', funktion) – zuerst das Event, dann die Funktion.");
+mc('lis','Was liefert dieser Befehl?',"document.getElementById('hinweis')",['Das HTML-Element mit der ID „hinweis“','Alle Elemente mit der Klasse „hinweis“','Den Text „hinweis“','Eine neue Funktion namens hinweis'],'getElementById sucht genau das eine Element mit dieser ID.');
+tf('lis','An ein HTML-Element können mehrere EventListener gehängt werden.',true,'Ein Bild kann z. B. einen Listener für pointerover und einen für pointerleave haben.');
+mc('lis',"Im HTML steht id=\"hinweis\", im JavaScript getElementById('hinwies'). Was passiert?",null,['Das Element wird nicht gefunden, der Code funktioniert nicht','JavaScript korrigiert den Tippfehler automatisch','Es funktioniert, weil die Namen ähnlich sind','Es wird ein neues Element erstellt'],'JavaScript vergleicht IDs exakt – schon ein vertauschter Buchstabe führt zum Fehler.');
+mc('lis','Welches Wort fehlt in der Lücke?',"document.getElementById('btn').________('click', starte);",['addEventListener','getElementById','eventStart','onClick'],'Mit addEventListener wird ein EventListener angehängt.');
+mc('lis','Welche Zeile hängt KORREKT einen Klick-Listener an den Button „btnHell“?',null,["document.getElementById('btnHell').addEventListener('click', hellModus);","document.getElementById('btnHell').addEventListener(hellModus, 'click');","document.getElementById('click').addEventListener('btnHell', hellModus);","addEventListener('btnHell', 'click', hellModus());"],'Element holen → addEventListener → erst Event, dann Funktionsname ohne Klammern.');
+ln('lis','Klicke auf die Zeile, die dafür sorgt, dass die EventListener erst nach dem Laden der Seite angehängt werden.',"'use strict';\ndocument.addEventListener('DOMContentLoaded', registerEvents);\nfunction registerEvents() {\n    document.getElementById('btnDunkel').addEventListener('click', dunkelModus);\n    document.getElementById('titelbild').addEventListener('pointerover', bildGross);\n}\nfunction dunkelModus() {\n    document.body.style.backgroundColor = 'black';\n}",[1],'Zeile 2: Erst wenn DOMContentLoaded eintritt, wird registerEvents ausgeführt.');
+ln('lis','Klicke auf die Zeile, die darauf reagiert, dass der Zeiger auf das Titelbild kommt.',"'use strict';\ndocument.addEventListener('DOMContentLoaded', registerEvents);\nfunction registerEvents() {\n    document.getElementById('btnDunkel').addEventListener('click', dunkelModus);\n    document.getElementById('titelbild').addEventListener('pointerover', bildGross);\n}\nfunction bildGross() {\n    document.getElementById('titelbild').style.width = '600px';\n}",[4],'Zeile 5: Listener für pointerover am Element titelbild.');
+od('lis','Was passiert in welcher Reihenfolge, wenn eine Seite mit Dunkelmodus-Button geöffnet und benutzt wird?',['Der Browser lädt das HTML der Seite.','Das Event „DOMContentLoaded“ wird ausgelöst.','registerEvents hängt die EventListener an die Elemente.','Der Nutzer klickt auf den Button „Dunkelmodus“.','Die Funktion dunkelModus wird ausgeführt.'],'Erst laden, dann registrieren, dann reagieren.');
+
+/* ---------------- BEFEHL ---------------- */
+mc('bef','Was ist ein Befehl (eine Anweisung)?',null,['Eine einzelne Anweisung an den Computer, etwas zu tun','Ein Speicherplatz mit Namen','Eine Wiederholung von Code','Eine Entscheidung zwischen zwei Wegen'],'Ein Befehl ist die kleinste Einheit eines Programms: ein Schritt, eine Sache.');
+mc('bef','In welcher Reihenfolge werden Befehle, die untereinander stehen, ausgeführt?',null,['Nacheinander von oben nach unten','Von unten nach oben','Zufällig','Alle gleichzeitig'],'Der Computer arbeitet Befehle der Reihe nach ab (Sequenz).');
+out('bef',"console.log('A');\nconsole.log('B');\nconsole.log('C');",['A B C','C B A','ABC','A'],'Drei Befehle, drei Ausgaben – von oben nach unten.');
+out('bef',"console.log('Start');\nconsole.log(3 + 4);",['Start 7','Start 3 + 4','Start 34','7 Start'],'Ohne Anführungszeichen wird 3 + 4 gerechnet.');
+out('bef',"console.log('3 + 4');",['3 + 4','7','34','Fehler'],'In Anführungszeichen ist 3 + 4 nur Text und wird genau so ausgegeben.');
+mc('bef',"Was bewirkt dieser Befehl?","alert('Hallo');",['Er öffnet ein Hinweisfenster mit dem Text „Hallo“','Er schreibt „Hallo“ in die Konsole','Er ändert den Titel der Seite','Er speichert „Hallo“ in einer Variable'],'alert öffnet ein kleines Fenster, das man wegklicken muss.');
+mc('bef',"Was bewirkt dieser Befehl?","console.log('Test');",['Er gibt „Test“ in der Konsole des Browsers aus','Er öffnet ein Hinweisfenster','Er löscht die Konsole','Er erstellt eine Datei namens Test'],'Die Konsole findest du in den Entwicklertools (F12).');
+mc('bef','Welcher Befehl ist richtig geschrieben?',null,["console.log('Hallo');","Console.log('Hallo');","console.log(Hallo');","console log('Hallo');"],'Kleingeschrieben, Punkt zwischen console und log, Text in zwei Anführungszeichen.');
+tf('bef','JavaScript unterscheidet Groß- und Kleinschreibung: Console.Log(…) funktioniert nicht.',true,'console.log muss genau so geschrieben werden.');
+mc('bef','Mit welchem Zeichen endet in unserem Unterricht ein Befehl?',null,['Semikolon ;','Punkt .','Doppelpunkt :','Komma ,'],'Das Semikolon schließt eine Anweisung ab.');
+mc('bef','Was bewirkt dieser Befehl?',"document.getElementById('titel').style.color = 'red';",['Die Schrift des Elements mit der ID „titel“ wird rot','Der Hintergrund der ganzen Seite wird rot','Das Element „titel“ wird gelöscht','Ein neues rotes Element wird erstellt'],'style.color ist die Schriftfarbe.');
+mc('bef','Was bewirkt dieser Befehl?',"document.getElementById('box').style.display = 'none';",['Das Element mit der ID „box“ wird ausgeblendet','Das Element wird rot','Das Element wird doppelt so groß','Die Seite wird neu geladen'],"display = 'none' blendet ein Element aus.");
+mc('bef','Welchen Wert liefert dieser Befehl?','Math.max(4, 17, 9)',['17','4','9','30'],'Math.max liefert die größte Zahl.');
+mc('bef','Welchen Wert liefert dieser Befehl?','Math.round(4.6)',['5','4','4.6','6'],'Math.round rundet kaufmännisch: 4,6 → 5.');
+out('bef',"console.log('JavaScript'.toUpperCase());",['JAVASCRIPT','JavaScript','javascript','toUpperCase'],'toUpperCase wandelt in Großbuchstaben um.');
+mc('bef','Was bewirkt dieser Befehl, wenn liste vorher [\'Brot\'] war?',"liste.push('Milch');",["Die Liste ist danach ['Brot', 'Milch']","Die Liste ist danach ['Milch']","Die Liste ist danach ['Milch', 'Brot']",'Die Liste wird gelöscht'],'push hängt einen Eintrag hinten an.');
+out('bef',"console.log('Hallo');\nalert('Pause');\nconsole.log('Tschüss');",['Hallo Tschüss','Hallo Pause Tschüss','Tschüss','Pause'],'alert erscheint als Fenster, nicht in der Konsole.');
+mc('bef','Welcher Ausschnitt ist KEIN einzelner Befehl?',null,['while (i < 3) { i++; }',"console.log('Hi');","alert('Hi');","document.body.style.color = 'blue';"],'Die while-Zeile ist eine Schleife, die mehrere Befehle wiederholen kann.');
+tf('bef','Ein Befehl kann auch innerhalb einer Schleife oder einer Funktion stehen.',true,'Schleifen, Verzweigungen und Funktionen bestehen selbst aus Befehlen.');
+mc('bef','Was bewirkt dieser Befehl?',"document.body.style.fontSize = '20px';",['Die Schriftgröße der Seite wird 20 Pixel','Die Seite wird 20 Pixel breit','Der Rand wird 20 Pixel dick','Es werden 20 Zeilen angezeigt'],'fontSize ist die Schriftgröße.');
+mc('bef','Mit welcher Eigenschaft ändert JavaScript die Hintergrundfarbe eines Elements?',null,['style.backgroundColor','style.color','style.background-color','style.fontSize'],'In JavaScript werden CSS-Namen ohne Bindestrich geschrieben: backgroundColor.');
+mc('bef','Welche Zeile macht das Titelbild 600 Pixel breit?',null,["document.getElementById('titelbild').style.width = '600px';","document.getElementById('titelbild').width = 600;","titelbild.style = 600px;","style.width('titelbild', 600);"],'Element holen → style → width → Wert mit Einheit als Text.');
+
+/* ---------------- VARIABLE ---------------- */
+mc('var','Was ist eine Variable?',null,['Ein Speicherplatz mit Namen, in dem ein Wert liegt','Eine einzelne Ausgabe in der Konsole','Eine Wiederholung von Code','Ein HTML-Element mit ID'],'Wie eine Kiste mit Etikett: Name außen, Wert innen.');
+mc('var','Mit welchem Schlüsselwort deklarieren wir eine Variable?',null,['var','function','if','while'],'var name = wert; legt eine Variable an.');
+mc('var','Welcher Variablenname ist erlaubt?',null,['spielerName','2spieler','spieler name','spieler-name'],'Keine Leerzeichen, keine Bindestriche, nicht mit einer Ziffer beginnen.');
+tf('var','Die Variablen punkte und Punkte sind in JavaScript dieselbe Variable.',false,'Groß- und Kleinschreibung zählt – das sind zwei verschiedene Variablen.');
+val('var','a',"var a = 3;\na = a + 4;",['7','3','4','34'],'Erst rechts rechnen (3 + 4), dann in a speichern.');
+val('var','x',"var x = 10;\nx = x - 3;\nx = x * 2;",['14','7','17','20'],'10 − 3 = 7, dann 7 · 2 = 14.');
+out('var',"var name = 'Lea';\nconsole.log('Hallo ' + name);",['Hallo Lea','Hallo name','Hallo + name','Lea'],'name ohne Anführungszeichen ist die Variable, ihr Wert ist Lea.');
+out('var',"var name = 'Lea';\nconsole.log('name');",['name','Lea','Hallo Lea','Fehler'],"'name' in Anführungszeichen ist nur das Wort name, nicht die Variable.");
+out('var',"var a = '5';\nvar b = 5;\nconsole.log(a + b);",['55','10','5','Fehler'],"'5' ist ein Text. Text + Zahl wird verbunden, nicht gerechnet.");
+out('var',"var a = 5;\nvar b = 5;\nconsole.log(a + b);",['10','55','5','a + b'],'Zwei Zahlen werden addiert.');
+mc('var','Was bedeutet das Gleichheitszeichen in dieser Zeile?','var alter = 14;',['Zuweisung: Der Wert 14 wird in alter gespeichert','Vergleich: Ist alter gleich 14?','Rechnung: alter plus 14','Eine Gleichung, die gelöst wird'],'= ist in JavaScript eine Zuweisung, === ein Vergleich.');
+mc('var','Die Variable punkte existiert schon. Wie ändert man ihren Wert auf 20?',null,['punkte = 20;','var punkte == 20;','20 = punkte;','punkte(20);'],'Nach der Deklaration benutzt man die Variable ohne var.');
+val('var','zahl',"var zahl = 4;\nzahl++;\nzahl++;",['6','5','4','8'],'++ erhöht jeweils um 1.');
+val('var','z',"var z = 10;\nz--;",['9','10','11','8'],'-- verringert um 1.');
+mc('var','Welcher Wert ist ein Text (String)?',null,["'Hallo'",'42','3.5','true'],'Texte stehen in Anführungszeichen.');
+tf('var','Texte müssen in Anführungszeichen stehen, Zahlen nicht.',true,"'Hallo' ist Text, 42 ist eine Zahl.");
+out('var',"var a = 2;\nvar b = a;\na = 9;\nconsole.log(b);",['2','9','11','a'],'b hat den Wert von a kopiert, als a noch 2 war. Die spätere Änderung von a betrifft b nicht.');
+val('var','summe',"var preis = 4;\nvar anzahl = 3;\nvar summe = preis * anzahl;",['12','7','43','4'],'4 · 3 = 12.');
+mc('var','Was passiert hier, wenn punktzahl vorher nirgends deklariert wurde?','console.log(punktzahl);',['Es entsteht ein Fehler, weil die Variable nicht existiert','Es wird 0 ausgegeben','Es wird „punktzahl“ ausgegeben','Die Variable wird automatisch angelegt'],'Eine Variable muss deklariert werden, bevor man sie benutzt.');
+ln('var','Klicke auf die Zeile, in der die Variable deklariert wird.',"console.log('Start');\nvar leben = 3;\nleben = leben - 1;\nconsole.log(leben);",[1],'Zeile 2: var leben = 3; legt die Variable an.');
+ln('var','Klicke auf die Zeile, in der der Wert der Variable verändert wird.',"var kontostand = 50;\nconsole.log(kontostand);\nkontostand = kontostand + 20;\nconsole.log(kontostand);",[2],'Zeile 3: kontostand bekommt einen neuen Wert (70).');
+out('var',"var x = 1;\nx = x + x;\nx = x + x;\nconsole.log(x);",['4','2','3','1'],'1 + 1 = 2, dann 2 + 2 = 4.');
+mc('var','Wozu benutzt man Variablen?',null,['Um Werte zu speichern und später wiederzuverwenden oder zu ändern','Um Code zu wiederholen','Um Entscheidungen zu treffen','Um Webseiten zu gestalten'],'Variablen merken sich Werte wie Punkte, Namen oder Zählerstände.');
+out('var',"var vorname = 'Max';\nvar nachname = 'Muster';\nconsole.log(vorname + ' ' + nachname);",['Max Muster','MaxMuster','vorname nachname','Max + Muster'],"Das ' ' fügt ein Leerzeichen zwischen die Namen.");
+mc('var','Was bedeutet „zahl++“?',null,['zahl = zahl + 1','zahl = zahl + zahl','zahl = 2','zahl wird gelöscht'],'++ erhöht den Wert einer Variable um 1.');
+out('var',"var a = 5;\nvar b = 8;\nvar tausch = a;\na = b;\nb = tausch;\nconsole.log(a, b);",['8 5','5 8','8 8','5 5'],'Mit der Hilfsvariable tausch werden die Werte vertauscht.');
+mc('var','Welches Prinzip speichert einen Wert unter einem Namen?',null,P5.slice(3,4).concat(['Schleife','Verzweigung','Funktion']),'Das ist die Variable.');
+
+/* ---------------- VERZWEIGUNG ---------------- */
+mc('ver','Was macht eine Verzweigung?',null,['Je nach Bedingung wird unterschiedlicher Code ausgeführt','Sie wiederholt Code mehrmals','Sie speichert einen Wert','Sie gibt etwas in der Konsole aus'],'Eine Verzweigung trifft eine Entscheidung.');
+mc('ver','Welches Schlüsselwort leitet eine Verzweigung ein?',null,['if','while','function','var'],'if heißt „wenn“.');
+out('ver',"var punkte = 8;\nif (punkte > 5) {\n    console.log('bestanden');\n}",['bestanden','(keine Ausgabe)','8','punkte > 5'],'8 > 5 ist wahr, also läuft der Code in den Klammern.');
+out('ver',"var punkte = 3;\nif (punkte > 5) {\n    console.log('bestanden');\n}\nconsole.log('Ende');",['Ende','bestanden Ende','bestanden','(keine Ausgabe)'],'3 > 5 ist falsch – der if-Teil wird übersprungen, danach geht es normal weiter.');
+out('ver',"var wetter = 'Regen';\nif (wetter === 'Sonne') {\n    console.log('Eis essen');\n} else {\n    console.log('Kino');\n}",['Kino','Eis essen','Eis essen Kino','Regen'],'Die Bedingung ist falsch, also läuft der else-Teil.');
+out('ver',"var a = 10;\nif (a >= 10) {\n    console.log('A');\n} else {\n    console.log('B');\n}",['A','B','A B','10'],'>= heißt größer oder gleich – 10 >= 10 ist wahr.');
+out('ver',"var a = 10;\nif (a > 10) {\n    console.log('A');\n} else {\n    console.log('B');\n}",['B','A','A B','10'],'10 > 10 ist falsch, denn 10 ist nicht größer als 10.');
+out('ver',"var temperatur = 18;\nif (temperatur > 25) {\n    console.log('heiß');\n} else if (temperatur > 15) {\n    console.log('warm');\n} else {\n    console.log('kalt');\n}",['warm','heiß','kalt','warm kalt'],'18 > 25 ist falsch, 18 > 15 ist wahr → warm.');
+out('ver',"var temperatur = 30;\nif (temperatur > 25) {\n    console.log('heiß');\n} else if (temperatur > 15) {\n    console.log('warm');\n} else {\n    console.log('kalt');\n}",['heiß','heiß warm','warm','heiß warm kalt'],'Nur der erste wahre Zweig läuft – auch wenn 30 > 15 ebenfalls wahr wäre.');
+out('ver',"var temperatur = 5;\nif (temperatur > 25) {\n    console.log('heiß');\n} else if (temperatur > 15) {\n    console.log('warm');\n} else {\n    console.log('kalt');\n}",['kalt','warm','(keine Ausgabe)','heiß'],'Keine Bedingung ist wahr, also läuft der else-Teil.');
+mc('ver','Was bedeutet der Operator !== ?',null,['ungleich','gleich','kleiner oder gleich','Zuweisung'],'a !== b ist wahr, wenn a und b verschieden sind.');
+mc('ver','Was bedeutet der Operator <= ?',null,['kleiner oder gleich','kleiner','größer oder gleich','ungleich'],'3 <= 3 ist wahr, 4 <= 3 ist falsch.');
+tf('ver','Bei einer if-else-Verzweigung wird immer genau einer der beiden Teile ausgeführt.',true,'Entweder der if-Teil oder der else-Teil – nie beide, nie keiner.');
+tf('ver','Bei einer else-if-Kette können mehrere Zweige nacheinander ausgeführt werden.',false,'Nur der erste Zweig mit wahrer Bedingung läuft, der Rest wird übersprungen.');
+tf('ver','Ein if ohne else ist erlaubt.',true,'Dann passiert bei falscher Bedingung einfach nichts.');
+mc('ver','Welche Bedingung prüft, ob alter mindestens 16 ist?',null,['alter >= 16','alter > 16','alter = 16','alter <= 16'],'„Mindestens 16“ schließt 16 mit ein: >=.');
+mc('ver','Was ist an dieser Zeile falsch?','if (punkte = 10) {',['= ist eine Zuweisung – zum Vergleichen braucht man ===','Es fehlt das Wort then','Zahlen dürfen in Bedingungen nicht vorkommen','Nichts, die Zeile ist richtig'],'Mit = wird punkte auf 10 gesetzt, statt zu vergleichen.');
+ln('ver','note hat den Wert 3. Klicke auf die Zeile, die dann ausgeführt wird.',"var note = 3;\nif (note === 1) {\n    console.log('sehr gut');\n} else if (note === 2) {\n    console.log('gut');\n} else if (note === 3) {\n    console.log('befriedigend');\n} else {\n    console.log('ausreichend oder schlechter');\n}",[6],'Die dritte Bedingung ist die erste wahre → Zeile 7.');
+ln('ver','Klicke auf die Zeile, deren Ausgabe erscheint.',"var geld = 4;\nif (geld >= 5) {\n    console.log('Kino');\n} else {\n    console.log('Zuhause bleiben');\n}",[4],'4 >= 5 ist falsch → else-Teil, Zeile 5.');
+out('ver',"var istMitglied = true;\nif (istMitglied) {\n    console.log('Rabatt');\n} else {\n    console.log('Normalpreis');\n}",['Rabatt','Normalpreis','true','istMitglied'],'Die Variable ist true (wahr), also läuft der if-Teil.');
+out('ver',"var leben = 1;\nvar treffer = true;\nif (treffer) {\n    leben = leben - 1;\n}\nif (leben === 0) {\n    console.log('Game Over');\n}",['Game Over','(keine Ausgabe)','0','1'],'Erst wird leben auf 0 gesenkt, dann ist die zweite Bedingung wahr.');
+od('ver','Bringe den Ablauf einer if-else-Verzweigung in die richtige Reihenfolge.',['Die Bedingung in den runden Klammern wird geprüft.','Ist sie wahr, läuft der if-Teil – sonst der else-Teil.','Das Programm macht nach der Verzweigung weiter.'],'Erst prüfen, dann genau einen Weg nehmen, dann weiter.');
+val('ver','x',"var x = 7;\nif (x > 5) {\n    x = x - 5;\n} else {\n    x = x + 5;\n}",['2','12','7','5'],'7 > 5 ist wahr → 7 − 5 = 2.');
+ln('ver','Klicke auf die Zeile mit der Bedingung der Verzweigung.',"var schriftgroesse = 16;\nfunction vergroessern(schritt) {\n    if (schriftgroesse < 30) {\n        schriftgroesse = schriftgroesse + schritt;\n    } else {\n        alert('Größer geht es nicht!');\n    }\n}",[2],'Zeile 3: if (schriftgroesse < 30) prüft die Bedingung.');
+out('ver',"var zahl = 1;\nwhile (zahl <= 4) {\n    if (zahl === 3) {\n        console.log('Drei!');\n    } else {\n        console.log(zahl);\n    }\n    zahl++;\n}",['1 2 Drei! 4','1 2 3 4','Drei! Drei! Drei! Drei!','1 2 Drei!'],'Nur wenn zahl genau 3 ist, wird „Drei!“ ausgegeben.');
+mc('ver','Was ist der Unterschied zwischen = und === ?',null,['= weist einen Wert zu, === vergleicht zwei Werte','= vergleicht, === weist zu','Es gibt keinen Unterschied','=== ist nur in CSS erlaubt'],'var a = 5; (Zuweisung) – if (a === 5) (Vergleich).');
+out('ver',"var alter = 15;\nif (alter >= 18) {\n    console.log('volljährig');\n} else {\n    console.log('minderjährig');\n}",['minderjährig','volljährig','volljährig minderjährig','(keine Ausgabe)'],'15 >= 18 ist falsch, also läuft der else-Teil.');
+mc('ver','Welches Prinzip trifft eine Entscheidung und führt je nach Bedingung unterschiedlichen Code aus?',null,['Verzweigung','Schleife','Variable','Funktion'],'Das ist die Verzweigung (if, if-else, else-if).');
+out('ver',"var antwort = 'ja';\nif (antwort !== 'nein') {\n    console.log('Weiter');\n} else {\n    console.log('Abbruch');\n}",['Weiter','Abbruch','ja','(keine Ausgabe)'],"'ja' ist ungleich 'nein', die Bedingung ist wahr.");
+
+/* ---------------- SCHLEIFE ---------------- */
+mc('sch','Was macht eine Schleife?',null,['Sie wiederholt Code, solange eine Bedingung wahr ist','Sie trifft eine einmalige Entscheidung','Sie speichert einen Wert','Sie gibt der Funktion einen Namen'],'Schleifen sparen Schreibarbeit bei Wiederholungen.');
+mc('sch','Welche drei „Zutaten“ braucht eine while-Schleife mit Zähler?',null,['Startwert, Bedingung, Veränderung der Zählvariable','Name, Farbe, ID','if, else, else if','Funktion, Parameter, Aufruf'],'Ohne Veränderung droht eine Endlosschleife.');
+mc('sch','Was bedeutet „kopfgesteuert“ bei der while-Schleife?',null,['Die Bedingung wird vor jedem Durchlauf geprüft','Die Bedingung wird nach jedem Durchlauf geprüft','Die Schleife läuft immer genau einmal','Die Schleife hat keine Bedingung'],'Die Bedingung steht im Kopf: while (…).');
+out('sch',"var i = 0;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}",['0 1 2','1 2 3','0 1 2 3','0'],'Start bei 0, bei i = 3 ist 3 < 3 falsch.');
+out('sch',"var i = 5;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}\nconsole.log('fertig');",['fertig','5 fertig','5 6 7 fertig','(keine Ausgabe)'],'5 < 3 ist schon beim ersten Prüfen falsch – null Durchläufe.');
+out('sch',"var i = 2;\nwhile (i <= 10) {\n    console.log(i);\n    i = i + 4;\n}",['2 6 10','2 4 6 8 10','2 6','6 10'],'2 → 6 → 10 → 14. Bei 14 ist 14 <= 10 falsch.');
+out('sch',"var i = 10;\nwhile (i > 0) {\n    console.log(i);\n    i = i - 3;\n}",['10 7 4 1','10 7 4 1 -2','10 7 4','7 4 1'],'Bei i = −2 ist −2 > 0 falsch.');
+mc('sch',"Wie oft wird 'Hallo' ausgegeben?","var n = 1;\nwhile (n <= 5) {\n    console.log('Hallo');\n    n++;\n}",['5-mal','4-mal','6-mal','1-mal'],'n läuft von 1 bis einschließlich 5.');
+mc('sch',"Wie oft wird 'Hallo' ausgegeben?","var n = 1;\nwhile (n < 5) {\n    console.log('Hallo');\n    n++;\n}",['4-mal','5-mal','6-mal','unendlich oft'],'n = 1, 2, 3, 4 – bei 5 ist 5 < 5 falsch.');
+mc('sch','Welche Schleife ist eine Endlosschleife?',null,['var i = 0; while (i < 3) { console.log(i); }','var i = 0; while (i < 3) { i++; }','var i = 5; while (i > 0) { i--; }','var i = 0; while (i < 10) { i = i + 2; }'],'In der ersten Schleife wird i nie verändert – die Bedingung bleibt immer wahr.');
+val('sch','summe',"var summe = 0;\nvar i = 1;\nwhile (i <= 4) {\n    summe = summe + i;\n    i++;\n}",['10','4','6','15'],'1 + 2 + 3 + 4 = 10.');
+out('sch',"var text = '';\nvar i = 0;\nwhile (i < 3) {\n    text = text + '*';\n    i++;\n}\nconsole.log(text);",['***','*','* * *','3'],'Bei jedem Durchlauf kommt ein Stern hinzu, ausgegeben wird erst nach der Schleife.');
+out('sch',"var i = 1;\nwhile (i <= 3) {\n    if (i === 2) {\n        console.log('zwei');\n    }\n    i++;\n}",['zwei','1 zwei 3','zwei zwei zwei','(keine Ausgabe)'],'Die Schleife läuft dreimal, aber nur bei i = 2 ist die Bedingung wahr.');
+tf('sch','Eine while-Schleife läuft immer mindestens einmal.',false,'Ist die Bedingung beim ersten Prüfen falsch, läuft sie gar nicht.');
+ln('sch','Klicke auf die Zeile mit dem Startwert der Zählvariable.',"var runde = 1;\nwhile (runde <= 3) {\n    console.log('Runde ' + runde);\n    runde++;\n}",[0],'Zeile 1: runde beginnt bei 1.');
+ln('sch','Klicke auf die Zeile, die genau einmal NACH der Schleife ausgeführt wird.',"var countdown = 5;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}\nconsole.log('Start!');",[5],'Zeile 6 steht hinter der schließenden Klammer der Schleife.');
+val('sch','x',"var x = 1;\nwhile (x < 100) {\n    x = x * 2;\n}",['128','100','64','99'],'1, 2, 4, 8, 16, 32, 64, 128 – erst 128 ist nicht mehr kleiner als 100.');
+val('sch','i',"var i = 0;\nwhile (i < 3) {\n    i++;\n}",['3','2','4','0'],'Die Schleife endet, wenn i = 3 ist.');
+out('sch',"var obst = ['Apfel', 'Birne', 'Kiwi'];\nvar i = 0;\nwhile (i < obst.length) {\n    console.log(obst[i]);\n    i++;\n}",['Apfel Birne Kiwi','Birne Kiwi','Apfel Birne','Kiwi Birne Apfel'],'Die Zählung in Listen beginnt bei 0: obst[0] ist Apfel.');
+mc('sch','Was liefert obst.length, wenn obst = [\'Apfel\', \'Birne\', \'Kiwi\'] ist?',null,['3','2','0','Kiwi'],'length ist die Anzahl der Einträge.');
+ln('sch','Klicke auf die Zeile, die eine Endlosschleife verhindert.',"var karte = 1;\nwhile (karte <= 8) {\n    console.log('Karte ' + karte);\n    karte = karte + 1;\n}",[3],'Zeile 4 erhöht karte. Ohne sie bliebe die Bedingung immer wahr.');
+ln('sch','Klicke auf die Zeile mit der Schleifenbedingung.',"var zaehler = 1;\nwhile (zaehler <= 3) {\n    console.log('Artikel ' + zaehler + ' geladen');\n    zaehler++;\n}",[1],'Zeile 2: while (zaehler <= 3) – die Bedingung steht im Kopf der Schleife.');
+out('sch',"var zahl = 1;\nwhile (zahl <= 3) {\n    console.log(zahl);\n    zahl++;\n}",['1 2 3','0 1 2','1 2 3 4','1'],'zahl startet bei 1 und läuft bis einschließlich 3.');
+out('sch',"var countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}\nconsole.log('Los!');",['3 2 1 Los!','3 2 1 0 Los!','Los! 3 2 1','1 2 3 Los!'],'Bei countdown = 0 ist 0 > 0 falsch, danach folgt „Los!“.');
+mc('sch','Was passiert, wenn man in dieser Schleife die Zeile „zaehler++;“ löscht?',"var zaehler = 1;\nwhile (zaehler <= 3) {\n    console.log(zaehler);\n    zaehler++;\n}",['Es entsteht eine Endlosschleife','Die Schleife läuft genau einmal','Die Schleife läuft gar nicht','Es wird 1 2 3 ausgegeben'],'zaehler bliebe immer 1, die Bedingung immer wahr.');
+val('sch','summe',"var summe = 0;\nvar i = 1;\nwhile (summe < 10) {\n    summe = summe + i;\n    i++;\n}",['10','9','15','6'],'0+1=1, +2=3, +3=6, +4=10 → 10 < 10 ist falsch, Ende.');
+mc('sch','Wie oft wird der Schleifenkörper ausgeführt?',"var i = 0;\nwhile (i < 5) {\n    i = i + 2;\n}",['3-mal','5-mal','2-mal','unendlich oft'],'i = 0 → 2 → 4 → 6. Bei 6 ist 6 < 5 falsch.');
+od('sch','Bringe den Ablauf einer while-Schleife in die richtige Reihenfolge.',['Die Variable bekommt einen Startwert.','Die Bedingung wird geprüft.','Der Schleifenkörper wird ausgeführt.','Die Variable wird verändert.','Die Bedingung wird erneut geprüft.'],'Kopfgesteuert: erst prüfen, dann ausführen, dann verändern, dann wieder prüfen.');
+mc('sch','Welches Prinzip wiederholt Code, solange eine Bedingung wahr ist?',null,['Schleife','Verzweigung','Befehl','Funktion'],'Das ist die Schleife.');
+tf('sch','Eine while-Schleife prüft ihre Bedingung VOR jedem Durchlauf (kopfgesteuert).',true,'Deshalb kann sie auch null Mal durchlaufen werden.');
+out('sch',"var i = 3;\nwhile (i >= 1) {\n    console.log('Noch ' + i);\n    i--;\n}",['Noch 3 Noch 2 Noch 1','Noch 3 Noch 2','Noch 1 Noch 2 Noch 3','Noch 3 Noch 2 Noch 1 Noch 0'],'Bei i = 0 ist 0 >= 1 falsch.');
+
+/* ---------------- FUNKTION ---------------- */
+mc('fun','Was ist eine Funktion?',null,['Ein Code-Block mit Namen, der beim Aufruf ausgeführt wird','Eine Variable, die eine Zahl speichert','Eine Bedingung in runden Klammern','Ein HTML-Element'],'Funktionen bündeln Befehle unter einem Namen.');
+mc('fun','Woraus besteht der Funktionskopf?',null,['Schlüsselwort function, Name und runde Klammern mit Parametern','Nur aus dem Namen','Aus dem Code in geschweiften Klammern','Aus dem Aufruf mit Argumenten'],'Beispiel: function begruesse(name) {');
+mc('fun','Was ist der Funktionskörper?',null,['Der Code zwischen den geschweiften Klammern { }','Die Zeile mit dem Wort function','Der Aufruf der Funktion','Der Parameter in den runden Klammern'],'Im Körper stehen die Befehle, die beim Aufruf ausgeführt werden.');
+mc('fun','Wie ruft man diese Funktion auf?','function starte() {\n    console.log(\'Los!\');\n}',['starte();','function starte();','call starte;','starte;'],'Name + runde Klammern + Semikolon.');
+out('fun',"function sagHallo() {\n    console.log('Hallo');\n}\nsagHallo();\nsagHallo();",['Hallo Hallo','Hallo','(keine Ausgabe)','sagHallo sagHallo'],'Zwei Aufrufe, zwei Ausgaben.');
+out('fun',"function sagHallo() {\n    console.log('Hallo');\n}\nconsole.log('Ende');",['Ende','Hallo Ende','Ende Hallo','Hallo'],'sagHallo wird nie aufgerufen.');
+out('fun',"function gruss(name) {\n    console.log('Hi ' + name);\n}\ngruss('Ben');\ngruss('Ida');",['Hi Ben Hi Ida','Hi name Hi name','Hi Ben','Ben Ida'],'Bei jedem Aufruf landet ein anderes Argument im Parameter name.');
+out('fun',"function doppelt(x) {\n    return x * 2;\n}\nconsole.log(doppelt(5));",['10','5','x * 2','25'],'return gibt 5 · 2 = 10 zurück.');
+out('fun',"function plus(a, b) {\n    return a + b;\n}\nconsole.log(plus(2, 3));",['5','23','a + b','6'],'Die Argumente 2 und 3 landen in a und b.');
+mc('fun','Was macht return in einer Funktion?',null,['Es gibt einen Wert an die Stelle des Aufrufs zurück','Es startet die Funktion neu','Es gibt einen Text in der Konsole aus','Es löscht die Funktion'],'Danach ist die Funktion beendet.');
+mc('fun','Was ist bei diesem Code das Argument?',"function zeige(text) {\n    console.log(text);\n}\nzeige('Hi');",["'Hi'",'text','zeige','console.log'],'Das Argument ist der konkrete Wert beim Aufruf, text ist der Parameter.');
+val('fun','punkte',"var punkte = 0;\nfunction punkt() {\n    punkte = punkte + 10;\n}\npunkt();\npunkt();\npunkt();",['30','10','0','3'],'Drei Aufrufe, jeweils + 10.');
+out('fun',"function pruefe(alter) {\n    if (alter >= 18) {\n        return 'ja';\n    }\n    return 'nein';\n}\nconsole.log(pruefe(12));",['nein','ja','12','ja nein'],'12 >= 18 ist falsch, also wird das zweite return erreicht.');
+tf('fun','Eine Funktion kann mehrmals aufgerufen werden.',true,'Genau dafür sind Funktionen da.');
+tf('fun','Eine Funktion muss immer einen Parameter haben.',false,'Die Klammern können leer sein: function starte() { … }');
+ln('fun','Klicke auf die Zeile mit dem return.',"function quadrat(z) {\n    var ergebnis = z * z;\n    return ergebnis;\n}\nconsole.log(quadrat(3));",[2],'Zeile 3 gibt das Ergebnis zurück.');
+mc('fun','Wie heißt diese Funktion?','function zeigeHilfe() {\n    alert(\'Drücke Start!\');\n}',['zeigeHilfe','function','alert','Drücke Start!'],'Der Name steht direkt hinter function.');
+mc('fun','Warum benutzt man Funktionen?',null,['Um Code zu ordnen und über einen Namen mehrfach aufrufen zu können','Um Werte zu vergleichen','Damit der Code langsamer läuft','Um HTML zu schreiben'],'Einmal schreiben, oft benutzen.');
+out('fun',"function plusEins(x) {\n    return x + 1;\n}\nconsole.log(plusEins(plusEins(1)));",['3','2','1','11'],'Innen: plusEins(1) = 2. Außen: plusEins(2) = 3.');
+ln('fun','Klicke auf den Funktionskopf.',"function begruesse(name) {\n    var nachricht = 'Hallo ' + name + '!';\n    console.log(nachricht);\n}\nbegruesse('Mia');",[0],'Zeile 1: function, Funktionsname und Parameter.');
+ln('fun','Klicke auf die Zeile, in der die Funktion aufgerufen wird.',"function begruesse(name) {\n    var nachricht = 'Hallo ' + name + '!';\n    console.log(nachricht);\n}\nbegruesse('Mia');",[4],"Zeile 5: begruesse('Mia') ruft die Funktion auf.");
+ln('fun','Klicke auf eine Zeile, die zum Funktionskörper gehört.',"function flaeche(breite, hoehe) {\n    var ergebnis = breite * hoehe;\n    return ergebnis;\n}\nconsole.log(flaeche(4, 3));",[1,2],'Der Körper ist alles zwischen { und }: Zeilen 2 und 3.');
+mc('fun','Wie heißt der Parameter dieser Funktion?',"function vergroessern(schritt) {\n    schriftgroesse = schriftgroesse + schritt;\n}",['schritt','vergroessern','function','schriftgroesse'],'Der Parameter steht in den runden Klammern im Funktionskopf.');
+mc('fun','Wie heißen die Parameter dieser Funktion?',"function flaeche(breite, hoehe) {\n    return breite * hoehe;\n}",['breite und hoehe','flaeche','return','flaeche und breite'],'Mehrere Parameter werden durch Komma getrennt.');
+tf('fun','Eine Funktion wird automatisch ausgeführt, sobald sie deklariert wird.',false,'Sie läuft erst, wenn sie aufgerufen wird – oder ein EventListener sie auslöst.');
+mc('fun','Welches Prinzip fasst Code unter einem Namen zusammen, sodass man ihn später aufrufen kann?',null,['Funktion','Variable','Schleife','Befehl'],'Das ist die Funktion.');
+out('fun',"function hoch(zahl) {\n    var i = 0;\n    while (i < zahl) {\n        console.log('Hip');\n        i++;\n    }\n    console.log('Hurra!');\n}\nhoch(2);",['Hip Hip Hurra!','Hip Hurra!','Hip Hip Hip Hurra!','Hurra!'],'Das Argument 2 bestimmt, wie oft die Schleife läuft.');
+
+/* ---------------- PRINZIPIEN ZUORDNEN ---------------- */
+pr("var punkte = 0;\npunkte = punkte + 10;",3,'Die Variable punkte wird deklariert und ihr Wert verändert.');
+pr("var vorname = 'Lena';\nvar nachname = 'Schulz';\nvar vollerName = vorname + ' ' + nachname;",3,'Werte werden in Variablen gespeichert und verbunden.');
+pr("if (temperatur > 25) {\n    console.log('Es ist heiß.');\n} else {\n    console.log('Es ist angenehm.');\n}",1,'if-else: Je nach Bedingung läuft der eine oder der andere Teil.');
+pr("if (note === 1) {\n    console.log('sehr gut');\n} else if (note === 2) {\n    console.log('gut');\n} else {\n    console.log('anderes');\n}",1,'Eine else-if-Kette ist eine Verzweigung mit mehreren Fällen.');
+pr("var countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}",0,'Die while-Schleife wiederholt den Code. Die Startwert-Zeile gehört dazu.');
+pr("var farben = ['rot', 'grün', 'blau'];\nvar index = 0;\nwhile (index < farben.length) {\n    console.log(farben[index]);\n    index++;\n}",0,'Die while-Schleife geht nacheinander alle Einträge durch.');
+pr("console.log('Willkommen beim Training!');",2,'Eine einzelne Anweisung, die etwas tut.');
+pr("alert('Das Spiel startet!');",2,'alert ist ein einzelner Befehl.');
+pr("function begruesse(name) {\n    console.log('Hallo ' + name + '!');\n}",4,'function bündelt Code unter einem Namen.');
+pr("function quadrat(zahl) {\n    return zahl * zahl;\n}",4,'Eine Funktion mit Parameter und Rückgabewert.');
+pr("var spielerName = 'Kim';",3,'Mit var wird ein Wert unter einem Namen gespeichert.');
+pr("var leben = 3;\nleben = leben - 1;",3,'Deklarieren und Verändern einer Variable.');
+pr("var istFertig = false;",3,'Auch Wahrheitswerte (true/false) werden in Variablen gespeichert.');
+pr("console.log('Level geschafft!');",2,'Ein einzelner Ausgabe-Befehl.');
+pr("document.getElementById('ball').style.left = '200px';",2,'Ein einzelner Befehl, der eine Eigenschaft eines Elements ändert.');
+pr("alert('Zeit ist um!');",2,'Ein einzelner Befehl.');
+pr("if (leben === 0) {\n    console.log('Game Over');\n}",1,'if ohne else – trotzdem eine Verzweigung.');
+pr("if (zeit < 10) {\n    console.log('Beeil dich!');\n} else {\n    console.log('Alles entspannt.');\n}",1,'Zwei Wege je nach Bedingung.');
+pr("if (punkte >= 100) {\n    console.log('Gold');\n} else if (punkte >= 50) {\n    console.log('Silber');\n} else {\n    console.log('Bronze');\n}",1,'else-if-Kette mit drei Fällen.');
+pr("var sterne = 0;\nwhile (sterne < 5) {\n    console.log('*');\n    sterne++;\n}",0,'Fünf Wiederholungen mit while.');
+pr("var versuch = 1;\nwhile (versuch <= 3) {\n    console.log('Versuch ' + versuch);\n    versuch++;\n}",0,'Zählschleife: Startwert, Bedingung, Veränderung.');
+pr("var i = 10;\nwhile (i > 0) {\n    i = i - 2;\n}",0,'Auch ohne Ausgabe ist das eine Schleife.');
+pr("function springe() {\n    console.log('Hüpf!');\n}",4,'Eine Funktion ohne Parameter.');
+pr("function addiere(a, b) {\n    return a + b;\n}",4,'Eine Funktion mit zwei Parametern.');
+pr("function pruefeAlter(alter) {\n    if (alter >= 16) {\n        console.log('Darf rein');\n    }\n}",4,'Außen steht function – die Verzweigung steckt nur darin. Der ganze Ausschnitt ist eine Funktion.');
+pr("var runde = 1;\nwhile (runde <= 3) {\n    if (runde === 3) {\n        console.log('Letzte Runde!');\n    }\n    runde++;\n}",0,'Die Verzweigung steckt in der Schleife. Der Ausschnitt als Ganzes ist eine Schleife.');
+pr("if (istNacht) {\n    document.body.style.backgroundColor = 'black';\n}",1,'Der Befehl steckt in der Verzweigung. Außen steht if.');
+pr("console.log(Math.round(3.7));",2,'Ein einzelner Befehl – auch wenn darin noch Math.round steckt.');
+mc('zuo','Welcher Ausschnitt ist eine Verzweigung?',null,['if (x > 3) { x = 0; }','while (x > 3) { x--; }','function x() { return 3; }','var x = 3;'],'if leitet eine Verzweigung ein.');
+mc('zuo','Welcher Ausschnitt ist eine Schleife?',null,['while (x > 3) { x--; }','if (x > 3) { x = 0; }','function x() { return 3; }',"console.log('x');"],'while leitet eine Schleife ein.');
+mc('zuo','Welcher Ausschnitt ist eine Funktion?',null,['function x() { return 3; }','while (x > 3) { x--; }','if (x > 3) { x = 0; }','var x = 3;'],'function leitet eine Funktion ein.');
+mc('zuo','Welcher Ausschnitt ist ein einzelner Befehl?',null,["console.log('x');",'while (x > 3) { x--; }','if (x > 3) { x = 0; }','function x() { return 3; }'],'Eine einzelne Anweisung ohne Schlüsselwort wie if, while oder function.');
+mc('zuo','Ein Ausschnitt besteht aus einer while-Schleife, in deren Körper ein console.log steht. Welches Prinzip zeigt der Ausschnitt als Ganzes?',null,['Schleife','Befehl','Verzweigung','Variable'],'Entscheidend ist die äußerste Struktur.');
+ln('zuo','Klicke auf die Zeile, in der eine Verzweigung beginnt.',"var punkte = 0;\nfunction treffer() {\n    punkte = punkte + 10;\n    if (punkte >= 30) {\n        console.log('Level 2!');\n    }\n}",[3],'Zeile 4 beginnt mit if.');
+ln('zuo','Klicke auf die Zeile, in der eine Variable deklariert wird.',"var punkte = 0;\nfunction treffer() {\n    punkte = punkte + 10;\n    if (punkte >= 30) {\n        console.log('Level 2!');\n    }\n}",[0],'Zeile 1: var punkte = 0;');
+ln('zuo','Klicke auf die Zeile, in der eine Funktion beginnt.',"var punkte = 0;\nfunction treffer() {\n    punkte = punkte + 10;\n    if (punkte >= 30) {\n        console.log('Level 2!');\n    }\n}",[1],'Zeile 2: function treffer() {');
+ln('zuo','Klicke auf die Zeile, in der eine Schleife beginnt.',"var i = 1;\nwhile (i <= 3) {\n    console.log('Runde ' + i);\n    i++;\n}\nalert('Fertig!');",[1],'Zeile 2 beginnt mit while.');
+od('zuo','Bringe die Prinzipien in diesem Code von AUSSEN nach INNEN in die richtige Reihenfolge.',['Funktion','Schleife','Verzweigung','Befehl'],'function umschließt while, while umschließt if, if umschließt console.log.',"function zaehle() {\n    var i = 0;\n    while (i < 5) {\n        if (i === 3) {\n            console.log('Drei');\n        }\n        i++;\n    }\n}");
+
+/* =====================================================================
+   LEKTIONEN – kurze Erklärungen der Grundprinzipien
+   parts: h (Überschrift), p (Text, HTML erlaubt), code, out (Konsole),
+          trace (Ablauftabelle), html (freies HTML, z. B. Tabellen)
+   ===================================================================== */
+const LESSONS = [
+{
+  id:'bef', title:'Befehl', kurz:'Eine Anweisung – ein Schritt',
+  intro:'Ein <b>Befehl</b> (auch <b>Anweisung</b>) ist die kleinste Einheit eines Programms. Er sagt dem Computer, <b>eine Sache</b> zu tun: etwas ausgeben, ein Fenster öffnen, eine Farbe ändern. In JavaScript endet ein Befehl mit einem Semikolon <code>;</code>.',
+  parts:[
+    {h:'Ein einzelner Befehl', p:'Der Befehl <code>console.log()</code> schreibt das, was in den Klammern steht, in die Konsole des Browsers. Die Konsole findest du in den Entwicklertools (Taste F12).', code:"console.log('Hallo Welt!');", out:'Hallo Welt!'},
+    {h:'Mehrere Befehle: von oben nach unten', p:'Stehen mehrere Befehle untereinander, führt der Computer sie <b>nacheinander von oben nach unten</b> aus.', code:"console.log('Eins');\nconsole.log('Zwei');\nconsole.log('Drei');", out:'Eins\nZwei\nDrei'},
+    {h:'Text oder Rechnung?', p:'Was in Anführungszeichen steht, ist <b>Text</b> und wird genau so ausgegeben. Ohne Anführungszeichen wird gerechnet.', code:"console.log('3 + 4');\nconsole.log(3 + 4);", out:'3 + 4\n7'},
+    {h:'Befehle, die die Webseite verändern', p:'Ein Befehl kann auch etwas auf der Seite ändern. Diese Zeile holt das Element mit der ID <code>titel</code> und färbt seine Schrift rot. Mit <code>alert()</code> öffnet sich ein Hinweisfenster.', code:"document.getElementById('titel').style.color = 'red';\nalert('Die Überschrift ist jetzt rot!');"}
+  ],
+  merke:['Ein Befehl ist eine einzelne Anweisung, die etwas tut.','Befehle werden der Reihe nach von oben nach unten ausgeführt.','Ein Befehl endet mit einem Semikolon <code>;</code>.'],
+  fehler:['<code>Console.log</code> statt <code>console.log</code>: JavaScript unterscheidet Groß- und Kleinschreibung.','Anführungszeichen vergessen: <code>console.log(Hallo);</code> sucht eine Variable namens Hallo.','Klammer nicht geschlossen: <code>console.log(\'Hi\';</code>']
+},
+{
+  id:'var', title:'Variable', kurz:'Ein Speicherplatz mit Namen',
+  intro:'Eine <b>Variable</b> ist wie eine <b>Kiste mit Etikett</b>: Auf dem Etikett steht der Name, in der Kiste liegt ein Wert. Man kann den Wert später wieder hervorholen oder austauschen.',
+  parts:[
+    {h:'Deklarieren: eine Variable anlegen', p:'Mit dem Schlüsselwort <code>var</code> wird eine Variable angelegt (<b>deklariert</b>). Das Gleichheitszeichen <code>=</code> legt einen Wert hinein (<b>Zuweisung</b>). Beim Ausgeben steht der Name <b>ohne</b> Anführungszeichen.', code:"var punkte = 0;\nvar spielerName = 'Kim';\nconsole.log(spielerName);\nconsole.log(punkte);", out:'Kim\n0'},
+    {h:'Den Wert verändern', p:'Danach benutzt man die Variable <b>ohne</b> <code>var</code>. Bei <code>punkte = punkte + 5</code> wird zuerst rechts gerechnet und das Ergebnis dann links gespeichert.', code:"var punkte = 0;\npunkte = punkte + 5;\npunkte = punkte + 5;\nconsole.log(punkte);", out:'10'},
+    {h:'Abkürzungen ++ und --', p:'<code>leben++</code> erhöht um 1, <code>leben--</code> verringert um 1.', code:"var leben = 3;\nleben--;\nconsole.log(leben);\nleben++;\nleben++;\nconsole.log(leben);", out:'2\n4'},
+    {h:'Text verbinden', p:'Mit <code>+</code> werden Texte aneinandergehängt. Achtung: Ist einer der Werte ein Text, wird nicht gerechnet, sondern verbunden.', code:"var vorname = 'Ali';\nconsole.log('Hallo ' + vorname + '!');\nconsole.log('5' + 5);\nconsole.log(5 + 5);", out:'Hallo Ali!\n55\n10'}
+  ],
+  merke:['<code>var name = wert;</code> legt eine Variable an – nur einmal.','Danach ändert man sie ohne <code>var</code>: <code>name = neuerWert;</code>','Namen: keine Leerzeichen, nicht mit einer Ziffer beginnen, Groß-/Kleinschreibung zählt.','Text steht in Anführungszeichen, Zahlen nicht.'],
+  fehler:['<code>console.log(\'punkte\')</code> gibt das Wort „punkte“ aus, nicht den Wert.','<code>Punkte</code> und <code>punkte</code> sind zwei verschiedene Variablen.','Eine Variable benutzen, bevor sie deklariert wurde → Fehler.']
+},
+{
+  id:'ver', title:'Verzweigung', kurz:'Wenn …, dann …, sonst …',
+  intro:'Mit einer <b>Verzweigung</b> trifft das Programm eine <b>Entscheidung</b>. Es prüft eine <b>Bedingung</b>. Ist sie wahr, wird ein Teil des Codes ausgeführt – sonst ein anderer oder gar keiner.',
+  parts:[
+    {h:'if – wenn', p:'Der Code in den geschweiften Klammern läuft nur, wenn die Bedingung in den runden Klammern wahr ist. Danach geht es ganz normal weiter.', code:"var punkte = 8;\nif (punkte > 5) {\n    console.log('Bestanden!');\n}\nconsole.log('Ende');", out:'Bestanden!\nEnde'},
+    {h:'if-else – wenn, sonst', p:'Mit <code>else</code> gibt es einen zweiten Weg. Es wird <b>immer genau einer</b> der beiden Teile ausgeführt.', code:"var geld = 4;\nif (geld >= 5) {\n    console.log('Kino');\n} else {\n    console.log('Zuhause bleiben');\n}", out:'Zuhause bleiben'},
+    {h:'else-if-Kette – mehrere Fälle', p:'Die Bedingungen werden von oben nach unten geprüft. Die <b>erste wahre</b> gewinnt, alle weiteren werden übersprungen. Das <code>else</code> am Ende fängt alles andere auf.', code:"var temperatur = 18;\nif (temperatur > 25) {\n    console.log('heiß');\n} else if (temperatur > 15) {\n    console.log('warm');\n} else {\n    console.log('kalt');\n}", out:'warm'},
+    {h:'Vergleichsoperatoren', html:'<table class="ops"><tr><th>Zeichen</th><th>Bedeutung</th><th>Beispiel (wahr)</th></tr><tr><td><code>===</code></td><td>gleich</td><td><code>3 === 3</code></td></tr><tr><td><code>!==</code></td><td>ungleich</td><td><code>3 !== 4</code></td></tr><tr><td><code>&lt;</code></td><td>kleiner</td><td><code>2 &lt; 5</code></td></tr><tr><td><code>&gt;</code></td><td>größer</td><td><code>5 &gt; 2</code></td></tr><tr><td><code>&lt;=</code></td><td>kleiner oder gleich</td><td><code>5 &lt;= 5</code></td></tr><tr><td><code>&gt;=</code></td><td>größer oder gleich</td><td><code>5 &gt;= 5</code></td></tr></table>'}
+  ],
+  merke:['Bedingung in runde Klammern, Code in geschweifte Klammern.','Es wird höchstens ein Zweig ausgeführt.','<code>=</code> weist zu, <code>===</code> vergleicht.'],
+  fehler:['<code>if (punkte = 10)</code> – hier wird zugewiesen statt verglichen.','<code>&gt;</code> statt <code>&gt;=</code>: Bei genau 18 ist <code>alter &gt; 18</code> falsch!','Geschweifte Klammer vergessen – dann ist unklar, wo der Zweig endet.']
+},
+{
+  id:'sch', title:'Schleife', kurz:'Wiederholen, solange …',
+  intro:'Eine <b>Schleife</b> <b>wiederholt</b> Code, solange eine Bedingung wahr ist. Wir benutzen die <b>while-Schleife</b>. Sie ist <b>kopfgesteuert</b>: Die Bedingung steht im Kopf und wird <b>vor jedem Durchlauf</b> geprüft.',
+  parts:[
+    {h:'Die drei Zutaten', p:'Eine Zählschleife braucht: <b>1. Startwert</b> (Zeile 1), <b>2. Bedingung</b> (Zeile 2) und <b>3. Veränderung</b> der Zählvariable (Zeile 4).', code:"var i = 1;\nwhile (i <= 3) {\n    console.log(i);\n    i++;\n}", out:'1\n2\n3',
+     trace:{head:['Prüfung','i','i <= 3 ?','Ausgabe','i danach'], rows:[['1.','1','wahr','1','2'],['2.','2','wahr','2','3'],['3.','3','wahr','3','4'],['4.','4','falsch → Ende','–','–']]}},
+    {h:'Rückwärts zählen', p:'Die letzte Zeile steht <b>nach</b> der Schleife und wird nur einmal ausgeführt – wenn die Schleife fertig ist.', code:"var countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}\nconsole.log('Start!');", out:'3\n2\n1\nStart!'},
+    {h:'Null Durchläufe', p:'Ist die Bedingung schon beim ersten Prüfen falsch, wird der Schleifenkörper <b>gar nicht</b> ausgeführt.', code:"var i = 5;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}\nconsole.log('fertig');", out:'fertig'},
+    {h:'Vorsicht, Endlosschleife!', p:'Fehlt die Veränderung, bleibt die Bedingung für immer wahr. Der Browser hängt sich auf.', code:"var i = 0;\nwhile (i < 3) {\n    console.log(i);\n    // i++ fehlt!\n}"}
+  ],
+  merke:['Startwert – Bedingung – Veränderung.','Die Bedingung wird vor jedem Durchlauf geprüft (kopfgesteuert).','Code nach der schließenden Klammer läuft erst, wenn die Schleife beendet ist.'],
+  fehler:['Veränderung vergessen → Endlosschleife.','Falsche Richtung: <code>i--</code> bei <code>i &lt; 10</code> → Endlosschleife.','<code>&lt;</code> und <code>&lt;=</code> verwechselt → ein Durchlauf zu viel oder zu wenig.']
+},
+{
+  id:'fun', title:'Funktion', kurz:'Code mit Namen, auf Abruf',
+  intro:'Eine <b>Funktion</b> fasst mehrere Befehle unter einem <b>Namen</b> zusammen. Sie wird erst ausgeführt, wenn man sie <b>aufruft</b> – so oft man will.',
+  parts:[
+    {h:'Aufbau einer Funktion', p:'Zeile 1 ist der <b>Funktionskopf</b>: Schlüsselwort <code>function</code>, <b>Name</b> und runde Klammern mit dem <b>Parameter</b>. Zwischen den geschweiften Klammern steht der <b>Funktionskörper</b> (Zeilen 2–3). Zeilen 5 und 6 sind <b>Aufrufe</b>: <code>\'Mia\'</code> und <code>\'Tom\'</code> sind <b>Argumente</b>, die im Parameter <code>name</code> landen.', code:"function begruesse(name) {\n    var text = 'Hallo ' + name + '!';\n    console.log(text);\n}\nbegruesse('Mia');\nbegruesse('Tom');", out:'Hallo Mia!\nHallo Tom!'},
+    {h:'Ohne Aufruf passiert nichts', p:'Die Funktion ist zwar deklariert, wird aber nie aufgerufen.', code:"function sagHallo() {\n    console.log('Hallo');\n}\nconsole.log('Ende');", out:'Ende'},
+    {h:'Rückgabewert mit return', p:'<code>return</code> gibt ein Ergebnis an die Stelle zurück, an der die Funktion aufgerufen wurde. Hier landet es in der Variable <code>ergebnis</code>.', code:"function verdopple(zahl) {\n    return zahl * 2;\n}\nvar ergebnis = verdopple(21);\nconsole.log(ergebnis);", out:'42'},
+    {h:'Mehrere Parameter', p:'Mehrere Parameter werden durch Komma getrennt. Die Argumente werden in derselben Reihenfolge zugeordnet.', code:"function flaeche(breite, hoehe) {\n    return breite * hoehe;\n}\nconsole.log(flaeche(4, 3));", out:'12'}
+  ],
+  merke:['Kopf = <code>function</code> + Name + (Parameter). Körper = Code in <code>{ }</code>.','Eine Funktion läuft erst beim Aufruf: <code>name();</code>','Parameter = Platzhalter im Kopf, Argument = konkreter Wert beim Aufruf.'],
+  fehler:['Aufruf ohne Klammern (<code>begruesse;</code>) führt die Funktion nicht aus.','Argument vergessen: <code>begruesse()</code> → name ist <code>undefined</code>.','Im EventListener dagegen <b>ohne</b> Klammern: <code>addEventListener(\'click\', starte)</code>.']
+},
+{
+  id:'zuo', title:'Prinzipien erkennen', kurz:'Was zeigt der Ausschnitt als Ganzes?',
+  intro:'In echten Programmen stecken die Prinzipien <b>ineinander</b>. Um einen Codeausschnitt zuzuordnen, schaust du auf die <b>äußerste</b> Struktur – also darauf, womit der Ausschnitt beginnt und was alles andere umschließt.',
+  parts:[
+    {h:'Erkennungsmerkmale', html:'<table class="ops"><tr><th>Prinzip</th><th>Erkennst du an …</th></tr><tr><td>Variable</td><td><code>var name = …;</code></td></tr><tr><td>Befehl</td><td>einer einzelnen Anweisung, z. B. <code>console.log(…);</code> oder <code>alert(…);</code></td></tr><tr><td>Verzweigung</td><td><code>if (…) { … }</code>, evtl. mit <code>else</code> oder <code>else if</code></td></tr><tr><td>Schleife</td><td><code>while (…) { … }</code></td></tr><tr><td>Funktion</td><td><code>function name(…) { … }</code></td></tr></table>'},
+    {h:'Ein Beispiel mit allem', p:'Der Kommentar hinter einer Zeile (<code>// …</code>) zeigt, welches Prinzip dort beginnt.', code:"var anzahl = 0;                 // Variable\nfunction zaehleBis(grenze) {    // Funktion\n    while (anzahl < grenze) {   // Schleife\n        anzahl++;\n        if (anzahl === 2) {     // Verzweigung\n            console.log('Halbzeit!');  // Befehl\n        }\n    }\n}\nzaehleBis(4);", out:'Halbzeit!'},
+    {h:'Von außen nach innen', p:'Der Ausschnitt von Zeile 2 bis 9 ist als Ganzes eine <b>Funktion</b> – obwohl darin eine Schleife, eine Verzweigung und ein Befehl stecken. Zeile 3 bis 8 ist eine <b>Schleife</b>, Zeile 5 bis 7 eine <b>Verzweigung</b>, Zeile 6 ein <b>Befehl</b>.'}
+  ],
+  merke:['Schau zuerst auf die erste Zeile des Ausschnitts: <code>var</code>, <code>if</code>, <code>while</code> oder <code>function</code>?','Was außen steht, bestimmt das Prinzip des ganzen Ausschnitts.','Eine einzelne Zeile ohne diese Schlüsselwörter ist meist ein Befehl.'],
+  fehler:['Einen Befehl innerhalb einer Schleife als „Befehl“ für den ganzen Ausschnitt halten.','Eine Funktion mit <code>if</code> darin als „Verzweigung“ einordnen.']
+}
+];
+
+/* =====================================================================
+   SPIEL-LOGIK
+   ===================================================================== */
+const CATS = {web:'Webtechnologien', evt:'Events', lis:'EventListener', zuo:'Prinzipien erkennen', var:'Variable', bef:'Befehl', ver:'Verzweigung', sch:'Schleife', fun:'Funktion'};
+const CATCOL = {web:'var(--p)', evt:'var(--o)', lis:'var(--l)', zuo:'var(--g)', var:'var(--t)', bef:'var(--y)', ver:'var(--b)', sch:'var(--r)', fun:'var(--l)'};
+const COMP = {web:1, evt:1, lis:1, zuo:2, var:2, bef:1, ver:2, sch:2, fun:2};   // 14 Aufgaben pro Mission
+const TYPES = {mc:'Auswahl', tf:'Wahr oder falsch', order:'Reihenfolge', line:'Zeile finden'};
+const SHIELDS = 3;
+const $ = id => document.getElementById(id);
+POOL.forEach((q, i) => q.id = i);
+
+function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+function store(k, v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k, JSON.stringify(v)); }catch(e){ return null; } }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function codeBreaks(s){
+  return esc(s).replace(/\.(?=[A-Za-z_])/g, '.<wbr>').replace(/\((?=\S)/g, '(<wbr>').replace(/,(?=\S)/g, ',<wbr>');
+}
+function fmtAnswer(s){
+  const isCode = /[();=]|getElement|style\.|^'|^\w+\(/.test(s) && s.length < 90 && !/ (wird|ist|der|die|das|ein|eine) /.test(s);
+  return isCode ? '<code>' + codeBreaks(s) + '</code>' : esc(s);
+}
+
+/* Code mit Zeilennummern und sauberem Umbruch darstellen */
+function renderCode(box, code, onPick){
+  const pre = document.createElement('pre'); pre.className = 'code' + (onPick ? ' pick' : '');
+  code.split('\n').forEach((ln, idx) => {
+    const s = document.createElement('span'); s.className = 'ln';
+    const ind = ln.match(/^ */)[0].length;
+    let body = codeBreaks(ln.slice(ind));
+    body = body.replace(/(\/\/.*)$/, '<span class="cm">$1</span>');   // Kommentare abschwächen
+    s.innerHTML = '<span class="nr">' + (idx+1) + '</span><span class="cx" style="padding-left:' + (ind+4) + 'ch;text-indent:-4ch">' + (body || '&nbsp;') + '</span>';
+    if(onPick) s.addEventListener('click', () => onPick(idx, s));
+    pre.appendChild(s);
+  });
+  box.appendChild(pre);
+  return pre;
+}
+
+/* ---------- Ton ---------- */
+let actx = null, soundOn = store('js07_sound') !== false;
+function beep(seq){
+  if(!soundOn) return;
+  try{
+    actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    let t = actx.currentTime;
+    seq.forEach(([f, d, type]) => {
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = type || 'sine'; o.frequency.value = f;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(0.12, t+0.01); g.gain.exponentialRampToValueAtTime(0.0001, t+d);
+      o.connect(g); g.connect(actx.destination); o.start(t); o.stop(t+d+0.02); t += d*0.85;
+    });
+  }catch(e){}
+}
+const SND = {
+  tap:  () => beep([[1320,.06],[990,.06]]),
+  ok:   () => beep([[880,.09],[1175,.09],[1568,.16]]),
+  bad:  () => beep([[220,.22,'square'],[165,.3,'square']]),
+  tick: () => beep([[1760,.03]]),
+  end:  () => beep([[660,.12],[880,.12],[1100,.12],[1320,.3]]),
+  joker:() => beep([[600,.06],[900,.06],[1200,.06],[1500,.1]])
+};
+
+/* =====================================================================
+   SPIELZUSTAND
+   ===================================================================== */
+let mode = 'training';
+let G = null;
+let curLesson = null;
+
+function pickFrom(cat, n, seen){
+  const list = shuffle(POOL.filter(q => q.c === cat));
+  list.sort((a,b) => (seen.includes(a.id)?1:0) - (seen.includes(b.id)?1:0));   // Ungesehene zuerst
+  return list.slice(0, n);
+}
+function pickRound(opts){
+  const seen = store('js07_seen') || [];
+  let chosen = [];
+  if(opts.cat) chosen = pickFrom(opts.cat, opts.n, seen);
+  else Object.keys(COMP).forEach(cat => chosen.push(...pickFrom(cat, COMP[cat], seen)));
+  const ids = chosen.map(q => q.id);
+  store('js07_seen', seen.filter(id => !ids.includes(id)).concat(ids).slice(-140));
+  return shuffle(chosen);
+}
+
+/* opts: {cat, n, lesson}  – ohne opts: normale Mission */
+function startGame(opts){
+  opts = opts || {};
+  SND.tap();
+  G = { opts, mode: opts.cat ? 'training' : mode, qs: pickRound(opts), i: 0, score: 0, streak: 0, best: 0, shields: SHIELDS, fifty: 2, tstop: 1,
+        log: [], answered: false, timer: null, tLeft: 0, tMax: 0, paused: false, orderSel: [] };
+  show('scrQ');
+  renderQ();
+}
+
+function show(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.toggle('on', s.id === id));
+  window.scrollTo({top:0, behavior:'smooth'});
+  renderSide();
+}
+function mult(){ return G.streak >= 5 ? 2 : G.streak >= 3 ? 1.5 : 1; }
+
+function renderSide(){
+  const inQ = !!G && $('scrQ').classList.contains('on');
+  $('sProg').textContent = inQ ? String(G.i+1).padStart(2,'0') + '/' + G.qs.length : (G && $('scrEnd').classList.contains('on') ? 'ENDE' : '--/--');
+  $('sScore').textContent = G ? G.score : 0;
+  $('sStreak').textContent = G ? G.streak : 0;
+  const sh = $('sShields'); sh.innerHTML = '';
+  const einsatz = G ? G.mode === 'einsatz' : mode === 'einsatz';
+  $('sShieldBlk').style.opacity = einsatz ? 1 : .35;
+  for(let i=0;i<SHIELDS;i++){ const s = document.createElement('i'); if(G && einsatz && i >= G.shields) s.className='lost'; sh.appendChild(s); }
+  const q = inQ && G.qs[G.i];
+  const fiftyOk = inQ && !G.answered && G.fifty > 0 && q && q.t === 'mc' && q.a.length >= 4;
+  const timeOk = inQ && !G.answered && G.tstop > 0 && G.mode === 'einsatz' && !G.paused;
+  $('jFifty').classList.toggle('off', !fiftyOk); $('jFiftyN').textContent = G ? G.fifty : 2;
+  $('jTime').classList.toggle('off', !timeOk);  $('jTimeN').textContent = G ? G.tstop : 1;
+  $('sSoundV').textContent = soundOn ? 'An' : 'Aus';
+  const done = store('js07_done') || [];
+  $('sArchivV').textContent = done.length + '/' + LESSONS.length;
+  $('sArchiv').classList.toggle('off', inQ && !G.answered);
+}
+
+/* ---------- Frage anzeigen ---------- */
+function renderQ(){
+  const q = G.qs[G.i];
+  G.answered = false; G.paused = false; G.orderSel = [];
+  $('qCat').textContent = 'Sektor · ' + CATS[q.c];
+  $('qCat').style.background = CATCOL[q.c];
+  $('qType').textContent = TYPES[q.t];
+  $('qMult').textContent = mult() > 1 ? 'Serie ×' + String(mult()).replace('.',',') : '';
+  $('qText').textContent = q.q;
+  $('fb').className = 'fb';
+  $('btnNext').style.display = 'none';
+  $('btnConfirm').style.display = 'none';
+  $('btnReset').style.display = 'none';
+
+  const codeBox = $('qCode'); codeBox.innerHTML = '';
+  if(q.code) renderCode(codeBox, q.code, q.t === 'line' ? answerLine : null);
+
+  const body = $('qBody'); body.innerHTML = '';
+  if(q.t === 'mc' || q.t === 'tf'){
+    const order = q.t === 'tf' ? [0,1] : shuffle(q.a.map((_,i)=>i));
+    const wrap = document.createElement('div'); wrap.className = 'opts';
+    order.forEach((ai, n) => {
+      const b = document.createElement('button'); b.className = 'opt'; b.dataset.ai = ai;
+      b.innerHTML = '<span class="k">' + (n+1) + '</span><span class="v">' + fmtAnswer(q.a[ai]) + '</span>';
+      b.addEventListener('click', () => answerMC(ai, b));
+      wrap.appendChild(b);
+    });
+    body.appendChild(wrap);
+  } else if(q.t === 'order'){
+    const slots = document.createElement('div'); slots.className = 'slots'; slots.id = 'slots';
+    q.a.forEach((_, n) => slots.insertAdjacentHTML('beforeend', '<div class="slot"><span class="n">' + (n+1) + '</span><span class="s"></span></div>'));
+    const wrap = document.createElement('div'); wrap.className = 'opts'; wrap.id = 'orderOpts';
+    shuffleOrder(q.a.length).forEach(ai => {
+      const b = document.createElement('button'); b.className = 'opt'; b.dataset.ai = ai;
+      b.innerHTML = '<span class="k">+</span><span class="v">' + esc(q.a[ai]) + '</span>';
+      b.addEventListener('click', () => pickOrder(ai, b));
+      wrap.appendChild(b);
+    });
+    body.appendChild(slots); body.appendChild(wrap);
+    $('btnReset').style.display = '';
+    $('btnConfirm').style.display = '';
+    $('btnConfirm').disabled = true;
+  }
+
+  clearInterval(G.timer);
+  const tw = $('timerWrap');
+  if(G.mode === 'einsatz'){
+    tw.style.display = '';
+    G.tMax = (q.t === 'order' || q.t === 'line' || (q.code && q.code.split('\n').length > 5)) ? 45 : 30;
+    G.tLeft = G.tMax;
+    updTimer();
+    G.timer = setInterval(() => {
+      if(G.paused || G.answered) return;
+      G.tLeft = Math.max(0, G.tLeft - 0.2);
+      updTimer();
+      if(G.tLeft <= 5 && Math.abs(G.tLeft - Math.round(G.tLeft)) < 0.1) SND.tick();
+      if(G.tLeft <= 0) timeout();
+    }, 200);
+  } else tw.style.display = 'none';
+  renderSide();
+}
+function shuffleOrder(n){ let o; do{ o = shuffle([...Array(n).keys()]); }while(o.every((v,i)=>v===i)); return o; }
+
+function updTimer(){
+  const bar = $('timerBar'), pct = G.tLeft / G.tMax * 100;
+  bar.style.width = pct + '%';
+  bar.style.background = G.paused ? 'var(--t)' : pct < 20 ? 'var(--r)' : pct < 50 ? 'var(--y)' : 'var(--o)';
+  bar.classList.toggle('blink', G.paused);
+}
+
+/* ---------- Antworten ---------- */
+function answerMC(ai, btn){
+  if(G.answered) return;
+  const q = G.qs[G.i], ok = ai === q.k;
+  document.querySelectorAll('#qBody .opt').forEach(b => { b.disabled = true; if(+b.dataset.ai === q.k) b.classList.add('ok'); });
+  if(!ok) btn.classList.add('bad');
+  finish(ok, q.a[ai]);
+}
+function answerLine(idx, el){
+  if(!G || G.answered) return;
+  const q = G.qs[G.i], ok = q.k.includes(idx);
+  const lines = document.querySelectorAll('#qCode .ln');
+  q.k.forEach(k => lines[k].classList.add('ok'));
+  if(!ok) el.classList.add('bad');
+  document.querySelector('#qCode pre').classList.remove('pick');
+  finish(ok, 'Zeile ' + (idx+1));
+}
+function pickOrder(ai, btn){
+  if(G.answered) return;
+  SND.tap();
+  G.orderSel.push(ai);
+  btn.classList.add('gone');
+  const slots = document.querySelectorAll('#slots .slot .s');
+  slots[G.orderSel.length-1].textContent = G.qs[G.i].a[ai];
+  slots[G.orderSel.length-1].classList.add('f');
+  $('btnConfirm').disabled = G.orderSel.length !== G.qs[G.i].a.length;
+}
+function resetOrder(){
+  if(G.answered) return;
+  G.orderSel = [];
+  document.querySelectorAll('#slots .s').forEach(s => { s.textContent=''; s.classList.remove('f'); });
+  document.querySelectorAll('#orderOpts .opt').forEach(b => b.classList.remove('gone'));
+  $('btnConfirm').disabled = true;
+}
+function orderSolution(q){ return 'Richtig: ' + q.a.map((t,i)=>(i+1)+'. '+t).join('  '); }
+function confirmOrder(){
+  if(G.answered || G.orderSel.length !== G.qs[G.i].a.length) return;
+  const q = G.qs[G.i];
+  const slots = document.querySelectorAll('#slots .slot');
+  let ok = true;
+  G.orderSel.forEach((ai, pos) => { const r = ai === pos; ok = ok && r; slots[pos].classList.add(r ? 'ok' : 'bad'); });
+  $('btnReset').style.display = 'none'; $('btnConfirm').style.display = 'none';
+  finish(ok, ok ? 'richtige Reihenfolge' : 'falsche Reihenfolge', ok ? '' : orderSolution(q));
+}
+function timeout(){
+  if(G.answered) return;
+  const q = G.qs[G.i];
+  if(q.t === 'mc' || q.t === 'tf') document.querySelectorAll('#qBody .opt').forEach(b => { b.disabled = true; if(+b.dataset.ai === q.k) b.classList.add('ok'); });
+  if(q.t === 'line'){ const lines = document.querySelectorAll('#qCode .ln'); q.k.forEach(k => lines[k].classList.add('ok')); }
+  if(q.t === 'order'){ $('btnReset').style.display='none'; $('btnConfirm').style.display='none'; }
+  finish(false, 'Zeit abgelaufen', q.t === 'order' ? orderSolution(q) : '', true);
+}
+
+function finish(ok, given, extra, isTimeout){
+  G.answered = true;
+  clearInterval(G.timer);
+  const q = G.qs[G.i];
+  let pts = 0;
+  if(ok){
+    G.streak++; G.best = Math.max(G.best, G.streak);
+    const bonus = G.mode === 'einsatz' ? Math.round(50 * G.tLeft / G.tMax) : 0;
+    pts = Math.round((100 + bonus) * mult());
+    G.score += pts;
+    SND.ok(); flash('good'); popup('+' + pts);
+  } else {
+    G.streak = 0;
+    if(G.mode === 'einsatz') G.shields--;
+    SND.bad(); flash('hit');
+    const f = $('frame'); f.classList.remove('shake'); void f.offsetWidth; f.classList.add('shake');
+  }
+  G.log.push({q, ok, given, pts});
+  $('fb').className = 'fb on' + (ok ? '' : ' bad');
+  $('fbH').textContent = ok ? 'Korrekt · +' + pts + ' Punkte' : (isTimeout ? 'Zeit abgelaufen' : 'Fehler') + (G.mode === 'einsatz' ? ' · Schild beschädigt' : '');
+  $('fbP').textContent = q.e + (extra ? '  ' + extra : '');
+  const last = G.i >= G.qs.length - 1 || (G.mode === 'einsatz' && G.shields <= 0);
+  $('btnNext').textContent = last ? 'Auswertung' : 'Weiter';
+  $('btnNext').style.display = '';
+  $('btnNext').focus({preventScroll:true});
+  renderSide();
+}
+function next(){
+  if(!G || !G.answered) return;
+  SND.tap();
+  if(G.i >= G.qs.length - 1 || (G.mode === 'einsatz' && G.shields <= 0)) return endGame();
+  G.i++;
+  renderQ();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+/* ---------- Joker ---------- */
+function useFifty(){
+  if($('jFifty').classList.contains('off')) return;
+  const q = G.qs[G.i];
+  const wrong = shuffle([...document.querySelectorAll('#qBody .opt')].filter(b => +b.dataset.ai !== q.k));
+  wrong.slice(0, Math.min(2, wrong.length - 1)).forEach(b => { b.classList.add('gone'); b.disabled = true; });
+  G.fifty--; SND.joker(); renderSide();
+}
+function useTime(){
+  if($('jTime').classList.contains('off')) return;
+  G.paused = true; G.tstop--; updTimer(); SND.joker(); renderSide();
+}
+
+/* ---------- Effekte ---------- */
+function flash(kind){ const f = $('flash'); f.className = 'flash'; void f.offsetWidth; f.className = 'flash ' + kind; }
+function popup(txt){
+  const r = $('qText').getBoundingClientRect();
+  const p = document.createElement('div'); p.className = 'pop'; p.textContent = txt;
+  p.style.left = (r.left + Math.min(r.width - 120, 260)) + 'px'; p.style.top = (r.top + 10) + 'px';
+  document.body.appendChild(p); setTimeout(() => p.remove(), 1000);
+}
+
+/* ---------- Auswertung ---------- */
+const RANKS = [
+  [90, 'Kommandoebene',      'Hervorragend! Du beherrschst den Stoff sicher.'],
+  [75, 'Führungsoffizier/in','Sehr gut! Nur noch kleine Lücken – schau dir die Fehler im Logbuch an.'],
+  [55, 'Leutnant',           'Gut! Die Grundlagen sitzen. Wiederhole die Sektoren mit kurzen Balken im Archiv.'],
+  [35, 'Fähnrich',           'Ein Anfang ist gemacht. Lies die passenden Lektionen im Archiv und starte neu.'],
+  [0,  'Kadett/in',          'Noch viel Training nötig. Beginne mit den Lektionen im Archiv.']
+];
+function endGame(){
+  clearInterval(G.timer);
+  SND.end();
+  const right = G.log.filter(l => l.ok).length;
+  const pct = Math.round(right / G.qs.length * 100);
+  const rk = RANKS.find(r => pct >= r[0]);
+  const o = G.opts;
+  const aborted = G.mode === 'einsatz' && G.shields <= 0 && G.log.length < G.qs.length;
+  let head = aborted ? 'Schilde ausgefallen – Mission abgebrochen' : 'Mission abgeschlossen';
+  let msg = rk[2];
+
+  if(o.lesson){
+    const passed = right >= Math.ceil(G.qs.length * 2 / 3);
+    head = 'Mini-Check · ' + lessonById(o.lesson).title;
+    if(passed){
+      const done = store('js07_done') || [];
+      if(!done.includes(o.lesson)) store('js07_done', done.concat(o.lesson));
+      msg = 'Bestanden! Die Lektion ist im Archiv als abgeschlossen markiert.';
+    } else msg = 'Noch nicht bestanden – mindestens ' + Math.ceil(G.qs.length * 2 / 3) + ' von ' + G.qs.length + ' müssen richtig sein. Lies die Lektion noch einmal und versuche es erneut.';
+  } else if(o.cat){
+    head = 'Sektor-Training · ' + CATS[o.cat];
+  }
+  $('endHead').textContent = head;
+  $('endRank').textContent = 'Rang · ' + rk[1];
+  $('endRank').style.display = o.lesson ? 'none' : '';
+  $('endMsg').textContent = msg;
+
+  let hsTxt = '';
+  if(!o.cat){
+    const hsKey = 'js07_hs_' + G.mode, hs = store(hsKey) || 0, isNew = G.score > hs;
+    if(isNew) store(hsKey, G.score);
+    hsTxt = stat(isNew ? 'Neuer Rekord!' : 'Rekord (' + (G.mode === 'einsatz' ? 'Einsatz' : 'Training') + ')', isNew ? G.score : hs);
+  }
+  const el = $('endScore'); let cur = 0; const step = Math.max(1, Math.round(G.score / 40));
+  const iv = setInterval(() => { cur = Math.min(G.score, cur + step); el.textContent = cur; if(cur >= G.score) clearInterval(iv); }, 25);
+  $('endStats').innerHTML = stat('Richtig', right + ' / ' + G.qs.length) + stat('Quote', pct + ' %') + stat('Beste Serie', G.best) + hsTxt;
+
+  const cb = $('endCats'); cb.innerHTML = '';
+  Object.keys(CATS).filter(c => G.qs.some(q => q.c === c)).forEach(c => {
+    const all = G.qs.filter(q => q.c === c).length;
+    const r = G.log.filter(l => l.q.c === c && l.ok).length;
+    const w = Math.round(r / all * 100);
+    const les = LESSONS.find(l => l.id === c);
+    cb.insertAdjacentHTML('beforeend', '<div class="cb"><span style="color:' + CATCOL[c] + '">' + CATS[c] + '</span><span class="tr"><i style="width:' + w + '%;background:' + CATCOL[c] + '"></i></span><span>' + r + '/' + all + '</span>' +
+      (les && w < 100 ? '<button class="mini" data-lesson="' + c + '">Lektion</button>' : '<span></span>') + '</div>');
+  });
+  cb.querySelectorAll('[data-lesson]').forEach(b => b.addEventListener('click', () => openLesson(b.dataset.lesson)));
+
+  $('btnAgain').textContent = o.lesson ? 'Mini-Check wiederholen' : o.cat ? 'Nochmal trainieren' : 'Neue Mission';
+  $('btnMenu').textContent = o.lesson || o.cat ? 'Zur Lektion' : 'Zum Briefing';
+
+  const rv = $('endReview'); rv.innerHTML = '';
+  G.log.forEach((l, n) => {
+    rv.insertAdjacentHTML('beforeend',
+      '<div class="rv' + (l.ok ? '' : ' bad') + '"><div class="h">' + String(n+1).padStart(2,'0') + ' · ' + CATS[l.q.c] + ' · ' + (l.ok ? 'korrekt +' + l.pts : 'fehler') + '</div>' +
+      '<p><b>' + esc(l.q.q) + '</b></p>' +
+      (l.ok ? '' : '<p>Deine Antwort: ' + esc(l.given) + (l.q.t === 'mc' || l.q.t === 'tf' ? ' · Richtig: ' + esc(l.q.a[l.q.k]) : '') + '</p>') +
+      '<p class="muted">' + esc(l.q.e) + '</p></div>');
+  });
+  show('scrEnd');
+}
+function stat(l, v){ return '<div class="stat">' + l + '<b>' + v + '</b></div>'; }
+
+/* =====================================================================
+   ARCHIV & LEKTIONEN
+   ===================================================================== */
+function lessonById(id){ return LESSONS.find(l => l.id === id); }
+function openArchiv(){
+  if($('sArchiv').classList.contains('off')) return;
+  SND.tap();
+  clearInterval(G && G.timer);
+  const done = store('js07_done') || [];
+  const box = $('archivList'); box.innerHTML = '';
+  LESSONS.forEach((l, n) => {
+    const b = document.createElement('button'); b.className = 'lcard';
+    b.style.borderColor = CATCOL[l.id];
+    const isDone = done.includes(l.id);
+    b.innerHTML = '<span class="no" style="background:' + CATCOL[l.id] + '">' + String(n+1).padStart(2,'0') + '</span>' +
+      '<span class="tx"><b>' + l.title + '</b><span>' + l.kurz + '</span></span>' +
+      '<span class="st' + (isDone ? ' ok' : '') + '">' + (isDone ? 'Abgeschlossen' : 'Offen') + '</span>';
+    b.addEventListener('click', () => openLesson(l.id));
+    box.appendChild(b);
+  });
+  $('archivInfo').textContent = done.length + ' von ' + LESSONS.length + ' Lektionen abgeschlossen. Jede Lektion endet mit einem Mini-Check aus 3 Aufgaben – mit 2 richtigen ist sie bestanden.';
+  show('scrArchiv');
+}
+function openLesson(id){
+  SND.tap();
+  const l = lessonById(id); curLesson = id;
+  const n = LESSONS.indexOf(l);
+  const done = (store('js07_done') || []).includes(id);
+  $('lesHead').textContent = 'Lektion ' + String(n+1).padStart(2,'0') + ' · ' + l.title;
+  $('lesHead').style.color = CATCOL[id];
+  $('lesState').textContent = done ? 'Abgeschlossen' : 'Offen';
+  $('lesState').className = 'lstate' + (done ? ' ok' : '');
+  const box = $('lesBody'); box.innerHTML = '';
+  box.insertAdjacentHTML('beforeend', '<p class="lintro">' + l.intro + '</p>');
+  l.parts.forEach(pt => {
+    const sec = document.createElement('div'); sec.className = 'part';
+    sec.insertAdjacentHTML('beforeend', '<h3>' + pt.h + '</h3>');
+    if(pt.p) sec.insertAdjacentHTML('beforeend', '<p>' + pt.p + '</p>');
+    if(pt.html) sec.insertAdjacentHTML('beforeend', '<div class="scroll">' + pt.html + '</div>');
+    if(pt.code) renderCode(sec, pt.code, null);
+    if(pt.out) sec.insertAdjacentHTML('beforeend', '<div class="outbox"><span>Konsole</span>' + esc(pt.out) + '</div>');
+    if(pt.trace){
+      let t = '<div class="scroll"><table class="trace"><tr>' + pt.trace.head.map(h => '<th>' + esc(h) + '</th>').join('') + '</tr>';
+      pt.trace.rows.forEach(r => { t += '<tr' + (/falsch/.test(r[2]) ? ' class="end"' : '') + '>' + r.map(c => '<td>' + esc(c) + '</td>').join('') + '</tr>'; });
+      sec.insertAdjacentHTML('beforeend', '<h3 class="sm">Schritt für Schritt</h3>' + t + '</table></div>');
+    }
+    box.appendChild(sec);
+  });
+  box.insertAdjacentHTML('beforeend', '<div class="merke"><h3>Merke</h3><ul>' + l.merke.map(m => '<li>' + m + '</li>').join('') + '</ul></div>');
+  box.insertAdjacentHTML('beforeend', '<div class="merke warn"><h3>Typische Fehler</h3><ul>' + l.fehler.map(m => '<li>' + m + '</li>').join('') + '</ul></div>');
+  $('lesPrev').disabled = n === 0;
+  $('lesNext').disabled = n === LESSONS.length - 1;
+  $('lesTrainN').textContent = POOL.filter(q => q.c === id).length;
+  show('scrLesson');
+}
+
+/* =====================================================================
+   EREIGNISSE
+   ===================================================================== */
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.mode').forEach(m => m.addEventListener('click', () => {
+    mode = m.dataset.mode; SND.tap();
+    document.querySelectorAll('.mode').forEach(x => x.classList.toggle('sel', x === m));
+    renderSide(); showHS();
+  }));
+  $('btnStart').addEventListener('click', () => startGame());
+  $('btnArchiv').addEventListener('click', openArchiv);
+  $('btnAgain').addEventListener('click', () => startGame(G && G.opts));
+  $('btnMenu').addEventListener('click', () => {
+    const o = G && G.opts;
+    if(o && (o.lesson || o.cat)) openLesson(o.lesson || o.cat);
+    else { SND.tap(); G = null; show('scrStart'); showHS(); }
+  });
+  $('btnNext').addEventListener('click', next);
+  $('btnConfirm').addEventListener('click', confirmOrder);
+  $('btnReset').addEventListener('click', () => { SND.tap(); resetOrder(); });
+  $('jFifty').addEventListener('click', useFifty);
+  $('jTime').addEventListener('click', useTime);
+  $('sArchiv').addEventListener('click', openArchiv);
+  $('sSound').addEventListener('click', () => { soundOn = !soundOn; store('js07_sound', soundOn); renderSide(); SND.tap(); });
+  $('lesCheck').addEventListener('click', () => startGame({cat: curLesson, n: 3, lesson: curLesson}));
+  $('lesTrain').addEventListener('click', () => startGame({cat: curLesson, n: 8}));
+  $('lesBack').addEventListener('click', openArchiv);
+  $('lesPrev').addEventListener('click', () => openLesson(LESSONS[LESSONS.indexOf(lessonById(curLesson)) - 1].id));
+  $('lesNext').addEventListener('click', () => openLesson(LESSONS[LESSONS.indexOf(lessonById(curLesson)) + 1].id));
+  $('arBack').addEventListener('click', () => { SND.tap(); G = null; show('scrStart'); showHS(); });
+
+  document.addEventListener('keydown', e => {
+    if(!G || !$('scrQ').classList.contains('on')) return;
+    if(e.key === 'Enter' && G.answered){ e.preventDefault(); next(); return; }
+    const n = parseInt(e.key, 10);
+    if(n >= 1 && n <= 5 && !G.answered){
+      const b = document.querySelectorAll('#qBody .opt')[n-1];
+      if(b && !b.classList.contains('gone') && !b.disabled) b.click();
+    }
+  });
+
+  $('poolInfo').textContent = 'POOL ' + POOL.length;
+  $('poolCount').textContent = POOL.length;
+  $('sysno').textContent = String(Math.floor(Math.random()*90)+10) + '-' + String(Math.floor(Math.random()*9000)+1000);
+  setInterval(() => { $('clock').textContent = new Date().toTimeString().slice(0,8); }, 1000);
+  renderSide(); showHS();
+});
+
+function showHS(){
+  const t = store('js07_hs_training') || 0, e = store('js07_hs_einsatz') || 0;
+  $('hsLine').textContent = (t || e) ? 'Rekorde auf diesem Gerät – Training: ' + t + ' · Einsatz: ' + e : '';
+}
+
+</script>
+</body>
+</html>
