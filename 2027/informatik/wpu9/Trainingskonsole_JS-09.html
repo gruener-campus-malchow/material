@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trainingskonsole JS-09.3 · JavaScript &amp; Events</title>
+<title>Trainingskonsole JS-09.4 · JavaScript &amp; Events</title>
 <style>
   :root{
     --bg:#000;
@@ -278,6 +278,17 @@
   .flock{position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:20px;background:rgba(6,6,12,.82)}
   .flock h3{color:var(--r);font-size:22px}
   .flock p{max-width:420px}
+  #fDrone{color:#888}
+  #fDrone.on{color:var(--b)}
+  .pill.off{background:#444;color:#ccc}
+  .drone{position:absolute;left:0;top:0;width:34px;height:24px;z-index:3;pointer-events:none;will-change:transform;transition:opacity .4s;filter:drop-shadow(0 0 4px rgba(153,153,255,.7))}
+  .drone svg{width:100%;height:100%;display:block}
+  .drone.idle{opacity:.45;filter:none}
+  .drone.idle .eye{fill:#555}
+  .drone.ping .eye{animation:eye .4s}
+  @keyframes eye{0%{fill:#fff}100%{fill:#99ccff}}
+  .beam{position:absolute;height:2px;transform-origin:0 50%;z-index:2;pointer-events:none;background:linear-gradient(90deg,rgba(153,204,255,.95),rgba(153,153,255,.2));box-shadow:0 0 6px #99ccff;animation:beam .45s forwards}
+  @keyframes beam{0%{opacity:0}20%{opacity:1}100%{opacity:0}}
   .fres{position:absolute;inset:0;margin:auto;width:min(90%,360px);height:fit-content;background:rgba(10,8,20,.94);border:3px solid var(--o);border-radius:0 26px 26px 0;padding:16px 20px;z-index:5;text-align:center}
   .fres h3{color:var(--o)}
   .fres b{color:var(--y);font-size:24px;font-weight:500}
@@ -331,7 +342,7 @@
   <div class="bars">
     <div class="seg grow" style="background:var(--l)"></div>
     <div class="title"><span class="hide-s">Trainingskonsole · </span>JavaScript &amp; Events</div>
-    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.3</div>
+    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.4</div>
     <div class="seg hide-s" style="background:var(--p);width:44px"></div>
     <div class="cap" style="background:var(--b)"></div>
   </div>
@@ -378,7 +389,7 @@
       <h3>Spielregeln</h3>
       <p class="muted">Richtige Antwort: 100 Punkte. Serien-Multiplikator: ab 3 richtigen in Folge ×1,5, ab 5 ×2. Im Einsatz gibt es bis zu 50 Bonuspunkte für schnelle Antworten. Joker: <b>Analyse</b> blendet zwei falsche Antworten aus (2×), <b>Zeitstopp</b> hält die Zeit an (1×). Tastatur: <span class="kbd">1</span>–<span class="kbd">5</span> wählen, <span class="kbd">Enter</span> weiter.</p>
       <p id="hsLine" class="muted"></p>
-      <p class="muted" id="verLine">Version JS-09.3</p>
+      <p class="muted" id="verLine">Version JS-09.4</p>
       <div class="row" style="margin-top:16px">
         <button class="pill" id="btnStart">Mission starten</button>
         <button class="pill l" id="btnArchiv">Lektionen</button>
@@ -400,13 +411,14 @@
         <div class="stat">Rekord-Lauf<b id="gBest">0</b></div>
       </div>
       <div class="field" id="field">
-        <div class="fhud"><span id="fEnergie">Energie</span><span id="fTime">Freies Scannen</span><span class="chg" id="fCharges"></span><span id="fCombo"></span><span id="fRun"></span></div>
+        <div class="fhud"><span id="fEnergie">Energie</span><span id="fTime">Freies Scannen</span><span class="chg" id="fCharges"></span><span id="fCombo"></span><span id="fDrone"></span><span id="fRun"></span></div>
         <div id="fMsg"></div>
         <div class="flock" id="flock" style="display:none"><h3>Scan-Energie leer</h3><p>Neue Scans verdienst du im Einsatz oder in den Lektionstests: 10 pro richtiger Antwort.</p><button class="pill" id="gEinsatz">Einsatz starten</button></div>
       </div>
       <div class="row" style="margin:12px 0 18px">
         <button class="pill" id="gRun">Scan-Lauf starten (60 s)</button>
         <button class="pill l" id="gReload">Nachladen</button>
+        <button class="pill b" id="gDrone">Drohnen</button>
         <button class="pill t" id="gEinsatz2">Energie im Einsatz verdienen</button>
         <span class="muted">Nachladen auch mit Leertaste oder Rechtsklick.</span>
       </div>
@@ -478,7 +490,7 @@
   </main>
 
   <!-- unten -->
-  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.3</span></div>
+  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.4</span></div>
   <div class="bars bottom">
     <div class="seg" style="background:var(--b);width:120px" id="poolInfo">POOL</div>
     <div class="seg grow" style="background:var(--o)"></div>
@@ -961,7 +973,7 @@ const LESSONS = [
 /* =====================================================================
    SPIEL-LOGIK
    ===================================================================== */
-const VERSION = 'JS-09.3';
+const VERSION = 'JS-09.4';
 const CATS = {web:'Webtechnologien', evt:'Events', lis:'EventListener', zuo:'Prinzipien erkennen', var:'Variable', bef:'Befehl', ver:'Verzweigung', sch:'Schleife', fun:'Funktion'};
 const CATCOL = {web:'var(--p)', evt:'var(--o)', lis:'var(--l)', zuo:'var(--g)', var:'var(--t)', bef:'var(--y)', ver:'var(--b)', sch:'var(--r)', fun:'var(--l)'};
 const COMP = {web:1, evt:1, lis:1, zuo:2, var:1, bef:1, ver:1, sch:1, fun:1};   // 10 nach Sektoren …
@@ -1530,7 +1542,7 @@ const UPG = [
   {id:'verst',    name:'Scan-Verstärker', desc:'+1 Daten pro Scan',                              base:15, f:1.6,  max:60},
   {id:'zellen',   name:'Energiezellen',   desc:'+2 Ladungen im Scanner',                         base:25, f:1.8,  max:10},
   {id:'ladung',   name:'Schnellladung',   desc:'Ladungen füllen sich schneller nach',            base:30, f:1.9,  max:8},
-  {id:'drohne',   name:'Sensordrohne',    desc:'+0,5 Daten pro Sekunde ohne Klicken, verbraucht 1 Energie pro 10 s', base:40, f:1.45, max:99},
+  {id:'drohne',   name:'Sensordrohne',    desc:'+0,5 Daten pro Sekunde ohne Klicken, verbraucht 1 Energie pro 10 s. Startet sofort, Schalter unter dem Feld.', base:40, f:1.45, max:99},
   {id:'ziel',     name:'Zielerfassung',   desc:'Asteroiden fliegen langsamer und sind größer',   base:60, f:2,    max:5},
   {id:'kristall', name:'Kristalldetektor',desc:'Seltene Kristalle tauchen häufiger auf',         base:80, f:2.2,  max:5}
 ];
@@ -1543,7 +1555,8 @@ const KINDS = {
   kristall:{r:20, v:210, val:15, w:0}
 };
 const AST = {
-  s: Object.assign({daten:0, total:0, scans:0, best:0, lv:{}, energie:EN_START}, store('js07_ast') || {}),
+  s: Object.assign({daten:0, total:0, scans:0, best:0, lv:{}, energie:EN_START, droneOn:true}, store('js07_ast') || {}),
+  drones: [],
   asts: [], active: false, running: false, runEnd: 0, runData: 0, runHits: 0, combo: 0, lastHit: 0,
   charges: 0, lastCharge: 0, nextSpawn: 0, raf: 0, last: 0, reloadUntil: 0, saveT: 0,
 
@@ -1557,6 +1570,67 @@ const AST = {
   add(n){ this.s.daten += n; this.s.total += n; this.save(); this.ui(); },
   addEnergy(n){ this.s.energie = (this.s.energie || 0) + n; this.save(); this.ui(); },
   hasEnergy(){ return this.s.energie >= 1; },
+  dronesWork(){ const n = this.lv('drohne'); return this.active && n > 0 && this.s.droneOn !== false && this.s.energie >= DRONE_USE * n; },
+
+  /* ---------- sichtbare Drohnen ---------- */
+  syncDrones(){
+    const want = Math.min(8, this.lv('drohne'));            // höchstens 8 sichtbar, auch wenn mehr gekauft sind
+    while(this.drones.length < want){
+      const el = document.createElement('div'); el.className = 'drone';
+      el.innerHTML = '<svg viewBox="0 0 40 28"><rect x="1" y="11" width="11" height="6" rx="3" fill="#9999ff"/><rect x="28" y="11" width="11" height="6" rx="3" fill="#9999ff"/><ellipse cx="20" cy="14" rx="10" ry="8" fill="#cc99cc" stroke="#ffcc99" stroke-width="1.5"/><circle class="eye" cx="20" cy="14" r="3.4" fill="#99ccff"/></svg>';
+      const W = this.W(), H = this.H();
+      const d = {el, x: Math.random() * W, y: 50 + Math.random() * (H - 80), tx: 0, ty: 0, ph: Math.random() * 6};
+      this.newTarget(d);
+      this.field.appendChild(el); this.drones.push(d);
+    }
+    while(this.drones.length > want) this.drones.pop().el.remove();
+    this.uiDrone();
+  },
+  newTarget(d){ d.tx = 30 + Math.random() * (this.W() - 60); d.ty = 50 + Math.random() * (this.H() - 90); },
+  moveDrones(t, dt){
+    const work = this.dronesWork(), W = this.W(), H = this.H();
+    this.drones.forEach((d, i) => {
+      let tx = d.tx, ty = d.ty;
+      if(!work){ tx = W - 30 - i * 34; ty = H - 22; }          // geparkt am unteren Rand
+      d.x += (tx - d.x) * Math.min(1, dt * (work ? 0.9 : 2.5));
+      d.y += (ty - d.y) * Math.min(1, dt * (work ? 0.9 : 2.5));
+      if(work && Math.hypot(tx - d.x, ty - d.y) < 12) this.newTarget(d);
+      const bob = work ? Math.sin(t / 300 + d.ph) * 4 : 0;
+      d.el.style.transform = 'translate(' + (d.x - 17) + 'px,' + (d.y - 12 + bob) + 'px)';
+      d.el.classList.toggle('idle', !work);
+    });
+  },
+  droneBeams(){
+    const live = this.asts.filter(a => !a.dead);
+    this.drones.forEach((d, i) => {
+      if(!live.length) return;
+      const a = live[Math.floor(Math.random() * live.length)];
+      setTimeout(() => {   // leicht versetzt, damit nicht alle gleichzeitig feuern
+        if(a.dead || !this.active) return;
+        const dx = a.x - d.x, dy = a.y - d.y, len = Math.hypot(dx, dy);
+        const b = document.createElement('div'); b.className = 'beam';
+        b.style.left = d.x + 'px'; b.style.top = d.y + 'px'; b.style.width = len + 'px';
+        b.style.transform = 'rotate(' + Math.atan2(dy, dx) + 'rad)';
+        this.field.appendChild(b); setTimeout(() => b.remove(), 450);
+        d.el.classList.remove('ping'); void d.el.offsetWidth; d.el.classList.add('ping');
+      }, i * 110);
+    });
+  },
+  toggleDrones(){
+    if(!this.lv('drohne')) return;
+    this.s.droneOn = this.s.droneOn === false;
+    SND.tap(); this.save(); this.ui();
+    this.msg(this.s.droneOn ? 'Drohnen gestartet' : 'Drohnen gestoppt – Energie wird gespart');
+  },
+  uiDrone(){
+    const n = this.lv('drohne'), b = $('gDrone'); if(!b) return;
+    b.disabled = n === 0;
+    b.textContent = n === 0 ? 'Drohnen: noch keine gekauft' : 'Drohnen (' + n + '): ' + (this.s.droneOn === false ? 'aus' : 'an');
+    b.classList.toggle('off', this.s.droneOn === false);
+    const st = $('fDrone');
+    st.textContent = n === 0 ? '' : this.dronesWork() ? 'Drohnen aktiv' : this.s.droneOn === false ? 'Drohnen aus' : 'Drohnen: zu wenig Energie';
+    st.className = this.dronesWork() ? 'on' : '';
+  },
   comboMul(){ return Math.min(3, 1 + Math.floor(this.combo / 5) * 0.5); },
 
   init(){
@@ -1571,11 +1645,12 @@ const AST = {
     });
     this.field.addEventListener('contextmenu', e => { e.preventDefault(); this.reload(); });
     $('gRun').addEventListener('click', () => this.startRun());
+    $('gDrone').addEventListener('click', () => this.toggleDrones());
     $('gReload').addEventListener('click', () => this.reload());
     $('gBack').addEventListener('click', () => { SND.tap(); G = null; show('scrStart'); showHS(); });
     setInterval(() => {   // Drohnen arbeiten nur bei geöffnetem Scan-Feld und verbrauchen Energie
       const ps = this.perSec(), use = DRONE_USE * this.lv('drohne');
-      if(this.active && ps > 0 && this.s.energie >= use){ this.s.daten += ps; this.s.total += ps; this.s.energie -= use; }
+      if(this.dronesWork()){ this.s.daten += ps; this.s.total += ps; this.s.energie -= use; this.droneBeams(); }
       if(++this.saveT % 5 === 0) this.save();
       this.ui();
     }, 1000);
@@ -1586,7 +1661,7 @@ const AST = {
     if(this.active) return;
     this.active = true; this.last = performance.now(); this.lastCharge = this.last;
     this.raf = requestAnimationFrame(t => this.loop(t));
-    this.renderShop(); this.ui();
+    this.renderShop(); this.syncDrones(); this.ui();
   },
   close(){
     if(!this.active) return;
@@ -1731,6 +1806,7 @@ const AST = {
       a.el.style.transform = 'translate(' + (a.x - a.r) + 'px,' + (a.y - a.r) + 'px) scale(' + sc.toFixed(3) + ') rotate(' + a.rot + 'deg)';
       return true;
     });
+    this.moveDrones(t, dt);
     if(this.combo && t - this.lastHit > 1500){ this.combo = 0; this.uiHud(); }
     if(this.running){
       const left = Math.max(0, this.runEnd - t);
@@ -1753,6 +1829,7 @@ const AST = {
     if(this.s.daten < c || this.lv(id) >= u.max) return;
     this.s.daten -= c; this.s.lv[id] = this.lv(id) + 1;
     if(id === 'zellen') this.charges += 2;
+    if(id === 'drohne') this.syncDrones();
     SND.joker(); this.save(); this.renderShop(); this.ui();
   },
   uiCharges(){
@@ -1781,7 +1858,7 @@ const AST = {
     $('gSec').textContent = String(this.perSec()).replace('.', ',');
     $('gScans').textContent = fmtNum(this.s.scans);
     $('gBest').textContent = fmtNum(this.s.best);
-    this.uiCharges(); this.uiHud();
+    this.uiCharges(); this.uiHud(); this.uiDrone();
     $('shop').querySelectorAll('.upg').forEach(b => {
       const u = UPG.find(x => x.id === b.dataset.u);
       b.disabled = this.lv(u.id) >= u.max || this.s.daten < this.cost(u);
