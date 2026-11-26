@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Trainingskonsole JS-09.4 · JavaScript &amp; Events</title>
+<title>Trainingskonsole JS-09.5 · JavaScript &amp; Events</title>
 <style>
   :root{
     --bg:#000;
@@ -342,7 +342,7 @@
   <div class="bars">
     <div class="seg grow" style="background:var(--l)"></div>
     <div class="title"><span class="hide-s">Trainingskonsole · </span>JavaScript &amp; Events</div>
-    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.4</div>
+    <div class="seg hide-s" style="background:var(--o);width:90px" id="verTop">JS-09.5</div>
     <div class="seg hide-s" style="background:var(--p);width:44px"></div>
     <div class="cap" style="background:var(--b)"></div>
   </div>
@@ -389,7 +389,7 @@
       <h3>Spielregeln</h3>
       <p class="muted">Richtige Antwort: 100 Punkte. Serien-Multiplikator: ab 3 richtigen in Folge ×1,5, ab 5 ×2. Im Einsatz gibt es bis zu 50 Bonuspunkte für schnelle Antworten. Joker: <b>Analyse</b> blendet zwei falsche Antworten aus (2×), <b>Zeitstopp</b> hält die Zeit an (1×). Tastatur: <span class="kbd">1</span>–<span class="kbd">5</span> wählen, <span class="kbd">Enter</span> weiter.</p>
       <p id="hsLine" class="muted"></p>
-      <p class="muted" id="verLine">Version JS-09.4</p>
+      <p class="muted" id="verLine">Version JS-09.5</p>
       <div class="row" style="margin-top:16px">
         <button class="pill" id="btnStart">Mission starten</button>
         <button class="pill l" id="btnArchiv">Lektionen</button>
@@ -490,7 +490,7 @@
   </main>
 
   <!-- unten -->
-  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.4</span></div>
+  <div class="elbow bl"><span class="lbl" id="verElbow">JS-09.5</span></div>
   <div class="bars bottom">
     <div class="seg" style="background:var(--b);width:120px" id="poolInfo">POOL</div>
     <div class="seg grow" style="background:var(--o)"></div>
@@ -973,7 +973,7 @@ const LESSONS = [
 /* =====================================================================
    SPIEL-LOGIK
    ===================================================================== */
-const VERSION = 'JS-09.4';
+const VERSION = 'JS-09.5';
 const CATS = {web:'Webtechnologien', evt:'Events', lis:'EventListener', zuo:'Prinzipien erkennen', var:'Variable', bef:'Befehl', ver:'Verzweigung', sch:'Schleife', fun:'Funktion'};
 const CATCOL = {web:'var(--p)', evt:'var(--o)', lis:'var(--l)', zuo:'var(--g)', var:'var(--t)', bef:'var(--y)', ver:'var(--b)', sch:'var(--r)', fun:'var(--l)'};
 const COMP = {web:1, evt:1, lis:1, zuo:2, var:1, bef:1, ver:1, sch:1, fun:1};   // 10 nach Sektoren …
@@ -1776,8 +1776,9 @@ const AST = {
     this.save();
     if(!this.active) return;
     SND.end();
-    this.field.insertAdjacentHTML('beforeend', '<div class="fres"><h3>Scan-Lauf beendet</h3><p><b>+' + fmtNum(this.runData) + '</b> Daten · ' + this.runHits + ' Treffer</p><p>' + (rec ? 'Neuer Rekord!' : 'Rekord: ' + fmtNum(this.s.best)) + '</p><button class="pill" id="fAgain">Noch ein Lauf</button></div>');
+    this.field.insertAdjacentHTML('beforeend', '<div class="fres"><h3>Scan-Lauf beendet</h3><p><b>+' + fmtNum(this.runData) + '</b> Daten · ' + this.runHits + ' Treffer</p><p>' + (rec ? 'Neuer Rekord!' : 'Rekord: ' + fmtNum(this.s.best)) + '</p><div class="row" style="justify-content:center"><button class="pill" id="fAgain">Noch ein Lauf</button><button class="pill l" id="fFree">Freies Scannen</button></div></div>');
     $('fAgain').addEventListener('click', () => this.startRun());
+    $('fFree').addEventListener('click', () => { SND.tap(); const r = this.field.querySelector('.fres'); if(r) r.remove(); this.ui(); });
     this.ui();
   },
   loop(t){
