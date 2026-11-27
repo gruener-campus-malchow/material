@@ -9,7 +9,7 @@ QR-Code-Fange
 Gestalte eine oder mehrere Spielkarten und drucke ein Deck für ein besonderes Trumpfspiel.
 
 - Frontend ist fertig
-- Backen ist fertig
+- Backend ist fertig
 - Backend muss getestet werden
 
 ## Desinfection Bot
@@ -36,9 +36,17 @@ Ein Roboter zum Reinigen der Matte...
 
 ## Switch the Mega-Tablet
 
+# Talks
+
+## Datenabfrage und -analyse
+
+## Nachhaltige Flugreisen
+
 # Konsum
 
 ## Film: War Games
+
+## Gambling
 
 # Räume
 
@@ -46,3 +54,13 @@ Ein Roboter zum Reinigen der Matte...
 - Catering: 3.204
 - Ruhe: ???? wer braucht das schon ???
 
+# Schedule
+
+|Zeit|Aktion|Ort|
+|---|---|---|
+|20:00| Switch Mega-Tablet | 3.302|
+|21:00| Turmbau, Puzzle, Gambling| 3.205 |
+|21:00| Talks | 3.207 |
+|22:00| Minecraft-Modding| 3.209 |
+|23:00| Sternzeit-Spiel | 3.206 |
+|24:00| Filmzeit | 3.207 |
